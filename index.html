@@ -1,0 +1,1847 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tennis Markov — Match Simulator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #fafaf6;
+    --paper-2: #f0f1ea;
+    --paper-dark: #e3e5d9;
+    --ink: #1a1c18;
+    --ink-2: #35382f;
+    --mute: #7b7e72;
+    --mute-2: #b3b6a8;
+    --rule: #d5d8ca;
+    --rule-soft: #e4e6da;
+    --clay: #c55d3a;
+    --clay-dark: #a94a2b;
+    --clay-tint: rgba(197, 93, 58, 0.10);
+    --blue: #2e5f8e;
+    --blue-dark: #214a72;
+    --blue-tint: rgba(46, 95, 142, 0.10);
+    --court: #3f6b36;
+    --court-dark: #244a1d;
+    --ball: #d4e12a;
+    --serif: 'Fraunces', 'Times New Roman', Georgia, serif;
+    --sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --mono: 'JetBrains Mono', 'IBM Plex Mono', Menlo, monospace;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 15px;
+    line-height: 1.45;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  .page {
+    position: relative;
+    z-index: 2;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 44px 56px 96px;
+  }
+
+  /* ========================================================= MASTHEAD */
+  .masthead {
+    text-align: center;
+    padding: 16px 0 32px;
+    border-bottom: 1px solid var(--court);
+    margin-bottom: 36px;
+    position: relative;
+  }
+  .masthead::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    background: var(--ball);
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px var(--paper);
+  }
+
+  .title {
+    font-family: var(--serif);
+    font-weight: 700;
+    font-variation-settings: "opsz" 96;
+    font-size: clamp(42px, 7vw, 82px);
+    line-height: 0.95;
+    letter-spacing: -0.025em;
+    color: var(--ink);
+  }
+  .title em {
+    font-style: italic;
+    font-weight: 400;
+    color: var(--court);
+  }
+
+  .deck {
+    font-family: var(--sans);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.55;
+    color: var(--mute);
+    max-width: 560px;
+    margin: 14px auto 0;
+    letter-spacing: 0.005em;
+  }
+
+  .masthead-date {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--mute);
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-feature-settings: "tnum";
+  }
+
+  .view-nav {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .view-nav a {
+    font-family: var(--sans);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--mute);
+    text-decoration: none;
+    padding: 6px 18px;
+    position: relative;
+    transition: color 0.15s;
+  }
+  .view-nav a:hover { color: var(--ink); }
+  .view-nav a.active { color: var(--ink); font-weight: 700; }
+  .view-nav a.active::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -4px;
+    transform: translateX(-50%);
+    width: 5px;
+    height: 5px;
+    background: var(--ball);
+    border-radius: 50%;
+  }
+  .view-nav a + a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 11px;
+    background: var(--rule);
+  }
+
+  .tour-switch {
+    display: inline-flex;
+    align-items: center;
+    gap: 0;
+    margin-top: 14px;
+    padding: 4px 0;
+  }
+  .tour-opt {
+    background: transparent;
+    border: none;
+    padding: 6px 22px;
+    font-family: var(--sans);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: var(--mute);
+    cursor: pointer;
+    position: relative;
+    transition: color 0.15s;
+  }
+  .tour-opt:hover { color: var(--ink); }
+  .tour-opt.active { color: var(--ink); font-weight: 700; }
+  .tour-opt + .tour-opt::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 10px;
+    background: var(--rule);
+  }
+
+  /* ========================================================= MATCHUP */
+  .matchup {
+    padding: 48px 0 28px;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 44px;
+  }
+
+  .card-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    font-family: var(--sans);
+    font-size: 10px;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: var(--mute);
+    font-weight: 600;
+    margin-bottom: 22px;
+  }
+  .card-label::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: var(--ball);
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .matchup-grid {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 24px;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+
+  .player-card {
+    text-align: center;
+    position: relative;
+  }
+  .player-card.a { color: var(--clay-dark); }
+  .player-card.b { color: var(--blue-dark); }
+
+  .player-role {
+    font-family: var(--sans);
+    font-size: 10px;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px;
+    opacity: 0.78;
+  }
+
+  .player-select {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-variation-settings: "opsz" 72;
+    font-size: clamp(24px, 3.2vw, 36px);
+    line-height: 1;
+    letter-spacing: -0.02em;
+    background: transparent;
+    border: none;
+    border-bottom: 1.5px solid currentColor;
+    color: inherit;
+    padding: 4px 26px 8px 4px;
+    cursor: pointer;
+    text-align: center;
+    text-align-last: center;
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'><path d='M1 1l4 4 4-4' stroke='%23444' stroke-width='1.2' fill='none' stroke-linecap='round'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 4px center;
+    background-size: 10px;
+    max-width: 100%;
+  }
+  .player-select:hover { opacity: 0.82; }
+  .player-select:focus { border-bottom-color: var(--ink); }
+
+  .prob-big {
+    font-family: var(--serif);
+    font-weight: 700;
+    font-variation-settings: "opsz" 144;
+    font-size: clamp(72px, 12vw, 140px);
+    line-height: 0.92;
+    letter-spacing: -0.048em;
+    margin: 20px 0 6px;
+    font-feature-settings: "tnum", "lnum";
+    color: currentColor;
+  }
+  .prob-big .pct {
+    font-family: var(--sans);
+    font-weight: 500;
+    font-size: 0.3em;
+    letter-spacing: 0.02em;
+    margin-left: 0.08em;
+    vertical-align: top;
+    opacity: 0.55;
+    position: relative;
+    top: 0.5em;
+  }
+
+  .odds {
+    font-family: var(--mono);
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    color: var(--mute);
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .odds::before {
+    content: 'FAIR';
+    font-family: var(--sans);
+    font-size: 9px;
+    letter-spacing: 0.28em;
+    font-weight: 700;
+    opacity: 0.55;
+  }
+
+  .vs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    padding: 0 6px;
+  }
+
+  .swap {
+    background: transparent;
+    border: 1px solid var(--court);
+    color: var(--court);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.35s cubic-bezier(.2,.8,.2,1), background 0.2s, color 0.2s;
+    font-family: var(--mono);
+  }
+  .swap:hover {
+    background: var(--court);
+    color: var(--paper);
+    transform: rotate(180deg);
+  }
+
+  .vs-label {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 1;
+    color: var(--mute);
+    font-variation-settings: "opsz" 48;
+  }
+
+  .winbar {
+    display: flex;
+    height: 8px;
+    border: 1px solid var(--rule);
+    background: var(--paper-2);
+    overflow: hidden;
+    margin-top: 6px;
+    border-radius: 1px;
+  }
+  .winbar-a { background: var(--clay); transition: width 0.45s cubic-bezier(.2,.8,.2,1); }
+  .winbar-b { background: var(--blue); transition: width 0.45s cubic-bezier(.2,.8,.2,1); }
+
+  .winbar-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    font-family: var(--mono);
+    font-size: 11.5px;
+    letter-spacing: 0.08em;
+    font-feature-settings: "tnum";
+  }
+  .winbar-labels .lab-a { color: var(--clay-dark); font-weight: 600; }
+  .winbar-labels .lab-b { color: var(--blue-dark); font-weight: 600; }
+
+  /* ========================================================= SPREAD */
+  .spread {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 56px;
+    align-items: start;
+  }
+
+  /* SECTION HEADERS */
+  .sec-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--court);
+    margin-bottom: 22px;
+  }
+  .sec-head::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: var(--ball);
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .sec-num { display: none; }
+  .sec-title {
+    font-family: var(--sans);
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--ink);
+  }
+
+  /* CONTROLS */
+  .controls-panel { position: sticky; top: 28px; }
+
+  .control { margin-bottom: 28px; }
+
+  .control-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: var(--sans);
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--ink);
+    margin-bottom: 10px;
+  }
+  .control-label .aside {
+    font-size: 11px;
+    letter-spacing: 0.02em;
+    color: var(--mute);
+    font-weight: 400;
+    text-transform: none;
+    font-style: italic;
+    font-family: var(--serif);
+    font-variation-settings: "opsz" 12;
+  }
+
+  .chips {
+    display: flex;
+    border: 1px solid var(--rule);
+    background: var(--paper);
+  }
+  .chip {
+    flex: 1;
+    min-width: 0;
+    background: transparent;
+    border: none;
+    border-right: 1px solid var(--rule);
+    padding: 10px 4px;
+    font-family: var(--sans);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink-2);
+    cursor: pointer;
+    transition: background 0.12s, color 0.12s;
+  }
+  .chip:last-child { border-right: none; }
+  .chip:hover { background: var(--paper-2); color: var(--ink); }
+  .chip.active { background: var(--court); color: var(--paper); font-weight: 700; }
+
+  .slider-row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 14px;
+    align-items: center;
+  }
+  input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    background: transparent;
+    cursor: pointer;
+    height: 18px;
+  }
+  input[type="range"]::-webkit-slider-runnable-track {
+    height: 1px;
+    background: var(--rule);
+  }
+  input[type="range"]::-moz-range-track {
+    height: 1px;
+    background: var(--rule);
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    background: var(--paper);
+    border: 1.5px solid var(--court);
+    border-radius: 50%;
+    margin-top: -6.5px;
+    transition: background 0.18s, transform 0.18s, border-color 0.18s;
+  }
+  input[type="range"]::-moz-range-thumb {
+    width: 14px;
+    height: 14px;
+    background: var(--paper);
+    border: 1.5px solid var(--court);
+    border-radius: 50%;
+    transition: background 0.18s, transform 0.18s, border-color 0.18s;
+  }
+  input[type="range"]:hover::-webkit-slider-thumb,
+  input[type="range"]:active::-webkit-slider-thumb {
+    background: var(--ball);
+    border-color: var(--court-dark);
+    transform: scale(1.2);
+  }
+  input[type="range"]:hover::-moz-range-thumb,
+  input[type="range"]:active::-moz-range-thumb {
+    background: var(--ball);
+    border-color: var(--court-dark);
+    transform: scale(1.2);
+  }
+
+  .slider-val {
+    font-family: var(--mono);
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--ink);
+    min-width: 58px;
+    text-align: right;
+    font-feature-settings: "tnum";
+  }
+
+  .num-input, .file-input {
+    font-family: var(--mono);
+    font-size: 13px;
+    padding: 6px 10px;
+    background: var(--paper-2);
+    border: 1px solid var(--rule);
+    color: var(--ink);
+    width: 100%;
+    -webkit-appearance: none;
+    font-feature-settings: "tnum";
+    border-radius: 0;
+  }
+  .num-input:focus, .file-input:focus {
+    outline: none;
+    border-color: var(--ink);
+    background: var(--paper);
+  }
+
+  .file-row { display: flex; flex-direction: column; gap: 10px; }
+  .file-input { padding: 4px; font-size: 11px; }
+  .file-input::-webkit-file-upload-button {
+    background: var(--ink);
+    color: var(--paper);
+    border: none;
+    padding: 5px 12px;
+    margin-right: 10px;
+    font-family: var(--sans);
+    font-size: 9.5px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 700;
+  }
+
+  .link-btn {
+    background: none;
+    border: none;
+    color: var(--clay-dark);
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 13px;
+    cursor: pointer;
+    text-align: left;
+    padding: 0;
+    font-variation-settings: "opsz" 14;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    align-self: flex-start;
+  }
+  .link-btn:hover { color: var(--ink); }
+
+  /* ========================================================= ANALYSIS */
+  .analysis { min-width: 0; }
+  .analysis-block { margin-bottom: 44px; }
+  .analysis-block:last-child { margin-bottom: 0; }
+
+  .mc-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 1px solid var(--rule);
+    background: var(--paper);
+  }
+  .mc-cell {
+    padding: 18px 22px;
+    border-right: 1px solid var(--rule-soft);
+  }
+  .mc-cell:last-child { border-right: none; }
+  .mc-cell-label {
+    font-family: var(--sans);
+    font-size: 9.5px;
+    letter-spacing: 0.26em;
+    text-transform: uppercase;
+    color: var(--mute);
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .mc-cell-val {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-variation-settings: "opsz" 48;
+    font-size: 30px;
+    line-height: 1;
+    letter-spacing: -0.012em;
+    color: var(--ink);
+    font-feature-settings: "tnum", "lnum";
+  }
+  .mc-cell-sub {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--mute);
+    margin-top: 6px;
+    letter-spacing: 0.04em;
+    font-feature-settings: "tnum";
+  }
+  .delta-pos { color: var(--court-dark); }
+  .delta-neg { color: var(--clay-dark); }
+
+  /* CHART */
+  .chart {
+    border: 1px solid var(--rule);
+    padding: 8px 24px 14px;
+    background: var(--paper);
+    position: relative;
+  }
+  .chart::before {
+    content: '';
+    position: absolute;
+    left: 24px;
+    right: 24px;
+    bottom: -1px;
+    height: 1px;
+    background: var(--court);
+    opacity: 0.5;
+  }
+  .chart-row {
+    display: grid;
+    grid-template-columns: 56px 1fr 64px;
+    align-items: center;
+    gap: 16px;
+    padding: 9px 0;
+    font-family: var(--mono);
+    font-size: 12px;
+    font-feature-settings: "tnum";
+    border-top: 1px dotted var(--rule-soft);
+  }
+  .chart-row:first-child { border-top: none; }
+  .chart-row.split { border-top: 1px solid var(--rule); }
+
+  .chart-score { color: var(--ink); font-weight: 600; letter-spacing: 0.02em; }
+  .chart-score.b-win { color: var(--blue-dark); }
+  .chart-score.a-win { color: var(--clay-dark); }
+
+  .chart-bar-wrap {
+    height: 14px;
+    background:
+      linear-gradient(to right, var(--rule-soft) 1px, transparent 1px) 0 50% / 10% 60% no-repeat,
+      linear-gradient(to right, var(--rule-soft) 1px, transparent 1px) 10% 50% / 10% 60% no-repeat,
+      linear-gradient(to right, var(--rule-soft) 1px, transparent 1px) 20% 50% / 10% 60% no-repeat,
+      linear-gradient(to right, var(--rule-soft) 1px, transparent 1px) 30% 50% / 10% 60% no-repeat,
+      linear-gradient(to right, var(--rule-soft) 1px, transparent 1px) 40% 50% / 10% 60% no-repeat,
+      linear-gradient(to right, var(--rule-soft) 1px, transparent 1px) 50% 50% / 10% 60% no-repeat,
+      linear-gradient(to right, var(--rule-soft) 1px, transparent 1px) 60% 50% / 10% 60% no-repeat,
+      linear-gradient(to right, var(--rule-soft) 1px, transparent 1px) 70% 50% / 10% 60% no-repeat,
+      linear-gradient(to right, var(--rule-soft) 1px, transparent 1px) 80% 50% / 10% 60% no-repeat,
+      linear-gradient(to right, var(--rule-soft) 1px, transparent 1px) 90% 50% / 10% 60% no-repeat;
+    position: relative;
+  }
+  .chart-bar {
+    height: 100%;
+    transition: width 0.4s cubic-bezier(.2,.8,.2,1);
+  }
+  .chart-bar.a { background: var(--clay); }
+  .chart-bar.b { background: var(--blue); }
+  .chart-pct {
+    color: var(--ink);
+    text-align: right;
+    font-weight: 500;
+  }
+
+  /* STATS TABLE */
+  .stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: var(--mono);
+    font-feature-settings: "tnum";
+    font-size: 14px;
+  }
+  .stats-table th {
+    text-align: left;
+    font-family: var(--sans);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--mute);
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--court);
+  }
+  .stats-table th.num { text-align: right; }
+  .stats-table td {
+    padding: 13px 14px;
+    border-bottom: 1px solid var(--rule-soft);
+    color: var(--ink);
+  }
+  .stats-table td.num { text-align: right; letter-spacing: 0.02em; }
+  .stats-table tbody tr:last-child td { border-bottom-color: var(--rule); }
+  .stats-table .pname {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: 17px;
+    font-variation-settings: "opsz" 24;
+  }
+  .stats-table .pname.a { color: var(--clay-dark); }
+  .stats-table .pname.b { color: var(--blue-dark); }
+  .stats-table tfoot td {
+    border: none;
+    padding-top: 14px;
+    font-family: var(--sans);
+    font-size: 10.5px;
+    color: var(--mute);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .stats-table tfoot .num {
+    font-family: var(--mono);
+    color: var(--ink);
+    font-size: 14px;
+    text-transform: none;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+  }
+
+  /* ========================================================= MARKETS */
+  .markets {
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    padding: 0;
+    margin-bottom: 44px;
+    background: var(--paper);
+    position: relative;
+  }
+  .markets summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 18px 4px 18px 24px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 14px;
+    user-select: none;
+    position: relative;
+  }
+  .markets summary::-webkit-details-marker { display: none; }
+  .markets summary::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    background: var(--ball);
+    border-radius: 50%;
+  }
+  .markets-head {
+    font-family: var(--sans);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--ink);
+  }
+  .markets-sub {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 13px;
+    font-variation-settings: "opsz" 14;
+    color: var(--mute);
+    justify-self: start;
+  }
+  .markets-caret {
+    font-family: var(--serif);
+    font-size: 22px;
+    color: var(--court);
+    font-weight: 400;
+    width: 22px;
+    text-align: center;
+    line-height: 1;
+    transition: transform 0.2s;
+  }
+  .markets[open] .markets-caret { transform: rotate(45deg); }
+
+  .markets-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    border-top: 1px solid var(--rule);
+  }
+  .market {
+    padding: 20px 24px 22px;
+    border-right: 1px solid var(--rule-soft);
+    border-bottom: 1px solid var(--rule-soft);
+  }
+  .market:nth-child(2n) { border-right: none; }
+  .market:nth-last-child(-n+2) { border-bottom: none; }
+  .market-title {
+    font-family: var(--sans);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.26em;
+    text-transform: uppercase;
+    color: var(--court);
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--rule-soft);
+  }
+
+  .market-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: var(--mono);
+    font-feature-settings: "tnum";
+    font-size: 12px;
+    table-layout: fixed;
+  }
+  .market-table td {
+    padding: 6px 0;
+    border-bottom: 1px dotted var(--rule-soft);
+    color: var(--ink);
+    vertical-align: baseline;
+  }
+  .market-table tr:last-child td { border-bottom: none; }
+  .market-table td.mk-label {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: 13px;
+    font-variation-settings: "opsz" 14;
+    color: var(--ink);
+    letter-spacing: 0.005em;
+  }
+  .market-table td.mk-prob {
+    text-align: right;
+    width: 58px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+  .market-table td.mk-odds {
+    text-align: right;
+    width: 58px;
+    color: var(--mute);
+    letter-spacing: 0.02em;
+  }
+  .market-table tr.hi td.mk-prob { color: var(--court-dark); }
+  .market-table tr.hi td.mk-label { color: var(--court-dark); }
+
+  .markets-disclaimer {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 11.5px;
+    font-variation-settings: "opsz" 12;
+    color: var(--mute);
+    padding: 12px 24px 14px;
+    border-top: 1px solid var(--rule-soft);
+    background: var(--paper-2);
+  }
+
+  .markets.empty .markets-grid,
+  .markets.empty .markets-disclaimer { display: none; }
+  .markets.empty summary::after {
+    content: 'enable Monte Carlo to compute';
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 12px;
+    color: var(--mute);
+    grid-column: 2 / -1;
+    justify-self: end;
+    padding-right: 18px;
+  }
+
+  /* ========================================================= COLOPHON */
+  .colophon {
+    margin-top: 64px;
+    padding-top: 24px;
+    border-top: 1px solid var(--court);
+    position: relative;
+  }
+  .colophon::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: -5px;
+    transform: translateX(-50%);
+    width: 8px;
+    height: 8px;
+    background: var(--ball);
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px var(--paper);
+  }
+
+  .colophon-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    font-family: var(--sans);
+    font-size: 13px;
+    line-height: 1.6;
+    color: var(--ink-2);
+  }
+  .colophon-cols p { margin-bottom: 8px; }
+  .colophon-head {
+    font-family: var(--sans);
+    font-size: 9.5px;
+    font-weight: 700;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--court);
+    margin-bottom: 10px;
+  }
+  .colophon code {
+    font-family: var(--mono);
+    font-size: 11.5px;
+    background: var(--paper-2);
+    padding: 1px 5px;
+    color: var(--ink);
+  }
+  .colophon em { color: var(--ink); font-style: italic; }
+
+  /* ========================================================= RESPONSIVE */
+  @media (max-width: 900px) {
+    .page { padding: 32px 24px 64px; }
+    .spread { grid-template-columns: 1fr; gap: 48px; }
+    .controls-panel { position: static; }
+    .title { font-size: 44px; }
+    .deck { font-size: 13.5px; }
+    .matchup-grid { grid-template-columns: 1fr; gap: 28px; }
+    .mc-grid { grid-template-columns: 1fr; }
+    .mc-cell { border-right: none; border-bottom: 1px solid var(--rule); }
+    .mc-cell:last-child { border-bottom: none; }
+    .colophon-cols { grid-template-columns: 1fr; gap: 28px; max-width: 100%; }
+    .markets-grid { grid-template-columns: 1fr; }
+    .market { border-right: none; border-bottom: 1px solid var(--rule-soft); }
+    .market:nth-child(2n) { border-right: none; }
+    .market:last-child { border-bottom: none; }
+    .markets summary { grid-template-columns: auto auto; }
+    .markets-sub { display: none; }
+  }
+  @media (max-width: 540px) {
+    .prob-big { font-size: 72px; }
+    .vs-label { font-size: 28px; }
+    .chart-row { grid-template-columns: 46px 1fr 56px; gap: 10px; font-size: 11px; }
+  }
+
+  /* ========================================================= COMBOBOX */
+  .player-combo { position: relative; display: inline-block; max-width: 100%; }
+
+  .player-trigger {
+    background: transparent;
+    border: none;
+    border-bottom: 1.5px solid currentColor;
+    color: inherit;
+    font-family: var(--serif);
+    font-weight: 600;
+    font-variation-settings: "opsz" 72;
+    font-size: clamp(24px, 3.2vw, 36px);
+    line-height: 1;
+    letter-spacing: -0.02em;
+    padding: 4px 28px 8px 4px;
+    cursor: pointer;
+    text-align: center;
+    max-width: 100%;
+    position: relative;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'><path d='M1 1l4 4 4-4' stroke='%23444' stroke-width='1.2' fill='none' stroke-linecap='round'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 4px center;
+    background-size: 10px;
+    transition: opacity 0.15s;
+  }
+  .player-trigger:hover { opacity: 0.82; }
+  .player-trigger:focus { outline: none; border-bottom-color: var(--ink); }
+  .player-trigger.open { border-bottom-color: var(--ink); }
+
+  .player-panel {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 320px;
+    max-width: calc(100vw - 40px);
+    background: var(--paper);
+    border: 1px solid var(--court);
+    box-shadow: 0 6px 20px rgba(27, 26, 23, 0.08);
+    z-index: 60;
+    color: var(--ink);
+    text-align: left;
+  }
+  .player-panel[hidden] { display: none; }
+
+  .player-search-wrap {
+    position: relative;
+    border-bottom: 1px solid var(--rule);
+  }
+  .player-search-wrap::before {
+    content: '';
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 13px;
+    height: 13px;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='13' height='13' viewBox='0 0 13 13' fill='none' stroke='%237a7163' stroke-width='1.3'><circle cx='5.5' cy='5.5' r='4'/><path d='M9 9l3 3' stroke-linecap='round'/></svg>");
+    background-repeat: no-repeat;
+    pointer-events: none;
+  }
+  .player-search {
+    font-family: var(--sans);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    padding: 12px 14px 12px 36px;
+    border: none;
+    width: 100%;
+    background: transparent;
+    outline: none;
+    color: var(--ink);
+  }
+  .player-search::placeholder { color: var(--mute); font-style: italic; font-family: var(--serif); font-size: 14px; }
+
+  .player-list {
+    list-style: none;
+    max-height: 320px;
+    overflow-y: auto;
+    padding: 0;
+    margin: 0;
+    scrollbar-width: thin;
+    scrollbar-color: var(--rule) transparent;
+  }
+  .player-list::-webkit-scrollbar { width: 8px; }
+  .player-list::-webkit-scrollbar-thumb { background: var(--rule); }
+  .player-list::-webkit-scrollbar-track { background: transparent; }
+
+  .player-item {
+    padding: 9px 14px;
+    font-family: var(--serif);
+    font-weight: 500;
+    font-variation-settings: "opsz" 18;
+    font-size: 15px;
+    color: var(--ink);
+    cursor: pointer;
+    border-top: 1px dotted var(--rule-soft);
+    display: grid;
+    grid-template-columns: 1fr auto;
+    column-gap: 14px;
+    align-items: baseline;
+  }
+  .player-item:first-child { border-top: none; }
+  .player-item .p-subtext {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: var(--mute);
+    font-feature-settings: "tnum";
+    white-space: nowrap;
+  }
+  .player-item:hover,
+  .player-item.active {
+    background: var(--court);
+    color: var(--paper);
+  }
+  .player-item:hover .p-subtext,
+  .player-item.active .p-subtext {
+    color: var(--mute-2);
+  }
+  .player-item.opponent {
+    color: var(--mute);
+    font-style: italic;
+  }
+  .player-item.opponent::after {
+    content: '·  currently ' attr(data-role);
+    font-family: var(--sans);
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--mute);
+    grid-column: 1 / -1;
+    margin-top: 2px;
+    font-style: normal;
+  }
+  .player-item.opponent:hover,
+  .player-item.opponent.active { color: var(--paper); font-style: normal; }
+  .player-item.opponent:hover::after,
+  .player-item.opponent.active::after { color: var(--mute-2); }
+
+  .player-empty, .player-hint {
+    padding: 16px 14px;
+    font-family: var(--serif);
+    font-style: italic;
+    color: var(--mute);
+    text-align: center;
+    font-size: 13px;
+    font-variation-settings: "opsz" 14;
+  }
+  .player-hint {
+    padding: 8px 14px;
+    font-style: normal;
+    text-align: left;
+    font-family: var(--sans);
+    font-size: 9.5px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--mute);
+    font-weight: 700;
+    background: var(--paper-2);
+    border-top: 1px solid var(--rule-soft);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* ========================================================= ANIMATIONS */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: none; }
+  }
+  .masthead, .matchup, .spread, .colophon {
+    animation: fadeUp 0.6s cubic-bezier(.2,.8,.2,1) backwards;
+  }
+  .matchup { animation-delay: 0.08s; }
+  .spread { animation-delay: 0.18s; }
+  .colophon { animation-delay: 0.28s; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="masthead-date" id="masthead-date">—</div>
+    <h1 class="title">Tennis <em>Markov</em></h1>
+    <p class="deck">A Markov-chain forecast of match outcomes from serve and return statistics, blended across 52-week and career records.</p>
+    <nav class="view-nav" aria-label="Views">
+      <a href="index.html" class="active">Match Simulator</a>
+      <a href="rankings.html">Power Rankings</a>
+    </nav>
+    <div class="tour-switch" id="tourSwitch" role="tablist" aria-label="Choose tour">
+      <button type="button" class="tour-opt active" data-tour="atp" role="tab" aria-selected="true">ATP</button>
+      <button type="button" class="tour-opt" data-tour="wta" role="tab" aria-selected="false">WTA</button>
+    </div>
+  </header>
+
+  <section class="matchup">
+    <div class="card-label">The Matchup</div>
+    <div class="matchup-grid">
+      <div class="player-card a">
+        <div class="player-role">Player A</div>
+        <div class="player-combo">
+          <button type="button" class="player-trigger" id="triggerA" aria-haspopup="listbox" aria-expanded="false">
+            <span id="nameA">—</span>
+          </button>
+          <div class="player-panel" id="panelA" hidden role="dialog">
+            <div class="player-search-wrap">
+              <input type="text" class="player-search" id="searchA" placeholder="Search players" aria-label="Search Player A" autocomplete="off" spellcheck="false">
+            </div>
+            <ul class="player-list" id="listA" role="listbox"></ul>
+            <div class="player-hint"><span>↑↓ navigate · ↵ select · esc close</span><span id="countA">—</span></div>
+          </div>
+        </div>
+        <div class="prob-big" id="probA">—<span class="pct">%</span></div>
+        <div class="odds"><span id="oddsA">—</span></div>
+      </div>
+      <div class="vs">
+        <button class="swap" id="swap" title="Swap players" aria-label="Swap players">⇄</button>
+        <span class="vs-label">vs.</span>
+      </div>
+      <div class="player-card b">
+        <div class="player-role">Player B</div>
+        <div class="player-combo">
+          <button type="button" class="player-trigger" id="triggerB" aria-haspopup="listbox" aria-expanded="false">
+            <span id="nameB">—</span>
+          </button>
+          <div class="player-panel" id="panelB" hidden role="dialog">
+            <div class="player-search-wrap">
+              <input type="text" class="player-search" id="searchB" placeholder="Search players" aria-label="Search Player B" autocomplete="off" spellcheck="false">
+            </div>
+            <ul class="player-list" id="listB" role="listbox"></ul>
+            <div class="player-hint"><span>↑↓ navigate · ↵ select · esc close</span><span id="countB">—</span></div>
+          </div>
+        </div>
+        <div class="prob-big" id="probB">—<span class="pct">%</span></div>
+        <div class="odds"><span id="oddsB">—</span></div>
+      </div>
+    </div>
+    <div class="winbar">
+      <div class="winbar-a" id="winbarA" style="width:50%"></div>
+      <div class="winbar-b" id="winbarB" style="width:50%"></div>
+    </div>
+    <div class="winbar-labels">
+      <span class="lab-a" id="labA">—</span>
+      <span class="lab-b" id="labB">—</span>
+    </div>
+  </section>
+
+  <div class="spread">
+
+    <aside class="controls-panel">
+      <div class="sec-head">
+        <span class="sec-num">I</span>
+        <span class="sec-title">Parameters</span>
+      </div>
+
+      <div class="control">
+        <div class="control-label"><span>Surface</span></div>
+        <div class="chips" id="surfaceChips">
+          <button type="button" class="chip active" data-value="hard">Hard</button>
+          <button type="button" class="chip" data-value="clay">Clay</button>
+          <button type="button" class="chip" data-value="grass">Grass</button>
+          <button type="button" class="chip" data-value="all">All</button>
+        </div>
+      </div>
+
+      <div class="control">
+        <div class="control-label"><span>Format</span></div>
+        <div class="chips" id="formatChips">
+          <button type="button" class="chip active" data-value="3">Best of 3</button>
+          <button type="button" class="chip" data-value="5">Best of 5</button>
+        </div>
+      </div>
+
+      <div class="control">
+        <div class="control-label">
+          <span>Recency</span>
+          <span class="aside">Higher = more recency weight</span>
+        </div>
+        <div class="slider-row">
+          <input type="range" id="recency" min="0" max="1" step="0.05" value="0.7">
+          <span class="slider-val" id="recencyVal">0.70</span>
+        </div>
+      </div>
+
+      <div class="control">
+        <div class="control-label">
+          <span>Monte Carlo</span>
+          <span class="aside">trials</span>
+        </div>
+        <div class="slider-row">
+          <input type="range" id="sims" min="0" max="50000" step="1000" value="10000">
+          <span class="slider-val" id="simsVal">10,000</span>
+        </div>
+      </div>
+
+      <div class="control">
+        <div class="control-label"><span>Seed</span></div>
+        <input type="number" id="seed" class="num-input" value="42">
+      </div>
+
+      <div class="control">
+        <div class="control-label">
+          <span>Data</span>
+          <span class="aside" id="dataSource">—</span>
+        </div>
+        <div class="file-row">
+          <input type="file" id="csvFile" accept=".csv,text/csv" class="file-input">
+          <button type="button" class="link-btn" id="downloadTemplate">download CSV template</button>
+        </div>
+      </div>
+    </aside>
+
+    <main class="analysis">
+
+      <div class="analysis-block">
+        <div class="sec-head">
+          <span class="sec-num">II</span>
+          <span class="sec-title">Monte Carlo Cross-check</span>
+        </div>
+        <div class="mc-grid">
+          <div class="mc-cell">
+            <div class="mc-cell-label">Trials</div>
+            <div class="mc-cell-val" id="mcTrials">—</div>
+            <div class="mc-cell-sub">seed <span id="mcSeedShow">—</span></div>
+          </div>
+          <div class="mc-cell">
+            <div class="mc-cell-label" id="mcLabelA">Win rate</div>
+            <div class="mc-cell-val" id="mcRate">—</div>
+            <div class="mc-cell-sub" id="mcRateSub">—</div>
+          </div>
+          <div class="mc-cell">
+            <div class="mc-cell-label">Δ vs analytic</div>
+            <div class="mc-cell-val" id="mcDelta">—</div>
+            <div class="mc-cell-sub">percentage points</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="analysis-block">
+        <div class="sec-head">
+          <span class="sec-num">III</span>
+          <span class="sec-title">Distribution · Set Scores</span>
+        </div>
+        <div class="chart" id="chart"></div>
+      </div>
+
+      <details class="markets" id="marketsBlock">
+        <summary>
+          <span class="markets-head">Betting Markets</span>
+          <span class="markets-sub">set &amp; game handicaps · totals · match props</span>
+          <span class="markets-caret">+</span>
+        </summary>
+        <div class="markets-grid">
+          <div class="market">
+            <div class="market-title">Set Spreads</div>
+            <table class="market-table" id="marketSets"></table>
+          </div>
+          <div class="market">
+            <div class="market-title">Match Props</div>
+            <table class="market-table" id="marketProps"></table>
+          </div>
+          <div class="market">
+            <div class="market-title">Game Spreads</div>
+            <table class="market-table" id="marketGames"></table>
+          </div>
+          <div class="market">
+            <div class="market-title">Total Games</div>
+            <table class="market-table" id="marketTotals"></table>
+          </div>
+        </div>
+        <div class="markets-disclaimer" id="marketsDisclaimer">Fair odds assume no vig. Precision is bounded by Monte Carlo sample size.</div>
+      </details>
+
+      <div class="analysis-block">
+        <div class="sec-head">
+          <span class="sec-num">IV</span>
+          <span class="sec-title">Blended Inputs</span>
+        </div>
+        <table class="stats-table">
+          <thead>
+            <tr>
+              <th>Player</th>
+              <th class="num">SPW</th>
+              <th class="num">RPW</th>
+              <th class="num">P(pt · own serve)</th>
+            </tr>
+          </thead>
+          <tbody id="statsBody"></tbody>
+          <tfoot>
+            <tr>
+              <td>Tour-avg SPW · <span id="footSurface">hard</span></td>
+              <td class="num" id="footTourAvg">—</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+
+    </main>
+  </div>
+
+  <footer class="colophon">
+    <div class="colophon-cols">
+      <div>
+        <div class="colophon-head">Method</div>
+        <p>Point-on-serve probability for server <em>i</em> against returner <em>j</em> is computed via the Barnett–Clarke formulation, <code>p<sub>ij</sub> = f<sub>i</sub> + (1 − f̄) − g<sub>j</sub></code>, where <em>f</em> is service-points-won, <em>g</em> is return-points-won, and <em>f̄</em> is tour-average SPW on the chosen surface.</p>
+        <p>Game, set, tiebreak, and match probabilities follow from exact Markov-chain recursion; the Monte Carlo column is an independent check using a seeded Mulberry32 generator.</p>
+      </div>
+      <div>
+        <div class="colophon-head">Data</div>
+        <p>Populate the CSV with values from the ATP stats leaderboard, filterable by timeframe and surface. Columns: <code>player, surface, period, spw, rpw</code>. Surfaces: <code>all · hard · clay · grass</code>. Periods: <code>52week · career</code>.</p>
+        <p>The recency weight blends <em>w</em>·52-week + (1−<em>w</em>)·career. A standard setting is <code>0.70</code>.</p>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+<script src="model.js"></script>
+<script>
+const {
+  TOUR_AVG_BY_SURFACE, TOUR_SOURCES, SURFACES, PERIODS,
+  DEFAULT_CSV_ATP, DEFAULT_CSV_WTA,
+  parseCSV, effectiveStats, pointOnServeProb,
+  gameWinProb, tbServer, tiebreakWinProb, setWinProb, matchWinProb,
+  mulberry32, simGame, simTiebreak, simSet, simMatch, simulateMany,
+  computeMarkets, pickMedian, impliedToAmerican,
+} = TennisModel;
+
+//////////////////// STATE + UI ////////////////////
+
+const state = {
+  tour: 'atp',
+  players: {},
+  cachedPlayers: {},     // { atp: {...}, wta: {...} } parsed, for quick tour swaps
+  a: null,
+  b: null,
+  // Remember selections per tour so swapping doesn't clobber the last picks.
+  lastPicks: { atp: { a: null, b: null }, wta: { a: null, b: null } },
+  surface: 'hard',
+  bestOf: 3,
+  recency: 0.7,
+  sims: 10000,
+  seed: 42,
+};
+
+const $ = id => document.getElementById(id);
+const fmtPct = (x, d = 1) => (x == null || !isFinite(x)) ? '—' : (x * 100).toFixed(d) + '%';
+const fmtNum = (x, d = 3) => (x == null || !isFinite(x)) ? '—' : x.toFixed(d);
+const fmtThousands = x => x.toLocaleString('en-US');
+
+function loadPlayers(csv) {
+  const parsed = parseCSV(csv);
+  const names = Object.keys(parsed).sort();
+  if (!names.length) {
+    alert('No valid players found in CSV.');
+    return;
+  }
+  state.players = parsed;
+
+  const prevA = state.a, prevB = state.b;
+  state.a = (prevA && names.includes(prevA)) ? prevA : names[0];
+  state.b = (prevB && names.includes(prevB) && prevB !== state.a)
+    ? prevB
+    : (names.find(n => n !== state.a) || names[0]);
+  updateTriggerLabel('A');
+  updateTriggerLabel('B');
+}
+
+function updateTriggerLabel(which) {
+  const key = which.toLowerCase();
+  const el = $(`name${which}`);
+  if (el) el.textContent = state[key] || '—';
+}
+
+function commitPlayer(which, name) {
+  const me = which.toLowerCase();
+  const other = which === 'A' ? 'b' : 'a';
+  if (name === state[other]) {
+    state[other] = state[me];
+    updateTriggerLabel(other.toUpperCase());
+  }
+  state[me] = name;
+  updateTriggerLabel(which);
+  render();
+}
+
+function playerSearchScore(name, query) {
+  // Simple subsequence match: query letters must appear in order.
+  // Strong boost when matching from a word start, stronger on prefix of whole name.
+  const n = name.toLowerCase();
+  const q = query.toLowerCase();
+  if (!q) return 0;
+  if (n.startsWith(q)) return 1000 - n.length;
+  // word start match
+  const parts = n.split(/\s+/);
+  for (const p of parts) if (p.startsWith(q)) return 500 - n.length;
+  // substring anywhere
+  if (n.includes(q)) return 200 - n.length;
+  // subsequence
+  let i = 0;
+  for (const c of n) { if (c === q[i]) i++; if (i === q.length) break; }
+  return i === q.length ? 50 - n.length : -1;
+}
+
+function setupCombo(which) {
+  const trigger = $(`trigger${which}`);
+  const panel = $(`panel${which}`);
+  const search = $(`search${which}`);
+  const list = $(`list${which}`);
+  const countEl = $(`count${which}`);
+
+  let filtered = [];
+  let activeIdx = 0;
+
+  function formatStat(rec) {
+    if (!rec || !rec['all|52week']) return '';
+    const s = rec['all|52week'];
+    return `${(s.spw * 100).toFixed(1)} · ${(s.rpw * 100).toFixed(1)}`;
+  }
+
+  function renderList(query = '') {
+    const names = Object.keys(state.players);
+    if (!query.trim()) {
+      filtered = names.slice().sort();
+    } else {
+      const scored = names.map(n => [n, playerSearchScore(n, query)])
+        .filter(([, s]) => s >= 0)
+        .sort((x, y) => y[1] - x[1] || x[0].localeCompare(y[0]));
+      filtered = scored.map(([n]) => n);
+    }
+    activeIdx = filtered.length > 0 ? 0 : -1;
+    list.innerHTML = '';
+    const otherKey = which === 'A' ? state.b : state.a;
+    if (!filtered.length) {
+      list.innerHTML = '<li class="player-empty">No players match</li>';
+    } else {
+      const frag = document.createDocumentFragment();
+      filtered.forEach((name, i) => {
+        const li = document.createElement('li');
+        const isOpp = name === otherKey;
+        li.className = 'player-item' + (i === activeIdx ? ' active' : '') + (isOpp ? ' opponent' : '');
+        li.setAttribute('role', 'option');
+        li.dataset.name = name;
+        if (isOpp) li.dataset.role = 'Player ' + (which === 'A' ? 'B' : 'A');
+        const sub = formatStat(state.players[name]);
+        li.innerHTML = `<span>${escapeHtml(name)}</span><span class="p-subtext">${sub}</span>`;
+        frag.appendChild(li);
+      });
+      list.appendChild(frag);
+    }
+    countEl.textContent = filtered.length + (filtered.length === 1 ? ' match' : ' matches');
+  }
+
+  function updateActiveClass() {
+    [...list.children].forEach((el, i) => el.classList.toggle('active', i === activeIdx));
+    const active = list.children[activeIdx];
+    if (active && active.scrollIntoView) active.scrollIntoView({ block: 'nearest' });
+  }
+
+  function moveActive(delta) {
+    if (!filtered.length) return;
+    activeIdx = (activeIdx + delta + filtered.length) % filtered.length;
+    updateActiveClass();
+  }
+
+  function open() {
+    panel.hidden = false;
+    trigger.classList.add('open');
+    trigger.setAttribute('aria-expanded', 'true');
+    search.value = '';
+    renderList('');
+    setTimeout(() => search.focus(), 0);
+  }
+
+  function close() {
+    panel.hidden = true;
+    trigger.classList.remove('open');
+    trigger.setAttribute('aria-expanded', 'false');
+  }
+
+  trigger.addEventListener('click', () => (panel.hidden ? open() : close()));
+  search.addEventListener('input', e => renderList(e.target.value));
+  search.addEventListener('keydown', e => {
+    if (e.key === 'ArrowDown') { e.preventDefault(); moveActive(1); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); moveActive(-1); }
+    else if (e.key === 'Enter') {
+      e.preventDefault();
+      const name = filtered[activeIdx];
+      if (name) { commitPlayer(which, name); close(); }
+    } else if (e.key === 'Escape') { close(); trigger.focus(); }
+  });
+  list.addEventListener('click', e => {
+    const li = e.target.closest('.player-item');
+    if (li && li.dataset.name) { commitPlayer(which, li.dataset.name); close(); }
+  });
+  list.addEventListener('mousemove', e => {
+    const li = e.target.closest('.player-item');
+    if (!li) return;
+    const idx = [...list.children].indexOf(li);
+    if (idx >= 0 && idx !== activeIdx) { activeIdx = idx; updateActiveClass(); }
+  });
+  document.addEventListener('click', e => {
+    if (!panel.hidden && !panel.contains(e.target) && !trigger.contains(e.target)) close();
+  });
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function scoreRows(bestOf) {
+  const target = (bestOf + 1) >> 1;
+  const rows = [];
+  // A's wins, most decisive first
+  for (let losing = 0; losing < target; losing++) rows.push({ a: target, b: losing, side: 'a' });
+  // B's wins, most decisive first
+  for (let losing = 0; losing < target; losing++) rows.push({ a: losing, b: target, side: 'b' });
+  return rows;
+}
+
+function render() {
+  const { a, b, surface, bestOf, recency, sims, seed, players, tour } = state;
+  if (!a || !b || !players[a] || !players[b]) return;
+
+  const statsA = effectiveStats(players[a], surface, recency);
+  const statsB = effectiveStats(players[b], surface, recency);
+  if (!statsA || !statsB) return;
+
+  const tourAvg = TOUR_AVG_BY_SURFACE[tour][surface];
+  const paServe = pointOnServeProb(statsA, statsB, tourAvg);
+  const pbServe = pointOnServeProb(statsB, statsA, tourAvg);
+
+  const probA = matchWinProb(paServe, pbServe, bestOf);
+  const probB = 1 - probA;
+
+  // headline
+  $('probA').innerHTML = (probA * 100).toFixed(1) + '<span class="pct">%</span>';
+  $('probB').innerHTML = (probB * 100).toFixed(1) + '<span class="pct">%</span>';
+  $('oddsA').textContent = impliedToAmerican(probA);
+  $('oddsB').textContent = impliedToAmerican(probB);
+
+  $('winbarA').style.width = (probA * 100).toFixed(2) + '%';
+  $('winbarB').style.width = (probB * 100).toFixed(2) + '%';
+  $('labA').textContent = `${a.toUpperCase()} · ${fmtPct(probA)}`;
+  $('labB').textContent = `${fmtPct(probB)} · ${b.toUpperCase()}`;
+
+  // monte carlo
+  const mc = simulateMany(paServe, pbServe, bestOf, sims, seed);
+  $('mcTrials').textContent = fmtThousands(sims);
+  $('mcSeedShow').textContent = seed;
+  $('mcLabelA').textContent = `${a} win rate`;
+  const deltaEl = $('mcDelta');
+  deltaEl.classList.remove('delta-pos', 'delta-neg');
+  if (mc.aWinRate != null) {
+    $('mcRate').textContent = fmtPct(mc.aWinRate, 2);
+    $('mcRateSub').textContent = `analytic ${fmtPct(probA, 2)}`;
+    const delta = (mc.aWinRate - probA) * 100;
+    deltaEl.textContent = (delta >= 0 ? '+' : '') + delta.toFixed(2);
+    deltaEl.classList.add(delta >= 0 ? 'delta-pos' : 'delta-neg');
+  } else {
+    $('mcRate').textContent = '—';
+    $('mcRateSub').textContent = 'disabled';
+    deltaEl.textContent = '—';
+  }
+
+  // chart
+  const rows = scoreRows(bestOf);
+  const freqs = rows.map(r => mc.distribution[`${r.a}-${r.b}`] || 0);
+  const maxF = Math.max(...freqs, 0.001);
+  const chart = $('chart');
+  chart.innerHTML = '';
+  rows.forEach((r, i) => {
+    const freq = freqs[i];
+    const w = (freq / maxF) * 100;
+    const splitClass = (i === Math.floor(rows.length / 2)) ? ' split' : '';
+    const div = document.createElement('div');
+    div.className = 'chart-row' + splitClass;
+    div.innerHTML = `
+      <div class="chart-score ${r.side === 'a' ? 'a-win' : 'b-win'}">${r.a}–${r.b}</div>
+      <div class="chart-bar-wrap"><div class="chart-bar ${r.side}" style="width:${w.toFixed(2)}%"></div></div>
+      <div class="chart-pct">${(freq * 100).toFixed(1)}%</div>
+    `;
+    chart.append(div);
+  });
+
+  // markets
+  renderMarkets(mc, bestOf, a, b);
+
+  // stats table
+  $('statsBody').innerHTML = `
+    <tr>
+      <td><span class="pname a">${a}</span></td>
+      <td class="num">${fmtNum(statsA.spw)}</td>
+      <td class="num">${fmtNum(statsA.rpw)}</td>
+      <td class="num">${fmtNum(paServe, 4)}</td>
+    </tr>
+    <tr>
+      <td><span class="pname b">${b}</span></td>
+      <td class="num">${fmtNum(statsB.spw)}</td>
+      <td class="num">${fmtNum(statsB.rpw)}</td>
+      <td class="num">${fmtNum(pbServe, 4)}</td>
+    </tr>
+  `;
+  $('footSurface').textContent = surface;
+  $('footTourAvg').textContent = fmtNum(tourAvg);
+}
+
+function renderMarkets(mc, bestOf, nameA, nameB) {
+  const block = $('marketsBlock');
+  if (!mc || !mc.markets) {
+    block.classList.add('empty');
+    ['marketSets','marketProps','marketGames','marketTotals'].forEach(id => $(id).innerHTML = '');
+    return;
+  }
+  block.classList.remove('empty');
+  const m = computeMarkets(mc, bestOf, nameA, nameB);
+  const pctFmt = p => (p * 100).toFixed(1) + '%';
+  const highlightClass = p => (p >= 0.35 && p <= 0.65) ? 'hi' : '';
+
+  function buildTable(rows) {
+    return rows.map(r => {
+      const odds = impliedToAmerican(r.p);
+      return `<tr class="${highlightClass(r.p)}"><td class="mk-label">${escapeHtml(r.label)}</td><td class="mk-prob">${pctFmt(r.p)}</td><td class="mk-odds">${odds}</td></tr>`;
+    }).join('');
+  }
+
+  $('marketSets').innerHTML = buildTable(m.setRows);
+  $('marketProps').innerHTML = buildTable(m.propRows);
+  $('marketGames').innerHTML = buildTable(m.gameRows);
+  $('marketTotals').innerHTML = buildTable(m.totalRows);
+}
+
+//////////////////// EVENTS ////////////////////
+
+async function tryFetchCSV(url) {
+  try {
+    const res = await fetch(url, { cache: 'no-cache' });
+    if (!res.ok) return null;
+    const text = await res.text();
+    if (!text || text.trim().split(/\r?\n/).length < 2) return null;
+    return text;
+  } catch (_) {
+    return null;
+  }
+}
+
+async function switchTour(tour) {
+  if (tour === state.tour) return;
+  // stash current picks
+  state.lastPicks[state.tour] = { a: state.a, b: state.b };
+  state.tour = tour;
+  document.querySelectorAll('#tourSwitch .tour-opt').forEach(b => {
+    const on = b.dataset.tour === tour;
+    b.classList.toggle('active', on);
+    b.setAttribute('aria-selected', on ? 'true' : 'false');
+  });
+  await loadTourData(tour);
+  // restore picks if we have them
+  const p = state.lastPicks[tour];
+  if (p.a && state.players[p.a]) state.a = p.a;
+  if (p.b && state.players[p.b] && p.b !== state.a) state.b = p.b;
+  updateTriggerLabel('A');
+  updateTriggerLabel('B');
+  render();
+}
+
+async function loadTourData(tour) {
+  const src = TOUR_SOURCES[tour];
+  const fetched = await tryFetchCSV(src.csv);
+  if (fetched) {
+    const parsed = parseCSV(fetched);
+    if (Object.keys(parsed).length) {
+      loadPlayers(fetched);
+      $('dataSource').textContent = `${tour.toUpperCase()} live · ${Object.keys(parsed).length} players`;
+      return;
+    }
+  }
+  loadPlayers(src.fallback);
+  $('dataSource').textContent = `${tour.toUpperCase()} sample · ${Object.keys(state.players).length} players`;
+}
+
+async function init() {
+  const d = new Date();
+  $('masthead-date').textContent = d.toLocaleDateString('en-US', {
+    weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'
+  });
+
+  await loadTourData(state.tour);
+
+  setupCombo('A');
+  setupCombo('B');
+
+  document.querySelectorAll('#tourSwitch .tour-opt').forEach(b => {
+    b.addEventListener('click', () => switchTour(b.dataset.tour));
+  });
+
+  $('swap').addEventListener('click', () => {
+    const t = state.a; state.a = state.b; state.b = t;
+    updateTriggerLabel('A');
+    updateTriggerLabel('B');
+    render();
+  });
+
+  document.querySelectorAll('#surfaceChips .chip').forEach(c => {
+    c.addEventListener('click', () => {
+      document.querySelectorAll('#surfaceChips .chip').forEach(x => x.classList.remove('active'));
+      c.classList.add('active');
+      state.surface = c.dataset.value;
+      render();
+    });
+  });
+  document.querySelectorAll('#formatChips .chip').forEach(c => {
+    c.addEventListener('click', () => {
+      document.querySelectorAll('#formatChips .chip').forEach(x => x.classList.remove('active'));
+      c.classList.add('active');
+      state.bestOf = parseInt(c.dataset.value, 10);
+      render();
+    });
+  });
+
+  $('recency').addEventListener('input', e => {
+    state.recency = parseFloat(e.target.value);
+    $('recencyVal').textContent = state.recency.toFixed(2);
+    render();
+  });
+
+  let simsDebounce;
+  $('sims').addEventListener('input', e => {
+    state.sims = parseInt(e.target.value, 10);
+    $('simsVal').textContent = fmtThousands(state.sims);
+    clearTimeout(simsDebounce);
+    simsDebounce = setTimeout(render, 60);
+  });
+
+  $('seed').addEventListener('input', e => {
+    const v = parseInt(e.target.value, 10);
+    state.seed = isFinite(v) ? v : 0;
+    render();
+  });
+
+  $('csvFile').addEventListener('change', e => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = ev => {
+      try {
+        loadPlayers(ev.target.result);
+        $('dataSource').textContent = `${state.tour.toUpperCase()} uploaded · ${Object.keys(state.players).length} players`;
+        render();
+      } catch (err) {
+        alert('Could not parse CSV: ' + err.message);
+      }
+    };
+    reader.readAsText(file);
+  });
+
+  $('downloadTemplate').addEventListener('click', () => {
+    const content = TOUR_SOURCES[state.tour].fallback;
+    const blob = new Blob([content], { type: 'text/csv' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = TOUR_SOURCES[state.tour].csv;
+    document.body.append(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 1200);
+  });
+
+  render();
+}
+
+init();
+</script>
+</body>
+</html>
