@@ -517,7 +517,7 @@
 <script>
 const {
   TOUR_SOURCES, SURFACES,
-  parseCSV, allPlayRanking, impliedToAmerican,
+  parseCSV, filterActive, allPlayRanking, impliedToAmerican,
 } = TennisModel;
 
 const state = {
@@ -547,14 +547,14 @@ async function loadTourData(tour) {
   const src = TOUR_SOURCES[tour];
   const fetched = await tryFetchCSV(src.csv);
   if (fetched) {
-    const parsed = parseCSV(fetched);
+    const parsed = filterActive(parseCSV(fetched));
     if (Object.keys(parsed).length) {
       state.players = parsed;
-      $('dataSource').textContent = `${tour.toUpperCase()} live · ${Object.keys(parsed).length} players`;
+      $('dataSource').textContent = `${tour.toUpperCase()} live · ${Object.keys(parsed).length} active players`;
       return;
     }
   }
-  state.players = parseCSV(src.fallback);
+  state.players = filterActive(parseCSV(src.fallback));
   $('dataSource').textContent = `${tour.toUpperCase()} sample · ${Object.keys(state.players).length} players`;
 }
 

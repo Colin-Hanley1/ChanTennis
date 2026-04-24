@@ -166,17 +166,31 @@ function effectiveStats(rows, surface, recencyWeight) {
   };
 }
 
-// Return the match count we have for a player on the given surface,
-// preferring 52-week but falling back to career or the aggregated "all" row.
+// Recent-form sample size: how many tour-level matches the player has played
+// on this surface in the last 52 weeks. We deliberately do NOT fall back to
+// career — a player whose last52 row is missing has dropped off the tour and
+// their career stats don't reflect current form (e.g., Albert Ramos-class
+// veterans still rated by Elo but no longer playing tour-level events).
 function sampleSize(rows, surface) {
-  const try_ = (k) => rows[k] && rows[k].matches != null ? rows[k].matches : null;
-  return (
-    try_(`${surface}|52week`) ??
-    try_(`${surface}|career`) ??
-    try_(`all|52week`) ??
-    try_(`all|career`) ??
-    0
-  );
+  const r = rows[`${surface}|52week`] || rows[`all|52week`] || null;
+  return r && r.matches != null ? r.matches : 0;
+}
+
+// Does the player have any recent (last-52-week) tour-level data?
+function hasRecentData(rows) {
+  for (const s of SURFACES) if (rows[`${s}|52week`]) return true;
+  return false;
+}
+
+// Drop any player with no 52-week tour-level data. These are typically
+// veterans who've dropped off tour and are now playing challenger/ITF events;
+// their career stats don't reflect current form and should not appear in UI.
+function filterActive(players) {
+  const out = {};
+  for (const name in players) {
+    if (hasRecentData(players[name])) out[name] = players[name];
+  }
+  return out;
 }
 
 function pointOnServeProb(server, returner, tourAvg) {
@@ -524,7 +538,7 @@ globalThis.TennisModel = {
   TOUR_AVG_BY_SURFACE, TOUR_SOURCES, SURFACES, PERIODS,
   DEFAULT_CSV_ATP, DEFAULT_CSV_WTA,
   // parsing
-  parseCSV, effectiveStats, sampleSize,
+  parseCSV, effectiveStats, sampleSize, hasRecentData, filterActive,
   // analytic
   pointOnServeProb, gameWinProb, tbServer, tiebreakWinProb, setWinProb, matchWinProb,
   // monte carlo
