@@ -60,22 +60,49 @@ def fetch_js(slug):
         return r.read().decode("utf-8", errors="replace")
 
 
-def fetch_elo_roster(tour, top_n=None):
-    """Return [(display_name, url_slug)] from the ATP or WTA Elo ratings page."""
+def fetch_elo_ratings(tour, top_n=None):
+    """Return list of {display, slug, elo, hElo, cElo, gElo} from the Elo ratings page."""
     req = urllib.request.Request(ELO_URLS[tour], headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=30) as r:
         html = r.read().decode("utf-8", errors="replace")
-    roster = []
+    rows_html = TR_RE.findall(html)
+    out = []
     seen = set()
-    for m in ELO_LINK_RE.finditer(html):
-        slug, display = m.group(1), m.group(2).replace("\xa0", " ").replace("&nbsp;", " ").strip()
+    for row in rows_html:
+        if "player.cgi" not in row:
+            continue
+        link = ELO_LINK_RE.search(row)
+        if not link:
+            continue
+        slug = link.group(1)
         if slug in seen:
             continue
+        display = link.group(2).replace("\xa0", " ").replace("&nbsp;", " ").strip()
+        cells = [strip_tags(c) for c in TD_RE.findall(row)]
+        # Column order on the ratings page: rank, player, age, Elo, _, hR, hElo, cR, cElo, gR, gElo, ...
+        def num(i):
+            try:
+                return float(cells[i]) if i < len(cells) and cells[i] else None
+            except ValueError:
+                return None
+        entry = {
+            "display": display,
+            "slug": slug,
+            "elo": num(3),
+            "hElo": num(6),
+            "cElo": num(8),
+            "gElo": num(10),
+        }
         seen.add(slug)
-        roster.append((display, slug))
-        if top_n and len(roster) >= top_n:
+        out.append(entry)
+        if top_n and len(out) >= top_n:
             break
-    return roster
+    return out
+
+
+def fetch_elo_roster(tour, top_n=None):
+    """Backwards-compat shim returning [(display, slug)]."""
+    return [(e["display"], e["slug"]) for e in fetch_elo_ratings(tour, top_n)]
 
 
 def strip_tags(s):
@@ -204,11 +231,27 @@ def main():
         if shared_roster:
             roster = shared_roster
         else:
-            sys.stderr.write(f"fetching {tour.upper()} Elo roster ... ")
+            sys.stderr.write(f"fetching {tour.upper()} Elo ratings ... ")
             sys.stderr.flush()
             top = args.top if args.top > 0 else None
-            roster = fetch_elo_roster(tour, top)
-            sys.stderr.write(f"{len(roster)} players\n")
+            elos = fetch_elo_ratings(tour, top)
+            sys.stderr.write(f"{len(elos)} players\n")
+            # Write the Elo CSV alongside the splits CSV.
+            elo_path = f"elo_{tour}.csv"
+            with open(elo_path, "w", newline="") as f:
+                w = csv.DictWriter(f, fieldnames=["player", "elo", "hElo", "cElo", "gElo"])
+                w.writeheader()
+                for e in elos:
+                    label = e["display"].split()[-1] if args.short_name else e["display"]
+                    w.writerow({
+                        "player": label,
+                        "elo":  f"{e['elo']:.1f}"  if e["elo"]  is not None else "",
+                        "hElo": f"{e['hElo']:.1f}" if e["hElo"] is not None else "",
+                        "cElo": f"{e['cElo']:.1f}" if e["cElo"] is not None else "",
+                        "gElo": f"{e['gElo']:.1f}" if e["gElo"] is not None else "",
+                    })
+            sys.stderr.write(f"wrote {len(elos)} Elo rows to {elo_path}\n")
+            roster = [(e["display"], e["slug"]) for e in elos]
         # With --tour both, ignore --out so each tour writes to its default file.
         args.out = None if len(tours) > 1 else original_out
         run_scrape(tour, roster, args)

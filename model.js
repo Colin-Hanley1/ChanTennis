@@ -118,8 +118,8 @@ const TOUR_AVG_BY_SURFACE = {
   wta: { all: 0.562, hard: 0.564, clay: 0.548, grass: 0.590 },
 };
 const TOUR_SOURCES = {
-  atp: { csv: 'players.csv', fallback: DEFAULT_CSV_ATP },
-  wta: { csv: 'players_wta.csv', fallback: DEFAULT_CSV_WTA },
+  atp: { csv: 'players.csv', fallback: DEFAULT_CSV_ATP, elo: 'elo_atp.csv' },
+  wta: { csv: 'players_wta.csv', fallback: DEFAULT_CSV_WTA, elo: 'elo_wta.csv' },
 };
 const SURFACES = ['all', 'hard', 'clay', 'grass'];
 const PERIODS  = ['52week', 'career'];
@@ -195,6 +195,58 @@ function filterActive(players) {
 
 function pointOnServeProb(server, returner, tourAvg) {
   return server.spw + (1 - tourAvg) - returner.rpw;
+}
+
+//////////////////// ELO ////////////////////
+
+// Parse elo_<tour>.csv: header is `player,elo,hElo,cElo,gElo`.
+// Returns { playerName: { elo, hElo, cElo, gElo } }.
+function parseEloCSV(text) {
+  const lines = text.trim().split(/\r?\n/).filter(l => l.trim());
+  if (lines.length < 2) return {};
+  const header = lines[0].split(',').map(s => s.trim().toLowerCase());
+  const idx = Object.fromEntries(header.map((h, i) => [h, i]));
+  if (!('player' in idx)) return {};
+  const out = {};
+  for (let i = 1; i < lines.length; i++) {
+    const parts = lines[i].split(',').map(s => s.trim());
+    const name = parts[idx.player];
+    if (!name) continue;
+    const num = (key) => {
+      const v = parseFloat(parts[idx[key]]);
+      return isFinite(v) ? v : null;
+    };
+    out[name] = {
+      elo:  num('elo'),
+      hElo: num('helo'),
+      cElo: num('celo'),
+      gElo: num('gelo'),
+    };
+  }
+  return out;
+}
+
+// Pick the right Elo column for a given surface.
+function eloForSurface(entry, surface) {
+  if (!entry) return null;
+  const key = surface === 'hard' ? 'hElo'
+            : surface === 'clay' ? 'cElo'
+            : surface === 'grass' ? 'gElo'
+            : 'elo';
+  return entry[key] ?? entry.elo ?? null;
+}
+
+// Standard Elo → match win probability. 400-point gap ≈ 91% favorite.
+function eloMatchProb(eloA, eloB) {
+  if (eloA == null || eloB == null) return null;
+  return 1 / (1 + Math.pow(10, (eloB - eloA) / 400));
+}
+
+// Convex combination of two probabilities. `weight` is the Elo share.
+function blendProb(pBC, pElo, eloWeight) {
+  if (pElo == null) return pBC;
+  const w = Math.max(0, Math.min(1, eloWeight));
+  return (1 - w) * pBC + w * pElo;
 }
 
 function gameWinProb(p) {
@@ -498,19 +550,24 @@ function impliedToAmerican(p) {
  * Returns [{name, rate, matches}] sorted desc by rate.
  */
 function allPlayRanking(players, tour, surface, opts = {}) {
-  const { recencyWeight = 0.7, minMatches = 15 } = opts;
+  const {
+    recencyWeight = 0.7,
+    minMatches = 15,
+    elos = null,
+    eloWeight = 0,
+  } = opts;
   const tourAvg = TOUR_AVG_BY_SURFACE[tour][surface];
   const names = Object.keys(players);
-  // Precompute effective stats + sample size per player for this surface.
+  // Precompute effective stats + sample size + surface Elo per player.
   const rows = [];
   for (const n of names) {
     const s = effectiveStats(players[n], surface, recencyWeight);
     if (!s) continue;
     const m = sampleSize(players[n], surface);
     if (m < minMatches) continue;
-    rows.push({ name: n, stats: s, matches: m });
+    const elo = elos ? eloForSurface(elos[n], surface) : null;
+    rows.push({ name: n, stats: s, matches: m, elo });
   }
-  // All pairs.
   const N = rows.length;
   const sums = new Float64Array(N);
   for (let i = 0; i < N; i++) {
@@ -518,7 +575,11 @@ function allPlayRanking(players, tour, surface, opts = {}) {
       if (i === j) continue;
       const pa = pointOnServeProb(rows[i].stats, rows[j].stats, tourAvg);
       const pb = pointOnServeProb(rows[j].stats, rows[i].stats, tourAvg);
-      sums[i] += matchWinProb(pa, pb, 3);
+      const pBC = matchWinProb(pa, pb, 3);
+      const pElo = (elos && eloWeight > 0)
+        ? eloMatchProb(rows[i].elo, rows[j].elo)
+        : null;
+      sums[i] += blendProb(pBC, pElo, eloWeight);
     }
   }
   const denom = Math.max(N - 1, 1);
@@ -528,6 +589,7 @@ function allPlayRanking(players, tour, surface, opts = {}) {
     matches: r.matches,
     spw: r.stats.spw,
     rpw: r.stats.rpw,
+    elo: r.elo,
   })).sort((a, b) => b.rate - a.rate);
 }
 
@@ -541,6 +603,8 @@ globalThis.TennisModel = {
   parseCSV, effectiveStats, sampleSize, hasRecentData, filterActive,
   // analytic
   pointOnServeProb, gameWinProb, tbServer, tiebreakWinProb, setWinProb, matchWinProb,
+  // elo
+  parseEloCSV, eloForSurface, eloMatchProb, blendProb,
   // monte carlo
   mulberry32, simGame, simTiebreak, simSet, simMatch, simulateMany,
   // betting / display

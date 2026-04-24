@@ -316,6 +316,18 @@
     opacity: 0.55;
   }
 
+  .components {
+    margin-top: 10px;
+    display: inline-flex;
+    gap: 14px;
+    font-family: var(--mono);
+    font-size: 10.5px;
+    font-feature-settings: "tnum";
+    color: var(--mute);
+    letter-spacing: 0.04em;
+  }
+  .components span { white-space: nowrap; }
+
   .vs {
     display: flex;
     flex-direction: column;
@@ -1197,6 +1209,7 @@
         </div>
         <div class="prob-big" id="probA">—<span class="pct">%</span></div>
         <div class="odds"><span id="oddsA">—</span></div>
+        <div class="components" id="componentsA"></div>
       </div>
       <div class="vs">
         <button class="swap" id="swap" title="Swap players" aria-label="Swap players">⇄</button>
@@ -1218,6 +1231,7 @@
         </div>
         <div class="prob-big" id="probB">—<span class="pct">%</span></div>
         <div class="odds"><span id="oddsB">—</span></div>
+        <div class="components" id="componentsB"></div>
       </div>
     </div>
     <div class="winbar">
@@ -1264,6 +1278,17 @@
         <div class="slider-row">
           <input type="range" id="recency" min="0" max="1" step="0.05" value="0.7">
           <span class="slider-val" id="recencyVal">0.70</span>
+        </div>
+      </div>
+
+      <div class="control">
+        <div class="control-label">
+          <span>Elo blend</span>
+          <span class="aside">Elo share of the prediction</span>
+        </div>
+        <div class="slider-row">
+          <input type="range" id="eloWeight" min="0" max="1" step="0.05" value="0.4">
+          <span class="slider-val" id="eloWeightVal">0.40</span>
         </div>
       </div>
 
@@ -1399,6 +1424,7 @@ const {
   mulberry32, simGame, simTiebreak, simSet, simMatch, simulateMany,
   computeMarkets, pickMedian, impliedToAmerican,
   allPlayRanking,
+  parseEloCSV, eloForSurface, eloMatchProb, blendProb,
 } = TennisModel;
 
 //////////////////// STATE + UI ////////////////////
@@ -1406,16 +1432,17 @@ const {
 const state = {
   tour: 'atp',
   players: {},
+  elos: {},              // loaded from elo_<tour>.csv
   cachedPlayers: {},     // { atp: {...}, wta: {...} } parsed, for quick tour swaps
   a: null,
   b: null,
-  // Remember selections per tour so swapping doesn't clobber the last picks.
   lastPicks: { atp: { a: null, b: null }, wta: { a: null, b: null } },
   surface: 'hard',
   bestOf: 3,
   recency: 0.7,
   sims: 10000,
   seed: 42,
+  eloWeight: 0.4,        // share of Elo in blend: 0 = pure Barnett-Clarke, 1 = pure Elo
 };
 
 const $ = id => document.getElementById(id);
@@ -1608,7 +1635,7 @@ function scoreRows(bestOf) {
 }
 
 function render() {
-  const { a, b, surface, bestOf, recency, sims, seed, players, tour } = state;
+  const { a, b, surface, bestOf, recency, sims, seed, players, tour, elos, eloWeight } = state;
   if (!a || !b || !players[a] || !players[b]) return;
 
   const statsA = effectiveStats(players[a], surface, recency);
@@ -1619,7 +1646,11 @@ function render() {
   const paServe = pointOnServeProb(statsA, statsB, tourAvg);
   const pbServe = pointOnServeProb(statsB, statsA, tourAvg);
 
-  const probA = matchWinProb(paServe, pbServe, bestOf);
+  const probBC = matchWinProb(paServe, pbServe, bestOf);
+  const eloA = eloForSurface(elos[a], surface);
+  const eloB = eloForSurface(elos[b], surface);
+  const probElo = eloMatchProb(eloA, eloB);
+  const probA = blendProb(probBC, probElo, eloWeight);
   const probB = 1 - probA;
 
   // headline
@@ -1628,21 +1659,30 @@ function render() {
   $('oddsA').textContent = impliedToAmerican(probA);
   $('oddsB').textContent = impliedToAmerican(probB);
 
+  // transparency: BC and Elo components
+  const eloAvailable = probElo != null;
+  const bcPctA = (probBC * 100).toFixed(1);
+  const eloPctA = eloAvailable ? (probElo * 100).toFixed(1) : '—';
+  const bcPctB = ((1 - probBC) * 100).toFixed(1);
+  const eloPctB = eloAvailable ? ((1 - probElo) * 100).toFixed(1) : '—';
+  $('componentsA').innerHTML = `<span>BC ${bcPctA}%</span><span>Elo ${eloPctA}${eloAvailable ? '%' : ''}</span>`;
+  $('componentsB').innerHTML = `<span>BC ${bcPctB}%</span><span>Elo ${eloPctB}${eloAvailable ? '%' : ''}</span>`;
+
   $('winbarA').style.width = (probA * 100).toFixed(2) + '%';
   $('winbarB').style.width = (probB * 100).toFixed(2) + '%';
   $('labA').textContent = `${a.toUpperCase()} · ${fmtPct(probA)}`;
   $('labB').textContent = `${fmtPct(probB)} · ${b.toUpperCase()}`;
 
-  // monte carlo
+  // monte carlo — simulates from the BC point-probabilities, so compares to probBC
   const mc = simulateMany(paServe, pbServe, bestOf, sims, seed);
   $('mcTrials').textContent = fmtThousands(sims);
-  $('mcLabelA').textContent = `${a} win rate`;
+  $('mcLabelA').textContent = `${a} win rate (BC only)`;
   const deltaEl = $('mcDelta');
   deltaEl.classList.remove('delta-pos', 'delta-neg');
   if (mc.aWinRate != null) {
     $('mcRate').textContent = fmtPct(mc.aWinRate, 2);
-    $('mcRateSub').textContent = `analytic ${fmtPct(probA, 2)}`;
-    const delta = (mc.aWinRate - probA) * 100;
+    $('mcRateSub').textContent = `BC analytic ${fmtPct(probBC, 2)}`;
+    const delta = (mc.aWinRate - probBC) * 100;
     deltaEl.textContent = (delta >= 0 ? '+' : '') + delta.toFixed(2);
     deltaEl.classList.add(delta >= 0 ? 'delta-pos' : 'delta-neg');
   } else {
@@ -1792,15 +1832,20 @@ async function switchTour(tour) {
 
 async function loadTourData(tour) {
   const src = TOUR_SOURCES[tour];
-  const fetched = await tryFetchCSV(src.csv);
+  const [fetched, fetchedElo] = await Promise.all([
+    tryFetchCSV(src.csv),
+    tryFetchCSV(src.elo),
+  ]);
   if (fetched) {
     const parsed = parseCSV(fetched);
     if (Object.keys(parsed).length) {
       loadPlayers(fetched);
+      state.elos = fetchedElo ? parseEloCSV(fetchedElo) : {};
       return;
     }
   }
   loadPlayers(src.fallback);
+  state.elos = fetchedElo ? parseEloCSV(fetchedElo) : {};
 }
 
 async function init() {
@@ -1845,6 +1890,12 @@ async function init() {
   $('recency').addEventListener('input', e => {
     state.recency = parseFloat(e.target.value);
     $('recencyVal').textContent = state.recency.toFixed(2);
+    render();
+  });
+
+  $('eloWeight').addEventListener('input', e => {
+    state.eloWeight = parseFloat(e.target.value);
+    $('eloWeightVal').textContent = state.eloWeight.toFixed(2);
     render();
   });
 

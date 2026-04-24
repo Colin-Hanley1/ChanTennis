@@ -295,6 +295,12 @@
     min-width: 22px;
     text-align: right;
   }
+  .filter-divider {
+    width: 1px;
+    height: 16px;
+    background: var(--rule);
+    margin: 0 6px;
+  }
   .data-source {
     font-family: var(--serif);
     font-style: italic;
@@ -469,7 +475,7 @@
 
   <section class="rankings-note">
     <div class="note-head">About this ranking</div>
-    <p>Each qualifying player is simulated in Bo3 against every other qualifier on the chosen surface, using Barnett–Clarke point-on-serve probabilities and exact Markov-chain recursion over games, tiebreaks and sets. <em>Field W%</em> is the average of those analytic win probabilities — a reading of 80% means the player beats a random qualifying peer four out of five times.</p>
+    <p>Each qualifying player is simulated in Bo3 against every other qualifier on the chosen surface, using Barnett–Clarke point-on-serve probabilities and exact Markov-chain recursion over games, tiebreaks and sets. Each pair's win probability is then blended with a standard Elo expected score, weighted by the <em>Elo blend</em> slider. <em>Field W%</em> is the average across the peer pool.</p>
     <p>Qualification: at least <strong id="noteMinMatches">20</strong> tour-level matches on the selected surface over the <em>rolling last 52 weeks</em> (not the calendar year). Adjust with the <em>Min matches</em> slider below, or use <strong>All Surfaces</strong> to rank across a player's full 52-week sample.</p>
   </section>
 
@@ -484,6 +490,10 @@
       <span class="filter-label">Min matches</span>
       <input type="range" class="filter-slider" id="minMatches" min="0" max="100" step="5" value="20">
       <span class="filter-val" id="minMatchesVal">20</span>
+      <span class="filter-divider"></span>
+      <span class="filter-label">Elo blend</span>
+      <input type="range" class="filter-slider" id="eloWeight" min="0" max="1" step="0.05" value="0.4">
+      <span class="filter-val" id="eloWeightVal">0.40</span>
       <span class="data-source" id="dataSource">—</span>
     </div>
   </div>
@@ -518,6 +528,7 @@
 const {
   TOUR_SOURCES, SURFACES,
   parseCSV, filterActive, allPlayRanking, impliedToAmerican,
+  parseEloCSV,
 } = TennisModel;
 
 const state = {
@@ -525,8 +536,10 @@ const state = {
   surface: 'all',
   minMatches: 20,
   recencyWeight: 0.7,
+  eloWeight: 0.4,
   players: {},
-  // cache: tour -> { surface -> full ranking array (pre-filter) }
+  elos: {},
+  // cache keyed by `${tour}|${surface}|${eloWeight}` → full ranking array
   rankingCache: {},
 };
 
@@ -545,29 +558,35 @@ async function tryFetchCSV(url) {
 
 async function loadTourData(tour) {
   const src = TOUR_SOURCES[tour];
-  const fetched = await tryFetchCSV(src.csv);
+  const [fetched, fetchedElo] = await Promise.all([
+    tryFetchCSV(src.csv),
+    tryFetchCSV(src.elo),
+  ]);
   if (fetched) {
     const parsed = filterActive(parseCSV(fetched));
     if (Object.keys(parsed).length) {
       state.players = parsed;
+      state.elos = fetchedElo ? parseEloCSV(fetchedElo) : {};
       $('dataSource').textContent = `${tour.toUpperCase()} live · ${Object.keys(parsed).length} active players`;
       return;
     }
   }
   state.players = filterActive(parseCSV(src.fallback));
+  state.elos = fetchedElo ? parseEloCSV(fetchedElo) : {};
   $('dataSource').textContent = `${tour.toUpperCase()} sample · ${Object.keys(state.players).length} players`;
 }
 
 function computeAndCache(tour, surface) {
-  state.rankingCache[tour] = state.rankingCache[tour] || {};
-  if (!state.rankingCache[tour][surface]) {
-    // Run ranking with 0 min-matches so we cache the full list; we filter on display.
-    state.rankingCache[tour][surface] = allPlayRanking(state.players, tour, surface, {
+  const key = `${tour}|${surface}|${state.eloWeight.toFixed(2)}`;
+  if (!state.rankingCache[key]) {
+    state.rankingCache[key] = allPlayRanking(state.players, tour, surface, {
       recencyWeight: state.recencyWeight,
       minMatches: 0,
+      elos: state.elos,
+      eloWeight: state.eloWeight,
     });
   }
-  return state.rankingCache[tour][surface];
+  return state.rankingCache[key];
 }
 
 function escapeHtml(s) {
@@ -648,6 +667,14 @@ async function init() {
     $('minMatchesVal').textContent = state.minMatches;
     $('noteMinMatches').textContent = state.minMatches;
     render();
+  });
+
+  let eloDebounce;
+  $('eloWeight').addEventListener('input', e => {
+    state.eloWeight = parseFloat(e.target.value);
+    $('eloWeightVal').textContent = state.eloWeight.toFixed(2);
+    clearTimeout(eloDebounce);
+    eloDebounce = setTimeout(render, 80);
   });
 }
 
