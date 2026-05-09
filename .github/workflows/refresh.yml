@@ -1,0 +1,103 @@
+# Refresh data on a schedule and commit changes back to the repo.
+# Three cron triggers map to refresh.py's three modes:
+#
+#   every 15 min  during peak hours  → --quick   (live ESPN results)
+#   every hour    on the hour        → normal    (results + tournament draws)
+#   Sunday 08:00 UTC                 → --full    (everything incl. player splits + Elo)
+#
+# Each run produces an auto commit if any data file changed; if you serve via
+# GitHub Pages, the commit triggers a redeploy automatically.
+#
+# Manual triggering: Actions tab → Refresh data → Run workflow → pick mode.
+
+name: Refresh data
+
+on:
+  schedule:
+    # Cron is in UTC. Adjust the peak window for your local timezone.
+    # Default below = 13:00–23:00 UTC ≈ 09:00–19:00 US Eastern, 14:00–00:00 CET
+    - cron: '*/15 13-23 * * *'   # quick, peak hours
+    - cron: '5 0-12 * * *'        # normal, off-peak hours (hourly at :05)
+    - cron: '0 8 * * 0'           # full, Sunday 08:00 UTC
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Refresh mode'
+        required: true
+        default: 'normal'
+        type: choice
+        options:
+          - quick
+          - normal
+          - full
+
+# A new run won't kick off while one is already running. Queued runs replace
+# any earlier queued run of the same group, so we never pile up.
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+# We need write access on the repo so the bot can commit refreshed JSON / CSV.
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Fetch full history so the auto-commit can be a clean fast-forward.
+          fetch-depth: 1
+          persist-credentials: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Determine mode
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            MODE="${{ inputs.mode }}"
+          else
+            case "${{ github.event.schedule }}" in
+              "*/15 13-23 * * *") MODE="quick" ;;
+              "0 8 * * 0")        MODE="full"  ;;
+              *)                  MODE="normal" ;;
+            esac
+          fi
+          echo "mode=$MODE" >> "$GITHUB_OUTPUT"
+          echo "▶ mode = $MODE"
+
+      - name: Refresh
+        run: |
+          case "${{ steps.mode.outputs.mode }}" in
+            quick)  python3 refresh.py --quick ;;
+            full)   python3 refresh.py --full  ;;
+            *)      python3 refresh.py         ;;
+          esac
+
+      - name: Commit and push if data changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Stage every data file the scrapers can write — be explicit so we
+          # never accidentally commit unrelated changes.
+          git add \
+            draws_atp.json draws_wta.json \
+            live_atp.json  live_wta.json  \
+            players.csv players_wta.csv  \
+            elo_atp.csv elo_wta.csv 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "✓ no changes to commit"
+            exit 0
+          fi
+          MODE="${{ steps.mode.outputs.mode }}"
+          STAMP="$(date -u '+%Y-%m-%d %H:%M UTC')"
+          git commit -m "auto: refresh data ($MODE) — $STAMP"
+          git push
+          echo "✓ pushed"
