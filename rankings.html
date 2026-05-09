@@ -381,7 +381,18 @@
     font-size: 16px;
     letter-spacing: 0.005em;
   }
+  .rankings-table td.player a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.12s, color 0.12s;
+  }
+  .rankings-table td.player a:hover {
+    color: var(--court-dark);
+    border-bottom-color: var(--court);
+  }
   .rankings-table tr.top-three td.player { font-weight: 600; }
+  .rankings-table tr.top-three td.player a { color: inherit; }
   .rankings-table td.rate { font-size: 14px; letter-spacing: 0.02em; font-weight: 500; }
   .rankings-table tr.top-three td.rate { color: var(--court-dark); font-weight: 700; }
   .rankings-table td.odds { font-size: 13px; color: var(--mute); }
@@ -616,7 +627,7 @@ async function render() {
     const rankClass = i < 3 ? 'top-three' : '';
     return `<tr class="${rankClass}">
       <td class="rank">${i + 1}</td>
-      <td class="player">${escapeHtml(r.name)}</td>
+      <td class="player"><a href="player.html?p=${encodeURIComponent(r.name)}">${escapeHtml(r.name)}</a></td>
       <td class="num rate">${fmtPct(r.rate)}</td>
       <td class="num odds">${impliedToAmerican(r.rate)}</td>
       <td class="num spw">${(r.spw * 100).toFixed(1)}</td>

@@ -259,6 +259,48 @@
     font-feature-settings: "tnum";
   }
 
+  /* MANUAL ENTRY WARNING */
+  .manual-warning {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 14px;
+    align-items: start;
+    margin-bottom: 24px;
+    padding: 14px 18px;
+    background: var(--clay-tint);
+    border-left: 3px solid var(--clay);
+  }
+  .manual-warning .warn-label {
+    font-family: var(--sans);
+    font-size: 9.5px;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--clay-dark);
+    padding-top: 2px;
+  }
+  .manual-warning .warn-body {
+    font-family: var(--serif);
+    font-style: italic;
+    font-variation-settings: "opsz" 14;
+    font-size: 13.5px;
+    color: var(--ink-2);
+    line-height: 1.5;
+  }
+  .manual-warning .warn-body p { margin-bottom: 8px; }
+  .manual-warning .warn-body strong { font-style: normal; color: var(--ink); font-weight: 600; }
+  .manual-warning .warn-body em { color: var(--court-dark); font-style: italic; font-weight: 500; }
+  .manual-warning ul { margin: 0; padding-left: 20px; font-size: 13px; }
+  .manual-warning li { margin-bottom: 3px; }
+  .manual-warning .warn-typed {
+    font-family: var(--mono); font-style: normal; font-size: 12.5px;
+    color: var(--clay-dark); font-weight: 600; letter-spacing: 0.02em;
+  }
+  .manual-warning .warn-role {
+    font-family: var(--sans); font-size: 9.5px; letter-spacing: 0.18em;
+    text-transform: uppercase; color: var(--mute); font-style: normal;
+  }
+
   /* COMPLETED RESULTS LIST */
   .completed-table { width: 100%; border-collapse: collapse; }
   .completed-table td {
@@ -325,6 +367,22 @@
   .draw-sheet tbody td.slot.seeded { font-weight: 700; color: var(--court-dark); }
   .draw-sheet tbody td.slot.bye { color: var(--mute); font-style: italic; font-weight: 400; }
   .draw-sheet tbody td.slot.miss { color: var(--clay-dark); font-style: italic; }
+  .draw-sheet tbody td.slot a {
+    color: inherit; text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.12s;
+  }
+  .draw-sheet tbody td.slot a:hover { border-bottom-color: var(--court); }
+  .champ-name a {
+    color: inherit; text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.12s;
+  }
+  .champ-name a:hover { border-bottom-color: var(--court); }
+  .draw-sheet .slot-ctry {
+    color: var(--mute); font-size: 11px; font-family: var(--mono);
+    margin-left: 4px;
+  }
   .draw-sheet tbody td.idx {
     font-size: 10px; color: var(--mute-2); text-align: right; padding-right: 4px;
   }
@@ -347,6 +405,8 @@
     border: 1px solid var(--rule);
     background: var(--paper);
     overflow-x: auto;
+    max-height: 720px;
+    overflow-y: auto;
   }
 
   /* CHAMPION FORECAST */
@@ -389,16 +449,82 @@
   .champ-bye { font-style: italic; color: var(--mute); font-size: 13px; }
 
   /* RESPONSIVE */
+  /* === Tablet === */
   @media (max-width: 820px) {
-    .page { padding: 32px 24px 64px; }
-    .title { font-size: 44px; }
-    .event-picker { grid-template-columns: 1fr; }
-    .event-meta { padding-bottom: 0; }
-    .matches-table th.h2h, .matches-table td.h2h,
-    .matches-table th.odds, .matches-table td.odds { display: none; }
-    .matches-table th.round, .matches-table td.round { width: 40px; }
-    .matches-table th.prob, .matches-table td.prob { width: 80px; }
-    td.prob-cell { font-size: 15px; }
+    .page { padding: 28px 18px 56px; }
+    .title { font-size: 40px; }
+    .deck { font-size: 13px; max-width: 460px; }
+
+    .event-picker { grid-template-columns: 1fr; gap: 10px; }
+    .event-select { font-size: 22px; padding: 4px 24px 6px 4px; }
+    .event-meta { padding-bottom: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+    .event-meta .badge { margin-left: 0; font-size: 9px; padding: 2px 8px; }
+
+    .sec-head { gap: 8px; margin-top: 24px; padding-bottom: 8px; }
+    .sec-title { font-size: 10px; letter-spacing: 0.22em; }
+    .sec-aside { font-size: 10px; }
+
+    /* Champion forecast — slimmer */
+    .champ-row {
+      grid-template-columns: 28px 1fr 90px auto;
+      column-gap: 12px;
+      padding: 9px 14px;
+    }
+    .champ-name { font-size: 14px; }
+    .champ-bar  { width: 90px; }
+    .champ-pct  { font-size: 12px; min-width: 44px; }
+
+    /* Draw sheet — drop early-round columns to fit a phone */
+    .draw-sheet thead th { padding: 7px 4px; font-size: 9px; letter-spacing: 0.14em; }
+    .draw-sheet tbody td { padding: 5px 4px; font-size: 11px; }
+    .draw-sheet tbody td.slot { padding-left: 10px; font-size: 13px; }
+    .draw-sheet thead th.slot-col { padding-left: 10px; width: 50%; }
+    .draw-sheet thead th.idx-col, .draw-sheet tbody td.idx { width: 24px; padding-right: 2px; font-size: 9px; }
+    .draw-sheet .slot-ctry { display: none; }
+    .draw-sheet .col-r64, .draw-sheet .col-r32 { display: none; }
+  }
+
+  /* === Phone === */
+  @media (max-width: 540px) {
+    .page { padding: 22px 12px 48px; }
+    .title { font-size: 32px; }
+    .deck { font-size: 12.5px; line-height: 1.5; }
+    .masthead { padding-bottom: 22px; margin-bottom: 24px; }
+
+    .view-nav a { font-size: 10px; padding: 6px 10px; letter-spacing: 0.22em; }
+    .tour-opt { font-size: 10px; padding: 6px 16px; letter-spacing: 0.26em; }
+    .event-select { font-size: 19px; }
+
+    .sec-head { margin-top: 22px; }
+    .sec-aside { display: none; }
+
+    .champ-row {
+      grid-template-columns: 24px 1fr auto;
+      column-gap: 10px;
+      padding: 9px 12px;
+    }
+    .champ-bar { display: none; }
+    .champ-name { font-size: 13.5px; }
+    .champ-pct { font-size: 12px; min-width: 50px; }
+
+    .draw-sheet .col-r16 { display: none; }
+    .draw-sheet thead th { font-size: 8.5px; padding: 6px 3px; }
+    .draw-sheet tbody td { padding: 5px 3px; font-size: 10.5px; }
+    .draw-sheet tbody td.slot { font-size: 12.5px; padding-left: 8px; }
+    .draw-sheet thead th.slot-col { padding-left: 8px; }
+
+    .completed-table .ct-round { width: 38px; }
+    .completed-table .ct-result { font-size: 12.5px; }
+    .completed-table td { padding: 6px 10px; font-size: 11.5px; }
+  }
+
+  /* === Small phone === */
+  @media (max-width: 400px) {
+    .draw-sheet .col-qf { display: none; }
+    .champ-name { font-size: 12.5px; }
+    .title { font-size: 28px; }
+    .view-nav { gap: 0; }
+    .view-nav a { padding: 5px 8px; }
   }
 </style>
 </head>
@@ -451,6 +577,7 @@ const state = {
   elos:    { atp: {}, wta: {} },
   lookup:  { atp: {}, wta: {} },
   selectedSlug: { atp: null, wta: null },
+  manualParseError: { atp: null, wta: null },
 };
 
 const $ = id => document.getElementById(id);
@@ -466,11 +593,13 @@ async function tryFetch(url) {
 
 async function loadTour(tour) {
   const src = TOUR_SOURCES[tour];
-  // Players + Elos for the model
-  const [csv, elocsv, drawsRaw] = await Promise.all([
+  // Players + Elos + draws + live ESPN results + user manual overrides
+  const [csv, elocsv, drawsRaw, liveRaw, manualRaw] = await Promise.all([
     tryFetch(src.csv),
     tryFetch(src.elo),
     tryFetch(`draws_${tour}.json`),
+    tryFetch(`live_${tour}.json`),
+    tryFetch(`manual_${tour}.json`),
   ]);
   if (csv) {
     state.players[tour] = filterActive(parseCSV(csv));
@@ -489,6 +618,63 @@ async function loadTour(tour) {
     } catch { state.draws[tour] = []; }
   } else {
     state.draws[tour] = [];
+  }
+
+  // Apply live (ESPN) and manual overrides. Order matters — later layers
+  // replace earlier ones for the same player pair, so the precedence is:
+  //   TA scraped → live ESPN → user manual
+  state.manualParseError[tour] = null;
+  applyOverrides(liveRaw, 'live', tour);
+  applyOverrides(manualRaw, 'manual', tour);
+}
+
+function applyOverrides(rawText, source, tour) {
+  if (!rawText) return;
+  let parsed;
+  try {
+    parsed = JSON.parse(rawText);
+  } catch (e) {
+    if (source === 'manual') state.manualParseError[tour] = e.message || String(e);
+    console.warn(`${source}_${tour}.json parse failed:`, e);
+    return;
+  }
+  const items = Array.isArray(parsed) ? parsed : (parsed.matches || []);
+  const bySlug = {};
+  const ungrouped = [];
+  for (const m of items) {
+    if (!m || !m.winner || !m.loser) continue;
+    const entry = {
+      winner: m.winner, loser: m.loser,
+      score: m.score || '', round: m.round || source,
+      _source: source,
+      _manual: source === 'manual',
+      _live:   source === 'live',
+      _manualEvent: source === 'manual' ? (m.event || null) : null,
+    };
+    if (m.event) (bySlug[m.event] = bySlug[m.event] || []).push(entry);
+    else ungrouped.push(entry);
+  }
+  for (const ev of state.draws[tour]) {
+    const add = (bySlug[ev.slug] || []).concat(ungrouped);
+    if (!add.length) continue;
+    // Canonicalize names against the bracket so name variants collapse to the
+    // same pair key — "Zhang Zhizhen" / "Zhizhen Zhang" / "Daniel Merida" /
+    // "Daniel Merida Aguilar" all resolve to the canonical bracket spelling.
+    const slots = (ev.bracket_slots || []).filter(s => !s.bye);
+    const slotKeys = new Set(slots.map(s => nameKey(s.name)));
+    const slotKeyToName = {};
+    slots.forEach(s => { slotKeyToName[nameKey(s.name)] = s.name; });
+    const canon = (n) => resolveBracketName(n, slotKeys, slotKeyToName) || n;
+    const pairKey = (w, l) => {
+      const a = nameKey(canon(w)), b = nameKey(canon(l));
+      return a < b ? a + '|' + b : b + '|' + a;
+    };
+    const overrideKeys = new Set(add.map(m => pairKey(m.winner, m.loser)));
+    const kept = (ev.completed || []).filter(c => {
+      if (!c.winner || !c.loser) return true;
+      return !overrideKeys.has(pairKey(c.winner, c.loser));
+    });
+    ev.completed = kept.concat(add);
   }
 }
 
@@ -526,21 +712,124 @@ function predictMatch(tour, surface, bestOf, nameA, nameB) {
 
 // =============== Bracket walker + Monte Carlo ===============
 
-// Round-name sequence based on the number of bracket slots.
-// 128 → R128, R64, R32, R16, QF, SF, F
-//  64 → R64,  R32, R16, QF, SF, F
-//  32 → R32,  R16, QF,  SF, F  (etc.)
+// Canonical round names — sequence-based for the early rounds, then named:
+//   128 / 96 → R1, R2, R3, R4, QF, SF, F
+//    64       → R1, R2, R3, QF, SF, F
+//    32       → R1, R2, QF, SF, F
+//    16       → R1, QF, SF, F
 function roundNamesFor(slotCount) {
   const seq = [];
-  let n = slotCount;
+  let n = slotCount, r = 1;
   while (n > 1) {
-    if (n === 2) seq.push('F');
+    if (n === 2)      seq.push('F');
     else if (n === 4) seq.push('SF');
     else if (n === 8) seq.push('QF');
-    else seq.push(`R${n}`);
+    else              seq.push('R' + r);
     n = n >> 1;
+    r++;
   }
   return seq;
+}
+
+// Normalize any round label to canonical form. Handles:
+//   - bracket-position (R128, R64, R32, R16) → sequence form
+//   - sequence form (R1, R2, R3) — pass through
+//   - ESPN style ("Round 1", "1st Round", "Quarterfinals", "Final")
+//   - "Round of 32" / "Round of 8" etc.
+function normalizeRound(label, slotCount) {
+  if (!label) return '';
+  const total = Math.round(Math.log2(slotCount || 128));
+  const lower = String(label).toLowerCase().trim();
+  if (lower === 'manual' || lower === 'live') return label;
+  if (lower === 'final'  || lower === 'finals' || lower === 'f') return 'F';
+  if (lower.startsWith('semi')    || lower === 'sf') return 'SF';
+  if (lower.startsWith('quarter') || lower === 'qf') return 'QF';
+
+  // R<N> form
+  let m = lower.match(/^r(\d+)$/);
+  if (m) {
+    const num = parseInt(m[1], 10);
+    if (num <= total) return 'R' + num;            // already sequence
+    if (num === 8) return 'QF';
+    if (num === 4) return 'SF';
+    if (num === 2) return 'F';
+    if (num >= 16) {                                 // bracket-position → sequence
+      const seqIdx = total - Math.round(Math.log2(num)) + 1;
+      return 'R' + seqIdx;
+    }
+  }
+
+  // ESPN: "Round 1", "1st Round"
+  m = lower.match(/round\s+(\d+)/) || lower.match(/(\d+)(?:st|nd|rd|th)\s+round/);
+  if (m) return 'R' + m[1];
+
+  // "Round of N"
+  m = lower.match(/round\s+of\s+(\d+)/);
+  if (m) {
+    const n = parseInt(m[1], 10);
+    if (n === 2) return 'F';
+    if (n === 4) return 'SF';
+    if (n === 8) return 'QF';
+    if (n >= 16) {
+      const seqIdx = total - Math.round(Math.log2(n)) + 1;
+      return 'R' + seqIdx;
+    }
+  }
+  return label;
+}
+
+// Resolve a typed name to the canonical bracket-slot name. Handles:
+//   - exact match (after nameKey normalization — strips accents/punctuation)
+//   - token-order swap: "Zhang Zhizhen" ↔ "Zhizhen Zhang"
+//   - same token set in any order
+//   - one- or two-character typo (Levenshtein <= 2)
+// Returns the bracket's canonical name string, or null if no good match.
+function resolveBracketName(typed, slotKeys, slotKeyToName) {
+  const k = nameKey(typed);
+  if (!k) return null;
+  if (slotKeys.has(k)) return slotKeyToName[k];
+
+  const tokens = k.split(' ').filter(Boolean);
+  if (tokens.length >= 2) {
+    // Last-token-first variant ("Zhang Zhizhen" → "Zhizhen Zhang" form)
+    const lastFirst = [tokens[tokens.length - 1], ...tokens.slice(0, -1)].join(' ');
+    if (slotKeys.has(lastFirst)) return slotKeyToName[lastFirst];
+    // Full reversal
+    const reversed = tokens.slice().reverse().join(' ');
+    if (slotKeys.has(reversed)) return slotKeyToName[reversed];
+    // Same token set in any order (handles middle-name reorderings)
+    const tSet = new Set(tokens);
+    for (const sk of slotKeys) {
+      const cTokens = sk.split(' ').filter(Boolean);
+      if (cTokens.length === tokens.length && cTokens.every(t => tSet.has(t))) {
+        return slotKeyToName[sk];
+      }
+    }
+    // Partial-name match: typed is a subset (or superset) of candidate.
+    // Catches "Daniel Merida" ↔ "Daniel Merida Aguilar". To avoid matching on
+    // a single common surname, require >=2 shared tokens AND first or last
+    // position to agree.
+    for (const sk of slotKeys) {
+      const cTokens = sk.split(' ').filter(Boolean);
+      if (cTokens.length === tokens.length) continue;
+      const [shorter, longer] = cTokens.length < tokens.length ? [cTokens, tokens] : [tokens, cTokens];
+      if (shorter.length < 2) continue;
+      const longerSet = new Set(longer);
+      if (!shorter.every(t => longerSet.has(t))) continue;
+      // Require head or tail anchor to agree
+      if (shorter[0] === longer[0] || shorter[shorter.length - 1] === longer[longer.length - 1]) {
+        return slotKeyToName[sk];
+      }
+    }
+  }
+  // Levenshtein fallback for single-character typos.
+  let bestSk = null, bestDist = 3;  // max edit distance to accept
+  for (const sk of slotKeys) {
+    if (Math.abs(sk.length - k.length) >= bestDist) continue;
+    const d = levenshtein(k, sk);
+    if (d < bestDist) { bestDist = d; bestSk = sk; }
+  }
+  return bestSk ? slotKeyToName[bestSk] : null;
 }
 
 // Memoized predictor — each (A,B) pair only computed once per render.
@@ -567,20 +856,34 @@ function makeCachedPredictor(tour, surface, bestOf) {
   };
 }
 
-// Index completed matches by the unordered (winner, loser) pair. This avoids
-// depending on TA's inconsistent round labels (ATP Rome uses R128/R64/R32; WTA
-// Rome uses R1/R2/R3; 125 events mix R1/R2 with QF/SF). Looking up by the
-// player pair is unambiguous: two players play at most once in a draw.
-function indexCompleted(completed) {
+// Index completed matches by the unordered (winner, loser) pair. Names are
+// canonicalized against the bracket slots first so variant spellings line up:
+//   ESPN's "Zhang Zhizhen" matches bracket's "Zhizhen Zhang"
+//   ESPN's "Jan-Lennard Struff" matches bracket's "Jan Lennard Struff"
+//   one-character typos via Levenshtein
+// Pair-based lookup means we don't depend on TA's inconsistent round labels.
+function indexCompleted(completed, slots) {
+  const slotKeys = new Set();
+  const slotKeyToName = {};
+  for (const s of slots || []) {
+    if (s.bye || !s.name) continue;
+    const k = nameKey(s.name);
+    slotKeys.add(k);
+    slotKeyToName[k] = s.name;
+  }
+  const canonical = (typed) => {
+    const r = resolveBracketName(typed, slotKeys, slotKeyToName);
+    return r != null ? r : typed;
+  };
   const byPair = {};
   for (const c of completed) {
     if (!c.winner || !c.loser) continue;
-    const wk = nameKey(c.winner), lk = nameKey(c.loser);
+    const wk = nameKey(canonical(c.winner));
+    const lk = nameKey(canonical(c.loser));
     if (!wk || !lk) continue;
     const pair = wk < lk ? `${wk}|${lk}` : `${lk}|${wk}`;
     byPair[pair] = c;
   }
-  // Returned object is duck-typed: callers only need `lookupPair(aKey, bKey)`.
   return {
     lookupPair(aKey, bKey) {
       const k = aKey < bKey ? `${aKey}|${bKey}` : `${bKey}|${aKey}`;
@@ -593,7 +896,7 @@ function indexCompleted(completed) {
 // outcome if present; else use the predictor. Returns:
 //   { rounds: [{name, matches: [...], byes: [...]}], champion_path }
 function walkBracket(slots, completed, predictor) {
-  const completedIdx = indexCompleted(completed);
+  const completedIdx = indexCompleted(completed, slots);
   const seq = roundNamesFor(slots.length);
   let current = slots.slice();
   const rounds = [];
@@ -655,7 +958,7 @@ function walkBracket(slots, completed, predictor) {
 //   reach:   { playerName: [pAfterR1, pAfterR2, ..., pWin] }
 // (Length of the array == labels.length.)
 function simulateBracket(slots, completed, predictor, nSims = 4000) {
-  const completedIdx = indexCompleted(completed);
+  const completedIdx = indexCompleted(completed, slots);
   const seq = roundNamesFor(slots.length);
   // Column labels: each column represents "advanced past round seq[i]".
   // The last column we label 'W' — winning the final.
@@ -707,7 +1010,7 @@ function simulateBracket(slots, completed, predictor, nSims = 4000) {
 
 // Monte Carlo: sample winners through the bracket, count champion appearances.
 function simulateChampion(slots, completed, predictor, nSims = 1000) {
-  const completedIdx = indexCompleted(completed);
+  const completedIdx = indexCompleted(completed, slots);
   const seq = roundNamesFor(slots.length);
   const counts = new Map();   // name → champion count
   const reachF = new Map();   // name → final-reach count
@@ -835,6 +1138,30 @@ function renderEvent(slug) {
 
   let html = '';
 
+  // ----- Manual JSON parse error (file is malformed) -----
+  if (state.manualParseError[state.tour]) {
+    html += `<div class="manual-warning">
+      <span class="warn-label">JSON error</span>
+      <div class="warn-body">
+        <p><code style="font-family:var(--mono);font-size:11.5px;background:var(--paper);padding:1px 5px;border:1px solid var(--rule);">manual_${state.tour}.json</code> couldn't be parsed, so no manual overrides are being applied.</p>
+        <p style="font-family:var(--mono);font-style:normal;font-size:11.5px;color:var(--clay-dark);">${escapeHtml(state.manualParseError[state.tour])}</p>
+        <p style="margin-top:6px;">Fix the JSON syntax (missing comma, trailing comma, wrong quotes) and reload.</p>
+      </div>
+    </div>`;
+  }
+
+  // ----- Manual-entry warnings (player not in bracket) -----
+  const manualWarnings = findManualWarnings(ev);
+  if (manualWarnings.length) {
+    html += renderManualWarnings(manualWarnings, ev);
+  }
+
+  // ----- Bracket integrity (player in two matches in same round) -----
+  const conflicts = findRoundConflicts(ev);
+  if (conflicts.length) {
+    html += renderRoundConflicts(conflicts);
+  }
+
   // ----- Champion forecast -----
   html += `<div class="sec-head">
     <span class="sec-title">Champion Forecast</span>
@@ -850,7 +1177,7 @@ function renderEvent(slug) {
       const w = maxP > 0 ? (r.pChamp / maxP * 100) : 0;
       html += `<div class="champ-row ${top}">
         <div class="champ-rank">${i + 1}</div>
-        <div class="champ-name">${escapeHtml(r.name)}</div>
+        <div class="champ-name"><a href="player.html?p=${encodeURIComponent(r.name)}">${escapeHtml(r.name)}</a></div>
         <div class="champ-bar"><div class="champ-bar-fill" style="width:${w.toFixed(1)}%"></div></div>
         <div class="champ-pct">${(r.pChamp * 100).toFixed(1)}%</div>
       </div>`;
@@ -871,9 +1198,19 @@ function renderEvent(slug) {
       <span class="sec-title">Completed Matches · ${completed.length}</span>
     </div>`;
     html += `<div class="matches-wrap"><table class="completed-table"><tbody>`;
-    for (const c of completed.slice(0, 100)) {
+    // Group + sort by canonical round (R1, R2, R3, ..., QF, SF, F)
+    const roundOrder = ['R1','R2','R3','R4','R5','R6','R7','QF','SF','F'];
+    const sorted = completed.slice(0, 200).map(c => ({
+      ...c,
+      _roundCanon: normalizeRound(c.round, slots.length),
+    })).sort((a, b) => {
+      const ai = roundOrder.indexOf(a._roundCanon); const bi = roundOrder.indexOf(b._roundCanon);
+      const A = ai === -1 ? 99 : ai, B = bi === -1 ? 99 : bi;
+      return A - B || a.winner.localeCompare(b.winner);
+    });
+    for (const c of sorted) {
       html += `<tr>
-        <td class="ct-round">${escapeHtml(c.round)}</td>
+        <td class="ct-round">${escapeHtml(c._roundCanon || c.round)}</td>
         <td class="ct-result"><strong>${escapeHtml(c.winner)}</strong> d. ${escapeHtml(c.loser)}</td>
         <td class="ct-score">${escapeHtml(c.score)}</td>
       </tr>`;
@@ -895,47 +1232,185 @@ function heatClass(p) {
   return 'h7';
 }
 
+// =============== Manual-entry validation ===============
+
+// For each manually-entered match scoped to this event, check that both players
+// appear in the bracket — using the same fuzzy resolver as the bracket walker.
+// A match where resolveBracketName succeeds (token-swap, typo, etc.) does NOT
+// trigger a warning; only genuinely unfindable names do.
+function findManualWarnings(ev) {
+  const slots = (ev.bracket_slots || []).filter(s => !s.bye);
+  const slotKeys = new Set(slots.map(s => nameKey(s.name)));
+  const slotKeyToName = {};
+  slots.forEach(s => { slotKeyToName[nameKey(s.name)] = s.name; });
+  const slotNames = slots.map(s => s.name);
+  const out = [];
+  for (const c of (ev.completed || [])) {
+    if (!c._manual) continue;
+    if (c._manualEvent !== ev.slug) continue;  // only validate event-scoped entries
+    const missing = [];
+    if (!resolveBracketName(c.winner, slotKeys, slotKeyToName)) missing.push({ name: c.winner, role: 'winner' });
+    if (!resolveBracketName(c.loser,  slotKeys, slotKeyToName)) missing.push({ name: c.loser,  role: 'loser'  });
+    if (!missing.length) continue;
+    const suggestions = missing.map(m => ({
+      typed: m.name,
+      role: m.role,
+      suggestion: closestMatch(m.name, slotNames),
+    }));
+    out.push({ entry: c, missing, suggestions });
+  }
+  return out;
+}
+
+// Levenshtein distance — for catching one- or two-character typos.
+function levenshtein(a, b) {
+  const m = a.length, n = b.length;
+  if (m === 0) return n;
+  if (n === 0) return m;
+  const dp = new Array(n + 1);
+  for (let j = 0; j <= n; j++) dp[j] = j;
+  for (let i = 1; i <= m; i++) {
+    let prev = dp[0];
+    dp[0] = i;
+    for (let j = 1; j <= n; j++) {
+      const tmp = dp[j];
+      dp[j] = a[i - 1] === b[j - 1] ? prev : 1 + Math.min(prev, dp[j], dp[j - 1]);
+      prev = tmp;
+    }
+  }
+  return dp[n];
+}
+
+// Return the closest player name from `pool` for `typed`. Combines
+// (a) substring containment, (b) shared name tokens, (c) Levenshtein
+// distance — the last is what catches single-character typos like
+// "Zang" → "Zhang" or "Menzik" → "Mensik".
+function closestMatch(typed, pool) {
+  if (!typed || !pool || !pool.length) return null;
+  const tk = nameKey(typed);
+  let best = null, bestScore = 0;
+  const tTokens = tk.split(' ');
+  for (const candidate of pool) {
+    const ck = nameKey(candidate);
+    if (ck === tk) continue;
+    let score = 0;
+    if (ck.includes(tk) || tk.includes(ck)) score += 5;
+    const cTokens = ck.split(' ');
+    for (const t of tTokens) if (t && cTokens.includes(t)) score += 2;
+    if (tTokens.length && cTokens.length && tTokens[tTokens.length - 1] === cTokens[cTokens.length - 1]) score += 4;
+    const dist = levenshtein(tk, ck);
+    // Edit-distance bonus, scaled to typo size.
+    if (dist === 1) score += 7;
+    else if (dist === 2) score += 5;
+    else if (dist === 3) score += 3;
+    if (score > bestScore) { bestScore = score; best = candidate; }
+  }
+  return bestScore >= 4 ? best : null;
+}
+
+// Bracket integrity check — a player can't appear in two matches in the same
+// round. Groups completed matches by (canonical_round, canonical_player) and
+// flags any group with 2+ matches. Catches:
+//   - duplicate scrape entries with conflicting outcomes
+//   - manual entries for matches that didn't actually happen
+//   - cross-source disagreements (TA vs ESPN saying different winners)
+function findRoundConflicts(ev) {
+  const slots = (ev.bracket_slots || []).filter(s => !s.bye);
+  const slotKeys = new Set(slots.map(s => nameKey(s.name)));
+  const slotKeyToName = {};
+  slots.forEach(s => { slotKeyToName[nameKey(s.name)] = s.name; });
+  const canon = (n) => resolveBracketName(n, slotKeys, slotKeyToName) || n;
+  const map = new Map();   // "round||playerKey" -> { round, player, matches: [...] }
+  for (const c of (ev.completed || [])) {
+    const round = normalizeRound(c.round, ev.bracket_slots.length);
+    if (!round) continue;
+    const wCanon = canon(c.winner), lCanon = canon(c.loser);
+    const enriched = { ...c, _winnerCanon: wCanon, _loserCanon: lCanon, _round: round };
+    for (const player of [wCanon, lCanon]) {
+      const pKey = nameKey(player);
+      if (!pKey) continue;
+      const k = round + '||' + pKey;
+      if (!map.has(k)) map.set(k, { round, player, matches: [] });
+      map.get(k).matches.push(enriched);
+    }
+  }
+  return [...map.values()].filter(g => g.matches.length > 1);
+}
+
+function renderRoundConflicts(conflicts) {
+  let html = `<div class="manual-warning">
+    <span class="warn-label">Bracket conflict</span>
+    <div class="warn-body">
+      <p>${conflicts.length === 1 ? 'A player appears' : conflicts.length + ' players appear'} in multiple matches within a single round — at most one per round is possible. Likely a duplicate or contradicting entry.</p>
+      <ul>`;
+  for (const g of conflicts) {
+    html += `<li><span class="warn-typed">${escapeHtml(g.player)}</span> in <strong>${escapeHtml(g.round)}</strong>:<ul>`;
+    for (const m of g.matches) {
+      const src = m._manual ? 'manual' : m._live ? 'live' : 'scraped';
+      html += `<li><em>${escapeHtml(m._winnerCanon)}</em> d. ${escapeHtml(m._loserCanon)}${m.score ? ' (' + escapeHtml(m.score) + ')' : ''} <span class="warn-role">${src}</span></li>`;
+    }
+    html += `</ul></li>`;
+  }
+  html += `</ul></div></div>`;
+  return html;
+}
+
+function renderManualWarnings(warnings, ev) {
+  let html = `<div class="manual-warning">
+    <span class="warn-label">Manual data</span>
+    <div class="warn-body">
+      <p>${warnings.length === 1 ? 'A manual entry references a name not in the' : warnings.length + ' manual entries reference names not in the'}
+      <strong>${escapeHtml(ev.name + ' ' + ev.year)}</strong> bracket.
+      The override is being silently ignored — check spelling against the draw below.</p>
+      <ul>`;
+  for (const w of warnings) {
+    for (const s of w.suggestions) {
+      const sug = s.suggestion ? `  ·  did you mean <em>${escapeHtml(s.suggestion)}</em>?` : '';
+      html += `<li><span class="warn-typed">${escapeHtml(s.typed)}</span> <span class="warn-role">(${s.role})</span>${sug}</li>`;
+    }
+  }
+  html += `</ul></div></div>`;
+  return html;
+}
+
 function renderDrawSheet(slots, completed, labels, reach) {
-  const completedIdx = indexCompleted(completed);
-  // Detect already-eliminated players so we can grey their reach probabilities
-  // beyond the round they lost in. Actually, MC already accounts for this — losers
-  // get 0 in subsequent columns. We just trust the numbers.
-
   const cols = labels;  // e.g. ['R64','R32','R16','QF','SF','F','W']
+  const colCls = (c) => `col-${c.toLowerCase()}`;
+  // Short header label for narrow screens.
+  const shortHdr = (c) => (c === 'W' ? 'Win' : c);
 
-  let html = `<div class="draw-sheet-wrap" style="max-height: 720px; overflow-y: auto;"><table class="draw-sheet">
+  let html = `<div class="draw-sheet-wrap"><table class="draw-sheet">
     <thead><tr>
       <th class="idx-col">#</th>
       <th class="slot-col">Player</th>`;
-  for (const c of cols) html += `<th>${escapeHtml(roundDisplayName(c))}</th>`;
+  for (const c of cols) html += `<th class="${colCls(c)}">${escapeHtml(shortHdr(c))}</th>`;
   html += `</tr></thead><tbody>`;
 
   slots.forEach((slot, i) => {
-    // Section break every 8 slots (TA convention)
     const isSectionEnd = ((i + 1) % 8 === 0) && (i + 1 < slots.length);
     const trClass = (slot.bye ? 'bye ' : '') + (isSectionEnd ? 'section-end' : '');
     if (slot.bye) {
       html += `<tr class="${trClass}">
         <td class="idx">${i + 1}</td>
         <td class="slot bye">Bye</td>`;
-      for (const c of cols) html += `<td class="prob h0">—</td>`;
+      for (const c of cols) html += `<td class="prob h0 ${colCls(c)}">—</td>`;
       html += `</tr>`;
       return;
     }
     const seedStr = slot.seed ? `(${slot.seed}) ` : '';
     const seedClass = slot.seed && slot.seed.match(/^\d+$/) ? 'seeded' : '';
-    const ctry = slot.country ? `  <span style="color:var(--mute);font-size:11px;font-family:var(--mono);">${escapeHtml(slot.country)}</span>` : '';
+    const ctry = slot.country ? `  <span class="slot-ctry">${escapeHtml(slot.country)}</span>` : '';
     const inRoster = !!resolvePlayer(state.tour, slot.name);
     const missClass = inRoster ? '' : 'miss';
     html += `<tr class="${trClass}">
       <td class="idx">${i + 1}</td>
-      <td class="slot ${seedClass} ${missClass}" title="${escapeHtml(slot.name)}">${escapeHtml(seedStr)}${escapeHtml(slot.name)}${ctry}</td>`;
+      <td class="slot ${seedClass} ${missClass}" title="${escapeHtml(slot.name)}">${escapeHtml(seedStr)}<a href="player.html?p=${encodeURIComponent(slot.name)}">${escapeHtml(slot.name)}</a>${ctry}</td>`;
     const probs = reach[slot.name] || new Array(cols.length).fill(0);
     for (let j = 0; j < cols.length; j++) {
       const p = probs[j] || 0;
       const cls = heatClass(p);
       const text = (p === 0) ? '—' : (p >= 0.995 ? '100%' : p >= 0.10 ? `${(p * 100).toFixed(0)}%` : `${(p * 100).toFixed(1)}%`);
-      html += `<td class="prob ${cls}">${text}</td>`;
+      html += `<td class="prob ${cls} ${colCls(cols[j])}">${text}</td>`;
     }
     html += `</tr>`;
   });

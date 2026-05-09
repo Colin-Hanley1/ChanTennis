@@ -1,0 +1,253 @@
+{
+  "_comment": "Manual ATP match overrides. Each entry forces a result into the bracket — the page picks them up automatically when you reload. Pair-based lookup means once you list (winner, loser), every round in every event treats that as a completed match.",
+
+  "_schema": {
+    "event":  "(optional) tournament slug, e.g. '2026ATPRome'. If omitted, applies anywhere the matchup appears.",
+    "winner": "(required) full player name as it appears in the draw, e.g. 'Jannik Sinner'",
+    "loser":  "(required) full player name",
+    "score":  "(optional) display string, e.g. '6-3 6-4'",
+    "round":  "(optional) display label, e.g. 'F'. Has no effect on bracket logic."
+  },
+
+  "matches": [
+    {
+      "event": "2026ATPRome",
+      "winner": "Alejandro Tabilo",
+      "loser": "Pablo Carreno Busta",
+      "score": "6-2 6-1",
+      "round": "R1"
+    },
+    {
+      "event": "2026ATPRome",
+      "winner": "Nuno Borges",
+      "loser": "Jesper de Jong",
+      "score": "6-3 6-0",
+      "round": "R1"
+    },
+    {
+      "event":"2026ATPRome",
+      "winner": "Aleksandar Vukic",
+      "loser": "Patrick Kypson",
+      "score": "6-3 5-7 6-0",
+      "round": "R1"
+    },
+    {
+      "event":"2026ATPRome",
+      "winner": "Matteo Arnaldi",
+      "loser": "Jaume Munar",
+      "score": "6-3 3-6 6-3",
+      "round":"R1"
+    },
+    {
+      "event":"2026ATPRome",
+      "winner":"Jan Lennard Struff",
+      "loser": "Francisco Comesana",
+      "score":"6-2 6-4",
+      "round":"R1"
+    },
+    {
+      "event": "2026ATPRome",
+      "winner": "Botic Van De Zandschulp",
+      "loser": "Alexandre Muller",
+      "score": "7-5 6-3",
+      "round": "R1"
+    },
+    {
+      "event": "2026ATPRome",
+      "winner":"Yannick Hanfmann",
+      "loser": "Hubert Hurkacz",
+      "score": "6-7 7-6 6-2",
+      "round": "R1"
+    },
+    {
+      "event":"2026ATPRome",
+      "winner":"Alexander Shevchenko",
+      "loser": "Camilo Ugo Carabelli",
+      "score":"6-3 4-6 7-6",
+      "round": "R1"
+    },
+    {
+      "event":"2026ATPRome",
+      "winner":"Zachary Svajda",
+      "loser": "Marco Trungelliti",
+      "score":"0-6 6-4 7-6",
+      "round": "R1"
+    },
+    {
+      "event":"2026ATPRome",
+      "winner":"Sebastian Baez",
+      "loser": "Jenson Brooksby",
+      "score":"6-3 7-6",
+      "round": "R1"
+    },
+    {
+      "event":"2026ATPRome",
+      "winner":"Damir Dzumhur",
+      "loser":"Adrian Mannarino",
+      "score":"6-4 6-0",
+      "round": "R1"
+    },
+    {
+      "event":"2026ATPRome",
+      "winner":"Vit Kopriva",
+      "loser":"Fabian Marozsan",
+      "score":"6-3 6-3",
+      "round": "R1"
+    },
+    {
+      "event":"2026ATPRome",
+      "winner":"Andrea Pellegrino",
+      "loser": "Luca Nardi",
+      "score":"4-6 6-3 6-3",
+      "round": "R1"
+    },
+    {
+      "event":"2026ATPRome",
+      "winner":"Mariano Navone",
+      "loser":"Denis Shapovalov",
+      "score": "6-4 6-2",
+      "round": "R1"
+    },
+    {
+      "event":"2026ATPRome",
+      "winner":"Sebastian Ofner",
+      "loser": "Alex Michelsen",
+      "score":"6-3 6-3",
+      "round":"R1"
+    },
+    {
+      "event":"2026ATPRome",
+      "winner":"Ignacio Buse",
+      "loser": "Lorenzo Sonego",
+      "score": "6-3 6-3",
+      "round":"R1"
+    },
+    {
+      "event":"2026ATPRome",
+      "winner":"Hamad Medjedovic",
+      "loser":"Valentin Royer",
+      "score":"6-4 6-3",
+      "round": "R1"
+    },
+    {
+      "event":"2026ATPRome",
+      "winner":"Thiago Agustin Tirante",
+      "loser":"Gianluca Cadenasso",
+      "score":"6-7 6-4 6-0",
+      "round":"R1"
+    },
+    {
+      "event":"2026ATPRome",
+      "winner": "Tomas Machac",
+      "loser": "Stefanos Tsitsipas",
+      "score":"6-7 7-6",
+      "round": "R1"
+    },
+    {
+      "event":"2026ATPRome",
+      "winner":"Cristian Garin",
+      "loser":"Juan Manuel Cerundolo",
+      "score":"7-6 7-5",
+      "round": "R1"
+    },
+    {
+      "event": "2026ATPRome",
+      "winner":"Pablo Llamas Ruiz",
+      "loser": "Ethan Quinn",
+      "score": "6-3 5-7 6-3",
+      "round":"R1"
+    },
+    {
+      "event":"2026ATPRome",
+      "winner":"Roberto Bautista Agut",
+      "loser":"Francesco Maestrelli",
+      "score":"6-3 7-6",
+      "round":"R1"
+    },
+    {
+      "event":"2026ATPRome",
+      "winner":"Mattia Bellucci",
+      "loser":"Roman Andres Burruchaga",
+      "score":"6-4 6-4",
+      "round": "R1"
+    },
+    {
+      "event":"2026ATPRome",
+      "winner":"Marin Cilic",
+      "loser":"Marcos Giron",
+      "score":"7-5 6-4",
+      "round": "R1"
+    },
+    {
+      "event":"2026ATPRome",
+      "winner":"Alexander Blockx",
+      "loser":"Federico Cina",
+      "score":"4-6 6-1 6-3",
+      "round":"R1"
+    },
+    {
+      "event":"2026ATPRome",
+      "winner":"Giovanni Mpetshi Perricard",
+      "loser":"Jacob Fearnley",
+      "score":"7-6 4-6 6-2",
+      "round":"R1"
+    },
+    {
+      "event":"2026ATPRome",
+      "winner":"Dino Prizmic",
+      "loser":"Marton Fucsovics",
+      "score":"6-4 6-3",
+      "round":"R1"
+    },
+    {
+      "event":"2026ATPRome",
+      "winner":"Alexei Popyrin",
+      "loser":"Matteo Berrettini",
+      "score":"6-2 6-3",
+      "round":"R1"
+    },
+    {
+      "event":"2026ATPRome",
+      "winner":"Miomir Kecmanovic",
+      "loser":"Dalibor Svrcina",
+      "score":"6-2 6-3",
+      "round":"R1"
+    },
+    {
+      "event":"2026ATPRome",
+      "winner":"Terence Atmane",
+      "loser":"Zizou Bergs",
+      "score":"6-3 6-4",
+      "round":"R1"
+    },
+    {
+      "event":"2026ATPRome",
+      "winner":"Nikoloz Basilashvili",
+      "loser":"Daniel Merida Aguilar",
+      "score":"6-4 2-6 6-3",
+      "round":"R1"
+    },
+    {
+      "event":"2026ATPRome",
+      "winner":"Alexander Zverev",
+      "loser":"Daniel Altmaier",
+      "score":"7-5 6-3",
+      "round":"R2"
+    },
+    {
+      "event":"2026ATPRome",
+      "winner":"Dino Prizmic",
+      "loser":"Novak Djokovic",
+      "score":"2-6 6-2 6-4",
+      "round": "R2"
+    },
+    {
+      "event":"2026ATPRome",
+      "winner":"Matteo Arnaldi",
+      "loser":"Alex de Minaur",
+      "score":"4-6 7-6 6-4",
+      "round":"R2"
+    }
+  ]
+}
+

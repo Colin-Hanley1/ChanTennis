@@ -1,0 +1,6 @@
+{
+  "_comment": "Manual WTA match overrides. See manual_atp.json for schema.",
+
+  "matches": [
+  ]
+}
