@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tournaments — Tennis Markov</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #fafaf6;
+    --paper-2: #f0f1ea;
+    --paper-dark: #e3e5d9;
+    --ink: #1a1c18;
+    --ink-2: #35382f;
+    --mute: #7b7e72;
+    --mute-2: #b3b6a8;
+    --rule: #d5d8ca;
+    --rule-soft: #e4e6da;
+    --clay: #c55d3a;
+    --clay-dark: #a94a2b;
+    --blue: #2e5f8e;
+    --blue-dark: #214a72;
+    --court: #3f6b36;
+    --court-dark: #244a1d;
+    --ball: #d4e12a;
+    --serif: 'Fraunces', 'Times New Roman', Georgia, serif;
+    --sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --mono: 'JetBrains Mono', 'IBM Plex Mono', Menlo, monospace;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 15px;
+    line-height: 1.45;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  body { min-height: 100vh; position: relative; overflow-x: hidden; }
+  .page { position: relative; max-width: 1100px; margin: 0 auto; padding: 44px 56px 96px; }
+
+  /* MASTHEAD (shared) */
+  .masthead {
+    text-align: center;
+    padding: 16px 0 32px;
+    border-bottom: 1px solid var(--court);
+    margin-bottom: 36px;
+    position: relative;
+  }
+  .masthead::after {
+    content: ''; position: absolute; left: 50%; bottom: -5px; transform: translateX(-50%);
+    width: 10px; height: 10px; background: var(--ball); border-radius: 50%;
+    box-shadow: 0 0 0 2px var(--paper);
+  }
+  .masthead-date {
+    font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.22em;
+    text-transform: uppercase; color: var(--mute); font-weight: 500;
+    margin-bottom: 10px; font-feature-settings: "tnum";
+  }
+  .title {
+    font-family: var(--serif); font-weight: 700; font-variation-settings: "opsz" 96;
+    font-size: clamp(42px, 7vw, 82px); line-height: 0.95; letter-spacing: -0.025em;
+    color: var(--ink);
+  }
+  .title em { font-style: italic; font-weight: 400; color: var(--court); }
+  .deck {
+    font-family: var(--sans); font-weight: 400; font-size: 14px; line-height: 1.55;
+    color: var(--mute); max-width: 560px; margin: 14px auto 0; letter-spacing: 0.005em;
+  }
+  .view-nav {
+    display: flex; align-items: center; gap: 0; justify-content: center;
+    margin-top: 20px; flex-wrap: wrap;
+  }
+  .view-nav a {
+    font-family: var(--sans); font-size: 11px; font-weight: 600; letter-spacing: 0.28em;
+    text-transform: uppercase; color: var(--mute); text-decoration: none;
+    padding: 6px 18px; position: relative; transition: color 0.15s;
+  }
+  .view-nav a:hover { color: var(--ink); }
+  .view-nav a.active { color: var(--ink); font-weight: 700; }
+  .view-nav a.active::after {
+    content: ''; position: absolute; left: 50%; bottom: -4px; transform: translateX(-50%);
+    width: 5px; height: 5px; background: var(--ball); border-radius: 50%;
+  }
+  .view-nav a + a::before {
+    content: ''; position: absolute; left: 0; top: 50%; transform: translateY(-50%);
+    width: 1px; height: 11px; background: var(--rule);
+  }
+  .tour-switch { display: inline-flex; align-items: center; gap: 0; margin-top: 14px; padding: 4px 0; }
+  .tour-opt {
+    background: transparent; border: none; padding: 6px 22px;
+    font-family: var(--sans); font-size: 11px; font-weight: 600; letter-spacing: 0.32em;
+    text-transform: uppercase; color: var(--mute); cursor: pointer;
+    position: relative; transition: color 0.15s;
+  }
+  .tour-opt:hover { color: var(--ink); }
+  .tour-opt.active { color: var(--ink); font-weight: 700; }
+  .tour-opt + .tour-opt::before {
+    content: ''; position: absolute; left: 0; top: 50%; transform: translateY(-50%);
+    width: 1px; height: 10px; background: var(--rule);
+  }
+
+  /* EVENT PICKER */
+  .event-picker {
+    margin-bottom: 28px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 18px;
+    align-items: end;
+  }
+  .event-select-wrap { display: flex; flex-direction: column; gap: 6px; }
+  .event-select-label {
+    font-family: var(--sans); font-size: 10px; font-weight: 700; letter-spacing: 0.28em;
+    text-transform: uppercase; color: var(--mute);
+  }
+  .event-select {
+    font-family: var(--serif); font-weight: 600; font-variation-settings: "opsz" 48;
+    font-size: 26px; line-height: 1.1; letter-spacing: -0.01em;
+    background: transparent; border: none; border-bottom: 1.5px solid var(--court);
+    color: var(--ink); padding: 4px 26px 8px 0; cursor: pointer; width: 100%;
+    -webkit-appearance: none; appearance: none; outline: none;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'><path d='M1 1l4 4 4-4' stroke='%23244a1d' stroke-width='1.2' fill='none' stroke-linecap='round'/></svg>");
+    background-repeat: no-repeat; background-position: right 4px center; background-size: 10px;
+  }
+  .event-meta {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.04em;
+    color: var(--mute); white-space: nowrap; padding-bottom: 8px;
+  }
+  .event-meta .badge {
+    display: inline-block; padding: 2px 10px;
+    background: var(--paper-2); border: 1px solid var(--rule);
+    margin-left: 6px; font-weight: 600; color: var(--ink-2);
+    text-transform: uppercase; letter-spacing: 0.18em; font-size: 9.5px;
+  }
+  .event-meta .badge.surface-clay { background: var(--clay); color: var(--paper); border-color: var(--clay-dark); }
+  .event-meta .badge.surface-grass { background: var(--court); color: var(--paper); border-color: var(--court-dark); }
+  .event-meta .badge.surface-hard { background: var(--blue); color: var(--paper); border-color: var(--blue-dark); }
+  .event-meta .badge.fresh { background: var(--court); color: var(--paper); border-color: var(--court-dark); }
+  .event-meta .badge.warm  { background: var(--paper-2); color: var(--ink-2); border-color: var(--rule); }
+  .event-meta .badge.stale { background: var(--clay); color: var(--paper); border-color: var(--clay-dark); }
+
+  /* SECTION HEAD */
+  .sec-head {
+    display: flex; align-items: center; gap: 10px;
+    padding-bottom: 10px; border-bottom: 1px solid var(--court);
+    margin-bottom: 18px; margin-top: 32px;
+  }
+  .sec-head::before {
+    content: ''; width: 6px; height: 6px; background: var(--ball); border-radius: 50%;
+  }
+  .sec-title {
+    font-family: var(--sans); font-size: 10.5px; font-weight: 700;
+    letter-spacing: 0.28em; text-transform: uppercase; color: var(--ink);
+  }
+  .sec-aside {
+    margin-left: auto; font-family: var(--mono); font-size: 11px;
+    color: var(--mute); letter-spacing: 0.04em; font-weight: 500;
+  }
+
+  /* MATCHES TABLE */
+  .matches-wrap { border: 1px solid var(--rule); background: var(--paper); }
+  .matches-table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+  .matches-table thead th {
+    background: var(--paper-2); padding: 10px 14px; text-align: left;
+    font-family: var(--sans); font-size: 10px; font-weight: 700;
+    letter-spacing: 0.24em; text-transform: uppercase; color: var(--mute);
+    border-bottom: 1px solid var(--court);
+  }
+  .matches-table th.num, .matches-table td.num {
+    text-align: right; font-family: var(--mono); font-feature-settings: "tnum";
+  }
+  .matches-table th.round, .matches-table td.round { width: 60px; }
+  .matches-table th.players, .matches-table td.players { }
+  .matches-table th.h2h, .matches-table td.h2h { width: 60px; }
+  .matches-table th.prob, .matches-table td.prob { width: 100px; }
+  .matches-table th.odds, .matches-table td.odds { width: 80px; }
+
+  .matches-table tbody td {
+    padding: 12px 14px; border-bottom: 1px dotted var(--rule-soft); color: var(--ink);
+    vertical-align: middle;
+  }
+  .matches-table tbody tr:last-child td { border-bottom: none; }
+  .matches-table tbody tr:hover td { background: var(--paper-2); }
+
+  .round-tag {
+    display: inline-block;
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.04em;
+    color: var(--court-dark); font-weight: 600;
+  }
+
+  .pair {
+    display: flex; flex-direction: column; gap: 4px; line-height: 1.3;
+  }
+  .pair-row { display: flex; align-items: baseline; gap: 8px; min-width: 0; }
+  .pair-name {
+    font-family: var(--serif); font-weight: 500; font-variation-settings: "opsz" 18;
+    font-size: 15px; letter-spacing: 0.005em; color: var(--ink);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .pair-name.fav { font-weight: 700; }
+  .pair-name.miss { color: var(--mute); font-style: italic; }
+  .pair-seed {
+    font-family: var(--mono); font-size: 10.5px; font-weight: 600;
+    color: var(--mute); letter-spacing: 0;
+    flex-shrink: 0; min-width: 28px;
+  }
+  .pair-pct {
+    font-family: var(--mono); font-size: 11px; font-weight: 500;
+    color: var(--mute); margin-left: auto; padding-left: 8px;
+    flex-shrink: 0;
+  }
+  .pair-pct.fav { color: var(--court-dark); font-weight: 600; }
+
+  .h2h-tag {
+    font-family: var(--mono); font-size: 11px; color: var(--mute);
+    letter-spacing: 0.02em; text-align: right; display: block;
+  }
+  .h2h-none { color: var(--mute-2); font-style: italic; font-family: var(--serif); }
+
+  td.prob-cell {
+    font-family: var(--serif); font-weight: 600; font-variation-settings: "opsz" 24;
+    font-size: 18px; letter-spacing: -0.005em; text-align: right;
+    color: var(--court-dark); padding-right: 14px;
+  }
+  td.prob-cell.miss { color: var(--mute); font-style: italic; font-size: 13px; font-weight: 400; }
+  td.odds-cell {
+    text-align: right; font-family: var(--mono); font-size: 12px; color: var(--mute);
+  }
+
+  .empty {
+    padding: 40px 20px; text-align: center;
+    font-family: var(--serif); font-style: italic; color: var(--mute); font-size: 14px;
+  }
+
+  /* COMPLETED rows inline */
+  .matches-table tr.actual td.prob-cell {
+    color: var(--ink-2); font-style: italic; font-size: 13px; font-weight: 500;
+  }
+  .matches-table tr.actual td.players .pair-name.fav {
+    color: var(--court-dark);
+  }
+  .matches-table tr.actual td.players .pair-name:not(.fav) {
+    color: var(--mute); text-decoration: line-through;
+  }
+  .actual-tag {
+    display: inline-block;
+    font-family: var(--sans); font-size: 8.5px; letter-spacing: 0.18em;
+    text-transform: uppercase; font-weight: 700; color: var(--court);
+    background: var(--paper-2); padding: 1px 6px;
+    border: 1px solid var(--rule-soft);
+    margin-left: 6px; vertical-align: middle;
+  }
+  .actual-score {
+    font-family: var(--mono); font-size: 11px; font-weight: 500;
+    color: var(--mute); display: block; margin-top: 2px;
+    font-feature-settings: "tnum";
+  }
+
+  /* COMPLETED RESULTS LIST */
+  .completed-table { width: 100%; border-collapse: collapse; }
+  .completed-table td {
+    padding: 7px 14px; border-bottom: 1px dotted var(--rule-soft);
+    font-family: var(--mono); font-size: 12px; color: var(--ink-2);
+  }
+  .completed-table tr:last-child td { border-bottom: none; }
+  .completed-table .ct-round {
+    width: 50px; color: var(--court-dark); font-weight: 600;
+  }
+  .completed-table .ct-result {
+    font-family: var(--serif); font-size: 13.5px;
+    font-variation-settings: "opsz" 16; color: var(--ink);
+  }
+  .completed-table .ct-result strong { font-weight: 600; }
+  .completed-table .ct-score { text-align: right; font-feature-settings: "tnum"; }
+
+  /* DRAW SHEET */
+  .draw-sheet {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-family: var(--mono);
+    font-feature-settings: "tnum";
+    background: var(--paper);
+  }
+  .draw-sheet thead th {
+    background: var(--paper-2);
+    padding: 9px 6px;
+    font-family: var(--sans);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--mute);
+    border-bottom: 1px solid var(--court);
+    text-align: center;
+    position: sticky; top: 0; z-index: 2;
+  }
+  .draw-sheet thead th.slot-col {
+    text-align: left; padding-left: 14px; width: 38%;
+  }
+  .draw-sheet thead th.idx-col {
+    width: 30px; text-align: right; padding-right: 4px;
+  }
+  .draw-sheet tbody td {
+    padding: 6px 6px;
+    border-bottom: 1px solid var(--rule-soft);
+    font-size: 11.5px;
+    text-align: center;
+    color: var(--ink);
+    vertical-align: middle;
+  }
+  .draw-sheet tbody td.slot {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-variation-settings: "opsz" 18;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 14px;
+    color: var(--ink);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .draw-sheet tbody td.slot.seeded { font-weight: 700; color: var(--court-dark); }
+  .draw-sheet tbody td.slot.bye { color: var(--mute); font-style: italic; font-weight: 400; }
+  .draw-sheet tbody td.slot.miss { color: var(--clay-dark); font-style: italic; }
+  .draw-sheet tbody td.idx {
+    font-size: 10px; color: var(--mute-2); text-align: right; padding-right: 4px;
+  }
+  .draw-sheet tbody tr.section-end td {
+    border-bottom: 2px solid var(--court);
+  }
+  .draw-sheet tbody tr.bye td.prob { color: var(--mute-2); }
+  .draw-sheet td.prob { font-weight: 500; letter-spacing: 0.02em; }
+  /* heat ramp — opacity increases with probability */
+  .draw-sheet td.prob.h0 { background: transparent; color: var(--mute-2); }
+  .draw-sheet td.prob.h1 { background: rgba(63, 107, 54, 0.07); }
+  .draw-sheet td.prob.h2 { background: rgba(63, 107, 54, 0.14); }
+  .draw-sheet td.prob.h3 { background: rgba(63, 107, 54, 0.24); }
+  .draw-sheet td.prob.h4 { background: rgba(63, 107, 54, 0.36); color: var(--ink); font-weight: 600; }
+  .draw-sheet td.prob.h5 { background: rgba(63, 107, 54, 0.50); color: var(--paper); font-weight: 700; }
+  .draw-sheet td.prob.h6 { background: var(--court);                color: var(--paper); font-weight: 700; }
+  .draw-sheet td.prob.h7 { background: var(--court-dark);           color: var(--paper); font-weight: 700; }
+
+  .draw-sheet-wrap {
+    border: 1px solid var(--rule);
+    background: var(--paper);
+    overflow-x: auto;
+  }
+
+  /* CHAMPION FORECAST */
+  .champ-grid {
+    border: 1px solid var(--rule); background: var(--paper);
+  }
+  .champ-row {
+    display: grid;
+    grid-template-columns: 36px 1fr auto auto;
+    column-gap: 14px;
+    align-items: center;
+    padding: 10px 16px;
+    border-bottom: 1px dotted var(--rule-soft);
+  }
+  .champ-row:last-child { border-bottom: none; }
+  .champ-rank {
+    font-family: var(--mono); font-size: 12px; color: var(--mute);
+    font-feature-settings: "tnum"; text-align: right; font-weight: 500;
+  }
+  .champ-name {
+    font-family: var(--serif); font-weight: 500; font-variation-settings: "opsz" 18;
+    font-size: 16px; letter-spacing: 0.005em; color: var(--ink);
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .champ-row.top-three .champ-name { font-weight: 700; color: var(--court-dark); }
+  .champ-bar {
+    width: 140px; height: 6px; background: var(--paper-2); position: relative;
+    border: 1px solid var(--rule-soft);
+  }
+  .champ-bar-fill {
+    height: 100%; background: var(--court);
+    transition: width 0.4s cubic-bezier(.2,.8,.2,1);
+  }
+  .champ-row.top-three .champ-bar-fill { background: var(--court); }
+  .champ-pct {
+    font-family: var(--mono); font-size: 13px; color: var(--ink);
+    font-feature-settings: "tnum"; font-weight: 500; min-width: 56px; text-align: right;
+  }
+  .champ-row.top-three .champ-pct { color: var(--court-dark); font-weight: 700; }
+  .champ-bye { font-style: italic; color: var(--mute); font-size: 13px; }
+
+  /* RESPONSIVE */
+  @media (max-width: 820px) {
+    .page { padding: 32px 24px 64px; }
+    .title { font-size: 44px; }
+    .event-picker { grid-template-columns: 1fr; }
+    .event-meta { padding-bottom: 0; }
+    .matches-table th.h2h, .matches-table td.h2h,
+    .matches-table th.odds, .matches-table td.odds { display: none; }
+    .matches-table th.round, .matches-table td.round { width: 40px; }
+    .matches-table th.prob, .matches-table td.prob { width: 80px; }
+    td.prob-cell { font-size: 15px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="masthead-date" id="masthead-date">—</div>
+    <h1 class="title">Tennis <em>Markov</em></h1>
+    <p class="deck">Live tour-event draws. The model's probability is computed for every scheduled match using current scraped serve / return stats blended with surface-specific Elo.</p>
+    <nav class="view-nav" aria-label="Views">
+      <a href="index.html">Match Simulator</a>
+      <a href="rankings.html">Power Rankings</a>
+      <a href="tournaments.html" class="active">Tournaments</a>
+    </nav>
+    <div class="tour-switch" id="tourSwitch" role="tablist">
+      <button type="button" class="tour-opt active" data-tour="atp" role="tab">ATP</button>
+      <button type="button" class="tour-opt" data-tour="wta" role="tab">WTA</button>
+    </div>
+  </header>
+
+  <section class="event-picker">
+    <div class="event-select-wrap">
+      <span class="event-select-label">Event</span>
+      <select class="event-select" id="eventSelect" aria-label="Select event"></select>
+    </div>
+    <div class="event-meta" id="eventMeta">—</div>
+  </section>
+
+  <div id="content"></div>
+</div>
+
+<script src="model.js"></script>
+<script>
+const {
+  TOUR_AVG_BY_SURFACE, TOUR_SOURCES,
+  parseCSV, filterActive, parseEloCSV,
+  effectiveStats, pointOnServeProb, matchWinProb, eloForSurface, eloMatchProb, blendProb,
+  impliedToAmerican, buildNameLookup, nameKey,
+} = TennisModel;
+
+const RECENCY = 0.70;
+const ELO_WEIGHT = 0.65;
+
+const state = {
+  tour: 'atp',
+  draws: { atp: [], wta: [] },
+  fetchedAt: { atp: null, wta: null },
+  players: { atp: {}, wta: {} },
+  elos:    { atp: {}, wta: {} },
+  lookup:  { atp: {}, wta: {} },
+  selectedSlug: { atp: null, wta: null },
+};
+
+const $ = id => document.getElementById(id);
+const fmtPct = (x, d = 1) => (x == null || !isFinite(x)) ? '—' : (x * 100).toFixed(d) + '%';
+
+async function tryFetch(url) {
+  try {
+    const r = await fetch(url, { cache: 'no-cache' });
+    if (!r.ok) return null;
+    return await r.text();
+  } catch { return null; }
+}
+
+async function loadTour(tour) {
+  const src = TOUR_SOURCES[tour];
+  // Players + Elos for the model
+  const [csv, elocsv, drawsRaw] = await Promise.all([
+    tryFetch(src.csv),
+    tryFetch(src.elo),
+    tryFetch(`draws_${tour}.json`),
+  ]);
+  if (csv) {
+    state.players[tour] = filterActive(parseCSV(csv));
+  } else {
+    state.players[tour] = filterActive(parseCSV(src.fallback));
+  }
+  state.elos[tour] = elocsv ? parseEloCSV(elocsv) : {};
+  state.lookup[tour] = buildNameLookup(state.players[tour]);
+
+  // Draws JSON
+  if (drawsRaw) {
+    try {
+      const j = JSON.parse(drawsRaw);
+      state.draws[tour] = j.events || [];
+      state.fetchedAt[tour] = j.fetched_at;
+    } catch { state.draws[tour] = []; }
+  } else {
+    state.draws[tour] = [];
+  }
+}
+
+function resolvePlayer(tour, name) {
+  const k = nameKey(name);
+  const real = state.lookup[tour][k];
+  return real ? state.players[tour][real] : null;
+}
+function resolveElo(tour, name) {
+  const k = nameKey(name);
+  const real = state.lookup[tour][k];
+  return real ? state.elos[tour][real] : null;
+}
+function resolveCanonical(tour, name) {
+  const k = nameKey(name);
+  return state.lookup[tour][k] || null;
+}
+
+function predictMatch(tour, surface, bestOf, nameA, nameB) {
+  const rowsA = resolvePlayer(tour, nameA);
+  const rowsB = resolvePlayer(tour, nameB);
+  if (!rowsA || !rowsB) return { p: null, missing: !rowsA ? nameA : nameB };
+  const sA = effectiveStats(rowsA, surface, RECENCY);
+  const sB = effectiveStats(rowsB, surface, RECENCY);
+  if (!sA || !sB) return { p: null, missing: !sA ? nameA : nameB };
+  const tourAvg = TOUR_AVG_BY_SURFACE[tour][surface];
+  const paS = pointOnServeProb(sA, sB, tourAvg);
+  const pbS = pointOnServeProb(sB, sA, tourAvg);
+  const pBC = matchWinProb(paS, pbS, bestOf);
+  const eA = eloForSurface(resolveElo(tour, nameA), surface);
+  const eB = eloForSurface(resolveElo(tour, nameB), surface);
+  const pElo = eloMatchProb(eA, eB);
+  return { p: blendProb(pBC, pElo, ELO_WEIGHT), pBC, pElo };
+}
+
+// =============== Bracket walker + Monte Carlo ===============
+
+// Round-name sequence based on the number of bracket slots.
+// 128 → R128, R64, R32, R16, QF, SF, F
+//  64 → R64,  R32, R16, QF, SF, F
+//  32 → R32,  R16, QF,  SF, F  (etc.)
+function roundNamesFor(slotCount) {
+  const seq = [];
+  let n = slotCount;
+  while (n > 1) {
+    if (n === 2) seq.push('F');
+    else if (n === 4) seq.push('SF');
+    else if (n === 8) seq.push('QF');
+    else seq.push(`R${n}`);
+    n = n >> 1;
+  }
+  return seq;
+}
+
+// Memoized predictor — each (A,B) pair only computed once per render.
+function makeCachedPredictor(tour, surface, bestOf) {
+  const cache = new Map();
+  return function (nameA, nameB) {
+    const a = nameKey(nameA), b = nameKey(nameB);
+    const [k1, k2] = a < b ? [a, b, nameA, nameB] : [b, a, nameB, nameA];
+    const key = k1 + '|' + k2;
+    let entry = cache.get(key);
+    if (!entry) {
+      // First time — compute with first name as A
+      const cached = predictMatch(tour, surface, bestOf,
+        a < b ? nameA : nameB,
+        a < b ? nameB : nameA);
+      entry = { p_first: cached.p, missing: cached.missing };
+      cache.set(key, entry);
+    }
+    // Return probability oriented for the requested A.
+    const orientedAFirst = (a < b);
+    const p = entry.p_first == null ? null
+            : orientedAFirst ? entry.p_first : 1 - entry.p_first;
+    return { p, missing: entry.missing };
+  };
+}
+
+// Index completed matches by the unordered (winner, loser) pair. This avoids
+// depending on TA's inconsistent round labels (ATP Rome uses R128/R64/R32; WTA
+// Rome uses R1/R2/R3; 125 events mix R1/R2 with QF/SF). Looking up by the
+// player pair is unambiguous: two players play at most once in a draw.
+function indexCompleted(completed) {
+  const byPair = {};
+  for (const c of completed) {
+    if (!c.winner || !c.loser) continue;
+    const wk = nameKey(c.winner), lk = nameKey(c.loser);
+    if (!wk || !lk) continue;
+    const pair = wk < lk ? `${wk}|${lk}` : `${lk}|${wk}`;
+    byPair[pair] = c;
+  }
+  // Returned object is duck-typed: callers only need `lookupPair(aKey, bKey)`.
+  return {
+    lookupPair(aKey, bKey) {
+      const k = aKey < bKey ? `${aKey}|${bKey}` : `${bKey}|${aKey}`;
+      return byPair[k] || null;
+    },
+  };
+}
+
+// Walk the bracket round-by-round. For each match, prefer an actual completed
+// outcome if present; else use the predictor. Returns:
+//   { rounds: [{name, matches: [...], byes: [...]}], champion_path }
+function walkBracket(slots, completed, predictor) {
+  const completedIdx = indexCompleted(completed);
+  const seq = roundNamesFor(slots.length);
+  let current = slots.slice();
+  const rounds = [];
+  for (const rname of seq) {
+    const matches = [];
+    const next = [];
+    for (let i = 0; i < current.length; i += 2) {
+      const a = current[i], b = current[i + 1];
+      // Defensive: stray nulls from earlier rounds shouldn't poison later iteration.
+      if (!a && !b) { next.push(null); continue; }
+      if (!a) { next.push(b); continue; }
+      if (!b) { next.push(a); continue; }
+      // Bye handling
+      if (a.bye && b.bye) {
+        next.push({ bye: true });
+        continue;
+      }
+      if (a.bye) {
+        matches.push({ kind: 'bye', advancing: b, round: rname });
+        next.push(b);
+        continue;
+      }
+      if (b.bye) {
+        matches.push({ kind: 'bye', advancing: a, round: rname });
+        next.push(a);
+        continue;
+      }
+      // Both real players — check completed (lookup by unordered player pair)
+      const aKey = nameKey(a.name), bKey = nameKey(b.name);
+      const done = completedIdx.lookupPair(aKey, bKey);
+      if (done) {
+        const winner = nameKey(done.winner) === aKey ? a : b;
+        matches.push({ kind: 'actual', a, b, winner, score: done.score, round: rname });
+        next.push(winner);
+      } else {
+        const pred = predictor(a.name, b.name);
+        const p = pred.p;
+        let winner;
+        if (p == null) {
+          // Missing player data — advance the resolvable side rather than nulling out.
+          if (pred.missing && pred.missing === a.name) winner = b;
+          else if (pred.missing && pred.missing === b.name) winner = a;
+          else winner = a;
+        } else {
+          winner = p >= 0.5 ? a : b;
+        }
+        next.push(winner);
+        matches.push({ kind: 'projected', a, b, winner, prob: p, missing: pred.missing, round: rname });
+      }
+    }
+    rounds.push({ name: rname, matches });
+    current = next;
+  }
+  return { rounds, champion: current[0] };
+}
+
+// Monte Carlo with per-round reach tracking. Returns:
+//   labels:  ['R64', 'R32', 'R16', 'QF', 'SF', 'F', 'W']  (varies by draw size)
+//   reach:   { playerName: [pAfterR1, pAfterR2, ..., pWin] }
+// (Length of the array == labels.length.)
+function simulateBracket(slots, completed, predictor, nSims = 4000) {
+  const completedIdx = indexCompleted(completed);
+  const seq = roundNamesFor(slots.length);
+  // Column labels: each column represents "advanced past round seq[i]".
+  // The last column we label 'W' — winning the final.
+  const labels = seq.slice(0, -1).map((_, i) => seq[i + 1]).concat(['W']);
+
+  const counts = new Map();   // name -> Float32Array(labels.length)
+  function bump(name, idx) {
+    let arr = counts.get(name);
+    if (!arr) { arr = new Float32Array(labels.length); counts.set(name, arr); }
+    arr[idx]++;
+  }
+
+  for (let trial = 0; trial < nSims; trial++) {
+    let cur = slots;
+    for (let rIdx = 0; rIdx < seq.length; rIdx++) {
+      const next = new Array(cur.length >> 1);
+      for (let i = 0, j = 0; i < cur.length; i += 2, j++) {
+        const a = cur[i], b = cur[i + 1];
+        if (!a && !b)                                     { next[j] = null; continue; }
+        if (!a)                                           { next[j] = b; continue; }
+        if (!b)                                           { next[j] = a; continue; }
+        if (a.bye && b.bye)                               { next[j] = { bye: true }; continue; }
+        if (a.bye)                                        { next[j] = b; continue; }
+        if (b.bye)                                        { next[j] = a; continue; }
+        const aKey = nameKey(a.name), bKey = nameKey(b.name);
+        const done = completedIdx.lookupPair(aKey, bKey);
+        if (done) {
+          next[j] = nameKey(done.winner) === aKey ? a : b;
+          continue;
+        }
+        const pred = predictor(a.name, b.name);
+        const p = pred.p == null ? 0.5 : pred.p;
+        next[j] = (Math.random() < p) ? a : b;
+      }
+      // Tally every survivor at this round's column.
+      for (const p of next) if (p && p.name) bump(p.name, rIdx);
+      cur = next;
+    }
+  }
+
+  const reach = {};
+  for (const [name, arr] of counts) {
+    const probs = new Array(labels.length);
+    for (let i = 0; i < labels.length; i++) probs[i] = arr[i] / nSims;
+    reach[name] = probs;
+  }
+  return { labels, reach };
+}
+
+// Monte Carlo: sample winners through the bracket, count champion appearances.
+function simulateChampion(slots, completed, predictor, nSims = 1000) {
+  const completedIdx = indexCompleted(completed);
+  const seq = roundNamesFor(slots.length);
+  const counts = new Map();   // name → champion count
+  const reachF = new Map();   // name → final-reach count
+  const reachSF = new Map();  // name → SF-reach count
+  for (let trial = 0; trial < nSims; trial++) {
+    let current = slots;
+    for (const rname of seq) {
+      const next = new Array(current.length >> 1);
+      for (let i = 0, j = 0; i < current.length; i += 2, j++) {
+        const a = current[i], b = current[i + 1];
+        if (a && a.bye && b && b.bye)      { next[j] = { bye: true }; continue; }
+        if (a && a.bye)                    { next[j] = b; continue; }
+        if (b && b.bye)                    { next[j] = a; continue; }
+        if (!a || !b)                       { next[j] = a || b || null; continue; }
+        const r = completedIdx[rname] || {};
+        if (r[nameKey(a.name)])             { next[j] = a; continue; }
+        if (r[nameKey(b.name)])             { next[j] = b; continue; }
+        const pred = predictor(a.name, b.name);
+        const p = pred.p == null ? 0.5 : pred.p;
+        next[j] = (Math.random() < p) ? a : b;
+      }
+      // Tally semifinal/final reaches
+      if (rname === 'SF') {
+        for (const x of next) if (x && x.name) reachF.set(x.name, (reachF.get(x.name) || 0) + 1);
+      }
+      if (rname === 'QF') {
+        for (const x of next) if (x && x.name) reachSF.set(x.name, (reachSF.get(x.name) || 0) + 1);
+      }
+      current = next;
+    }
+    if (current.length === 1 && current[0] && current[0].name) {
+      const k = current[0].name;
+      counts.set(k, (counts.get(k) || 0) + 1);
+    }
+  }
+  const out = [];
+  for (const [name, c] of counts) {
+    out.push({
+      name,
+      pChamp: c / nSims,
+      pFinal: (reachF.get(name) || 0) / nSims,
+      pSemi:  (reachSF.get(name) || 0) / nSims,
+    });
+  }
+  return out.sort((a, b) => b.pChamp - a.pChamp);
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function renderEvents() {
+  const sel = $('eventSelect');
+  const events = state.draws[state.tour];
+  sel.innerHTML = '';
+  if (!events.length) {
+    sel.innerHTML = '<option>—</option>';
+    $('eventMeta').textContent = 'No active events. Run python3 scrape_draws.py';
+    $('content').innerHTML = `<div class="empty">No draws available for ${state.tour.toUpperCase()}. Refresh data with <code>python3 scrape_draws.py</code>.</div>`;
+    return;
+  }
+  // Default: pick first event with the most upcoming matches
+  events.forEach(e => {
+    const opt = new Option(`${e.name} ${e.year}`, e.slug);
+    sel.append(opt);
+  });
+  let target = state.selectedSlug[state.tour];
+  if (!target || !events.find(e => e.slug === target)) {
+    const sorted = [...events].sort((a, b) => b.r1_matches.length - a.r1_matches.length);
+    target = sorted[0].slug;
+  }
+  sel.value = target;
+  state.selectedSlug[state.tour] = target;
+  renderEvent(target);
+}
+
+function freshnessFromIso(iso) {
+  if (!iso) return null;
+  // Tolerant ISO parse — JSON timestamps end in 'Z'
+  const fetched = new Date(iso);
+  if (isNaN(fetched.getTime())) return null;
+  const ageMs = Date.now() - fetched.getTime();
+  const mins  = Math.round(ageMs / 60000);
+  const hrs   = Math.round(ageMs / 3600000);
+  const days  = Math.floor(ageMs / 86400000);
+  let label, klass;
+  if (mins < 1)        { label = 'just now';            klass = 'fresh'; }
+  else if (mins < 60)  { label = `${mins} min ago`;     klass = mins < 120 ? 'fresh' : 'warm'; }
+  else if (hrs < 24)   { label = `${hrs} h ago`;        klass = hrs < 6 ? 'fresh' : hrs < 18 ? 'warm' : 'stale'; }
+  else                 { label = `${days} d ago`;       klass = 'stale'; }
+  // "Stale" condition: anything older than 6 hours warrants a refresh hint mid-tournament
+  const stale = hrs >= 6;
+  return { label, klass, stale, ageHours: hrs };
+}
+
+function renderEvent(slug) {
+  const ev = state.draws[state.tour].find(e => e.slug === slug);
+  if (!ev) return;
+  state.selectedSlug[state.tour] = slug;
+  const surfClass = `surface-${ev.surface}`;
+  const fresh = freshnessFromIso(state.fetchedAt[state.tour]);
+
+  let metaHtml = `<span class="badge ${surfClass}">${ev.surface}</span>`
+    + `<span class="badge">Bo${ev.best_of}</span>`;
+  if (fresh) metaHtml += `<span class="badge ${fresh.klass}" title="${state.fetchedAt[state.tour]}">drawn ${fresh.label}</span>`;
+  $('eventMeta').innerHTML = metaHtml;
+
+  const slots = ev.bracket_slots || [];
+  const completed = ev.completed || [];
+
+  if (!slots.length) {
+    $('content').innerHTML = `<div class="empty">Bracket data not available for this event yet.</div>`;
+    return;
+  }
+
+  const predictor = makeCachedPredictor(state.tour, ev.surface, ev.best_of);
+  const SIMS = 4000;
+
+  // One simulation pass produces both per-slot reach probs AND champion ranks.
+  const { labels, reach } = simulateBracket(slots, completed, predictor, SIMS);
+  const championRanking = Object.entries(reach)
+    .map(([name, probs]) => ({ name, pChamp: probs[probs.length - 1] }))
+    .filter(r => r.pChamp > 0)
+    .sort((a, b) => b.pChamp - a.pChamp);
+
+  let html = '';
+
+  // ----- Champion forecast -----
+  html += `<div class="sec-head">
+    <span class="sec-title">Champion Forecast</span>
+    <span class="sec-aside">${SIMS.toLocaleString()} bracket simulations · top 8</span>
+  </div>`;
+  if (!championRanking.length) {
+    html += `<div class="empty">No simulated outcomes — predictor missing too many players.</div>`;
+  } else {
+    const maxP = championRanking[0].pChamp;
+    html += `<div class="champ-grid">`;
+    championRanking.slice(0, 8).forEach((r, i) => {
+      const top = i < 3 ? 'top-three' : '';
+      const w = maxP > 0 ? (r.pChamp / maxP * 100) : 0;
+      html += `<div class="champ-row ${top}">
+        <div class="champ-rank">${i + 1}</div>
+        <div class="champ-name">${escapeHtml(r.name)}</div>
+        <div class="champ-bar"><div class="champ-bar-fill" style="width:${w.toFixed(1)}%"></div></div>
+        <div class="champ-pct">${(r.pChamp * 100).toFixed(1)}%</div>
+      </div>`;
+    });
+    html += `</div>`;
+  }
+
+  // ----- Draw sheet (per-slot reach probabilities) -----
+  html += `<div class="sec-head">
+    <span class="sec-title">Draw · ${slots.filter(s => !s.bye).length} players</span>
+    <span class="sec-aside">cells = probability of reaching that round</span>
+  </div>`;
+  html += renderDrawSheet(slots, completed, labels, reach);
+
+  // ----- Compact recent results -----
+  if (completed.length) {
+    html += `<div class="sec-head">
+      <span class="sec-title">Completed Matches · ${completed.length}</span>
+    </div>`;
+    html += `<div class="matches-wrap"><table class="completed-table"><tbody>`;
+    for (const c of completed.slice(0, 100)) {
+      html += `<tr>
+        <td class="ct-round">${escapeHtml(c.round)}</td>
+        <td class="ct-result"><strong>${escapeHtml(c.winner)}</strong> d. ${escapeHtml(c.loser)}</td>
+        <td class="ct-score">${escapeHtml(c.score)}</td>
+      </tr>`;
+    }
+    html += `</tbody></table></div>`;
+  }
+
+  $('content').innerHTML = html;
+}
+
+function heatClass(p) {
+  if (p == null || p <= 0)    return 'h0';
+  if (p < 0.10)               return 'h1';
+  if (p < 0.25)               return 'h2';
+  if (p < 0.40)               return 'h3';
+  if (p < 0.55)               return 'h4';
+  if (p < 0.70)               return 'h5';
+  if (p < 0.85)               return 'h6';
+  return 'h7';
+}
+
+function renderDrawSheet(slots, completed, labels, reach) {
+  const completedIdx = indexCompleted(completed);
+  // Detect already-eliminated players so we can grey their reach probabilities
+  // beyond the round they lost in. Actually, MC already accounts for this — losers
+  // get 0 in subsequent columns. We just trust the numbers.
+
+  const cols = labels;  // e.g. ['R64','R32','R16','QF','SF','F','W']
+
+  let html = `<div class="draw-sheet-wrap" style="max-height: 720px; overflow-y: auto;"><table class="draw-sheet">
+    <thead><tr>
+      <th class="idx-col">#</th>
+      <th class="slot-col">Player</th>`;
+  for (const c of cols) html += `<th>${escapeHtml(roundDisplayName(c))}</th>`;
+  html += `</tr></thead><tbody>`;
+
+  slots.forEach((slot, i) => {
+    // Section break every 8 slots (TA convention)
+    const isSectionEnd = ((i + 1) % 8 === 0) && (i + 1 < slots.length);
+    const trClass = (slot.bye ? 'bye ' : '') + (isSectionEnd ? 'section-end' : '');
+    if (slot.bye) {
+      html += `<tr class="${trClass}">
+        <td class="idx">${i + 1}</td>
+        <td class="slot bye">Bye</td>`;
+      for (const c of cols) html += `<td class="prob h0">—</td>`;
+      html += `</tr>`;
+      return;
+    }
+    const seedStr = slot.seed ? `(${slot.seed}) ` : '';
+    const seedClass = slot.seed && slot.seed.match(/^\d+$/) ? 'seeded' : '';
+    const ctry = slot.country ? `  <span style="color:var(--mute);font-size:11px;font-family:var(--mono);">${escapeHtml(slot.country)}</span>` : '';
+    const inRoster = !!resolvePlayer(state.tour, slot.name);
+    const missClass = inRoster ? '' : 'miss';
+    html += `<tr class="${trClass}">
+      <td class="idx">${i + 1}</td>
+      <td class="slot ${seedClass} ${missClass}" title="${escapeHtml(slot.name)}">${escapeHtml(seedStr)}${escapeHtml(slot.name)}${ctry}</td>`;
+    const probs = reach[slot.name] || new Array(cols.length).fill(0);
+    for (let j = 0; j < cols.length; j++) {
+      const p = probs[j] || 0;
+      const cls = heatClass(p);
+      const text = (p === 0) ? '—' : (p >= 0.995 ? '100%' : p >= 0.10 ? `${(p * 100).toFixed(0)}%` : `${(p * 100).toFixed(1)}%`);
+      html += `<td class="prob ${cls}">${text}</td>`;
+    }
+    html += `</tr>`;
+  });
+
+  html += `</tbody></table></div>`;
+  return html;
+}
+
+function roundDisplayName(name) {
+  if (name === 'F')  return 'Final';
+  if (name === 'SF') return 'Semifinals';
+  if (name === 'QF') return 'Quarterfinals';
+  if (name === 'R16') return 'Round of 16';
+  if (name === 'R32') return 'Round of 32';
+  if (name === 'R64') return 'Round of 64';
+  if (name === 'R128') return 'Round of 128';
+  return name;
+}
+
+function renderMatchRow(m, rowNum) {
+  const a = m.a, b = m.b;
+  const aSeed = a.seed ? `<span class="pair-seed">(${escapeHtml(a.seed)})</span>` : '<span class="pair-seed"></span>';
+  const bSeed = b.seed ? `<span class="pair-seed">(${escapeHtml(b.seed)})</span>` : '<span class="pair-seed"></span>';
+  if (m.kind === 'actual') {
+    const w = m.winner;
+    const aFav = nameKey(a.name) === nameKey(w.name);
+    const bFav = !aFav;
+    return `<tr class="actual">
+      <td class="round"><span class="round-tag">${rowNum}</span></td>
+      <td class="players"><div class="pair">
+        <div class="pair-row">${aSeed}<span class="pair-name ${aFav?'fav':''}">${escapeHtml(a.name)}</span></div>
+        <div class="pair-row">${bSeed}<span class="pair-name ${bFav?'fav':''}">${escapeHtml(b.name)}</span></div>
+      </div></td>
+      <td class="num prob-cell">${escapeHtml(w.name)}<span class="actual-tag">final</span><span class="actual-score">${escapeHtml(m.score || '')}</span></td>
+      <td class="num odds-cell">—</td>
+    </tr>`;
+  }
+  // projected
+  const pA = m.prob;
+  const aMiss = !resolvePlayer(state.tour, a.name);
+  const bMiss = !resolvePlayer(state.tour, b.name);
+  let pickHtml, oddsHtml, aPct = '', bPct = '', aFav = false, bFav = false;
+  if (pA == null) {
+    pickHtml = `<td class="num prob-cell miss">—</td>`;
+    oddsHtml = `<td class="num odds-cell">—</td>`;
+  } else {
+    aFav = pA >= 0.5; bFav = !aFav;
+    aPct = `${(pA * 100).toFixed(0)}%`;
+    bPct = `${((1 - pA) * 100).toFixed(0)}%`;
+    const winner = aFav ? a.name : b.name;
+    const pct = aFav ? pA : 1 - pA;
+    pickHtml = `<td class="num prob-cell">${escapeHtml(winner)}<br><span style="font-family:var(--mono);font-size:12px;font-weight:500;color:var(--mute);">${(pct * 100).toFixed(1)}%</span></td>`;
+    oddsHtml = `<td class="num odds-cell">${impliedToAmerican(pct)}</td>`;
+  }
+  return `<tr>
+    <td class="round"><span class="round-tag">${rowNum}</span></td>
+    <td class="players"><div class="pair">
+      <div class="pair-row">${aSeed}<span class="pair-name ${aFav?'fav':''} ${aMiss?'miss':''}">${escapeHtml(a.name)}</span><span class="pair-pct ${aFav?'fav':''}">${aPct}</span></div>
+      <div class="pair-row">${bSeed}<span class="pair-name ${bFav?'fav':''} ${bMiss?'miss':''}">${escapeHtml(b.name)}</span><span class="pair-pct ${bFav?'fav':''}">${bPct}</span></div>
+    </div></td>
+    ${pickHtml}
+    ${oddsHtml}
+  </tr>`;
+}
+
+async function switchTour(tour) {
+  if (tour === state.tour) return;
+  state.tour = tour;
+  document.querySelectorAll('#tourSwitch .tour-opt').forEach(b => {
+    const on = b.dataset.tour === tour;
+    b.classList.toggle('active', on);
+    b.setAttribute('aria-selected', on ? 'true' : 'false');
+  });
+  if (!Object.keys(state.players[tour]).length) await loadTour(tour);
+  renderEvents();
+}
+
+async function init() {
+  $('masthead-date').textContent = new Date().toLocaleDateString('en-US', {
+    weekday: 'long', day: 'numeric', month: 'long', year: 'numeric',
+  });
+  await loadTour(state.tour);
+  renderEvents();
+
+  document.querySelectorAll('#tourSwitch .tour-opt').forEach(b => {
+    b.addEventListener('click', () => switchTour(b.dataset.tour));
+  });
+  $('eventSelect').addEventListener('change', e => renderEvent(e.target.value));
+}
+
+init();
+</script>
+</body>
+</html>

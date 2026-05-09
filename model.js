@@ -193,6 +193,23 @@ function filterActive(players) {
   return out;
 }
 
+// Loose name matching: strip accents/punctuation, collapse whitespace, lowercase.
+// Used to align Tennis Abstract draw entries against our roster CSV.
+function nameKey(s) {
+  return String(s || '')
+    .normalize('NFKD').replace(/[̀-ͯ]/g, '')
+    .replace(/[^A-Za-z0-9 ]+/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .toLowerCase();
+}
+
+function buildNameLookup(players) {
+  const map = {};
+  for (const k of Object.keys(players)) map[nameKey(k)] = k;
+  return map;
+}
+
 function pointOnServeProb(server, returner, tourAvg) {
   return server.spw + (1 - tourAvg) - returner.rpw;
 }
@@ -601,6 +618,7 @@ globalThis.TennisModel = {
   DEFAULT_CSV_ATP, DEFAULT_CSV_WTA,
   // parsing
   parseCSV, effectiveStats, sampleSize, hasRecentData, filterActive,
+  nameKey, buildNameLookup,
   // analytic
   pointOnServeProb, gameWinProb, tbServer, tiebreakWinProb, setWinProb, matchWinProb,
   // elo
