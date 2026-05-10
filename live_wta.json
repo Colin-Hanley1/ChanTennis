@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-10T09:45:46Z",
+  "fetched_at": "2026-05-10T11:07:40Z",
   "source": "espn",
   "matches": [
     {
@@ -458,6 +458,13 @@
       "event": "2026WTARome"
     },
     {
+      "winner": "Elina Svitolina",
+      "loser": "Hailey Baptiste",
+      "score": "6-1 6-2",
+      "round": "Round 3",
+      "event": "2026WTARome"
+    },
+    {
       "winner": "Elise Mertens",
       "loser": "Jasmine Paolini",
       "score": "4-6 7-6 6-3",
@@ -489,6 +496,13 @@
       "winner": "Mirra Andreeva",
       "loser": "Viktorija Golubic",
       "score": "6-1 4-6 6-0",
+      "round": "Round 3",
+      "event": "2026WTARome"
+    },
+    {
+      "winner": "Nikola Bartunkova",
+      "loser": "Madison Keys",
+      "score": "6-3 1-6 6-4",
       "round": "Round 3",
       "event": "2026WTARome"
     },

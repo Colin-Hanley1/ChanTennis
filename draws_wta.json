@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-10T09:45:49Z",
+  "fetched_at": "2026-05-10T11:07:43Z",
   "events": [
     {
       "slug": "2026WTARome",
@@ -713,13 +713,6 @@
           "h2h": "0-1"
         },
         {
-          "a": "Elina Svitolina",
-          "b": "Hailey Baptiste",
-          "a_seed": "7",
-          "b_seed": "32",
-          "h2h": "1-1"
-        },
-        {
           "a": "Madison Keys",
           "b": "Nikola Bartunkova",
           "a_seed": "17",
@@ -817,6 +810,12 @@
           "winner": "Mirra Andreeva",
           "loser": "Viktorija Golubic",
           "score": "61 46 60"
+        },
+        {
+          "round": "R3",
+          "winner": "Elina Svitolina",
+          "loser": "Hailey Baptiste",
+          "score": "61 62"
         },
         {
           "round": "R2",
