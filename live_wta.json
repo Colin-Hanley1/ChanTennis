@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-10T11:07:40Z",
+  "fetched_at": "2026-05-10T13:49:21Z",
   "source": "espn",
   "matches": [
     {
@@ -444,6 +444,13 @@
       "event": "2026WTARome"
     },
     {
+      "winner": "Anastasia Potapova",
+      "loser": "Liudmila Samsonova",
+      "score": "6-3 6-2",
+      "round": "Round 3",
+      "event": "2026WTARome"
+    },
+    {
       "winner": "Anna Kalinskaya",
       "loser": "Belinda Bencic",
       "score": "6-4 6-3",
@@ -486,6 +493,13 @@
       "event": "2026WTARome"
     },
     {
+      "winner": "Jessica Pegula",
+      "loser": "Rebeka Masarova",
+      "score": "6-0 6-0",
+      "round": "Round 3",
+      "event": "2026WTARome"
+    },
+    {
       "winner": "Linda Noskova",
       "loser": "Oleksandra Oliynykova",
       "score": "6-1 6-3",
@@ -496,6 +510,13 @@
       "winner": "Mirra Andreeva",
       "loser": "Viktorija Golubic",
       "score": "6-1 4-6 6-0",
+      "round": "Round 3",
+      "event": "2026WTARome"
+    },
+    {
+      "winner": "Naomi Osaka",
+      "loser": "Diana Shnaider",
+      "score": "6-1 6-2",
       "round": "Round 3",
       "event": "2026WTARome"
     },
