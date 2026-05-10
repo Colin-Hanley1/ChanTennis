@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-10T09:24:11Z",
+  "fetched_at": "2026-05-10T09:45:49Z",
   "events": [
     {
       "slug": "2026WTARome",
@@ -1406,16 +1406,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Xiaodi You",
-          "b": "En Shuo Liang",
-          "a_seed": "5",
-          "b_seed": null,
-          "h2h": "0-3"
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "En Shuo Liang",
+          "loser": "Xiaodi You",
+          "score": "36 64 61"
+        },
         {
           "round": "SF",
           "winner": "Xiaodi You",
