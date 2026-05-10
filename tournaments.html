@@ -821,6 +821,33 @@ function resolveBracketName(typed, slotKeys, slotKeyToName) {
         return slotKeyToName[sk];
       }
     }
+    // Joined-string match: catches Asian-name concatenation differences like
+    // "Wang Xinyu" ↔ "Xin Yu Wang" (the typed "Xinyu" is the bracket's "Xin Yu").
+    const typedJoined    = tokens.join('');
+    const typedRevJoined = tokens.slice().reverse().join('');
+    for (const sk of slotKeys) {
+      const skJoined = sk.replace(/ /g, '');
+      if (skJoined === typedJoined || skJoined === typedRevJoined) {
+        return slotKeyToName[sk];
+      }
+    }
+    // Last-name + first-letter unique match: catches nicknames like
+    // "Caty Mcnally" ↔ "Catherine McNally", "Sam Querrey" ↔ "Samuel Querrey".
+    // Only resolves when exactly one bracket player matches that surname-and-
+    // initial pattern, so it can't ambiguously pick a sibling.
+    const tLast = tokens[tokens.length - 1];
+    const tFirstChar = tokens[0][0];
+    let lastNameMatches = 0, lastNameOnly = null;
+    for (const sk of slotKeys) {
+      const ct = sk.split(' ').filter(Boolean);
+      if (ct.length < 2) continue;
+      if (ct[ct.length - 1] !== tLast) continue;
+      if (ct[0][0] !== tFirstChar) continue;
+      lastNameMatches++;
+      lastNameOnly = sk;
+      if (lastNameMatches > 1) break;
+    }
+    if (lastNameMatches === 1) return slotKeyToName[lastNameOnly];
   }
   // Levenshtein fallback for single-character typos.
   let bestSk = null, bestDist = 3;  // max edit distance to accept
