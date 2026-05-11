@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-10T13:49:24Z",
+  "fetched_at": "2026-05-11T04:17:48Z",
   "events": [
     {
       "slug": "2026WTARome",
@@ -685,27 +685,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Elisabetta Cocciaretto",
-          "b": "Iga Swiatek",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
-          "a": "Laura Siegemund",
-          "b": "Karolina Pliskova",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-1"
-        },
-        {
-          "a": "Alexandra Eala",
-          "b": "Elena Rybakina",
-          "a_seed": "2",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Sorana Cirstea",
           "b": "Linda Noskova",
           "a_seed": "26",
@@ -741,11 +720,25 @@
           "h2h": "5-0"
         },
         {
+          "a": "Naomi Osaka",
+          "b": "Iga Swiatek",
+          "a_seed": "15",
+          "b_seed": "4",
+          "h2h": "1-2"
+        },
+        {
           "a": "Elina Svitolina",
           "b": "Nikola Bartunkova",
           "a_seed": "7",
           "b_seed": "LL",
           "h2h": null
+        },
+        {
+          "a": "Karolina Pliskova",
+          "b": "Elena Rybakina",
+          "a_seed": "2",
+          "b_seed": null,
+          "h2h": "0-4"
         }
       ],
       "completed": [
@@ -817,6 +810,12 @@
         },
         {
           "round": "R3",
+          "winner": "Iga Swiatek",
+          "loser": "Elisabetta Cocciaretto",
+          "score": "61 60"
+        },
+        {
+          "round": "R3",
           "winner": "Elina Svitolina",
           "loser": "Hailey Baptiste",
           "score": "61 62"
@@ -826,6 +825,18 @@
           "winner": "Nikola Bartunkova",
           "loser": "Madison Keys",
           "score": "63 16 64"
+        },
+        {
+          "round": "R3",
+          "winner": "Karolina Pliskova",
+          "loser": "Laura Siegemund",
+          "score": "61 64"
+        },
+        {
+          "round": "R3",
+          "winner": "Elena Rybakina",
+          "loser": "Alexandra Eala",
+          "score": "64 63"
         },
         {
           "round": "R2",
