@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-11T17:48:12Z",
+  "fetched_at": "2026-05-11T19:25:18Z",
   "source": "espn",
   "matches": [
     {
@@ -566,6 +566,13 @@
       "winner": "Elina Svitolina",
       "loser": "Nikola Bartunkova",
       "score": "6-2 6-3",
+      "round": "Round 4",
+      "event": "2026WTARome"
+    },
+    {
+      "winner": "Iga Swiatek",
+      "loser": "Naomi Osaka",
+      "score": "6-2 6-1",
       "round": "Round 4",
       "event": "2026WTARome"
     },
