@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-11T08:31:14Z",
+  "fetched_at": "2026-05-11T12:20:00Z",
   "events": [
     {
       "slug": "2026WTARome",
@@ -685,13 +685,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Sorana Cirstea",
-          "b": "Linda Noskova",
-          "a_seed": "26",
-          "b_seed": "13",
-          "h2h": "2-2"
-        },
-        {
           "a": "Anna Kalinskaya",
           "b": "Jelena Ostapenko",
           "a_seed": "22",
@@ -742,6 +735,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R4",
+          "winner": "Sorana Cirstea",
+          "loser": "Linda Noskova",
+          "score": "62 64"
+        },
         {
           "round": "R3",
           "winner": "Sorana Cirstea",
