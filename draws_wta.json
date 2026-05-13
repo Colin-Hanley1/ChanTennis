@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-12T12:05:34Z",
+  "fetched_at": "2026-05-13T04:08:44Z",
   "events": [
     {
       "slug": "2026WTARome",
@@ -685,20 +685,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Sorana Cirstea",
-          "b": "Jelena Ostapenko",
-          "a_seed": "26",
-          "b_seed": null,
-          "h2h": "3-4"
-        },
-        {
-          "a": "Coco Gauff",
-          "b": "Mirra Andreeva",
-          "a_seed": "3",
-          "b_seed": "8",
-          "h2h": "4-0"
-        },
-        {
           "a": "Jessica Pegula",
           "b": "Iga Swiatek",
           "a_seed": "5",
@@ -711,9 +697,28 @@
           "a_seed": "7",
           "b_seed": "2",
           "h2h": "3-4"
+        },
+        {
+          "a": "Sorana Cirstea",
+          "b": "Coco Gauff",
+          "a_seed": "26",
+          "b_seed": "3",
+          "h2h": "0-3"
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Sorana Cirstea",
+          "loser": "Jelena Ostapenko",
+          "score": "61 76(0)"
+        },
+        {
+          "round": "QF",
+          "winner": "Coco Gauff",
+          "loser": "Mirra Andreeva",
+          "score": "46 62 64"
+        },
         {
           "round": "R4",
           "winner": "Sorana Cirstea",
