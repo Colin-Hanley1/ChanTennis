@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-14T21:49:32Z",
+  "fetched_at": "2026-05-14T22:47:28Z",
   "source": "espn",
   "matches": [
     {
@@ -643,6 +643,13 @@
       "winner": "Coco Gauff",
       "loser": "Sorana Cirstea",
       "score": "6-4 6-3",
+      "round": "Semifinal",
+      "event": "2026WTARome"
+    },
+    {
+      "winner": "Elina Svitolina",
+      "loser": "Iga Swiatek",
+      "score": "6-4 2-6 6-2",
       "round": "Semifinal",
       "event": "2026WTARome"
     }
