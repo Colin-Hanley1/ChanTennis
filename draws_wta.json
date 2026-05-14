@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-13T14:55:15Z",
+  "fetched_at": "2026-05-14T04:08:18Z",
   "events": [
     {
       "slug": "2026WTARome",
@@ -685,18 +685,18 @@
       ],
       "r1_matches": [
         {
-          "a": "Elina Svitolina",
-          "b": "Elena Rybakina",
-          "a_seed": "7",
-          "b_seed": "2",
-          "h2h": "3-4"
-        },
-        {
           "a": "Sorana Cirstea",
           "b": "Coco Gauff",
           "a_seed": "26",
           "b_seed": "3",
           "h2h": "0-3"
+        },
+        {
+          "a": "Iga Swiatek",
+          "b": "Elina Svitolina",
+          "a_seed": "4",
+          "b_seed": "7",
+          "h2h": "4-2"
         }
       ],
       "completed": [
@@ -717,6 +717,12 @@
           "winner": "Iga Swiatek",
           "loser": "Jessica Pegula",
           "score": "61 62"
+        },
+        {
+          "round": "QF",
+          "winner": "Elina Svitolina",
+          "loser": "Elena Rybakina",
+          "score": "26 64 64"
         },
         {
           "round": "R4",
