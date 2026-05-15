@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-14T13:00:39Z",
+  "fetched_at": "2026-05-15T04:12:45Z",
   "events": [
     {
       "slug": "2026WTARome",
@@ -685,21 +685,26 @@
       ],
       "r1_matches": [
         {
-          "a": "Sorana Cirstea",
-          "b": "Coco Gauff",
-          "a_seed": "26",
-          "b_seed": "3",
-          "h2h": "0-3"
-        },
-        {
-          "a": "Iga Swiatek",
+          "a": "Coco Gauff",
           "b": "Elina Svitolina",
-          "a_seed": "4",
+          "a_seed": "3",
           "b_seed": "7",
-          "h2h": "4-2"
+          "h2h": "2-3"
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Coco Gauff",
+          "loser": "Sorana Cirstea",
+          "score": "64 63"
+        },
+        {
+          "round": "SF",
+          "winner": "Elina Svitolina",
+          "loser": "Iga Swiatek",
+          "score": "64 26 62"
+        },
         {
           "round": "QF",
           "winner": "Sorana Cirstea",
