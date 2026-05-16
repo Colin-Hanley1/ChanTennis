@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-16T12:00:15Z",
+  "fetched_at": "2026-05-16T13:52:52Z",
   "events": [
     {
       "slug": "2026WTARome",
@@ -1463,11 +1463,11 @@
       ],
       "r1_matches": [
         {
-          "a": "Dayana Yastremska",
-          "b": "Jessica Bouzas Maneiro",
-          "a_seed": "3",
-          "b_seed": "2",
-          "h2h": "0-2"
+          "a": "Barbora Krejcikova",
+          "b": "Dayana Yastremska",
+          "a_seed": "4",
+          "b_seed": "3",
+          "h2h": "2-1"
         }
       ],
       "completed": [
@@ -1476,6 +1476,12 @@
           "winner": "Barbora Krejcikova",
           "loser": "Camila Osorio",
           "score": "62 16 75"
+        },
+        {
+          "round": "SF",
+          "winner": "Dayana Yastremska",
+          "loser": "Jessica Bouzas Maneiro",
+          "score": "76(5) 67(4) 76(5)"
         },
         {
           "round": "QF",
