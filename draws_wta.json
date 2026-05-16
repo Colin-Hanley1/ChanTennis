@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-15T14:29:18Z",
+  "fetched_at": "2026-05-16T03:54:44Z",
   "events": [
     {
       "slug": "2026WTARome",
@@ -1463,13 +1463,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Camila Osorio",
-          "b": "Barbora Krejcikova",
-          "a_seed": "7",
-          "b_seed": "4",
-          "h2h": null
-        },
-        {
           "a": "Dayana Yastremska",
           "b": "Jessica Bouzas Maneiro",
           "a_seed": "3",
@@ -1478,6 +1471,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Barbora Krejcikova",
+          "loser": "Camila Osorio",
+          "score": "62 16 75"
+        },
         {
           "round": "QF",
           "winner": "Camila Osorio",
@@ -1853,20 +1852,26 @@
       "r1_matches": [
         {
           "a": "Madison Keys",
-          "b": "Anastasia Zakharova",
+          "b": "Yuliia Starodubtseva",
           "a_seed": "1",
-          "b_seed": null,
-          "h2h": "1-0"
+          "b_seed": "7",
+          "h2h": "0-1"
         },
         {
-          "a": "Alina Charaeva",
-          "b": "Aliaksandra Sasnovich",
+          "a": "Diane Parry",
+          "b": "Alina Charaeva",
           "a_seed": "Q",
           "b_seed": null,
           "h2h": "1-0"
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Madison Keys",
+          "loser": "Anastasia Zakharova",
+          "score": "64 61"
+        },
         {
           "round": "QF",
           "winner": "Yuliia Starodubtseva",
@@ -1878,6 +1883,12 @@
           "winner": "Diane Parry",
           "loser": "Yulia Putintseva",
           "score": ""
+        },
+        {
+          "round": "QF",
+          "winner": "Alina Charaeva",
+          "loser": "Aliaksandra Sasnovich",
+          "score": "64 60"
         },
         {
           "round": "R2",
