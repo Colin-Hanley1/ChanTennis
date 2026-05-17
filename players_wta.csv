@@ -8,21 +8,21 @@ Aryna Sabalenka,clay,career,0.6020,0.4530,120
 Aryna Sabalenka,grass,career,0.6130,0.4240,54
 Aryna Sabalenka,all,career,0.6120,0.4454,550
 Elena Rybakina,hard,52week,0.6540,0.4260,61
-Elena Rybakina,clay,52week,0.6440,0.4350,18
+Elena Rybakina,clay,52week,0.6390,0.4430,21
 Elena Rybakina,grass,52week,0.6320,0.4330,8
-Elena Rybakina,all,52week,0.6499,0.4285,87
+Elena Rybakina,all,52week,0.6485,0.4306,90
 Elena Rybakina,hard,career,0.6300,0.4250,286
-Elena Rybakina,clay,career,0.6120,0.4470,95
+Elena Rybakina,clay,career,0.6120,0.4480,98
 Elena Rybakina,grass,career,0.6430,0.4230,47
-Elena Rybakina,all,career,0.6274,0.4297,428
+Elena Rybakina,all,career,0.6273,0.4300,431
 Jessica Pegula,hard,52week,0.6200,0.4570,51
-Jessica Pegula,clay,52week,0.6140,0.4400,15
+Jessica Pegula,clay,52week,0.6130,0.4450,18
 Jessica Pegula,grass,52week,0.6360,0.3780,6
-Jessica Pegula,all,52week,0.6201,0.4469,72
+Jessica Pegula,all,52week,0.6196,0.4478,75
 Jessica Pegula,hard,career,0.6010,0.4530,306
-Jessica Pegula,clay,career,0.5750,0.4590,80
+Jessica Pegula,clay,career,0.5760,0.4600,83
 Jessica Pegula,grass,career,0.6140,0.4210,36
-Jessica Pegula,all,career,0.5972,0.4514,422
+Jessica Pegula,all,career,0.5972,0.4517,425
 Karolina Muchova,hard,52week,0.6220,0.4290,42
 Karolina Muchova,clay,52week,0.5780,0.4020,7
 Karolina Muchova,grass,52week,0.5930,0.3400,3
@@ -32,29 +32,29 @@ Karolina Muchova,clay,career,0.5830,0.4420,49
 Karolina Muchova,grass,career,0.5990,0.4010,22
 Karolina Muchova,all,career,0.6054,0.4298,258
 Coco Gauff,hard,52week,0.5710,0.4750,45
-Coco Gauff,clay,52week,0.5780,0.5260,20
+Coco Gauff,clay,52week,0.5760,0.5150,24
 Coco Gauff,grass,52week,0.5260,0.3390,2
-Coco Gauff,all,52week,0.5717,0.4862,67
+Coco Gauff,all,52week,0.5714,0.4847,71
 Coco Gauff,hard,career,0.5910,0.4540,247
-Coco Gauff,clay,career,0.5780,0.4940,96
+Coco Gauff,clay,career,0.5770,0.4930,100
 Coco Gauff,grass,career,0.6220,0.4130,33
-Coco Gauff,all,career,0.5904,0.4606,376
+Coco Gauff,all,career,0.5900,0.4607,380
 Iga Swiatek,hard,52week,0.6180,0.4750,44
-Iga Swiatek,clay,52week,0.6040,0.4650,13
+Iga Swiatek,clay,52week,0.6120,0.4830,17
 Iga Swiatek,grass,52week,0.6800,0.4680,11
-Iga Swiatek,all,52week,0.6254,0.4720,68
+Iga Swiatek,all,52week,0.6261,0.4758,72
 Iga Swiatek,hard,career,0.6180,0.4780,276
-Iga Swiatek,clay,career,0.6290,0.4930,120
+Iga Swiatek,clay,career,0.6290,0.4950,124
 Iga Swiatek,grass,career,0.6370,0.4480,34
-Iga Swiatek,all,career,0.6226,0.4798,430
+Iga Swiatek,all,career,0.6226,0.4805,434
 Mirra Andreeva,hard,52week,0.5940,0.4740,29
-Mirra Andreeva,clay,52week,0.6050,0.4610,25
+Mirra Andreeva,clay,52week,0.6010,0.4610,27
 Mirra Andreeva,grass,52week,0.6050,0.4390,8
-Mirra Andreeva,all,52week,0.5999,0.4642,62
+Mirra Andreeva,all,52week,0.5983,0.4641,64
 Mirra Andreeva,hard,career,0.5980,0.4640,90
-Mirra Andreeva,clay,career,0.5910,0.4660,61
+Mirra Andreeva,clay,career,0.5900,0.4660,63
 Mirra Andreeva,grass,career,0.6070,0.4270,14
-Mirra Andreeva,all,career,0.5962,0.4616,165
+Mirra Andreeva,all,career,0.5957,0.4617,167
 Victoria Mboko,hard,52week,0.6050,0.4390,46
 Victoria Mboko,clay,52week,0.5420,0.4230,6
 Victoria Mboko,grass,52week,0.6030,0.4320,2
@@ -80,13 +80,13 @@ Marta Kostyuk,clay,career,0.5570,0.4710,63
 Marta Kostyuk,grass,career,0.5580,0.4140,25
 Marta Kostyuk,all,career,0.5651,0.4496,265
 Elina Svitolina,hard,52week,0.5980,0.4490,33
-Elina Svitolina,clay,52week,0.5830,0.4550,14
+Elina Svitolina,clay,52week,0.5810,0.4620,19
 Elina Svitolina,grass,52week,0.6280,0.4300,5
-Elina Svitolina,all,52week,0.5968,0.4488,52
+Elina Svitolina,all,52week,0.5950,0.4517,57
 Elina Svitolina,hard,career,0.5850,0.4530,457
-Elina Svitolina,clay,career,0.5750,0.4660,163
+Elina Svitolina,clay,career,0.5750,0.4660,168
 Elina Svitolina,grass,career,0.5930,0.4160,53
-Elina Svitolina,all,career,0.5832,0.4532,673
+Elina Svitolina,all,career,0.5831,0.4533,678
 Belinda Bencic,hard,52week,0.6070,0.4420,36
 Belinda Bencic,clay,52week,0.5810,0.4430,9
 Belinda Bencic,grass,52week,0.6050,0.4120,7
@@ -96,29 +96,29 @@ Belinda Bencic,clay,career,0.5880,0.4340,90
 Belinda Bencic,grass,career,0.6140,0.4190,75
 Belinda Bencic,all,career,0.5931,0.4311,516
 Linda Noskova,hard,52week,0.6120,0.4130,41
-Linda Noskova,clay,52week,0.6080,0.4150,12
+Linda Noskova,clay,52week,0.6010,0.4080,13
 Linda Noskova,grass,52week,0.6430,0.4140,11
-Linda Noskova,all,52week,0.6166,0.4135,64
+Linda Noskova,all,52week,0.6150,0.4122,65
 Linda Noskova,hard,career,0.6080,0.4120,124
-Linda Noskova,clay,career,0.5840,0.4150,33
+Linda Noskova,clay,career,0.5830,0.4120,34
 Linda Noskova,grass,career,0.6250,0.3940,21
-Linda Noskova,all,career,0.6056,0.4104,178
+Linda Noskova,all,career,0.6052,0.4099,179
 Madison Keys,hard,52week,0.5840,0.4290,23
-Madison Keys,clay,52week,0.6030,0.4680,12
+Madison Keys,clay,52week,0.6220,0.4680,15
 Madison Keys,grass,52week,0.6140,0.4070,7
-Madison Keys,all,52week,0.5944,0.4365,42
+Madison Keys,all,52week,0.6013,0.4386,45
 Madison Keys,hard,career,0.6080,0.4320,362
-Madison Keys,clay,career,0.5990,0.4430,143
+Madison Keys,clay,career,0.6010,0.4440,148
 Madison Keys,grass,career,0.6380,0.4190,71
-Madison Keys,all,career,0.6095,0.4331,576
+Madison Keys,all,career,0.6099,0.4335,581
 Naomi Osaka,hard,52week,0.6250,0.4450,30
-Naomi Osaka,clay,52week,0.6050,0.4330,9
+Naomi Osaka,clay,52week,0.5980,0.4360,11
 Naomi Osaka,grass,52week,0.6270,0.4030,6
-Naomi Osaka,all,52week,0.6213,0.4370,45
+Naomi Osaka,all,52week,0.6189,0.4375,47
 Naomi Osaka,hard,career,0.6240,0.4290,271
-Naomi Osaka,clay,career,0.5860,0.4280,62
+Naomi Osaka,clay,career,0.5850,0.4290,64
 Naomi Osaka,grass,career,0.6180,0.3960,32
-Naomi Osaka,all,career,0.6170,0.4259,365
+Naomi Osaka,all,career,0.6167,0.4261,367
 Jasmine Paolini,hard,52week,0.5760,0.4430,42
 Jasmine Paolini,clay,52week,0.5790,0.4750,15
 Jasmine Paolini,grass,52week,0.5630,0.4000,6
@@ -128,21 +128,21 @@ Jasmine Paolini,clay,career,0.5530,0.4600,102
 Jasmine Paolini,grass,career,0.5840,0.4130,21
 Jasmine Paolini,all,career,0.5625,0.4439,327
 Sorana Cirstea,hard,52week,0.6130,0.4490,45
-Sorana Cirstea,clay,52week,0.6340,0.4600,15
+Sorana Cirstea,clay,52week,0.6340,0.4570,18
 Sorana Cirstea,grass,52week,0.6280,0.3330,1
-Sorana Cirstea,all,52week,0.6184,0.4498,61
+Sorana Cirstea,all,52week,0.6191,0.4494,64
 Sorana Cirstea,hard,career,0.5650,0.4330,443
-Sorana Cirstea,clay,career,0.5480,0.4500,208
+Sorana Cirstea,clay,career,0.5490,0.4500,211
 Sorana Cirstea,grass,career,0.5710,0.4060,67
-Sorana Cirstea,all,career,0.5606,0.4354,718
+Sorana Cirstea,all,career,0.5609,0.4355,721
 Elise Mertens,hard,52week,0.6040,0.4480,32
-Elise Mertens,clay,52week,0.6180,0.4340,10
+Elise Mertens,clay,52week,0.6110,0.4270,11
 Elise Mertens,grass,52week,0.6240,0.4610,10
-Elise Mertens,all,52week,0.6105,0.4478,52
+Elise Mertens,all,52week,0.6092,0.4461,53
 Elise Mertens,hard,career,0.5830,0.4570,338
-Elise Mertens,clay,career,0.5700,0.4690,118
+Elise Mertens,clay,career,0.5700,0.4680,119
 Elise Mertens,grass,career,0.5890,0.4420,62
-Elise Mertens,all,career,0.5808,0.4579,518
+Elise Mertens,all,career,0.5807,0.4577,519
 Qinwen Zheng,hard,52week,0.6270,0.4030,9
 Qinwen Zheng,clay,52week,0.5900,0.4580,15
 Qinwen Zheng,grass,52week,0.5850,0.4160,4
@@ -160,21 +160,21 @@ Marketa Vondrousova,clay,career,0.5730,0.4720,81
 Marketa Vondrousova,grass,career,0.5860,0.4260,32
 Marketa Vondrousova,all,career,0.5799,0.4590,292
 Anna Kalinskaya,hard,52week,0.5810,0.4300,39
-Anna Kalinskaya,clay,52week,0.5610,0.4410,11
+Anna Kalinskaya,clay,52week,0.5570,0.4290,12
 Anna Kalinskaya,grass,52week,0.6090,0.4060,2
-Anna Kalinskaya,all,52week,0.5778,0.4314,52
+Anna Kalinskaya,all,52week,0.5766,0.4289,53
 Anna Kalinskaya,hard,career,0.5750,0.4250,175
-Anna Kalinskaya,clay,career,0.5530,0.4350,49
+Anna Kalinskaya,clay,career,0.5520,0.4330,50
 Anna Kalinskaya,grass,career,0.5850,0.3960,23
-Anna Kalinskaya,all,career,0.5716,0.4243,247
+Anna Kalinskaya,all,career,0.5713,0.4239,248
 Diana Shnaider,hard,52week,0.5850,0.4250,32
-Diana Shnaider,clay,52week,0.5660,0.4760,14
+Diana Shnaider,clay,52week,0.5600,0.4670,15
 Diana Shnaider,grass,52week,0.6030,0.4170,8
-Diana Shnaider,all,52week,0.5827,0.4370,54
+Diana Shnaider,all,52week,0.5808,0.4353,55
 Diana Shnaider,hard,career,0.5850,0.4340,101
-Diana Shnaider,clay,career,0.5780,0.4560,45
+Diana Shnaider,clay,career,0.5750,0.4530,46
 Diana Shnaider,grass,career,0.6020,0.4230,20
-Diana Shnaider,all,career,0.5852,0.4386,166
+Diana Shnaider,all,career,0.5843,0.4379,167
 Victoria Azarenka,hard,52week,0.5490,0.4470,17
 Victoria Azarenka,clay,52week,0.5600,0.4810,5
 Victoria Azarenka,grass,52week,0.5690,0.4010,3
@@ -192,21 +192,21 @@ Sonay Kartal,clay,career,0.5600,0.4160,7
 Sonay Kartal,grass,career,0.5780,0.4170,17
 Sonay Kartal,all,career,0.5885,0.4302,57
 Leylah Fernandez,hard,52week,0.6080,0.4160,37
-Leylah Fernandez,clay,52week,0.5850,0.4250,14
+Leylah Fernandez,clay,52week,0.5790,0.4270,13
 Leylah Fernandez,grass,52week,0.6010,0.4210,8
-Leylah Fernandez,all,52week,0.6016,0.4188,59
+Leylah Fernandez,all,52week,0.6005,0.4192,58
 Leylah Fernandez,hard,career,0.5910,0.4230,199
-Leylah Fernandez,clay,career,0.5650,0.4400,55
+Leylah Fernandez,clay,career,0.5640,0.4410,56
 Leylah Fernandez,grass,career,0.6100,0.4340,25
-Leylah Fernandez,all,career,0.5876,0.4273,279
+Leylah Fernandez,all,career,0.5873,0.4276,280
 Anastasia Potapova,hard,52week,0.5340,0.4360,23
-Anastasia Potapova,clay,52week,0.5810,0.4740,16
+Anastasia Potapova,clay,52week,0.5800,0.4710,18
 Anastasia Potapova,grass,52week,0.5730,0.2640,1
-Anastasia Potapova,all,52week,0.5538,0.4469,40
+Anastasia Potapova,all,52week,0.5546,0.4469,42
 Anastasia Potapova,hard,career,0.5510,0.4480,186
-Anastasia Potapova,clay,career,0.5560,0.4710,79
+Anastasia Potapova,clay,career,0.5570,0.4710,81
 Anastasia Potapova,grass,career,0.5860,0.4200,22
-Anastasia Potapova,all,career,0.5551,0.4522,287
+Anastasia Potapova,all,career,0.5553,0.4523,289
 Ekaterina Alexandrova,hard,52week,0.5980,0.4330,40
 Ekaterina Alexandrova,clay,52week,0.5780,0.4640,11
 Ekaterina Alexandrova,grass,52week,0.6170,0.4560,11
@@ -222,21 +222,21 @@ Tereza Valentova,hard,career,0.5760,0.4590,22
 Tereza Valentova,clay,career,0.5170,0.4520,5
 Tereza Valentova,all,career,0.5651,0.4577,27
 Barbora Krejcikova,hard,52week,0.5870,0.4400,23
-Barbora Krejcikova,clay,52week,0.5580,0.3890,5
+Barbora Krejcikova,clay,52week,0.6070,0.4150,10
 Barbora Krejcikova,grass,52week,0.5950,0.4360,7
-Barbora Krejcikova,all,52week,0.5845,0.4319,35
+Barbora Krejcikova,all,52week,0.5934,0.4330,40
 Barbora Krejcikova,hard,career,0.5970,0.4380,166
-Barbora Krejcikova,clay,career,0.5660,0.4500,68
+Barbora Krejcikova,clay,career,0.5720,0.4480,73
 Barbora Krejcikova,grass,career,0.6300,0.4160,33
-Barbora Krejcikova,all,career,0.5932,0.4383,267
+Barbora Krejcikova,all,career,0.5943,0.4380,272
 Iva Jovic,hard,52week,0.5900,0.4580,37
-Iva Jovic,clay,52week,0.5840,0.4640,10
+Iva Jovic,clay,52week,0.5720,0.4610,11
 Iva Jovic,grass,52week,0.4260,0.2980,1
-Iva Jovic,all,52week,0.5853,0.4559,48
+Iva Jovic,all,52week,0.5826,0.4554,49
 Iva Jovic,hard,career,0.5860,0.4570,43
-Iva Jovic,clay,career,0.5810,0.4620,12
+Iva Jovic,clay,career,0.5710,0.4600,13
 Iva Jovic,grass,career,0.4260,0.2980,1
-Iva Jovic,all,career,0.5821,0.4552,56
+Iva Jovic,all,career,0.5798,0.4549,57
 Katerina Siniakova,hard,52week,0.5630,0.4480,26
 Katerina Siniakova,clay,52week,0.5590,0.4710,8
 Katerina Siniakova,grass,52week,0.5790,0.3940,7
@@ -254,20 +254,20 @@ Clara Tauson,clay,career,0.5560,0.4420,38
 Clara Tauson,grass,career,0.5980,0.3740,14
 Clara Tauson,all,career,0.5909,0.4268,186
 Hailey Baptiste,hard,52week,0.5880,0.4080,29
-Hailey Baptiste,clay,52week,0.6030,0.4270,18
+Hailey Baptiste,clay,52week,0.5990,0.4220,19
 Hailey Baptiste,grass,52week,0.6000,0.3980,3
-Hailey Baptiste,all,52week,0.5941,0.4142,50
+Hailey Baptiste,all,52week,0.5928,0.4126,51
 Hailey Baptiste,hard,career,0.5840,0.4040,74
-Hailey Baptiste,clay,career,0.5990,0.4190,36
+Hailey Baptiste,clay,career,0.5970,0.4160,37
 Hailey Baptiste,grass,career,0.6130,0.3830,4
-Hailey Baptiste,all,career,0.5898,0.4080,114
+Hailey Baptiste,all,career,0.5892,0.4071,115
 Karolina Pliskova,hard,52week,0.5750,0.4240,7
-Karolina Pliskova,clay,52week,0.6040,0.4090,10
-Karolina Pliskova,all,52week,0.5921,0.4152,17
+Karolina Pliskova,clay,52week,0.5950,0.4160,12
+Karolina Pliskova,all,52week,0.5876,0.4189,19
 Karolina Pliskova,hard,career,0.6080,0.4260,460
-Karolina Pliskova,clay,career,0.5940,0.4180,139
+Karolina Pliskova,clay,career,0.5930,0.4190,141
 Karolina Pliskova,grass,career,0.6280,0.4110,80
-Karolina Pliskova,all,career,0.6075,0.4226,679
+Karolina Pliskova,all,career,0.6072,0.4228,681
 Danielle Collins,hard,52week,0.5700,0.4070,17
 Danielle Collins,clay,52week,0.5960,0.4540,11
 Danielle Collins,grass,52week,0.5980,0.4090,4
@@ -277,27 +277,27 @@ Danielle Collins,clay,career,0.5800,0.4560,80
 Danielle Collins,grass,career,0.5740,0.4080,22
 Danielle Collins,all,career,0.5855,0.4360,300
 Mccartney Kessler,hard,52week,0.5690,0.4300,29
-Mccartney Kessler,clay,52week,0.5410,0.4580,9
+Mccartney Kessler,clay,52week,0.5340,0.4590,9
 Mccartney Kessler,grass,52week,0.6200,0.4300,8
-Mccartney Kessler,all,52week,0.5724,0.4355,46
+Mccartney Kessler,all,52week,0.5710,0.4357,46
 Mccartney Kessler,hard,career,0.5730,0.4340,68
-Mccartney Kessler,clay,career,0.5290,0.4390,12
+Mccartney Kessler,clay,career,0.5200,0.4360,13
 Mccartney Kessler,grass,career,0.6030,0.4260,9
-Mccartney Kessler,all,career,0.5701,0.4339,89
+Mccartney Kessler,all,career,0.5683,0.4335,90
 Sara Bejlek,hard,52week,0.5780,0.4690,14
-Sara Bejlek,clay,52week,0.5390,0.4840,5
-Sara Bejlek,all,52week,0.5677,0.4729,19
+Sara Bejlek,clay,52week,0.5180,0.4750,6
+Sara Bejlek,all,52week,0.5600,0.4708,20
 Sara Bejlek,hard,career,0.5450,0.4350,20
-Sara Bejlek,clay,career,0.5320,0.4890,15
-Sara Bejlek,all,career,0.5394,0.4581,35
+Sara Bejlek,clay,career,0.5250,0.4850,16
+Sara Bejlek,all,career,0.5361,0.4572,36
 Alexandra Eala,hard,52week,0.5610,0.4480,29
-Alexandra Eala,clay,52week,0.5400,0.4100,9
+Alexandra Eala,clay,52week,0.5390,0.4070,10
 Alexandra Eala,grass,52week,0.5530,0.4840,7
-Alexandra Eala,all,52week,0.5556,0.4460,45
+Alexandra Eala,all,52week,0.5550,0.4446,46
 Alexandra Eala,hard,career,0.5350,0.4420,45
-Alexandra Eala,clay,career,0.5130,0.4450,16
+Alexandra Eala,clay,career,0.5140,0.4420,17
 Alexandra Eala,grass,career,0.5530,0.4840,7
-Alexandra Eala,all,career,0.5317,0.4470,68
+Alexandra Eala,all,career,0.5317,0.4463,69
 Anhelina Kalinina,hard,52week,0.5230,0.3210,1
 Anhelina Kalinina,clay,52week,0.5420,0.4740,8
 Anhelina Kalinina,all,52week,0.5399,0.4570,9
@@ -322,13 +322,13 @@ Maria Sakkari,clay,career,0.5750,0.4540,120
 Maria Sakkari,grass,career,0.6030,0.4190,51
 Maria Sakkari,all,career,0.5805,0.4354,484
 Katie Boulter,hard,52week,0.5590,0.4470,28
-Katie Boulter,clay,52week,0.5560,0.4370,10
+Katie Boulter,clay,52week,0.5630,0.4360,11
 Katie Boulter,grass,52week,0.5660,0.4180,7
-Katie Boulter,all,52week,0.5594,0.4403,45
+Katie Boulter,all,52week,0.5610,0.4400,46
 Katie Boulter,hard,career,0.5790,0.4300,132
-Katie Boulter,clay,career,0.5520,0.4250,16
+Katie Boulter,clay,career,0.5550,0.4230,18
 Katie Boulter,grass,career,0.5960,0.4150,52
-Katie Boulter,all,career,0.5813,0.4257,200
+Katie Boulter,all,career,0.5812,0.4255,202
 Jaqueline Cristian,hard,52week,0.5630,0.4180,34
 Jaqueline Cristian,clay,52week,0.5780,0.4420,21
 Jaqueline Cristian,grass,52week,0.4890,0.4060,2
@@ -346,13 +346,13 @@ Marie Bouzkova,clay,career,0.5650,0.4510,52
 Marie Bouzkova,grass,career,0.5930,0.4180,27
 Marie Bouzkova,all,career,0.5742,0.4414,283
 Jelena Ostapenko,hard,52week,0.5500,0.4290,25
-Jelena Ostapenko,clay,52week,0.5490,0.4730,13
+Jelena Ostapenko,clay,52week,0.5550,0.4660,15
 Jelena Ostapenko,grass,52week,0.5580,0.4290,3
-Jelena Ostapenko,all,52week,0.5503,0.4430,41
+Jelena Ostapenko,all,52week,0.5523,0.4419,43
 Jelena Ostapenko,hard,career,0.5520,0.4560,338
-Jelena Ostapenko,clay,career,0.5500,0.4690,114
+Jelena Ostapenko,clay,career,0.5510,0.4680,116
 Jelena Ostapenko,grass,career,0.5880,0.4590,75
-Jelena Ostapenko,all,career,0.5567,0.4592,527
+Jelena Ostapenko,all,career,0.5569,0.4591,529
 Emma Raducanu,hard,52week,0.5810,0.4430,38
 Emma Raducanu,clay,52week,0.5600,0.4600,10
 Emma Raducanu,grass,52week,0.5920,0.4700,8
@@ -370,13 +370,13 @@ Taylor Townsend,clay,career,0.5660,0.4140,33
 Taylor Townsend,grass,career,0.5690,0.3750,8
 Taylor Townsend,all,career,0.5830,0.4068,152
 Elisabetta Cocciaretto,hard,52week,0.5870,0.4460,28
-Elisabetta Cocciaretto,clay,52week,0.5760,0.4420,12
+Elisabetta Cocciaretto,clay,52week,0.5670,0.4340,13
 Elisabetta Cocciaretto,grass,52week,0.6320,0.4410,8
-Elisabetta Cocciaretto,all,52week,0.5918,0.4442,48
+Elisabetta Cocciaretto,all,52week,0.5890,0.4420,49
 Elisabetta Cocciaretto,hard,career,0.5680,0.4320,101
-Elisabetta Cocciaretto,clay,career,0.5560,0.4440,60
+Elisabetta Cocciaretto,clay,career,0.5540,0.4420,61
 Elisabetta Cocciaretto,grass,career,0.6030,0.4500,18
-Elisabetta Cocciaretto,all,career,0.5675,0.4378,179
+Elisabetta Cocciaretto,all,career,0.5668,0.4372,180
 Olga Danilovic,hard,52week,0.5610,0.3990,19
 Olga Danilovic,clay,52week,0.5730,0.4370,12
 Olga Danilovic,grass,52week,0.6010,0.3640,4
@@ -386,29 +386,29 @@ Olga Danilovic,clay,career,0.5600,0.4550,51
 Olga Danilovic,grass,career,0.5900,0.3490,5
 Olga Danilovic,all,career,0.5658,0.4271,110
 Yulia Putintseva,hard,52week,0.5590,0.4250,27
-Yulia Putintseva,clay,52week,0.5470,0.4220,10
+Yulia Putintseva,clay,52week,0.5520,0.4530,12
 Yulia Putintseva,grass,52week,0.5230,0.4120,5
-Yulia Putintseva,all,52week,0.5519,0.4227,42
+Yulia Putintseva,all,52week,0.5530,0.4312,44
 Yulia Putintseva,hard,career,0.5610,0.4390,349
-Yulia Putintseva,clay,career,0.5560,0.4610,158
+Yulia Putintseva,clay,career,0.5560,0.4630,161
 Yulia Putintseva,grass,career,0.5790,0.4170,42
-Yulia Putintseva,all,career,0.5609,0.4436,549
+Yulia Putintseva,all,career,0.5609,0.4443,552
 Camila Osorio,hard,52week,0.5540,0.4390,27
-Camila Osorio,clay,52week,0.5380,0.4860,10
+Camila Osorio,clay,52week,0.5700,0.4870,13
 Camila Osorio,grass,52week,0.5530,0.3950,2
-Camila Osorio,all,52week,0.5498,0.4488,39
+Camila Osorio,all,52week,0.5589,0.4518,42
 Camila Osorio,hard,career,0.5440,0.4470,105
-Camila Osorio,clay,career,0.5400,0.4850,80
+Camila Osorio,clay,career,0.5430,0.4840,84
 Camila Osorio,grass,career,0.5230,0.4210,17
-Camila Osorio,all,career,0.5406,0.4599,202
+Camila Osorio,all,career,0.5419,0.4599,206
 Liudmila Samsonova,hard,52week,0.5830,0.4070,25
-Liudmila Samsonova,clay,52week,0.6220,0.4530,16
+Liudmila Samsonova,clay,52week,0.6140,0.4470,17
 Liudmila Samsonova,grass,52week,0.6150,0.4280,10
-Liudmila Samsonova,all,52week,0.6015,0.4255,51
+Liudmila Samsonova,all,52week,0.5993,0.4241,52
 Liudmila Samsonova,hard,career,0.6000,0.4110,181
-Liudmila Samsonova,clay,career,0.5890,0.4380,61
+Liudmila Samsonova,clay,career,0.5880,0.4370,62
 Liudmila Samsonova,grass,career,0.6150,0.4220,43
-Liudmila Samsonova,all,career,0.5999,0.4184,285
+Liudmila Samsonova,all,career,0.5997,0.4183,286
 Daria Kasatkina,hard,52week,0.5150,0.4800,18
 Daria Kasatkina,clay,52week,0.4990,0.4720,9
 Daria Kasatkina,grass,52week,0.5420,0.4470,6
@@ -474,11 +474,11 @@ Peyton Stearns,clay,career,0.5600,0.4650,40
 Peyton Stearns,grass,career,0.5710,0.3750,7
 Peyton Stearns,all,career,0.5625,0.4388,135
 Lois Boisson,hard,52week,0.6090,0.4020,7
-Lois Boisson,clay,52week,0.5880,0.4450,13
-Lois Boisson,all,52week,0.5954,0.4299,20
+Lois Boisson,clay,52week,0.5810,0.4370,14
+Lois Boisson,all,52week,0.5903,0.4253,21
 Lois Boisson,hard,career,0.6140,0.3910,8
-Lois Boisson,clay,career,0.5910,0.4520,15
-Lois Boisson,all,career,0.5990,0.4308,23
+Lois Boisson,clay,career,0.5850,0.4450,16
+Lois Boisson,all,career,0.5947,0.4270,24
 Anastasia Pavlyuchenkova,hard,52week,0.5530,0.3520,10
 Anastasia Pavlyuchenkova,clay,52week,0.5190,0.3810,4
 Anastasia Pavlyuchenkova,grass,52week,0.5880,0.4530,9
@@ -488,35 +488,35 @@ Anastasia Pavlyuchenkova,clay,career,0.5670,0.4410,174
 Anastasia Pavlyuchenkova,grass,career,0.5900,0.4050,61
 Anastasia Pavlyuchenkova,all,career,0.5730,0.4402,763
 Lilli Tagger,hard,52week,0.5920,0.4410,9
-Lilli Tagger,clay,52week,0.5810,0.4010,5
-Lilli Tagger,all,52week,0.5881,0.4267,14
+Lilli Tagger,clay,52week,0.5670,0.4150,7
+Lilli Tagger,all,52week,0.5811,0.4296,16
 Lilli Tagger,hard,career,0.5920,0.4410,9
-Lilli Tagger,clay,career,0.5810,0.4010,5
-Lilli Tagger,all,career,0.5881,0.4267,14
+Lilli Tagger,clay,career,0.5670,0.4150,7
+Lilli Tagger,all,career,0.5811,0.4296,16
 Emma Navarro,hard,52week,0.5900,0.4250,28
-Emma Navarro,clay,52week,0.5290,0.4480,6
+Emma Navarro,clay,52week,0.5070,0.4430,6
 Emma Navarro,grass,52week,0.5740,0.4550,11
-Emma Navarro,all,52week,0.5780,0.4354,45
+Emma Navarro,all,52week,0.5750,0.4347,45
 Emma Navarro,hard,career,0.5700,0.4480,107
-Emma Navarro,clay,career,0.5580,0.4590,45
+Emma Navarro,clay,career,0.5570,0.4580,47
 Emma Navarro,grass,career,0.5940,0.4420,26
-Emma Navarro,all,career,0.5705,0.4499,178
+Emma Navarro,all,career,0.5701,0.4497,180
 Dayana Yastremska,hard,52week,0.5470,0.4120,26
-Dayana Yastremska,clay,52week,0.5580,0.4480,14
+Dayana Yastremska,clay,52week,0.5680,0.4560,18
 Dayana Yastremska,grass,52week,0.5950,0.4300,11
-Dayana Yastremska,all,52week,0.5604,0.4258,51
+Dayana Yastremska,all,52week,0.5635,0.4300,55
 Dayana Yastremska,hard,career,0.5690,0.4310,195
-Dayana Yastremska,clay,career,0.5540,0.4490,64
+Dayana Yastremska,clay,career,0.5560,0.4520,69
 Dayana Yastremska,grass,career,0.5750,0.4040,29
-Dayana Yastremska,all,career,0.5663,0.4323,288
+Dayana Yastremska,all,career,0.5665,0.4333,293
 Talia Gibson,hard,52week,0.6110,0.3970,17
-Talia Gibson,clay,52week,0.4730,0.4270,3
+Talia Gibson,clay,52week,0.4670,0.4110,4
 Talia Gibson,grass,52week,0.5000,0.3900,1
-Talia Gibson,all,52week,0.5860,0.4010,21
+Talia Gibson,all,52week,0.5798,0.3992,22
 Talia Gibson,hard,career,0.5890,0.3980,22
-Talia Gibson,clay,career,0.4730,0.4270,3
+Talia Gibson,clay,career,0.4670,0.4110,4
 Talia Gibson,grass,career,0.5000,0.3900,1
-Talia Gibson,all,career,0.5722,0.4010,26
+Talia Gibson,all,career,0.5676,0.3996,27
 Daria Snigur,hard,52week,0.5780,0.4940,4
 Daria Snigur,clay,52week,0.4770,0.4530,2
 Daria Snigur,all,52week,0.5443,0.4803,6
@@ -525,25 +525,25 @@ Daria Snigur,clay,career,0.4770,0.4530,2
 Daria Snigur,grass,career,0.5670,0.4230,7
 Daria Snigur,all,career,0.5452,0.4427,23
 Kimberly Birrell,hard,52week,0.5670,0.4260,26
-Kimberly Birrell,clay,52week,0.5330,0.3970,3
+Kimberly Birrell,clay,52week,0.4900,0.4410,3
 Kimberly Birrell,grass,52week,0.5750,0.3720,6
-Kimberly Birrell,all,52week,0.5655,0.4143,35
+Kimberly Birrell,all,52week,0.5618,0.4180,35
 Kimberly Birrell,hard,career,0.5620,0.4200,84
-Kimberly Birrell,clay,career,0.5060,0.4480,7
+Kimberly Birrell,clay,career,0.5120,0.4450,8
 Kimberly Birrell,grass,career,0.5950,0.3970,11
-Kimberly Birrell,all,career,0.5617,0.4194,102
+Kimberly Birrell,all,career,0.5616,0.4195,103
 Lanlana Tararudee,hard,52week,0.5580,0.4690,9
 Lanlana Tararudee,all,52week,0.5580,0.4690,9
 Lanlana Tararudee,hard,career,0.5490,0.4660,13
 Lanlana Tararudee,all,career,0.5490,0.4660,13
 Donna Vekic,hard,52week,0.5210,0.4240,15
-Donna Vekic,clay,52week,0.5960,0.4310,12
+Donna Vekic,clay,52week,0.5820,0.4360,13
 Donna Vekic,grass,52week,0.5870,0.3860,6
-Donna Vekic,all,52week,0.5603,0.4196,33
+Donna Vekic,all,52week,0.5560,0.4219,34
 Donna Vekic,hard,career,0.5680,0.4330,329
-Donna Vekic,clay,career,0.5700,0.4350,84
+Donna Vekic,clay,career,0.5680,0.4360,85
 Donna Vekic,grass,career,0.6140,0.4180,82
-Donna Vekic,all,career,0.5760,0.4309,495
+Donna Vekic,all,career,0.5756,0.4310,496
 Xin Yu Wang,hard,52week,0.5770,0.4270,36
 Xin Yu Wang,clay,52week,0.5360,0.4010,8
 Xin Yu Wang,grass,52week,0.6460,0.4310,8
@@ -575,21 +575,21 @@ Paula Badosa,clay,career,0.5840,0.4570,89
 Paula Badosa,grass,career,0.5910,0.4260,29
 Paula Badosa,all,career,0.5894,0.4409,287
 Maya Joint,hard,52week,0.5560,0.4300,34
-Maya Joint,clay,52week,0.5760,0.4670,8
+Maya Joint,clay,52week,0.5670,0.4760,8
 Maya Joint,grass,52week,0.5500,0.4770,6
-Maya Joint,all,52week,0.5586,0.4420,48
+Maya Joint,all,52week,0.5571,0.4435,48
 Maya Joint,hard,career,0.5580,0.4350,50
-Maya Joint,clay,career,0.5670,0.4630,10
+Maya Joint,clay,career,0.5580,0.4570,11
 Maya Joint,grass,career,0.5500,0.4770,6
-Maya Joint,all,career,0.5586,0.4431,66
+Maya Joint,all,career,0.5573,0.4424,67
 Laura Siegemund,hard,52week,0.5500,0.4300,20
-Laura Siegemund,clay,52week,0.5670,0.4700,9
+Laura Siegemund,clay,52week,0.5560,0.4620,10
 Laura Siegemund,grass,52week,0.5830,0.4470,7
-Laura Siegemund,all,52week,0.5607,0.4433,36
+Laura Siegemund,all,52week,0.5579,0.4419,37
 Laura Siegemund,hard,career,0.5490,0.4280,156
-Laura Siegemund,clay,career,0.5570,0.4660,127
+Laura Siegemund,clay,career,0.5560,0.4650,128
 Laura Siegemund,grass,career,0.5720,0.4270,21
-Laura Siegemund,all,career,0.5539,0.4438,304
+Laura Siegemund,all,career,0.5535,0.4435,305
 Irina Camelia Begu,clay,52week,0.5500,0.4790,8
 Irina Camelia Begu,grass,52week,0.5030,0.4030,2
 Irina Camelia Begu,all,52week,0.5406,0.4638,10
@@ -622,28 +622,30 @@ Zeynep Sonmez,clay,career,0.5180,0.4430,16
 Zeynep Sonmez,grass,career,0.5640,0.4320,6
 Zeynep Sonmez,all,career,0.5373,0.4459,63
 Aliaksandra Sasnovich,hard,52week,0.5800,0.4140,14
-Aliaksandra Sasnovich,clay,52week,0.5240,0.3620,2
+Aliaksandra Sasnovich,clay,52week,0.5260,0.4570,5
 Aliaksandra Sasnovich,grass,52week,0.4590,0.4920,3
-Aliaksandra Sasnovich,all,52week,0.5550,0.4208,19
+Aliaksandra Sasnovich,all,52week,0.5512,0.4344,22
 Aliaksandra Sasnovich,hard,career,0.5600,0.4350,239
-Aliaksandra Sasnovich,clay,career,0.5380,0.4530,82
+Aliaksandra Sasnovich,clay,career,0.5380,0.4550,85
 Aliaksandra Sasnovich,grass,career,0.5370,0.4290,36
-Aliaksandra Sasnovich,all,career,0.5526,0.4385,357
+Aliaksandra Sasnovich,all,career,0.5525,0.4391,360
 Katie Volynets,hard,52week,0.5380,0.4340,19
-Katie Volynets,clay,52week,0.5140,0.4690,10
+Katie Volynets,clay,52week,0.5270,0.4790,11
 Katie Volynets,grass,52week,0.4890,0.4430,3
-Katie Volynets,all,52week,0.5259,0.4458,32
+Katie Volynets,all,52week,0.5299,0.4498,33
 Katie Volynets,hard,career,0.5380,0.4420,77
-Katie Volynets,clay,career,0.5280,0.4550,27
+Katie Volynets,clay,career,0.5290,0.4630,30
 Katie Volynets,grass,career,0.4940,0.4610,11
-Katie Volynets,all,career,0.5314,0.4469,115
+Katie Volynets,all,career,0.5316,0.4491,118
+Hanne Vandewinkel,clay,52week,0.5370,0.4430,4
+Hanne Vandewinkel,all,52week,0.5370,0.4430,4
 Maja Chwalinska,hard,52week,0.5680,0.4390,3
-Maja Chwalinska,clay,52week,0.5720,0.4290,2
-Maja Chwalinska,all,52week,0.5696,0.4350,5
+Maja Chwalinska,clay,52week,0.5420,0.4340,3
+Maja Chwalinska,all,52week,0.5550,0.4365,6
 Maja Chwalinska,hard,career,0.5050,0.4340,7
-Maja Chwalinska,clay,career,0.5560,0.4330,5
+Maja Chwalinska,clay,career,0.5440,0.4350,6
 Maja Chwalinska,grass,career,0.5650,0.4090,2
-Maja Chwalinska,all,career,0.5318,0.4301,14
+Maja Chwalinska,all,career,0.5286,0.4311,15
 Sofia Kenin,hard,52week,0.5540,0.3820,26
 Sofia Kenin,clay,52week,0.5720,0.4190,11
 Sofia Kenin,grass,52week,0.6030,0.3490,4
@@ -653,13 +655,13 @@ Sofia Kenin,clay,career,0.5660,0.4370,62
 Sofia Kenin,grass,career,0.5990,0.4000,25
 Sofia Kenin,all,career,0.5817,0.4158,328
 Yuliia Starodubtseva,hard,52week,0.5420,0.4320,16
-Yuliia Starodubtseva,clay,52week,0.5670,0.4760,12
+Yuliia Starodubtseva,clay,52week,0.5610,0.4810,16
 Yuliia Starodubtseva,grass,52week,0.5290,0.3630,3
-Yuliia Starodubtseva,all,52week,0.5504,0.4424,31
+Yuliia Starodubtseva,all,52week,0.5496,0.4485,35
 Yuliia Starodubtseva,hard,career,0.5380,0.4400,32
-Yuliia Starodubtseva,clay,career,0.5600,0.4650,18
+Yuliia Starodubtseva,clay,career,0.5570,0.4710,22
 Yuliia Starodubtseva,grass,career,0.5590,0.3860,5
-Yuliia Starodubtseva,all,career,0.5471,0.4433,55
+Yuliia Starodubtseva,all,career,0.5469,0.4470,59
 Magdalena Frech,hard,52week,0.5750,0.4380,30
 Magdalena Frech,clay,52week,0.5180,0.4410,8
 Magdalena Frech,grass,52week,0.5420,0.3940,5
@@ -675,16 +677,16 @@ Oleksandra Oliynykova,hard,career,0.5820,0.4170,5
 Oleksandra Oliynykova,clay,career,0.5400,0.4410,7
 Oleksandra Oliynykova,all,career,0.5575,0.4310,12
 Moyuka Uchijima,hard,52week,0.5170,0.3980,18
-Moyuka Uchijima,clay,52week,0.4750,0.4160,4
+Moyuka Uchijima,clay,52week,0.4920,0.4480,4
 Moyuka Uchijima,grass,52week,0.5140,0.3080,2
-Moyuka Uchijima,all,52week,0.5098,0.3935,24
+Moyuka Uchijima,all,52week,0.5126,0.3988,24
 Moyuka Uchijima,hard,career,0.5350,0.4070,63
-Moyuka Uchijima,clay,career,0.5520,0.4560,20
+Moyuka Uchijima,clay,career,0.5480,0.4560,21
 Moyuka Uchijima,grass,career,0.4980,0.3040,4
-Moyuka Uchijima,all,career,0.5372,0.4135,87
+Moyuka Uchijima,all,career,0.5364,0.4140,88
 Alina Korneeva,hard,career,0.5510,0.4450,11
-Alina Korneeva,clay,career,0.4930,0.3490,1
-Alina Korneeva,all,career,0.5462,0.4370,12
+Alina Korneeva,clay,career,0.4680,0.3840,2
+Alina Korneeva,all,career,0.5382,0.4356,13
 Xiyu Wang,hard,52week,0.5510,0.4190,7
 Xiyu Wang,all,52week,0.5510,0.4190,7
 Xiyu Wang,hard,career,0.5860,0.4170,115
@@ -714,29 +716,29 @@ Ashlyn Krueger,all,career,0.5696,0.4141,118
 Mananchaya Sawangkaew,hard,career,0.5290,0.4630,18
 Mananchaya Sawangkaew,all,career,0.5290,0.4630,18
 Viktorija Golubic,hard,52week,0.5590,0.4340,19
-Viktorija Golubic,clay,52week,0.5210,0.4540,7
+Viktorija Golubic,clay,52week,0.5500,0.4600,9
 Viktorija Golubic,grass,52week,0.5290,0.3560,1
-Viktorija Golubic,all,52week,0.5480,0.4363,27
+Viktorija Golubic,all,52week,0.5552,0.4394,29
 Viktorija Golubic,hard,career,0.5420,0.4420,165
-Viktorija Golubic,clay,career,0.5170,0.4470,53
+Viktorija Golubic,clay,career,0.5210,0.4480,56
 Viktorija Golubic,grass,career,0.5600,0.4400,42
-Viktorija Golubic,all,career,0.5398,0.4427,260
+Viktorija Golubic,all,career,0.5404,0.4430,263
 Alycia Parks,hard,52week,0.5720,0.4100,29
-Alycia Parks,clay,52week,0.5630,0.3740,10
+Alycia Parks,clay,52week,0.5800,0.3780,11
 Alycia Parks,grass,52week,0.4800,0.2500,1
-Alycia Parks,all,52week,0.5675,0.3970,40
+Alycia Parks,all,52week,0.5719,0.3975,41
 Alycia Parks,hard,career,0.5700,0.4040,80
-Alycia Parks,clay,career,0.5510,0.3910,29
+Alycia Parks,clay,career,0.5550,0.3880,31
 Alycia Parks,grass,career,0.5540,0.3490,9
-Alycia Parks,all,career,0.5641,0.3966,118
+Alycia Parks,all,career,0.5649,0.3957,120
 Anastasia Zakharova,hard,52week,0.5570,0.4300,24
-Anastasia Zakharova,clay,52week,0.4890,0.4110,4
+Anastasia Zakharova,clay,52week,0.5300,0.4310,7
 Anastasia Zakharova,grass,52week,0.5770,0.4030,4
-Anastasia Zakharova,all,52week,0.5510,0.4243,32
+Anastasia Zakharova,all,52week,0.5539,0.4271,35
 Anastasia Zakharova,hard,career,0.5480,0.4280,41
-Anastasia Zakharova,clay,career,0.4620,0.4310,5
+Anastasia Zakharova,clay,career,0.5050,0.4410,8
 Anastasia Zakharova,grass,career,0.5770,0.4030,4
-Anastasia Zakharova,all,career,0.5417,0.4263,50
+Anastasia Zakharova,all,career,0.5437,0.4281,53
 Polina Kudermetova,hard,52week,0.5380,0.4230,14
 Polina Kudermetova,clay,52week,0.5110,0.4560,7
 Polina Kudermetova,grass,52week,0.5300,0.3030,2
@@ -754,13 +756,13 @@ Anastasija Sevastova,clay,career,0.5710,0.4500,132
 Anastasija Sevastova,grass,career,0.5800,0.4340,42
 Anastasija Sevastova,all,career,0.5656,0.4443,407
 Shuai Zhang,hard,52week,0.5530,0.4490,22
-Shuai Zhang,clay,52week,0.5550,0.3310,6
+Shuai Zhang,clay,52week,0.5410,0.3710,8
 Shuai Zhang,grass,52week,0.5450,0.3730,1
-Shuai Zhang,all,52week,0.5531,0.4220,29
+Shuai Zhang,all,52week,0.5496,0.4264,31
 Shuai Zhang,hard,career,0.5580,0.4350,365
-Shuai Zhang,clay,career,0.5400,0.4180,107
+Shuai Zhang,clay,career,0.5390,0.4190,109
 Shuai Zhang,grass,career,0.5700,0.4190,53
-Shuai Zhang,all,career,0.5555,0.4299,525
+Shuai Zhang,all,career,0.5553,0.4301,527
 Bianca Andreescu,hard,52week,0.5490,0.3920,7
 Bianca Andreescu,clay,52week,0.5820,0.4480,8
 Bianca Andreescu,grass,52week,0.6290,0.3980,4
@@ -770,13 +772,13 @@ Bianca Andreescu,clay,career,0.5730,0.4400,40
 Bianca Andreescu,grass,career,0.6010,0.4010,34
 Bianca Andreescu,all,career,0.5859,0.4351,197
 Kaja Juvan,hard,52week,0.5490,0.4170,8
-Kaja Juvan,clay,52week,0.5940,0.4660,4
+Kaja Juvan,clay,52week,0.5730,0.4620,6
 Kaja Juvan,grass,52week,0.5930,0.4240,1
-Kaja Juvan,all,52week,0.5662,0.4326,13
+Kaja Juvan,all,52week,0.5615,0.4355,15
 Kaja Juvan,hard,career,0.5640,0.4200,71
-Kaja Juvan,clay,career,0.5540,0.4700,37
+Kaja Juvan,clay,career,0.5520,0.4690,39
 Kaja Juvan,grass,career,0.5880,0.4100,14
-Kaja Juvan,all,career,0.5637,0.4340,122
+Kaja Juvan,all,career,0.5629,0.4343,124
 Kamilla Rakhimova,hard,52week,0.5380,0.4280,22
 Kamilla Rakhimova,clay,52week,0.5130,0.4560,9
 Kamilla Rakhimova,grass,52week,0.5510,0.4300,7
@@ -786,21 +788,21 @@ Kamilla Rakhimova,clay,career,0.5230,0.4560,49
 Kamilla Rakhimova,grass,career,0.5610,0.4230,10
 Kamilla Rakhimova,all,career,0.5437,0.4311,134
 Jessica Bouzas Maneiro,hard,52week,0.5530,0.4460,31
-Jessica Bouzas Maneiro,clay,52week,0.5450,0.4750,13
+Jessica Bouzas Maneiro,clay,52week,0.5530,0.4840,15
 Jessica Bouzas Maneiro,grass,52week,0.6250,0.4170,4
-Jessica Bouzas Maneiro,all,52week,0.5568,0.4514,48
+Jessica Bouzas Maneiro,all,52week,0.5588,0.4551,50
 Jessica Bouzas Maneiro,hard,career,0.5360,0.4530,58
-Jessica Bouzas Maneiro,clay,career,0.5410,0.4710,23
+Jessica Bouzas Maneiro,clay,career,0.5440,0.4770,27
 Jessica Bouzas Maneiro,grass,career,0.5890,0.4310,8
-Jessica Bouzas Maneiro,all,career,0.5421,0.4557,89
+Jessica Bouzas Maneiro,all,career,0.5429,0.4581,93
 Renata Zarazua,hard,52week,0.5610,0.4330,18
-Renata Zarazua,clay,52week,0.5040,0.4720,5
+Renata Zarazua,clay,52week,0.5400,0.4560,5
 Renata Zarazua,grass,52week,0.5610,0.4750,2
-Renata Zarazua,all,52week,0.5496,0.4442,25
+Renata Zarazua,all,52week,0.5568,0.4410,25
 Renata Zarazua,hard,career,0.5400,0.4350,68
-Renata Zarazua,clay,career,0.5010,0.4590,25
+Renata Zarazua,clay,career,0.5070,0.4560,26
 Renata Zarazua,grass,career,0.5780,0.4230,3
-Renata Zarazua,all,career,0.5310,0.4409,96
+Renata Zarazua,all,career,0.5323,0.4403,97
 Sinja Kraus,hard,52week,0.5360,0.4330,4
 Sinja Kraus,clay,52week,0.5440,0.3930,5
 Sinja Kraus,all,52week,0.5404,0.4108,9
@@ -825,13 +827,13 @@ Yafan Wang,clay,career,0.5260,0.4270,17
 Yafan Wang,grass,career,0.5220,0.4020,13
 Yafan Wang,all,career,0.5552,0.4341,167
 Rebeka Masarova,hard,52week,0.6050,0.3710,7
-Rebeka Masarova,clay,52week,0.6150,0.4260,2
+Rebeka Masarova,clay,52week,0.5590,0.3960,3
 Rebeka Masarova,grass,52week,0.6260,0.3800,2
-Rebeka Masarova,all,52week,0.6106,0.3826,11
+Rebeka Masarova,all,52week,0.5970,0.3787,12
 Rebeka Masarova,hard,career,0.5800,0.4000,45
-Rebeka Masarova,clay,career,0.5640,0.4220,22
+Rebeka Masarova,clay,career,0.5580,0.4190,23
 Rebeka Masarova,grass,career,0.6070,0.3760,12
-Rebeka Masarova,all,career,0.5796,0.4025,79
+Rebeka Masarova,all,career,0.5777,0.4019,80
 Dalma Galfi,hard,52week,0.5840,0.3510,12
 Dalma Galfi,clay,52week,0.5540,0.4490,10
 Dalma Galfi,grass,52week,0.5870,0.4320,3
@@ -840,8 +842,10 @@ Dalma Galfi,hard,career,0.5800,0.3730,50
 Dalma Galfi,clay,career,0.5480,0.4330,28
 Dalma Galfi,grass,career,0.6060,0.3980,16
 Dalma Galfi,all,career,0.5749,0.3951,94
-Lisa Pigato,clay,52week,0.5620,0.4870,5
-Lisa Pigato,all,52week,0.5620,0.4870,5
+Lisa Pigato,clay,52week,0.5630,0.4690,6
+Lisa Pigato,all,52week,0.5630,0.4690,6
+Lisa Pigato,clay,career,0.5280,0.4360,10
+Lisa Pigato,all,career,0.5280,0.4360,10
 Greet Minnen,hard,52week,0.4920,0.3460,4
 Greet Minnen,clay,52week,0.5810,0.3790,1
 Greet Minnen,grass,52week,0.5650,0.4170,3
@@ -851,13 +855,13 @@ Greet Minnen,clay,career,0.5280,0.3690,13
 Greet Minnen,grass,career,0.5620,0.4200,21
 Greet Minnen,all,career,0.5668,0.4179,132
 Solana Sierra,hard,52week,0.5410,0.3830,17
-Solana Sierra,clay,52week,0.5400,0.4720,9
+Solana Sierra,clay,52week,0.5500,0.4750,12
 Solana Sierra,grass,52week,0.5780,0.4540,4
-Solana Sierra,all,52week,0.5456,0.4192,30
+Solana Sierra,all,52week,0.5488,0.4251,33
 Solana Sierra,hard,career,0.5440,0.4160,22
-Solana Sierra,clay,career,0.5400,0.4720,10
+Solana Sierra,clay,career,0.5500,0.4750,13
 Solana Sierra,grass,career,0.5780,0.4540,4
-Solana Sierra,all,career,0.5467,0.4358,36
+Solana Sierra,all,career,0.5495,0.4396,39
 Oksana Selekhmeteva,hard,52week,0.5330,0.4440,12
 Oksana Selekhmeteva,clay,52week,0.5090,0.4110,3
 Oksana Selekhmeteva,all,52week,0.5282,0.4374,15
@@ -880,13 +884,13 @@ Rebecca Sramkova,clay,career,0.5510,0.4360,23
 Rebecca Sramkova,grass,career,0.5820,0.3870,10
 Rebecca Sramkova,all,career,0.5622,0.4273,107
 Anna Blinkova,hard,52week,0.5240,0.4280,20
-Anna Blinkova,clay,52week,0.4890,0.4520,8
+Anna Blinkova,clay,52week,0.4830,0.4660,9
 Anna Blinkova,grass,52week,0.5570,0.4590,8
-Anna Blinkova,all,52week,0.5236,0.4402,36
+Anna Blinkova,all,52week,0.5212,0.4439,37
 Anna Blinkova,hard,career,0.5360,0.4280,168
-Anna Blinkova,clay,career,0.5200,0.4440,54
+Anna Blinkova,clay,career,0.5180,0.4460,56
 Anna Blinkova,grass,career,0.5490,0.4470,32
-Anna Blinkova,all,career,0.5342,0.4338,254
+Anna Blinkova,all,career,0.5337,0.4343,256
 Lulu Sun,hard,52week,0.6060,0.3810,16
 Lulu Sun,clay,52week,0.6070,0.3660,4
 Lulu Sun,grass,52week,0.5550,0.3800,6
@@ -900,19 +904,19 @@ Tamara Zidansek,clay,career,0.5510,0.4640,74
 Tamara Zidansek,grass,career,0.5160,0.4040,11
 Tamara Zidansek,all,career,0.5404,0.4450,181
 Beatriz Haddad Maia,hard,52week,0.5440,0.4250,19
-Beatriz Haddad Maia,clay,52week,0.5560,0.4030,8
+Beatriz Haddad Maia,clay,52week,0.5650,0.3980,8
 Beatriz Haddad Maia,grass,52week,0.6370,0.3860,8
-Beatriz Haddad Maia,all,52week,0.5680,0.4111,35
+Beatriz Haddad Maia,all,52week,0.5701,0.4099,35
 Beatriz Haddad Maia,hard,career,0.5820,0.4270,187
-Beatriz Haddad Maia,clay,career,0.5640,0.4400,82
+Beatriz Haddad Maia,clay,career,0.5630,0.4380,83
 Beatriz Haddad Maia,grass,career,0.6280,0.4040,40
-Beatriz Haddad Maia,all,career,0.5832,0.4275,309
+Beatriz Haddad Maia,all,career,0.5828,0.4270,310
 Nikola Bartunkova,hard,52week,0.5590,0.4300,14
-Nikola Bartunkova,clay,52week,0.6110,0.4240,1
-Nikola Bartunkova,all,52week,0.5625,0.4296,15
+Nikola Bartunkova,clay,52week,0.5620,0.4000,3
+Nikola Bartunkova,all,52week,0.5595,0.4247,17
 Nikola Bartunkova,hard,career,0.5610,0.4310,16
-Nikola Bartunkova,clay,career,0.5310,0.4060,2
-Nikola Bartunkova,all,career,0.5577,0.4282,18
+Nikola Bartunkova,clay,career,0.5290,0.3950,4
+Nikola Bartunkova,all,career,0.5546,0.4238,20
 Simona Waltert,hard,52week,0.5240,0.3700,4
 Simona Waltert,clay,52week,0.5330,0.4870,7
 Simona Waltert,all,52week,0.5297,0.4445,11
@@ -927,12 +931,15 @@ Petra Marcinko,hard,career,0.5270,0.4310,13
 Petra Marcinko,clay,career,0.5510,0.4930,12
 Petra Marcinko,all,career,0.5385,0.4608,25
 Sloane Stephens,hard,52week,0.5300,0.3980,6
-Sloane Stephens,clay,52week,0.5020,0.3350,4
-Sloane Stephens,all,52week,0.5188,0.3728,10
+Sloane Stephens,clay,52week,0.4960,0.3650,5
+Sloane Stephens,all,52week,0.5145,0.3830,11
 Sloane Stephens,hard,career,0.5630,0.4380,348
-Sloane Stephens,clay,career,0.5700,0.4440,161
+Sloane Stephens,clay,career,0.5690,0.4440,162
 Sloane Stephens,grass,career,0.5870,0.4170,42
-Sloane Stephens,all,career,0.5669,0.4382,551
+Sloane Stephens,all,career,0.5666,0.4382,552
+Alina Charaeva,hard,52week,0.5190,0.3180,2
+Alina Charaeva,clay,52week,0.5540,0.4560,6
+Alina Charaeva,all,52week,0.5453,0.4215,8
 Petra Martic,hard,52week,0.5300,0.4140,9
 Petra Martic,grass,52week,0.5860,0.3410,1
 Petra Martic,all,52week,0.5356,0.4067,10
@@ -949,20 +956,20 @@ Caroline Dolehide,clay,career,0.5640,0.4080,25
 Caroline Dolehide,grass,career,0.5670,0.3630,12
 Caroline Dolehide,all,career,0.5678,0.4043,124
 Tamara Korpatsch,hard,52week,0.5630,0.4760,8
-Tamara Korpatsch,clay,52week,0.5140,0.4410,7
-Tamara Korpatsch,all,52week,0.5401,0.4597,15
+Tamara Korpatsch,clay,52week,0.5270,0.4400,9
+Tamara Korpatsch,all,52week,0.5439,0.4569,17
 Tamara Korpatsch,hard,career,0.5330,0.4410,50
-Tamara Korpatsch,clay,career,0.5160,0.4570,51
+Tamara Korpatsch,clay,career,0.5180,0.4560,53
 Tamara Korpatsch,grass,career,0.5420,0.3740,12
-Tamara Korpatsch,all,career,0.5263,0.4411,113
+Tamara Korpatsch,all,career,0.5270,0.4409,115
 Yue Yuan,hard,52week,0.5720,0.4210,20
-Yue Yuan,clay,52week,0.5160,0.3590,3
+Yue Yuan,clay,52week,0.5220,0.3990,4
 Yue Yuan,grass,52week,0.5520,0.4470,4
-Yue Yuan,all,52week,0.5628,0.4180,27
+Yue Yuan,all,52week,0.5620,0.4216,28
 Yue Yuan,hard,career,0.5680,0.4310,93
-Yue Yuan,clay,career,0.5440,0.4180,16
+Yue Yuan,clay,career,0.5430,0.4240,17
 Yue Yuan,grass,career,0.5650,0.3920,13
-Yue Yuan,all,career,0.5645,0.4251,122
+Yue Yuan,all,career,0.5642,0.4259,123
 Robin Montgomery,clay,52week,0.5500,0.4010,5
 Robin Montgomery,all,52week,0.5500,0.4010,5
 Robin Montgomery,hard,career,0.5540,0.3810,21
@@ -984,12 +991,12 @@ Francesca Jones,hard,career,0.5340,0.4140,22
 Francesca Jones,clay,career,0.5440,0.4740,14
 Francesca Jones,grass,career,0.5650,0.3840,13
 Francesca Jones,all,career,0.5451,0.4232,49
-Veronika Podrez,clay,52week,0.5120,0.4940,5
-Veronika Podrez,all,52week,0.5120,0.4940,5
+Veronika Podrez,clay,52week,0.5090,0.4860,7
+Veronika Podrez,all,52week,0.5090,0.4860,7
 Fiona Ferro,hard,career,0.5280,0.4400,60
-Fiona Ferro,clay,career,0.5510,0.4430,57
+Fiona Ferro,clay,career,0.5510,0.4410,58
 Fiona Ferro,grass,career,0.4310,0.3810,5
-Fiona Ferro,all,career,0.5348,0.4390,122
+Fiona Ferro,all,career,0.5349,0.4381,123
 Ella Seidel,hard,52week,0.5580,0.4010,23
 Ella Seidel,clay,52week,0.5180,0.3410,2
 Ella Seidel,grass,52week,0.5870,0.2980,1
@@ -1042,9 +1049,11 @@ Noma Noha Akugue,hard,career,0.4780,0.3670,1
 Noma Noha Akugue,clay,career,0.5470,0.4610,15
 Noma Noha Akugue,all,career,0.5427,0.4551,16
 Himeno Sakatsume,hard,52week,0.5900,0.4480,6
-Himeno Sakatsume,all,52week,0.5900,0.4480,6
+Himeno Sakatsume,clay,52week,0.4420,0.4440,1
+Himeno Sakatsume,all,52week,0.5689,0.4474,7
 Himeno Sakatsume,hard,career,0.5850,0.4220,12
-Himeno Sakatsume,all,career,0.5850,0.4220,12
+Himeno Sakatsume,clay,career,0.4420,0.4440,1
+Himeno Sakatsume,all,career,0.5740,0.4237,13
 Linda Fruhvirtova,hard,52week,0.5460,0.4590,10
 Linda Fruhvirtova,clay,52week,0.4730,0.4940,3
 Linda Fruhvirtova,grass,52week,0.5120,0.3280,1
@@ -1121,17 +1130,20 @@ Laura Samson,hard,career,0.4500,0.4510,2
 Laura Samson,clay,career,0.5520,0.5260,12
 Laura Samson,all,career,0.5374,0.5153,14
 Priscilla Hon,hard,52week,0.5550,0.4190,11
+Priscilla Hon,clay,52week,0.5980,0.3110,1
 Priscilla Hon,grass,52week,0.4770,0.4240,1
-Priscilla Hon,all,52week,0.5485,0.4194,12
+Priscilla Hon,all,52week,0.5523,0.4111,13
 Priscilla Hon,hard,career,0.5520,0.4060,54
-Priscilla Hon,clay,career,0.6080,0.3990,2
+Priscilla Hon,clay,career,0.6040,0.3670,3
 Priscilla Hon,grass,career,0.4820,0.3550,3
-Priscilla Hon,all,career,0.5503,0.4032,59
+Priscilla Hon,all,career,0.5511,0.4015,60
 Taylah Preston,hard,52week,0.5510,0.4660,8
-Taylah Preston,all,52week,0.5510,0.4660,8
+Taylah Preston,clay,52week,0.5940,0.3900,1
+Taylah Preston,all,52week,0.5558,0.4576,9
 Taylah Preston,hard,career,0.5300,0.4450,15
+Taylah Preston,clay,career,0.5940,0.3900,1
 Taylah Preston,grass,career,0.5370,0.4860,1
-Taylah Preston,all,career,0.5304,0.4476,16
+Taylah Preston,all,career,0.5342,0.4442,17
 Rebecca Marino,hard,52week,0.5830,0.3980,11
 Rebecca Marino,all,52week,0.5830,0.3980,11
 Rebecca Marino,hard,career,0.5960,0.3790,103
@@ -1167,13 +1179,13 @@ Julia Grabher,clay,career,0.5430,0.4490,37
 Julia Grabher,grass,career,0.5340,0.2680,2
 Julia Grabher,all,career,0.5403,0.4102,76
 Diane Parry,hard,52week,0.6110,0.4300,12
-Diane Parry,clay,52week,0.5370,0.4010,6
+Diane Parry,clay,52week,0.5660,0.4180,9
 Diane Parry,grass,52week,0.6210,0.4100,3
-Diane Parry,all,52week,0.5913,0.4189,21
+Diane Parry,all,52week,0.5954,0.4230,24
 Diane Parry,hard,career,0.5950,0.4080,65
-Diane Parry,clay,career,0.5600,0.4140,41
+Diane Parry,clay,career,0.5640,0.4170,44
 Diane Parry,grass,career,0.5890,0.4120,14
-Diane Parry,all,career,0.5823,0.4105,120
+Diane Parry,all,career,0.5832,0.4117,123
 Tatjana Maria,hard,52week,0.5390,0.4020,23
 Tatjana Maria,clay,52week,0.5640,0.4260,12
 Tatjana Maria,grass,52week,0.6090,0.4010,7
@@ -1193,13 +1205,13 @@ Sofia Costoulas,hard,52week,0.6120,0.4610,3
 Sofia Costoulas,clay,52week,0.5500,0.4630,2
 Sofia Costoulas,all,52week,0.5872,0.4618,5
 Mayar Sherif,hard,52week,0.5210,0.3530,2
-Mayar Sherif,clay,52week,0.5630,0.3770,4
+Mayar Sherif,clay,52week,0.5400,0.4110,5
 Mayar Sherif,grass,52week,0.4930,0.3400,1
-Mayar Sherif,all,52week,0.5410,0.3649,7
+Mayar Sherif,all,52week,0.5294,0.3876,8
 Mayar Sherif,hard,career,0.5550,0.3730,67
-Mayar Sherif,clay,career,0.5680,0.4440,62
+Mayar Sherif,clay,career,0.5660,0.4440,64
 Mayar Sherif,grass,career,0.5850,0.3350,5
-Mayar Sherif,all,career,0.5621,0.4044,134
+Mayar Sherif,all,career,0.5613,0.4050,136
 Aoi Ito,hard,52week,0.4980,0.4730,8
 Aoi Ito,grass,52week,0.4850,0.4500,1
 Aoi Ito,all,52week,0.4966,0.4704,9
@@ -1246,27 +1258,30 @@ Elvina Kalieva,hard,career,0.5240,0.3840,7
 Elvina Kalieva,clay,career,0.5290,0.3310,4
 Elvina Kalieva,all,career,0.5258,0.3647,11
 Victoria Jimenez Kasintseva,hard,52week,0.5270,0.4410,12
-Victoria Jimenez Kasintseva,clay,52week,0.5320,0.4420,3
-Victoria Jimenez Kasintseva,all,52week,0.5280,0.4412,15
+Victoria Jimenez Kasintseva,clay,52week,0.5250,0.4120,4
+Victoria Jimenez Kasintseva,all,52week,0.5265,0.4337,16
 Victoria Jimenez Kasintseva,hard,career,0.5370,0.4280,19
-Victoria Jimenez Kasintseva,clay,career,0.5160,0.4060,8
-Victoria Jimenez Kasintseva,all,career,0.5308,0.4215,27
+Victoria Jimenez Kasintseva,clay,career,0.5140,0.3960,9
+Victoria Jimenez Kasintseva,all,career,0.5296,0.4177,28
 Maria Timofeeva,hard,52week,0.4260,0.4620,2
-Maria Timofeeva,clay,52week,0.5280,0.4820,7
-Maria Timofeeva,all,52week,0.5053,0.4776,9
+Maria Timofeeva,clay,52week,0.5220,0.4970,8
+Maria Timofeeva,all,52week,0.5028,0.4900,10
 Maria Timofeeva,hard,career,0.5710,0.4180,10
-Maria Timofeeva,clay,career,0.5420,0.4580,18
-Maria Timofeeva,all,career,0.5524,0.4437,28
+Maria Timofeeva,clay,career,0.5390,0.4650,19
+Maria Timofeeva,all,career,0.5500,0.4488,29
 Dominika Salkova,hard,52week,0.5490,0.4740,6
-Dominika Salkova,clay,52week,0.5040,0.4800,2
-Dominika Salkova,all,52week,0.5377,0.4755,8
+Dominika Salkova,clay,52week,0.5440,0.4740,5
+Dominika Salkova,all,52week,0.5467,0.4740,11
 Dominika Salkova,hard,career,0.5460,0.4650,10
-Dominika Salkova,clay,career,0.5480,0.4850,4
-Dominika Salkova,all,career,0.5466,0.4707,14
+Dominika Salkova,clay,career,0.5570,0.4780,7
+Dominika Salkova,all,career,0.5505,0.4704,17
+Varvara Lepchenko,hard,52week,0.4600,0.3510,1
+Varvara Lepchenko,clay,52week,0.5900,0.4050,4
+Varvara Lepchenko,all,52week,0.5640,0.3942,5
 Varvara Lepchenko,hard,career,0.5590,0.4160,226
-Varvara Lepchenko,clay,career,0.5490,0.4370,114
+Varvara Lepchenko,clay,career,0.5490,0.4360,115
 Varvara Lepchenko,grass,career,0.5750,0.3650,36
-Varvara Lepchenko,all,career,0.5575,0.4175,376
+Varvara Lepchenko,all,career,0.5575,0.4172,377
 Tyra Caterina Grant,clay,52week,0.5730,0.4310,5
 Tyra Caterina Grant,all,52week,0.5730,0.4310,5
 Polona Hercog,hard,career,0.5710,0.3920,182
@@ -1274,12 +1289,13 @@ Polona Hercog,clay,career,0.5690,0.4470,177
 Polona Hercog,grass,career,0.5700,0.3850,32
 Polona Hercog,all,career,0.5700,0.4163,391
 Maddison Inglis,hard,52week,0.5670,0.3830,6
+Maddison Inglis,clay,52week,0.4110,0.3830,1
 Maddison Inglis,grass,52week,0.7080,0.3580,1
-Maddison Inglis,all,52week,0.5871,0.3794,7
+Maddison Inglis,all,52week,0.5651,0.3799,8
 Maddison Inglis,hard,career,0.5430,0.3900,29
-Maddison Inglis,clay,career,0.4780,0.4710,3
+Maddison Inglis,clay,career,0.4620,0.4530,4
 Maddison Inglis,grass,career,0.6320,0.3570,3
-Maddison Inglis,all,career,0.5451,0.3941,35
+Maddison Inglis,all,career,0.5414,0.3943,36
 Tereza Martincova,hard,52week,0.6000,0.4670,4
 Tereza Martincova,clay,52week,0.5070,0.3500,1
 Tereza Martincova,all,52week,0.5814,0.4436,5
@@ -1352,10 +1368,13 @@ Guiomar Maristany Zuleta De Reales,all,52week,0.5650,0.4671,8
 Guiomar Maristany Zuleta De Reales,hard,career,0.4510,0.3980,2
 Guiomar Maristany Zuleta De Reales,clay,career,0.5730,0.4720,9
 Guiomar Maristany Zuleta De Reales,all,career,0.5508,0.4585,11
+Anna Lena Friedsam,hard,52week,0.6240,0.3950,3
+Anna Lena Friedsam,clay,52week,0.6300,0.3400,2
+Anna Lena Friedsam,all,52week,0.6264,0.3730,5
 Anna Lena Friedsam,hard,career,0.5680,0.4100,84
-Anna Lena Friedsam,clay,career,0.5710,0.4110,48
+Anna Lena Friedsam,clay,career,0.5740,0.4080,50
 Anna Lena Friedsam,grass,career,0.6130,0.3780,19
-Anna Lena Friedsam,all,career,0.5746,0.4063,151
+Anna Lena Friedsam,all,career,0.5755,0.4054,153
 Jazmin Ortenzi,hard,52week,0.4830,0.3020,1
 Jazmin Ortenzi,clay,52week,0.5170,0.5140,4
 Jazmin Ortenzi,all,52week,0.5102,0.4716,5
@@ -1369,8 +1388,8 @@ Lucrezia Stefanini,hard,career,0.5270,0.4550,30
 Lucrezia Stefanini,clay,career,0.4810,0.4660,11
 Lucrezia Stefanini,grass,career,0.4830,0.4250,4
 Lucrezia Stefanini,all,career,0.5118,0.4550,45
-Lola Radivojevic,clay,career,0.4860,0.4530,11
-Lola Radivojevic,all,career,0.4860,0.4530,11
+Lola Radivojevic,clay,career,0.4940,0.4460,12
+Lola Radivojevic,all,career,0.4940,0.4460,12
 Leyre Romero Gormaz,clay,52week,0.5650,0.5060,5
 Leyre Romero Gormaz,all,52week,0.5650,0.5060,5
 Francisca Jorge,hard,career,0.5590,0.4340,15
@@ -1381,13 +1400,13 @@ Elizara Yaneva,all,52week,0.5440,0.5200,6
 Elizara Yaneva,clay,career,0.5440,0.5200,6
 Elizara Yaneva,all,career,0.5440,0.5200,6
 Lucia Bronzetti,hard,52week,0.5450,0.4000,13
-Lucia Bronzetti,clay,52week,0.4940,0.3930,5
+Lucia Bronzetti,clay,52week,0.5000,0.3950,5
 Lucia Bronzetti,grass,52week,0.5290,0.3040,4
-Lucia Bronzetti,all,52week,0.5305,0.3810,22
+Lucia Bronzetti,all,52week,0.5319,0.3814,22
 Lucia Bronzetti,hard,career,0.5570,0.4320,104
-Lucia Bronzetti,clay,career,0.5370,0.4510,48
+Lucia Bronzetti,clay,career,0.5380,0.4490,50
 Lucia Bronzetti,grass,career,0.5700,0.3830,16
-Lucia Bronzetti,all,career,0.5525,0.4328,168
+Lucia Bronzetti,all,career,0.5526,0.4324,170
 Jessika Ponchet,hard,52week,0.5770,0.4110,4
 Jessika Ponchet,clay,52week,0.5790,0.3330,1
 Jessika Ponchet,all,52week,0.5774,0.3954,5
@@ -1412,20 +1431,23 @@ Iryna Shymanovich,hard,career,0.5120,0.3390,5
 Iryna Shymanovich,clay,career,0.5230,0.4330,10
 Iryna Shymanovich,all,career,0.5193,0.4017,15
 Whitney Osuigwe,hard,52week,0.5320,0.4110,7
-Whitney Osuigwe,all,52week,0.5320,0.4110,7
+Whitney Osuigwe,clay,52week,0.5940,0.3380,1
+Whitney Osuigwe,all,52week,0.5398,0.4019,8
 Whitney Osuigwe,hard,career,0.4990,0.3970,18
-Whitney Osuigwe,clay,career,0.5000,0.3790,1
-Whitney Osuigwe,all,career,0.4991,0.3961,19
+Whitney Osuigwe,clay,career,0.5600,0.3580,2
+Whitney Osuigwe,all,career,0.5051,0.3931,20
 Zarina Diyas,hard,52week,0.5780,0.4510,8
 Zarina Diyas,all,52week,0.5780,0.4510,8
 Zarina Diyas,hard,career,0.5540,0.4470,179
 Zarina Diyas,clay,career,0.5470,0.4360,49
 Zarina Diyas,grass,career,0.5600,0.4000,24
 Zarina Diyas,all,career,0.5532,0.4404,252
+Susan Bandecchi,clay,52week,0.6110,0.4610,7
+Susan Bandecchi,all,52week,0.6110,0.4610,7
 Susan Bandecchi,hard,career,0.6150,0.3500,2
-Susan Bandecchi,clay,career,0.5770,0.4340,8
+Susan Bandecchi,clay,career,0.5910,0.4360,11
 Susan Bandecchi,grass,career,0.5260,0.3860,1
-Susan Bandecchi,all,career,0.5793,0.4144,11
+Susan Bandecchi,all,career,0.5898,0.4201,14
 Anna Siskova,hard,52week,0.5080,0.4310,1
 Anna Siskova,clay,52week,0.5330,0.4750,5
 Anna Siskova,all,52week,0.5288,0.4677,6
@@ -1465,6 +1487,10 @@ Astra Sharma,hard,career,0.5540,0.3810,29
 Astra Sharma,clay,career,0.5760,0.4270,41
 Astra Sharma,grass,career,0.5810,0.3650,5
 Astra Sharma,all,career,0.5678,0.4051,75
+Carole Monnet,clay,52week,0.4950,0.3890,5
+Carole Monnet,all,52week,0.4950,0.3890,5
+Carole Monnet,clay,career,0.5180,0.4070,10
+Carole Monnet,all,career,0.5180,0.4070,10
 Emina Bektas,hard,career,0.6090,0.3260,15
 Emina Bektas,clay,career,0.5220,0.4830,3
 Emina Bektas,grass,career,0.6190,0.3850,9
@@ -1517,15 +1543,17 @@ Maria Lourdes Carle,hard,career,0.4990,0.4400,15
 Maria Lourdes Carle,clay,career,0.5120,0.4790,31
 Maria Lourdes Carle,grass,career,0.3690,0.4460,1
 Maria Lourdes Carle,all,career,0.5048,0.4659,47
-Xiaodi You,hard,career,0.5010,0.4580,17
+Xiaodi You,hard,52week,0.5810,0.5110,5
+Xiaodi You,all,52week,0.5810,0.5110,5
+Xiaodi You,hard,career,0.5010,0.4590,18
 Xiaodi You,clay,career,0.4460,0.3430,2
-Xiaodi You,all,career,0.4952,0.4459,19
+Xiaodi You,all,career,0.4955,0.4474,20
 Tiantsoa Sarah Rakotomanga Rajaonah,hard,52week,0.5590,0.4450,10
-Tiantsoa Sarah Rakotomanga Rajaonah,clay,52week,0.4890,0.4340,4
-Tiantsoa Sarah Rakotomanga Rajaonah,all,52week,0.5390,0.4419,14
+Tiantsoa Sarah Rakotomanga Rajaonah,clay,52week,0.5040,0.4140,6
+Tiantsoa Sarah Rakotomanga Rajaonah,all,52week,0.5384,0.4334,16
 Tiantsoa Sarah Rakotomanga Rajaonah,hard,career,0.5590,0.4450,10
-Tiantsoa Sarah Rakotomanga Rajaonah,clay,career,0.5190,0.4510,7
-Tiantsoa Sarah Rakotomanga Rajaonah,all,career,0.5425,0.4475,17
+Tiantsoa Sarah Rakotomanga Rajaonah,clay,career,0.5230,0.4330,9
+Tiantsoa Sarah Rakotomanga Rajaonah,all,career,0.5419,0.4393,19
 Martina Trevisan,hard,career,0.5330,0.4290,84
 Martina Trevisan,clay,career,0.5210,0.4700,61
 Martina Trevisan,grass,career,0.4890,0.3510,7
@@ -1534,11 +1562,11 @@ Arina Rodionova,hard,career,0.5120,0.4180,51
 Arina Rodionova,clay,career,0.5330,0.4470,5
 Arina Rodionova,grass,career,0.5620,0.4010,10
 Arina Rodionova,all,career,0.5212,0.4176,66
-En Shuo Liang,hard,52week,0.6050,0.4440,5
-En Shuo Liang,all,52week,0.6050,0.4440,5
-En Shuo Liang,hard,career,0.5510,0.4240,23
+En Shuo Liang,hard,52week,0.5890,0.4560,6
+En Shuo Liang,all,52week,0.5890,0.4560,6
+En Shuo Liang,hard,career,0.5500,0.4280,24
 En Shuo Liang,clay,career,0.5070,0.4680,1
-En Shuo Liang,all,career,0.5492,0.4258,24
+En Shuo Liang,all,career,0.5483,0.4296,25
 Louisa Chirico,hard,52week,0.5560,0.4050,1
 Louisa Chirico,clay,52week,0.5130,0.4420,4
 Louisa Chirico,all,52week,0.5216,0.4346,5
@@ -1582,12 +1610,12 @@ Arianne Hartono,clay,career,0.4600,0.4590,2
 Arianne Hartono,grass,career,0.5420,0.3830,3
 Arianne Hartono,all,career,0.5280,0.4250,24
 Chloe Paquet,hard,52week,0.5380,0.2530,2
-Chloe Paquet,clay,52week,0.5890,0.4150,3
-Chloe Paquet,all,52week,0.5686,0.3502,5
+Chloe Paquet,clay,52week,0.5820,0.4360,5
+Chloe Paquet,all,52week,0.5694,0.3837,7
 Chloe Paquet,hard,career,0.5100,0.3900,26
-Chloe Paquet,clay,career,0.5520,0.4230,37
+Chloe Paquet,clay,career,0.5530,0.4270,39
 Chloe Paquet,grass,career,0.5690,0.3390,3
-Chloe Paquet,all,career,0.5362,0.4062,66
+Chloe Paquet,all,career,0.5373,0.4090,68
 Camilla Rosatello,hard,career,0.4480,0.4830,1
 Camilla Rosatello,clay,career,0.5220,0.4220,11
 Camilla Rosatello,all,career,0.5158,0.4271,12
@@ -1750,6 +1778,8 @@ Ankita Raina,grass,career,0.5710,0.3540,2
 Ankita Raina,all,career,0.5328,0.4457,58
 Peangtarn Plipuech,hard,career,0.5040,0.3960,19
 Peangtarn Plipuech,all,career,0.5040,0.3960,19
+Noemi Basiletti,clay,52week,0.4720,0.4700,5
+Noemi Basiletti,all,52week,0.4720,0.4700,5
 Clara Vlasselaer,hard,52week,0.5840,0.4170,4
 Clara Vlasselaer,clay,52week,0.4790,0.3470,1
 Clara Vlasselaer,all,52week,0.5630,0.4030,5
