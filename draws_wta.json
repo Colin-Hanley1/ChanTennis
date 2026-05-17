@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-16T13:52:52Z",
+  "fetched_at": "2026-05-17T04:14:16Z",
   "events": [
     {
       "slug": "2026WTARome",
@@ -683,16 +683,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Coco Gauff",
-          "b": "Elina Svitolina",
-          "a_seed": "3",
-          "b_seed": "7",
-          "h2h": "2-3"
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Elina Svitolina",
+          "loser": "Coco Gauff",
+          "score": "64 67(3) 62"
+        },
         {
           "round": "SF",
           "winner": "Coco Gauff",
@@ -1461,16 +1459,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Barbora Krejcikova",
-          "b": "Dayana Yastremska",
-          "a_seed": "4",
-          "b_seed": "3",
-          "h2h": "2-1"
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Dayana Yastremska",
+          "loser": "Barbora Krejcikova",
+          "score": "63 63"
+        },
         {
           "round": "SF",
           "winner": "Barbora Krejcikova",
@@ -1858,20 +1854,25 @@
       "r1_matches": [
         {
           "a": "Madison Keys",
-          "b": "Yuliia Starodubtseva",
+          "b": "Diane Parry",
           "a_seed": "1",
-          "b_seed": "7",
-          "h2h": "0-1"
-        },
-        {
-          "a": "Diane Parry",
-          "b": "Alina Charaeva",
-          "a_seed": "Q",
           "b_seed": null,
           "h2h": "1-0"
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Madison Keys",
+          "loser": "Yuliia Starodubtseva",
+          "score": "16 62 63"
+        },
+        {
+          "round": "SF",
+          "winner": "Diane Parry",
+          "loser": "Alina Charaeva",
+          "score": "76(6) 76(6)"
+        },
         {
           "round": "QF",
           "winner": "Madison Keys",
