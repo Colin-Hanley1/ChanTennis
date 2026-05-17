@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-17T04:14:16Z",
+  "fetched_at": "2026-05-17T07:40:10Z",
   "events": [
     {
       "slug": "2026ATPRome",
@@ -686,20 +686,25 @@
       "r1_matches": [
         {
           "a": "Jannik Sinner",
-          "b": "Daniil Medvedev",
+          "b": "Casper Ruud",
           "a_seed": "1",
-          "b_seed": "7",
-          "h2h": "9-7"
-        },
-        {
-          "a": "Casper Ruud",
-          "b": "Luciano Darderi",
-          "a_seed": "23",
-          "b_seed": "18",
-          "h2h": null
+          "b_seed": "23",
+          "h2h": "4-0"
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Jannik Sinner",
+          "loser": "Daniil Medvedev",
+          "score": "6-2 5-7 6-4"
+        },
+        {
+          "round": "SF",
+          "winner": "Casper Ruud",
+          "loser": "Luciano Darderi",
+          "score": "6-1 6-1"
+        },
         {
           "round": "QF",
           "winner": "Jannik Sinner",
