@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-18T18:16:24Z",
+  "fetched_at": "2026-05-18T20:08:51Z",
   "source": "espn",
   "matches": [
     {
@@ -17,6 +17,13 @@
       "event": "2026ATPGeneva"
     },
     {
+      "winner": "Edas Butvilas",
+      "loser": "Lorenzo Sonego",
+      "score": "6-3 6-1",
+      "round": "Round 1",
+      "event": "2026ATPGeneva"
+    },
+    {
       "winner": "Francisco Comesana",
       "loser": "Valentin Royer",
       "score": "2-6 6-3 6-4",
@@ -27,6 +34,13 @@
       "winner": "Mariano Navone",
       "loser": "Marco Trungelliti",
       "score": "5-7 7-5 6-1",
+      "round": "Round 1",
+      "event": "2026ATPGeneva"
+    },
+    {
+      "winner": "Stan Wawrinka",
+      "loser": "Raul Brancaccio",
+      "score": "6-2 4-6 7-6",
       "round": "Round 1",
       "event": "2026ATPGeneva"
     },
@@ -76,6 +90,13 @@
       "winner": "Frances Tiafoe",
       "loser": "Diego Dedura",
       "score": "6-4 6-4",
+      "round": "Round 1",
+      "event": "2026ATPHamburg"
+    },
+    {
+      "winner": "Jakub Mensik",
+      "loser": "Jan-Lennard Struff",
+      "score": "7-6 6-2",
       "round": "Round 1",
       "event": "2026ATPHamburg"
     },
