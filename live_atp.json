@@ -1,7 +1,37 @@
 {
-  "fetched_at": "2026-05-18T08:50:58Z",
+  "fetched_at": "2026-05-18T12:44:39Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Alejandro Davidovich Fokina",
+      "loser": "Corentin Moutet",
+      "score": "6-4 6-4",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Alex Michelsen",
+      "loser": "Sebastian Baez",
+      "score": "7-5 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Alex de Minaur",
+      "loser": "Francisco Cerundolo",
+      "score": "3-6 6-4 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Arthur Rinderknech",
+      "loser": "Thiago Agustin Tirante",
+      "score": "6-4 6-1",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Camilo Ugo Carabelli",
+      "loser": "Kamil Majchrzak",
+      "score": "1-6 6-2 6-3",
+      "round": "Round 1"
+    },
     {
       "winner": "Frances Tiafoe",
       "loser": "Diego Dedura",
