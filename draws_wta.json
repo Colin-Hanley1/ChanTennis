@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-17T13:53:01Z",
+  "fetched_at": "2026-05-18T04:25:19Z",
   "events": [
     {
       "slug": "2026WTARome",
@@ -1851,16 +1851,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Madison Keys",
-          "b": "Diane Parry",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": "1-0"
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Diane Parry",
+          "loser": "Madison Keys",
+          "score": ""
+        },
         {
           "round": "SF",
           "winner": "Madison Keys",
