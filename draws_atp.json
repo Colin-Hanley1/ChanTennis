@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-18T04:25:19Z",
+  "fetched_at": "2026-05-18T08:51:02Z",
   "events": [
     {
       "slug": "2026ATPRome",
@@ -683,16 +683,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Jannik Sinner",
-          "b": "Casper Ruud",
-          "a_seed": "1",
-          "b_seed": "23",
-          "h2h": "4-0"
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Jannik Sinner",
+          "loser": "Casper Ruud",
+          "score": "6-4 6-4"
+        },
         {
           "round": "SF",
           "winner": "Jannik Sinner",
