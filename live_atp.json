@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-19T12:18:18Z",
+  "fetched_at": "2026-05-19T16:13:19Z",
   "source": "espn",
   "matches": [
     {
@@ -24,6 +24,13 @@
       "event": "2026ATPGeneva"
     },
     {
+      "winner": "Casper Ruud",
+      "loser": "Jenson Brooksby",
+      "score": "6-3 7-5",
+      "round": "Round 1",
+      "event": "2026ATPGeneva"
+    },
+    {
       "winner": "Edas Butvilas",
       "loser": "Lorenzo Sonego",
       "score": "6-3 6-1",
@@ -34,6 +41,13 @@
       "winner": "Francisco Comesana",
       "loser": "Valentin Royer",
       "score": "2-6 6-3 6-4",
+      "round": "Round 1",
+      "event": "2026ATPGeneva"
+    },
+    {
+      "winner": "Jaume Munar",
+      "loser": "Nishesh Basavareddy",
+      "score": "6-0 6-3",
       "round": "Round 1",
       "event": "2026ATPGeneva"
     },
@@ -101,6 +115,13 @@
       "event": "2026ATPHamburg"
     },
     {
+      "winner": "Felix Auger-Aliassime",
+      "loser": "Vit Kopriva",
+      "score": "7-5 6-1",
+      "round": "Round 1",
+      "event": "2026ATPHamburg"
+    },
+    {
       "winner": "Frances Tiafoe",
       "loser": "Diego Dedura",
       "score": "6-4 6-4",
@@ -122,6 +143,20 @@
       "event": "2026ATPHamburg"
     },
     {
+      "winner": "Karen Khachanov",
+      "loser": "Hugo Gaston",
+      "score": "3-6 6-3 7-6",
+      "round": "Round 1",
+      "event": "2026ATPHamburg"
+    },
+    {
+      "winner": "Luciano Darderi",
+      "loser": "Roman Andres Burruchaga",
+      "score": "6-3 7-6",
+      "round": "Round 1",
+      "event": "2026ATPHamburg"
+    },
+    {
       "winner": "Tomas Martin Etcheverry",
       "loser": "Terence Atmane",
       "score": "6-2 7-6",
@@ -132,6 +167,13 @@
       "winner": "Tommy Paul",
       "loser": "Ethan Quinn",
       "score": "6-1 6-3",
+      "round": "Round 1",
+      "event": "2026ATPHamburg"
+    },
+    {
+      "winner": "Ugo Humbert",
+      "loser": "Justin Engel",
+      "score": "6-3 3-6 7-6",
       "round": "Round 1",
       "event": "2026ATPHamburg"
     },
