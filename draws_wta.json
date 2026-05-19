@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-19T08:36:45Z",
+  "fetched_at": "2026-05-19T12:18:21Z",
   "events": [
     {
       "slug": "2026WTAStrasbourg",
@@ -193,20 +193,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Shuai Zhang",
-          "b": "Cristina Bucsa",
-          "a_seed": "LL",
-          "b_seed": null,
-          "h2h": "3-0"
-        },
-        {
-          "a": "Diane Parry",
-          "b": "Emma Raducanu",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
           "a": "Victoria Mboko",
           "b": "Lois Boisson",
           "a_seed": "1",
@@ -233,6 +219,13 @@
           "a_seed": "Q",
           "b_seed": null,
           "h2h": "2-4"
+        },
+        {
+          "a": "Shuai Zhang",
+          "b": "Diane Parry",
+          "a_seed": "LL",
+          "b_seed": "WC",
+          "h2h": "1-0"
         },
         {
           "a": "Emma Navarro",
@@ -292,6 +285,18 @@
           "winner": "Daria Kasatkina",
           "loser": "Liudmila Samsonova",
           "score": "75 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Shuai Zhang",
+          "loser": "Cristina Bucsa",
+          "score": "26 76(7) 75"
+        },
+        {
+          "round": "R1",
+          "winner": "Diane Parry",
+          "loser": "Emma Raducanu",
+          "score": "64 76(4)"
         },
         {
           "round": "R1",
