@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-18T12:44:42Z",
+  "fetched_at": "2026-05-19T04:20:28Z",
   "events": [
     {
       "slug": "2026WTAStrasbourg",
@@ -207,20 +207,6 @@
           "h2h": "0-1"
         },
         {
-          "a": "Marie Bouzkova",
-          "b": "Katerina Siniakova",
-          "a_seed": "8",
-          "b_seed": null,
-          "h2h": "0-2"
-        },
-        {
-          "a": "Alexandra Eala",
-          "b": "Oleksandra Oliynykova",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Victoria Mboko",
           "b": "Lois Boisson",
           "a_seed": "1",
@@ -253,6 +239,13 @@
           "b": "Iva Jovic",
           "a_seed": "3",
           "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Marie Bouzkova",
+          "b": "Oleksandra Oliynykova",
+          "a_seed": "8",
+          "b_seed": "Q",
           "h2h": null
         },
         {
@@ -305,6 +298,18 @@
           "winner": "Emma Navarro",
           "loser": "Sara Bejlek",
           "score": "61 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Marie Bouzkova",
+          "loser": "Katerina Siniakova",
+          "score": "76(3) 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Oleksandra Oliynykova",
+          "loser": "Alexandra Eala",
+          "score": "36 75 63"
         },
         {
           "round": "R1",
@@ -553,27 +558,6 @@
           "h2h": "0-1"
         },
         {
-          "a": "Polona Hercog",
-          "b": "Anna Bondar",
-          "a_seed": "5",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
-          "a": "Alycia Parks",
-          "b": "Moyuka Uchijima",
-          "a_seed": "8",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
-          "a": "Jil Teichmann",
-          "b": "Julia Grabher",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "0-2"
-        },
-        {
           "a": "Yasmine Kabbaj",
           "b": "Berfu Cengiz",
           "a_seed": "WC",
@@ -588,13 +572,6 @@
           "h2h": null
         },
         {
-          "a": "Petra Marcinko",
-          "b": "Vera Zvonareva",
-          "a_seed": "6",
-          "b_seed": "Q",
-          "h2h": "1-0"
-        },
-        {
           "a": "Francesca Jones",
           "b": "Yelyzaveta Kotliar",
           "a_seed": "WC",
@@ -602,17 +579,17 @@
           "h2h": null
         },
         {
-          "a": "Fiona Ferro",
-          "b": "Danka Kovinic",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": "0-3"
-        },
-        {
           "a": "Lisa Zaar",
           "b": "Jessica Bouzas Maneiro",
           "a_seed": "Q",
           "b_seed": "2",
+          "h2h": null
+        },
+        {
+          "a": "Alycia Parks",
+          "b": "Jil Teichmann",
+          "a_seed": "8",
+          "b_seed": null,
           "h2h": null
         }
       ],
@@ -628,6 +605,36 @@
           "winner": "Anhelina Kalinina",
           "loser": "Simona Waltert",
           "score": "63 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Anna Bondar",
+          "loser": "Polona Hercog",
+          "score": ""
+        },
+        {
+          "round": "R1",
+          "winner": "Alycia Parks",
+          "loser": "Moyuka Uchijima",
+          "score": "62 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Jil Teichmann",
+          "loser": "Julia Grabher",
+          "score": "64 76(5)"
+        },
+        {
+          "round": "R1",
+          "winner": "Petra Marcinko",
+          "loser": "Vera Zvonareva",
+          "score": "62 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Fiona Ferro",
+          "loser": "Danka Kovinic",
+          "score": "62 63"
         }
       ]
     }
