@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-19T18:15:11Z",
+  "fetched_at": "2026-05-19T20:10:06Z",
   "source": "espn",
   "matches": [
     {
@@ -48,6 +48,13 @@
       "winner": "Jaume Munar",
       "loser": "Nishesh Basavareddy",
       "score": "6-0 6-3",
+      "round": "Round 1",
+      "event": "2026ATPGeneva"
+    },
+    {
+      "winner": "Laslo Djere",
+      "loser": "James Duckworth",
+      "score": "6-4 3-6 6-3",
       "round": "Round 1",
       "event": "2026ATPGeneva"
     },
@@ -189,6 +196,13 @@
       "loser": "Max Schoenhaus",
       "score": "6-3 6-7 6-4",
       "round": "Round 1",
+      "event": "2026ATPHamburg"
+    },
+    {
+      "winner": "Daniel Altmaier",
+      "loser": "Ben Shelton",
+      "score": "4-6 7-6 6-4",
+      "round": "Round 2",
       "event": "2026ATPHamburg"
     }
   ]
