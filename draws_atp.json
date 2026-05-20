@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-20T11:55:01Z",
+  "fetched_at": "2026-05-20T14:13:14Z",
   "events": [
     {
       "slug": "2026ATPHamburg",
@@ -205,23 +205,9 @@
       ],
       "r1_matches": [
         {
-          "a": "Felix Auger Aliassime",
-          "b": "Aleksandar Kovacevic",
-          "a_seed": "1",
-          "b_seed": "LL",
-          "h2h": "2-0"
-        },
-        {
           "a": "Camilo Ugo Carabelli",
           "b": "Frances Tiafoe",
           "a_seed": "8",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Ignacio Buse",
-          "b": "Jakub Mensik",
-          "a_seed": "Q",
           "b_seed": null,
           "h2h": null
         },
@@ -255,6 +241,18 @@
         }
       ],
       "completed": [
+        {
+          "round": "R16",
+          "winner": "Aleksandar Kovacevic",
+          "loser": "Felix Auger Aliassime",
+          "score": "4-6 7-5 6-4"
+        },
+        {
+          "round": "R16",
+          "winner": "Ignacio Buse",
+          "loser": "Jakub Mensik",
+          "score": "6-0 6-3"
+        },
         {
           "round": "R16",
           "winner": "Daniel Altmaier",
@@ -551,13 +549,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Taylor Fritz",
-          "b": "Alexei Popyrin",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": "1-1"
-        },
-        {
           "a": "Raphael Collignon",
           "b": "Casper Ruud",
           "a_seed": "6",
@@ -565,31 +556,10 @@
           "h2h": "1-0"
         },
         {
-          "a": "Cameron Norrie",
-          "b": "Mariano Navone",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
-          "a": "Francisco Comesana",
-          "b": "Jaume Munar",
-          "a_seed": "Q",
-          "b_seed": "8",
-          "h2h": "1-0"
-        },
-        {
           "a": "Stan Wawrinka",
           "b": "Alex Michelsen",
           "a_seed": "WC",
           "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Stefanos Tsitsipas",
-          "b": "Learner Tien",
-          "a_seed": "WC",
-          "b_seed": "4",
           "h2h": null
         },
         {
@@ -605,9 +575,40 @@
           "a_seed": "Q",
           "b_seed": "2",
           "h2h": null
+        },
+        {
+          "a": "Mariano Navone",
+          "b": "Jaume Munar",
+          "a_seed": "8",
+          "b_seed": null,
+          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "R16",
+          "winner": "Alexei Popyrin",
+          "loser": "Taylor Fritz",
+          "score": "6-4 6-4"
+        },
+        {
+          "round": "R16",
+          "winner": "Mariano Navone",
+          "loser": "Cameron Norrie",
+          "score": "6-4 6-4"
+        },
+        {
+          "round": "R16",
+          "winner": "Jaume Munar",
+          "loser": "Francisco Comesana",
+          "score": "6-4 6-4"
+        },
+        {
+          "round": "R16",
+          "winner": "Learner Tien",
+          "loser": "Stefanos Tsitsipas",
+          "score": "7-6(4) 7-6(2)"
+        },
         {
           "round": "R32",
           "winner": "Alexei Popyrin",

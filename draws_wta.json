@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-20T11:55:01Z",
+  "fetched_at": "2026-05-20T14:13:14Z",
   "events": [
     {
       "slug": "2026WTAStrasbourg",
@@ -193,20 +193,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Clara Tauson",
-          "b": "Jaqueline Cristian",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": "3-3"
-        },
-        {
-          "a": "Shuai Zhang",
-          "b": "Diane Parry",
-          "a_seed": "LL",
-          "b_seed": "WC",
-          "h2h": "1-0"
-        },
-        {
           "a": "Emma Navarro",
           "b": "Iva Jovic",
           "a_seed": "3",
@@ -219,6 +205,13 @@
           "a_seed": "1",
           "b_seed": "7",
           "h2h": "1-0"
+        },
+        {
+          "a": "Jaqueline Cristian",
+          "b": "Daria Kasatkina",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": "1-3"
         },
         {
           "a": "Marie Bouzkova",
@@ -243,9 +236,21 @@
         },
         {
           "round": "R2",
+          "winner": "Jaqueline Cristian",
+          "loser": "Clara Tauson",
+          "score": "61 75"
+        },
+        {
+          "round": "R2",
           "winner": "Daria Kasatkina",
           "loser": "Peyton Stearns",
           "score": "61 63"
+        },
+        {
+          "round": "R2",
+          "winner": "Shuai Zhang",
+          "loser": "Diane Parry",
+          "score": "62 75"
         },
         {
           "round": "R2",
@@ -544,13 +549,6 @@
           "h2h": "0-1"
         },
         {
-          "a": "Sada Nahimana",
-          "b": "Panna Udvardy",
-          "a_seed": "WC",
-          "b_seed": "7",
-          "h2h": null
-        },
-        {
           "a": "Yuliia Starodubtseva",
           "b": "Anhelina Kalinina",
           "a_seed": "4",
@@ -565,13 +563,6 @@
           "h2h": "1-2"
         },
         {
-          "a": "Alycia Parks",
-          "b": "Jil Teichmann",
-          "a_seed": "8",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Yasmine Kabbaj",
           "b": "Tatjana Maria",
           "a_seed": "WC",
@@ -584,16 +575,27 @@
           "a_seed": "6",
           "b_seed": "WC",
           "h2h": null
-        },
-        {
-          "a": "Fiona Ferro",
-          "b": "Jessica Bouzas Maneiro",
-          "a_seed": "Q",
-          "b_seed": "2",
-          "h2h": "1-0"
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Panna Udvardy",
+          "loser": "Sada Nahimana",
+          "score": "64 61"
+        },
+        {
+          "round": "R2",
+          "winner": "Jil Teichmann",
+          "loser": "Alycia Parks",
+          "score": "63 64"
+        },
+        {
+          "round": "R2",
+          "winner": "Jessica Bouzas Maneiro",
+          "loser": "Fiona Ferro",
+          "score": "26 76(2) 63"
+        },
         {
           "round": "R1",
           "winner": "Janice Tjen",
