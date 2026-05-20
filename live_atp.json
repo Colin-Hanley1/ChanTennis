@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-20T11:54:58Z",
+  "fetched_at": "2026-05-20T17:26:23Z",
   "source": "espn",
   "matches": [
     {
@@ -84,6 +84,34 @@
       "loser": "Giovanni Mpetshi Perricard",
       "score": "6-4 7-6",
       "round": "Round 1",
+      "event": "2026ATPGeneva"
+    },
+    {
+      "winner": "Alexei Popyrin",
+      "loser": "Taylor Fritz",
+      "score": "6-4 6-4",
+      "round": "Round 2",
+      "event": "2026ATPGeneva"
+    },
+    {
+      "winner": "Arthur Rinderknech",
+      "loser": "Laslo Djere",
+      "score": "4-6 7-6 6-1",
+      "round": "Round 2",
+      "event": "2026ATPGeneva"
+    },
+    {
+      "winner": "Casper Ruud",
+      "loser": "Raphael Collignon",
+      "score": "7-6 6-2",
+      "round": "Round 2",
+      "event": "2026ATPGeneva"
+    },
+    {
+      "winner": "Jaume Munar",
+      "loser": "Francisco Comesana",
+      "score": "6-4 6-4",
+      "round": "Round 2",
       "event": "2026ATPGeneva"
     },
     {
@@ -213,9 +241,37 @@
       "event": "2026ATPHamburg"
     },
     {
+      "winner": "Aleksandar Kovacevic",
+      "loser": "Felix Auger-Aliassime",
+      "score": "4-6 7-5 6-4",
+      "round": "Round 2",
+      "event": "2026ATPHamburg"
+    },
+    {
       "winner": "Daniel Altmaier",
       "loser": "Ben Shelton",
       "score": "4-6 7-6 6-4",
+      "round": "Round 2",
+      "event": "2026ATPHamburg"
+    },
+    {
+      "winner": "Ignacio Buse",
+      "loser": "Jakub Mensik",
+      "score": "6-0 6-3",
+      "round": "Round 2",
+      "event": "2026ATPHamburg"
+    },
+    {
+      "winner": "Tommy Paul",
+      "loser": "Tomas Martin Etcheverry",
+      "score": "6-7 7-6 7-6",
+      "round": "Round 2",
+      "event": "2026ATPHamburg"
+    },
+    {
+      "winner": "Ugo Humbert",
+      "loser": "Karen Khachanov",
+      "score": "6-3 3-6 7-6",
       "round": "Round 2",
       "event": "2026ATPHamburg"
     }
