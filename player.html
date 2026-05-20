@@ -292,6 +292,19 @@
   @media (max-width: 540px) {
     .stats-table th.s-grass, .stats-table td.s-grass { display: none; }
   }
+
+  .data-credit {
+    border-top: 1px solid var(--rule);
+    padding: 16px 0 24px;
+    margin-top: 48px;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--fg);
+    opacity: 0.75;
+    line-height: 1.5;
+  }
+  .data-credit a { text-decoration: underline; color: var(--fg); }
+  .data-credit em { font-style: normal; color: var(--fg); }
 </style>
 </head>
 <body>
@@ -312,6 +325,10 @@
   </header>
 
   <div id="content"></div>
+
+  <footer class="data-credit">
+    <p>Player statistics scraped from <a href="http://www.tennisabstract.com/" target="_blank" rel="noopener"><em>Tennis Abstract</em></a> by Jeff Sackmann, used under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>.</p>
+  </footer>
 </div>
 
 <script src="model.js"></script>
