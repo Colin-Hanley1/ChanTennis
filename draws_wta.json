@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-20T14:13:14Z",
+  "fetched_at": "2026-05-20T17:56:16Z",
   "events": [
     {
       "slug": "2026WTAStrasbourg",
@@ -542,13 +542,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Janice Tjen",
-          "b": "Camila Osorio",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
           "a": "Yuliia Starodubtseva",
           "b": "Anhelina Kalinina",
           "a_seed": "4",
@@ -556,28 +549,34 @@
           "h2h": null
         },
         {
-          "a": "Emiliana Arango",
-          "b": "Anna Bondar",
-          "a_seed": "5",
+          "a": "Camila Osorio",
+          "b": "Panna Udvardy",
+          "a_seed": "7",
           "b_seed": null,
-          "h2h": "1-2"
+          "h2h": "3-1"
         },
         {
-          "a": "Yasmine Kabbaj",
-          "b": "Tatjana Maria",
+          "a": "Jil Teichmann",
+          "b": "Yasmine Kabbaj",
           "a_seed": "WC",
-          "b_seed": "3",
+          "b_seed": null,
           "h2h": null
         },
         {
           "a": "Petra Marcinko",
-          "b": "Yelyzaveta Kotliar",
+          "b": "Jessica Bouzas Maneiro",
           "a_seed": "6",
-          "b_seed": "WC",
+          "b_seed": "2",
           "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Camila Osorio",
+          "loser": "Janice Tjen",
+          "score": "63 36 60"
+        },
         {
           "round": "R2",
           "winner": "Panna Udvardy",
@@ -586,9 +585,27 @@
         },
         {
           "round": "R2",
+          "winner": "Anna Bondar",
+          "loser": "Emiliana Arango",
+          "score": "76(6) 16 60"
+        },
+        {
+          "round": "R2",
           "winner": "Jil Teichmann",
           "loser": "Alycia Parks",
           "score": "63 64"
+        },
+        {
+          "round": "R2",
+          "winner": "Yasmine Kabbaj",
+          "loser": "Tatjana Maria",
+          "score": "62 64"
+        },
+        {
+          "round": "R2",
+          "winner": "Petra Marcinko",
+          "loser": "Yelyzaveta Kotliar",
+          "score": "57 62 76(1)"
         },
         {
           "round": "R2",
