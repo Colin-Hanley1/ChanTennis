@@ -392,6 +392,57 @@
     font-feature-settings: "tnum";
   }
 
+  .vig-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .vig-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    color: var(--fg);
+    cursor: pointer;
+    user-select: none;
+  }
+  .vig-toggle input[type="checkbox"] {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    cursor: pointer;
+    accent-color: var(--fg);
+  }
+  .vig-input {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 4px;
+  }
+  #vigPct {
+    width: 42px;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--fg);
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--rule);
+    padding: 1px 2px;
+    text-align: right;
+    font-feature-settings: "tnum";
+    -moz-appearance: textfield;
+  }
+  #vigPct::-webkit-outer-spin-button,
+  #vigPct::-webkit-inner-spin-button { -webkit-appearance: none; appearance: none; margin: 0; }
+  #vigPct:focus { outline: none; border-bottom-color: var(--fg); }
+  #vigPct:disabled { opacity: 0.4; cursor: not-allowed; }
+  .vig-unit {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--fg);
+    font-feature-settings: "tnum";
+  }
+
   /* ============================================== ANALYSIS */
   .analysis { min-width: 0; }
   .analysis-block { margin-bottom: 32px; }
@@ -974,6 +1025,20 @@
         </div>
       </div>
 
+      <div class="control">
+        <div class="control-label">
+          <span>Vig</span>
+          <span class="aside">odds display</span>
+        </div>
+        <div class="vig-row">
+          <label class="vig-toggle"><input type="checkbox" id="vigOn"> include</label>
+          <div class="vig-input">
+            <input type="number" id="vigPct" min="0" max="20" step="0.1" value="4.5" disabled>
+            <span class="vig-unit">%</span>
+          </div>
+        </div>
+      </div>
+
     </aside>
 
     <main class="analysis">
@@ -1096,7 +1161,9 @@ const {
   computeMarkets, pickMedian, impliedToAmerican,
   allPlayRanking,
   parseEloCSV, eloForSurface, eloMatchProb, blendProb,
+  surfaceMatchCount, shrinkProbBySample,
 } = TennisModel;
+const SAMPLE_PRIOR = 15;
 
 //////////////////// STATE + UI ////////////////////
 
@@ -1114,6 +1181,8 @@ const state = {
   sims: 10000,
   seed: 42,
   eloWeight: 0.4,        // share of Elo in blend: 0 = pure Barnett-Clarke, 1 = pure Elo
+  vigOn: false,          // when true, displayed American odds include vig
+  vig: 0.045,            // fractional sportsbook hold (4.5% default)
 };
 
 const $ = id => document.getElementById(id);
@@ -1306,7 +1375,8 @@ function scoreRows(bestOf) {
 }
 
 function render() {
-  const { a, b, surface, bestOf, recency, sims, seed, players, tour, elos, eloWeight } = state;
+  const { a, b, surface, bestOf, recency, sims, seed, players, tour, elos, eloWeight, vigOn, vig } = state;
+  const vigDisplay = vigOn ? (vig || 0) : 0;
   if (!a || !b || !players[a] || !players[b]) return;
 
   const statsA = effectiveStats(players[a], surface, recency);
@@ -1321,14 +1391,39 @@ function render() {
   const eloA = eloForSurface(elos[a], surface);
   const eloB = eloForSurface(elos[b], surface);
   const probElo = eloMatchProb(eloA, eloB);
-  const probA = blendProb(probBC, probElo, eloWeight);
+  const probBlend = blendProb(probBC, probElo, eloWeight);
+  // Sample-size shrinkage: when a player has limited data on this surface,
+  // pull the prediction toward the same pair's cross-surface (all-surfaces)
+  // estimate rather than 50/50 — the broader game is a better prior than a
+  // coin flip.
+  const nA = surfaceMatchCount(players[a], surface, recency);
+  const nB = surfaceMatchCount(players[b], surface, recency);
+  let probA;
+  if (surface !== 'all' && SAMPLE_PRIOR > 0) {
+    const sAall = effectiveStats(players[a], 'all', recency);
+    const sBall = effectiveStats(players[b], 'all', recency);
+    let prior = 0.5;
+    if (sAall && sBall) {
+      const tourAvgAll = TOUR_AVG_BY_SURFACE[tour].all;
+      const paServeAll = pointOnServeProb(sAall, sBall, tourAvgAll);
+      const pbServeAll = pointOnServeProb(sBall, sAall, tourAvgAll);
+      const pBCAll = matchWinProb(paServeAll, pbServeAll, bestOf);
+      const eloAall = (elos[a] || {}).elo ?? null;
+      const eloBall = (elos[b] || {}).elo ?? null;
+      const pEloAll = eloMatchProb(eloAall, eloBall);
+      prior = blendProb(pBCAll, pEloAll, eloWeight);
+    }
+    probA = shrinkProbBySample(probBlend, nA, nB, SAMPLE_PRIOR, prior);
+  } else {
+    probA = probBlend;
+  }
   const probB = 1 - probA;
 
   // headline
   $('probA').innerHTML = (probA * 100).toFixed(1) + '<span class="pct">%</span>';
   $('probB').innerHTML = (probB * 100).toFixed(1) + '<span class="pct">%</span>';
-  $('oddsA').textContent = impliedToAmerican(probA);
-  $('oddsB').textContent = impliedToAmerican(probB);
+  $('oddsA').textContent = impliedToAmerican(probA, vigDisplay);
+  $('oddsB').textContent = impliedToAmerican(probB, vigDisplay);
 
   // transparency: BC and Elo components
   const eloAvailable = probElo != null;
@@ -1453,10 +1548,11 @@ function renderMarkets(mc, bestOf, nameA, nameB) {
   const m = computeMarkets(mc, bestOf, nameA, nameB);
   const pctFmt = p => (p * 100).toFixed(1) + '%';
   const highlightClass = p => (p >= 0.35 && p <= 0.65) ? 'hi' : '';
+  const vigDisplay = state.vigOn ? (state.vig || 0) : 0;
 
   function buildTable(rows) {
     return rows.map(r => {
-      const odds = impliedToAmerican(r.p);
+      const odds = impliedToAmerican(r.p, vigDisplay);
       return `<tr class="${highlightClass(r.p)}"><td class="mk-label">${escapeHtml(r.label)}</td><td class="mk-prob">${pctFmt(r.p)}</td><td class="mk-odds">${odds}</td></tr>`;
     }).join('');
   }
@@ -1465,6 +1561,12 @@ function renderMarkets(mc, bestOf, nameA, nameB) {
   $('marketProps').innerHTML = buildTable(m.propRows);
   $('marketGames').innerHTML = buildTable(m.gameRows);
   $('marketTotals').innerHTML = buildTable(m.totalRows);
+  const disc = $('marketsDisclaimer');
+  if (disc) {
+    disc.textContent = vigDisplay > 0
+      ? `Odds include ${(vigDisplay * 100).toFixed(1)}% vig. Precision bounded by Monte Carlo sample size.`
+      : 'Fair odds assume no vig. Precision bounded by Monte Carlo sample size.';
+  }
 }
 
 //////////////////// EVENTS ////////////////////
@@ -1576,6 +1678,19 @@ async function init() {
     $('simsVal').textContent = fmtThousands(state.sims);
     clearTimeout(simsDebounce);
     simsDebounce = setTimeout(render, 60);
+  });
+
+  $('vigOn').addEventListener('change', e => {
+    state.vigOn = !!e.target.checked;
+    $('vigPct').disabled = !state.vigOn;
+    render();
+  });
+  $('vigPct').addEventListener('input', e => {
+    const v = parseFloat(e.target.value);
+    if (isFinite(v) && v >= 0) {
+      state.vig = v / 100;
+      if (state.vigOn) render();
+    }
   });
 
   render();

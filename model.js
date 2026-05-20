@@ -266,6 +266,49 @@ function blendProb(pBC, pElo, eloWeight) {
   return (1 - w) * pBC + w * pElo;
 }
 
+// Surface-specific effective sample size, used to weight the shrinkage prior.
+// Returns n_52w + (1 - recency) · max(n_career - n_52w, 0): last-52-week
+// matches count at full weight, older career matches at the same residual
+// weight that effectiveStats uses when blending career into the recent
+// stats. This keeps the confidence we report on the same evidence base as
+// the stat we're shrinking — so e.g. Fritz with 7 recent / 93 career clay
+// matches isn't treated as an unknown on clay.
+//
+// Does NOT fall back across surfaces — the point is to detect "low data on
+// THIS surface specifically."
+function surfaceMatchCount(rows, surface, recency = 0.7) {
+  if (!rows) return 0;
+  const get = (period, surf) => {
+    const r = rows[`${surf}|${period}`];
+    return r && r.matches != null ? r.matches : 0;
+  };
+  const surf = surface === 'all' ? 'all' : surface;
+  const n52 = get('52week', surf);
+  const nC  = get('career', surf);
+  const older = Math.max(nC - n52, 0);
+  return n52 + (1 - recency) * older;
+}
+
+// Pull a predicted match probability toward a `prior` based on the smaller of
+// the two players' surface match counts. The prior should typically be the
+// same matchup evaluated on "all surfaces" (cross-surface baseline), so that
+// a player with limited surface data is judged by their broader game rather
+// than collapsing to 50/50.
+//
+// With n0 = 15:
+//   both players ≥ 60 matches → weight ≈ 0.80, predictions barely change
+//   one player 6 matches      → weight = 6/21 ≈ 0.29, predictions move
+//                                ~70% of the way toward the prior
+//   one player 0 matches      → weight = 0, prediction equals the prior
+const SAMPLE_PRIOR_MATCHES = 15;
+function shrinkProbBySample(p, matchesA, matchesB, n0 = SAMPLE_PRIOR_MATCHES, prior = 0.5) {
+  if (p == null) return p;
+  const nMin = Math.min(matchesA || 0, matchesB || 0);
+  const w = nMin / (nMin + n0);
+  const target = (prior != null && isFinite(prior)) ? prior : 0.5;
+  return w * p + (1 - w) * target;
+}
+
 function gameWinProb(p) {
   if (p <= 0) return 0;
   if (p >= 1) return 1;
@@ -553,10 +596,17 @@ function pickMedian(sortedTotals, n) {
   return sortedTotals.length ? sortedTotals[sortedTotals.length - 1].t : 20;
 }
 
-function impliedToAmerican(p) {
+// Convert a fair probability to American odds. When `vig` > 0, apply
+// proportional vig (multiply implied prob by 1+vig) so the displayed price
+// reflects a typical sportsbook hold — i.e. for a 2-way market priced at
+// 4.5% hold, both sides' implied probs sum to 1.045 rather than 1.
+function impliedToAmerican(p, vig = 0) {
   if (!isFinite(p) || p <= 0 || p >= 1) return '—';
-  if (p >= 0.5) return `${Math.round(-100 * p / (1 - p))}`;
-  return `+${Math.round(100 * (1 - p) / p)}`;
+  let pv = p * (1 + (vig || 0));
+  if (pv >= 0.9999) pv = 0.9999;
+  if (pv <= 0.0001) pv = 0.0001;
+  if (pv >= 0.5) return `${Math.round(-100 * pv / (1 - pv))}`;
+  return `+${Math.round(100 * (1 - pv) / pv)}`;
 }
 
 //////////////////// POWER-RATING ALL-PLAY ////////////////////
@@ -572,8 +622,13 @@ function allPlayRanking(players, tour, surface, opts = {}) {
     minMatches = 15,
     elos = null,
     eloWeight = 0,
+    samplePrior = SAMPLE_PRIOR_MATCHES,   // 0 disables shrinkage
   } = opts;
   const tourAvg = TOUR_AVG_BY_SURFACE[tour][surface];
+  // For cross-surface shrinkage we also need each player's "all-surface" stats
+  // and overall Elo so the prior is computed from their broader game.
+  const tourAvgAll = TOUR_AVG_BY_SURFACE[tour].all;
+  const shrinkActive = samplePrior > 0 && surface !== 'all';
   const names = Object.keys(players);
   // Precompute effective stats + sample size + surface Elo per player.
   const rows = [];
@@ -583,7 +638,13 @@ function allPlayRanking(players, tour, surface, opts = {}) {
     const m = sampleSize(players[n], surface);
     if (m < minMatches) continue;
     const elo = elos ? eloForSurface(elos[n], surface) : null;
-    rows.push({ name: n, stats: s, matches: m, elo });
+    const nSurf = surfaceMatchCount(players[n], surface, recencyWeight);
+    let statsAll = null, eloAll = null;
+    if (shrinkActive) {
+      statsAll = effectiveStats(players[n], 'all', recencyWeight) || s;
+      eloAll   = elos ? (elos[n] && elos[n].elo != null ? elos[n].elo : elo) : null;
+    }
+    rows.push({ name: n, stats: s, matches: m, elo, nSurf, statsAll, eloAll });
   }
   const N = rows.length;
   const sums = new Float64Array(N);
@@ -596,7 +657,21 @@ function allPlayRanking(players, tour, surface, opts = {}) {
       const pElo = (elos && eloWeight > 0)
         ? eloMatchProb(rows[i].elo, rows[j].elo)
         : null;
-      sums[i] += blendProb(pBC, pElo, eloWeight);
+      let p = blendProb(pBC, pElo, eloWeight);
+      if (shrinkActive) {
+        // Cross-surface prior: same model on the player's "all surfaces" stats
+        // and overall Elo. Acts as the regression target when surface data is
+        // thin.
+        const paAll = pointOnServeProb(rows[i].statsAll, rows[j].statsAll, tourAvgAll);
+        const pbAll = pointOnServeProb(rows[j].statsAll, rows[i].statsAll, tourAvgAll);
+        const pBCAll = matchWinProb(paAll, pbAll, 3);
+        const pEloAll = (elos && eloWeight > 0)
+          ? eloMatchProb(rows[i].eloAll, rows[j].eloAll)
+          : null;
+        const prior = blendProb(pBCAll, pEloAll, eloWeight);
+        p = shrinkProbBySample(p, rows[i].nSurf, rows[j].nSurf, samplePrior, prior);
+      }
+      sums[i] += p;
     }
   }
   const denom = Math.max(N - 1, 1);
@@ -623,6 +698,8 @@ globalThis.TennisModel = {
   pointOnServeProb, gameWinProb, tbServer, tiebreakWinProb, setWinProb, matchWinProb,
   // elo
   parseEloCSV, eloForSurface, eloMatchProb, blendProb,
+  // sample-size shrinkage
+  surfaceMatchCount, shrinkProbBySample, SAMPLE_PRIOR_MATCHES,
   // monte carlo
   mulberry32, simGame, simTiebreak, simSet, simMatch, simulateMany,
   // betting / display

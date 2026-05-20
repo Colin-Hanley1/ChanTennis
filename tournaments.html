@@ -624,11 +624,13 @@ const {
   TOUR_AVG_BY_SURFACE, TOUR_SOURCES,
   parseCSV, filterActive, parseEloCSV,
   effectiveStats, pointOnServeProb, matchWinProb, eloForSurface, eloMatchProb, blendProb,
+  surfaceMatchCount, shrinkProbBySample,
   impliedToAmerican, buildNameLookup, nameKey,
 } = TennisModel;
 
 const RECENCY = 0.70;
 const ELO_WEIGHT = 0.65;
+const SAMPLE_PRIOR = 15;   // shrinkage strength in match-units
 
 const state = {
   tour: 'atp',
@@ -768,7 +770,31 @@ function predictMatch(tour, surface, bestOf, nameA, nameB) {
   const eA = eloForSurface(resolveElo(tour, nameA), surface);
   const eB = eloForSurface(resolveElo(tour, nameB), surface);
   const pElo = eloMatchProb(eA, eB);
-  return { p: blendProb(pBC, pElo, ELO_WEIGHT), pBC, pElo };
+  const pBlend = blendProb(pBC, pElo, ELO_WEIGHT);
+  // Sample-size shrinkage: on a specific surface, pull thin matchups toward
+  // the same pair's cross-surface (all-surfaces) prediction. The intuition is
+  // that a player with few clay matches should be judged by their broader game
+  // rather than the noisy clay-only signal, not by a 50/50 coin flip.
+  const nA = surfaceMatchCount(rowsA, surface, RECENCY);
+  const nB = surfaceMatchCount(rowsB, surface, RECENCY);
+  let p = pBlend;
+  if (surface !== 'all' && SAMPLE_PRIOR > 0) {
+    const sAall = effectiveStats(rowsA, 'all', RECENCY);
+    const sBall = effectiveStats(rowsB, 'all', RECENCY);
+    let prior = 0.5;
+    if (sAall && sBall) {
+      const tourAvgAll = TOUR_AVG_BY_SURFACE[tour].all;
+      const paAll = pointOnServeProb(sAall, sBall, tourAvgAll);
+      const pbAll = pointOnServeProb(sBall, sAall, tourAvgAll);
+      const pBCAll = matchWinProb(paAll, pbAll, bestOf);
+      const eAall = (resolveElo(tour, nameA) || {}).elo ?? null;
+      const eBall = (resolveElo(tour, nameB) || {}).elo ?? null;
+      const pEloAll = eloMatchProb(eAall, eBall);
+      prior = blendProb(pBCAll, pEloAll, ELO_WEIGHT);
+    }
+    p = shrinkProbBySample(pBlend, nA, nB, SAMPLE_PRIOR, prior);
+  }
+  return { p, pBC, pElo, pBlend, nA, nB };
 }
 
 // =============== Bracket walker + Monte Carlo ===============
