@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-20T19:37:55Z",
+  "fetched_at": "2026-05-20T20:27:34Z",
   "source": "espn",
   "matches": [
     {
@@ -90,6 +90,13 @@
       "winner": "Alex Michelsen",
       "loser": "Stan Wawrinka",
       "score": "7-6 7-6",
+      "round": "Round 2",
+      "event": "2026ATPGeneva"
+    },
+    {
+      "winner": "Alexander Bublik",
+      "loser": "Edas Butvilas",
+      "score": "6-4 6-3",
       "round": "Round 2",
       "event": "2026ATPGeneva"
     },

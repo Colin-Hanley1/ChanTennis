@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-20T17:56:16Z",
+  "fetched_at": "2026-05-20T20:27:37Z",
   "events": [
     {
       "slug": "2026WTAStrasbourg",
@@ -193,13 +193,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Emma Navarro",
-          "b": "Iva Jovic",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Victoria Mboko",
           "b": "Leylah Fernandez",
           "a_seed": "1",
@@ -212,6 +205,13 @@
           "a_seed": "Q",
           "b_seed": null,
           "h2h": "1-3"
+        },
+        {
+          "a": "Shuai Zhang",
+          "b": "Emma Navarro",
+          "a_seed": "LL",
+          "b_seed": null,
+          "h2h": "3-0"
         },
         {
           "a": "Marie Bouzkova",
@@ -251,6 +251,12 @@
           "winner": "Shuai Zhang",
           "loser": "Diane Parry",
           "score": "62 75"
+        },
+        {
+          "round": "R2",
+          "winner": "Emma Navarro",
+          "loser": "Iva Jovic",
+          "score": "64 46 61"
         },
         {
           "round": "R2",
@@ -542,18 +548,18 @@
       ],
       "r1_matches": [
         {
-          "a": "Yuliia Starodubtseva",
-          "b": "Anhelina Kalinina",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Camila Osorio",
           "b": "Panna Udvardy",
           "a_seed": "7",
           "b_seed": null,
           "h2h": "3-1"
+        },
+        {
+          "a": "Anhelina Kalinina",
+          "b": "Anna Bondar",
+          "a_seed": "5",
+          "b_seed": null,
+          "h2h": "2-1"
         },
         {
           "a": "Jil Teichmann",
@@ -582,6 +588,12 @@
           "winner": "Panna Udvardy",
           "loser": "Sada Nahimana",
           "score": "64 61"
+        },
+        {
+          "round": "R2",
+          "winner": "Anhelina Kalinina",
+          "loser": "Yuliia Starodubtseva",
+          "score": "63 76(3)"
         },
         {
           "round": "R2",
