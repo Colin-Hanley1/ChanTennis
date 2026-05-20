@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-20T08:33:43Z",
+  "fetched_at": "2026-05-20T11:55:01Z",
   "events": [
     {
       "slug": "2026WTAStrasbourg",
@@ -214,18 +214,18 @@
           "h2h": null
         },
         {
-          "a": "Marie Bouzkova",
-          "b": "Oleksandra Oliynykova",
-          "a_seed": "8",
-          "b_seed": "Q",
-          "h2h": null
-        },
-        {
           "a": "Victoria Mboko",
           "b": "Leylah Fernandez",
           "a_seed": "1",
           "b_seed": "7",
           "h2h": "1-0"
+        },
+        {
+          "a": "Marie Bouzkova",
+          "b": "Ann Li",
+          "a_seed": "8",
+          "b_seed": null,
+          "h2h": "3-0"
         }
       ],
       "completed": [
@@ -246,6 +246,12 @@
           "winner": "Daria Kasatkina",
           "loser": "Peyton Stearns",
           "score": "61 63"
+        },
+        {
+          "round": "R2",
+          "winner": "Marie Bouzkova",
+          "loser": "Oleksandra Oliynykova",
+          "score": ""
         },
         {
           "round": "R2",
