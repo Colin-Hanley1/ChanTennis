@@ -1,9 +1,13 @@
 # Refresh data on a schedule and commit changes back to the repo.
 # Three cron triggers map to refresh.py's three modes:
 #
-#   every 15 min  during peak hours  → --quick   (live ESPN results)
-#   every hour    on the hour        → normal    (results + tournament draws)
-#   Sunday 08:00 UTC                 → --full    (everything incl. player splits + Elo)
+#   every 15 min  (24/7)              → --quick   (live ESPN results)
+#   every hour    at :05 (24/7)       → normal    (results + tournament draws)
+#   Sunday 08:00 UTC                  → --full    (everything incl. player splits + Elo)
+#
+# All-hours cadence covers international tournaments — the tour is rarely idle
+# (US/Europe day, then Asian/Australian/Latin-American swings). The concurrency
+# lock prevents overlapping runs; most fires are no-ops and don't commit.
 #
 # Each run produces an auto commit if any data file changed; if you serve via
 # GitHub Pages, the commit triggers a redeploy automatically.
@@ -14,10 +18,9 @@ name: Refresh data
 
 on:
   schedule:
-    # Cron is in UTC. Adjust the peak window for your local timezone.
-    # Default below = 13:00–23:00 UTC ≈ 09:00–19:00 US Eastern, 14:00–00:00 CET
-    - cron: '*/15 13-23 * * *'   # quick, peak hours
-    - cron: '5 0-12 * * *'        # normal, off-peak hours (hourly at :05)
+    # Cron is in UTC. All-hours so we cover international tournaments.
+    - cron: '*/15 * * * *'        # quick, every 15 min, 24/7
+    - cron: '5 * * * *'           # normal, hourly at :05, 24/7
     - cron: '0 8 * * 0'           # full, Sunday 08:00 UTC
   workflow_dispatch:
     inputs:
@@ -65,9 +68,9 @@ jobs:
             MODE="${{ inputs.mode }}"
           else
             case "${{ github.event.schedule }}" in
-              "*/15 13-23 * * *") MODE="quick" ;;
-              "0 8 * * 0")        MODE="full"  ;;
-              *)                  MODE="normal" ;;
+              "*/15 * * * *") MODE="quick" ;;
+              "0 8 * * 0")    MODE="full"  ;;
+              *)              MODE="normal" ;;
             esac
           fi
           echo "mode=$MODE" >> "$GITHUB_OUTPUT"
