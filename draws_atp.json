@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-21T09:58:16Z",
+  "fetched_at": "2026-05-21T12:51:16Z",
   "events": [
     {
       "slug": "2026ATPHamburg",
@@ -205,39 +205,32 @@
       ],
       "r1_matches": [
         {
-          "a": "Camilo Ugo Carabelli",
-          "b": "Frances Tiafoe",
-          "a_seed": "8",
+          "a": "Aleksandar Kovacevic",
+          "b": "Camilo Ugo Carabelli",
+          "a_seed": "LL",
+          "b_seed": null,
+          "h2h": "1-0"
+        },
+        {
+          "a": "Ignacio Buse",
+          "b": "Ugo Humbert",
+          "a_seed": "Q",
           "b_seed": null,
           "h2h": null
         },
         {
-          "a": "Ugo Humbert",
-          "b": "Karen Khachanov",
-          "a_seed": "5",
-          "b_seed": null,
-          "h2h": "1-1"
-        },
-        {
           "a": "Luciano Darderi",
-          "b": "Yannick Hanfmann",
-          "a_seed": "7",
-          "b_seed": null,
-          "h2h": "4-0"
-        },
-        {
-          "a": "Alejandro Davidovich Fokina",
           "b": "Alex De Minaur",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": "3-3"
+          "a_seed": "7",
+          "b_seed": "3",
+          "h2h": null
         },
         {
           "a": "Tommy Paul",
-          "b": "Tomas Martin Etcheverry",
+          "b": "Daniel Altmaier",
           "a_seed": "6",
           "b_seed": null,
-          "h2h": "2-0"
+          "h2h": "1-0"
         }
       ],
       "completed": [
@@ -249,9 +242,39 @@
         },
         {
           "round": "R16",
+          "winner": "Camilo Ugo Carabelli",
+          "loser": "Frances Tiafoe",
+          "score": "7-6(3) 7-6(4)"
+        },
+        {
+          "round": "R16",
           "winner": "Ignacio Buse",
           "loser": "Jakub Mensik",
           "score": "6-0 6-3"
+        },
+        {
+          "round": "R16",
+          "winner": "Ugo Humbert",
+          "loser": "Karen Khachanov",
+          "score": "6-3 3-6 7-6(3)"
+        },
+        {
+          "round": "R16",
+          "winner": "Luciano Darderi",
+          "loser": "Yannick Hanfmann",
+          "score": "7-6(7) 7-5"
+        },
+        {
+          "round": "R16",
+          "winner": "Alex De Minaur",
+          "loser": "Alejandro Davidovich Fokina",
+          "score": "6-2 4-6 6-4"
+        },
+        {
+          "round": "R16",
+          "winner": "Tommy Paul",
+          "loser": "Tomas Martin Etcheverry",
+          "score": "6-7(5) 7-6(5) 7-6(7)"
         },
         {
           "round": "R16",
@@ -549,32 +572,11 @@
       ],
       "r1_matches": [
         {
-          "a": "Raphael Collignon",
+          "a": "Alexei Popyrin",
           "b": "Casper Ruud",
           "a_seed": "6",
           "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
-          "a": "Stan Wawrinka",
-          "b": "Alex Michelsen",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Arthur Rinderknech",
-          "b": "Laslo Djere",
-          "a_seed": "5",
-          "b_seed": "WC",
-          "h2h": "1-2"
-        },
-        {
-          "a": "Edas Butvilas",
-          "b": "Alexander Bublik",
-          "a_seed": "Q",
-          "b_seed": "2",
-          "h2h": null
+          "h2h": "1-1"
         },
         {
           "a": "Mariano Navone",
@@ -582,6 +584,20 @@
           "a_seed": "8",
           "b_seed": null,
           "h2h": null
+        },
+        {
+          "a": "Alex Michelsen",
+          "b": "Learner Tien",
+          "a_seed": "4",
+          "b_seed": null,
+          "h2h": "3-1"
+        },
+        {
+          "a": "Arthur Rinderknech",
+          "b": "Alexander Bublik",
+          "a_seed": "5",
+          "b_seed": "2",
+          "h2h": "2-1"
         }
       ],
       "completed": [
@@ -590,6 +606,12 @@
           "winner": "Alexei Popyrin",
           "loser": "Taylor Fritz",
           "score": "6-4 6-4"
+        },
+        {
+          "round": "R16",
+          "winner": "Casper Ruud",
+          "loser": "Raphael Collignon",
+          "score": "7-6(2) 6-2"
         },
         {
           "round": "R16",
@@ -605,9 +627,27 @@
         },
         {
           "round": "R16",
+          "winner": "Alex Michelsen",
+          "loser": "Stan Wawrinka",
+          "score": "7-6(1) 7-6(4)"
+        },
+        {
+          "round": "R16",
           "winner": "Learner Tien",
           "loser": "Stefanos Tsitsipas",
           "score": "7-6(4) 7-6(2)"
+        },
+        {
+          "round": "R16",
+          "winner": "Arthur Rinderknech",
+          "loser": "Laslo Djere",
+          "score": "4-6 7-6(4) 6-1"
+        },
+        {
+          "round": "R16",
+          "winner": "Alexander Bublik",
+          "loser": "Edas Butvilas",
+          "score": "6-4 6-3"
         },
         {
           "round": "R32",
