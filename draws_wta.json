@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-21T16:21:41Z",
+  "fetched_at": "2026-05-21T19:05:30Z",
   "events": [
     {
       "slug": "2026WTAStrasbourg",
@@ -194,25 +194,37 @@
       "r1_matches": [
         {
           "a": "Victoria Mboko",
-          "b": "Leylah Fernandez",
+          "b": "Jaqueline Cristian",
           "a_seed": "1",
-          "b_seed": "7",
-          "h2h": "1-0"
+          "b_seed": null,
+          "h2h": null
         },
         {
-          "a": "Shuai Zhang",
-          "b": "Emma Navarro",
-          "a_seed": "LL",
+          "a": "Emma Navarro",
+          "b": "Ann Li",
+          "a_seed": null,
           "b_seed": null,
-          "h2h": "3-0"
+          "h2h": "1-0"
         }
       ],
       "completed": [
         {
           "round": "QF",
+          "winner": "Victoria Mboko",
+          "loser": "Leylah Fernandez",
+          "score": "64 64"
+        },
+        {
+          "round": "QF",
           "winner": "Jaqueline Cristian",
           "loser": "Daria Kasatkina",
           "score": "76(3) 36 62"
+        },
+        {
+          "round": "QF",
+          "winner": "Emma Navarro",
+          "loser": "Shuai Zhang",
+          "score": "26 76(5) 62"
         },
         {
           "round": "QF",
@@ -546,18 +558,18 @@
       ],
       "r1_matches": [
         {
-          "a": "Anhelina Kalinina",
-          "b": "Anna Bondar",
-          "a_seed": "5",
-          "b_seed": null,
-          "h2h": "2-1"
-        },
-        {
           "a": "Jil Teichmann",
           "b": "Yasmine Kabbaj",
           "a_seed": "WC",
           "b_seed": null,
           "h2h": null
+        },
+        {
+          "a": "Panna Udvardy",
+          "b": "Anhelina Kalinina",
+          "a_seed": "7",
+          "b_seed": null,
+          "h2h": "0-3"
         }
       ],
       "completed": [
@@ -566,6 +578,12 @@
           "winner": "Panna Udvardy",
           "loser": "Camila Osorio",
           "score": "75 63"
+        },
+        {
+          "round": "QF",
+          "winner": "Anhelina Kalinina",
+          "loser": "Anna Bondar",
+          "score": "64 75"
         },
         {
           "round": "QF",
