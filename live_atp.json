@@ -1,7 +1,14 @@
 {
-  "fetched_at": "2026-05-21T12:51:13Z",
+  "fetched_at": "2026-05-21T14:23:46Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Casper Ruud",
+      "loser": "Alexei Popyrin",
+      "score": "6-4 6-3",
+      "round": "Quarterfinal",
+      "event": "2026ATPGeneva"
+    },
     {
       "winner": "Mariano Navone",
       "loser": "Jaume Munar",
@@ -148,6 +155,13 @@
       "score": "6-4 6-4",
       "round": "Round 2",
       "event": "2026ATPGeneva"
+    },
+    {
+      "winner": "Ignacio Buse",
+      "loser": "Ugo Humbert",
+      "score": "6-3 5-7 6-3",
+      "round": "Quarterfinal",
+      "event": "2026ATPHamburg"
     },
     {
       "winner": "Alejandro Davidovich Fokina",
