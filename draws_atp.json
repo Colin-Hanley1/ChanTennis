@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-21T19:05:30Z",
+  "fetched_at": "2026-05-21T21:43:24Z",
   "events": [
     {
       "slug": "2026ATPHamburg",
@@ -206,34 +206,44 @@
       "r1_matches": [
         {
           "a": "Aleksandar Kovacevic",
-          "b": "Camilo Ugo Carabelli",
+          "b": "Ignacio Buse",
           "a_seed": "LL",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
-          "a": "Ignacio Buse",
-          "b": "Ugo Humbert",
-          "a_seed": "Q",
-          "b_seed": null,
+          "b_seed": "Q",
           "h2h": null
         },
         {
-          "a": "Luciano Darderi",
-          "b": "Alex De Minaur",
-          "a_seed": "7",
-          "b_seed": "3",
-          "h2h": null
-        },
-        {
-          "a": "Tommy Paul",
-          "b": "Daniel Altmaier",
-          "a_seed": "6",
-          "b_seed": null,
-          "h2h": "1-0"
+          "a": "Alex De Minaur",
+          "b": "Tommy Paul",
+          "a_seed": "3",
+          "b_seed": "6",
+          "h2h": "5-1"
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Aleksandar Kovacevic",
+          "loser": "Camilo Ugo Carabelli",
+          "score": "6-4 6-7(10) 6-2"
+        },
+        {
+          "round": "QF",
+          "winner": "Ignacio Buse",
+          "loser": "Ugo Humbert",
+          "score": "6-3 5-7 6-3"
+        },
+        {
+          "round": "QF",
+          "winner": "Alex De Minaur",
+          "loser": "Luciano Darderi",
+          "score": "6-0 6-3"
+        },
+        {
+          "round": "QF",
+          "winner": "Tommy Paul",
+          "loser": "Daniel Altmaier",
+          "score": "6-2 7-5"
+        },
         {
           "round": "R16",
           "winner": "Aleksandar Kovacevic",
@@ -572,35 +582,45 @@
       ],
       "r1_matches": [
         {
-          "a": "Alexei Popyrin",
-          "b": "Casper Ruud",
+          "a": "Casper Ruud",
+          "b": "Mariano Navone",
           "a_seed": "6",
           "b_seed": null,
-          "h2h": "1-1"
+          "h2h": "1-0"
         },
         {
-          "a": "Mariano Navone",
-          "b": "Jaume Munar",
-          "a_seed": "8",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Alex Michelsen",
-          "b": "Learner Tien",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": "3-1"
-        },
-        {
-          "a": "Arthur Rinderknech",
+          "a": "Learner Tien",
           "b": "Alexander Bublik",
-          "a_seed": "5",
+          "a_seed": "4",
           "b_seed": "2",
-          "h2h": "2-1"
+          "h2h": "1-0"
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Casper Ruud",
+          "loser": "Alexei Popyrin",
+          "score": "6-4 6-3"
+        },
+        {
+          "round": "QF",
+          "winner": "Mariano Navone",
+          "loser": "Jaume Munar",
+          "score": "6-2 6-2"
+        },
+        {
+          "round": "QF",
+          "winner": "Learner Tien",
+          "loser": "Alex Michelsen",
+          "score": "6-4 3-6 6-1"
+        },
+        {
+          "round": "QF",
+          "winner": "Alexander Bublik",
+          "loser": "Arthur Rinderknech",
+          "score": "5-7 6-4 6-2"
+        },
         {
           "round": "R16",
           "winner": "Alexei Popyrin",

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-21T19:05:30Z",
+  "fetched_at": "2026-05-21T21:43:24Z",
   "events": [
     {
       "slug": "2026WTAStrasbourg",
@@ -558,18 +558,18 @@
       ],
       "r1_matches": [
         {
-          "a": "Jil Teichmann",
-          "b": "Yasmine Kabbaj",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Panna Udvardy",
           "b": "Anhelina Kalinina",
           "a_seed": "7",
           "b_seed": null,
           "h2h": "0-3"
+        },
+        {
+          "a": "Jil Teichmann",
+          "b": "Petra Marcinko",
+          "a_seed": "6",
+          "b_seed": null,
+          "h2h": "0-1"
         }
       ],
       "completed": [
@@ -584,6 +584,12 @@
           "winner": "Anhelina Kalinina",
           "loser": "Anna Bondar",
           "score": "64 75"
+        },
+        {
+          "round": "QF",
+          "winner": "Jil Teichmann",
+          "loser": "Yasmine Kabbaj",
+          "score": "61 57 76(6)"
         },
         {
           "round": "QF",
