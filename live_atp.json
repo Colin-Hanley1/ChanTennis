@@ -1,7 +1,14 @@
 {
-  "fetched_at": "2026-05-21T19:15:26Z",
+  "fetched_at": "2026-05-21T21:07:40Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Alexander Bublik",
+      "loser": "Arthur Rinderknech",
+      "score": "5-7 6-4 6-2",
+      "round": "Quarterfinal",
+      "event": "2026ATPGeneva"
+    },
     {
       "winner": "Casper Ruud",
       "loser": "Alexei Popyrin",
@@ -167,6 +174,13 @@
       "winner": "Aleksandar Kovacevic",
       "loser": "Camilo Ugo Carabelli",
       "score": "6-4 6-7 6-2",
+      "round": "Quarterfinal",
+      "event": "2026ATPHamburg"
+    },
+    {
+      "winner": "Alex de Minaur",
+      "loser": "Luciano Darderi",
+      "score": "6-0 6-3",
       "round": "Quarterfinal",
       "event": "2026ATPHamburg"
     },
