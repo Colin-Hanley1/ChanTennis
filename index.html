@@ -764,11 +764,19 @@
     .page { padding: 24px 18px 56px; }
     .spread { grid-template-columns: 1fr; gap: 32px; }
     .controls-panel { position: static; }
-    .matchup-grid { grid-template-columns: 1fr; gap: 18px; }
-    .player-card.b { text-align: left; }
-    .player-card.b .player-combo { text-align: left; }
-    .player-card.b .player-trigger { text-align: left; padding: 2px 16px 4px 0; background-position: right 2px center; }
-    .player-card.b .components { justify-content: flex-start; }
+    /* Keep A | swap | B side-by-side, just tighter. Stacking on phone
+       wastes vertical space; the user can read both names at a glance. */
+    .matchup-grid { gap: 12px; }
+    .player-trigger { font-size: 13px; padding: 2px 14px 4px 0; }
+    .player-card.b .player-trigger { padding: 2px 0 4px 14px; }
+    .player-role { font-size: 9px; margin-bottom: 4px; }
+    .prob-big { font-size: 14px; margin: 8px 0 2px; }
+    .components { gap: 6px; font-size: 9px; }
+    .vs { padding: 8px 0 0; gap: 6px; }
+    /* Cap panel width to fit on a phone — panel B is right-pinned to its
+       combo on the right edge of its column, so we need the panel to be
+       narrow enough not to overflow the left side of the screen. */
+    .player-panel { width: min(240px, calc(100vw - 36px)); }
     .mc-grid { grid-template-columns: 1fr; }
     .mc-cell { border-right: none; border-bottom: 1px solid var(--rule); }
     .mc-cell:last-child { border-bottom: none; }
@@ -902,6 +910,7 @@
       <a href="index.html" class="active">Match Simulator</a>
       <a href="rankings.html">Power Rankings</a>
       <a href="tournaments.html">Tournaments</a>
+      <a href="backtest.html">Backtest</a>
     </nav>
     <div class="tour-switch" id="tourSwitch" role="tablist" aria-label="Choose tour">
       <button type="button" class="tour-opt active" data-tour="atp" role="tab" aria-selected="true">ATP</button>
@@ -1162,6 +1171,7 @@ const {
   allPlayRanking,
   parseEloCSV, eloForSurface, eloMatchProb, blendProb,
   surfaceMatchCount, shrinkProbBySample,
+  applyPlatt,
 } = TennisModel;
 const SAMPLE_PRIOR = 15;
 
@@ -1183,6 +1193,11 @@ const state = {
   eloWeight: 0.4,        // share of Elo in blend: 0 = pure Barnett-Clarke, 1 = pure Elo
   vigOn: false,          // when true, displayed American odds include vig
   vig: 0.045,            // fractional sportsbook hold (4.5% default)
+  // Per-tour Platt-scaling coefficients fit out-of-sample by backtest.py.
+  // Null until calibration_<tour>.json loads; applied to the headline match
+  // probability before display so the user-facing numbers match what backtest
+  // shows is reliable. Components, MC stats, and prop markets stay raw.
+  calibration: { atp: null, wta: null },
 };
 
 const $ = id => document.getElementById(id);
@@ -1417,6 +1432,13 @@ function render() {
   } else {
     probA = probBlend;
   }
+
+  // Out-of-sample Platt calibration (fit by backtest.py on the prior year of
+  // matches). Pulls overconfident extremes back toward observed frequencies.
+  // No-op when the calibration JSON hasn't loaded for this tour.
+  const cal = state.calibration[tour];
+  const probA_raw = probA;
+  if (cal) probA = applyPlatt(probA_raw, cal.A, cal.B);
   const probB = 1 - probA;
 
   // headline
@@ -1425,14 +1447,17 @@ function render() {
   $('oddsA').textContent = impliedToAmerican(probA, vigDisplay);
   $('oddsB').textContent = impliedToAmerican(probB, vigDisplay);
 
-  // transparency: BC and Elo components
+  // transparency: BC and Elo components, plus the raw (pre-calibration) model
+  // probability when calibration is active so the user can see the shift.
   const eloAvailable = probElo != null;
   const bcPctA = (probBC * 100).toFixed(1);
   const eloPctA = eloAvailable ? (probElo * 100).toFixed(1) : '—';
   const bcPctB = ((1 - probBC) * 100).toFixed(1);
   const eloPctB = eloAvailable ? ((1 - probElo) * 100).toFixed(1) : '—';
-  $('componentsA').innerHTML = `<span>BC ${bcPctA}%</span><span>Elo ${eloPctA}${eloAvailable ? '%' : ''}</span>`;
-  $('componentsB').innerHTML = `<span>BC ${bcPctB}%</span><span>Elo ${eloPctB}${eloAvailable ? '%' : ''}</span>`;
+  const rawA = cal ? `<span>Raw ${(probA_raw * 100).toFixed(1)}%</span>` : '';
+  const rawB = cal ? `<span>Raw ${((1 - probA_raw) * 100).toFixed(1)}%</span>` : '';
+  $('componentsA').innerHTML = `<span>BC ${bcPctA}%</span><span>Elo ${eloPctA}${eloAvailable ? '%' : ''}</span>${rawA}`;
+  $('componentsB').innerHTML = `<span>BC ${bcPctB}%</span><span>Elo ${eloPctB}${eloAvailable ? '%' : ''}</span>${rawB}`;
 
   $('winbarA').style.width = (probA * 100).toFixed(2) + '%';
   $('winbarB').style.width = (probB * 100).toFixed(2) + '%';
@@ -1583,6 +1608,16 @@ async function tryFetchCSV(url) {
   }
 }
 
+async function tryFetchJSON(url) {
+  try {
+    const res = await fetch(url, { cache: 'no-cache' });
+    if (!res.ok) return null;
+    return await res.json();
+  } catch (_) {
+    return null;
+  }
+}
+
 async function switchTour(tour) {
   if (tour === state.tour) return;
   // stash current picks
@@ -1605,10 +1640,14 @@ async function switchTour(tour) {
 
 async function loadTourData(tour) {
   const src = TOUR_SOURCES[tour];
-  const [fetched, fetchedElo] = await Promise.all([
+  const [fetched, fetchedElo, fetchedCal] = await Promise.all([
     tryFetchCSV(src.csv),
     tryFetchCSV(src.elo),
+    tryFetchJSON(`calibration_${tour}.json`),
   ]);
+  state.calibration[tour] = fetchedCal && isFinite(fetchedCal.A) && isFinite(fetchedCal.B)
+    ? { A: fetchedCal.A, B: fetchedCal.B, fit_year: fetchedCal.fit_year }
+    : null;
   if (fetched) {
     const parsed = parseCSV(fetched);
     if (Object.keys(parsed).length) {

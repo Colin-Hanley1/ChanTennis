@@ -596,6 +596,29 @@ function pickMedian(sortedTotals, n) {
   return sortedTotals.length ? sortedTotals[sortedTotals.length - 1].t : 20;
 }
 
+// Platt scaling: p_cal = sigmoid(A · logit(p) + B). Two parameters fit
+// out-of-sample by backtest.py. Pulls overconfident extreme predictions back
+// toward the calibration curve without distorting orderings (strictly
+// monotonic). With A=1, B=0 this is the identity, so loading a default-built
+// calibration object is a no-op.
+function applyPlatt(p, A, B) {
+  if (p == null || !isFinite(p)) return p;
+  const a = (A == null || !isFinite(A)) ? 1 : A;
+  const b = (B == null || !isFinite(B)) ? 0 : B;
+  if (a === 1 && b === 0) return p;
+  const eps = 1e-7;
+  const pc = Math.max(eps, Math.min(1 - eps, p));
+  const z = Math.log(pc / (1 - pc));
+  const za = a * z + b;
+  // Numerically stable sigmoid
+  if (za >= 0) {
+    const e = Math.exp(-za);
+    return 1 / (1 + e);
+  }
+  const e = Math.exp(za);
+  return e / (1 + e);
+}
+
 // Convert a fair probability to American odds. When `vig` > 0, apply
 // proportional vig (multiply implied prob by 1+vig) so the displayed price
 // reflects a typical sportsbook hold — i.e. for a 2-way market priced at
@@ -700,6 +723,8 @@ globalThis.TennisModel = {
   parseEloCSV, eloForSurface, eloMatchProb, blendProb,
   // sample-size shrinkage
   surfaceMatchCount, shrinkProbBySample, SAMPLE_PRIOR_MATCHES,
+  // calibration
+  applyPlatt,
   // monte carlo
   mulberry32, simGame, simTiebreak, simSet, simMatch, simulateMany,
   // betting / display

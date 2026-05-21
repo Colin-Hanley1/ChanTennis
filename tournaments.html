@@ -610,6 +610,7 @@
       <a href="index.html">Match Simulator</a>
       <a href="rankings.html">Power Rankings</a>
       <a href="tournaments.html" class="active">Tournaments</a>
+      <a href="backtest.html">Backtest</a>
     </nav>
     <div class="tour-switch" id="tourSwitch" role="tablist">
       <button type="button" class="tour-opt active" data-tour="atp" role="tab">ATP</button>
@@ -642,6 +643,7 @@ const {
   parseCSV, filterActive, parseEloCSV,
   effectiveStats, pointOnServeProb, matchWinProb, eloForSurface, eloMatchProb, blendProb,
   surfaceMatchCount, shrinkProbBySample,
+  applyPlatt,
   impliedToAmerican, buildNameLookup, nameKey,
 } = TennisModel;
 
@@ -658,6 +660,10 @@ const state = {
   lookup:  { atp: {}, wta: {} },
   selectedSlug: { atp: null, wta: null },
   manualParseError: { atp: null, wta: null },
+  // Per-tour Platt coefficients from calibration_<tour>.json. Applied to
+  // each predicted match probability before the bracket Monte Carlo, so the
+  // sim runs on calibrated probs and not the model's overconfident raw output.
+  calibration: { atp: null, wta: null },
 };
 
 const $ = id => document.getElementById(id);
@@ -673,14 +679,23 @@ async function tryFetch(url) {
 
 async function loadTour(tour) {
   const src = TOUR_SOURCES[tour];
-  // Players + Elos + draws + live ESPN results + user manual overrides
-  const [csv, elocsv, drawsRaw, liveRaw, manualRaw] = await Promise.all([
+  // Players + Elos + draws + live ESPN results + user manual overrides + calibration
+  const [csv, elocsv, drawsRaw, liveRaw, manualRaw, calRaw] = await Promise.all([
     tryFetch(src.csv),
     tryFetch(src.elo),
     tryFetch(`draws_${tour}.json`),
     tryFetch(`live_${tour}.json`),
     tryFetch(`manual_${tour}.json`),
+    tryFetch(`calibration_${tour}.json`),
   ]);
+  if (calRaw) {
+    try {
+      const c = JSON.parse(calRaw);
+      if (isFinite(c.A) && isFinite(c.B)) {
+        state.calibration[tour] = { A: c.A, B: c.B, fit_year: c.fit_year };
+      }
+    } catch { state.calibration[tour] = null; }
+  }
   if (csv) {
     state.players[tour] = filterActive(parseCSV(csv));
   } else {
@@ -811,7 +826,13 @@ function predictMatch(tour, surface, bestOf, nameA, nameB) {
     }
     p = shrinkProbBySample(pBlend, nA, nB, SAMPLE_PRIOR, prior);
   }
-  return { p, pBC, pElo, pBlend, nA, nB };
+  // Out-of-sample Platt calibration. Runs after shrinkage as the last step
+  // before the bracket Monte Carlo, so the simulation flips coins at
+  // calibrated rather than overconfident probabilities.
+  const cal = state.calibration[tour];
+  const p_raw = p;
+  if (cal) p = applyPlatt(p_raw, cal.A, cal.B);
+  return { p, p_raw, pBC, pElo, pBlend, nA, nB };
 }
 
 // =============== Bracket walker + Monte Carlo ===============

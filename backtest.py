@@ -19,12 +19,13 @@ Usage:
 
 import argparse
 import csv
+import json
 import math
 import os
 import sys
 import urllib.request
 from collections import defaultdict
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 ATP_BASE = "https://raw.githubusercontent.com/JeffSackmann/tennis_atp/master/atp_matches_{}.csv"
 WTA_BASE = "https://raw.githubusercontent.com/JeffSackmann/tennis_wta/master/wta_matches_{}.csv"
@@ -116,7 +117,9 @@ def normalize(matches):
 # ============================== ELO ==============================
 
 class EloTracker:
-    """Tracks overall + per-surface Elo. Standard K-factor update."""
+    """Tracks overall + per-surface Elo. Standard K-factor update.
+    Surface ratings are independent — a player's hard rating is built ONLY
+    from their hard matches and ignores everything they did on clay/grass."""
 
     def __init__(self):
         self.elo_overall = defaultdict(lambda: ELO_INIT)
@@ -143,6 +146,58 @@ class EloTracker:
         exp_ws = 1 / (1 + 10 ** ((els - ews) / 400))
         self.elo_surface[surface][winner] = ews + kw * (1 - exp_ws)
         self.elo_surface[surface][loser]  = els + kl * (0 - (1 - exp_ws))
+
+        self.matches_played[winner] += 1
+        self.matches_played[loser]  += 1
+
+
+class JointSurfaceEloTracker:
+    """Joint-surface model: each player has one overall skill θ_p plus
+    per-surface offsets δ_{p,s}. The effective surface rating is θ + δ.
+
+    Why this is a foundational change vs. EloTracker:
+      - Overall θ updates on EVERY match (any surface), so a player who has
+        played 50 hard + 5 grass has 55 updates informing their grass rating
+        (via θ), not 5.
+      - δ updates only from same-surface matches and uses a smaller K, so
+        the surface offset accumulates slowly as a deviation from skill.
+      - For thin-surface samples (Mboko clay, returning juniors), the
+        prediction is anchored by overall skill instead of starting near
+        the 1500 default. This solves the problem at the rating level
+        rather than patching it post-hoc with probability shrinkage.
+
+    Defaults tuned to roughly preserve total per-match movement vs. EloTracker
+    (K_overall + K_surface ≈ ELO_K=32). Hyperparameters to revisit if we
+    fold this into production."""
+
+    def __init__(self, *, k_overall=24, k_surface=8, init=ELO_INIT):
+        self.theta = defaultdict(lambda: init)
+        self.delta = {s: defaultdict(float) for s in SURFACES_BC}
+        self.matches_played = defaultdict(int)
+        self.k_overall = k_overall
+        self.k_surface = k_surface
+
+    def get(self, name, surface):
+        """Return (overall, surface_effective) tuple. The 'overall' is θ;
+        the 'surface' is θ + δ_surface."""
+        th = self.theta[name]
+        return th, th + self.delta[surface][name]
+
+    def update(self, winner, loser, surface):
+        rw = self.theta[winner] + self.delta[surface][winner]
+        rl = self.theta[loser]  + self.delta[surface][loser]
+        exp_w = 1 / (1 + 10 ** ((rl - rw) / 400))
+        err = 1 - exp_w  # winner's residual (positive)
+
+        # Provisional bump applies to overall update only — surface offsets
+        # should always move slowly to avoid wild swings on thin data.
+        kw_o = ELO_K_NEW if self.matches_played[winner] < ELO_PROVISIONAL else self.k_overall
+        kl_o = ELO_K_NEW if self.matches_played[loser]  < ELO_PROVISIONAL else self.k_overall
+
+        self.theta[winner] += kw_o * err
+        self.theta[loser]  -= kl_o * err
+        self.delta[surface][winner] += self.k_surface * err
+        self.delta[surface][loser]  -= self.k_surface * err
 
         self.matches_played[winner] += 1
         self.matches_played[loser]  += 1
@@ -291,6 +346,30 @@ def elo_match_prob(elo_a, elo_b):
     return 1 / (1 + 10 ** ((elo_b - elo_a) / 400))
 
 
+# Mirror of JS surfaceMatchCount: full weight on last-52w matches, partial
+# weight on older career matches via (1 - recency). Lets backtests reflect
+# how the live model judges sample-size confidence.
+def effective_sample(recent, career, recency):
+    n52 = recent[2] if recent else 0
+    n_c = career[2] if career else 0
+    older = max(n_c - n52, 0)
+    return n52 + (1 - recency) * older
+
+
+# Mirror of JS shrinkProbBySample: pull thin matchups toward `prior` (typically
+# the same matchup evaluated cross-surface). With n0=15, both players ~60
+# matches → weight ≈ 0.80; one player at 6 → weight ≈ 0.29.
+def shrink_prob(p, n_a, n_b, n0=15, prior=0.5):
+    if p is None:
+        return None
+    if n0 <= 0:
+        return p
+    n_min = min(n_a or 0, n_b or 0)
+    w = n_min / (n_min + n0)
+    target = prior if prior is not None and math.isfinite(prior) else 0.5
+    return w * p + (1 - w) * target
+
+
 # ============================== BACKTEST CORE ==============================
 
 def predict(stats_a, stats_b, tour_avg, elo_a, elo_b, best_of, elo_weight, *, blend_career=None):
@@ -322,97 +401,125 @@ def blend_stats(s_recent, s_career, recency_weight):
     }
 
 
-def run_backtest(tour, test_year, history_years, recency_grid, elo_grid):
-    sys.stderr.write(f"\n=== {tour.upper()} backtest, test={test_year}, history={history_years} ===\n")
-    all_years = sorted(set(history_years) | {test_year})
+def build_snapshots(tour, test_year, history_years, *, extra_snapshot_years=()):
+    """Walk all history + test matches chronologically. For every match in the
+    test year *and* in any extra_snapshot_years (e.g. a calibration-fit year),
+    capture the pre-match state we need to score predictions.
+    Each snapshot is tagged with `year` so callers can split."""
+    snapshot_years = {test_year, *extra_snapshot_years}
+    sys.stderr.write(f"\n=== {tour.upper()} backtest, test={test_year}, "
+                     f"history={history_years}, snapshot_years={sorted(snapshot_years)} ===\n")
+    all_years = sorted(set(history_years) | snapshot_years)
     raw = load_matches(tour, all_years)
     matches = normalize(raw)
     sys.stderr.write(f"after cleanup: {len(matches)} matches\n")
 
-    # Walk chronologically: for each test-year match, snapshot then update.
     elo = EloTracker()
     stats = StatTracker()
 
-    # Cache per-test-match snapshots so we can grid-search without recomputing
     snapshots = []
     sys.stderr.write("walking chronologically...\n")
-    test_start = datetime(test_year, 1, 1).date()
 
     for m in matches:
-        if m["date"] >= test_start:
-            # Snapshot pre-match state for both players, label the truth (winner)
+        if m["date"].year in snapshot_years:
             wname, lname = m["winner"], m["loser"]
             surf = m["surface"]
-            tavg = TOUR_AVG[tour][surf]
             best_of = m["best_of"]
 
-            # 52-week stats per surface, plus lifetime per surface
+            # Surface-specific stats (preferred primary signal)
             s_recent_w = stats.aggregate(wname, surf, m["date"], days=365)
             s_career_w = stats.aggregate(wname, surf, m["date"], days=None)
             s_recent_l = stats.aggregate(lname, surf, m["date"], days=365)
             s_career_l = stats.aggregate(lname, surf, m["date"], days=None)
 
-            # Fall back to all-surface aggregate if surface-specific is empty
-            if s_recent_w is None: s_recent_w = stats.aggregate_all_surfaces(wname, m["date"], days=365)
-            if s_career_w is None: s_career_w = stats.aggregate_all_surfaces(wname, m["date"], days=None)
-            if s_recent_l is None: s_recent_l = stats.aggregate_all_surfaces(lname, m["date"], days=365)
-            if s_career_l is None: s_career_l = stats.aggregate_all_surfaces(lname, m["date"], days=None)
+            # All-surface stats (used as the shrinkage prior — the same player
+            # judged by their broader game when surface data is thin)
+            a_recent_w = stats.aggregate_all_surfaces(wname, m["date"], days=365)
+            a_career_w = stats.aggregate_all_surfaces(wname, m["date"], days=None)
+            a_recent_l = stats.aggregate_all_surfaces(lname, m["date"], days=365)
+            a_career_l = stats.aggregate_all_surfaces(lname, m["date"], days=None)
 
-            # Skip if either side has no data at all
-            if (s_recent_w is None and s_career_w is None) or \
-               (s_recent_l is None and s_career_l is None):
-                # update Elo + stats and move on
+            # Need *some* data on each player.
+            if (s_recent_w is None and s_career_w is None and a_recent_w is None and a_career_w is None) or \
+               (s_recent_l is None and s_career_l is None and a_recent_l is None and a_career_l is None):
                 elo.update(wname, lname, surf)
                 stats.record(m)
                 continue
 
-            # Pre-match Elo
-            _, ew_surf = elo.get(wname, surf)
-            _, el_surf = elo.get(lname, surf)
+            ew_over, ew_surf = elo.get(wname, surf)
+            el_over, el_surf = elo.get(lname, surf)
 
             snapshots.append({
-                "tour_avg": tavg,
+                "year": m["date"].year,
+                "surface": surf,
+                "tour_avg": TOUR_AVG[tour][surf],
+                "tour_avg_all": TOUR_AVG[tour]["all"],
                 "best_of": best_of,
-                # recent and career for both
+                # surface-specific
                 "rw": s_recent_w, "cw": s_career_w,
                 "rl": s_recent_l, "cl": s_career_l,
                 "ew": ew_surf, "el": el_surf,
-                # truth: winner predicted prob is the prob from A=winner perspective
-                # we'll use A=winner so the actual outcome is always 1
+                # all-surface (prior)
+                "raw": a_recent_w, "caw": a_career_w,
+                "ral": a_recent_l, "cal": a_career_l,
+                "ew_all": ew_over, "el_all": el_over,
             })
 
-        # Update state AFTER snapshotting (Elo and stats reflect this match for future snapshots)
         elo.update(m["winner"], m["loser"], m["surface"])
         stats.record(m)
 
+    sys.stderr.write(f"snapshots ready: {len(snapshots)} matches across "
+                     f"{sorted({s['year'] for s in snapshots})}\n")
+    return snapshots
+
+
+def predict_snapshot(s, recency, elo_weight, sample_prior):
+    """Reproduce the JS model's prediction path for a single snapshot:
+    surface BC+Elo blend, then shrink toward the all-surface BC+Elo blend
+    using effective sample size."""
+    stats_a = blend_stats(s["rw"], s["cw"], recency)
+    stats_b = blend_stats(s["rl"], s["cl"], recency)
+    p = predict(stats_a, stats_b, s["tour_avg"], s["ew"], s["el"],
+                s["best_of"], elo_weight)
+    if p is None:
+        return None
+    if sample_prior <= 0:
+        return p
+    # Cross-surface prior using all-surface stats + overall Elo.
+    stats_a_all = blend_stats(s["raw"], s["caw"], recency)
+    stats_b_all = blend_stats(s["ral"], s["cal"], recency)
+    prior = predict(stats_a_all, stats_b_all, s["tour_avg_all"],
+                    s["ew_all"], s["el_all"], s["best_of"], elo_weight)
+    if prior is None:
+        prior = 0.5
+    n_a = effective_sample(s["rw"], s["cw"], recency)
+    n_b = effective_sample(s["rl"], s["cl"], recency)
+    return shrink_prob(p, n_a, n_b, sample_prior, prior)
+
+
+def run_backtest(tour, test_year, history_years, recency_grid, elo_grid, sample_prior=15):
+    snapshots = build_snapshots(tour, test_year, history_years)
     if not snapshots:
         sys.stderr.write("No usable test matches found.\n")
-        return
+        return None
 
-    sys.stderr.write(f"snapshots ready: {len(snapshots)} test matches\n")
-
-    # ---- Grid search ----
     sys.stderr.write(f"running grid search: {len(recency_grid)}×{len(elo_grid)} = "
-                     f"{len(recency_grid) * len(elo_grid)} combos × {len(snapshots)} matches\n")
+                     f"{len(recency_grid) * len(elo_grid)} combos × {len(snapshots)} matches "
+                     f"(sample_prior={sample_prior})\n")
 
     results = []
     for rw in recency_grid:
         for ew in elo_grid:
-            ll_sum = 0.0  # log loss
-            br_sum = 0.0  # brier
+            ll_sum = 0.0
+            br_sum = 0.0
             correct = 0
             n = 0
             for s in snapshots:
-                # A = winner side
-                stats_a = blend_stats(s["rw"], s["cw"], rw)
-                stats_b = blend_stats(s["rl"], s["cl"], rw)
-                p = predict(stats_a, stats_b, s["tour_avg"], s["ew"], s["el"],
-                            s["best_of"], ew)
+                p = predict_snapshot(s, rw, ew, sample_prior)
                 if p is None:
                     continue
-                # clip to avoid log(0)
                 p_clip = max(min(p, 1 - 1e-6), 1e-6)
-                ll_sum += -math.log(p_clip)        # winner is "1"
+                ll_sum += -math.log(p_clip)
                 br_sum += (1 - p) ** 2
                 if p > 0.5:
                     correct += 1
@@ -427,6 +534,224 @@ def run_backtest(tour, test_year, history_years, recency_grid, elo_grid):
                 "accuracy": correct / n,
             })
     return results
+
+
+# ============================== SINGLE-CONFIG JSON EMITTER ==============================
+
+def metrics_from_preds(preds):
+    """preds: list of predicted P(winner wins). Compute summary metrics."""
+    n = len(preds)
+    if n == 0:
+        return {"n": 0, "log_loss": None, "brier": None, "accuracy": None}
+    ll = 0.0
+    br = 0.0
+    correct = 0
+    for p in preds:
+        pc = max(min(p, 1 - 1e-6), 1e-6)
+        ll += -math.log(pc)
+        br += (1 - p) ** 2
+        if p > 0.5:
+            correct += 1
+    return {
+        "n": n,
+        "log_loss": ll / n,
+        "brier": br / n,
+        "accuracy": correct / n,
+    }
+
+
+def calibration_bins(preds, n_bins=10):
+    """Bucket predictions into n_bins equal-width intervals over [0, 1] and
+    report mean predicted prob vs. observed win rate per bucket. Winner-side
+    framing means outcome is always 1, so observed rate within a bin is just
+    (count of predictions in that bin) / (count) — wait, that's always 1.
+    The actual observed rate per bin = fraction of predictions where outcome=1.
+    Since outcome=1 always here, calibration is judged differently: at bin
+    [0.8, 0.9], the predicted is ~0.85 and observed (i.e. winner-side
+    realization) should also be ~0.85 — meaning the model said "this player
+    wins 85%" and they won 85% of the time when looking at all such cases.
+
+    To recover that, we ALSO include each match from the loser perspective:
+    (1 - p, outcome=0). Then bucket all (prob, outcome) pairs.
+    """
+    pairs = []
+    for p in preds:
+        pairs.append((p, 1))
+        pairs.append((1 - p, 0))
+    bins = []
+    for i in range(n_bins):
+        lo = i / n_bins
+        hi = (i + 1) / n_bins
+        bucket = [(pp, oo) for (pp, oo) in pairs if (lo <= pp < hi) or (i == n_bins - 1 and pp == 1.0)]
+        if not bucket:
+            bins.append({"bin": i, "lo": lo, "hi": hi, "n": 0, "mean_pred": None, "observed_rate": None})
+            continue
+        mean_pred = sum(pp for pp, _ in bucket) / len(bucket)
+        observed = sum(oo for _, oo in bucket) / len(bucket)
+        bins.append({
+            "bin": i, "lo": lo, "hi": hi,
+            "n": len(bucket),
+            "mean_pred": mean_pred,
+            "observed_rate": observed,
+        })
+    return bins
+
+
+def prediction_histogram(preds, n_bins=20):
+    """Distribution of winner-side predicted probabilities, n_bins over [0, 1]."""
+    counts = [0] * n_bins
+    for p in preds:
+        idx = min(int(p * n_bins), n_bins - 1)
+        counts[idx] += 1
+    return [{"bin": i, "lo": i / n_bins, "hi": (i + 1) / n_bins, "count": counts[i]}
+            for i in range(n_bins)]
+
+
+# ============================== PLATT CALIBRATION ==============================
+
+# Platt scaling: p_cal = sigmoid(A * logit(p_raw) + B). Two parameters fit by
+# minimising binary cross-entropy. Strictly monotonic, won't distort orderings.
+# Justification: the raw model's calibration curve shows a near-sigmoidal
+# deviation (overconfident at the extremes) that a single sigmoid corrects
+# cleanly. Isotonic would also work but adds parameters with little gain.
+
+_EPS = 1e-7
+
+
+def _sigmoid(z):
+    if z >= 0:
+        e = math.exp(-z)
+        return 1.0 / (1.0 + e)
+    e = math.exp(z)
+    return e / (1.0 + e)
+
+
+def _logit(p):
+    p = max(_EPS, min(1 - _EPS, p))
+    return math.log(p / (1 - p))
+
+
+def fit_platt(probs, outcomes, n_iter=4000, lr=0.05):
+    """Gradient descent on log-loss. Pure Python — no scipy/sklearn dependency.
+    With ~5k samples and 2 parameters this converges quickly."""
+    n = len(probs)
+    if n == 0:
+        return 1.0, 0.0
+    zs = [_logit(p) for p in probs]
+    A, B = 1.0, 0.0
+    last_loss = float("inf")
+    for it in range(n_iter):
+        gA = 0.0
+        gB = 0.0
+        loss = 0.0
+        for i in range(n):
+            zi = A * zs[i] + B
+            p_cal = _sigmoid(zi)
+            diff = p_cal - outcomes[i]
+            gA += diff * zs[i]
+            gB += diff
+            # loss accumulates only every 200 iters for early-stop check
+            if it % 200 == 0:
+                pc = max(_EPS, min(1 - _EPS, p_cal))
+                loss -= outcomes[i] * math.log(pc) + (1 - outcomes[i]) * math.log(1 - pc)
+        gA /= n; gB /= n
+        A -= lr * gA
+        B -= lr * gB
+        if it % 200 == 0:
+            loss /= n
+            if abs(last_loss - loss) < 1e-7:
+                break
+            last_loss = loss
+    return A, B
+
+
+def apply_platt(p, A, B):
+    if p is None:
+        return None
+    return _sigmoid(A * _logit(p) + B)
+
+
+def run_single(tour, test_year, history_years, recency, elo_weight, sample_prior,
+               calibration_year=None):
+    """Run one config and return a dict ready to JSON-dump.
+    If `calibration_year` is given, also fit Platt scaling on predictions from
+    that year and report pre- vs. post-calibration metrics on the test year."""
+    extras = (calibration_year,) if (calibration_year and calibration_year != test_year) else ()
+    snapshots = build_snapshots(tour, test_year, history_years,
+                                extra_snapshot_years=extras)
+    if not snapshots:
+        return None
+
+    # Score every snapshot; tag with year + surface.
+    rows = []
+    for s in snapshots:
+        p = predict_snapshot(s, recency, elo_weight, sample_prior)
+        if p is None:
+            continue
+        rows.append({"year": s["year"], "surface": s["surface"], "p": p})
+
+    if not rows:
+        return None
+
+    test_rows = [r for r in rows if r["year"] == test_year]
+    preds_all = [r["p"] for r in test_rows]
+    summary = metrics_from_preds(preds_all)
+
+    by_surface = {}
+    for surf in SURFACES_BC:
+        preds_s = [r["p"] for r in test_rows if r["surface"] == surf]
+        by_surface[surf] = metrics_from_preds(preds_s)
+
+    payload = {
+        "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "tour": tour,
+        "test_year": test_year,
+        "history_years": list(history_years),
+        "config": {
+            "recency_weight": recency,
+            "elo_weight": elo_weight,
+            "sample_prior": sample_prior,
+        },
+        "summary": summary,
+        "by_surface": by_surface,
+        "calibration_bins": calibration_bins(preds_all, n_bins=10),
+        "histogram": prediction_histogram(preds_all, n_bins=20),
+    }
+
+    if calibration_year and calibration_year != test_year:
+        # Build the calibration-fit set from a *separate* year so the Platt
+        # parameters are out-of-sample relative to the reported metrics.
+        # Fit on both perspectives (winner: y=1, loser: y=0) so Platt sees a
+        # balanced binary problem rather than all-1s.
+        fit_rows = [r for r in rows if r["year"] == calibration_year]
+        if fit_rows:
+            fit_probs, fit_outcomes = [], []
+            for r in fit_rows:
+                fit_probs.append(r["p"]);     fit_outcomes.append(1)
+                fit_probs.append(1 - r["p"]); fit_outcomes.append(0)
+            A, B = fit_platt(fit_probs, fit_outcomes)
+            sys.stderr.write(f"  platt fit on {calibration_year}: A={A:.4f} B={B:.4f} "
+                             f"(n={len(fit_rows)} matches)\n")
+
+            # Apply Platt to the test-year predictions and compute new metrics.
+            preds_cal = [apply_platt(p, A, B) for p in preds_all]
+            summary_cal = metrics_from_preds(preds_cal)
+            by_surface_cal = {}
+            for surf in SURFACES_BC:
+                preds_s = [apply_platt(r["p"], A, B)
+                           for r in test_rows if r["surface"] == surf]
+                by_surface_cal[surf] = metrics_from_preds(preds_s)
+            payload["platt"] = {
+                "A": A, "B": B,
+                "fit_year": calibration_year,
+                "fit_n_matches": len(fit_rows),
+            }
+            payload["summary_calibrated"] = summary_cal
+            payload["by_surface_calibrated"] = by_surface_cal
+            payload["calibration_bins_calibrated"] = calibration_bins(preds_cal, n_bins=10)
+            payload["histogram_calibrated"] = prediction_histogram(preds_cal, n_bins=20)
+
+    return payload
 
 
 # ============================== REPORTING ==============================
@@ -484,20 +809,72 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--tour", choices=["atp", "wta", "both"], default="atp")
-    ap.add_argument("--test-year", type=int, default=2024)
+    ap.add_argument("--test-year", type=int, default=2025)
     ap.add_argument("--history", type=int, nargs="+",
-                    default=list(range(2017, 2024)),
+                    default=list(range(2018, 2025)),
                     help="Years to use as history before the test year (Elo + stats warmup).")
     ap.add_argument("--grid", type=float, default=0.1,
                     help="Step size for grid search over recency_w and elo_w. Default 0.1.")
+    ap.add_argument("--sample-prior", type=int, default=15,
+                    help="Sample-size shrinkage strength (n0). 0 disables. Default 15.")
+    ap.add_argument("--json", action="store_true",
+                    help="Skip grid search; run a single config matching the UI "
+                         "defaults and emit backtest_<tour>.json for the dashboard.")
+    ap.add_argument("--recency", type=float, default=0.7,
+                    help="recency_weight for --json mode (default 0.7).")
+    ap.add_argument("--elo-weight", type=float, default=0.4,
+                    help="elo_weight for --json mode (default 0.4).")
+    ap.add_argument("--calibration-year", type=int, default=2024,
+                    help="Year used to fit Platt calibration (out-of-sample "
+                         "vs --test-year). Set to 0 to disable. Default 2024.")
     args = ap.parse_args()
+
+    tours = ["atp", "wta"] if args.tour == "both" else [args.tour]
+
+    if args.json:
+        cal_year = args.calibration_year or None
+        if cal_year == 0:
+            cal_year = None
+        for tour in tours:
+            payload = run_single(tour, args.test_year, args.history,
+                                 args.recency, args.elo_weight, args.sample_prior,
+                                 calibration_year=cal_year)
+            if payload is None:
+                sys.stderr.write(f"no results for {tour}\n")
+                continue
+            root = os.path.dirname(os.path.abspath(__file__))
+            with open(os.path.join(root, f"backtest_{tour}.json"), "w") as f:
+                json.dump(payload, f, indent=2)
+            # Separate calibration file consumed by the JS model on each page.
+            if "platt" in payload:
+                cal_payload = {
+                    "generated_at": payload["generated_at"],
+                    "tour": tour,
+                    "method": "platt",
+                    "A": payload["platt"]["A"],
+                    "B": payload["platt"]["B"],
+                    "fit_year": payload["platt"]["fit_year"],
+                    "fit_n_matches": payload["platt"]["fit_n_matches"],
+                    "metrics_uncalibrated": payload["summary"],
+                    "metrics_calibrated": payload["summary_calibrated"],
+                }
+                with open(os.path.join(root, f"calibration_{tour}.json"), "w") as f:
+                    json.dump(cal_payload, f, indent=2)
+            s = payload["summary"]
+            sc = payload.get("summary_calibrated")
+            line = (f"wrote backtest_{tour}.json — "
+                    f"raw: brier={s['brier']:.4f} acc={s['accuracy']*100:.2f}%")
+            if sc:
+                line += (f" → calibrated: brier={sc['brier']:.4f} "
+                         f"acc={sc['accuracy']*100:.2f}%")
+            sys.stderr.write(line + "\n")
+        return
 
     step = args.grid
     grid = [round(i * step, 4) for i in range(int(round(1.0 / step)) + 1)]
-
-    tours = ["atp", "wta"] if args.tour == "both" else [args.tour]
     for tour in tours:
-        results = run_backtest(tour, args.test_year, args.history, grid, grid)
+        results = run_backtest(tour, args.test_year, args.history, grid, grid,
+                               sample_prior=args.sample_prior)
         report(results, tour, args.test_year)
 
 
