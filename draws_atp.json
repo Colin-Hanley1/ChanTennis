@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-22T21:18:38Z",
+  "fetched_at": "2026-05-22T23:12:19Z",
   "events": [
     {
       "slug": "2026ATPHamburg",
@@ -205,21 +205,26 @@
       ],
       "r1_matches": [
         {
-          "a": "Aleksandar Kovacevic",
-          "b": "Ignacio Buse",
-          "a_seed": "LL",
-          "b_seed": "Q",
-          "h2h": null
-        },
-        {
-          "a": "Alex De Minaur",
+          "a": "Ignacio Buse",
           "b": "Tommy Paul",
-          "a_seed": "3",
+          "a_seed": "Q",
           "b_seed": "6",
-          "h2h": "5-1"
+          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Ignacio Buse",
+          "loser": "Aleksandar Kovacevic",
+          "score": "6-1 6-4"
+        },
+        {
+          "round": "SF",
+          "winner": "Tommy Paul",
+          "loser": "Alex De Minaur",
+          "score": "2-6 6-3 6-3"
+        },
         {
           "round": "QF",
           "winner": "Aleksandar Kovacevic",
@@ -582,21 +587,26 @@
       ],
       "r1_matches": [
         {
-          "a": "Casper Ruud",
-          "b": "Mariano Navone",
-          "a_seed": "6",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
-          "a": "Learner Tien",
-          "b": "Alexander Bublik",
+          "a": "Mariano Navone",
+          "b": "Learner Tien",
           "a_seed": "4",
-          "b_seed": "2",
-          "h2h": "1-0"
+          "b_seed": null,
+          "h2h": "1-1"
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Mariano Navone",
+          "loser": "Casper Ruud",
+          "score": "7-5 6-2"
+        },
+        {
+          "round": "SF",
+          "winner": "Learner Tien",
+          "loser": "Alexander Bublik",
+          "score": "6-1 4-6 7-6(5)"
+        },
         {
           "round": "QF",
           "winner": "Casper Ruud",
