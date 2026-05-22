@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-22T17:16:06Z",
+  "fetched_at": "2026-05-22T18:13:09Z",
   "source": "espn",
   "matches": [
     {
@@ -384,6 +384,13 @@
       "winner": "Ignacio Buse",
       "loser": "Aleksandar Kovacevic",
       "score": "6-1 6-4",
+      "round": "Semifinal",
+      "event": "2026ATPHamburg"
+    },
+    {
+      "winner": "Tommy Paul",
+      "loser": "Alex de Minaur",
+      "score": "2-6 6-3 6-3",
       "round": "Semifinal",
       "event": "2026ATPHamburg"
     }
