@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-22T11:51:43Z",
+  "fetched_at": "2026-05-22T14:56:38Z",
   "events": [
     {
       "slug": "2026WTAStrasbourg",
@@ -198,16 +198,15 @@
           "a_seed": "1",
           "b_seed": null,
           "h2h": null
-        },
-        {
-          "a": "Emma Navarro",
-          "b": "Ann Li",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-0"
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Emma Navarro",
+          "loser": "Ann Li",
+          "score": "61 63"
+        },
         {
           "round": "QF",
           "winner": "Victoria Mboko",
@@ -558,13 +557,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Panna Udvardy",
-          "b": "Anhelina Kalinina",
-          "a_seed": "7",
-          "b_seed": null,
-          "h2h": "0-3"
-        },
-        {
           "a": "Jil Teichmann",
           "b": "Petra Marcinko",
           "a_seed": "6",
@@ -573,6 +565,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Anhelina Kalinina",
+          "loser": "Panna Udvardy",
+          "score": "60 63"
+        },
         {
           "round": "QF",
           "winner": "Panna Udvardy",
