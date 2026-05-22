@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-22T17:16:10Z",
+  "fetched_at": "2026-05-22T20:00:35Z",
   "events": [
     {
       "slug": "2026WTAStrasbourg",
@@ -194,13 +194,19 @@
       "r1_matches": [
         {
           "a": "Victoria Mboko",
-          "b": "Jaqueline Cristian",
+          "b": "Emma Navarro",
           "a_seed": "1",
           "b_seed": null,
           "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Victoria Mboko",
+          "loser": "Jaqueline Cristian",
+          "score": "76(3) 36 62"
+        },
         {
           "round": "SF",
           "winner": "Emma Navarro",
