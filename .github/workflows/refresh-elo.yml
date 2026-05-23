@@ -1,0 +1,59 @@
+# Daily Elo rating refresh. Decoupled from refresh.yml because the full
+# scrape (player serve/return splits) takes 15+ minutes and was silently
+# skipping the elo write — this workflow does ONLY the 30-second elo fetch
+# so ratings stay fresh even when the weekly full refresh stalls or fails.
+#
+# Schedule: 06:00 UTC daily. Tennis Abstract's elo page updates throughout
+# the day as matches finish on each tour; once a day catches everything
+# without being noisy.
+
+name: Refresh Elo ratings
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # daily, 06:00 UTC
+  workflow_dispatch:       # manual trigger from the Actions tab
+
+# Share the concurrency group with refresh.yml so the two workflows don't
+# race on git push (both write to main from the same bot account).
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-elo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Scrape Elo
+        run: python3 scrape_elo.py --tour both
+
+      - name: Commit and push if elo changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Stage ONLY the elo files — keep the commit surface minimal so
+          # accidental changes elsewhere never sneak in.
+          git add elo_atp.csv elo_wta.csv 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "no elo changes to commit"
+            exit 0
+          fi
+          STAMP="$(date -u '+%Y-%m-%d %H:%M UTC')"
+          git commit -m "auto: refresh elo — $STAMP"
+          git push
+          echo "pushed elo refresh"
