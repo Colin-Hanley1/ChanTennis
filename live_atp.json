@@ -1,7 +1,14 @@
 {
-  "fetched_at": "2026-05-23T15:38:37Z",
+  "fetched_at": "2026-05-23T16:38:25Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Learner Tien",
+      "loser": "Mariano Navone",
+      "score": "3-6 6-3 7-5",
+      "round": "Final",
+      "event": "2026ATPGeneva"
+    },
     {
       "winner": "Alexander Bublik",
       "loser": "Arthur Rinderknech",
@@ -183,6 +190,13 @@
       "score": "7-5 6-2",
       "round": "Semifinal",
       "event": "2026ATPGeneva"
+    },
+    {
+      "winner": "Ignacio Buse",
+      "loser": "Tommy Paul",
+      "score": "7-6 4-6 6-3",
+      "round": "Final",
+      "event": "2026ATPHamburg"
     },
     {
       "winner": "Aleksandar Kovacevic",
