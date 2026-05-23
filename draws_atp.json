@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-23T21:03:20Z",
+  "fetched_at": "2026-05-23T22:02:14Z",
   "events": [
     {
       "slug": "2026ATPHamburg",
@@ -203,16 +203,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Ignacio Buse",
-          "b": "Tommy Paul",
-          "a_seed": "Q",
-          "b_seed": "6",
-          "h2h": null
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Ignacio Buse",
+          "loser": "Tommy Paul",
+          "score": "7-6(6) 4-6 6-3"
+        },
         {
           "round": "SF",
           "winner": "Ignacio Buse",
@@ -585,16 +583,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Mariano Navone",
-          "b": "Learner Tien",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": "1-1"
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Learner Tien",
+          "loser": "Mariano Navone",
+          "score": "3-6 6-3 7-5"
+        },
         {
           "round": "SF",
           "winner": "Mariano Navone",
