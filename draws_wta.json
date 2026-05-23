@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-23T15:09:57Z",
+  "fetched_at": "2026-05-23T17:12:47Z",
   "events": [
     {
       "slug": "2026WTAStrasbourg",
@@ -191,16 +191,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Victoria Mboko",
-          "b": "Emma Navarro",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": null
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Emma Navarro",
+          "loser": "Victoria Mboko",
+          "score": "60 57 62"
+        },
         {
           "round": "SF",
           "winner": "Victoria Mboko",
