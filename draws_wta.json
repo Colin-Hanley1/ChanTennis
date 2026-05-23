@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-23T13:56:11Z",
+  "fetched_at": "2026-05-23T15:09:57Z",
   "events": [
     {
       "slug": "2026WTAStrasbourg",
@@ -561,16 +561,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Anhelina Kalinina",
-          "b": "Petra Marcinko",
-          "a_seed": "6",
-          "b_seed": null,
-          "h2h": null
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Petra Marcinko",
+          "loser": "Anhelina Kalinina",
+          "score": ""
+        },
         {
           "round": "SF",
           "winner": "Anhelina Kalinina",
