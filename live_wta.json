@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-24T14:41:23Z",
+  "fetched_at": "2026-05-24T15:40:48Z",
   "source": "espn",
   "matches": [
     {
@@ -15,9 +15,21 @@
       "round": "Round 1"
     },
     {
+      "winner": "Hailey Baptiste",
+      "loser": "Barbora Krejcikova",
+      "score": "6-7 7-6 6-2",
+      "round": "Round 1"
+    },
+    {
       "winner": "Katie Volynets",
       "loser": "Clara Burel",
       "score": "6-3 6-1",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Magda Linette",
+      "loser": "Tereza Valentova",
+      "score": "5-7 6-4 7-6",
       "round": "Round 1"
     },
     {
@@ -30,6 +42,12 @@
       "winner": "Marta Kostyuk",
       "loser": "Oksana Selekhmeteva",
       "score": "6-2 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Tamara Korpatsch",
+      "loser": "Sara Sorribes Tormo",
+      "score": "6-4 6-2",
       "round": "Round 1"
     },
     {
