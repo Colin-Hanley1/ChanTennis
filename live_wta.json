@@ -1,5 +1,18 @@
 {
-  "fetched_at": "2026-05-24T10:12:29Z",
+  "fetched_at": "2026-05-24T10:47:10Z",
   "source": "espn",
-  "matches": []
+  "matches": [
+    {
+      "winner": "Marie Bouzkova",
+      "loser": "Lucia Bronzetti",
+      "score": "6-3 6-1",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Marta Kostyuk",
+      "loser": "Oksana Selekhmeteva",
+      "score": "6-2 6-3",
+      "round": "Round 1"
+    }
+  ]
 }
