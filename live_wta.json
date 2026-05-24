@@ -1,7 +1,13 @@
 {
-  "fetched_at": "2026-05-24T10:47:10Z",
+  "fetched_at": "2026-05-24T11:42:04Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Belinda Bencic",
+      "loser": "Sinja Kraus",
+      "score": "6-2 6-3",
+      "round": "Round 1"
+    },
     {
       "winner": "Marie Bouzkova",
       "loser": "Lucia Bronzetti",
@@ -12,6 +18,12 @@
       "winner": "Marta Kostyuk",
       "loser": "Oksana Selekhmeteva",
       "score": "6-2 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Wang Xinyu",
+      "loser": "Lilli Tagger",
+      "score": "6-3 3-6 6-4",
       "round": "Round 1"
     }
   ]

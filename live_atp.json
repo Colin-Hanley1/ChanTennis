@@ -1,5 +1,12 @@
 {
-  "fetched_at": "2026-05-24T10:47:10Z",
+  "fetched_at": "2026-05-24T11:42:04Z",
   "source": "espn",
-  "matches": []
+  "matches": [
+    {
+      "winner": "Miomir Kecmanovic",
+      "loser": "Fabian Marozsan",
+      "score": "7-6 6-3 6-4",
+      "round": "Round 1"
+    }
+  ]
 }
