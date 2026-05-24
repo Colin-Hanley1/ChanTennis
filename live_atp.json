@@ -1,7 +1,19 @@
 {
-  "fetched_at": "2026-05-24T12:46:15Z",
+  "fetched_at": "2026-05-24T14:20:02Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Alejandro Davidovich Fokina",
+      "loser": "Damir Dzumhur",
+      "score": "6-7 6-3 2-6 7-5 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Alexander Zverev",
+      "loser": "Benjamin Bonzi",
+      "score": "6-3 6-4 6-2",
+      "round": "Round 1"
+    },
     {
       "winner": "Karen Khachanov",
       "loser": "Arthur Gea",
@@ -24,6 +36,12 @@
       "winner": "Thiago Agustin Tirante",
       "loser": "Pablo Llamas Ruiz",
       "score": "6-3 7-6 6-7 6-0",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Tomas Machac",
+      "loser": "Zizou Bergs",
+      "score": "6-4 6-4 6-3",
       "round": "Round 1"
     }
   ]
