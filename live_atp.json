@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-25T11:03:54Z",
+  "fetched_at": "2026-05-25T14:16:53Z",
   "source": "espn",
   "matches": [
     {
@@ -15,6 +15,12 @@
       "round": "Round 1"
     },
     {
+      "winner": "Alex de Minaur",
+      "loser": "Toby Samuel",
+      "score": "6-4 6-4 6-2",
+      "round": "Round 1"
+    },
+    {
       "winner": "Alexander Blockx",
       "loser": "Chak Lam Coleman Wong",
       "score": "6-3 6-4 6-2",
@@ -27,6 +33,18 @@
       "round": "Round 1"
     },
     {
+      "winner": "Arthur Rinderknech",
+      "loser": "Jurij Rodionov",
+      "score": "7-6 6-2 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Brandon Nakashima",
+      "loser": "Roberto Bautista Agut",
+      "score": "6-2 7-5 6-2",
+      "round": "Round 1"
+    },
+    {
       "winner": "Dino Prizmic",
       "loser": "Michael Zheng",
       "score": "6-1 6-1 6-3",
@@ -36,6 +54,12 @@
       "winner": "Federico Cina",
       "loser": "Reilly Opelka",
       "score": "3-6 6-4 6-2 6-7 6-4",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Frances Tiafoe",
+      "loser": "Eliot Spizzirri",
+      "score": "6-3 6-7 6-4 6-3",
       "round": "Round 1"
     },
     {
@@ -69,9 +93,21 @@
       "round": "Round 1"
     },
     {
+      "winner": "Luca Van Assche",
+      "loser": "Vilius Gaubas",
+      "score": "6-4 6-2 2-6 7-5",
+      "round": "Round 1"
+    },
+    {
       "winner": "Marco Trungelliti",
       "loser": "Kyrian Jacquet",
       "score": "6-4 6-2 6-2",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Matteo Berrettini",
+      "loser": "Marton Fucsovics",
+      "score": "6-7 7-5 6-1 6-2",
       "round": "Round 1"
     },
     {
@@ -99,9 +135,21 @@
       "round": "Round 1"
     },
     {
+      "winner": "Pablo Carreno Busta",
+      "loser": "Jiri Lehecka",
+      "score": "6-3 7-6 6-3",
+      "round": "Round 1"
+    },
+    {
       "winner": "Quentin Halys",
       "loser": "Mattia Bellucci",
       "score": "6-3 7-6 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Rafael Jodar",
+      "loser": "Aleksandar Kovacevic",
+      "score": "6-1 6-0 6-4",
       "round": "Round 1"
     },
     {
