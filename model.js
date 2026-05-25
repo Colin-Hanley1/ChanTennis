@@ -466,6 +466,26 @@ function simMatch(pa, pb, bestOf, rng) {
   };
 }
 
+// Find δ such that matchWinProb(pa+δ, pb-δ, bestOf) ≈ targetProb.
+// Shifts serve probs symmetrically while keeping them in (0.01, 0.99).
+// Used to make the MC simulation consistent with the blended headline prob.
+function scaleServeProbsToTarget(pa, pb, bestOf, targetProb) {
+  // δ bounds: keep pa+δ and pb-δ both in [0.01, 0.99]
+  const dLo = Math.max(-pa + 0.01, pb - 0.99, -0.45);
+  const dHi = Math.min(0.99 - pa, pb - 0.01, 0.45);
+  let left = dLo, right = dHi;
+  for (let i = 0; i < 40; i++) {
+    const mid = (left + right) / 2;
+    if (matchWinProb(pa + mid, pb - mid, bestOf) < targetProb) left = mid;
+    else right = mid;
+  }
+  const delta = (left + right) / 2;
+  return [
+    Math.min(Math.max(pa + delta, 0.01), 0.99),
+    Math.min(Math.max(pb - delta, 0.01), 0.99),
+  ];
+}
+
 function simulateMany(pa, pb, bestOf, n, seed) {
   if (n <= 0) return { aWinRate: null, distribution: {}, markets: null };
   const rng = mulberry32(seed);
@@ -726,7 +746,7 @@ globalThis.TennisModel = {
   // calibration
   applyPlatt,
   // monte carlo
-  mulberry32, simGame, simTiebreak, simSet, simMatch, simulateMany,
+  mulberry32, simGame, simTiebreak, simSet, simMatch, simulateMany, scaleServeProbsToTarget,
   // betting / display
   computeMarkets, pickMedian, impliedToAmerican,
   // rankings

@@ -1165,7 +1165,7 @@ const {
   DEFAULT_CSV_ATP, DEFAULT_CSV_WTA,
   parseCSV, effectiveStats, pointOnServeProb, hasRecentData, filterActive,
   gameWinProb, tbServer, tiebreakWinProb, setWinProb, matchWinProb,
-  mulberry32, simGame, simTiebreak, simSet, simMatch, simulateMany,
+  mulberry32, simGame, simTiebreak, simSet, simMatch, simulateMany, scaleServeProbsToTarget,
   computeMarkets, pickMedian, impliedToAmerican,
   allPlayRanking,
   parseEloCSV, eloForSurface, eloMatchProb, blendProb,
@@ -1463,16 +1463,19 @@ function render() {
   $('labA').textContent = `${a.toUpperCase()} · ${fmtPct(probA)}`;
   $('labB').textContent = `${fmtPct(probB)} · ${b.toUpperCase()}`;
 
-  // monte carlo — simulates from the BC point-probabilities, so compares to probBC
-  const mc = simulateMany(paServe, pbServe, bestOf, sims, seed);
+  // Scale BC serve probs to the blended headline probability so that the MC
+  // simulation, set-score distribution, and betting markets are all consistent
+  // with the headline. BC-only match prob is shown as a reference component.
+  const [paScaled, pbScaled] = scaleServeProbsToTarget(paServe, pbServe, bestOf, probA);
+  const mc = simulateMany(paScaled, pbScaled, bestOf, sims, seed);
   $('mcTrials').textContent = fmtThousands(sims);
-  $('mcLabelA').textContent = `${a} win rate (BC only)`;
+  $('mcLabelA').textContent = `${a} win rate`;
   const deltaEl = $('mcDelta');
   deltaEl.classList.remove('delta-pos', 'delta-neg');
   if (mc.aWinRate != null) {
     $('mcRate').textContent = fmtPct(mc.aWinRate, 2);
-    $('mcRateSub').textContent = `BC analytic ${fmtPct(probBC, 2)}`;
-    const delta = (mc.aWinRate - probBC) * 100;
+    $('mcRateSub').textContent = `analytic ${fmtPct(probA, 2)} · BC-only ${fmtPct(probBC, 2)}`;
+    const delta = (mc.aWinRate - probA) * 100;
     deltaEl.textContent = (delta >= 0 ? '+' : '') + delta.toFixed(2);
     deltaEl.classList.add(delta >= 0 ? 'delta-pos' : 'delta-neg');
   } else {
