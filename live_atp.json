@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-25T18:13:57Z",
+  "fetched_at": "2026-05-25T19:53:06Z",
   "source": "espn",
   "matches": [
     {
@@ -45,6 +45,12 @@
       "round": "Round 1"
     },
     {
+      "winner": "Ben Shelton",
+      "loser": "Daniel Merida",
+      "score": "6-3 6-3 6-4",
+      "round": "Round 1"
+    },
+    {
       "winner": "Brandon Nakashima",
       "loser": "Roberto Bautista Agut",
       "score": "6-2 7-5 6-2",
@@ -54,6 +60,12 @@
       "winner": "Camilo Ugo Carabelli",
       "loser": "Emilio Nava",
       "score": "7-6 6-3 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Casper Ruud",
+      "loser": "Roman Safiullin",
+      "score": "6-2 7-6 5-7 0-6 6-2",
       "round": "Round 1"
     },
     {
@@ -78,6 +90,12 @@
       "winner": "Frances Tiafoe",
       "loser": "Eliot Spizzirri",
       "score": "6-3 6-7 6-4 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Francisco Cerundolo",
+      "loser": "Botic Van De Zandschulp",
+      "score": "6-3 6-4 6-7 6-4",
       "round": "Round 1"
     },
     {
@@ -228,6 +246,12 @@
       "winner": "Valentin Royer",
       "loser": "Hugo Dellien",
       "score": "6-4 6-2 6-2",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Wu Yibing",
+      "loser": "Marcos Giron",
+      "score": "7-5 6-2 6-4",
       "round": "Round 1"
     }
   ]
