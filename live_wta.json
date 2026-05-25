@@ -1,7 +1,13 @@
 {
-  "fetched_at": "2026-05-25T19:58:53Z",
+  "fetched_at": "2026-05-25T21:05:44Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Alycia Parks",
+      "loser": "Leylah Fernandez",
+      "score": "6-4 6-4",
+      "round": "Round 1"
+    },
     {
       "winner": "Amanda Anisimova",
       "loser": "Tiantsoa Rakotomanga Rajaonah",
@@ -129,6 +135,12 @@
       "round": "Round 1"
     },
     {
+      "winner": "Karolina Muchova",
+      "loser": "Anastasia Zakharova",
+      "score": "7-5 6-2",
+      "round": "Round 1"
+    },
+    {
       "winner": "Katie Boulter",
       "loser": "Akasha Urhobo",
       "score": "6-4 4-6 6-4",
@@ -168,6 +180,12 @@
       "winner": "Marta Kostyuk",
       "loser": "Oksana Selekhmeteva",
       "score": "6-2 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "McCartney Kessler",
+      "loser": "Guo Hanyu",
+      "score": "4-6 7-6 7-5",
       "round": "Round 1"
     },
     {
