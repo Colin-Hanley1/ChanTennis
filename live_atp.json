@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-25T14:16:53Z",
+  "fetched_at": "2026-05-25T16:36:33Z",
   "source": "espn",
   "matches": [
     {
@@ -45,6 +45,12 @@
       "round": "Round 1"
     },
     {
+      "winner": "Camilo Ugo Carabelli",
+      "loser": "Emilio Nava",
+      "score": "7-6 6-3 6-3",
+      "round": "Round 1"
+    },
+    {
       "winner": "Dino Prizmic",
       "loser": "Michael Zheng",
       "score": "6-1 6-1 6-3",
@@ -69,9 +75,21 @@
       "round": "Round 1"
     },
     {
+      "winner": "Hubert Hurkacz",
+      "loser": "Jaume Munar",
+      "score": "6-3 6-3 2-6 6-3",
+      "round": "Round 1"
+    },
+    {
       "winner": "Jakub Mensik",
       "loser": "Titouan Droguet",
       "score": "6-3 6-2 6-4",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Jesper de Jong",
+      "loser": "Stan Wawrinka",
+      "score": "6-3 3-6 6-3 6-4",
       "round": "Round 1"
     },
     {
@@ -102,6 +120,12 @@
       "winner": "Marco Trungelliti",
       "loser": "Kyrian Jacquet",
       "score": "6-4 6-2 6-2",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Mariano Navone",
+      "loser": "Jenson Brooksby",
+      "score": "6-4 6-4 6-4",
       "round": "Round 1"
     },
     {
@@ -153,6 +177,12 @@
       "round": "Round 1"
     },
     {
+      "winner": "Thanasi Kokkinakis",
+      "loser": "Terence Atmane",
+      "score": "6-7 6-2 4-6 6-3 7-5",
+      "round": "Round 1"
+    },
+    {
       "winner": "Thiago Agustin Tirante",
       "loser": "Pablo Llamas Ruiz",
       "score": "6-3 7-6 6-7 6-0",
@@ -162,6 +192,12 @@
       "winner": "Tomas Machac",
       "loser": "Zizou Bergs",
       "score": "6-4 6-4 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Ugo Humbert",
+      "loser": "Adrian Mannarino",
+      "score": "6-3 6-4 6-3",
       "round": "Round 1"
     },
     {

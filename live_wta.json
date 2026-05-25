@@ -1,7 +1,13 @@
 {
-  "fetched_at": "2026-05-25T14:16:53Z",
+  "fetched_at": "2026-05-25T16:36:33Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Amanda Anisimova",
+      "loser": "Tiantsoa Rakotomanga Rajaonah",
+      "score": "6-3 6-1",
+      "round": "Round 1"
+    },
     {
       "winner": "Anastasia Potapova",
       "loser": "Maya Joint",
@@ -36,6 +42,12 @@
       "winner": "Elena Rybakina",
       "loser": "Veronika Erjavec",
       "score": "6-2 6-2",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Elina Svitolina",
+      "loser": "Anna Bondar",
+      "score": "3-6 6-1 7-6",
       "round": "Round 1"
     },
     {
@@ -84,6 +96,12 @@
       "winner": "Julia Grabher",
       "loser": "Rebecca Sramkova",
       "score": "6-2 6-2",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Kaitlin Quevedo",
+      "loser": "Leolia Jeanjean",
+      "score": "7-6 7-6",
       "round": "Round 1"
     },
     {
@@ -165,6 +183,12 @@
       "round": "Round 1"
     },
     {
+      "winner": "Viktorija Golubic",
+      "loser": "Panna Udvardy",
+      "score": "6-0 6-2",
+      "round": "Round 1"
+    },
+    {
       "winner": "Wang Xinyu",
       "loser": "Lilli Tagger",
       "score": "6-3 3-6 6-4",
@@ -174,6 +198,12 @@
       "winner": "Wang Xiyu",
       "loser": "Danka Kovinic",
       "score": "6-3 6-1",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Yulia Putintseva",
+      "loser": "Talia Gibson",
+      "score": "4-6 6-4 6-1",
       "round": "Round 1"
     },
     {
