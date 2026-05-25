@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-25T20:01:18Z",
+  "fetched_at": "2026-05-25T21:18:37Z",
   "events": [
     {
       "slug": "2026RolandGarrosWomenForecast",
@@ -173,15 +173,15 @@
           "bye": false
         },
         {
-          "name": "Hanyu Guo",
-          "seed": "Q",
-          "country": "CHN",
-          "bye": false
-        },
-        {
           "name": "Mccartney Kessler",
           "seed": null,
           "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Hanyu Guo",
+          "seed": "Q",
+          "country": "CHN",
           "bye": false
         },
         {
@@ -233,15 +233,15 @@
           "bye": false
         },
         {
-          "name": "(W) Akasha Urhobo",
-          "seed": null,
-          "country": "USA",
-          "bye": false
-        },
-        {
           "name": "Katie Boulter",
           "seed": null,
           "country": "GBR",
+          "bye": false
+        },
+        {
+          "name": "(W) Akasha Urhobo",
+          "seed": null,
+          "country": "USA",
           "bye": false
         },
         {
@@ -677,15 +677,15 @@
           "bye": false
         },
         {
-          "name": "Anastasia Zakharova",
-          "seed": null,
-          "country": "RUS",
-          "bye": false
-        },
-        {
           "name": "Karolina Muchova",
           "seed": "10",
           "country": "CZE",
+          "bye": false
+        },
+        {
+          "name": "Anastasia Zakharova",
+          "seed": null,
+          "country": "RUS",
           "bye": false
         },
         {
