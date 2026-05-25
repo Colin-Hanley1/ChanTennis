@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-25T10:26:10Z",
+  "fetched_at": "2026-05-25T11:03:54Z",
   "source": "espn",
   "matches": [
     {
@@ -12,6 +12,12 @@
       "winner": "Catherine McNally",
       "loser": "Ajla Tomljanovic",
       "score": "3-6 7-6 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Daria Kasatkina",
+      "loser": "Zeynep Sonmez",
+      "score": "6-4 6-4",
       "round": "Round 1"
     },
     {
@@ -33,6 +39,18 @@
       "round": "Round 1"
     },
     {
+      "winner": "Jasmine Paolini",
+      "loser": "Dayana Yastremska",
+      "score": "7-5 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Jil Teichmann",
+      "loser": "Liudmila Samsonova",
+      "score": "6-4 6-4",
+      "round": "Round 1"
+    },
+    {
       "winner": "Katie Volynets",
       "loser": "Clara Burel",
       "score": "6-3 6-1",
@@ -42,6 +60,12 @@
       "winner": "Magda Linette",
       "loser": "Tereza Valentova",
       "score": "5-7 6-4 7-6",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Maja Chwalinska",
+      "loser": "Zheng Qinwen",
+      "score": "6-4 6-0",
       "round": "Round 1"
     },
     {
