@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T08:38:34Z",
+  "fetched_at": "2026-05-26T16:50:12Z",
   "events": [
     {
       "slug": "2026RolandGarrosWomenForecast",
@@ -29,15 +29,15 @@
           "bye": false
         },
         {
-          "name": "Linda Fruhvirtova",
-          "seed": "Q",
-          "country": "CZE",
-          "bye": false
-        },
-        {
           "name": "Elsa Jacquemot",
           "seed": null,
           "country": "FRA",
+          "bye": false
+        },
+        {
+          "name": "Linda Fruhvirtova",
+          "seed": "Q",
+          "country": "CZE",
           "bye": false
         },
         {
@@ -101,15 +101,15 @@
           "bye": false
         },
         {
-          "name": "Laura Siegemund",
-          "seed": null,
-          "country": "GER",
-          "bye": false
-        },
-        {
           "name": "Naomi Osaka",
           "seed": "16",
           "country": "JPN",
+          "bye": false
+        },
+        {
+          "name": "Laura Siegemund",
+          "seed": null,
+          "country": "GER",
           "bye": false
         },
         {
@@ -221,15 +221,15 @@
           "bye": false
         },
         {
-          "name": "Dalma Galfi",
-          "seed": null,
-          "country": "HUN",
-          "bye": false
-        },
-        {
           "name": "Mayar Sherif",
           "seed": "Q",
           "country": "EGY",
+          "bye": false
+        },
+        {
+          "name": "Dalma Galfi",
+          "seed": null,
+          "country": "HUN",
           "bye": false
         },
         {
@@ -305,15 +305,15 @@
           "bye": false
         },
         {
-          "name": "Linda Noskova",
-          "seed": "12",
-          "country": "CZE",
-          "bye": false
-        },
-        {
           "name": "Maria Sakkari",
           "seed": null,
           "country": "GRE",
+          "bye": false
+        },
+        {
+          "name": "Linda Noskova",
+          "seed": "12",
+          "country": "CZE",
           "bye": false
         },
         {

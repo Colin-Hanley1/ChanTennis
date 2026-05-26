@@ -1,7 +1,13 @@
 {
-  "fetched_at": "2026-05-26T14:41:03Z",
+  "fetched_at": "2026-05-26T16:50:11Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Alina Korneeva",
+      "loser": "Elisabetta Cocciaretto",
+      "score": "6-3 6-3",
+      "round": "Round 1"
+    },
     {
       "winner": "Alycia Parks",
       "loser": "Leylah Fernandez",
@@ -27,6 +33,18 @@
       "round": "Round 1"
     },
     {
+      "winner": "Anna Kalinskaya",
+      "loser": "Lois Boisson",
+      "score": "6-2 6-2",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Antonia Ruzic",
+      "loser": "Ashlyn Krueger",
+      "score": "3-6 6-2 6-2",
+      "round": "Round 1"
+    },
+    {
       "winner": "Aryna Sabalenka",
       "loser": "Jessica Bouzas Maneiro",
       "score": "6-4 6-2",
@@ -48,6 +66,12 @@
       "winner": "Catherine McNally",
       "loser": "Ajla Tomljanovic",
       "score": "3-6 7-6 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Coco Gauff",
+      "loser": "Taylor Townsend",
+      "score": "6-4 6-0",
       "round": "Round 1"
     },
     {
@@ -90,6 +114,12 @@
       "winner": "Elise Mertens",
       "loser": "Tatjana Maria",
       "score": "7-5 6-0",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Elsa Jacquemot",
+      "loser": "Linda Fruhvirtova",
+      "score": "6-4 6-3",
       "round": "Round 1"
     },
     {
@@ -219,6 +249,12 @@
       "round": "Round 1"
     },
     {
+      "winner": "Mayar Sherif",
+      "loser": "Dalma Galfi",
+      "score": "7-5 6-4",
+      "round": "Round 1"
+    },
+    {
       "winner": "McCartney Kessler",
       "loser": "Guo Hanyu",
       "score": "4-6 7-6 7-5",
@@ -228,6 +264,12 @@
       "winner": "Mirra Andreeva",
       "loser": "Fiona Ferro",
       "score": "6-3 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Naomi Osaka",
+      "loser": "Laura Siegemund",
+      "score": "6-3 7-6",
       "round": "Round 1"
     },
     {
