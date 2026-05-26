@@ -1,11 +1,23 @@
 {
-  "fetched_at": "2026-05-26T08:53:08Z",
+  "fetched_at": "2026-05-26T14:41:03Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Adam Walton",
+      "loser": "Daniil Medvedev",
+      "score": "6-2 1-6 6-1 1-6 6-4",
+      "round": "Round 1"
+    },
     {
       "winner": "Alejandro Davidovich Fokina",
       "loser": "Damir Dzumhur",
       "score": "6-7 6-3 2-6 7-5 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Alejandro Tabilo",
+      "loser": "Kamil Majchrzak",
+      "score": "6-1 6-3 6-4",
       "round": "Round 1"
     },
     {
@@ -72,6 +84,12 @@
       "winner": "Dino Prizmic",
       "loser": "Michael Zheng",
       "score": "6-1 6-1 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Facundo Diaz Acosta",
+      "loser": "Zhang Zhizhen",
+      "score": "6-1 6-4 6-3",
       "round": "Round 1"
     },
     {
@@ -165,6 +183,12 @@
       "round": "Round 1"
     },
     {
+      "winner": "Matteo Arnaldi",
+      "loser": "Tallon Griekspoor",
+      "score": "6-7 6-3 7-6 6-3",
+      "round": "Round 1"
+    },
+    {
       "winner": "Matteo Berrettini",
       "loser": "Marton Fucsovics",
       "score": "6-7 7-5 6-1 6-2",
@@ -174,6 +198,12 @@
       "winner": "Miomir Kecmanovic",
       "loser": "Fabian Marozsan",
       "score": "7-6 6-3 6-4",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Moise Kouame",
+      "loser": "Marin Cilic",
+      "score": "7-6 6-2 6-1",
       "round": "Round 1"
     },
     {
@@ -255,9 +285,21 @@
       "round": "Round 1"
     },
     {
+      "winner": "Valentin Vacherot",
+      "loser": "Thomas Faurel",
+      "score": "6-3 6-4 3-6 7-6",
+      "round": "Round 1"
+    },
+    {
       "winner": "Wu Yibing",
       "loser": "Marcos Giron",
       "score": "7-5 6-2 6-4",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Zachary Svajda",
+      "loser": "Alexei Popyrin",
+      "score": "3-6 6-3 7-6 7-5",
       "round": "Round 1"
     }
   ]
