@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T19:24:25Z",
+  "fetched_at": "2026-05-26T21:53:57Z",
   "events": [
     {
       "slug": "2026RolandGarrosWomenForecast",
@@ -95,8 +95,8 @@
           "bye": false
         },
         {
-          "name": "(W) Alice Tubello",
-          "seed": null,
+          "name": "Alice Tubello",
+          "seed": "WC",
           "country": "FRA",
           "bye": false
         },
@@ -239,8 +239,8 @@
           "bye": false
         },
         {
-          "name": "(W) Akasha Urhobo",
-          "seed": null,
+          "name": "Akasha Urhobo",
+          "seed": "WC",
           "country": "USA",
           "bye": false
         },
@@ -395,8 +395,8 @@
           "bye": false
         },
         {
-          "name": "(W) Tiantsoa Sarah Rakotomanga Rajaonah",
-          "seed": null,
+          "name": "Tiantsoa Sarah Rakotomanga Rajaonah",
+          "seed": "WC",
           "country": "FRA",
           "bye": false
         },
@@ -419,8 +419,8 @@
           "bye": false
         },
         {
-          "name": "(W) Leolia Jeanjean",
-          "seed": null,
+          "name": "Leolia Jeanjean",
+          "seed": "WC",
           "country": "FRA",
           "bye": false
         },
@@ -515,8 +515,8 @@
           "bye": false
         },
         {
-          "name": "(W) Clara Burel",
-          "seed": null,
+          "name": "Clara Burel",
+          "seed": "WC",
           "country": "FRA",
           "bye": false
         },
@@ -587,8 +587,8 @@
           "bye": false
         },
         {
-          "name": "(W) Emerson Jones",
-          "seed": null,
+          "name": "Emerson Jones",
+          "seed": "WC",
           "country": "AUS",
           "bye": false
         },
@@ -599,8 +599,8 @@
           "bye": false
         },
         {
-          "name": "(W) Fiona Ferro",
-          "seed": null,
+          "name": "Fiona Ferro",
+          "seed": "WC",
           "country": "FRA",
           "bye": false
         },
@@ -731,8 +731,8 @@
           "bye": false
         },
         {
-          "name": "(W) Ksenia Efremova",
-          "seed": null,
+          "name": "Ksenia Efremova",
+          "seed": "WC",
           "country": "FRA",
           "bye": false
         },
