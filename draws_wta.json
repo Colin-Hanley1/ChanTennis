@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T16:50:12Z",
+  "fetched_at": "2026-05-26T19:24:25Z",
   "events": [
     {
       "slug": "2026RolandGarrosWomenForecast",
@@ -125,15 +125,15 @@
           "bye": false
         },
         {
-          "name": "Simona Waltert",
-          "seed": null,
-          "country": "SUI",
-          "bye": false
-        },
-        {
           "name": "Katerina Siniakova",
           "seed": null,
           "country": "CZE",
+          "bye": false
+        },
+        {
+          "name": "Simona Waltert",
+          "seed": null,
+          "country": "SUI",
           "bye": false
         },
         {
@@ -149,15 +149,15 @@
           "bye": false
         },
         {
-          "name": "Hanne Vandewinkel",
-          "seed": null,
-          "country": "BEL",
-          "bye": false
-        },
-        {
           "name": "Madison Keys",
           "seed": "19",
           "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Hanne Vandewinkel",
+          "seed": null,
+          "country": "BEL",
           "bye": false
         },
         {
@@ -185,15 +185,15 @@
           "bye": false
         },
         {
-          "name": "Elena Pridankina",
-          "seed": "Q",
-          "country": "RUS",
-          "bye": false
-        },
-        {
           "name": "Oleksandra Oliynykova",
           "seed": null,
           "country": "UKR",
+          "bye": false
+        },
+        {
+          "name": "Elena Pridankina",
+          "seed": "Q",
+          "country": "RUS",
           "bye": false
         },
         {
@@ -365,15 +365,15 @@
           "bye": false
         },
         {
-          "name": "Anhelina Kalinina",
-          "seed": null,
-          "country": "UKR",
-          "bye": false
-        },
-        {
           "name": "Diane Parry",
           "seed": null,
           "country": "FRA",
+          "bye": false
+        },
+        {
+          "name": "Anhelina Kalinina",
+          "seed": null,
+          "country": "UKR",
           "bye": false
         },
         {
