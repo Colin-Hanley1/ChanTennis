@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-27T19:46:53Z",
+  "fetched_at": "2026-05-27T21:44:49Z",
   "source": "espn",
   "matches": [
     {
@@ -399,6 +399,12 @@
       "round": "Round 2"
     },
     {
+      "winner": "Karolina Muchova",
+      "loser": "Kamilla Rakhimova",
+      "score": "6-2 6-2",
+      "round": "Round 2"
+    },
+    {
       "winner": "Magda Linette",
       "loser": "Jelena Ostapenko",
       "score": "6-2 2-6 6-2",
@@ -414,6 +420,12 @@
       "winner": "Marta Kostyuk",
       "loser": "Katie Volynets",
       "score": "6-7 6-3 6-3",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Mirra Andreeva",
+      "loser": "Marina Bassols Ribera",
+      "score": "3-6 6-1 6-1",
       "round": "Round 2"
     },
     {
