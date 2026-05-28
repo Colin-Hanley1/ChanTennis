@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-28T19:39:50Z",
+  "fetched_at": "2026-05-28T21:28:30Z",
   "source": "espn",
   "matches": [
     {
@@ -381,6 +381,12 @@
       "round": "Round 2"
     },
     {
+      "winner": "Brandon Nakashima",
+      "loser": "Luca Van Assche",
+      "score": "6-7 6-4 5-7 6-1 6-3",
+      "round": "Round 2"
+    },
+    {
       "winner": "Casper Ruud",
       "loser": "Hamad Medjedovic",
       "score": "6-3 6-2 6-4",
@@ -408,6 +414,12 @@
       "winner": "Francisco Cerundolo",
       "loser": "Hugo Gaston",
       "score": "2-6 6-4 6-2 6-1",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Francisco Comesana",
+      "loser": "Luciano Darderi",
+      "score": "7-6 4-6 6-4 2-6 6-4",
       "round": "Round 2"
     },
     {
@@ -459,6 +471,18 @@
       "round": "Round 2"
     },
     {
+      "winner": "Matteo Arnaldi",
+      "loser": "Stefanos Tsitsipas",
+      "score": "7-6 5-7 6-3 6-2",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Matteo Berrettini",
+      "loser": "Arthur Rinderknech",
+      "score": "6-4 6-4 6-4",
+      "round": "Round 2"
+    },
+    {
       "winner": "Moise Kouame",
       "loser": "Adolfo Daniel Vallejo",
       "score": "6-3 7-5 3-6 2-6 7-6",
@@ -486,6 +510,12 @@
       "winner": "Rafael Jodar",
       "loser": "James Duckworth",
       "score": "6-1 6-7 6-4 7-5",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Raphael Collignon",
+      "loser": "Ben Shelton",
+      "score": "6-4 7-5 6-4",
       "round": "Round 2"
     },
     {
