@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-28T08:50:15Z",
+  "fetched_at": "2026-05-28T12:03:52Z",
   "source": "espn",
   "matches": [
     {
@@ -387,6 +387,18 @@
       "round": "Round 2"
     },
     {
+      "winner": "Flavio Cobolli",
+      "loser": "Wu Yibing",
+      "score": "6-4 6-4 6-4",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Jaime Faria",
+      "loser": "Jan-Lennard Struff",
+      "score": "7-5 7-6 6-2",
+      "round": "Round 2"
+    },
+    {
       "winner": "Jakub Mensik",
       "loser": "Mariano Navone",
       "score": "6-3 2-6 6-4 1-6 7-6",
@@ -444,6 +456,12 @@
       "winner": "Tommy Paul",
       "loser": "Lorenzo Sonego",
       "score": "6-3 6-2 6-4",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Zachary Svajda",
+      "loser": "Adam Walton",
+      "score": "6-3 6-4 6-7 6-2",
       "round": "Round 2"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-28T08:50:15Z",
+  "fetched_at": "2026-05-28T12:03:52Z",
   "source": "espn",
   "matches": [
     {
@@ -393,6 +393,12 @@
       "round": "Round 2"
     },
     {
+      "winner": "Iva Jovic",
+      "loser": "Emma Navarro",
+      "score": "6-0 6-3",
+      "round": "Round 2"
+    },
+    {
       "winner": "Jil Teichmann",
       "loser": "Magdalena Frech",
       "score": "7-5 6-4",
@@ -426,6 +432,18 @@
       "winner": "Mirra Andreeva",
       "loser": "Marina Bassols Ribera",
       "score": "3-6 6-1 6-1",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Naomi Osaka",
+      "loser": "Donna Vekic",
+      "score": "7-6 6-4",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Oleksandra Oliynykova",
+      "loser": "Kimberly Birrell",
+      "score": "6-3 0-6 7-6",
       "round": "Round 2"
     },
     {
