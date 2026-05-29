@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-29T14:22:18Z",
+  "fetched_at": "2026-05-29T16:50:59Z",
   "source": "espn",
   "matches": [
     {
@@ -553,6 +553,12 @@
       "loser": "Elena Rybakina",
       "score": "3-6 6-1 7-6",
       "round": "Round 2"
+    },
+    {
+      "winner": "Elina Svitolina",
+      "loser": "Tamara Korpatsch",
+      "score": "6-2 6-3",
+      "round": "Round 3"
     },
     {
       "winner": "Iga Swiatek",
