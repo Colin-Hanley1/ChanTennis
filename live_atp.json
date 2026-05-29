@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-29T11:44:52Z",
+  "fetched_at": "2026-05-29T12:23:58Z",
   "source": "espn",
   "matches": [
     {
@@ -535,6 +535,12 @@
       "loser": "Adam Walton",
       "score": "6-3 6-4 6-7 6-2",
       "round": "Round 2"
+    },
+    {
+      "winner": "Andrey Rublev",
+      "loser": "Nuno Borges",
+      "score": "7-5 7-6 7-6",
+      "round": "Round 3"
     }
   ]
 }
