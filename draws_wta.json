@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-30T18:08:14Z",
+  "fetched_at": "2026-05-30T20:13:31Z",
   "events": [
     {
       "slug": "2026RolandGarrosWomenForecast",
@@ -23,27 +23,9 @@
           "bye": false
         },
         {
-          "name": "Daria Kasatkina",
-          "seed": null,
-          "country": "AUS",
-          "bye": false
-        },
-        {
-          "name": "Iva Jovic",
-          "seed": "17",
-          "country": "USA",
-          "bye": false
-        },
-        {
           "name": "Naomi Osaka",
           "seed": "16",
           "country": "JPN",
-          "bye": false
-        },
-        {
-          "name": "Victoria Mboko",
-          "seed": "9",
-          "country": "CAN",
           "bye": false
         },
         {
@@ -59,18 +41,6 @@
           "bye": false
         },
         {
-          "name": "Oleksandra Oliynykova",
-          "seed": null,
-          "country": "UKR",
-          "bye": false
-        },
-        {
-          "name": "Coco Gauff",
-          "seed": "4",
-          "country": "USA",
-          "bye": false
-        },
-        {
           "name": "Anastasia Potapova",
           "seed": "28",
           "country": "RUS",
@@ -80,18 +50,6 @@
           "name": "Anna Kalinskaya",
           "seed": "22",
           "country": "RUS",
-          "bye": false
-        },
-        {
-          "name": "Camila Osorio",
-          "seed": null,
-          "country": "COL",
-          "bye": false
-        },
-        {
-          "name": "Maria Sakkari",
-          "seed": null,
-          "country": "GRE",
           "bye": false
         },
         {
@@ -107,27 +65,9 @@
           "bye": false
         },
         {
-          "name": "Amanda Anisimova",
-          "seed": "6",
-          "country": "USA",
-          "bye": false
-        },
-        {
           "name": "Elina Svitolina",
           "seed": "7",
           "country": "UKR",
-          "bye": false
-        },
-        {
-          "name": "Tamara Korpatsch",
-          "seed": null,
-          "country": "GER",
-          "bye": false
-        },
-        {
-          "name": "Peyton Stearns",
-          "seed": null,
-          "country": "USA",
           "bye": false
         },
         {
@@ -143,18 +83,6 @@
           "bye": false
         },
         {
-          "name": "Viktorija Golubic",
-          "seed": null,
-          "country": "SUI",
-          "bye": false
-        },
-        {
-          "name": "Magda Linette",
-          "seed": null,
-          "country": "POL",
-          "bye": false
-        },
-        {
           "name": "Iga Swiatek",
           "seed": "3",
           "country": "POL",
@@ -167,27 +95,9 @@
           "bye": false
         },
         {
-          "name": "Marie Bouzkova",
-          "seed": "27",
-          "country": "CZE",
-          "bye": false
-        },
-        {
           "name": "Jil Teichmann",
           "seed": null,
           "country": "SUI",
-          "bye": false
-        },
-        {
-          "name": "Karolina Muchova",
-          "seed": "10",
-          "country": "CZE",
-          "bye": false
-        },
-        {
-          "name": "Solana Sierra",
-          "seed": null,
-          "country": "ARG",
           "bye": false
         },
         {
@@ -200,12 +110,6 @@
           "name": "Xiyu Wang",
           "seed": null,
           "country": "CHN",
-          "bye": false
-        },
-        {
-          "name": "Yuliia Starodubtseva",
-          "seed": null,
-          "country": "UKR",
           "bye": false
         }
       ],
