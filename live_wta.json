@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-30T12:14:57Z",
+  "fetched_at": "2026-05-30T14:05:18Z",
   "source": "espn",
   "matches": [
     {
@@ -553,6 +553,12 @@
       "loser": "Elena Rybakina",
       "score": "3-6 6-1 7-6",
       "round": "Round 2"
+    },
+    {
+      "winner": "Aryna Sabalenka",
+      "loser": "Daria Kasatkina",
+      "score": "6-0 7-5",
+      "round": "Round 3"
     },
     {
       "winner": "Belinda Bencic",
