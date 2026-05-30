@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-30T18:08:13Z",
+  "fetched_at": "2026-05-30T18:47:17Z",
   "source": "espn",
   "matches": [
     {
@@ -553,6 +553,12 @@
       "loser": "Elena Rybakina",
       "score": "3-6 6-1 7-6",
       "round": "Round 2"
+    },
+    {
+      "winner": "Anastasia Potapova",
+      "loser": "Coco Gauff",
+      "score": "4-6 7-6 6-4",
+      "round": "Round 3"
     },
     {
       "winner": "Anna Kalinskaya",
