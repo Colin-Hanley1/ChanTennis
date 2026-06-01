@@ -1,121 +1,6 @@
 {
-  "fetched_at": "2026-06-01T17:57:37Z",
+  "fetched_at": "2026-06-01T21:41:08Z",
   "events": [
-    {
-      "slug": "2026RolandGarrosWomenForecast",
-      "name": "Roland Garros Women Forecast",
-      "year": 2026,
-      "tour": "wta",
-      "surface": "clay",
-      "best_of": 3,
-      "url": "https://www.tennisabstract.com/current/2026RolandGarrosWomenForecast.html",
-      "bracket_slots": [
-        {
-          "name": "2026 Roland Garros Womens' Draw Forecast Player",
-          "seed": null,
-          "country": null,
-          "bye": false
-        },
-        {
-          "name": "Aryna Sabalenka",
-          "seed": "1",
-          "country": "BLR",
-          "bye": false
-        },
-        {
-          "name": "Naomi Osaka",
-          "seed": "16",
-          "country": "JPN",
-          "bye": false
-        },
-        {
-          "name": "Madison Keys",
-          "seed": "19",
-          "country": "USA",
-          "bye": false
-        },
-        {
-          "name": "Diana Shnaider",
-          "seed": "25",
-          "country": "RUS",
-          "bye": false
-        },
-        {
-          "name": "Anastasia Potapova",
-          "seed": "28",
-          "country": "RUS",
-          "bye": false
-        },
-        {
-          "name": "Anna Kalinskaya",
-          "seed": "22",
-          "country": "RUS",
-          "bye": false
-        },
-        {
-          "name": "Maja Chwalinska",
-          "seed": null,
-          "country": "POL",
-          "bye": false
-        },
-        {
-          "name": "Diane Parry",
-          "seed": null,
-          "country": "FRA",
-          "bye": false
-        },
-        {
-          "name": "Elina Svitolina",
-          "seed": "7",
-          "country": "UKR",
-          "bye": false
-        },
-        {
-          "name": "Belinda Bencic",
-          "seed": "11",
-          "country": "SUI",
-          "bye": false
-        },
-        {
-          "name": "Marta Kostyuk",
-          "seed": "15",
-          "country": "UKR",
-          "bye": false
-        },
-        {
-          "name": "Iga Swiatek",
-          "seed": "3",
-          "country": "POL",
-          "bye": false
-        },
-        {
-          "name": "Mirra Andreeva",
-          "seed": "8",
-          "country": "RUS",
-          "bye": false
-        },
-        {
-          "name": "Jil Teichmann",
-          "seed": null,
-          "country": "SUI",
-          "bye": false
-        },
-        {
-          "name": "Sorana Cirstea",
-          "seed": "18",
-          "country": "ROU",
-          "bye": false
-        },
-        {
-          "name": "Xiyu Wang",
-          "seed": null,
-          "country": "CHN",
-          "bye": false
-        }
-      ],
-      "r1_matches": [],
-      "completed": []
-    },
     {
       "slug": "2026WTABirmingham125",
       "name": "Birmingham125",
@@ -693,25 +578,11 @@
           "h2h": null
         },
         {
-          "a": "Varvara Lepchenko",
-          "b": "Iryna Shymanovich",
-          "a_seed": "7",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
           "a": "Lisa Zaar",
           "b": "Tyra Caterina Grant",
           "a_seed": "WC",
           "b_seed": null,
           "h2h": "0-1"
-        },
-        {
-          "a": "Sapfo Sakellaridi",
-          "b": "Sofia Costoulas",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": null
         },
         {
           "a": "Despina Papamichail",
@@ -728,6 +599,13 @@
           "h2h": "1-0"
         },
         {
+          "a": "Tatiana Pieri",
+          "b": "Sofia Costoulas",
+          "a_seed": "3",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
           "a": "Darya Astakhova",
           "b": "Lisa Pigato",
           "a_seed": "2",
@@ -738,9 +616,21 @@
       "completed": [
         {
           "round": "R1",
+          "winner": "Varvara Lepchenko",
+          "loser": "Iryna Shymanovich",
+          "score": "57 63 61"
+        },
+        {
+          "round": "R1",
           "winner": "Tatiana Pieri",
           "loser": "Victoria Bosio",
           "score": "60 26 62"
+        },
+        {
+          "round": "R1",
+          "winner": "Sofia Costoulas",
+          "loser": "Sapfo Sakellaridi",
+          "score": "64 26 63"
         },
         {
           "round": "R1",

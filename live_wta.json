@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-01T19:29:04Z",
+  "fetched_at": "2026-06-01T21:41:06Z",
   "source": "espn",
   "matches": [
     {
@@ -654,6 +654,12 @@
       "winner": "Anna Kalinskaya",
       "loser": "Anastasia Potapova",
       "score": "6-4 2-6 7-6",
+      "round": "Round 4"
+    },
+    {
+      "winner": "Aryna Sabalenka",
+      "loser": "Naomi Osaka",
+      "score": "7-5 6-3",
       "round": "Round 4"
     },
     {
