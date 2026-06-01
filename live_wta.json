@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-01T11:52:14Z",
+  "fetched_at": "2026-06-01T14:29:26Z",
   "source": "espn",
   "matches": [
     {
@@ -651,9 +651,27 @@
       "round": "Round 3"
     },
     {
+      "winner": "Anna Kalinskaya",
+      "loser": "Anastasia Potapova",
+      "score": "6-4 2-6 7-6",
+      "round": "Round 4"
+    },
+    {
+      "winner": "Diana Shnaider",
+      "loser": "Madison Keys",
+      "score": "6-3 3-6 6-0",
+      "round": "Round 4"
+    },
+    {
       "winner": "Elina Svitolina",
       "loser": "Belinda Bencic",
       "score": "4-6 6-4 6-0",
+      "round": "Round 4"
+    },
+    {
+      "winner": "Maja Chwalinska",
+      "loser": "Diane Parry",
+      "score": "6-3 6-2",
       "round": "Round 4"
     },
     {
