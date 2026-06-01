@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-01T22:20:09Z",
+  "fetched_at": "2026-06-01T23:39:49Z",
   "source": "espn",
   "matches": [
     {
@@ -660,6 +660,12 @@
       "winner": "Joao Fonseca",
       "loser": "Casper Ruud",
       "score": "7-5 7-6 5-7 6-2",
+      "round": "Round 4"
+    },
+    {
+      "winner": "Matteo Arnaldi",
+      "loser": "Frances Tiafoe",
+      "score": "7-6 6-7 3-6 7-6 6-4",
       "round": "Round 4"
     },
     {
