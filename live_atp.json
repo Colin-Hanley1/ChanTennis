@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-01T14:29:26Z",
+  "fetched_at": "2026-06-01T17:57:35Z",
   "source": "espn",
   "matches": [
     {
@@ -639,6 +639,12 @@
       "round": "Round 4"
     },
     {
+      "winner": "Felix Auger-Aliassime",
+      "loser": "Alejandro Tabilo",
+      "score": "6-3 7-5 6-1",
+      "round": "Round 4"
+    },
+    {
       "winner": "Flavio Cobolli",
       "loser": "Zachary Svajda",
       "score": "6-2 6-3 6-7 7-6",
@@ -654,6 +660,12 @@
       "winner": "Joao Fonseca",
       "loser": "Casper Ruud",
       "score": "7-5 7-6 5-7 6-2",
+      "round": "Round 4"
+    },
+    {
+      "winner": "Matteo Berrettini",
+      "loser": "Juan Manuel Cerundolo",
+      "score": "6-3 7-6 7-6",
       "round": "Round 4"
     },
     {
