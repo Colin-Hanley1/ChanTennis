@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-02T04:52:07Z",
+  "fetched_at": "2026-06-02T09:16:34Z",
   "events": [
     {
       "slug": "2026WTABirmingham125",
@@ -645,6 +645,296 @@
           "score": "76(5) 61"
         }
       ]
+    },
+    {
+      "slug": "2026WTAMakarska125",
+      "name": "Makarska125",
+      "year": 2026,
+      "tour": "wta",
+      "surface": "hard",
+      "best_of": 3,
+      "url": "https://www.tennisabstract.com/current/2026WTAMakarska125.html",
+      "bracket_slots": [
+        {
+          "name": "Petra Marcinko",
+          "seed": "1",
+          "country": "CRO",
+          "bye": false
+        },
+        {
+          "name": "Qualifier1",
+          "seed": null,
+          "country": null,
+          "bye": false
+        },
+        {
+          "name": "Barbora Palicova",
+          "seed": null,
+          "country": "CZE",
+          "bye": false
+        },
+        {
+          "name": "Lucija Ciric Bagaric",
+          "seed": "WC",
+          "country": "CRO",
+          "bye": false
+        },
+        {
+          "name": "Tamara Zidansek",
+          "seed": null,
+          "country": "SLO",
+          "bye": false
+        },
+        {
+          "name": "Polona Hercog",
+          "seed": null,
+          "country": "SLO",
+          "bye": false
+        },
+        {
+          "name": "Ana Konjuh",
+          "seed": "WC",
+          "country": "CRO",
+          "bye": false
+        },
+        {
+          "name": "Dominika Salkova",
+          "seed": "6",
+          "country": "CZE",
+          "bye": false
+        },
+        {
+          "name": "Simona Waltert",
+          "seed": "3",
+          "country": "SUI",
+          "bye": false
+        },
+        {
+          "name": "Teodora Kostovic",
+          "seed": null,
+          "country": "SRB",
+          "bye": false
+        },
+        {
+          "name": "Andrea Lazaro Garcia",
+          "seed": null,
+          "country": "ESP",
+          "bye": false
+        },
+        {
+          "name": "Laura Samson",
+          "seed": null,
+          "country": "CZE",
+          "bye": false
+        },
+        {
+          "name": "Rebecca Sramkova",
+          "seed": null,
+          "country": "SVK",
+          "bye": false
+        },
+        {
+          "name": "Tara Wurth",
+          "seed": null,
+          "country": "CRO",
+          "bye": false
+        },
+        {
+          "name": "Tena Lukas",
+          "seed": "WC",
+          "country": "CRO",
+          "bye": false
+        },
+        {
+          "name": "Darja Semenistaja",
+          "seed": "5",
+          "country": "LAT",
+          "bye": false
+        },
+        {
+          "name": "Leolia Jeanjean",
+          "seed": "8",
+          "country": "FRA",
+          "bye": false
+        },
+        {
+          "name": "Kajsa Rinaldo Persson",
+          "seed": null,
+          "country": "SWE",
+          "bye": false
+        },
+        {
+          "name": "Miriam Bianca Bulgaru",
+          "seed": null,
+          "country": "ROU",
+          "bye": false
+        },
+        {
+          "name": "Noma Noha Akugue",
+          "seed": null,
+          "country": "GER",
+          "bye": false
+        },
+        {
+          "name": "Lola Radivojevic",
+          "seed": null,
+          "country": "SRB",
+          "bye": false
+        },
+        {
+          "name": "Mia Ristic",
+          "seed": null,
+          "country": "SRB",
+          "bye": false
+        },
+        {
+          "name": "Sara Sorribes Tormo",
+          "seed": null,
+          "country": "ESP",
+          "bye": false
+        },
+        {
+          "name": "Victoria Jimenez Kasintseva",
+          "seed": "4",
+          "country": "AND",
+          "bye": false
+        },
+        {
+          "name": "Maria Timofeeva",
+          "seed": "7",
+          "country": "UZB",
+          "bye": false
+        },
+        {
+          "name": "Qualifier2",
+          "seed": null,
+          "country": null,
+          "bye": false
+        },
+        {
+          "name": "Robin Montgomery",
+          "seed": null,
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Qualifier3",
+          "seed": null,
+          "country": null,
+          "bye": false
+        },
+        {
+          "name": "Lucie Havlickova",
+          "seed": null,
+          "country": "CZE",
+          "bye": false
+        },
+        {
+          "name": "Qualifier4",
+          "seed": null,
+          "country": null,
+          "bye": false
+        },
+        {
+          "name": "Katarzyna Kawa",
+          "seed": null,
+          "country": "POL",
+          "bye": false
+        },
+        {
+          "name": "Maya Joint",
+          "seed": "2",
+          "country": "AUS",
+          "bye": false
+        }
+      ],
+      "r1_matches": [
+        {
+          "a": "Barbora Palicova",
+          "b": "Lucija Ciric Bagaric",
+          "a_seed": "WC",
+          "b_seed": null,
+          "h2h": "0-1"
+        },
+        {
+          "a": "Tamara Zidansek",
+          "b": "Polona Hercog",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "3-0"
+        },
+        {
+          "a": "Ana Konjuh",
+          "b": "Dominika Salkova",
+          "a_seed": "WC",
+          "b_seed": "6",
+          "h2h": "0-1"
+        },
+        {
+          "a": "Simona Waltert",
+          "b": "Teodora Kostovic",
+          "a_seed": "3",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Andrea Lazaro Garcia",
+          "b": "Laura Samson",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "0-1"
+        },
+        {
+          "a": "Rebecca Sramkova",
+          "b": "Tara Wurth",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Tena Lukas",
+          "b": "Darja Semenistaja",
+          "a_seed": "WC",
+          "b_seed": "5",
+          "h2h": "0-2"
+        },
+        {
+          "a": "Leolia Jeanjean",
+          "b": "Kajsa Rinaldo Persson",
+          "a_seed": "8",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Miriam Bianca Bulgaru",
+          "b": "Noma Noha Akugue",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "1-0"
+        },
+        {
+          "a": "Lola Radivojevic",
+          "b": "Mia Ristic",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "1-0"
+        },
+        {
+          "a": "Sara Sorribes Tormo",
+          "b": "Victoria Jimenez Kasintseva",
+          "a_seed": "4",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Katarzyna Kawa",
+          "b": "Maya Joint",
+          "a_seed": "2",
+          "b_seed": null,
+          "h2h": null
+        }
+      ],
+      "completed": []
     }
   ]
 }
