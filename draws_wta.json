@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-02T09:16:34Z",
+  "fetched_at": "2026-06-02T14:15:50Z",
   "events": [
     {
       "slug": "2026WTABirmingham125",
@@ -205,20 +205,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Alexandra Eala",
-          "b": "Priscilla Hon",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": "1-1"
-        },
-        {
-          "a": "Greet Minnen",
-          "b": "Alina Charaeva",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Kayla Day",
           "b": "Hanne Vandewinkel",
           "a_seed": "6",
@@ -233,31 +219,10 @@
           "h2h": "2-0"
         },
         {
-          "a": "Rebeka Masarova",
-          "b": "Tereza Martincova",
-          "a_seed": "Q",
-          "b_seed": "Q",
-          "h2h": null
-        },
-        {
           "a": "Celine Naef",
           "b": "Maddison Inglis",
           "a_seed": "LL",
           "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Mary Stoiana",
-          "b": "Lulu Sun",
-          "a_seed": "8",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Nikola Bartunkova",
-          "b": "Harriet Dart",
-          "a_seed": "5",
-          "b_seed": "WC",
           "h2h": null
         },
         {
@@ -266,13 +231,6 @@
           "a_seed": "LL",
           "b_seed": null,
           "h2h": "0-1"
-        },
-        {
-          "a": "Mika Stojsavljevic",
-          "b": "Emerson Jones",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
         },
         {
           "a": "Ajla Tomljanovic",
@@ -301,14 +259,64 @@
           "a_seed": "Q",
           "b_seed": "2",
           "h2h": "1-0"
+        },
+        {
+          "a": "Alexandra Eala",
+          "b": "Alina Charaeva",
+          "a_seed": "1",
+          "b_seed": null,
+          "h2h": "1-1"
+        },
+        {
+          "a": "Mika Stojsavljevic",
+          "b": "Elvina Kalieva",
+          "a_seed": "WC",
+          "b_seed": null,
+          "h2h": null
         }
       ],
       "completed": [
         {
           "round": "R1",
+          "winner": "Alexandra Eala",
+          "loser": "Priscilla Hon",
+          "score": "60 62"
+        },
+        {
+          "round": "R1",
+          "winner": "Alina Charaeva",
+          "loser": "Greet Minnen",
+          "score": "63 61"
+        },
+        {
+          "round": "R1",
           "winner": "Mananchaya Sawangkaew",
           "loser": "Linda Klimovicova",
           "score": "64 75"
+        },
+        {
+          "round": "R1",
+          "winner": "Rebeka Masarova",
+          "loser": "Tereza Martincova",
+          "score": "67(6) 61 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Mary Stoiana",
+          "loser": "Lulu Sun",
+          "score": "46 76(8) 62"
+        },
+        {
+          "round": "R1",
+          "winner": "Nikola Bartunkova",
+          "loser": "Harriet Dart",
+          "score": "36 63 75"
+        },
+        {
+          "round": "R1",
+          "winner": "Mika Stojsavljevic",
+          "loser": "Emerson Jones",
+          "score": "36 61 75"
         },
         {
           "round": "R1",
@@ -564,13 +572,6 @@
           "h2h": null
         },
         {
-          "a": "Alice Tubello",
-          "b": "Carole Monnet",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Tatiana Prozorova",
           "b": "Nuria Brancaccio",
           "a_seed": "5",
@@ -583,13 +584,6 @@
           "a_seed": "WC",
           "b_seed": null,
           "h2h": "0-1"
-        },
-        {
-          "a": "Despina Papamichail",
-          "b": "Chloe Paquet",
-          "a_seed": "6",
-          "b_seed": null,
-          "h2h": "1-1"
         },
         {
           "a": "Andreea Prisacariu",
@@ -616,6 +610,12 @@
       "completed": [
         {
           "round": "R1",
+          "winner": "Carole Monnet",
+          "loser": "Alice Tubello",
+          "score": "63 62"
+        },
+        {
+          "round": "R1",
           "winner": "Varvara Lepchenko",
           "loser": "Iryna Shymanovich",
           "score": "57 63 61"
@@ -631,6 +631,12 @@
           "winner": "Sofia Costoulas",
           "loser": "Sapfo Sakellaridi",
           "score": "64 26 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Chloe Paquet",
+          "loser": "Despina Papamichail",
+          "score": "75 63"
         },
         {
           "round": "R1",
