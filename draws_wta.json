@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-02T18:48:17Z",
+  "fetched_at": "2026-06-02T21:55:24Z",
   "events": [
     {
       "slug": "2026WTABirmingham125",
@@ -219,13 +219,6 @@
           "h2h": null
         },
         {
-          "a": "Gabriela Andrea Knutson",
-          "b": "Joanna Garland",
-          "a_seed": "LL",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
           "a": "Ajla Tomljanovic",
           "b": "Katie Swan",
           "a_seed": "7",
@@ -259,6 +252,13 @@
           "a_seed": "Q",
           "b_seed": null,
           "h2h": null
+        },
+        {
+          "a": "Nikola Bartunkova",
+          "b": "Gabriela Andrea Knutson",
+          "a_seed": "5",
+          "b_seed": "LL",
+          "h2h": "0-1"
         },
         {
           "a": "Mika Stojsavljevic",
@@ -310,6 +310,12 @@
           "winner": "Nikola Bartunkova",
           "loser": "Harriet Dart",
           "score": "36 63 75"
+        },
+        {
+          "round": "R1",
+          "winner": "Gabriela Andrea Knutson",
+          "loser": "Joanna Garland",
+          "score": "76(6) 63"
         },
         {
           "round": "R1",
@@ -542,13 +548,6 @@
           "h2h": null
         },
         {
-          "a": "Vittoria Paganetti",
-          "b": "Lucia Bronzetti",
-          "a_seed": "WC",
-          "b_seed": "8",
-          "h2h": null
-        },
-        {
           "a": "Mayar Sherif",
           "b": "Georgia Pedone",
           "a_seed": "1",
@@ -610,6 +609,12 @@
           "winner": "Georgia Pedone",
           "loser": "Ekaterine Gorgodze",
           "score": "63 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Lucia Bronzetti",
+          "loser": "Vittoria Paganetti",
+          "score": "61 60"
         },
         {
           "round": "R1",
@@ -903,13 +908,6 @@
           "h2h": "0-1"
         },
         {
-          "a": "Tamara Zidansek",
-          "b": "Elina Avanesyan",
-          "a_seed": "LL",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Andrea Lazaro Garcia",
           "b": "Laura Samson",
           "a_seed": null,
@@ -936,13 +934,6 @@
           "a_seed": null,
           "b_seed": null,
           "h2h": "1-0"
-        },
-        {
-          "a": "Sara Sorribes Tormo",
-          "b": "Victoria Jimenez Kasintseva",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": null
         },
         {
           "a": "Maria Timofeeva",
@@ -973,6 +964,13 @@
           "h2h": null
         },
         {
+          "a": "Elina Avanesyan",
+          "b": "Dominika Salkova",
+          "a_seed": "LL",
+          "b_seed": "6",
+          "h2h": "1-0"
+        },
+        {
           "a": "Kajsa Rinaldo Persson",
           "b": "Noma Noha Akugue",
           "a_seed": null,
@@ -981,6 +979,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R1",
+          "winner": "Elina Avanesyan",
+          "loser": "Tamara Zidansek",
+          "score": "75 46 63"
+        },
         {
           "round": "R1",
           "winner": "Dominika Salkova",
@@ -1004,6 +1008,12 @@
           "winner": "Noma Noha Akugue",
           "loser": "Miriam Bianca Bulgaru",
           "score": "76(3) 75"
+        },
+        {
+          "round": "R1",
+          "winner": "Sara Sorribes Tormo",
+          "loser": "Victoria Jimenez Kasintseva",
+          "score": "61 61"
         }
       ]
     }

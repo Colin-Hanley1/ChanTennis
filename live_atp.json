@@ -1,11 +1,17 @@
 {
-  "fetched_at": "2026-06-02T19:35:58Z",
+  "fetched_at": "2026-06-02T21:55:21Z",
   "source": "espn",
   "matches": [
     {
       "winner": "Alexander Zverev",
       "loser": "Rafael Jodar",
       "score": "7-6 6-1 6-3",
+      "round": "Quarterfinal"
+    },
+    {
+      "winner": "Jakub Mensik",
+      "loser": "Joao Fonseca",
+      "score": "6-4 6-3 7-6",
       "round": "Quarterfinal"
     },
     {
