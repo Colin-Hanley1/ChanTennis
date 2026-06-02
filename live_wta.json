@@ -1,7 +1,13 @@
 {
-  "fetched_at": "2026-06-02T09:16:32Z",
+  "fetched_at": "2026-06-02T11:41:21Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Mirra Andreeva",
+      "loser": "Sorana Cirstea",
+      "score": "6-0 6-3",
+      "round": "Quarterfinal"
+    },
     {
       "winner": "Alina Korneeva",
       "loser": "Elisabetta Cocciaretto",
