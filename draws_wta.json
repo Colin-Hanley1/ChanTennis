@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-03T14:51:57Z",
+  "fetched_at": "2026-06-03T18:52:26Z",
   "events": [
     {
       "slug": "2026WTABirmingham125",
@@ -594,21 +594,26 @@
           "h2h": null
         },
         {
-          "a": "Tatiana Pieri",
-          "b": "Sofia Costoulas",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Chloe Paquet",
-          "b": "Nika Radisic",
-          "a_seed": "Q",
+          "b": "Darya Astakhova",
+          "a_seed": null,
           "b_seed": null,
-          "h2h": "1-0"
+          "h2h": "2-0"
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Tatiana Pieri",
+          "loser": "Sofia Costoulas",
+          "score": ""
+        },
+        {
+          "round": "R2",
+          "winner": "Chloe Paquet",
+          "loser": "Nika Radisic",
+          "score": "63 63"
+        },
         {
           "round": "R2",
           "winner": "Darya Astakhova",
