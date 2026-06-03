@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-03T18:52:26Z",
+  "fetched_at": "2026-06-03T21:55:58Z",
   "events": [
     {
       "slug": "2026WTABirmingham125",
@@ -205,13 +205,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Ajla Tomljanovic",
-          "b": "Katie Swan",
-          "a_seed": "7",
-          "b_seed": "WC",
-          "h2h": null
-        },
-        {
           "a": "Taylah Preston",
           "b": "Alicia Dudeney",
           "a_seed": "WC",
@@ -340,6 +333,12 @@
           "winner": "Elvina Kalieva",
           "loser": "Talia Gibson",
           "score": "75 26 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Katie Swan",
+          "loser": "Ajla Tomljanovic",
+          "score": ""
         },
         {
           "round": "R1",
@@ -587,10 +586,10 @@
           "h2h": "0-1"
         },
         {
-          "a": "Varvara Lepchenko",
-          "b": "Tyra Caterina Grant",
-          "a_seed": "7",
-          "b_seed": "WC",
+          "a": "Tyra Caterina Grant",
+          "b": "Tatiana Pieri",
+          "a_seed": "WC",
+          "b_seed": null,
           "h2h": null
         },
         {
@@ -602,6 +601,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Tyra Caterina Grant",
+          "loser": "Varvara Lepchenko",
+          "score": "76(3) 26 62"
+        },
         {
           "round": "R2",
           "winner": "Tatiana Pieri",
