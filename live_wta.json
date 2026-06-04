@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-04T13:45:45Z",
+  "fetched_at": "2026-06-04T16:26:13Z",
   "source": "espn",
   "matches": [
     {
@@ -721,6 +721,12 @@
       "loser": "Wang Xiyu",
       "score": "6-3 7-6",
       "round": "Round 4"
+    },
+    {
+      "winner": "Mirra Andreeva",
+      "loser": "Marta Kostyuk",
+      "score": "6-1 6-3",
+      "round": "Semifinal"
     }
   ]
 }

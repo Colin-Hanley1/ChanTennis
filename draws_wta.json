@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-04T12:09:23Z",
+  "fetched_at": "2026-06-04T16:26:15Z",
   "events": [
     {
       "slug": "2026WTABirmingham125",
@@ -205,41 +205,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Taylah Preston",
-          "b": "Alicia Dudeney",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Alexandra Eala",
-          "b": "Alina Charaeva",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": "1-1"
-        },
-        {
-          "a": "Mananchaya Sawangkaew",
-          "b": "Kayla Day",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Tatjana Maria",
-          "b": "Rebeka Masarova",
-          "a_seed": "3",
-          "b_seed": "Q",
-          "h2h": null
-        },
-        {
-          "a": "Celine Naef",
-          "b": "Mary Stoiana",
-          "a_seed": "LL",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Nikola Bartunkova",
           "b": "Gabriela Andrea Knutson",
           "a_seed": "5",
@@ -247,21 +212,64 @@
           "h2h": "0-1"
         },
         {
-          "a": "Mika Stojsavljevic",
-          "b": "Elvina Kalieva",
+          "a": "Katie Swan",
+          "b": "Taylah Preston",
           "a_seed": "WC",
           "b_seed": null,
-          "h2h": null
+          "h2h": "2-1"
         },
         {
-          "a": "Ashlyn Krueger",
-          "b": "Janice Tjen",
+          "a": "Alexandra Eala",
+          "b": "Mananchaya Sawangkaew",
+          "a_seed": "1",
+          "b_seed": "Q",
+          "h2h": "0-1"
+        },
+        {
+          "a": "Rebeka Masarova",
+          "b": "Mary Stoiana",
           "a_seed": "Q",
-          "b_seed": "2",
+          "b_seed": null,
           "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Alexandra Eala",
+          "loser": "Alina Charaeva",
+          "score": "62 75"
+        },
+        {
+          "round": "R2",
+          "winner": "Mananchaya Sawangkaew",
+          "loser": "Kayla Day",
+          "score": "64 61"
+        },
+        {
+          "round": "R2",
+          "winner": "Rebeka Masarova",
+          "loser": "Tatjana Maria",
+          "score": "64 63"
+        },
+        {
+          "round": "R2",
+          "winner": "Mary Stoiana",
+          "loser": "Celine Naef",
+          "score": "75 26 76(5)"
+        },
+        {
+          "round": "R2",
+          "winner": "Mika Stojsavljevic",
+          "loser": "Elvina Kalieva",
+          "score": "64 67(2) 62"
+        },
+        {
+          "round": "R2",
+          "winner": "Ashlyn Krueger",
+          "loser": "Janice Tjen",
+          "score": "61 63"
+        },
         {
           "round": "R1",
           "winner": "Alexandra Eala",
@@ -339,6 +347,12 @@
           "winner": "Katie Swan",
           "loser": "Ajla Tomljanovic",
           "score": ""
+        },
+        {
+          "round": "R1",
+          "winner": "Taylah Preston",
+          "loser": "Alicia Dudeney",
+          "score": "64 67(4) 63"
         },
         {
           "round": "R1",
@@ -573,17 +587,10 @@
         },
         {
           "a": "Leyre Romero Gormaz",
-          "b": "Viola Turini",
+          "b": "Carole Monnet",
           "a_seed": "4",
-          "b_seed": "Q",
-          "h2h": null
-        },
-        {
-          "a": "Carole Monnet",
-          "b": "Tatiana Prozorova",
-          "a_seed": null,
           "b_seed": null,
-          "h2h": "0-1"
+          "h2h": "1-3"
         },
         {
           "a": "Tyra Caterina Grant",
@@ -601,6 +608,18 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Leyre Romero Gormaz",
+          "loser": "Viola Turini",
+          "score": "64 64"
+        },
+        {
+          "round": "R2",
+          "winner": "Carole Monnet",
+          "loser": "Tatiana Prozorova",
+          "score": "16 64 63"
+        },
         {
           "round": "R2",
           "winner": "Tyra Caterina Grant",
@@ -927,20 +946,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Rebecca Sramkova",
-          "b": "Akasha Urhobo",
-          "a_seed": "LL",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Tena Lukas",
-          "b": "Darja Semenistaja",
-          "a_seed": "WC",
-          "b_seed": "5",
-          "h2h": "0-2"
-        },
-        {
           "a": "Maria Timofeeva",
           "b": "Erika Andreeva",
           "a_seed": "7",
@@ -950,13 +955,6 @@
         {
           "a": "Robin Montgomery",
           "b": "Lea Boskovic",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Lucie Havlickova",
-          "b": "Yasmine Kabbaj",
           "a_seed": "Q",
           "b_seed": null,
           "h2h": null
@@ -983,6 +981,13 @@
           "h2h": "0-2"
         },
         {
+          "a": "Akasha Urhobo",
+          "b": "Darja Semenistaja",
+          "a_seed": "LL",
+          "b_seed": "5",
+          "h2h": null
+        },
+        {
           "a": "Kajsa Rinaldo Persson",
           "b": "Noma Noha Akugue",
           "a_seed": null,
@@ -990,14 +995,20 @@
           "h2h": null
         },
         {
-          "a": "Lola Radivojevic",
-          "b": "Sara Sorribes Tormo",
-          "a_seed": null,
-          "b_seed": null,
+          "a": "Yasmine Kabbaj",
+          "b": "Maya Joint",
+          "a_seed": "Q",
+          "b_seed": "2",
           "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Sara Sorribes Tormo",
+          "loser": "Lola Radivojevic",
+          "score": "62 64"
+        },
         {
           "round": "R1",
           "winner": "Petra Marcinko",
@@ -1036,6 +1047,18 @@
         },
         {
           "round": "R1",
+          "winner": "Akasha Urhobo",
+          "loser": "Rebecca Sramkova",
+          "score": "36 63 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Darja Semenistaja",
+          "loser": "Tena Lukas",
+          "score": "63 57 76(5)"
+        },
+        {
+          "round": "R1",
           "winner": "Kajsa Rinaldo Persson",
           "loser": "Leolia Jeanjean",
           "score": "61 46 63"
@@ -1057,6 +1080,12 @@
           "winner": "Sara Sorribes Tormo",
           "loser": "Victoria Jimenez Kasintseva",
           "score": "61 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Yasmine Kabbaj",
+          "loser": "Lucie Havlickova",
+          "score": "76(5) 75"
         },
         {
           "round": "R1",
