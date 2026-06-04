@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-04T16:42:17Z",
+  "fetched_at": "2026-06-04T19:05:24Z",
   "source": "espn",
   "matches": [
     {
@@ -721,6 +721,12 @@
       "loser": "Wang Xiyu",
       "score": "6-3 7-6",
       "round": "Round 4"
+    },
+    {
+      "winner": "Maja Chwalinska",
+      "loser": "Diana Shnaider",
+      "score": "7-6 6-4",
+      "round": "Semifinal"
     },
     {
       "winner": "Mirra Andreeva",
