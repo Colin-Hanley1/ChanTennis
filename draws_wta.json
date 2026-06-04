@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-04T08:56:13Z",
+  "fetched_at": "2026-06-04T12:09:23Z",
   "events": [
     {
       "slug": "2026WTABirmingham125",
@@ -811,9 +811,9 @@
           "bye": false
         },
         {
-          "name": "Tara Wurth",
-          "seed": null,
-          "country": "CRO",
+          "name": "Akasha Urhobo",
+          "seed": "LL",
+          "country": "USA",
           "bye": false
         },
         {
@@ -927,16 +927,9 @@
       ],
       "r1_matches": [
         {
-          "a": "Petra Marcinko",
-          "b": "Caijsa Wilda Hennemann",
-          "a_seed": "1",
-          "b_seed": "Q",
-          "h2h": "0-1"
-        },
-        {
           "a": "Rebecca Sramkova",
-          "b": "Tara Wurth",
-          "a_seed": null,
+          "b": "Akasha Urhobo",
+          "a_seed": "LL",
           "b_seed": null,
           "h2h": null
         },
@@ -946,13 +939,6 @@
           "a_seed": "WC",
           "b_seed": "5",
           "h2h": "0-2"
-        },
-        {
-          "a": "Lola Radivojevic",
-          "b": "Mia Ristic",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-0"
         },
         {
           "a": "Maria Timofeeva",
@@ -976,11 +962,11 @@
           "h2h": null
         },
         {
-          "a": "Katarzyna Kawa",
-          "b": "Maya Joint",
-          "a_seed": "2",
+          "a": "Petra Marcinko",
+          "b": "Barbora Palicova",
+          "a_seed": "1",
           "b_seed": null,
-          "h2h": null
+          "h2h": "0-1"
         },
         {
           "a": "Elina Avanesyan",
@@ -1002,9 +988,22 @@
           "a_seed": null,
           "b_seed": null,
           "h2h": null
+        },
+        {
+          "a": "Lola Radivojevic",
+          "b": "Sara Sorribes Tormo",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "R1",
+          "winner": "Petra Marcinko",
+          "loser": "Caijsa Wilda Hennemann",
+          "score": "61 60"
+        },
         {
           "round": "R1",
           "winner": "Barbora Palicova",
@@ -1049,9 +1048,21 @@
         },
         {
           "round": "R1",
+          "winner": "Lola Radivojevic",
+          "loser": "Mia Ristic",
+          "score": "76(4) 06 75"
+        },
+        {
+          "round": "R1",
           "winner": "Sara Sorribes Tormo",
           "loser": "Victoria Jimenez Kasintseva",
           "score": "61 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Maya Joint",
+          "loser": "Katarzyna Kawa",
+          "score": "75 61"
         }
       ]
     }
