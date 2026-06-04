@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-04T21:51:58Z",
+  "fetched_at": "2026-06-04T23:16:05Z",
   "events": [
     {
       "slug": "2026WTABirmingham125",
@@ -963,18 +963,18 @@
       ],
       "r1_matches": [
         {
-          "a": "Akasha Urhobo",
-          "b": "Darja Semenistaja",
-          "a_seed": "LL",
-          "b_seed": "5",
-          "h2h": null
-        },
-        {
           "a": "Barbora Palicova",
           "b": "Elina Avanesyan",
           "a_seed": "LL",
           "b_seed": null,
           "h2h": null
+        },
+        {
+          "a": "Andrea Lazaro Garcia",
+          "b": "Darja Semenistaja",
+          "a_seed": "5",
+          "b_seed": null,
+          "h2h": "1-1"
         },
         {
           "a": "Noma Noha Akugue",
@@ -1009,6 +1009,12 @@
           "winner": "Andrea Lazaro Garcia",
           "loser": "Simona Waltert",
           "score": "64 63"
+        },
+        {
+          "round": "R2",
+          "winner": "Darja Semenistaja",
+          "loser": "Akasha Urhobo",
+          "score": "64 64"
         },
         {
           "round": "R2",
