@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-04T19:28:04Z",
+  "fetched_at": "2026-06-04T21:51:58Z",
   "events": [
     {
       "slug": "2026WTABirmingham125",
@@ -584,10 +584,10 @@
       ],
       "r1_matches": [
         {
-          "a": "Laura Mair",
+          "a": "Georgia Pedone",
           "b": "Lucia Bronzetti",
-          "a_seed": "WC",
-          "b_seed": "8",
+          "a_seed": "8",
+          "b_seed": null,
           "h2h": null
         },
         {
@@ -618,6 +618,12 @@
           "winner": "Georgia Pedone",
           "loser": "Mayar Sherif",
           "score": "26 64 63"
+        },
+        {
+          "round": "R2",
+          "winner": "Lucia Bronzetti",
+          "loser": "Laura Mair",
+          "score": "62 61"
         },
         {
           "round": "R2",
@@ -957,20 +963,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Petra Marcinko",
-          "b": "Barbora Palicova",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
-          "a": "Elina Avanesyan",
-          "b": "Dominika Salkova",
-          "a_seed": "LL",
-          "b_seed": "6",
-          "h2h": "1-0"
-        },
-        {
           "a": "Akasha Urhobo",
           "b": "Darja Semenistaja",
           "a_seed": "LL",
@@ -978,21 +970,40 @@
           "h2h": null
         },
         {
-          "a": "Kajsa Rinaldo Persson",
-          "b": "Noma Noha Akugue",
+          "a": "Barbora Palicova",
+          "b": "Elina Avanesyan",
+          "a_seed": "LL",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Noma Noha Akugue",
+          "b": "Sara Sorribes Tormo",
           "a_seed": null,
           "b_seed": null,
           "h2h": null
         },
         {
           "a": "Maria Timofeeva",
-          "b": "Lea Boskovic",
+          "b": "Yasmine Kabbaj",
           "a_seed": "7",
           "b_seed": "Q",
-          "h2h": "0-1"
+          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Barbora Palicova",
+          "loser": "Petra Marcinko",
+          "score": "06 76(3) 64"
+        },
+        {
+          "round": "R2",
+          "winner": "Elina Avanesyan",
+          "loser": "Dominika Salkova",
+          "score": "36 76(5) 63"
+        },
         {
           "round": "R2",
           "winner": "Andrea Lazaro Garcia",
@@ -1001,9 +1012,21 @@
         },
         {
           "round": "R2",
+          "winner": "Noma Noha Akugue",
+          "loser": "Kajsa Rinaldo Persson",
+          "score": "62 75"
+        },
+        {
+          "round": "R2",
           "winner": "Sara Sorribes Tormo",
           "loser": "Lola Radivojevic",
           "score": "62 64"
+        },
+        {
+          "round": "R2",
+          "winner": "Maria Timofeeva",
+          "loser": "Lea Boskovic",
+          "score": "64 63"
         },
         {
           "round": "R2",
