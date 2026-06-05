@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-05T19:01:59Z",
+  "fetched_at": "2026-06-05T20:51:28Z",
   "events": [
     {
       "slug": "2026WTABirmingham125",
@@ -594,10 +594,10 @@
       ],
       "r1_matches": [
         {
-          "a": "Georgia Pedone",
-          "b": "Lucia Bronzetti",
+          "a": "Lucia Bronzetti",
+          "b": "Leyre Romero Gormaz",
           "a_seed": "8",
-          "b_seed": null,
+          "b_seed": "4",
           "h2h": null
         },
         {
@@ -609,6 +609,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Lucia Bronzetti",
+          "loser": "Georgia Pedone",
+          "score": "62 64"
+        },
         {
           "round": "QF",
           "winner": "Leyre Romero Gormaz",
@@ -977,18 +983,18 @@
       ],
       "r1_matches": [
         {
-          "a": "Noma Noha Akugue",
-          "b": "Sara Sorribes Tormo",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Elina Avanesyan",
           "b": "Darja Semenistaja",
           "a_seed": "LL",
           "b_seed": "5",
           "h2h": null
+        },
+        {
+          "a": "Sara Sorribes Tormo",
+          "b": "Maria Timofeeva",
+          "a_seed": "7",
+          "b_seed": null,
+          "h2h": "1-0"
         }
       ],
       "completed": [
@@ -1003,6 +1009,12 @@
           "winner": "Darja Semenistaja",
           "loser": "Andrea Lazaro Garcia",
           "score": "76(4) 36 76(5)"
+        },
+        {
+          "round": "QF",
+          "winner": "Sara Sorribes Tormo",
+          "loser": "Noma Noha Akugue",
+          "score": "60 64"
         },
         {
           "round": "QF",
