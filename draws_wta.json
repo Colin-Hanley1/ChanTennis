@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-05T12:16:52Z",
+  "fetched_at": "2026-06-05T16:06:41Z",
   "events": [
     {
       "slug": "2026WTABirmingham125",
@@ -212,13 +212,6 @@
           "h2h": "0-1"
         },
         {
-          "a": "Rebeka Masarova",
-          "b": "Mary Stoiana",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Nikola Bartunkova",
           "b": "Mika Stojsavljevic",
           "a_seed": "5",
@@ -227,6 +220,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Rebeka Masarova",
+          "loser": "Mary Stoiana",
+          "score": "64 36 60"
+        },
         {
           "round": "QF",
           "winner": "Ashlyn Krueger",
@@ -602,16 +601,15 @@
           "a_seed": "WC",
           "b_seed": null,
           "h2h": null
-        },
-        {
-          "a": "Chloe Paquet",
-          "b": "Darya Astakhova",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "2-0"
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Darya Astakhova",
+          "loser": "Chloe Paquet",
+          "score": "75 63"
+        },
         {
           "round": "R2",
           "winner": "Georgia Pedone",
