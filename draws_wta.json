@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-05T08:49:44Z",
+  "fetched_at": "2026-06-05T12:16:52Z",
   "events": [
     {
       "slug": "2026WTABirmingham125",
@@ -224,16 +224,15 @@
           "a_seed": "5",
           "b_seed": "WC",
           "h2h": null
-        },
-        {
-          "a": "Taylah Preston",
-          "b": "Ashlyn Krueger",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Ashlyn Krueger",
+          "loser": "Taylah Preston",
+          "score": "26 63 64"
+        },
         {
           "round": "R2",
           "winner": "Alexandra Eala",
