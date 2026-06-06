@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-06T18:14:24Z",
+  "fetched_at": "2026-06-06T20:16:39Z",
   "events": [
     {
       "slug": "2026WTABirmingham125",
@@ -604,15 +604,16 @@
           "a_seed": "8",
           "b_seed": "4",
           "h2h": null
+        },
+        {
+          "a": "Tyra Caterina Grant",
+          "b": "Darya Astakhova",
+          "a_seed": "WC",
+          "b_seed": null,
+          "h2h": null
         }
       ],
       "completed": [
-        {
-          "round": "SF",
-          "winner": "Tyra Caterina Grant",
-          "loser": "Darya Astakhova",
-          "score": "62 63"
-        },
         {
           "round": "QF",
           "winner": "Lucia Bronzetti",
@@ -987,21 +988,26 @@
       ],
       "r1_matches": [
         {
-          "a": "Elina Avanesyan",
-          "b": "Darja Semenistaja",
-          "a_seed": "LL",
-          "b_seed": "5",
-          "h2h": null
-        },
-        {
-          "a": "Sara Sorribes Tormo",
+          "a": "Darja Semenistaja",
           "b": "Maria Timofeeva",
-          "a_seed": "7",
-          "b_seed": null,
-          "h2h": "1-0"
+          "a_seed": "5",
+          "b_seed": "7",
+          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Darja Semenistaja",
+          "loser": "Elina Avanesyan",
+          "score": "61 62"
+        },
+        {
+          "round": "SF",
+          "winner": "Maria Timofeeva",
+          "loser": "Sara Sorribes Tormo",
+          "score": "62 75"
+        },
         {
           "round": "QF",
           "winner": "Elina Avanesyan",
