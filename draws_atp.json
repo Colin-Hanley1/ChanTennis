@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-07T20:19:52Z",
+  "fetched_at": "2026-06-07T22:12:45Z",
   "events": [
     {
       "slug": "2026ATPStuttgart",
@@ -38,9 +38,9 @@
           "bye": false
         },
         {
-          "name": "Qualifier1",
-          "seed": null,
-          "country": null,
+          "name": "Sho Shimabukuro",
+          "seed": "Q",
+          "country": "JPN",
           "bye": false
         },
         {
@@ -113,9 +113,9 @@
           "bye": false
         },
         {
-          "name": "Qualifier2",
-          "seed": null,
-          "country": null,
+          "name": "Gauthier Onclin",
+          "seed": "Q",
+          "country": "BEL",
           "bye": false
         },
         {
@@ -131,9 +131,9 @@
           "bye": false
         },
         {
-          "name": "Qualifier3",
-          "seed": null,
-          "country": null,
+          "name": "Alexis Galarneau",
+          "seed": "Q",
+          "country": "CAN",
           "bye": false
         },
         {
@@ -170,9 +170,9 @@
           "bye": false
         },
         {
-          "name": "Qualifier4",
-          "seed": null,
-          "country": null,
+          "name": "Pierre Hugues Herbert",
+          "seed": "Q",
+          "country": "FRA",
           "bye": false
         },
         {
@@ -193,39 +193,18 @@
       ],
       "r1_matches": [
         {
-          "a": "Mert Alkaya",
-          "b": "Pierre Hugues Herbert",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Sho Shimabukuro",
-          "b": "Jurij Rodionov",
-          "a_seed": "2",
-          "b_seed": "5",
-          "h2h": "0-2"
-        },
-        {
-          "a": "Marc Andrea Huesler",
-          "b": "Gauthier Onclin",
-          "a_seed": "7",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Roman Safiullin",
-          "b": "Alexis Galarneau",
-          "a_seed": "4",
-          "b_seed": "8",
-          "h2h": "1-0"
-        },
-        {
           "a": "Roberto Bautista Agut",
           "b": "Marcos Giron",
           "a_seed": null,
           "b_seed": null,
           "h2h": "3-0"
+        },
+        {
+          "a": "Quentin Halys",
+          "b": "Sho Shimabukuro",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": "1-0"
         },
         {
           "a": "Nick Kyrgios",
@@ -263,6 +242,20 @@
           "h2h": "0-1"
         },
         {
+          "a": "Gauthier Onclin",
+          "b": "Fabian Marozsan",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Jan Lennard Struff",
+          "b": "Alexis Galarneau",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
           "a": "Alejandro Davidovich Fokina",
           "b": "Mattia Bellucci",
           "a_seed": "7",
@@ -273,6 +266,13 @@
           "a": "Yannick Hanfmann",
           "b": "Aleksandar Kovacevic",
           "a_seed": null,
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Pierre Hugues Herbert",
+          "b": "Martin Landaluce",
+          "a_seed": "Q",
           "b_seed": null,
           "h2h": null
         }

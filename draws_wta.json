@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-07T20:19:52Z",
+  "fetched_at": "2026-06-07T22:12:45Z",
   "events": [
     {
       "slug": "2026WTABirmingham125",
@@ -595,16 +595,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Leyre Romero Gormaz",
-          "b": "Tyra Caterina Grant",
-          "a_seed": "4",
-          "b_seed": "WC",
-          "h2h": null
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Leyre Romero Gormaz",
+          "loser": "Tyra Caterina Grant",
+          "score": "75 06 62"
+        },
         {
           "round": "SF",
           "winner": "Leyre Romero Gormaz",
@@ -989,16 +987,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Darja Semenistaja",
-          "b": "Maria Timofeeva",
-          "a_seed": "5",
-          "b_seed": "7",
-          "h2h": null
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Maria Timofeeva",
+          "loser": "Darja Semenistaja",
+          "score": "62 63"
+        },
         {
           "round": "SF",
           "winner": "Darja Semenistaja",
@@ -1206,9 +1202,9 @@
           "bye": false
         },
         {
-          "name": "Qualifier1",
-          "seed": null,
-          "country": null,
+          "name": "Tatjana Maria",
+          "seed": "Q",
+          "country": "GER",
           "bye": false
         },
         {
@@ -1263,9 +1259,9 @@
           "bye": false
         },
         {
-          "name": "Qualifier2",
-          "seed": null,
-          "country": null,
+          "name": "Polina Kudermetova",
+          "seed": "Q",
+          "country": "UZB",
           "bye": false
         },
         {
@@ -1287,9 +1283,9 @@
           "bye": false
         },
         {
-          "name": "Qualifier3",
-          "seed": null,
-          "country": null,
+          "name": "Maddison Inglis",
+          "seed": "Q",
+          "country": "AUS",
           "bye": false
         },
         {
@@ -1299,9 +1295,9 @@
           "bye": false
         },
         {
-          "name": "Qualifier4",
-          "seed": null,
-          "country": null,
+          "name": "Anna Blinkova",
+          "seed": "Q",
+          "country": "RUS",
           "bye": false
         },
         {
@@ -1332,15 +1328,15 @@
           "bye": false
         },
         {
-          "name": "Qualifier5",
-          "seed": null,
-          "country": null,
+          "name": "Antonia Ruzic",
+          "seed": "Q",
+          "country": "CRO",
           "bye": false
         },
         {
-          "name": "Qualifier6",
-          "seed": null,
-          "country": null,
+          "name": "Shuai Zhang",
+          "seed": "Q",
+          "country": "CHN",
           "bye": false
         },
         {
@@ -1373,6 +1369,13 @@
       ],
       "r1_matches": [
         {
+          "a": "Maria Sakkari",
+          "b": "Tatjana Maria",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": "3-2"
+        },
+        {
           "a": "Qinwen Zheng",
           "b": "Jaqueline Cristian",
           "a_seed": null,
@@ -1394,10 +1397,31 @@
           "h2h": null
         },
         {
+          "a": "Marie Bouzkova",
+          "b": "Polina Kudermetova",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
           "a": "Mika Stojsavljevic",
           "b": "Marta Kostyuk",
           "a_seed": "WC",
           "b_seed": "5",
+          "h2h": null
+        },
+        {
+          "a": "Sorana Cirstea",
+          "b": "Maddison Inglis",
+          "a_seed": "7",
+          "b_seed": "Q",
+          "h2h": null
+        },
+        {
+          "a": "Emma Raducanu",
+          "b": "Anna Blinkova",
+          "a_seed": "Q",
+          "b_seed": null,
           "h2h": null
         },
         {
@@ -1406,6 +1430,20 @@
           "a_seed": "WC",
           "b_seed": null,
           "h2h": "1-1"
+        },
+        {
+          "a": "Iva Jovic",
+          "b": "Antonia Ruzic",
+          "a_seed": "6",
+          "b_seed": "Q",
+          "h2h": null
+        },
+        {
+          "a": "Shuai Zhang",
+          "b": "Alexandra Eala",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
         },
         {
           "a": "Laura Siegemund",
