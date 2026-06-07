@@ -1,7 +1,13 @@
 {
-  "fetched_at": "2026-06-07T17:38:51Z",
+  "fetched_at": "2026-06-07T18:11:28Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Alexander Zverev",
+      "loser": "Flavio Cobolli",
+      "score": "6-1 4-6 6-4 6-7 6-1",
+      "round": "Final"
+    },
     {
       "winner": "Alexander Zverev",
       "loser": "Rafael Jodar",

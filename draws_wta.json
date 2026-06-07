@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-07T16:24:27Z",
+  "fetched_at": "2026-06-07T18:11:32Z",
   "events": [
     {
       "slug": "2026WTABirmingham125",
@@ -203,16 +203,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Alexandra Eala",
-          "b": "Nikola Bartunkova",
-          "a_seed": "1",
-          "b_seed": "5",
-          "h2h": null
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Alexandra Eala",
+          "loser": "Nikola Bartunkova",
+          "score": "57 63 75"
+        },
         {
           "round": "SF",
           "winner": "Alexandra Eala",
@@ -1375,25 +1373,11 @@
       ],
       "r1_matches": [
         {
-          "a": "Ekaterine Gorgodze",
+          "a": "Tatjana Maria",
           "b": "Kamilla Rakhimova",
-          "a_seed": "8",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Alina Charaeva",
-          "b": "Polina Kudermetova",
-          "a_seed": "11",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
-          "a": "Shuai Zhang",
-          "b": "Heather Watson",
-          "a_seed": "3",
-          "b_seed": "WC",
-          "h2h": "3-2"
+          "a_seed": "1",
+          "b_seed": "8",
+          "h2h": "1-1"
         },
         {
           "a": "Antonia Ruzic",
@@ -1408,13 +1392,6 @@
           "a_seed": null,
           "b_seed": null,
           "h2h": null
-        },
-        {
-          "a": "Donna Vekic",
-          "b": "Anna Blinkova",
-          "a_seed": "6",
-          "b_seed": "9",
-          "h2h": "1-1"
         },
         {
           "a": "Qinwen Zheng",
@@ -1665,31 +1642,10 @@
       ],
       "r1_matches": [
         {
-          "a": "Iryna Shymanovich",
-          "b": "Savannah Dada Mascoll",
-          "a_seed": "1",
-          "b_seed": "WC",
-          "h2h": null
-        },
-        {
-          "a": "Maria Kozyreva",
-          "b": "Clervie Ngounoue",
-          "a_seed": "8",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
           "a": "Kayla Cross",
           "b": "Megan Knight",
           "a_seed": "2",
           "b_seed": "WC",
-          "h2h": null
-        },
-        {
-          "a": "Vendula Valdmannova",
-          "b": "Sayaka Ishii",
-          "a_seed": "3",
-          "b_seed": null,
           "h2h": null
         },
         {
@@ -1698,6 +1654,13 @@
           "a_seed": "WC",
           "b_seed": "10",
           "h2h": null
+        },
+        {
+          "a": "Iryna Shymanovich",
+          "b": "Clervie Ngounoue",
+          "a_seed": "1",
+          "b_seed": "8",
+          "h2h": "1-1"
         },
         {
           "a": "Celine Naef",
