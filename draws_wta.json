@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-07T11:55:57Z",
+  "fetched_at": "2026-06-07T14:11:57Z",
   "events": [
     {
       "slug": "2026WTABirmingham125",
@@ -1389,34 +1389,6 @@
           "h2h": null
         },
         {
-          "a": "Priscilla Hon",
-          "b": "Polina Kudermetova",
-          "a_seed": "11",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
-          "a": "Shuai Zhang",
-          "b": "Hannah Klugman",
-          "a_seed": "3",
-          "b_seed": "WC",
-          "h2h": null
-        },
-        {
-          "a": "Heather Watson",
-          "b": "Beatriz Haddad Maia",
-          "a_seed": "WC",
-          "b_seed": "10",
-          "h2h": "0-2"
-        },
-        {
-          "a": "Antonia Ruzic",
-          "b": "Aoi Ito",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
           "a": "Storm Hunter",
           "b": "Aliaksandra Sasnovich",
           "a_seed": "12",
@@ -1436,6 +1408,20 @@
           "a_seed": "7",
           "b_seed": null,
           "h2h": "0-1"
+        },
+        {
+          "a": "Alina Charaeva",
+          "b": "Polina Kudermetova",
+          "a_seed": "11",
+          "b_seed": null,
+          "h2h": "0-1"
+        },
+        {
+          "a": "Shuai Zhang",
+          "b": "Heather Watson",
+          "a_seed": "3",
+          "b_seed": "WC",
+          "h2h": "3-2"
         },
         {
           "a": "Donna Vekic",
@@ -1735,25 +1721,11 @@
           "h2h": null
         },
         {
-          "a": "Celine Naef",
-          "b": "Hiroko Kuwata",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Katy Dunne",
           "b": "Momoko Kobori",
           "a_seed": "9",
           "b_seed": null,
           "h2h": "0-2"
-        },
-        {
-          "a": "Elena Pridankina",
-          "b": "Ella Mcdonald",
-          "a_seed": "5",
-          "b_seed": null,
-          "h2h": null
         },
         {
           "a": "Ranah Akua Stoiber",
@@ -1764,17 +1736,10 @@
         },
         {
           "a": "Harmony Tan",
-          "b": "Amelia Rajecki",
-          "a_seed": "6",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Tegan Bush",
           "b": "Emily Appleton",
-          "a_seed": "11",
-          "b_seed": null,
-          "h2h": null
+          "a_seed": "6",
+          "b_seed": "11",
+          "h2h": "1-0"
         },
         {
           "a": "Viktorija Golubic",
