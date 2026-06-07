@@ -1,4 +1,283 @@
 {
-  "fetched_at": "2026-06-07T09:29:30Z",
-  "events": []
+  "fetched_at": "2026-06-07T10:23:54Z",
+  "events": [
+    {
+      "slug": "2026ATPStuttgart",
+      "name": "Stuttgart",
+      "year": 2026,
+      "tour": "atp",
+      "surface": "grass",
+      "best_of": 3,
+      "url": "https://www.tennisabstract.com/current/2026ATPStuttgart.html",
+      "bracket_slots": [
+        {
+          "name": "Ben Shelton",
+          "seed": "1",
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Roberto Bautista Agut",
+          "seed": null,
+          "country": "ESP",
+          "bye": false
+        },
+        {
+          "name": "Marcos Giron",
+          "seed": null,
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Quentin Halys",
+          "seed": null,
+          "country": "FRA",
+          "bye": false
+        },
+        {
+          "name": "Qualifier1",
+          "seed": null,
+          "country": null,
+          "bye": false
+        },
+        {
+          "name": "Nick Kyrgios",
+          "seed": "WC",
+          "country": "AUS",
+          "bye": false
+        },
+        {
+          "name": "Corentin Moutet",
+          "seed": "8",
+          "country": "FRA",
+          "bye": false
+        },
+        {
+          "name": "Jiri Lehecka",
+          "seed": "4",
+          "country": "CZE",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Diego Dedura Palomero",
+          "seed": "WC",
+          "country": "GER",
+          "bye": false
+        },
+        {
+          "name": "James Duckworth",
+          "seed": null,
+          "country": "AUS",
+          "bye": false
+        },
+        {
+          "name": "Tom Gentzsch",
+          "seed": "WC",
+          "country": "GER",
+          "bye": false
+        },
+        {
+          "name": "Rinky Hijikata",
+          "seed": null,
+          "country": "AUS",
+          "bye": false
+        },
+        {
+          "name": "Daniel Altmaier",
+          "seed": null,
+          "country": "GER",
+          "bye": false
+        },
+        {
+          "name": "Frances Tiafoe",
+          "seed": "6",
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Tommy Paul",
+          "seed": "5",
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Giovanni Mpetshi Perricard",
+          "seed": null,
+          "country": "FRA",
+          "bye": false
+        },
+        {
+          "name": "Qualifier2",
+          "seed": null,
+          "country": null,
+          "bye": false
+        },
+        {
+          "name": "Fabian Marozsan",
+          "seed": null,
+          "country": "HUN",
+          "bye": false
+        },
+        {
+          "name": "Jan Lennard Struff",
+          "seed": null,
+          "country": "GER",
+          "bye": false
+        },
+        {
+          "name": "Qualifier3",
+          "seed": null,
+          "country": null,
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Alexander Bublik",
+          "seed": "3",
+          "country": "KAZ",
+          "bye": false
+        },
+        {
+          "name": "Alejandro Davidovich Fokina",
+          "seed": "7",
+          "country": "ESP",
+          "bye": false
+        },
+        {
+          "name": "Mattia Bellucci",
+          "seed": null,
+          "country": "ITA",
+          "bye": false
+        },
+        {
+          "name": "Yannick Hanfmann",
+          "seed": null,
+          "country": "GER",
+          "bye": false
+        },
+        {
+          "name": "Aleksandar Kovacevic",
+          "seed": null,
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Qualifier4",
+          "seed": null,
+          "country": null,
+          "bye": false
+        },
+        {
+          "name": "Martin Landaluce",
+          "seed": null,
+          "country": "ESP",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Taylor Fritz",
+          "seed": "2",
+          "country": "USA",
+          "bye": false
+        }
+      ],
+      "r1_matches": [
+        {
+          "a": "Mert Alkaya",
+          "b": "Pierre Hugues Herbert",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Sho Shimabukuro",
+          "b": "Jurij Rodionov",
+          "a_seed": "2",
+          "b_seed": "5",
+          "h2h": "0-2"
+        },
+        {
+          "a": "Marc Andrea Huesler",
+          "b": "Gauthier Onclin",
+          "a_seed": "7",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Roman Safiullin",
+          "b": "Alexis Galarneau",
+          "a_seed": "4",
+          "b_seed": "8",
+          "h2h": "1-0"
+        },
+        {
+          "a": "Roberto Bautista Agut",
+          "b": "Marcos Giron",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "3-0"
+        },
+        {
+          "a": "Nick Kyrgios",
+          "b": "Corentin Moutet",
+          "a_seed": "WC",
+          "b_seed": "8",
+          "h2h": null
+        },
+        {
+          "a": "Diego Dedura Palomero",
+          "b": "James Duckworth",
+          "a_seed": "WC",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Tom Gentzsch",
+          "b": "Rinky Hijikata",
+          "a_seed": "WC",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Daniel Altmaier",
+          "b": "Frances Tiafoe",
+          "a_seed": "6",
+          "b_seed": null,
+          "h2h": "0-3"
+        },
+        {
+          "a": "Tommy Paul",
+          "b": "Giovanni Mpetshi Perricard",
+          "a_seed": "5",
+          "b_seed": null,
+          "h2h": "0-1"
+        },
+        {
+          "a": "Alejandro Davidovich Fokina",
+          "b": "Mattia Bellucci",
+          "a_seed": "7",
+          "b_seed": null,
+          "h2h": "1-1"
+        },
+        {
+          "a": "Yannick Hanfmann",
+          "b": "Aleksandar Kovacevic",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": null
+        }
+      ],
+      "completed": []
+    }
+  ]
 }
