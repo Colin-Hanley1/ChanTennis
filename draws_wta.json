@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-07T18:11:32Z",
+  "fetched_at": "2026-06-07T20:19:52Z",
   "events": [
     {
       "slug": "2026WTABirmingham125",
@@ -1373,27 +1373,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Tatjana Maria",
-          "b": "Kamilla Rakhimova",
-          "a_seed": "1",
-          "b_seed": "8",
-          "h2h": "1-1"
-        },
-        {
-          "a": "Antonia Ruzic",
-          "b": "Storm Hunter",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Hanyu Guo",
-          "b": "Maddison Inglis",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Qinwen Zheng",
           "b": "Jaqueline Cristian",
           "a_seed": null,
@@ -1642,13 +1621,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Kayla Cross",
-          "b": "Megan Knight",
-          "a_seed": "2",
-          "b_seed": "WC",
-          "h2h": null
-        },
-        {
           "a": "Edie Griffiths",
           "b": "Naiktha Bains",
           "a_seed": "WC",
@@ -1661,6 +1633,13 @@
           "a_seed": "1",
           "b_seed": "8",
           "h2h": "1-1"
+        },
+        {
+          "a": "Kayla Cross",
+          "b": "Tereza Martincova",
+          "a_seed": "2",
+          "b_seed": "7",
+          "h2h": null
         },
         {
           "a": "Celine Naef",
