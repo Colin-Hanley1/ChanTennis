@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-07T14:11:57Z",
+  "fetched_at": "2026-06-07T16:24:27Z",
   "events": [
     {
       "slug": "2026WTABirmingham125",
@@ -1375,39 +1375,11 @@
       ],
       "r1_matches": [
         {
-          "a": "Tatjana Maria",
-          "b": "Yuriko Miyazaki",
-          "a_seed": "1",
-          "b_seed": "WC",
-          "h2h": "1-1"
-        },
-        {
           "a": "Ekaterine Gorgodze",
           "b": "Kamilla Rakhimova",
           "a_seed": "8",
           "b_seed": null,
           "h2h": null
-        },
-        {
-          "a": "Storm Hunter",
-          "b": "Aliaksandra Sasnovich",
-          "a_seed": "12",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
-          "a": "Elsa Jacquemot",
-          "b": "Hanyu Guo",
-          "a_seed": "5",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Maddison Inglis",
-          "b": "Alycia Parks",
-          "a_seed": "7",
-          "b_seed": null,
-          "h2h": "0-1"
         },
         {
           "a": "Alina Charaeva",
@@ -1422,6 +1394,20 @@
           "a_seed": "3",
           "b_seed": "WC",
           "h2h": "3-2"
+        },
+        {
+          "a": "Antonia Ruzic",
+          "b": "Storm Hunter",
+          "a_seed": "4",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Hanyu Guo",
+          "b": "Maddison Inglis",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": null
         },
         {
           "a": "Donna Vekic",
@@ -1700,13 +1686,6 @@
           "h2h": null
         },
         {
-          "a": "Brooke Black",
-          "b": "Tereza Martincova",
-          "a_seed": "7",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Vendula Valdmannova",
           "b": "Sayaka Ishii",
           "a_seed": "3",
@@ -1721,18 +1700,18 @@
           "h2h": null
         },
         {
-          "a": "Katy Dunne",
+          "a": "Celine Naef",
           "b": "Momoko Kobori",
-          "a_seed": "9",
-          "b_seed": null,
-          "h2h": "0-2"
+          "a_seed": "4",
+          "b_seed": "9",
+          "h2h": null
         },
         {
-          "a": "Ranah Akua Stoiber",
-          "b": "Victoria Allen",
-          "a_seed": "12",
+          "a": "Ella Mcdonald",
+          "b": "Ranah Akua Stoiber",
+          "a_seed": null,
           "b_seed": null,
-          "h2h": null
+          "h2h": "1-2"
         },
         {
           "a": "Harmony Tan",
