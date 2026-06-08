@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-08T19:28:22Z",
+  "fetched_at": "2026-06-08T21:57:28Z",
   "events": [
     {
       "slug": "2026WTAQueens",
@@ -207,13 +207,6 @@
           "h2h": "2-1"
         },
         {
-          "a": "Karolina Pliskova",
-          "b": "Mccartney Kessler",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Marie Bouzkova",
           "b": "Polina Kudermetova",
           "a_seed": "Q",
@@ -242,13 +235,6 @@
           "h2h": null
         },
         {
-          "a": "Harriet Dart",
-          "b": "Liudmila Samsonova",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": "1-1"
-        },
-        {
           "a": "Iva Jovic",
           "b": "Antonia Ruzic",
           "a_seed": "6",
@@ -268,6 +254,20 @@
           "a_seed": "WC",
           "b_seed": null,
           "h2h": "1-1"
+        },
+        {
+          "a": "Victoria Mboko",
+          "b": "Karolina Pliskova",
+          "a_seed": "3",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Harriet Dart",
+          "b": "Belinda Bencic",
+          "a_seed": "WC",
+          "b_seed": "4",
+          "h2h": "0-1"
         }
       ],
       "completed": [
@@ -276,6 +276,18 @@
           "winner": "Jaqueline Cristian",
           "loser": "Qinwen Zheng",
           "score": "64 76(4)"
+        },
+        {
+          "round": "R1",
+          "winner": "Karolina Pliskova",
+          "loser": "Mccartney Kessler",
+          "score": "67(1) 63 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Harriet Dart",
+          "loser": "Liudmila Samsonova",
+          "score": "57 64 63"
         }
       ]
     },
@@ -546,13 +558,6 @@
           "h2h": "0-1"
         },
         {
-          "a": "Mananchaya Sawangkaew",
-          "b": "Akasha Urhobo",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Taylah Preston",
           "b": "Harmony Tan",
           "a_seed": "Q",
@@ -598,6 +603,12 @@
           "winner": "Sinja Kraus",
           "loser": "Linda Klimovicova",
           "score": "62 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Akasha Urhobo",
+          "loser": "Mananchaya Sawangkaew",
+          "score": "76(3) 60"
         }
       ]
     },
@@ -840,13 +851,6 @@
           "h2h": null
         },
         {
-          "a": "Katarzyna Kawa",
-          "b": "Lisa Pigato",
-          "a_seed": "8",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Tamara Zidansek",
           "b": "Federica Urgesi",
           "a_seed": "7",
@@ -882,6 +886,13 @@
           "h2h": null
         },
         {
+          "a": "Noma Noha Akugue",
+          "b": "Katarzyna Kawa",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": null
+        },
+        {
           "a": "Kaitlin Quevedo",
           "b": "Jeline Vandromme",
           "a_seed": "5",
@@ -900,6 +911,12 @@
           "round": "R1",
           "winner": "Noma Noha Akugue",
           "loser": "Tiantsoa Sarah Rakotomanga Rajaonah",
+          "score": "64 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Katarzyna Kawa",
+          "loser": "Lisa Pigato",
           "score": "64 64"
         },
         {
