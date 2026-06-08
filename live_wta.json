@@ -1,7 +1,19 @@
 {
-  "fetched_at": "2026-06-08T12:06:39Z",
+  "fetched_at": "2026-06-08T16:11:21Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Daria Snigur",
+      "loser": "Paula Badosa",
+      "score": "6-1 7-6",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Elise Mertens",
+      "loser": "Bianca Andreescu",
+      "score": "6-1 6-2",
+      "round": "Round 1"
+    },
     {
       "winner": "Magda Linette",
       "loser": "Kimberly Birrell",
@@ -9,9 +21,21 @@
       "round": "Round 1"
     },
     {
+      "winner": "Mia Pohankova",
+      "loser": "Clara Tauson",
+      "score": "6-4 6-4",
+      "round": "Round 1"
+    },
+    {
       "winner": "Panna Udvardy",
       "loser": "Ekaterina Alexandrova",
       "score": "6-4 7-6",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Robin Montgomery",
+      "loser": "Daria Kasatkina",
+      "score": "5-7 6-0 6-4",
       "round": "Round 1"
     }
   ]
