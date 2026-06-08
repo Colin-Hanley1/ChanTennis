@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-08T16:11:24Z",
+  "fetched_at": "2026-06-08T19:28:22Z",
   "events": [
     {
       "slug": "2026WTAQueens",
@@ -200,13 +200,6 @@
           "h2h": "3-2"
         },
         {
-          "a": "Qinwen Zheng",
-          "b": "Jaqueline Cristian",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "2-2"
-        },
-        {
           "a": "Katie Boulter",
           "b": "Leylah Fernandez",
           "a_seed": "WC",
@@ -277,7 +270,336 @@
           "h2h": "1-1"
         }
       ],
-      "completed": []
+      "completed": [
+        {
+          "round": "R1",
+          "winner": "Jaqueline Cristian",
+          "loser": "Qinwen Zheng",
+          "score": "64 76(4)"
+        }
+      ]
+    },
+    {
+      "slug": "2026WTAIlkley125",
+      "name": "Ilkley125",
+      "year": 2026,
+      "tour": "wta",
+      "surface": "hard",
+      "best_of": 3,
+      "url": "https://www.tennisabstract.com/current/2026WTAIlkley125.html",
+      "bracket_slots": [
+        {
+          "name": "Viktorija Golubic",
+          "seed": "1",
+          "country": "SUI",
+          "bye": false
+        },
+        {
+          "name": "Daniella Britton",
+          "seed": "WC",
+          "country": "GBR",
+          "bye": false
+        },
+        {
+          "name": "Tereza Martincova",
+          "seed": "Q",
+          "country": "CZE",
+          "bye": false
+        },
+        {
+          "name": "Katie Swan",
+          "seed": "WC",
+          "country": "GBR",
+          "bye": false
+        },
+        {
+          "name": "Alicia Dudeney",
+          "seed": "WC",
+          "country": "GBR",
+          "bye": false
+        },
+        {
+          "name": "Himeno Sakatsume",
+          "seed": null,
+          "country": "JPN",
+          "bye": false
+        },
+        {
+          "name": "Elvina Kalieva",
+          "seed": null,
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Ashlyn Krueger",
+          "seed": "8",
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Darja Vidmanova",
+          "seed": "4",
+          "country": "CZE",
+          "bye": false
+        },
+        {
+          "name": "Linda Fruhvirtova",
+          "seed": null,
+          "country": "CZE",
+          "bye": false
+        },
+        {
+          "name": "Lucrezia Stefanini",
+          "seed": null,
+          "country": "ITA",
+          "bye": false
+        },
+        {
+          "name": "Vendula Valdmannova",
+          "seed": "Q",
+          "country": "CZE",
+          "bye": false
+        },
+        {
+          "name": "Mingge Xu",
+          "seed": "WC",
+          "country": "GBR",
+          "bye": false
+        },
+        {
+          "name": "Elizabeth Mandlik",
+          "seed": null,
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Emerson Jones",
+          "seed": null,
+          "country": "AUS",
+          "bye": false
+        },
+        {
+          "name": "Dalma Galfi",
+          "seed": "6",
+          "country": "HUN",
+          "bye": false
+        },
+        {
+          "name": "Lulu Sun",
+          "seed": "5",
+          "country": "NZL",
+          "bye": false
+        },
+        {
+          "name": "Ella Mcdonald",
+          "seed": "Q",
+          "country": "GBR",
+          "bye": false
+        },
+        {
+          "name": "Kayla Day",
+          "seed": null,
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Mary Stoiana",
+          "seed": null,
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Veronika Podrez",
+          "seed": null,
+          "country": "UKR",
+          "bye": false
+        },
+        {
+          "name": "Tatiana Prozorova",
+          "seed": null,
+          "country": "RUS",
+          "bye": false
+        },
+        {
+          "name": "Linda Klimovicova",
+          "seed": null,
+          "country": "CZE",
+          "bye": false
+        },
+        {
+          "name": "Sinja Kraus",
+          "seed": "3",
+          "country": "AUT",
+          "bye": false
+        },
+        {
+          "name": "Alina Korneeva",
+          "seed": "7",
+          "country": "RUS",
+          "bye": false
+        },
+        {
+          "name": "Celine Naef",
+          "seed": "Q",
+          "country": "SUI",
+          "bye": false
+        },
+        {
+          "name": "Mananchaya Sawangkaew",
+          "seed": null,
+          "country": "THA",
+          "bye": false
+        },
+        {
+          "name": "Akasha Urhobo",
+          "seed": null,
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Taylah Preston",
+          "seed": null,
+          "country": "AUS",
+          "bye": false
+        },
+        {
+          "name": "Harmony Tan",
+          "seed": "Q",
+          "country": "FRA",
+          "bye": false
+        },
+        {
+          "name": "Iryna Shymanovich",
+          "seed": "Q",
+          "country": "BLR",
+          "bye": false
+        },
+        {
+          "name": "Lanlana Tararudee",
+          "seed": "2",
+          "country": "THA",
+          "bye": false
+        }
+      ],
+      "r1_matches": [
+        {
+          "a": "Tereza Martincova",
+          "b": "Katie Swan",
+          "a_seed": "Q",
+          "b_seed": "WC",
+          "h2h": null
+        },
+        {
+          "a": "Elvina Kalieva",
+          "b": "Ashlyn Krueger",
+          "a_seed": "8",
+          "b_seed": null,
+          "h2h": "1-0"
+        },
+        {
+          "a": "Darja Vidmanova",
+          "b": "Linda Fruhvirtova",
+          "a_seed": "4",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Lucrezia Stefanini",
+          "b": "Vendula Valdmannova",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Mingge Xu",
+          "b": "Elizabeth Mandlik",
+          "a_seed": "WC",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Emerson Jones",
+          "b": "Dalma Galfi",
+          "a_seed": "6",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Lulu Sun",
+          "b": "Ella Mcdonald",
+          "a_seed": "5",
+          "b_seed": "Q",
+          "h2h": null
+        },
+        {
+          "a": "Kayla Day",
+          "b": "Mary Stoiana",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "3-0"
+        },
+        {
+          "a": "Alina Korneeva",
+          "b": "Celine Naef",
+          "a_seed": "7",
+          "b_seed": "Q",
+          "h2h": "0-1"
+        },
+        {
+          "a": "Mananchaya Sawangkaew",
+          "b": "Akasha Urhobo",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Taylah Preston",
+          "b": "Harmony Tan",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Iryna Shymanovich",
+          "b": "Lanlana Tararudee",
+          "a_seed": "Q",
+          "b_seed": "2",
+          "h2h": null
+        },
+        {
+          "a": "Tatiana Prozorova",
+          "b": "Sinja Kraus",
+          "a_seed": "3",
+          "b_seed": null,
+          "h2h": "1-1"
+        }
+      ],
+      "completed": [
+        {
+          "round": "R1",
+          "winner": "Viktorija Golubic",
+          "loser": "Daniella Britton",
+          "score": "63 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Alicia Dudeney",
+          "loser": "Himeno Sakatsume",
+          "score": "64 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Tatiana Prozorova",
+          "loser": "Veronika Podrez",
+          "score": "64 62"
+        },
+        {
+          "round": "R1",
+          "winner": "Sinja Kraus",
+          "loser": "Linda Klimovicova",
+          "score": "62 63"
+        }
+      ]
     },
     {
       "slug": "2026WTAModena125",
@@ -518,20 +840,6 @@
           "h2h": null
         },
         {
-          "a": "Martina Trevisan",
-          "b": "Jennifer Ruggeri",
-          "a_seed": "WC",
-          "b_seed": "WC",
-          "h2h": null
-        },
-        {
-          "a": "Noma Noha Akugue",
-          "b": "Tiantsoa Sarah Rakotomanga Rajaonah",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Katarzyna Kawa",
           "b": "Lisa Pigato",
           "a_seed": "8",
@@ -567,21 +875,33 @@
           "h2h": "2-0"
         },
         {
-          "a": "Jeline Vandromme",
-          "b": "Angela Fita Boluda",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Marina Bassols Ribera",
           "b": "Darja Semenistaja",
           "a_seed": "2",
           "b_seed": null,
           "h2h": null
+        },
+        {
+          "a": "Kaitlin Quevedo",
+          "b": "Jeline Vandromme",
+          "a_seed": "5",
+          "b_seed": null,
+          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "R1",
+          "winner": "Martina Trevisan",
+          "loser": "Jennifer Ruggeri",
+          "score": "60 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Noma Noha Akugue",
+          "loser": "Tiantsoa Sarah Rakotomanga Rajaonah",
+          "score": "64 64"
+        },
         {
           "round": "R1",
           "winner": "Kaitlin Quevedo",
@@ -590,292 +910,15 @@
         },
         {
           "round": "R1",
+          "winner": "Jeline Vandromme",
+          "loser": "Angela Fita Boluda",
+          "score": "64 63"
+        },
+        {
+          "round": "R1",
           "winner": "Laura Samson",
           "loser": "Xiyu Wang",
           "score": "76(3) 75"
-        }
-      ]
-    },
-    {
-      "slug": "2026WTAIlkley125",
-      "name": "Ilkley125",
-      "year": 2026,
-      "tour": "wta",
-      "surface": "hard",
-      "best_of": 3,
-      "url": "https://www.tennisabstract.com/current/2026WTAIlkley125.html",
-      "bracket_slots": [
-        {
-          "name": "Viktorija Golubic",
-          "seed": "1",
-          "country": "SUI",
-          "bye": false
-        },
-        {
-          "name": "Daniella Britton",
-          "seed": "WC",
-          "country": "GBR",
-          "bye": false
-        },
-        {
-          "name": "Qualifier1",
-          "seed": null,
-          "country": null,
-          "bye": false
-        },
-        {
-          "name": "Katie Swan",
-          "seed": "WC",
-          "country": "GBR",
-          "bye": false
-        },
-        {
-          "name": "Alicia Dudeney",
-          "seed": "WC",
-          "country": "GBR",
-          "bye": false
-        },
-        {
-          "name": "Himeno Sakatsume",
-          "seed": null,
-          "country": "JPN",
-          "bye": false
-        },
-        {
-          "name": "Elvina Kalieva",
-          "seed": null,
-          "country": "USA",
-          "bye": false
-        },
-        {
-          "name": "Ashlyn Krueger",
-          "seed": "8",
-          "country": "USA",
-          "bye": false
-        },
-        {
-          "name": "Darja Vidmanova",
-          "seed": "4",
-          "country": "CZE",
-          "bye": false
-        },
-        {
-          "name": "Linda Fruhvirtova",
-          "seed": null,
-          "country": "CZE",
-          "bye": false
-        },
-        {
-          "name": "Lucrezia Stefanini",
-          "seed": null,
-          "country": "ITA",
-          "bye": false
-        },
-        {
-          "name": "Qualifier2",
-          "seed": null,
-          "country": null,
-          "bye": false
-        },
-        {
-          "name": "Mingge Xu",
-          "seed": "WC",
-          "country": "GBR",
-          "bye": false
-        },
-        {
-          "name": "Elizabeth Mandlik",
-          "seed": null,
-          "country": "USA",
-          "bye": false
-        },
-        {
-          "name": "Emerson Jones",
-          "seed": null,
-          "country": "AUS",
-          "bye": false
-        },
-        {
-          "name": "Dalma Galfi",
-          "seed": "6",
-          "country": "HUN",
-          "bye": false
-        },
-        {
-          "name": "Lulu Sun",
-          "seed": "5",
-          "country": "NZL",
-          "bye": false
-        },
-        {
-          "name": "Qualifier3",
-          "seed": null,
-          "country": null,
-          "bye": false
-        },
-        {
-          "name": "Kayla Day",
-          "seed": null,
-          "country": "USA",
-          "bye": false
-        },
-        {
-          "name": "Mary Stoiana",
-          "seed": null,
-          "country": "USA",
-          "bye": false
-        },
-        {
-          "name": "Veronika Podrez",
-          "seed": null,
-          "country": "UKR",
-          "bye": false
-        },
-        {
-          "name": "Tatiana Prozorova",
-          "seed": null,
-          "country": "RUS",
-          "bye": false
-        },
-        {
-          "name": "Linda Klimovicova",
-          "seed": null,
-          "country": "CZE",
-          "bye": false
-        },
-        {
-          "name": "Sinja Kraus",
-          "seed": "3",
-          "country": "AUT",
-          "bye": false
-        },
-        {
-          "name": "Alina Korneeva",
-          "seed": "7",
-          "country": "RUS",
-          "bye": false
-        },
-        {
-          "name": "Qualifier4",
-          "seed": null,
-          "country": null,
-          "bye": false
-        },
-        {
-          "name": "Mananchaya Sawangkaew",
-          "seed": null,
-          "country": "THA",
-          "bye": false
-        },
-        {
-          "name": "Akasha Urhobo",
-          "seed": null,
-          "country": "USA",
-          "bye": false
-        },
-        {
-          "name": "Taylah Preston",
-          "seed": null,
-          "country": "AUS",
-          "bye": false
-        },
-        {
-          "name": "Qualifier5",
-          "seed": null,
-          "country": null,
-          "bye": false
-        },
-        {
-          "name": "Qualifier6",
-          "seed": null,
-          "country": null,
-          "bye": false
-        },
-        {
-          "name": "Lanlana Tararudee",
-          "seed": "2",
-          "country": "THA",
-          "bye": false
-        }
-      ],
-      "r1_matches": [
-        {
-          "a": "Iryna Shymanovich",
-          "b": "Clervie Ngounoue",
-          "a_seed": "1",
-          "b_seed": "8",
-          "h2h": "1-1"
-        },
-        {
-          "a": "Viktorija Golubic",
-          "b": "Daniella Britton",
-          "a_seed": "1",
-          "b_seed": "WC",
-          "h2h": null
-        },
-        {
-          "a": "Elvina Kalieva",
-          "b": "Ashlyn Krueger",
-          "a_seed": "8",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
-          "a": "Darja Vidmanova",
-          "b": "Linda Fruhvirtova",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Mingge Xu",
-          "b": "Elizabeth Mandlik",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Emerson Jones",
-          "b": "Dalma Galfi",
-          "a_seed": "6",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Kayla Day",
-          "b": "Mary Stoiana",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "3-0"
-        },
-        {
-          "a": "Veronika Podrez",
-          "b": "Tatiana Prozorova",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Linda Klimovicova",
-          "b": "Sinja Kraus",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Mananchaya Sawangkaew",
-          "b": "Akasha Urhobo",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        }
-      ],
-      "completed": [
-        {
-          "round": "R1",
-          "winner": "Alicia Dudeney",
-          "loser": "Himeno Sakatsume",
-          "score": "64 63"
         }
       ]
     }
