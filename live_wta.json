@@ -1,5 +1,18 @@
 {
-  "fetched_at": "2026-06-08T07:01:23Z",
+  "fetched_at": "2026-06-08T11:14:01Z",
   "source": "espn",
-  "matches": []
+  "matches": [
+    {
+      "winner": "Magda Linette",
+      "loser": "Kimberly Birrell",
+      "score": "2-6 6-1 6-2",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Panna Udvardy",
+      "loser": "Ekaterina Alexandrova",
+      "score": "6-4 7-6",
+      "round": "Round 1"
+    }
+  ]
 }
