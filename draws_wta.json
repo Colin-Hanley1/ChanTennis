@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-09T19:23:46Z",
+  "fetched_at": "2026-06-09T21:55:21Z",
   "events": [
     {
       "slug": "2026WTAQueens",
@@ -872,17 +872,10 @@
       "r1_matches": [
         {
           "a": "Victoria Jimenez Kasintseva",
-          "b": "Jessica Pieri",
+          "b": "Varvara Lepchenko",
           "a_seed": "1",
           "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
-          "a": "Noemi Basiletti",
-          "b": "Varvara Lepchenko",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
+          "h2h": "0-2"
         },
         {
           "a": "Leyre Romero Gormaz",
@@ -935,6 +928,18 @@
         }
       ],
       "completed": [
+        {
+          "round": "R1",
+          "winner": "Victoria Jimenez Kasintseva",
+          "loser": "Jessica Pieri",
+          "score": "62 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Varvara Lepchenko",
+          "loser": "Noemi Basiletti",
+          "score": "62 63"
+        },
         {
           "round": "R1",
           "winner": "Leyre Romero Gormaz",
