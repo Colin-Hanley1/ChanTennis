@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-09T10:22:36Z",
+  "fetched_at": "2026-06-09T12:12:06Z",
   "source": "espn",
   "matches": [
     {
@@ -9,9 +9,21 @@
       "round": "Round 1"
     },
     {
+      "winner": "Dayana Yastremska",
+      "loser": "Sara Bejlek",
+      "score": "6-1 6-2",
+      "round": "Round 1"
+    },
+    {
       "winner": "Elise Mertens",
       "loser": "Bianca Andreescu",
       "score": "6-1 6-2",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Greet Minnen",
+      "loser": "Janice Tjen",
+      "score": "7-6 6-1",
       "round": "Round 1"
     },
     {
@@ -36,6 +48,12 @@
       "winner": "Robin Montgomery",
       "loser": "Daria Kasatkina",
       "score": "5-7 6-0 6-4",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Zeynep Sonmez",
+      "loser": "Katie Volynets",
+      "score": "6-3 2-6 6-3",
       "round": "Round 1"
     }
   ]

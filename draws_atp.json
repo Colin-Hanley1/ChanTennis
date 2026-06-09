@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-09T08:37:19Z",
+  "fetched_at": "2026-06-09T12:12:10Z",
   "events": [
     {
       "slug": "2026ATPStuttgart",
@@ -101,9 +101,9 @@
           "bye": false
         },
         {
-          "name": "Tommy Paul",
-          "seed": "5",
-          "country": "USA",
+          "name": "Roman Safiullin",
+          "seed": "LL",
+          "country": "RUS",
           "bye": false
         },
         {
@@ -235,18 +235,11 @@
           "h2h": "0-3"
         },
         {
-          "a": "Tommy Paul",
+          "a": "Roman Safiullin",
           "b": "Giovanni Mpetshi Perricard",
-          "a_seed": "5",
+          "a_seed": "LL",
           "b_seed": null,
           "h2h": "0-1"
-        },
-        {
-          "a": "Gauthier Onclin",
-          "b": "Fabian Marozsan",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
         },
         {
           "a": "Jan Lennard Struff",
@@ -263,9 +256,9 @@
           "h2h": null
         },
         {
-          "a": "Pierre Hugues Herbert",
-          "b": "Martin Landaluce",
-          "a_seed": "Q",
+          "a": "Martin Landaluce",
+          "b": "Taylor Fritz",
+          "a_seed": "2",
           "b_seed": null,
           "h2h": null
         }
@@ -273,9 +266,21 @@
       "completed": [
         {
           "round": "R32",
+          "winner": "Gauthier Onclin",
+          "loser": "Fabian Marozsan",
+          "score": "7-6(6) 6-3"
+        },
+        {
+          "round": "R32",
           "winner": "Mattia Bellucci",
           "loser": "Alejandro Davidovich Fokina",
           "score": "6-2 6-7(5) 6-1"
+        },
+        {
+          "round": "R32",
+          "winner": "Martin Landaluce",
+          "loser": "Pierre Hugues Herbert",
+          "score": "5-7 6-3 6-4"
         }
       ]
     }
