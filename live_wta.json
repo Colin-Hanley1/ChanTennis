@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-09T13:20:47Z",
+  "fetched_at": "2026-06-09T16:10:10Z",
   "source": "espn",
   "matches": [
     {
@@ -18,6 +18,12 @@
       "winner": "Dayana Yastremska",
       "loser": "Sara Bejlek",
       "score": "6-1 6-2",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Elena-Gabriela Ruse",
+      "loser": "Tamara Korpatsch",
+      "score": "6-4 7-6",
       "round": "Round 1"
     },
     {
