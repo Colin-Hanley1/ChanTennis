@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-09T16:10:13Z",
+  "fetched_at": "2026-06-09T19:23:46Z",
   "events": [
     {
       "slug": "2026WTAQueens",
@@ -193,32 +193,11 @@
       ],
       "r1_matches": [
         {
-          "a": "Maria Sakkari",
+          "a": "Elena Rybakina",
           "b": "Tatjana Maria",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": "3-2"
-        },
-        {
-          "a": "Marie Bouzkova",
-          "b": "Polina Kudermetova",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Mika Stojsavljevic",
-          "b": "Donna Vekic",
-          "a_seed": "WC",
-          "b_seed": "LL",
-          "h2h": null
-        },
-        {
-          "a": "Shuai Zhang",
-          "b": "Alexandra Eala",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
+          "a_seed": "1",
+          "b_seed": "Q",
+          "h2h": "1-1"
         },
         {
           "a": "Jaqueline Cristian",
@@ -235,6 +214,13 @@
           "h2h": null
         },
         {
+          "a": "Marie Bouzkova",
+          "b": "Donna Vekic",
+          "a_seed": "LL",
+          "b_seed": null,
+          "h2h": "1-0"
+        },
+        {
           "a": "Sorana Cirstea",
           "b": "Emma Raducanu",
           "a_seed": "7",
@@ -249,6 +235,13 @@
           "h2h": "0-1"
         },
         {
+          "a": "Iva Jovic",
+          "b": "Alexandra Eala",
+          "a_seed": "6",
+          "b_seed": null,
+          "h2h": "1-0"
+        },
+        {
           "a": "Laura Siegemund",
           "b": "Amanda Anisimova",
           "a_seed": "2",
@@ -257,6 +250,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R1",
+          "winner": "Tatjana Maria",
+          "loser": "Maria Sakkari",
+          "score": "63 63"
+        },
         {
           "round": "R1",
           "winner": "Jaqueline Cristian",
@@ -274,6 +273,18 @@
           "winner": "Karolina Pliskova",
           "loser": "Mccartney Kessler",
           "score": "67(1) 63 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Marie Bouzkova",
+          "loser": "Polina Kudermetova",
+          "score": "60 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Donna Vekic",
+          "loser": "Mika Stojsavljevic",
+          "score": "62 63"
         },
         {
           "round": "R1",
@@ -298,6 +309,12 @@
           "winner": "Iva Jovic",
           "loser": "Antonia Ruzic",
           "score": "63 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Alexandra Eala",
+          "loser": "Shuai Zhang",
+          "score": "63 62"
         },
         {
           "round": "R1",
@@ -869,31 +886,10 @@
         },
         {
           "a": "Leyre Romero Gormaz",
-          "b": "Xiaodi You",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
-          "a": "Georgia Pedone",
           "b": "Mayar Sherif",
-          "a_seed": "WC",
-          "b_seed": "6",
-          "h2h": "1-0"
-        },
-        {
-          "a": "Victoria Bosio",
-          "b": "Nuria Brancaccio",
-          "a_seed": "Q",
+          "a_seed": "6",
           "b_seed": null,
-          "h2h": "0-2"
-        },
-        {
-          "a": "Andrea Lazaro Garcia",
-          "b": "Julia Grabher",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": "2-0"
+          "h2h": "0-1"
         },
         {
           "a": "Dominika Salkova",
@@ -908,6 +904,20 @@
           "a_seed": null,
           "b_seed": null,
           "h2h": null
+        },
+        {
+          "a": "Tamara Zidansek",
+          "b": "Nuria Brancaccio",
+          "a_seed": "7",
+          "b_seed": null,
+          "h2h": "1-0"
+        },
+        {
+          "a": "Lucia Bronzetti",
+          "b": "Julia Grabher",
+          "a_seed": "4",
+          "b_seed": null,
+          "h2h": "3-1"
         },
         {
           "a": "Kaitlin Quevedo",
@@ -925,6 +935,18 @@
         }
       ],
       "completed": [
+        {
+          "round": "R1",
+          "winner": "Leyre Romero Gormaz",
+          "loser": "Xiaodi You",
+          "score": "64 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Mayar Sherif",
+          "loser": "Georgia Pedone",
+          "score": "62 60"
+        },
         {
           "round": "R1",
           "winner": "Dominika Salkova",
@@ -957,9 +979,21 @@
         },
         {
           "round": "R1",
+          "winner": "Nuria Brancaccio",
+          "loser": "Victoria Bosio",
+          "score": "64 75"
+        },
+        {
+          "round": "R1",
           "winner": "Lucia Bronzetti",
           "loser": "Xinyu Gao",
           "score": "46 63 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Julia Grabher",
+          "loser": "Andrea Lazaro Garcia",
+          "score": "64 62"
         },
         {
           "round": "R1",
