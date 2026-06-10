@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-10T16:41:30Z",
+  "fetched_at": "2026-06-10T19:42:12Z",
   "events": [
     {
       "slug": "2026WTAQueens",
@@ -532,9 +532,9 @@
       ],
       "r1_matches": [
         {
-          "a": "Tereza Martincova",
+          "a": "Viktorija Golubic",
           "b": "Katie Swan",
-          "a_seed": "Q",
+          "a_seed": "1",
           "b_seed": "WC",
           "h2h": null
         },
@@ -594,6 +594,12 @@
           "winner": "Viktorija Golubic",
           "loser": "Daniella Britton",
           "score": "63 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Katie Swan",
+          "loser": "Tereza Martincova",
+          "score": "75 62"
         },
         {
           "round": "R1",
@@ -899,13 +905,6 @@
           "h2h": "0-1"
         },
         {
-          "a": "Dominika Salkova",
-          "b": "Martina Trevisan",
-          "a_seed": "3",
-          "b_seed": "WC",
-          "h2h": null
-        },
-        {
           "a": "Tamara Zidansek",
           "b": "Nuria Brancaccio",
           "a_seed": "7",
@@ -920,6 +919,13 @@
           "h2h": "3-1"
         },
         {
+          "a": "Dominika Salkova",
+          "b": "Katarzyna Kawa",
+          "a_seed": "3",
+          "b_seed": null,
+          "h2h": "0-1"
+        },
+        {
           "a": "Kaitlin Quevedo",
           "b": "Laura Samson",
           "a_seed": "5",
@@ -928,6 +934,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Dominika Salkova",
+          "loser": "Martina Trevisan",
+          "score": "61 76(5)"
+        },
         {
           "round": "R2",
           "winner": "Katarzyna Kawa",
