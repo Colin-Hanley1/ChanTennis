@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-10T16:41:27Z",
+  "fetched_at": "2026-06-10T16:57:12Z",
   "source": "espn",
   "matches": [
     {
@@ -145,6 +145,12 @@
       "loser": "Jenson Brooksby",
       "score": "7-6 5-7 6-1",
       "round": "Round 1"
+    },
+    {
+      "winner": "Alex de Minaur",
+      "loser": "Martin Damm",
+      "score": "7-6 7-5",
+      "round": "Round 2"
     },
     {
       "winner": "Giovanni Mpetshi Perricard",
