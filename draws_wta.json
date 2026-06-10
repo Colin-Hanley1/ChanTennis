@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-10T08:56:59Z",
+  "fetched_at": "2026-06-10T12:31:54Z",
   "events": [
     {
       "slug": "2026WTAQueens",
@@ -140,9 +140,9 @@
           "bye": true
         },
         {
-          "name": "Belinda Bencic",
-          "seed": "4",
-          "country": "SUI",
+          "name": "Kamilla Rakhimova",
+          "seed": "LL",
+          "country": "UZB",
           "bye": false
         },
         {
@@ -229,16 +229,9 @@
         },
         {
           "a": "Harriet Dart",
-          "b": "Belinda Bencic",
+          "b": "Kamilla Rakhimova",
           "a_seed": "WC",
-          "b_seed": "4",
-          "h2h": "0-1"
-        },
-        {
-          "a": "Iva Jovic",
-          "b": "Alexandra Eala",
-          "a_seed": "6",
-          "b_seed": null,
+          "b_seed": "LL",
           "h2h": "1-0"
         },
         {
@@ -250,6 +243,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Iva Jovic",
+          "loser": "Alexandra Eala",
+          "score": "62 62"
+        },
         {
           "round": "R1",
           "winner": "Tatjana Maria",
@@ -892,13 +891,6 @@
           "h2h": null
         },
         {
-          "a": "Noma Noha Akugue",
-          "b": "Katarzyna Kawa",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Tamara Zidansek",
           "b": "Nuria Brancaccio",
           "a_seed": "7",
@@ -928,6 +920,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Katarzyna Kawa",
+          "loser": "Noma Noha Akugue",
+          "score": "76(4) 61"
+        },
         {
           "round": "R1",
           "winner": "Victoria Jimenez Kasintseva",

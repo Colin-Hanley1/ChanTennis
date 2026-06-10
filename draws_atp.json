@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-10T08:56:59Z",
+  "fetched_at": "2026-06-10T12:31:54Z",
   "events": [
     {
       "slug": "2026ATPStuttgart",
@@ -193,67 +193,53 @@
       ],
       "r1_matches": [
         {
-          "a": "Roberto Bautista Agut",
+          "a": "Ben Shelton",
           "b": "Marcos Giron",
-          "a_seed": null,
+          "a_seed": "1",
           "b_seed": null,
-          "h2h": "3-0"
+          "h2h": "2-1"
         },
         {
-          "a": "Quentin Halys",
-          "b": "Sho Shimabukuro",
+          "a": "Sho Shimabukuro",
+          "b": "Nick Kyrgios",
+          "a_seed": "Q",
+          "b_seed": "WC",
+          "h2h": null
+        },
+        {
+          "a": "Jiri Lehecka",
+          "b": "James Duckworth",
+          "a_seed": "4",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Rinky Hijikata",
+          "b": "Frances Tiafoe",
+          "a_seed": "6",
+          "b_seed": null,
+          "h2h": "1-3"
+        },
+        {
+          "a": "Giovanni Mpetshi Perricard",
+          "b": "Gauthier Onclin",
           "a_seed": "Q",
           "b_seed": null,
           "h2h": "1-0"
         },
         {
-          "a": "Nick Kyrgios",
-          "b": "Corentin Moutet",
-          "a_seed": "WC",
-          "b_seed": "8",
-          "h2h": null
-        },
-        {
-          "a": "Diego Dedura Palomero",
-          "b": "James Duckworth",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Tom Gentzsch",
-          "b": "Rinky Hijikata",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Daniel Altmaier",
-          "b": "Frances Tiafoe",
-          "a_seed": "6",
-          "b_seed": null,
-          "h2h": "0-3"
-        },
-        {
-          "a": "Roman Safiullin",
-          "b": "Giovanni Mpetshi Perricard",
-          "a_seed": "LL",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
           "a": "Jan Lennard Struff",
-          "b": "Alexis Galarneau",
-          "a_seed": "Q",
+          "b": "Alexander Bublik",
+          "a_seed": "3",
           "b_seed": null,
-          "h2h": null
+          "h2h": "5-3"
         },
         {
-          "a": "Yannick Hanfmann",
-          "b": "Aleksandar Kovacevic",
+          "a": "Mattia Bellucci",
+          "b": "Yannick Hanfmann",
           "a_seed": null,
           "b_seed": null,
-          "h2h": null
+          "h2h": "0-1"
         },
         {
           "a": "Martin Landaluce",
@@ -266,15 +252,69 @@
       "completed": [
         {
           "round": "R32",
+          "winner": "Marcos Giron",
+          "loser": "Roberto Bautista Agut",
+          "score": "7-6(3) 7-5"
+        },
+        {
+          "round": "R32",
+          "winner": "Sho Shimabukuro",
+          "loser": "Quentin Halys",
+          "score": "6-4 6-2"
+        },
+        {
+          "round": "R32",
+          "winner": "Nick Kyrgios",
+          "loser": "Corentin Moutet",
+          "score": "6-3 6-4"
+        },
+        {
+          "round": "R32",
+          "winner": "James Duckworth",
+          "loser": "Diego Dedura Palomero",
+          "score": "6-4 6-3"
+        },
+        {
+          "round": "R32",
+          "winner": "Rinky Hijikata",
+          "loser": "Tom Gentzsch",
+          "score": "6-7(7) 7-6(2) 6-3"
+        },
+        {
+          "round": "R32",
+          "winner": "Frances Tiafoe",
+          "loser": "Daniel Altmaier",
+          "score": "7-6(3) 4-6 6-4"
+        },
+        {
+          "round": "R32",
+          "winner": "Giovanni Mpetshi Perricard",
+          "loser": "Roman Safiullin",
+          "score": "7-5 6-7(4) 7-6(4)"
+        },
+        {
+          "round": "R32",
           "winner": "Gauthier Onclin",
           "loser": "Fabian Marozsan",
           "score": "7-6(6) 6-3"
         },
         {
           "round": "R32",
+          "winner": "Jan Lennard Struff",
+          "loser": "Alexis Galarneau",
+          "score": "6-2 6-7(5) 6-3"
+        },
+        {
+          "round": "R32",
           "winner": "Mattia Bellucci",
           "loser": "Alejandro Davidovich Fokina",
           "score": "6-2 6-7(5) 6-1"
+        },
+        {
+          "round": "R32",
+          "winner": "Yannick Hanfmann",
+          "loser": "Aleksandar Kovacevic",
+          "score": "7-6(5) 7-6(4)"
         },
         {
           "round": "R32",
