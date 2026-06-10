@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-10T12:31:54Z",
+  "fetched_at": "2026-06-10T16:41:30Z",
   "events": [
     {
       "slug": "2026WTAQueens",
@@ -207,13 +207,6 @@
           "h2h": "1-2"
         },
         {
-          "a": "Victoria Mboko",
-          "b": "Karolina Pliskova",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Marie Bouzkova",
           "b": "Donna Vekic",
           "a_seed": "LL",
@@ -235,19 +228,31 @@
           "h2h": "1-0"
         },
         {
-          "a": "Laura Siegemund",
+          "a": "Iva Jovic",
           "b": "Amanda Anisimova",
-          "a_seed": "2",
-          "b_seed": null,
+          "a_seed": "6",
+          "b_seed": "2",
           "h2h": null
         }
       ],
       "completed": [
         {
           "round": "R2",
+          "winner": "Karolina Pliskova",
+          "loser": "Victoria Mboko",
+          "score": ""
+        },
+        {
+          "round": "R2",
           "winner": "Iva Jovic",
           "loser": "Alexandra Eala",
           "score": "62 62"
+        },
+        {
+          "round": "R2",
+          "winner": "Amanda Anisimova",
+          "loser": "Laura Siegemund",
+          "score": "61 63"
         },
         {
           "round": "R1",
@@ -534,34 +539,6 @@
           "h2h": null
         },
         {
-          "a": "Mingge Xu",
-          "b": "Elizabeth Mandlik",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Emerson Jones",
-          "b": "Dalma Galfi",
-          "a_seed": "6",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Taylah Preston",
-          "b": "Harmony Tan",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Iryna Shymanovich",
-          "b": "Lanlana Tararudee",
-          "a_seed": "Q",
-          "b_seed": "2",
-          "h2h": null
-        },
-        {
           "a": "Alicia Dudeney",
           "b": "Ashlyn Krueger",
           "a_seed": "WC",
@@ -574,6 +551,13 @@
           "a_seed": "4",
           "b_seed": null,
           "h2h": "1-0"
+        },
+        {
+          "a": "Elizabeth Mandlik",
+          "b": "Dalma Galfi",
+          "a_seed": "6",
+          "b_seed": null,
+          "h2h": null
         },
         {
           "a": "Lulu Sun",
@@ -594,6 +578,13 @@
           "b": "Akasha Urhobo",
           "a_seed": "Q",
           "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Harmony Tan",
+          "b": "Lanlana Tararudee",
+          "a_seed": "Q",
+          "b_seed": "2",
           "h2h": null
         }
       ],
@@ -630,6 +621,18 @@
         },
         {
           "round": "R1",
+          "winner": "Elizabeth Mandlik",
+          "loser": "Mingge Xu",
+          "score": "46 64 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Dalma Galfi",
+          "loser": "Emerson Jones",
+          "score": "76(6) 67(2) 75"
+        },
+        {
+          "round": "R1",
           "winner": "Lulu Sun",
           "loser": "Ella Mcdonald",
           "score": "26 62 62"
@@ -663,6 +666,18 @@
           "winner": "Akasha Urhobo",
           "loser": "Mananchaya Sawangkaew",
           "score": "76(3) 60"
+        },
+        {
+          "round": "R1",
+          "winner": "Harmony Tan",
+          "loser": "Taylah Preston",
+          "score": "46 63 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Lanlana Tararudee",
+          "loser": "Iryna Shymanovich",
+          "score": "76(6) 76(5)"
         }
       ]
     },
@@ -906,17 +921,10 @@
         },
         {
           "a": "Kaitlin Quevedo",
-          "b": "Jeline Vandromme",
+          "b": "Laura Samson",
           "a_seed": "5",
           "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Laura Samson",
-          "b": "Darja Semenistaja",
-          "a_seed": "2",
-          "b_seed": null,
-          "h2h": null
+          "h2h": "1-0"
         }
       ],
       "completed": [
@@ -925,6 +933,18 @@
           "winner": "Katarzyna Kawa",
           "loser": "Noma Noha Akugue",
           "score": "76(4) 61"
+        },
+        {
+          "round": "R2",
+          "winner": "Kaitlin Quevedo",
+          "loser": "Jeline Vandromme",
+          "score": "63 36 64"
+        },
+        {
+          "round": "R2",
+          "winner": "Laura Samson",
+          "loser": "Darja Semenistaja",
+          "score": "62 75"
         },
         {
           "round": "R1",
