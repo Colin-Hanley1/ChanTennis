@@ -1,11 +1,23 @@
 {
-  "fetched_at": "2026-06-10T12:31:46Z",
+  "fetched_at": "2026-06-10T13:58:29Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Anastasia Potapova",
+      "loser": "Suzan Lamens",
+      "score": "6-7 6-4 6-4",
+      "round": "Round 1"
+    },
     {
       "winner": "Barbora Krejcikova",
       "loser": "Renata Zarazua",
       "score": "6-1 6-2",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Catherine McNally",
+      "loser": "Emma Navarro",
+      "score": "4-6 6-0 6-4",
       "round": "Round 1"
     },
     {
@@ -39,6 +51,12 @@
       "round": "Round 1"
     },
     {
+      "winner": "Hanne Vandewinkel",
+      "loser": "Nikola Bartunkova",
+      "score": "4-6 7-6 7-5",
+      "round": "Round 1"
+    },
+    {
       "winner": "Magda Linette",
       "loser": "Kimberly Birrell",
       "score": "2-6 6-1 6-2",
@@ -60,6 +78,12 @@
       "winner": "Robin Montgomery",
       "loser": "Daria Kasatkina",
       "score": "5-7 6-0 6-4",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Solana Sierra",
+      "loser": "Lois Boisson",
+      "score": "6-4 5-7 6-3",
       "round": "Round 1"
     },
     {
