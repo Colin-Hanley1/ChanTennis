@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-11T06:23:55Z",
+  "fetched_at": "2026-06-11T10:52:27Z",
   "source": "espn",
   "matches": [
     {
@@ -97,6 +97,18 @@
       "loser": "Katie Volynets",
       "score": "6-3 2-6 6-3",
       "round": "Round 1"
+    },
+    {
+      "winner": "Elena-Gabriela Ruse",
+      "loser": "Elise Mertens",
+      "score": "6-3 6-3",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Robin Montgomery",
+      "loser": "Greet Minnen",
+      "score": "6-4 7-6",
+      "round": "Round 2"
     }
   ]
 }
