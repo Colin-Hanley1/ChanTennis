@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-11T14:48:12Z",
+  "fetched_at": "2026-06-11T18:23:23Z",
   "events": [
     {
       "slug": "2026WTAQueens",
@@ -891,25 +891,18 @@
       ],
       "r1_matches": [
         {
-          "a": "Victoria Jimenez Kasintseva",
-          "b": "Varvara Lepchenko",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": "0-2"
-        },
-        {
-          "a": "Tamara Zidansek",
-          "b": "Nuria Brancaccio",
-          "a_seed": "7",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
           "a": "Lucia Bronzetti",
           "b": "Julia Grabher",
           "a_seed": "4",
           "b_seed": null,
           "h2h": "3-1"
+        },
+        {
+          "a": "Victoria Jimenez Kasintseva",
+          "b": "Leyre Romero Gormaz",
+          "a_seed": "1",
+          "b_seed": null,
+          "h2h": "0-2"
         },
         {
           "a": "Dominika Salkova",
@@ -929,6 +922,12 @@
       "completed": [
         {
           "round": "R2",
+          "winner": "Victoria Jimenez Kasintseva",
+          "loser": "Varvara Lepchenko",
+          "score": "62 62"
+        },
+        {
+          "round": "R2",
           "winner": "Leyre Romero Gormaz",
           "loser": "Mayar Sherif",
           "score": "64 62"
@@ -944,6 +943,12 @@
           "winner": "Katarzyna Kawa",
           "loser": "Noma Noha Akugue",
           "score": "76(4) 61"
+        },
+        {
+          "round": "R2",
+          "winner": "Nuria Brancaccio",
+          "loser": "Tamara Zidansek",
+          "score": "62 62"
         },
         {
           "round": "R2",
