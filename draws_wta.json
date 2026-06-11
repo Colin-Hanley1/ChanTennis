@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-11T10:52:29Z",
+  "fetched_at": "2026-06-11T14:48:12Z",
   "events": [
     {
       "slug": "2026WTAQueens",
@@ -898,13 +898,6 @@
           "h2h": "0-2"
         },
         {
-          "a": "Leyre Romero Gormaz",
-          "b": "Mayar Sherif",
-          "a_seed": "6",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
           "a": "Tamara Zidansek",
           "b": "Nuria Brancaccio",
           "a_seed": "7",
@@ -934,6 +927,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Leyre Romero Gormaz",
+          "loser": "Mayar Sherif",
+          "score": "64 62"
+        },
         {
           "round": "R2",
           "winner": "Dominika Salkova",

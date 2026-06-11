@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-11T10:52:29Z",
+  "fetched_at": "2026-06-11T14:48:12Z",
   "events": [
     {
       "slug": "2026ATPStuttgart",
@@ -221,35 +221,39 @@
           "h2h": "1-3"
         },
         {
-          "a": "Giovanni Mpetshi Perricard",
-          "b": "Gauthier Onclin",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
-          "a": "Jan Lennard Struff",
-          "b": "Alexander Bublik",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": "5-3"
-        },
-        {
-          "a": "Mattia Bellucci",
-          "b": "Yannick Hanfmann",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
           "a": "Martin Landaluce",
           "b": "Taylor Fritz",
           "a_seed": "2",
           "b_seed": null,
           "h2h": null
+        },
+        {
+          "a": "Giovanni Mpetshi Perricard",
+          "b": "Alexander Bublik",
+          "a_seed": "3",
+          "b_seed": null,
+          "h2h": "2-1"
         }
       ],
       "completed": [
+        {
+          "round": "R16",
+          "winner": "Giovanni Mpetshi Perricard",
+          "loser": "Gauthier Onclin",
+          "score": "7-6(1) 6-2"
+        },
+        {
+          "round": "R16",
+          "winner": "Alexander Bublik",
+          "loser": "Jan Lennard Struff",
+          "score": "7-6(3) 3-6 6-2"
+        },
+        {
+          "round": "R16",
+          "winner": "Mattia Bellucci",
+          "loser": "Yannick Hanfmann",
+          "score": "7-5 6-7(4) 6-2"
+        },
         {
           "round": "R32",
           "winner": "Marcos Giron",

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-11T11:04:37Z",
+  "fetched_at": "2026-06-11T14:48:09Z",
   "source": "espn",
   "matches": [
     {
@@ -147,6 +147,12 @@
       "round": "Round 1"
     },
     {
+      "winner": "Adrian Mannarino",
+      "loser": "Arthur Rinderknech",
+      "score": "7-6 3-6 6-3",
+      "round": "Round 2"
+    },
+    {
       "winner": "Alex de Minaur",
       "loser": "Martin Damm",
       "score": "7-6 7-5",
@@ -159,15 +165,57 @@
       "round": "Round 2"
     },
     {
+      "winner": "Benjamin Bonzi",
+      "loser": "Ugo Humbert",
+      "score": "6-4 3-6 6-3",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Felix Auger-Aliassime",
+      "loser": "Marton Fucsovics",
+      "score": "6-3 6-4",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Frances Tiafoe",
+      "loser": "Rinky Hijikata",
+      "score": "6-4 6-4",
+      "round": "Round 2"
+    },
+    {
       "winner": "Giovanni Mpetshi Perricard",
       "loser": "Gauthier Onclin",
       "score": "7-6 6-2",
       "round": "Round 2"
     },
     {
+      "winner": "Jiri Lehecka",
+      "loser": "James Duckworth",
+      "score": "6-7 6-4 7-6",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Kamil Majchrzak",
+      "loser": "James McCabe",
+      "score": "6-0 6-3",
+      "round": "Round 2"
+    },
+    {
       "winner": "Mattia Bellucci",
       "loser": "Yannick Hanfmann",
       "score": "7-5 6-7 6-2",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Sho Shimabukuro",
+      "loser": "Nick Kyrgios",
+      "score": "4-6 7-6 6-4",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Zhang Zhizhen",
+      "loser": "Tallon Griekspoor",
+      "score": "7-6 6-4",
       "round": "Round 2"
     }
   ]
