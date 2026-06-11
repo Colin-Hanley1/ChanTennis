@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-11T21:27:24Z",
+  "fetched_at": "2026-06-11T23:44:37Z",
   "events": [
     {
       "slug": "2026WTAQueens",
@@ -891,13 +891,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Lucia Bronzetti",
-          "b": "Julia Grabher",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": "3-1"
-        },
-        {
           "a": "Victoria Jimenez Kasintseva",
           "b": "Leyre Romero Gormaz",
           "a_seed": "1",
@@ -910,6 +903,13 @@
           "a_seed": "3",
           "b_seed": null,
           "h2h": "0-1"
+        },
+        {
+          "a": "Nuria Brancaccio",
+          "b": "Lucia Bronzetti",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "1-1"
         },
         {
           "a": "Kaitlin Quevedo",
@@ -949,6 +949,12 @@
           "winner": "Nuria Brancaccio",
           "loser": "Tamara Zidansek",
           "score": "62 62"
+        },
+        {
+          "round": "R2",
+          "winner": "Lucia Bronzetti",
+          "loser": "Julia Grabher",
+          "score": "76(6) 76(4)"
         },
         {
           "round": "R2",
