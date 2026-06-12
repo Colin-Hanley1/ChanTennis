@@ -1,7 +1,13 @@
 {
-  "fetched_at": "2026-06-12T09:07:02Z",
+  "fetched_at": "2026-06-12T11:51:23Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Adrian Mannarino",
+      "loser": "Zhang Zhizhen",
+      "score": "7-6 6-3",
+      "round": "Quarterfinal"
+    },
     {
       "winner": "Adrian Mannarino",
       "loser": "Gabriel Diallo",

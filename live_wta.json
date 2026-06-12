@@ -1,7 +1,13 @@
 {
-  "fetched_at": "2026-06-12T09:07:02Z",
+  "fetched_at": "2026-06-12T11:51:23Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Barbora Krejcikova",
+      "loser": "Elena-Gabriela Ruse",
+      "score": "6-1 6-2",
+      "round": "Quarterfinal"
+    },
     {
       "winner": "Ajla Tomljanovic",
       "loser": "Jessica Bouzas Maneiro",
@@ -102,6 +108,12 @@
       "winner": "Barbora Krejcikova",
       "loser": "Hanne Vandewinkel",
       "score": "6-1 6-4",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Catherine McNally",
+      "loser": "Solana Sierra",
+      "score": "6-4 6-3",
       "round": "Round 2"
     },
     {
