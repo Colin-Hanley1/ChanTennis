@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-12T16:51:26Z",
+  "fetched_at": "2026-06-12T19:14:42Z",
   "events": [
     {
       "slug": "2026WTAQueens",
@@ -200,28 +200,26 @@
           "h2h": "2-0"
         },
         {
-          "a": "Karolina Pliskova",
-          "b": "Donna Vekic",
-          "a_seed": "LL",
-          "b_seed": null,
-          "h2h": "7-4"
-        },
-        {
           "a": "Emma Raducanu",
           "b": "Kamilla Rakhimova",
           "a_seed": "LL",
           "b_seed": null,
           "h2h": null
-        },
-        {
-          "a": "Iva Jovic",
-          "b": "Amanda Anisimova",
-          "a_seed": "6",
-          "b_seed": "2",
-          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Donna Vekic",
+          "loser": "Karolina Pliskova",
+          "score": "64 46 63"
+        },
+        {
+          "round": "QF",
+          "winner": "Iva Jovic",
+          "loser": "Amanda Anisimova",
+          "score": "62 36 63"
+        },
         {
           "round": "R2",
           "winner": "Elena Rybakina",
@@ -548,23 +546,9 @@
       ],
       "r1_matches": [
         {
-          "a": "Katie Swan",
-          "b": "Ashlyn Krueger",
-          "a_seed": "WC",
-          "b_seed": "8",
-          "h2h": "0-1"
-        },
-        {
           "a": "Darja Vidmanova",
           "b": "Elizabeth Mandlik",
           "a_seed": "4",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Mary Stoiana",
-          "b": "Tatiana Prozorova",
-          "a_seed": null,
           "b_seed": null,
           "h2h": null
         },
@@ -577,6 +561,18 @@
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Ashlyn Krueger",
+          "loser": "Katie Swan",
+          "score": ""
+        },
+        {
+          "round": "QF",
+          "winner": "Mary Stoiana",
+          "loser": "Tatiana Prozorova",
+          "score": "75 61"
+        },
         {
           "round": "R2",
           "winner": "Katie Swan",
@@ -927,13 +923,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Nuria Brancaccio",
-          "b": "Lucia Bronzetti",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-1"
-        },
-        {
           "a": "Kaitlin Quevedo",
           "b": "Laura Samson",
           "a_seed": "5",
@@ -960,6 +949,12 @@
           "winner": "Katarzyna Kawa",
           "loser": "Dominika Salkova",
           "score": "61 61"
+        },
+        {
+          "round": "QF",
+          "winner": "Lucia Bronzetti",
+          "loser": "Nuria Brancaccio",
+          "score": "64 62"
         },
         {
           "round": "R2",
