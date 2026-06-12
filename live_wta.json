@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-12T11:51:23Z",
+  "fetched_at": "2026-06-12T13:34:40Z",
   "source": "espn",
   "matches": [
     {
@@ -103,6 +103,12 @@
       "loser": "Katie Volynets",
       "score": "6-3 2-6 6-3",
       "round": "Round 1"
+    },
+    {
+      "winner": "Ajla Tomljanovic",
+      "loser": "Dayana Yastremska",
+      "score": "4-6 6-4 7-5",
+      "round": "Round 2"
     },
     {
       "winner": "Barbora Krejcikova",

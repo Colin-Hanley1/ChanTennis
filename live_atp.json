@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-12T11:51:23Z",
+  "fetched_at": "2026-06-12T13:34:40Z",
   "source": "espn",
   "matches": [
     {
@@ -177,6 +177,12 @@
       "round": "Round 2"
     },
     {
+      "winner": "Daniil Medvedev",
+      "loser": "Thijs Boogaard",
+      "score": "6-3 4-6 7-6",
+      "round": "Round 2"
+    },
+    {
       "winner": "Felix Auger-Aliassime",
       "loser": "Marton Fucsovics",
       "score": "6-3 6-4",
@@ -204,6 +210,12 @@
       "winner": "Kamil Majchrzak",
       "loser": "James McCabe",
       "score": "6-0 6-3",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Marin Cilic",
+      "loser": "Nuno Borges",
+      "score": "3-6 7-6 6-3",
       "round": "Round 2"
     },
     {

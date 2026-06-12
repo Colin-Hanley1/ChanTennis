@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-12T09:07:05Z",
+  "fetched_at": "2026-06-12T13:34:44Z",
   "events": [
     {
       "slug": "2026WTAQueens",
@@ -193,27 +193,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Elena Rybakina",
-          "b": "Tatjana Maria",
-          "a_seed": "1",
-          "b_seed": "Q",
-          "h2h": "1-1"
-        },
-        {
-          "a": "Jaqueline Cristian",
-          "b": "Katie Boulter",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": "1-2"
-        },
-        {
-          "a": "Marie Bouzkova",
-          "b": "Donna Vekic",
-          "a_seed": "LL",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
           "a": "Sorana Cirstea",
           "b": "Emma Raducanu",
           "a_seed": "7",
@@ -228,6 +207,20 @@
           "h2h": "1-0"
         },
         {
+          "a": "Elena Rybakina",
+          "b": "Katie Boulter",
+          "a_seed": "1",
+          "b_seed": "WC",
+          "h2h": "2-0"
+        },
+        {
+          "a": "Karolina Pliskova",
+          "b": "Donna Vekic",
+          "a_seed": "LL",
+          "b_seed": null,
+          "h2h": "7-4"
+        },
+        {
           "a": "Iva Jovic",
           "b": "Amanda Anisimova",
           "a_seed": "6",
@@ -238,9 +231,27 @@
       "completed": [
         {
           "round": "R2",
+          "winner": "Elena Rybakina",
+          "loser": "Tatjana Maria",
+          "score": "67(4) 75 60"
+        },
+        {
+          "round": "R2",
+          "winner": "Katie Boulter",
+          "loser": "Jaqueline Cristian",
+          "score": "61 63"
+        },
+        {
+          "round": "R2",
           "winner": "Karolina Pliskova",
           "loser": "Victoria Mboko",
           "score": ""
+        },
+        {
+          "round": "R2",
+          "winner": "Donna Vekic",
+          "loser": "Marie Bouzkova",
+          "score": "76(9) 63"
         },
         {
           "round": "R2",
@@ -560,20 +571,6 @@
           "h2h": null
         },
         {
-          "a": "Lulu Sun",
-          "b": "Mary Stoiana",
-          "a_seed": "5",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
-          "a": "Tatiana Prozorova",
-          "b": "Sinja Kraus",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": "1-1"
-        },
-        {
           "a": "Celine Naef",
           "b": "Akasha Urhobo",
           "a_seed": "Q",
@@ -586,9 +583,28 @@
           "a_seed": "Q",
           "b_seed": "2",
           "h2h": null
+        },
+        {
+          "a": "Mary Stoiana",
+          "b": "Tatiana Prozorova",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Mary Stoiana",
+          "loser": "Lulu Sun",
+          "score": "62 63"
+        },
+        {
+          "round": "R2",
+          "winner": "Tatiana Prozorova",
+          "loser": "Sinja Kraus",
+          "score": "64 63"
+        },
         {
           "round": "R1",
           "winner": "Viktorija Golubic",
@@ -898,13 +914,6 @@
           "h2h": "0-2"
         },
         {
-          "a": "Dominika Salkova",
-          "b": "Katarzyna Kawa",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
           "a": "Nuria Brancaccio",
           "b": "Lucia Bronzetti",
           "a_seed": null,
@@ -920,6 +929,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Katarzyna Kawa",
+          "loser": "Dominika Salkova",
+          "score": "61 61"
+        },
         {
           "round": "R2",
           "winner": "Victoria Jimenez Kasintseva",
