@@ -1,11 +1,17 @@
 {
-  "fetched_at": "2026-06-12T13:34:40Z",
+  "fetched_at": "2026-06-12T14:31:32Z",
   "source": "espn",
   "matches": [
     {
       "winner": "Adrian Mannarino",
       "loser": "Zhang Zhizhen",
       "score": "7-6 6-3",
+      "round": "Quarterfinal"
+    },
+    {
+      "winner": "Alex de Minaur",
+      "loser": "Benjamin Bonzi",
+      "score": "6-2 6-4",
       "round": "Quarterfinal"
     },
     {

@@ -1,11 +1,17 @@
 {
-  "fetched_at": "2026-06-12T13:34:40Z",
+  "fetched_at": "2026-06-12T14:31:32Z",
   "source": "espn",
   "matches": [
     {
       "winner": "Barbora Krejcikova",
       "loser": "Elena-Gabriela Ruse",
       "score": "6-1 6-2",
+      "round": "Quarterfinal"
+    },
+    {
+      "winner": "Magda Linette",
+      "loser": "Zeynep Sonmez",
+      "score": "6-4 6-2",
       "round": "Quarterfinal"
     },
     {
