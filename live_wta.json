@@ -1,7 +1,13 @@
 {
-  "fetched_at": "2026-06-13T08:28:46Z",
+  "fetched_at": "2026-06-13T10:42:15Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Ajla Tomljanovic",
+      "loser": "Catherine McNally",
+      "score": "6-4 6-4",
+      "round": "Quarterfinal"
+    },
     {
       "winner": "Barbora Krejcikova",
       "loser": "Elena-Gabriela Ruse",
