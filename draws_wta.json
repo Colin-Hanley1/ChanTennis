@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-13T14:19:02Z",
+  "fetched_at": "2026-06-13T16:22:18Z",
   "events": [
     {
       "slug": "2026WTAQueens",
@@ -194,20 +194,19 @@
       "r1_matches": [
         {
           "a": "Emma Raducanu",
-          "b": "Kamilla Rakhimova",
-          "a_seed": "LL",
+          "b": "Iva Jovic",
+          "a_seed": "6",
           "b_seed": null,
           "h2h": null
-        },
-        {
-          "a": "Katie Boulter",
-          "b": "Donna Vekic",
-          "a_seed": "WC",
-          "b_seed": "LL",
-          "h2h": "1-0"
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Donna Vekic",
+          "loser": "Katie Boulter",
+          "score": "61 63"
+        },
         {
           "round": "QF",
           "winner": "Katie Boulter",
@@ -219,6 +218,12 @@
           "winner": "Donna Vekic",
           "loser": "Karolina Pliskova",
           "score": "64 46 63"
+        },
+        {
+          "round": "QF",
+          "winner": "Emma Raducanu",
+          "loser": "Kamilla Rakhimova",
+          "score": "63 75"
         },
         {
           "round": "QF",
@@ -552,13 +557,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Ashlyn Krueger",
-          "b": "Darja Vidmanova",
-          "a_seed": "8",
-          "b_seed": "4",
-          "h2h": null
-        },
-        {
           "a": "Mary Stoiana",
           "b": "Celine Naef",
           "a_seed": "Q",
@@ -567,6 +565,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Ashlyn Krueger",
+          "loser": "Darja Vidmanova",
+          "score": "64 36 64"
+        },
         {
           "round": "QF",
           "winner": "Ashlyn Krueger",
