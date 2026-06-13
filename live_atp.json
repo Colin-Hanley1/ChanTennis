@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-13T14:26:09Z",
+  "fetched_at": "2026-06-13T15:55:20Z",
   "source": "espn",
   "matches": [
     {
@@ -289,6 +289,12 @@
       "loser": "Tallon Griekspoor",
       "score": "7-6 6-4",
       "round": "Round 2"
+    },
+    {
+      "winner": "Alex de Minaur",
+      "loser": "Adrian Mannarino",
+      "score": "6-4 6-0",
+      "round": "Semifinal"
     },
     {
       "winner": "Taylor Fritz",
