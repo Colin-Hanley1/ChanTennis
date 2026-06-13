@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-13T10:42:15Z",
+  "fetched_at": "2026-06-13T11:22:26Z",
   "source": "espn",
   "matches": [
     {
@@ -163,6 +163,12 @@
       "loser": "Greet Minnen",
       "score": "6-4 7-6",
       "round": "Round 2"
+    },
+    {
+      "winner": "Barbora Krejcikova",
+      "loser": "Magda Linette",
+      "score": "6-3 7-6",
+      "round": "Semifinal"
     }
   ]
 }

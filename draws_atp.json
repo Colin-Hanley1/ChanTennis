@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-13T08:28:58Z",
+  "fetched_at": "2026-06-13T11:22:30Z",
   "events": [
     {
       "slug": "2026ATPStuttgart",
@@ -194,34 +194,44 @@
       "r1_matches": [
         {
           "a": "Ben Shelton",
-          "b": "Marcos Giron",
+          "b": "Sho Shimabukuro",
           "a_seed": "1",
-          "b_seed": null,
-          "h2h": "2-1"
-        },
-        {
-          "a": "Jiri Lehecka",
-          "b": "Frances Tiafoe",
-          "a_seed": "4",
-          "b_seed": "6",
-          "h2h": "1-2"
-        },
-        {
-          "a": "Giovanni Mpetshi Perricard",
-          "b": "Alexander Bublik",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": "2-1"
-        },
-        {
-          "a": "Mattia Bellucci",
-          "b": "Taylor Fritz",
-          "a_seed": "2",
-          "b_seed": null,
+          "b_seed": "Q",
           "h2h": null
+        },
+        {
+          "a": "Alexander Bublik",
+          "b": "Taylor Fritz",
+          "a_seed": "3",
+          "b_seed": "2",
+          "h2h": "4-3"
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Jiri Lehecka",
+          "loser": "Frances Tiafoe",
+          "score": "6-4 7-6(4)"
+        },
+        {
+          "round": "QF",
+          "winner": "Alexander Bublik",
+          "loser": "Giovanni Mpetshi Perricard",
+          "score": "7-6(5) 7-6(3)"
+        },
+        {
+          "round": "QF",
+          "winner": "Taylor Fritz",
+          "loser": "Mattia Bellucci",
+          "score": "5-7 7-5 7-5"
+        },
+        {
+          "round": "R16",
+          "winner": "Ben Shelton",
+          "loser": "Marcos Giron",
+          "score": "6-7(4) 6-4 7-6(5)"
+        },
         {
           "round": "R16",
           "winner": "Sho Shimabukuro",
