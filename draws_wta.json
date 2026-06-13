@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-13T20:22:13Z",
+  "fetched_at": "2026-06-13T22:13:38Z",
   "events": [
     {
       "slug": "2026WTAQueens",
@@ -957,11 +957,11 @@
       ],
       "r1_matches": [
         {
-          "a": "Lucia Bronzetti",
-          "b": "Laura Samson",
+          "a": "Katarzyna Kawa",
+          "b": "Lucia Bronzetti",
           "a_seed": null,
           "b_seed": null,
-          "h2h": null
+          "h2h": "1-0"
         }
       ],
       "completed": [
@@ -970,6 +970,12 @@
           "winner": "Katarzyna Kawa",
           "loser": "Victoria Jimenez Kasintseva",
           "score": "26 64 63"
+        },
+        {
+          "round": "SF",
+          "winner": "Lucia Bronzetti",
+          "loser": "Laura Samson",
+          "score": "76(3) 61"
         },
         {
           "round": "QF",
