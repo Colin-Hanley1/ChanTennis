@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-13T11:22:26Z",
+  "fetched_at": "2026-06-13T12:14:07Z",
   "source": "espn",
   "matches": [
     {
@@ -24,6 +24,12 @@
       "winner": "Ben Shelton",
       "loser": "Sho Shimabukuro",
       "score": "4-6 6-3 6-4",
+      "round": "Quarterfinal"
+    },
+    {
+      "winner": "Daniil Medvedev",
+      "loser": "Marin Cilic",
+      "score": "6-2 3-6 6-1",
       "round": "Quarterfinal"
     },
     {
