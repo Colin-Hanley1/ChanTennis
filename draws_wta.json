@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-13T16:22:18Z",
+  "fetched_at": "2026-06-13T18:16:58Z",
   "events": [
     {
       "slug": "2026WTAQueens",
@@ -557,11 +557,11 @@
       ],
       "r1_matches": [
         {
-          "a": "Mary Stoiana",
+          "a": "Ashlyn Krueger",
           "b": "Celine Naef",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": "1-0"
+          "a_seed": "8",
+          "b_seed": "Q",
+          "h2h": "0-1"
         }
       ],
       "completed": [
@@ -570,6 +570,12 @@
           "winner": "Ashlyn Krueger",
           "loser": "Darja Vidmanova",
           "score": "64 36 64"
+        },
+        {
+          "round": "SF",
+          "winner": "Celine Naef",
+          "loser": "Mary Stoiana",
+          "score": "16 63 64"
         },
         {
           "round": "QF",
