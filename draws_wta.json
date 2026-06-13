@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-13T18:16:58Z",
+  "fetched_at": "2026-06-13T20:22:13Z",
   "events": [
     {
       "slug": "2026WTAQueens",
@@ -193,9 +193,9 @@
       ],
       "r1_matches": [
         {
-          "a": "Emma Raducanu",
-          "b": "Iva Jovic",
-          "a_seed": "6",
+          "a": "Donna Vekic",
+          "b": "Emma Raducanu",
+          "a_seed": "LL",
           "b_seed": null,
           "h2h": null
         }
@@ -206,6 +206,12 @@
           "winner": "Donna Vekic",
           "loser": "Katie Boulter",
           "score": "61 63"
+        },
+        {
+          "round": "SF",
+          "winner": "Emma Raducanu",
+          "loser": "Iva Jovic",
+          "score": "62 62"
         },
         {
           "round": "QF",
@@ -951,13 +957,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Victoria Jimenez Kasintseva",
-          "b": "Katarzyna Kawa",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Lucia Bronzetti",
           "b": "Laura Samson",
           "a_seed": null,
@@ -966,6 +965,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Katarzyna Kawa",
+          "loser": "Victoria Jimenez Kasintseva",
+          "score": "26 64 63"
+        },
         {
           "round": "QF",
           "winner": "Victoria Jimenez Kasintseva",
