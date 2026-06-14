@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-14T09:50:28Z",
+  "fetched_at": "2026-06-14T10:45:18Z",
   "events": [
     {
       "slug": "2026ATPStuttgart",
@@ -194,20 +194,31 @@
       "r1_matches": [
         {
           "a": "Ben Shelton",
-          "b": "Sho Shimabukuro",
-          "a_seed": "1",
-          "b_seed": "Q",
-          "h2h": null
-        },
-        {
-          "a": "Alexander Bublik",
           "b": "Taylor Fritz",
-          "a_seed": "3",
+          "a_seed": "1",
           "b_seed": "2",
-          "h2h": "4-3"
+          "h2h": "2-1"
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Ben Shelton",
+          "loser": "Jiri Lehecka",
+          "score": "6-7(4) 7-6(14) 7-6(6)"
+        },
+        {
+          "round": "SF",
+          "winner": "Taylor Fritz",
+          "loser": "Alexander Bublik",
+          "score": "6-4 6-4"
+        },
+        {
+          "round": "QF",
+          "winner": "Ben Shelton",
+          "loser": "Sho Shimabukuro",
+          "score": "4-6 6-3 6-4"
+        },
         {
           "round": "QF",
           "winner": "Jiri Lehecka",
