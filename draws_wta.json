@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-14T12:05:12Z",
+  "fetched_at": "2026-06-14T15:11:20Z",
   "events": [
     {
       "slug": "2026WTAQueens",
@@ -561,16 +561,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Ashlyn Krueger",
-          "b": "Celine Naef",
-          "a_seed": "8",
-          "b_seed": "Q",
-          "h2h": "0-1"
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Ashlyn Krueger",
+          "loser": "Celine Naef",
+          "score": "75 62"
+        },
         {
           "round": "SF",
           "winner": "Ashlyn Krueger",
