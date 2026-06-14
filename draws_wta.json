@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-14T15:11:20Z",
+  "fetched_at": "2026-06-14T17:37:56Z",
   "events": [
     {
       "slug": "2026WTAQueens",
@@ -191,16 +191,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Donna Vekic",
-          "b": "Emma Raducanu",
-          "a_seed": "LL",
-          "b_seed": null,
-          "h2h": null
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Donna Vekic",
+          "loser": "Emma Raducanu",
+          "score": "60 76(6)"
+        },
         {
           "round": "SF",
           "winner": "Donna Vekic",

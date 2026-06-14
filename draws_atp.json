@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-14T15:11:20Z",
+  "fetched_at": "2026-06-14T17:37:56Z",
   "events": [
     {
       "slug": "2026ATPStuttgart",
@@ -191,16 +191,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Ben Shelton",
-          "b": "Taylor Fritz",
-          "a_seed": "1",
-          "b_seed": "2",
-          "h2h": "2-1"
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Ben Shelton",
+          "loser": "Taylor Fritz",
+          "score": "6-4 2-6 6-4"
+        },
         {
           "round": "SF",
           "winner": "Ben Shelton",
