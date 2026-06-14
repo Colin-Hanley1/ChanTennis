@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-14T21:22:33Z",
+  "fetched_at": "2026-06-14T23:18:32Z",
   "events": [
     {
       "slug": "2026WTAQueens",
@@ -951,16 +951,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Katarzyna Kawa",
-          "b": "Lucia Bronzetti",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-0"
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Katarzyna Kawa",
+          "loser": "Lucia Bronzetti",
+          "score": "61 46 76(6)"
+        },
         {
           "round": "SF",
           "winner": "Katarzyna Kawa",
