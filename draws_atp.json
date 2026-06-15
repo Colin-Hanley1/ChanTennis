@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-15T21:14:04Z",
+  "fetched_at": "2026-06-15T23:53:29Z",
   "events": [
     {
       "slug": "2026ATPHalle",
@@ -268,25 +268,11 @@
           "h2h": "2-4"
         },
         {
-          "a": "Terence Atmane",
-          "b": "Martin Landaluce",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
           "a": "Tomas Martin Etcheverry",
           "b": "Daniil Medvedev",
           "a_seed": "4",
           "b_seed": null,
           "h2h": null
-        },
-        {
-          "a": "Flavio Cobolli",
-          "b": "Frances Tiafoe",
-          "a_seed": "6",
-          "b_seed": null,
-          "h2h": "1-3"
         },
         {
           "a": "Tallon Griekspoor",
@@ -296,11 +282,11 @@
           "h2h": "1-0"
         },
         {
-          "a": "Nuno Borges",
+          "a": "Learner Tien",
           "b": "Felix Auger Aliassime",
           "a_seed": "2",
           "b_seed": null,
-          "h2h": "1-1"
+          "h2h": null
         }
       ],
       "completed": [
@@ -312,9 +298,27 @@
         },
         {
           "round": "R32",
+          "winner": "Terence Atmane",
+          "loser": "Martin Landaluce",
+          "score": "6-3 3-6 7-6(2)"
+        },
+        {
+          "round": "R32",
+          "winner": "Frances Tiafoe",
+          "loser": "Flavio Cobolli",
+          "score": "6-2 7-6(4)"
+        },
+        {
+          "round": "R32",
           "winner": "Learner Tien",
           "loser": "Max Schoenhaus",
           "score": "6-2 6-4"
+        },
+        {
+          "round": "R32",
+          "winner": "Felix Auger Aliassime",
+          "loser": "Nuno Borges",
+          "score": "6-3 3-6 6-3"
         }
       ]
     },
@@ -370,9 +374,9 @@
           "bye": false
         },
         {
-          "name": "Rafael Jodar",
-          "seed": "5",
-          "country": "ESP",
+          "name": "Marcos Giron",
+          "seed": null,
+          "country": "USA",
           "bye": false
         },
         {
@@ -529,13 +533,6 @@
           "h2h": "2-0"
         },
         {
-          "a": "Jack Pinnington Jones",
-          "b": "Denis Shapovalov",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Brandon Nakashima",
           "b": "Marton Fucsovics",
           "a_seed": null,
@@ -544,8 +541,8 @@
         },
         {
           "a": "Ignacio Buse",
-          "b": "Rafael Jodar",
-          "a_seed": "5",
+          "b": "Marcos Giron",
+          "a_seed": null,
           "b_seed": null,
           "h2h": null
         },
@@ -576,13 +573,6 @@
           "a_seed": "LL",
           "b_seed": "7",
           "h2h": "0-1"
-        },
-        {
-          "a": "Tommy Paul",
-          "b": "Zachary Svajda",
-          "a_seed": "8",
-          "b_seed": "LL",
-          "h2h": null
         },
         {
           "a": "Giovanni Mpetshi Perricard",
@@ -625,9 +615,28 @@
           "a_seed": "SE",
           "b_seed": "2",
           "h2h": "2-0"
+        },
+        {
+          "a": "Tommy Paul",
+          "b": "Botic Van De Zandschulp",
+          "a_seed": "8",
+          "b_seed": null,
+          "h2h": "0-2"
         }
       ],
       "completed": [
+        {
+          "round": "R32",
+          "winner": "Denis Shapovalov",
+          "loser": "Jack Pinnington Jones",
+          "score": "6-4 4-6 7-6(3)"
+        },
+        {
+          "round": "R32",
+          "winner": "Tommy Paul",
+          "loser": "Zachary Svajda",
+          "score": "7-5 6-3"
+        },
         {
           "round": "R32",
           "winner": "Botic Van De Zandschulp",
