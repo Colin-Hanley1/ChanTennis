@@ -1,362 +1,6 @@
 {
-  "fetched_at": "2026-06-15T12:36:51Z",
+  "fetched_at": "2026-06-15T17:59:46Z",
   "events": [
-    {
-      "slug": "2026ATPStuttgart",
-      "name": "Stuttgart",
-      "year": 2026,
-      "tour": "atp",
-      "surface": "grass",
-      "best_of": 3,
-      "url": "https://www.tennisabstract.com/current/2026ATPStuttgart.html",
-      "bracket_slots": [
-        {
-          "name": "Ben Shelton",
-          "seed": "1",
-          "country": "USA",
-          "bye": false
-        },
-        {
-          "bye": true
-        },
-        {
-          "name": "Roberto Bautista Agut",
-          "seed": null,
-          "country": "ESP",
-          "bye": false
-        },
-        {
-          "name": "Marcos Giron",
-          "seed": null,
-          "country": "USA",
-          "bye": false
-        },
-        {
-          "name": "Quentin Halys",
-          "seed": null,
-          "country": "FRA",
-          "bye": false
-        },
-        {
-          "name": "Sho Shimabukuro",
-          "seed": "Q",
-          "country": "JPN",
-          "bye": false
-        },
-        {
-          "name": "Nick Kyrgios",
-          "seed": "WC",
-          "country": "AUS",
-          "bye": false
-        },
-        {
-          "name": "Corentin Moutet",
-          "seed": "8",
-          "country": "FRA",
-          "bye": false
-        },
-        {
-          "name": "Jiri Lehecka",
-          "seed": "4",
-          "country": "CZE",
-          "bye": false
-        },
-        {
-          "bye": true
-        },
-        {
-          "name": "Diego Dedura Palomero",
-          "seed": "WC",
-          "country": "GER",
-          "bye": false
-        },
-        {
-          "name": "James Duckworth",
-          "seed": null,
-          "country": "AUS",
-          "bye": false
-        },
-        {
-          "name": "Tom Gentzsch",
-          "seed": "WC",
-          "country": "GER",
-          "bye": false
-        },
-        {
-          "name": "Rinky Hijikata",
-          "seed": null,
-          "country": "AUS",
-          "bye": false
-        },
-        {
-          "name": "Daniel Altmaier",
-          "seed": null,
-          "country": "GER",
-          "bye": false
-        },
-        {
-          "name": "Frances Tiafoe",
-          "seed": "6",
-          "country": "USA",
-          "bye": false
-        },
-        {
-          "name": "Roman Safiullin",
-          "seed": "LL",
-          "country": "RUS",
-          "bye": false
-        },
-        {
-          "name": "Giovanni Mpetshi Perricard",
-          "seed": null,
-          "country": "FRA",
-          "bye": false
-        },
-        {
-          "name": "Gauthier Onclin",
-          "seed": "Q",
-          "country": "BEL",
-          "bye": false
-        },
-        {
-          "name": "Fabian Marozsan",
-          "seed": null,
-          "country": "HUN",
-          "bye": false
-        },
-        {
-          "name": "Jan Lennard Struff",
-          "seed": null,
-          "country": "GER",
-          "bye": false
-        },
-        {
-          "name": "Alexis Galarneau",
-          "seed": "Q",
-          "country": "CAN",
-          "bye": false
-        },
-        {
-          "bye": true
-        },
-        {
-          "name": "Alexander Bublik",
-          "seed": "3",
-          "country": "KAZ",
-          "bye": false
-        },
-        {
-          "name": "Alejandro Davidovich Fokina",
-          "seed": "7",
-          "country": "ESP",
-          "bye": false
-        },
-        {
-          "name": "Mattia Bellucci",
-          "seed": null,
-          "country": "ITA",
-          "bye": false
-        },
-        {
-          "name": "Yannick Hanfmann",
-          "seed": null,
-          "country": "GER",
-          "bye": false
-        },
-        {
-          "name": "Aleksandar Kovacevic",
-          "seed": null,
-          "country": "USA",
-          "bye": false
-        },
-        {
-          "name": "Pierre Hugues Herbert",
-          "seed": "Q",
-          "country": "FRA",
-          "bye": false
-        },
-        {
-          "name": "Martin Landaluce",
-          "seed": null,
-          "country": "ESP",
-          "bye": false
-        },
-        {
-          "bye": true
-        },
-        {
-          "name": "Taylor Fritz",
-          "seed": "2",
-          "country": "USA",
-          "bye": false
-        }
-      ],
-      "r1_matches": [],
-      "completed": [
-        {
-          "round": "F",
-          "winner": "Ben Shelton",
-          "loser": "Taylor Fritz",
-          "score": "6-4 2-6 6-4"
-        },
-        {
-          "round": "SF",
-          "winner": "Ben Shelton",
-          "loser": "Jiri Lehecka",
-          "score": "6-7(4) 7-6(14) 7-6(6)"
-        },
-        {
-          "round": "SF",
-          "winner": "Taylor Fritz",
-          "loser": "Alexander Bublik",
-          "score": "6-4 6-4"
-        },
-        {
-          "round": "QF",
-          "winner": "Ben Shelton",
-          "loser": "Sho Shimabukuro",
-          "score": "4-6 6-3 6-4"
-        },
-        {
-          "round": "QF",
-          "winner": "Jiri Lehecka",
-          "loser": "Frances Tiafoe",
-          "score": "6-4 7-6(4)"
-        },
-        {
-          "round": "QF",
-          "winner": "Alexander Bublik",
-          "loser": "Giovanni Mpetshi Perricard",
-          "score": "7-6(5) 7-6(3)"
-        },
-        {
-          "round": "QF",
-          "winner": "Taylor Fritz",
-          "loser": "Mattia Bellucci",
-          "score": "5-7 7-5 7-5"
-        },
-        {
-          "round": "R16",
-          "winner": "Ben Shelton",
-          "loser": "Marcos Giron",
-          "score": "6-7(4) 6-4 7-6(5)"
-        },
-        {
-          "round": "R16",
-          "winner": "Sho Shimabukuro",
-          "loser": "Nick Kyrgios",
-          "score": "4-6 7-6(5) 6-4"
-        },
-        {
-          "round": "R16",
-          "winner": "Jiri Lehecka",
-          "loser": "James Duckworth",
-          "score": "6-7(8) 6-4 7-6(3)"
-        },
-        {
-          "round": "R16",
-          "winner": "Frances Tiafoe",
-          "loser": "Rinky Hijikata",
-          "score": "6-4 6-4"
-        },
-        {
-          "round": "R16",
-          "winner": "Giovanni Mpetshi Perricard",
-          "loser": "Gauthier Onclin",
-          "score": "7-6(1) 6-2"
-        },
-        {
-          "round": "R16",
-          "winner": "Alexander Bublik",
-          "loser": "Jan Lennard Struff",
-          "score": "7-6(3) 3-6 6-2"
-        },
-        {
-          "round": "R16",
-          "winner": "Mattia Bellucci",
-          "loser": "Yannick Hanfmann",
-          "score": "7-5 6-7(4) 6-2"
-        },
-        {
-          "round": "R16",
-          "winner": "Taylor Fritz",
-          "loser": "Martin Landaluce",
-          "score": "6-7(4) 7-5 7-6(3)"
-        },
-        {
-          "round": "R32",
-          "winner": "Marcos Giron",
-          "loser": "Roberto Bautista Agut",
-          "score": "7-6(3) 7-5"
-        },
-        {
-          "round": "R32",
-          "winner": "Sho Shimabukuro",
-          "loser": "Quentin Halys",
-          "score": "6-4 6-2"
-        },
-        {
-          "round": "R32",
-          "winner": "Nick Kyrgios",
-          "loser": "Corentin Moutet",
-          "score": "6-3 6-4"
-        },
-        {
-          "round": "R32",
-          "winner": "James Duckworth",
-          "loser": "Diego Dedura Palomero",
-          "score": "6-4 6-3"
-        },
-        {
-          "round": "R32",
-          "winner": "Rinky Hijikata",
-          "loser": "Tom Gentzsch",
-          "score": "6-7(7) 7-6(2) 6-3"
-        },
-        {
-          "round": "R32",
-          "winner": "Frances Tiafoe",
-          "loser": "Daniel Altmaier",
-          "score": "7-6(3) 4-6 6-4"
-        },
-        {
-          "round": "R32",
-          "winner": "Giovanni Mpetshi Perricard",
-          "loser": "Roman Safiullin",
-          "score": "7-5 6-7(4) 7-6(4)"
-        },
-        {
-          "round": "R32",
-          "winner": "Gauthier Onclin",
-          "loser": "Fabian Marozsan",
-          "score": "7-6(6) 6-3"
-        },
-        {
-          "round": "R32",
-          "winner": "Jan Lennard Struff",
-          "loser": "Alexis Galarneau",
-          "score": "6-2 6-7(5) 6-3"
-        },
-        {
-          "round": "R32",
-          "winner": "Mattia Bellucci",
-          "loser": "Alejandro Davidovich Fokina",
-          "score": "6-2 6-7(5) 6-1"
-        },
-        {
-          "round": "R32",
-          "winner": "Yannick Hanfmann",
-          "loser": "Aleksandar Kovacevic",
-          "score": "7-6(5) 7-6(4)"
-        },
-        {
-          "round": "R32",
-          "winner": "Martin Landaluce",
-          "loser": "Pierre Hugues Herbert",
-          "score": "5-7 6-3 6-4"
-        }
-      ]
-    },
     {
       "slug": "2026ATPHalle",
       "name": "Halle",
@@ -624,13 +268,6 @@
           "h2h": "2-4"
         },
         {
-          "a": "Nikoloz Basilashvili",
-          "b": "Daniel Altmaier",
-          "a_seed": "Q",
-          "b_seed": "WC",
-          "h2h": null
-        },
-        {
           "a": "Terence Atmane",
           "b": "Martin Landaluce",
           "a_seed": "Q",
@@ -659,13 +296,6 @@
           "h2h": "1-0"
         },
         {
-          "a": "Max Schoenhaus",
-          "b": "Learner Tien",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Nuno Borges",
           "b": "Felix Auger Aliassime",
           "a_seed": "2",
@@ -673,7 +303,20 @@
           "h2h": "1-1"
         }
       ],
-      "completed": []
+      "completed": [
+        {
+          "round": "R32",
+          "winner": "Daniel Altmaier",
+          "loser": "Nikoloz Basilashvili",
+          "score": "7-5 6-4"
+        },
+        {
+          "round": "R32",
+          "winner": "Learner Tien",
+          "loser": "Max Schoenhaus",
+          "score": "6-2 6-4"
+        }
+      ]
     },
     {
       "slug": "2026ATPLondon",
@@ -942,13 +585,6 @@
           "h2h": null
         },
         {
-          "a": "Botic Van De Zandschulp",
-          "b": "Harry Wendelken",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Giovanni Mpetshi Perricard",
           "b": "Corentin Moutet",
           "a_seed": "Q",
@@ -991,7 +627,14 @@
           "h2h": "2-0"
         }
       ],
-      "completed": []
+      "completed": [
+        {
+          "round": "R32",
+          "winner": "Botic Van De Zandschulp",
+          "loser": "Harry Wendelken",
+          "score": "6-4 7-6(5)"
+        }
+      ]
     }
   ]
 }
