@@ -1,11 +1,25 @@
 {
-  "fetched_at": "2026-06-16T11:28:37Z",
+  "fetched_at": "2026-06-16T15:24:10Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Alexander Zverev",
+      "loser": "Vit Kopriva",
+      "score": "6-3 4-6 6-2",
+      "round": "Round 1",
+      "event": "2026ATPHalle"
+    },
     {
       "winner": "Daniel Altmaier",
       "loser": "Nikoloz Basilashvili",
       "score": "7-5 6-4",
+      "round": "Round 1",
+      "event": "2026ATPHalle"
+    },
+    {
+      "winner": "Ethan Quinn",
+      "loser": "Karen Khachanov",
+      "score": "1-6 6-4 6-4",
       "round": "Round 1",
       "event": "2026ATPHalle"
     },
@@ -20,6 +34,13 @@
       "winner": "Frances Tiafoe",
       "loser": "Flavio Cobolli",
       "score": "6-2 7-6",
+      "round": "Round 1",
+      "event": "2026ATPHalle"
+    },
+    {
+      "winner": "Hubert Hurkacz",
+      "loser": "Andrey Rublev",
+      "score": "6-3 6-2",
       "round": "Round 1",
       "event": "2026ATPHalle"
     },
@@ -45,11 +66,37 @@
       "event": "2026ATPHalle"
     },
     {
+      "winner": "Sho Shimabukuro",
+      "loser": "Tallon Griekspoor",
+      "score": "6-4 3-6 6-4",
+      "round": "Round 1",
+      "event": "2026ATPHalle"
+    },
+    {
       "winner": "Terence Atmane",
       "loser": "Martin Landaluce",
       "score": "6-3 3-6 7-6",
       "round": "Round 1",
       "event": "2026ATPHalle"
+    },
+    {
+      "winner": "Yannick Hanfmann",
+      "loser": "Joao Fonseca",
+      "score": "6-2 6-2",
+      "round": "Round 1",
+      "event": "2026ATPHalle"
+    },
+    {
+      "winner": "Adrian Mannarino",
+      "loser": "Jakub Mensik",
+      "score": "5-7 7-6 7-6",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Arthur Fery",
+      "loser": "Toby Samuel",
+      "score": "6-0 6-2",
+      "round": "Round 1"
     },
     {
       "winner": "Botic Van De Zandschulp",
@@ -58,9 +105,27 @@
       "round": "Round 1"
     },
     {
+      "winner": "Brandon Nakashima",
+      "loser": "Marton Fucsovics",
+      "score": "6-3 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Corentin Moutet",
+      "loser": "Giovanni Mpetshi Perricard",
+      "score": "6-7 6-4 7-6",
+      "round": "Round 1"
+    },
+    {
       "winner": "Denis Shapovalov",
       "loser": "Jack Pinnington Jones",
       "score": "6-4 4-6 7-6",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Ignacio Buse",
+      "loser": "Marcos Giron",
+      "score": "3-6 7-5 7-6",
       "round": "Round 1"
     },
     {
