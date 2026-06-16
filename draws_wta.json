@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-16T21:14:14Z",
+  "fetched_at": "2026-06-16T23:41:23Z",
   "events": [
     {
       "slug": "2026WTABerlin",
@@ -1240,13 +1240,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Jeline Vandromme",
-          "b": "Allura Zamarripa",
-          "a_seed": "8",
-          "b_seed": "Q",
-          "h2h": null
-        },
-        {
           "a": "Alina Korneeva",
           "b": "Martyna Kubka",
           "a_seed": "1",
@@ -1287,6 +1280,13 @@
           "a_seed": "Q",
           "b_seed": "4",
           "h2h": "0-1"
+        },
+        {
+          "a": "Jeline Vandromme",
+          "b": "Valentina Ryser",
+          "a_seed": "8",
+          "b_seed": "Q",
+          "h2h": null
         },
         {
           "a": "Ayla Aksu",
@@ -1368,6 +1368,12 @@
           "winner": "Alina Charaeva",
           "loser": "Manon Leonard",
           "score": "60 60"
+        },
+        {
+          "round": "R1",
+          "winner": "Jeline Vandromme",
+          "loser": "Allura Zamarripa",
+          "score": "36 76(3) 75"
         },
         {
           "round": "R1",
