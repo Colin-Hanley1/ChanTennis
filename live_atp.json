@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-16T10:25:02Z",
+  "fetched_at": "2026-06-16T11:28:37Z",
   "source": "espn",
   "matches": [
     {
@@ -27,6 +27,20 @@
       "winner": "Learner Tien",
       "loser": "Max Schoenhaus",
       "score": "6-2 6-4",
+      "round": "Round 1",
+      "event": "2026ATPHalle"
+    },
+    {
+      "winner": "Mattia Bellucci",
+      "loser": "Alexander Bublik",
+      "score": "7-6 6-1",
+      "round": "Round 1",
+      "event": "2026ATPHalle"
+    },
+    {
+      "winner": "Raphael Collignon",
+      "loser": "Alexei Popyrin",
+      "score": "6-4 6-2",
       "round": "Round 1",
       "event": "2026ATPHalle"
     },
