@@ -1,327 +1,6 @@
 {
-  "fetched_at": "2026-06-16T17:14:40Z",
+  "fetched_at": "2026-06-16T21:14:14Z",
   "events": [
-    {
-      "slug": "2026ATPHalle",
-      "name": "Halle",
-      "year": 2026,
-      "tour": "atp",
-      "surface": "grass",
-      "best_of": 3,
-      "url": "https://www.tennisabstract.com/current/2026ATPHalle.html",
-      "bracket_slots": [
-        {
-          "name": "Alexander Zverev",
-          "seed": "1",
-          "country": "GER",
-          "bye": false
-        },
-        {
-          "name": "Vit Kopriva",
-          "seed": null,
-          "country": "CZE",
-          "bye": false
-        },
-        {
-          "name": "Joao Fonseca",
-          "seed": null,
-          "country": "BRA",
-          "bye": false
-        },
-        {
-          "name": "Yannick Hanfmann",
-          "seed": null,
-          "country": "GER",
-          "bye": false
-        },
-        {
-          "name": "Alexei Popyrin",
-          "seed": null,
-          "country": "AUS",
-          "bye": false
-        },
-        {
-          "name": "Raphael Collignon",
-          "seed": "Q",
-          "country": "BEL",
-          "bye": false
-        },
-        {
-          "name": "Mattia Bellucci",
-          "seed": "Q",
-          "country": "ITA",
-          "bye": false
-        },
-        {
-          "name": "Alexander Bublik",
-          "seed": "7",
-          "country": "KAZ",
-          "bye": false
-        },
-        {
-          "name": "Ben Shelton",
-          "seed": "3",
-          "country": "USA",
-          "bye": false
-        },
-        {
-          "name": "Nick Kyrgios",
-          "seed": "WC",
-          "country": "AUS",
-          "bye": false
-        },
-        {
-          "name": "Karen Khachanov",
-          "seed": null,
-          "country": "RUS",
-          "bye": false
-        },
-        {
-          "name": "Ethan Quinn",
-          "seed": null,
-          "country": "USA",
-          "bye": false
-        },
-        {
-          "name": "Fabian Marozsan",
-          "seed": null,
-          "country": "HUN",
-          "bye": false
-        },
-        {
-          "name": "Miomir Kecmanovic",
-          "seed": null,
-          "country": "SRB",
-          "bye": false
-        },
-        {
-          "name": "Zizou Bergs",
-          "seed": null,
-          "country": "BEL",
-          "bye": false
-        },
-        {
-          "name": "Taylor Fritz",
-          "seed": "5",
-          "country": "USA",
-          "bye": false
-        },
-        {
-          "name": "Andrey Rublev",
-          "seed": "8",
-          "country": "RUS",
-          "bye": false
-        },
-        {
-          "name": "Hubert Hurkacz",
-          "seed": "PR",
-          "country": "POL",
-          "bye": false
-        },
-        {
-          "name": "Nikoloz Basilashvili",
-          "seed": "Q",
-          "country": "GEO",
-          "bye": false
-        },
-        {
-          "name": "Daniel Altmaier",
-          "seed": "WC",
-          "country": "GER",
-          "bye": false
-        },
-        {
-          "name": "Terence Atmane",
-          "seed": null,
-          "country": "FRA",
-          "bye": false
-        },
-        {
-          "name": "Martin Landaluce",
-          "seed": "Q",
-          "country": "ESP",
-          "bye": false
-        },
-        {
-          "name": "Tomas Martin Etcheverry",
-          "seed": null,
-          "country": "ARG",
-          "bye": false
-        },
-        {
-          "name": "Daniil Medvedev",
-          "seed": "4",
-          "country": "RUS",
-          "bye": false
-        },
-        {
-          "name": "Flavio Cobolli",
-          "seed": "6",
-          "country": "ITA",
-          "bye": false
-        },
-        {
-          "name": "Frances Tiafoe",
-          "seed": null,
-          "country": "USA",
-          "bye": false
-        },
-        {
-          "name": "Tallon Griekspoor",
-          "seed": null,
-          "country": "NED",
-          "bye": false
-        },
-        {
-          "name": "Sho Shimabukuro",
-          "seed": "SE",
-          "country": "JPN",
-          "bye": false
-        },
-        {
-          "name": "Max Schoenhaus",
-          "seed": "WC",
-          "country": "GER",
-          "bye": false
-        },
-        {
-          "name": "Learner Tien",
-          "seed": null,
-          "country": "USA",
-          "bye": false
-        },
-        {
-          "name": "Nuno Borges",
-          "seed": null,
-          "country": "POR",
-          "bye": false
-        },
-        {
-          "name": "Felix Auger Aliassime",
-          "seed": "2",
-          "country": "CAN",
-          "bye": false
-        }
-      ],
-      "r1_matches": [
-        {
-          "a": "Alexander Zverev",
-          "b": "Vit Kopriva",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Joao Fonseca",
-          "b": "Yannick Hanfmann",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Alexei Popyrin",
-          "b": "Raphael Collignon",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Mattia Bellucci",
-          "b": "Alexander Bublik",
-          "a_seed": "Q",
-          "b_seed": "7",
-          "h2h": null
-        },
-        {
-          "a": "Ben Shelton",
-          "b": "Nick Kyrgios",
-          "a_seed": "3",
-          "b_seed": "WC",
-          "h2h": null
-        },
-        {
-          "a": "Karen Khachanov",
-          "b": "Ethan Quinn",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
-          "a": "Fabian Marozsan",
-          "b": "Miomir Kecmanovic",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-1"
-        },
-        {
-          "a": "Zizou Bergs",
-          "b": "Taylor Fritz",
-          "a_seed": "5",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Andrey Rublev",
-          "b": "Hubert Hurkacz",
-          "a_seed": "8",
-          "b_seed": "PR",
-          "h2h": "2-4"
-        },
-        {
-          "a": "Tomas Martin Etcheverry",
-          "b": "Daniil Medvedev",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Tallon Griekspoor",
-          "b": "Sho Shimabukuro",
-          "a_seed": "SE",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
-          "a": "Learner Tien",
-          "b": "Felix Auger Aliassime",
-          "a_seed": "2",
-          "b_seed": null,
-          "h2h": null
-        }
-      ],
-      "completed": [
-        {
-          "round": "R32",
-          "winner": "Daniel Altmaier",
-          "loser": "Nikoloz Basilashvili",
-          "score": "7-5 6-4"
-        },
-        {
-          "round": "R32",
-          "winner": "Terence Atmane",
-          "loser": "Martin Landaluce",
-          "score": "6-3 3-6 7-6(2)"
-        },
-        {
-          "round": "R32",
-          "winner": "Frances Tiafoe",
-          "loser": "Flavio Cobolli",
-          "score": "6-2 7-6(4)"
-        },
-        {
-          "round": "R32",
-          "winner": "Learner Tien",
-          "loser": "Max Schoenhaus",
-          "score": "6-2 6-4"
-        },
-        {
-          "round": "R32",
-          "winner": "Felix Auger Aliassime",
-          "loser": "Nuno Borges",
-          "score": "6-3 3-6 6-3"
-        }
-      ]
-    },
     {
       "slug": "2026ATPLondon",
       "name": "London",
@@ -527,94 +206,31 @@
       "r1_matches": [
         {
           "a": "Alex De Minaur",
-          "b": "Gabriel Diallo",
+          "b": "Denis Shapovalov",
           "a_seed": "1",
           "b_seed": null,
-          "h2h": "2-0"
+          "h2h": "5-1"
         },
         {
           "a": "Brandon Nakashima",
-          "b": "Marton Fucsovics",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-1"
-        },
-        {
-          "a": "Ignacio Buse",
-          "b": "Marcos Giron",
+          "b": "Ignacio Buse",
           "a_seed": null,
           "b_seed": null,
           "h2h": null
         },
         {
-          "a": "Jakub Mensik",
-          "b": "Adrian Mannarino",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Arthur Fery",
-          "b": "Toby Samuel",
+          "a": "Adrian Mannarino",
+          "b": "Arthur Fery",
           "a_seed": "WC",
-          "b_seed": "WC",
+          "b_seed": null,
           "h2h": null
         },
         {
           "a": "Jenson Brooksby",
-          "b": "Martin Damm",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
-          "a": "Aleksandar Kovacevic",
           "b": "Francisco Cerundolo",
-          "a_seed": "LL",
-          "b_seed": "7",
-          "h2h": "0-1"
-        },
-        {
-          "a": "Giovanni Mpetshi Perricard",
-          "b": "Corentin Moutet",
-          "a_seed": "Q",
+          "a_seed": "7",
           "b_seed": null,
           "h2h": null
-        },
-        {
-          "a": "Cameron Norrie",
-          "b": "Alejandro Davidovich Fokina",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": "0-2"
-        },
-        {
-          "a": "Arthur Rinderknech",
-          "b": "Hamad Medjedovic",
-          "a_seed": "6",
-          "b_seed": null,
-          "h2h": "1-1"
-        },
-        {
-          "a": "Ugo Humbert",
-          "b": "Marin Cilic",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
-          "a": "Rinky Hijikata",
-          "b": "Alejandro Tabilo",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Kamil Majchrzak",
-          "b": "Jiri Lehecka",
-          "a_seed": "SE",
-          "b_seed": "2",
-          "h2h": "2-0"
         },
         {
           "a": "Tommy Paul",
@@ -622,14 +238,77 @@
           "a_seed": "8",
           "b_seed": null,
           "h2h": "0-2"
+        },
+        {
+          "a": "Corentin Moutet",
+          "b": "Alejandro Davidovich Fokina",
+          "a_seed": "4",
+          "b_seed": null,
+          "h2h": "0-4"
+        },
+        {
+          "a": "Hamad Medjedovic",
+          "b": "Ugo Humbert",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "0-1"
+        },
+        {
+          "a": "Rinky Hijikata",
+          "b": "Jiri Lehecka",
+          "a_seed": "Q",
+          "b_seed": "2",
+          "h2h": null
         }
       ],
       "completed": [
         {
           "round": "R32",
+          "winner": "Alex De Minaur",
+          "loser": "Gabriel Diallo",
+          "score": "7-6(8) 6-3"
+        },
+        {
+          "round": "R32",
           "winner": "Denis Shapovalov",
           "loser": "Jack Pinnington Jones",
           "score": "6-4 4-6 7-6(3)"
+        },
+        {
+          "round": "R32",
+          "winner": "Brandon Nakashima",
+          "loser": "Marton Fucsovics",
+          "score": "6-3 6-3"
+        },
+        {
+          "round": "R32",
+          "winner": "Ignacio Buse",
+          "loser": "Marcos Giron",
+          "score": "3-6 7-5 7-6(8)"
+        },
+        {
+          "round": "R32",
+          "winner": "Adrian Mannarino",
+          "loser": "Jakub Mensik",
+          "score": "5-7 7-6(3) 7-6(5)"
+        },
+        {
+          "round": "R32",
+          "winner": "Arthur Fery",
+          "loser": "Toby Samuel",
+          "score": "6-0 6-2"
+        },
+        {
+          "round": "R32",
+          "winner": "Jenson Brooksby",
+          "loser": "Martin Damm",
+          "score": "6-4 3-6 6-3"
+        },
+        {
+          "round": "R32",
+          "winner": "Francisco Cerundolo",
+          "loser": "Aleksandar Kovacevic",
+          "score": "6-4 6-7(5) 6-2"
         },
         {
           "round": "R32",
@@ -642,6 +321,389 @@
           "winner": "Botic Van De Zandschulp",
           "loser": "Harry Wendelken",
           "score": "6-4 7-6(5)"
+        },
+        {
+          "round": "R32",
+          "winner": "Corentin Moutet",
+          "loser": "Giovanni Mpetshi Perricard",
+          "score": "6-7(5) 6-4 7-6(5)"
+        },
+        {
+          "round": "R32",
+          "winner": "Alejandro Davidovich Fokina",
+          "loser": "Cameron Norrie",
+          "score": "7-6(6) 6-2"
+        },
+        {
+          "round": "R32",
+          "winner": "Hamad Medjedovic",
+          "loser": "Arthur Rinderknech",
+          "score": "7-6(5) 7-6(4)"
+        },
+        {
+          "round": "R32",
+          "winner": "Ugo Humbert",
+          "loser": "Marin Cilic",
+          "score": "7-5 6-3"
+        },
+        {
+          "round": "R32",
+          "winner": "Rinky Hijikata",
+          "loser": "Alejandro Tabilo",
+          "score": "6-2 6-4"
+        },
+        {
+          "round": "R32",
+          "winner": "Jiri Lehecka",
+          "loser": "Kamil Majchrzak",
+          "score": "7-5 7-6(4)"
+        }
+      ]
+    },
+    {
+      "slug": "2026ATPHalle",
+      "name": "Halle",
+      "year": 2026,
+      "tour": "atp",
+      "surface": "grass",
+      "best_of": 3,
+      "url": "https://www.tennisabstract.com/current/2026ATPHalle.html",
+      "bracket_slots": [
+        {
+          "name": "Alexander Zverev",
+          "seed": "1",
+          "country": "GER",
+          "bye": false
+        },
+        {
+          "name": "Vit Kopriva",
+          "seed": null,
+          "country": "CZE",
+          "bye": false
+        },
+        {
+          "name": "Joao Fonseca",
+          "seed": null,
+          "country": "BRA",
+          "bye": false
+        },
+        {
+          "name": "Yannick Hanfmann",
+          "seed": null,
+          "country": "GER",
+          "bye": false
+        },
+        {
+          "name": "Alexei Popyrin",
+          "seed": null,
+          "country": "AUS",
+          "bye": false
+        },
+        {
+          "name": "Raphael Collignon",
+          "seed": "Q",
+          "country": "BEL",
+          "bye": false
+        },
+        {
+          "name": "Mattia Bellucci",
+          "seed": "Q",
+          "country": "ITA",
+          "bye": false
+        },
+        {
+          "name": "Alexander Bublik",
+          "seed": "7",
+          "country": "KAZ",
+          "bye": false
+        },
+        {
+          "name": "Ben Shelton",
+          "seed": "3",
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Lorenzo Sonego",
+          "seed": "LL",
+          "country": "ITA",
+          "bye": false
+        },
+        {
+          "name": "Karen Khachanov",
+          "seed": null,
+          "country": "RUS",
+          "bye": false
+        },
+        {
+          "name": "Ethan Quinn",
+          "seed": null,
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Fabian Marozsan",
+          "seed": null,
+          "country": "HUN",
+          "bye": false
+        },
+        {
+          "name": "Miomir Kecmanovic",
+          "seed": null,
+          "country": "SRB",
+          "bye": false
+        },
+        {
+          "name": "Zizou Bergs",
+          "seed": null,
+          "country": "BEL",
+          "bye": false
+        },
+        {
+          "name": "Taylor Fritz",
+          "seed": "5",
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Andrey Rublev",
+          "seed": "8",
+          "country": "RUS",
+          "bye": false
+        },
+        {
+          "name": "Hubert Hurkacz",
+          "seed": "PR",
+          "country": "POL",
+          "bye": false
+        },
+        {
+          "name": "Nikoloz Basilashvili",
+          "seed": "Q",
+          "country": "GEO",
+          "bye": false
+        },
+        {
+          "name": "Daniel Altmaier",
+          "seed": "WC",
+          "country": "GER",
+          "bye": false
+        },
+        {
+          "name": "Terence Atmane",
+          "seed": null,
+          "country": "FRA",
+          "bye": false
+        },
+        {
+          "name": "Martin Landaluce",
+          "seed": "Q",
+          "country": "ESP",
+          "bye": false
+        },
+        {
+          "name": "Tomas Martin Etcheverry",
+          "seed": null,
+          "country": "ARG",
+          "bye": false
+        },
+        {
+          "name": "Daniil Medvedev",
+          "seed": "4",
+          "country": "RUS",
+          "bye": false
+        },
+        {
+          "name": "Flavio Cobolli",
+          "seed": "6",
+          "country": "ITA",
+          "bye": false
+        },
+        {
+          "name": "Frances Tiafoe",
+          "seed": null,
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Tallon Griekspoor",
+          "seed": null,
+          "country": "NED",
+          "bye": false
+        },
+        {
+          "name": "Sho Shimabukuro",
+          "seed": "SE",
+          "country": "JPN",
+          "bye": false
+        },
+        {
+          "name": "Max Schoenhaus",
+          "seed": "WC",
+          "country": "GER",
+          "bye": false
+        },
+        {
+          "name": "Learner Tien",
+          "seed": null,
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Nuno Borges",
+          "seed": null,
+          "country": "POR",
+          "bye": false
+        },
+        {
+          "name": "Felix Auger Aliassime",
+          "seed": "2",
+          "country": "CAN",
+          "bye": false
+        }
+      ],
+      "r1_matches": [
+        {
+          "a": "Ben Shelton",
+          "b": "Lorenzo Sonego",
+          "a_seed": "3",
+          "b_seed": "LL",
+          "h2h": "4-1"
+        },
+        {
+          "a": "Zizou Bergs",
+          "b": "Taylor Fritz",
+          "a_seed": "5",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Alexander Zverev",
+          "b": "Yannick Hanfmann",
+          "a_seed": "1",
+          "b_seed": null,
+          "h2h": "1-0"
+        },
+        {
+          "a": "Raphael Collignon",
+          "b": "Mattia Bellucci",
+          "a_seed": "Q",
+          "b_seed": "Q",
+          "h2h": "0-2"
+        },
+        {
+          "a": "Hubert Hurkacz",
+          "b": "Daniel Altmaier",
+          "a_seed": "PR",
+          "b_seed": "WC",
+          "h2h": "2-0"
+        },
+        {
+          "a": "Terence Atmane",
+          "b": "Daniil Medvedev",
+          "a_seed": "4",
+          "b_seed": null,
+          "h2h": "0-1"
+        },
+        {
+          "a": "Frances Tiafoe",
+          "b": "Sho Shimabukuro",
+          "a_seed": "SE",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Learner Tien",
+          "b": "Felix Auger Aliassime",
+          "a_seed": "2",
+          "b_seed": null,
+          "h2h": null
+        }
+      ],
+      "completed": [
+        {
+          "round": "R32",
+          "winner": "Alexander Zverev",
+          "loser": "Vit Kopriva",
+          "score": "6-3 4-6 6-2"
+        },
+        {
+          "round": "R32",
+          "winner": "Yannick Hanfmann",
+          "loser": "Joao Fonseca",
+          "score": "6-2 6-2"
+        },
+        {
+          "round": "R32",
+          "winner": "Raphael Collignon",
+          "loser": "Alexei Popyrin",
+          "score": "6-4 6-2"
+        },
+        {
+          "round": "R32",
+          "winner": "Mattia Bellucci",
+          "loser": "Alexander Bublik",
+          "score": "7-6(6) 6-1"
+        },
+        {
+          "round": "R32",
+          "winner": "Ethan Quinn",
+          "loser": "Karen Khachanov",
+          "score": "1-6 6-4 6-4"
+        },
+        {
+          "round": "R32",
+          "winner": "Fabian Marozsan",
+          "loser": "Miomir Kecmanovic",
+          "score": "6-3 3-6 6-4"
+        },
+        {
+          "round": "R32",
+          "winner": "Hubert Hurkacz",
+          "loser": "Andrey Rublev",
+          "score": "6-3 6-2"
+        },
+        {
+          "round": "R32",
+          "winner": "Daniel Altmaier",
+          "loser": "Nikoloz Basilashvili",
+          "score": "7-5 6-4"
+        },
+        {
+          "round": "R32",
+          "winner": "Terence Atmane",
+          "loser": "Martin Landaluce",
+          "score": "6-3 3-6 7-6(2)"
+        },
+        {
+          "round": "R32",
+          "winner": "Daniil Medvedev",
+          "loser": "Tomas Martin Etcheverry",
+          "score": "6-3 6-4"
+        },
+        {
+          "round": "R32",
+          "winner": "Frances Tiafoe",
+          "loser": "Flavio Cobolli",
+          "score": "6-2 7-6(4)"
+        },
+        {
+          "round": "R32",
+          "winner": "Sho Shimabukuro",
+          "loser": "Tallon Griekspoor",
+          "score": "6-4 3-6 6-4"
+        },
+        {
+          "round": "R32",
+          "winner": "Learner Tien",
+          "loser": "Max Schoenhaus",
+          "score": "6-2 6-4"
+        },
+        {
+          "round": "R32",
+          "winner": "Felix Auger Aliassime",
+          "loser": "Nuno Borges",
+          "score": "6-3 3-6 6-3"
         }
       ]
     }
