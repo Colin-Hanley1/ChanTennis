@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-16T15:24:10Z",
+  "fetched_at": "2026-06-16T17:14:35Z",
   "source": "espn",
   "matches": [
     {
@@ -17,9 +17,23 @@
       "event": "2026ATPHalle"
     },
     {
+      "winner": "Daniil Medvedev",
+      "loser": "Tomas Martin Etcheverry",
+      "score": "6-3 6-4",
+      "round": "Round 1",
+      "event": "2026ATPHalle"
+    },
+    {
       "winner": "Ethan Quinn",
       "loser": "Karen Khachanov",
       "score": "1-6 6-4 6-4",
+      "round": "Round 1",
+      "event": "2026ATPHalle"
+    },
+    {
+      "winner": "Fabian Marozsan",
+      "loser": "Miomir Kecmanovic",
+      "score": "6-3 3-6 6-4",
       "round": "Round 1",
       "event": "2026ATPHalle"
     },
@@ -93,6 +107,12 @@
       "round": "Round 1"
     },
     {
+      "winner": "Alex de Minaur",
+      "loser": "Gabriel Diallo",
+      "score": "7-6 6-3",
+      "round": "Round 1"
+    },
+    {
       "winner": "Arthur Fery",
       "loser": "Toby Samuel",
       "score": "6-0 6-2",
@@ -123,14 +143,44 @@
       "round": "Round 1"
     },
     {
+      "winner": "Francisco Cerundolo",
+      "loser": "Aleksandar Kovacevic",
+      "score": "6-4 6-7 6-2",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Hamad Medjedovic",
+      "loser": "Arthur Rinderknech",
+      "score": "7-6 7-6",
+      "round": "Round 1"
+    },
+    {
       "winner": "Ignacio Buse",
       "loser": "Marcos Giron",
       "score": "3-6 7-5 7-6",
       "round": "Round 1"
     },
     {
+      "winner": "Jenson Brooksby",
+      "loser": "Martin Damm",
+      "score": "6-4 3-6 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Rinky Hijikata",
+      "loser": "Alejandro Tabilo",
+      "score": "6-2 6-4",
+      "round": "Round 1"
+    },
+    {
       "winner": "Tommy Paul",
       "loser": "Zachary Svajda",
+      "score": "7-5 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Ugo Humbert",
+      "loser": "Marin Cilic",
       "score": "7-5 6-3",
       "round": "Round 1"
     }
