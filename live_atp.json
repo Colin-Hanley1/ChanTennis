@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-17T14:33:42Z",
+  "fetched_at": "2026-06-17T17:13:16Z",
   "source": "espn",
   "matches": [
     {
@@ -115,6 +115,20 @@
       "event": "2026ATPHalle"
     },
     {
+      "winner": "Daniel Altmaier",
+      "loser": "Hubert Hurkacz",
+      "score": "3-6 6-3 7-5",
+      "round": "Round 2",
+      "event": "2026ATPHalle"
+    },
+    {
+      "winner": "Felix Auger-Aliassime",
+      "loser": "Learner Tien",
+      "score": "6-7 7-5 7-6",
+      "round": "Round 2",
+      "event": "2026ATPHalle"
+    },
+    {
       "winner": "Frances Tiafoe",
       "loser": "Sho Shimabukuro",
       "score": "6-4 7-5",
@@ -224,9 +238,21 @@
       "round": "Round 2"
     },
     {
+      "winner": "Arthur Fery",
+      "loser": "Adrian Mannarino",
+      "score": "7-6 6-4",
+      "round": "Round 2"
+    },
+    {
       "winner": "Brandon Nakashima",
       "loser": "Ignacio Buse",
       "score": "6-2 6-2",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Francisco Cerundolo",
+      "loser": "Jenson Brooksby",
+      "score": "6-0 6-4",
       "round": "Round 2"
     }
   ]

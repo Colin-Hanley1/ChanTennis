@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-17T13:49:42Z",
+  "fetched_at": "2026-06-17T17:13:21Z",
   "events": [
     {
       "slug": "2026WTABerlin",
@@ -214,13 +214,6 @@
           "h2h": "2-2"
         },
         {
-          "a": "Paula Badosa",
-          "b": "Coco Gauff",
-          "a_seed": "WC",
-          "b_seed": "5",
-          "h2h": "4-3"
-        },
-        {
           "a": "Elina Svitolina",
           "b": "Eva Lys",
           "a_seed": "6",
@@ -247,6 +240,12 @@
           "winner": "Jessica Pegula",
           "loser": "Katerina Siniakova",
           "score": "62 64"
+        },
+        {
+          "round": "R2",
+          "winner": "Paula Badosa",
+          "loser": "Coco Gauff",
+          "score": "16 63 62"
         },
         {
           "round": "R1",
@@ -554,20 +553,6 @@
           "h2h": "0-1"
         },
         {
-          "a": "Katie Volynets",
-          "b": "Jessica Bouzas Maneiro",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
-          "a": "Yuliia Starodubtseva",
-          "b": "Emma Navarro",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Ann Li",
           "b": "Taylah Preston",
           "a_seed": "5",
@@ -580,9 +565,28 @@
           "a_seed": "Q",
           "b_seed": "Q",
           "h2h": null
+        },
+        {
+          "a": "Jessica Bouzas Maneiro",
+          "b": "Emma Navarro",
+          "a_seed": "3",
+          "b_seed": null,
+          "h2h": "1-0"
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Jessica Bouzas Maneiro",
+          "loser": "Katie Volynets",
+          "score": ""
+        },
+        {
+          "round": "R2",
+          "winner": "Emma Navarro",
+          "loser": "Yuliia Starodubtseva",
+          "score": "64 67(3) 64"
+        },
         {
           "round": "R1",
           "winner": "Karolina Pliskova",
@@ -918,13 +922,6 @@
           "a_seed": "5",
           "b_seed": null,
           "h2h": null
-        },
-        {
-          "a": "Fiona Ferro",
-          "b": "Ekaterine Gorgodze",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "2-0"
         }
       ],
       "completed": [
@@ -939,6 +936,12 @@
           "winner": "Anastasiya Soboleva",
           "loser": "Julia Grabher",
           "score": "62 46 75"
+        },
+        {
+          "round": "R2",
+          "winner": "Ekaterine Gorgodze",
+          "loser": "Fiona Ferro",
+          "score": "76(3) 26 64"
         },
         {
           "round": "R1",
@@ -1263,13 +1266,6 @@
           "h2h": "1-0"
         },
         {
-          "a": "Anastasia Kulikova",
-          "b": "Alina Charaeva",
-          "a_seed": "Q",
-          "b_seed": "4",
-          "h2h": "0-1"
-        },
-        {
           "a": "Jeline Vandromme",
           "b": "Valentina Ryser",
           "a_seed": "8",
@@ -1289,6 +1285,12 @@
           "winner": "Jil Teichmann",
           "loser": "Barbora Palicova",
           "score": "64 46 63"
+        },
+        {
+          "round": "R2",
+          "winner": "Alina Charaeva",
+          "loser": "Anastasia Kulikova",
+          "score": "62 62"
         },
         {
           "round": "R2",
