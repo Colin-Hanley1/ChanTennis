@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-17T17:13:21Z",
+  "fetched_at": "2026-06-17T20:25:44Z",
   "events": [
     {
       "slug": "2026WTABerlin",
@@ -193,13 +193,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Aryna Sabalenka",
-          "b": "Ekaterina Alexandrova",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": "4-4"
-        },
-        {
           "a": "Madison Keys",
           "b": "Karolina Muchova",
           "a_seed": "7",
@@ -226,9 +219,22 @@
           "a_seed": "WC",
           "b_seed": "2",
           "h2h": "0-1"
+        },
+        {
+          "a": "Aryna Sabalenka",
+          "b": "Nikola Bartunkova",
+          "a_seed": "1",
+          "b_seed": "WC",
+          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Aryna Sabalenka",
+          "loser": "Ekaterina Alexandrova",
+          "score": "64 64"
+        },
         {
           "round": "R2",
           "winner": "Nikola Bartunkova",
@@ -532,25 +538,11 @@
           "h2h": "1-0"
         },
         {
-          "a": "Talia Gibson",
-          "b": "Qinwen Zheng",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Marie Bouzkova",
           "b": "Hannah Klugman",
           "a_seed": "4",
           "b_seed": "LL",
           "h2h": null
-        },
-        {
-          "a": "Dayana Yastremska",
-          "b": "Tatjana Maria",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "0-1"
         },
         {
           "a": "Ann Li",
@@ -575,6 +567,18 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Talia Gibson",
+          "loser": "Qinwen Zheng",
+          "score": "63 76(10)"
+        },
+        {
+          "round": "R2",
+          "winner": "Tatjana Maria",
+          "loser": "Dayana Yastremska",
+          "score": "61 62"
+        },
         {
           "round": "R2",
           "winner": "Jessica Bouzas Maneiro",
@@ -903,13 +907,6 @@
           "h2h": null
         },
         {
-          "a": "Tiantsoa Sarah Rakotomanga Rajaonah",
-          "b": "Mia Ristic",
-          "a_seed": "6",
-          "b_seed": "Q",
-          "h2h": null
-        },
-        {
           "a": "Jennifer Ruggeri",
           "b": "Mayar Sherif",
           "a_seed": "Q",
@@ -936,6 +933,12 @@
           "winner": "Anastasiya Soboleva",
           "loser": "Julia Grabher",
           "score": "62 46 75"
+        },
+        {
+          "round": "R2",
+          "winner": "Tiantsoa Sarah Rakotomanga Rajaonah",
+          "loser": "Mia Ristic",
+          "score": "67(6) 63 61"
         },
         {
           "round": "R2",
@@ -1259,18 +1262,18 @@
           "h2h": null
         },
         {
-          "a": "Susan Bandecchi",
-          "b": "Katarina Kuzmova",
-          "a_seed": "7",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
           "a": "Jeline Vandromme",
           "b": "Valentina Ryser",
           "a_seed": "8",
           "b_seed": "Q",
           "h2h": null
+        },
+        {
+          "a": "Susan Bandecchi",
+          "b": "Alina Charaeva",
+          "a_seed": "7",
+          "b_seed": "4",
+          "h2h": "2-0"
         }
       ],
       "completed": [
@@ -1285,6 +1288,12 @@
           "winner": "Jil Teichmann",
           "loser": "Barbora Palicova",
           "score": "64 46 63"
+        },
+        {
+          "round": "R2",
+          "winner": "Susan Bandecchi",
+          "loser": "Katarina Kuzmova",
+          "score": "46 75 62"
         },
         {
           "round": "R2",
