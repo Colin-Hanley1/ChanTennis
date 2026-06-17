@@ -1,11 +1,18 @@
 {
-  "fetched_at": "2026-06-17T11:26:36Z",
+  "fetched_at": "2026-06-17T13:49:38Z",
   "source": "espn",
   "matches": [
     {
       "winner": "Alexander Zverev",
       "loser": "Vit Kopriva",
       "score": "6-3 4-6 6-2",
+      "round": "Round 1",
+      "event": "2026ATPHalle"
+    },
+    {
+      "winner": "Ben Shelton",
+      "loser": "Lorenzo Sonego",
+      "score": "7-5 6-3",
       "round": "Round 1",
       "event": "2026ATPHalle"
     },
@@ -87,6 +94,13 @@
       "event": "2026ATPHalle"
     },
     {
+      "winner": "Taylor Fritz",
+      "loser": "Zizou Bergs",
+      "score": "7-6 5-7 6-4",
+      "round": "Round 1",
+      "event": "2026ATPHalle"
+    },
+    {
       "winner": "Terence Atmane",
       "loser": "Martin Landaluce",
       "score": "6-3 3-6 7-6",
@@ -98,6 +112,13 @@
       "loser": "Joao Fonseca",
       "score": "6-2 6-2",
       "round": "Round 1",
+      "event": "2026ATPHalle"
+    },
+    {
+      "winner": "Frances Tiafoe",
+      "loser": "Sho Shimabukuro",
+      "score": "6-4 7-5",
+      "round": "Round 2",
       "event": "2026ATPHalle"
     },
     {
@@ -195,6 +216,18 @@
       "loser": "Marin Cilic",
       "score": "7-5 6-3",
       "round": "Round 1"
+    },
+    {
+      "winner": "Alex de Minaur",
+      "loser": "Denis Shapovalov",
+      "score": "6-4 6-1",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Brandon Nakashima",
+      "loser": "Ignacio Buse",
+      "score": "6-2 6-2",
+      "round": "Round 2"
     }
   ]
 }

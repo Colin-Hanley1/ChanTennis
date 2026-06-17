@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-17T09:58:01Z",
+  "fetched_at": "2026-06-17T13:49:42Z",
   "events": [
     {
       "slug": "2026WTABerlin",
@@ -193,32 +193,11 @@
       ],
       "r1_matches": [
         {
-          "a": "Donna Vekic",
-          "b": "Alexandra Eala",
-          "a_seed": "SE",
-          "b_seed": "WC",
-          "h2h": "0-1"
-        },
-        {
           "a": "Aryna Sabalenka",
           "b": "Ekaterina Alexandrova",
           "a_seed": "1",
           "b_seed": null,
           "h2h": "4-4"
-        },
-        {
-          "a": "Elise Mertens",
-          "b": "Nikola Bartunkova",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
-          "a": "Jessica Pegula",
-          "b": "Katerina Siniakova",
-          "a_seed": "3",
-          "b_seed": "Q",
-          "h2h": "5-1"
         },
         {
           "a": "Madison Keys",
@@ -247,9 +226,28 @@
           "a_seed": "6",
           "b_seed": "WC",
           "h2h": "1-0"
+        },
+        {
+          "a": "Alexandra Eala",
+          "b": "Elena Rybakina",
+          "a_seed": "WC",
+          "b_seed": "2",
+          "h2h": "0-1"
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Nikola Bartunkova",
+          "loser": "Elise Mertens",
+          "score": "61 64"
+        },
+        {
+          "round": "R2",
+          "winner": "Jessica Pegula",
+          "loser": "Katerina Siniakova",
+          "score": "62 64"
+        },
         {
           "round": "R1",
           "winner": "Ekaterina Alexandrova",
@@ -315,6 +313,12 @@
           "winner": "Eva Lys",
           "loser": "Magdalena Frech",
           "score": "76(7) 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Alexandra Eala",
+          "loser": "Donna Vekic",
+          "score": "75 64"
         }
       ]
     },
@@ -888,20 +892,6 @@
           "h2h": null
         },
         {
-          "a": "Darya Astakhova",
-          "b": "Luisina Giovannini",
-          "a_seed": "8",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Julia Grabher",
-          "b": "Anastasiya Soboleva",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Miriam Bianca Bulgaru",
           "b": "Ane Mintegi Del Olmo",
           "a_seed": null,
@@ -938,6 +928,18 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Luisina Giovannini",
+          "loser": "Darya Astakhova",
+          "score": "63 61"
+        },
+        {
+          "round": "R2",
+          "winner": "Anastasiya Soboleva",
+          "loser": "Julia Grabher",
+          "score": "62 46 75"
+        },
         {
           "round": "R1",
           "winner": "Xiyu Wang",
@@ -1247,23 +1249,9 @@
           "h2h": "1-0"
         },
         {
-          "a": "Viktoria Hruncakova",
-          "b": "Yeon Woo Ku",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Darja Vidmanova",
           "b": "Elena Micic",
           "a_seed": "3",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Barbora Palicova",
-          "b": "Jil Teichmann",
-          "a_seed": "5",
           "b_seed": null,
           "h2h": null
         },
@@ -1287,16 +1275,27 @@
           "a_seed": "8",
           "b_seed": "Q",
           "h2h": null
-        },
-        {
-          "a": "Ayla Aksu",
-          "b": "Sachia Vickery",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Yeon Woo Ku",
+          "loser": "Viktoria Hruncakova",
+          "score": "64 63"
+        },
+        {
+          "round": "R2",
+          "winner": "Jil Teichmann",
+          "loser": "Barbora Palicova",
+          "score": "64 46 63"
+        },
+        {
+          "round": "R2",
+          "winner": "Ayla Aksu",
+          "loser": "Sachia Vickery",
+          "score": ""
+        },
         {
           "round": "R1",
           "winner": "Alina Korneeva",
