@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-17T20:25:44Z",
+  "fetched_at": "2026-06-17T22:49:17Z",
   "events": [
     {
       "slug": "2026ATPLondon",
@@ -205,34 +205,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Alex De Minaur",
-          "b": "Denis Shapovalov",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": "5-1"
-        },
-        {
-          "a": "Brandon Nakashima",
-          "b": "Ignacio Buse",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Adrian Mannarino",
-          "b": "Arthur Fery",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Jenson Brooksby",
-          "b": "Francisco Cerundolo",
-          "a_seed": "7",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Tommy Paul",
           "b": "Botic Van De Zandschulp",
           "a_seed": "8",
@@ -259,9 +231,47 @@
           "a_seed": "Q",
           "b_seed": "2",
           "h2h": null
+        },
+        {
+          "a": "Alex De Minaur",
+          "b": "Brandon Nakashima",
+          "a_seed": "1",
+          "b_seed": null,
+          "h2h": "1-1"
+        },
+        {
+          "a": "Arthur Fery",
+          "b": "Francisco Cerundolo",
+          "a_seed": "WC",
+          "b_seed": "7",
+          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "R16",
+          "winner": "Alex De Minaur",
+          "loser": "Denis Shapovalov",
+          "score": "6-4 6-1"
+        },
+        {
+          "round": "R16",
+          "winner": "Brandon Nakashima",
+          "loser": "Ignacio Buse",
+          "score": "6-2 6-2"
+        },
+        {
+          "round": "R16",
+          "winner": "Arthur Fery",
+          "loser": "Adrian Mannarino",
+          "score": "7-6(7) 6-4"
+        },
+        {
+          "round": "R16",
+          "winner": "Francisco Cerundolo",
+          "loser": "Jenson Brooksby",
+          "score": "6-0 6-4"
+        },
         {
           "round": "R32",
           "winner": "Alex De Minaur",
@@ -564,20 +574,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Ben Shelton",
-          "b": "Lorenzo Sonego",
-          "a_seed": "3",
-          "b_seed": "LL",
-          "h2h": "4-1"
-        },
-        {
-          "a": "Zizou Bergs",
-          "b": "Taylor Fritz",
-          "a_seed": "5",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Alexander Zverev",
           "b": "Yannick Hanfmann",
           "a_seed": "1",
@@ -592,35 +588,59 @@
           "h2h": "0-2"
         },
         {
-          "a": "Hubert Hurkacz",
-          "b": "Daniel Altmaier",
-          "a_seed": "PR",
-          "b_seed": "WC",
-          "h2h": "2-0"
+          "a": "Ben Shelton",
+          "b": "Ethan Quinn",
+          "a_seed": "3",
+          "b_seed": null,
+          "h2h": "1-0"
         },
         {
-          "a": "Terence Atmane",
-          "b": "Daniil Medvedev",
-          "a_seed": "4",
+          "a": "Fabian Marozsan",
+          "b": "Taylor Fritz",
+          "a_seed": "5",
           "b_seed": null,
+          "h2h": "0-2"
+        },
+        {
+          "a": "Daniel Altmaier",
+          "b": "Daniil Medvedev",
+          "a_seed": "WC",
+          "b_seed": "4",
           "h2h": "0-1"
         },
         {
           "a": "Frances Tiafoe",
-          "b": "Sho Shimabukuro",
-          "a_seed": "SE",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Learner Tien",
           "b": "Felix Auger Aliassime",
           "a_seed": "2",
           "b_seed": null,
-          "h2h": null
+          "h2h": "0-3"
         }
       ],
       "completed": [
+        {
+          "round": "R16",
+          "winner": "Daniel Altmaier",
+          "loser": "Hubert Hurkacz",
+          "score": "3-6 6-3 7-5"
+        },
+        {
+          "round": "R16",
+          "winner": "Daniil Medvedev",
+          "loser": "Terence Atmane",
+          "score": "6-4 6-4"
+        },
+        {
+          "round": "R16",
+          "winner": "Frances Tiafoe",
+          "loser": "Sho Shimabukuro",
+          "score": "6-4 7-5"
+        },
+        {
+          "round": "R16",
+          "winner": "Felix Auger Aliassime",
+          "loser": "Learner Tien",
+          "score": "6-7(5) 7-5 7-6(5)"
+        },
         {
           "round": "R32",
           "winner": "Alexander Zverev",
@@ -647,6 +667,12 @@
         },
         {
           "round": "R32",
+          "winner": "Ben Shelton",
+          "loser": "Lorenzo Sonego",
+          "score": "7-5 6-3"
+        },
+        {
+          "round": "R32",
           "winner": "Ethan Quinn",
           "loser": "Karen Khachanov",
           "score": "1-6 6-4 6-4"
@@ -656,6 +682,12 @@
           "winner": "Fabian Marozsan",
           "loser": "Miomir Kecmanovic",
           "score": "6-3 3-6 6-4"
+        },
+        {
+          "round": "R32",
+          "winner": "Taylor Fritz",
+          "loser": "Zizou Bergs",
+          "score": "7-6(4) 5-7 6-4"
         },
         {
           "round": "R32",
