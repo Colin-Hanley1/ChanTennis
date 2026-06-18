@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-18T06:03:13Z",
+  "fetched_at": "2026-06-18T10:43:54Z",
   "events": [
     {
       "slug": "2026WTABerlin",
@@ -200,13 +200,6 @@
           "h2h": "2-0"
         },
         {
-          "a": "Linda Noskova",
-          "b": "Diane Parry",
-          "a_seed": "8",
-          "b_seed": "Q",
-          "h2h": "2-2"
-        },
-        {
           "a": "Elina Svitolina",
           "b": "Eva Lys",
           "a_seed": "6",
@@ -226,6 +219,13 @@
           "a_seed": "1",
           "b_seed": "WC",
           "h2h": null
+        },
+        {
+          "a": "Linda Noskova",
+          "b": "Paula Badosa",
+          "a_seed": "8",
+          "b_seed": "WC",
+          "h2h": "1-0"
         }
       ],
       "completed": [
@@ -246,6 +246,12 @@
           "winner": "Jessica Pegula",
           "loser": "Katerina Siniakova",
           "score": "62 64"
+        },
+        {
+          "round": "R2",
+          "winner": "Linda Noskova",
+          "loser": "Diane Parry",
+          "score": "62 62"
         },
         {
           "round": "R2",
@@ -914,9 +920,9 @@
           "h2h": null
         },
         {
-          "a": "Jazmin Ortenzi",
-          "b": "Elizara Yaneva",
-          "a_seed": "5",
+          "a": "Elizara Yaneva",
+          "b": "Ekaterine Gorgodze",
+          "a_seed": null,
           "b_seed": null,
           "h2h": null
         }
@@ -939,6 +945,12 @@
           "winner": "Tiantsoa Sarah Rakotomanga Rajaonah",
           "loser": "Mia Ristic",
           "score": "67(6) 63 61"
+        },
+        {
+          "round": "R2",
+          "winner": "Elizara Yaneva",
+          "loser": "Jazmin Ortenzi",
+          "score": "62 61"
         },
         {
           "round": "R2",
