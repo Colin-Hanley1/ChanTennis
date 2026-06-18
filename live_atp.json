@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-18T14:19:49Z",
+  "fetched_at": "2026-06-18T17:38:54Z",
   "source": "espn",
   "matches": [
     {
@@ -115,6 +115,13 @@
       "event": "2026ATPHalle"
     },
     {
+      "winner": "Alexander Zverev",
+      "loser": "Yannick Hanfmann",
+      "score": "6-3 7-6",
+      "round": "Round 2",
+      "event": "2026ATPHalle"
+    },
+    {
       "winner": "Ben Shelton",
       "loser": "Ethan Quinn",
       "score": "6-4 5-7 6-4",
@@ -146,6 +153,13 @@
       "winner": "Frances Tiafoe",
       "loser": "Sho Shimabukuro",
       "score": "6-4 7-5",
+      "round": "Round 2",
+      "event": "2026ATPHalle"
+    },
+    {
+      "winner": "Raphael Collignon",
+      "loser": "Mattia Bellucci",
+      "score": "4-6 6-4 6-3",
       "round": "Round 2",
       "event": "2026ATPHalle"
     },
@@ -280,6 +294,12 @@
       "winner": "Francisco Cerundolo",
       "loser": "Jenson Brooksby",
       "score": "6-0 6-4",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Tommy Paul",
+      "loser": "Botic Van De Zandschulp",
+      "score": "7-6 6-3",
       "round": "Round 2"
     }
   ]
