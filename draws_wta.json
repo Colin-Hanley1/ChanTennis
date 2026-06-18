@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-18T18:09:17Z",
+  "fetched_at": "2026-06-18T21:25:33Z",
   "events": [
     {
       "slug": "2026WTABerlin",
@@ -928,9 +928,9 @@
       "r1_matches": [
         {
           "a": "Xiyu Wang",
-          "b": "Carole Monnet",
+          "b": "Luisina Giovannini",
           "a_seed": "1",
-          "b_seed": null,
+          "b_seed": "8",
           "h2h": null
         },
         {
@@ -956,6 +956,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Xiyu Wang",
+          "loser": "Carole Monnet",
+          "score": "63 61"
+        },
         {
           "round": "R2",
           "winner": "Luisina Giovannini",
