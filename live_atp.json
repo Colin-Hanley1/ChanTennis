@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-18T10:43:49Z",
+  "fetched_at": "2026-06-18T11:04:01Z",
   "source": "espn",
   "matches": [
     {
@@ -139,6 +139,13 @@
       "winner": "Frances Tiafoe",
       "loser": "Sho Shimabukuro",
       "score": "6-4 7-5",
+      "round": "Round 2",
+      "event": "2026ATPHalle"
+    },
+    {
+      "winner": "Taylor Fritz",
+      "loser": "Fabian Marozsan",
+      "score": "6-2 6-4",
       "round": "Round 2",
       "event": "2026ATPHalle"
     },
