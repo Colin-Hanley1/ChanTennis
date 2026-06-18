@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-18T14:16:14Z",
+  "fetched_at": "2026-06-18T18:09:17Z",
   "events": [
     {
       "slug": "2026ATPLondon",
@@ -212,13 +212,6 @@
           "h2h": "0-2"
         },
         {
-          "a": "Corentin Moutet",
-          "b": "Alejandro Davidovich Fokina",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": "0-4"
-        },
-        {
           "a": "Hamad Medjedovic",
           "b": "Ugo Humbert",
           "a_seed": null,
@@ -271,6 +264,12 @@
           "winner": "Francisco Cerundolo",
           "loser": "Jenson Brooksby",
           "score": "6-0 6-4"
+        },
+        {
+          "round": "R16",
+          "winner": "Alejandro Davidovich Fokina",
+          "loser": "Corentin Moutet",
+          "score": "6-4 6-3"
         },
         {
           "round": "R32",
@@ -589,17 +588,10 @@
         },
         {
           "a": "Ben Shelton",
-          "b": "Ethan Quinn",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
-          "a": "Fabian Marozsan",
           "b": "Taylor Fritz",
-          "a_seed": "5",
-          "b_seed": null,
-          "h2h": "0-2"
+          "a_seed": "3",
+          "b_seed": "5",
+          "h2h": "3-1"
         },
         {
           "a": "Daniel Altmaier",
@@ -617,6 +609,18 @@
         }
       ],
       "completed": [
+        {
+          "round": "R16",
+          "winner": "Ben Shelton",
+          "loser": "Ethan Quinn",
+          "score": "6-4 5-7 6-4"
+        },
+        {
+          "round": "R16",
+          "winner": "Taylor Fritz",
+          "loser": "Fabian Marozsan",
+          "score": "6-2 6-4"
+        },
         {
           "round": "R16",
           "winner": "Daniel Altmaier",

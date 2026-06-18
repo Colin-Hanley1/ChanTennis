@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-18T14:16:14Z",
+  "fetched_at": "2026-06-18T18:09:17Z",
   "events": [
     {
       "slug": "2026WTABerlin",
@@ -193,20 +193,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Madison Keys",
-          "b": "Karolina Muchova",
-          "a_seed": "7",
-          "b_seed": null,
-          "h2h": "2-0"
-        },
-        {
-          "a": "Alexandra Eala",
-          "b": "Elena Rybakina",
-          "a_seed": "WC",
-          "b_seed": "2",
-          "h2h": "0-1"
-        },
-        {
           "a": "Aryna Sabalenka",
           "b": "Nikola Bartunkova",
           "a_seed": "1",
@@ -214,11 +200,25 @@
           "h2h": null
         },
         {
+          "a": "Jessica Pegula",
+          "b": "Madison Keys",
+          "a_seed": "3",
+          "b_seed": null,
+          "h2h": "2-2"
+        },
+        {
           "a": "Linda Noskova",
           "b": "Paula Badosa",
           "a_seed": "8",
           "b_seed": "WC",
           "h2h": "1-0"
+        },
+        {
+          "a": "Elina Svitolina",
+          "b": "Alexandra Eala",
+          "a_seed": "6",
+          "b_seed": "WC",
+          "h2h": null
         }
       ],
       "completed": [
@@ -242,6 +242,12 @@
         },
         {
           "round": "R2",
+          "winner": "Madison Keys",
+          "loser": "Karolina Muchova",
+          "score": "64 75"
+        },
+        {
+          "round": "R2",
           "winner": "Linda Noskova",
           "loser": "Diane Parry",
           "score": "62 62"
@@ -257,6 +263,12 @@
           "winner": "Elina Svitolina",
           "loser": "Eva Lys",
           "score": "63 62"
+        },
+        {
+          "round": "R2",
+          "winner": "Alexandra Eala",
+          "loser": "Elena Rybakina",
+          "score": "75 64"
         },
         {
           "round": "R1",
@@ -536,20 +548,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Marie Bouzkova",
-          "b": "Hannah Klugman",
-          "a_seed": "4",
-          "b_seed": "LL",
-          "h2h": null
-        },
-        {
-          "a": "Ann Li",
-          "b": "Taylah Preston",
-          "a_seed": "5",
-          "b_seed": "LL",
-          "h2h": null
-        },
-        {
           "a": "Karolina Pliskova",
           "b": "Talia Gibson",
           "a_seed": null,
@@ -557,11 +555,25 @@
           "h2h": null
         },
         {
+          "a": "Marie Bouzkova",
+          "b": "Tatjana Maria",
+          "a_seed": "4",
+          "b_seed": null,
+          "h2h": "3-4"
+        },
+        {
           "a": "Jessica Bouzas Maneiro",
           "b": "Emma Navarro",
           "a_seed": "3",
           "b_seed": null,
           "h2h": "1-0"
+        },
+        {
+          "a": "Ann Li",
+          "b": "Viktorija Golubic",
+          "a_seed": "5",
+          "b_seed": "Q",
+          "h2h": "1-1"
         }
       ],
       "completed": [
@@ -576,6 +588,12 @@
           "winner": "Talia Gibson",
           "loser": "Qinwen Zheng",
           "score": "63 76(10)"
+        },
+        {
+          "round": "R2",
+          "winner": "Marie Bouzkova",
+          "loser": "Hannah Klugman",
+          "score": "75 62"
         },
         {
           "round": "R2",
@@ -594,6 +612,12 @@
           "winner": "Emma Navarro",
           "loser": "Yuliia Starodubtseva",
           "score": "64 67(3) 64"
+        },
+        {
+          "round": "R2",
+          "winner": "Ann Li",
+          "loser": "Taylah Preston",
+          "score": "57 62 62"
         },
         {
           "round": "R2",
@@ -910,18 +934,18 @@
           "h2h": null
         },
         {
-          "a": "Jennifer Ruggeri",
-          "b": "Mayar Sherif",
-          "a_seed": "Q",
-          "b_seed": "4",
-          "h2h": null
-        },
-        {
           "a": "Anastasiya Soboleva",
           "b": "Ane Mintegi Del Olmo",
           "a_seed": null,
           "b_seed": null,
           "h2h": null
+        },
+        {
+          "a": "Tiantsoa Sarah Rakotomanga Rajaonah",
+          "b": "Mayar Sherif",
+          "a_seed": "6",
+          "b_seed": "4",
+          "h2h": "0-1"
         },
         {
           "a": "Elizara Yaneva",
@@ -955,6 +979,12 @@
           "winner": "Tiantsoa Sarah Rakotomanga Rajaonah",
           "loser": "Mia Ristic",
           "score": "67(6) 63 61"
+        },
+        {
+          "round": "R2",
+          "winner": "Mayar Sherif",
+          "loser": "Jennifer Ruggeri",
+          "score": "36 63 63"
         },
         {
           "round": "R2",
@@ -1270,20 +1300,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Darja Vidmanova",
-          "b": "Elena Micic",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Jeline Vandromme",
-          "b": "Valentina Ryser",
-          "a_seed": "8",
-          "b_seed": "Q",
-          "h2h": null
-        },
-        {
           "a": "Martyna Kubka",
           "b": "Yeon Woo Ku",
           "a_seed": null,
@@ -1291,11 +1307,25 @@
           "h2h": "1-0"
         },
         {
+          "a": "Darja Vidmanova",
+          "b": "Jil Teichmann",
+          "a_seed": "3",
+          "b_seed": "5",
+          "h2h": null
+        },
+        {
           "a": "Susan Bandecchi",
           "b": "Alina Charaeva",
           "a_seed": "7",
           "b_seed": "4",
           "h2h": "2-0"
+        },
+        {
+          "a": "Jeline Vandromme",
+          "b": "Ayla Aksu",
+          "a_seed": "8",
+          "b_seed": null,
+          "h2h": null
         }
       ],
       "completed": [
@@ -1310,6 +1340,12 @@
           "winner": "Yeon Woo Ku",
           "loser": "Viktoria Hruncakova",
           "score": "64 63"
+        },
+        {
+          "round": "R2",
+          "winner": "Darja Vidmanova",
+          "loser": "Elena Micic",
+          "score": "63 64"
         },
         {
           "round": "R2",
@@ -1328,6 +1364,12 @@
           "winner": "Alina Charaeva",
           "loser": "Anastasia Kulikova",
           "score": "62 62"
+        },
+        {
+          "round": "R2",
+          "winner": "Jeline Vandromme",
+          "loser": "Valentina Ryser",
+          "score": "61 76(4)"
         },
         {
           "round": "R2",
