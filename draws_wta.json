@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-18T10:43:54Z",
+  "fetched_at": "2026-06-18T14:16:14Z",
   "events": [
     {
       "slug": "2026WTABerlin",
@@ -200,13 +200,6 @@
           "h2h": "2-0"
         },
         {
-          "a": "Elina Svitolina",
-          "b": "Eva Lys",
-          "a_seed": "6",
-          "b_seed": "WC",
-          "h2h": "1-0"
-        },
-        {
           "a": "Alexandra Eala",
           "b": "Elena Rybakina",
           "a_seed": "WC",
@@ -258,6 +251,12 @@
           "winner": "Paula Badosa",
           "loser": "Coco Gauff",
           "score": "16 63 62"
+        },
+        {
+          "round": "R2",
+          "winner": "Elina Svitolina",
+          "loser": "Eva Lys",
+          "score": "63 62"
         },
         {
           "round": "R1",
@@ -537,13 +536,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Karolina Pliskova",
-          "b": "Caty Mcnally",
-          "a_seed": "SE",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
           "a": "Marie Bouzkova",
           "b": "Hannah Klugman",
           "a_seed": "4",
@@ -558,10 +550,10 @@
           "h2h": null
         },
         {
-          "a": "Viktorija Golubic",
-          "b": "Zeynep Sonmez",
-          "a_seed": "Q",
-          "b_seed": "Q",
+          "a": "Karolina Pliskova",
+          "b": "Talia Gibson",
+          "a_seed": null,
+          "b_seed": null,
           "h2h": null
         },
         {
@@ -573,6 +565,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Karolina Pliskova",
+          "loser": "Caty Mcnally",
+          "score": "64 76(3)"
+        },
         {
           "round": "R2",
           "winner": "Talia Gibson",
@@ -596,6 +594,12 @@
           "winner": "Emma Navarro",
           "loser": "Yuliia Starodubtseva",
           "score": "64 67(3) 64"
+        },
+        {
+          "round": "R2",
+          "winner": "Viktorija Golubic",
+          "loser": "Zeynep Sonmez",
+          "score": "75 46 64"
         },
         {
           "round": "R1",
@@ -906,17 +910,17 @@
           "h2h": null
         },
         {
-          "a": "Miriam Bianca Bulgaru",
-          "b": "Ane Mintegi Del Olmo",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Jennifer Ruggeri",
           "b": "Mayar Sherif",
           "a_seed": "Q",
           "b_seed": "4",
+          "h2h": null
+        },
+        {
+          "a": "Anastasiya Soboleva",
+          "b": "Ane Mintegi Del Olmo",
+          "a_seed": null,
+          "b_seed": null,
           "h2h": null
         },
         {
@@ -939,6 +943,12 @@
           "winner": "Anastasiya Soboleva",
           "loser": "Julia Grabher",
           "score": "62 46 75"
+        },
+        {
+          "round": "R2",
+          "winner": "Ane Mintegi Del Olmo",
+          "loser": "Miriam Bianca Bulgaru",
+          "score": "64 62"
         },
         {
           "round": "R2",
@@ -1260,13 +1270,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Alina Korneeva",
-          "b": "Martyna Kubka",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
           "a": "Darja Vidmanova",
           "b": "Elena Micic",
           "a_seed": "3",
@@ -1281,6 +1284,13 @@
           "h2h": null
         },
         {
+          "a": "Martyna Kubka",
+          "b": "Yeon Woo Ku",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "1-0"
+        },
+        {
           "a": "Susan Bandecchi",
           "b": "Alina Charaeva",
           "a_seed": "7",
@@ -1289,6 +1299,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Martyna Kubka",
+          "loser": "Alina Korneeva",
+          "score": "76(4) 57 64"
+        },
         {
           "round": "R2",
           "winner": "Yeon Woo Ku",
