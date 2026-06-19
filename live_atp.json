@@ -1,11 +1,18 @@
 {
-  "fetched_at": "2026-06-19T17:23:51Z",
+  "fetched_at": "2026-06-19T19:07:44Z",
   "source": "espn",
   "matches": [
     {
       "winner": "Alexander Zverev",
       "loser": "Raphael Collignon",
       "score": "7-6 7-6",
+      "round": "Quarterfinal",
+      "event": "2026ATPHalle"
+    },
+    {
+      "winner": "Daniel Altmaier",
+      "loser": "Daniil Medvedev",
+      "score": "6-4 6-7 6-4",
       "round": "Quarterfinal",
       "event": "2026ATPHalle"
     },
@@ -194,6 +201,18 @@
       "winner": "Francisco Cerundolo",
       "loser": "Arthur Fery",
       "score": "7-6 3-6 6-4",
+      "round": "Quarterfinal"
+    },
+    {
+      "winner": "Tommy Paul",
+      "loser": "Alejandro Davidovich Fokina",
+      "score": "6-3 7-6",
+      "round": "Quarterfinal"
+    },
+    {
+      "winner": "Ugo Humbert",
+      "loser": "Rinky Hijikata",
+      "score": "6-1 6-2",
       "round": "Quarterfinal"
     },
     {
