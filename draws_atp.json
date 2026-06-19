@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-19T14:17:59Z",
+  "fetched_at": "2026-06-19T17:23:55Z",
   "events": [
     {
       "slug": "2026ATPLondon",
@@ -205,42 +205,34 @@
       ],
       "r1_matches": [
         {
-          "a": "Tommy Paul",
-          "b": "Botic Van De Zandschulp",
-          "a_seed": "8",
-          "b_seed": null,
-          "h2h": "0-2"
-        },
-        {
-          "a": "Hamad Medjedovic",
-          "b": "Ugo Humbert",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
-          "a": "Rinky Hijikata",
-          "b": "Jiri Lehecka",
-          "a_seed": "Q",
-          "b_seed": "2",
-          "h2h": null
-        },
-        {
-          "a": "Alex De Minaur",
-          "b": "Brandon Nakashima",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": "1-1"
-        },
-        {
           "a": "Arthur Fery",
           "b": "Francisco Cerundolo",
           "a_seed": "WC",
           "b_seed": "7",
           "h2h": null
+        },
+        {
+          "a": "Tommy Paul",
+          "b": "Alejandro Davidovich Fokina",
+          "a_seed": "8",
+          "b_seed": "4",
+          "h2h": "5-0"
+        },
+        {
+          "a": "Ugo Humbert",
+          "b": "Rinky Hijikata",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Brandon Nakashima",
+          "loser": "Alex De Minaur",
+          "score": "7-5 6-3"
+        },
         {
           "round": "R16",
           "winner": "Alex De Minaur",
@@ -267,9 +259,27 @@
         },
         {
           "round": "R16",
+          "winner": "Tommy Paul",
+          "loser": "Botic Van De Zandschulp",
+          "score": "7-6(5) 6-3"
+        },
+        {
+          "round": "R16",
           "winner": "Alejandro Davidovich Fokina",
           "loser": "Corentin Moutet",
           "score": "6-4 6-3"
+        },
+        {
+          "round": "R16",
+          "winner": "Ugo Humbert",
+          "loser": "Hamad Medjedovic",
+          "score": "2-6 7-6(4) 7-6(5)"
+        },
+        {
+          "round": "R16",
+          "winner": "Rinky Hijikata",
+          "loser": "Jiri Lehecka",
+          "score": "4-6 7-5 7-6(7)"
         },
         {
           "round": "R32",
@@ -573,27 +583,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Alexander Zverev",
-          "b": "Yannick Hanfmann",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
-          "a": "Raphael Collignon",
-          "b": "Mattia Bellucci",
-          "a_seed": "Q",
-          "b_seed": "Q",
-          "h2h": "0-2"
-        },
-        {
-          "a": "Ben Shelton",
-          "b": "Taylor Fritz",
-          "a_seed": "3",
-          "b_seed": "5",
-          "h2h": "3-1"
-        },
-        {
           "a": "Daniel Altmaier",
           "b": "Daniil Medvedev",
           "a_seed": "WC",
@@ -606,9 +595,40 @@
           "a_seed": "2",
           "b_seed": null,
           "h2h": "0-3"
+        },
+        {
+          "a": "Alexander Zverev",
+          "b": "Taylor Fritz",
+          "a_seed": "1",
+          "b_seed": "5",
+          "h2h": "5-9"
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Alexander Zverev",
+          "loser": "Raphael Collignon",
+          "score": "7-6(10) 7-6(2)"
+        },
+        {
+          "round": "QF",
+          "winner": "Taylor Fritz",
+          "loser": "Ben Shelton",
+          "score": "6-7(5) 7-6(8) 7-6(3)"
+        },
+        {
+          "round": "R16",
+          "winner": "Alexander Zverev",
+          "loser": "Yannick Hanfmann",
+          "score": "6-3 7-6(4)"
+        },
+        {
+          "round": "R16",
+          "winner": "Raphael Collignon",
+          "loser": "Mattia Bellucci",
+          "score": "4-6 6-4 6-3"
+        },
         {
           "round": "R16",
           "winner": "Ben Shelton",
