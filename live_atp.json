@@ -1,7 +1,14 @@
 {
-  "fetched_at": "2026-06-19T14:39:39Z",
+  "fetched_at": "2026-06-19T17:02:46Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Alexander Zverev",
+      "loser": "Raphael Collignon",
+      "score": "7-6 7-6",
+      "round": "Quarterfinal",
+      "event": "2026ATPHalle"
+    },
     {
       "winner": "Taylor Fritz",
       "loser": "Ben Shelton",
@@ -181,6 +188,12 @@
       "winner": "Brandon Nakashima",
       "loser": "Alex de Minaur",
       "score": "7-5 6-3",
+      "round": "Quarterfinal"
+    },
+    {
+      "winner": "Francisco Cerundolo",
+      "loser": "Arthur Fery",
+      "score": "7-6 3-6 6-4",
       "round": "Quarterfinal"
     },
     {
