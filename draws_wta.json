@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-19T17:23:55Z",
+  "fetched_at": "2026-06-19T19:58:56Z",
   "events": [
     {
       "slug": "2026WTABerlin",
@@ -193,18 +193,18 @@
       ],
       "r1_matches": [
         {
-          "a": "Elina Svitolina",
-          "b": "Alexandra Eala",
-          "a_seed": "6",
-          "b_seed": "WC",
-          "h2h": null
-        },
-        {
           "a": "Aryna Sabalenka",
           "b": "Jessica Pegula",
           "a_seed": "1",
           "b_seed": "3",
           "h2h": "9-3"
+        },
+        {
+          "a": "Linda Noskova",
+          "b": "Alexandra Eala",
+          "a_seed": "8",
+          "b_seed": "WC",
+          "h2h": "1-0"
         }
       ],
       "completed": [
@@ -225,6 +225,12 @@
           "winner": "Linda Noskova",
           "loser": "Paula Badosa",
           "score": "61 63"
+        },
+        {
+          "round": "QF",
+          "winner": "Alexandra Eala",
+          "loser": "Elina Svitolina",
+          "score": "63 64"
         },
         {
           "round": "R2",
@@ -552,18 +558,18 @@
       ],
       "r1_matches": [
         {
-          "a": "Ann Li",
-          "b": "Viktorija Golubic",
-          "a_seed": "5",
-          "b_seed": "Q",
-          "h2h": "1-1"
-        },
-        {
           "a": "Karolina Pliskova",
           "b": "Marie Bouzkova",
           "a_seed": "4",
           "b_seed": null,
           "h2h": "2-1"
+        },
+        {
+          "a": "Emma Navarro",
+          "b": "Viktorija Golubic",
+          "a_seed": "3",
+          "b_seed": "Q",
+          "h2h": "1-0"
         }
       ],
       "completed": [
@@ -584,6 +590,12 @@
           "winner": "Emma Navarro",
           "loser": "Jessica Bouzas Maneiro",
           "score": "76(6) 62"
+        },
+        {
+          "round": "QF",
+          "winner": "Viktorija Golubic",
+          "loser": "Ann Li",
+          "score": "63 26 63"
         },
         {
           "round": "R2",
@@ -935,16 +947,16 @@
       ],
       "r1_matches": [
         {
-          "a": "Tiantsoa Sarah Rakotomanga Rajaonah",
-          "b": "Mayar Sherif",
-          "a_seed": "6",
-          "b_seed": "4",
-          "h2h": "0-1"
-        },
-        {
           "a": "Xiyu Wang",
           "b": "Anastasiya Soboleva",
           "a_seed": "1",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Mayar Sherif",
+          "b": "Elizara Yaneva",
+          "a_seed": "4",
           "b_seed": null,
           "h2h": null
         }
@@ -961,6 +973,12 @@
           "winner": "Anastasiya Soboleva",
           "loser": "Ane Mintegi Del Olmo",
           "score": "76(4) 63"
+        },
+        {
+          "round": "QF",
+          "winner": "Mayar Sherif",
+          "loser": "Tiantsoa Sarah Rakotomanga Rajaonah",
+          "score": "62 62"
         },
         {
           "round": "QF",
@@ -1318,16 +1336,16 @@
       ],
       "r1_matches": [
         {
-          "a": "Jeline Vandromme",
-          "b": "Ayla Aksu",
-          "a_seed": "8",
+          "a": "Yeon Woo Ku",
+          "b": "Darja Vidmanova",
+          "a_seed": "3",
           "b_seed": null,
           "h2h": null
         },
         {
-          "a": "Yeon Woo Ku",
-          "b": "Darja Vidmanova",
-          "a_seed": "3",
+          "a": "Alina Charaeva",
+          "b": "Ayla Aksu",
+          "a_seed": "4",
           "b_seed": null,
           "h2h": null
         }
@@ -1350,6 +1368,12 @@
           "winner": "Alina Charaeva",
           "loser": "Susan Bandecchi",
           "score": "57 62 75"
+        },
+        {
+          "round": "QF",
+          "winner": "Ayla Aksu",
+          "loser": "Jeline Vandromme",
+          "score": "75 16 64"
         },
         {
           "round": "R2",
