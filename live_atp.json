@@ -1,7 +1,14 @@
 {
-  "fetched_at": "2026-06-19T11:52:09Z",
+  "fetched_at": "2026-06-19T14:17:55Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Taylor Fritz",
+      "loser": "Ben Shelton",
+      "score": "6-7 7-6 7-6",
+      "round": "Quarterfinal",
+      "event": "2026ATPHalle"
+    },
     {
       "winner": "Alexander Zverev",
       "loser": "Vit Kopriva",
@@ -171,6 +178,12 @@
       "event": "2026ATPHalle"
     },
     {
+      "winner": "Brandon Nakashima",
+      "loser": "Alex de Minaur",
+      "score": "7-5 6-3",
+      "round": "Quarterfinal"
+    },
+    {
       "winner": "Adrian Mannarino",
       "loser": "Jakub Mensik",
       "score": "5-7 7-6 7-6",
@@ -306,6 +319,12 @@
       "winner": "Tommy Paul",
       "loser": "Botic Van De Zandschulp",
       "score": "7-6 6-3",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Ugo Humbert",
+      "loser": "Hamad Medjedovic",
+      "score": "2-6 7-6 7-6",
       "round": "Round 2"
     }
   ]
