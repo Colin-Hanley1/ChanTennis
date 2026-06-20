@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-20T16:58:27Z",
+  "fetched_at": "2026-06-20T18:09:24Z",
   "source": "espn",
   "matches": [
     {
@@ -196,6 +196,13 @@
       "loser": "Fabian Marozsan",
       "score": "6-2 6-4",
       "round": "Round 2",
+      "event": "2026ATPHalle"
+    },
+    {
+      "winner": "Frances Tiafoe",
+      "loser": "Daniel Altmaier",
+      "score": "6-1 6-3",
+      "round": "Semifinal",
       "event": "2026ATPHalle"
     },
     {
