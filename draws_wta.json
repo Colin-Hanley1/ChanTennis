@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-20T14:22:57Z",
+  "fetched_at": "2026-06-20T16:26:19Z",
   "events": [
     {
       "slug": "2026WTABerlin",
@@ -193,13 +193,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Aryna Sabalenka",
-          "b": "Jessica Pegula",
-          "a_seed": "1",
-          "b_seed": "3",
-          "h2h": "9-3"
-        },
-        {
           "a": "Linda Noskova",
           "b": "Alexandra Eala",
           "a_seed": "8",
@@ -208,6 +201,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Jessica Pegula",
+          "loser": "Aryna Sabalenka",
+          "score": "64 67(4) 60"
+        },
         {
           "round": "QF",
           "winner": "Aryna Sabalenka",
@@ -558,11 +557,11 @@
       ],
       "r1_matches": [
         {
-          "a": "Emma Navarro",
-          "b": "Viktorija Golubic",
-          "a_seed": "3",
-          "b_seed": "Q",
-          "h2h": "1-0"
+          "a": "Marie Bouzkova",
+          "b": "Emma Navarro",
+          "a_seed": "4",
+          "b_seed": "3",
+          "h2h": null
         }
       ],
       "completed": [
@@ -571,6 +570,12 @@
           "winner": "Marie Bouzkova",
           "loser": "Karolina Pliskova",
           "score": "64 61"
+        },
+        {
+          "round": "SF",
+          "winner": "Emma Navarro",
+          "loser": "Viktorija Golubic",
+          "score": "76(5) 62"
         },
         {
           "round": "QF",
@@ -1335,9 +1340,9 @@
       ],
       "r1_matches": [
         {
-          "a": "Alina Charaeva",
+          "a": "Darja Vidmanova",
           "b": "Ayla Aksu",
-          "a_seed": "4",
+          "a_seed": "3",
           "b_seed": null,
           "h2h": null
         }
@@ -1348,6 +1353,12 @@
           "winner": "Darja Vidmanova",
           "loser": "Yeon Woo Ku",
           "score": "64 63"
+        },
+        {
+          "round": "SF",
+          "winner": "Ayla Aksu",
+          "loser": "Alina Charaeva",
+          "score": "63 67(5) 76(4)"
         },
         {
           "round": "QF",
