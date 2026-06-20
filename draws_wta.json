@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-20T11:23:32Z",
+  "fetched_at": "2026-06-20T14:22:57Z",
   "events": [
     {
       "slug": "2026WTABerlin",
@@ -558,13 +558,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Karolina Pliskova",
-          "b": "Marie Bouzkova",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": "2-1"
-        },
-        {
           "a": "Emma Navarro",
           "b": "Viktorija Golubic",
           "a_seed": "3",
@@ -573,6 +566,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Marie Bouzkova",
+          "loser": "Karolina Pliskova",
+          "score": "64 61"
+        },
         {
           "round": "QF",
           "winner": "Karolina Pliskova",
@@ -1336,13 +1335,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Yeon Woo Ku",
-          "b": "Darja Vidmanova",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Alina Charaeva",
           "b": "Ayla Aksu",
           "a_seed": "4",
@@ -1351,6 +1343,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Darja Vidmanova",
+          "loser": "Yeon Woo Ku",
+          "score": "64 63"
+        },
         {
           "round": "QF",
           "winner": "Yeon Woo Ku",
