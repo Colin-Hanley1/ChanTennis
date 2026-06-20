@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-20T20:21:06Z",
+  "fetched_at": "2026-06-20T22:17:19Z",
   "events": [
     {
       "slug": "2026ATPLondon",
@@ -205,33 +205,49 @@
       ],
       "r1_matches": [
         {
-          "a": "Arthur Fery",
-          "b": "Francisco Cerundolo",
-          "a_seed": "WC",
-          "b_seed": "7",
-          "h2h": null
-        },
-        {
-          "a": "Tommy Paul",
-          "b": "Alejandro Davidovich Fokina",
-          "a_seed": "8",
-          "b_seed": "4",
-          "h2h": "5-0"
-        },
-        {
-          "a": "Ugo Humbert",
-          "b": "Rinky Hijikata",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
+          "a": "Francisco Cerundolo",
+          "b": "Tommy Paul",
+          "a_seed": "7",
+          "b_seed": "8",
+          "h2h": "5-2"
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Francisco Cerundolo",
+          "loser": "Brandon Nakashima",
+          "score": "6-7(5) 6-3 6-4"
+        },
+        {
+          "round": "SF",
+          "winner": "Tommy Paul",
+          "loser": "Ugo Humbert",
+          "score": "6-3 6-3"
+        },
         {
           "round": "QF",
           "winner": "Brandon Nakashima",
           "loser": "Alex De Minaur",
           "score": "7-5 6-3"
+        },
+        {
+          "round": "QF",
+          "winner": "Francisco Cerundolo",
+          "loser": "Arthur Fery",
+          "score": "7-6(1) 3-6 6-4"
+        },
+        {
+          "round": "QF",
+          "winner": "Tommy Paul",
+          "loser": "Alejandro Davidovich Fokina",
+          "score": "6-3 7-6(4)"
+        },
+        {
+          "round": "QF",
+          "winner": "Ugo Humbert",
+          "loser": "Rinky Hijikata",
+          "score": "6-1 6-2"
         },
         {
           "round": "R16",
@@ -583,28 +599,26 @@
       ],
       "r1_matches": [
         {
-          "a": "Daniel Altmaier",
-          "b": "Daniil Medvedev",
-          "a_seed": "WC",
-          "b_seed": "4",
-          "h2h": "0-1"
-        },
-        {
-          "a": "Frances Tiafoe",
-          "b": "Felix Auger Aliassime",
-          "a_seed": "2",
+          "a": "Taylor Fritz",
+          "b": "Frances Tiafoe",
+          "a_seed": "5",
           "b_seed": null,
-          "h2h": "0-3"
-        },
-        {
-          "a": "Alexander Zverev",
-          "b": "Taylor Fritz",
-          "a_seed": "1",
-          "b_seed": "5",
-          "h2h": "5-9"
+          "h2h": "7-1"
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Taylor Fritz",
+          "loser": "Alexander Zverev",
+          "score": "6-7(4) 6-4 7-5"
+        },
+        {
+          "round": "SF",
+          "winner": "Frances Tiafoe",
+          "loser": "Daniel Altmaier",
+          "score": "6-1 6-3"
+        },
         {
           "round": "QF",
           "winner": "Alexander Zverev",
@@ -616,6 +630,18 @@
           "winner": "Taylor Fritz",
           "loser": "Ben Shelton",
           "score": "6-7(5) 7-6(8) 7-6(3)"
+        },
+        {
+          "round": "QF",
+          "winner": "Daniel Altmaier",
+          "loser": "Daniil Medvedev",
+          "score": "6-4 6-7(6) 6-4"
+        },
+        {
+          "round": "QF",
+          "winner": "Frances Tiafoe",
+          "loser": "Felix Auger Aliassime",
+          "score": "3-6 6-3 7-6(12)"
         },
         {
           "round": "R16",
