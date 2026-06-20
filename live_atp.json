@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-20T14:22:53Z",
+  "fetched_at": "2026-06-20T15:19:54Z",
   "source": "espn",
   "matches": [
     {
@@ -365,6 +365,12 @@
       "loser": "Hamad Medjedovic",
       "score": "2-6 7-6 7-6",
       "round": "Round 2"
+    },
+    {
+      "winner": "Francisco Cerundolo",
+      "loser": "Brandon Nakashima",
+      "score": "6-7 6-3 6-4",
+      "round": "Semifinal"
     }
   ]
 }
