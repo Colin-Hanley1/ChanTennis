@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-20T16:26:19Z",
+  "fetched_at": "2026-06-20T18:19:55Z",
   "events": [
     {
       "slug": "2026WTABerlin",
@@ -193,11 +193,11 @@
       ],
       "r1_matches": [
         {
-          "a": "Linda Noskova",
-          "b": "Alexandra Eala",
-          "a_seed": "8",
-          "b_seed": "WC",
-          "h2h": "1-0"
+          "a": "Jessica Pegula",
+          "b": "Linda Noskova",
+          "a_seed": "3",
+          "b_seed": "8",
+          "h2h": "1-2"
         }
       ],
       "completed": [
@@ -206,6 +206,12 @@
           "winner": "Jessica Pegula",
           "loser": "Aryna Sabalenka",
           "score": "64 67(4) 60"
+        },
+        {
+          "round": "SF",
+          "winner": "Linda Noskova",
+          "loser": "Alexandra Eala",
+          "score": "62 64"
         },
         {
           "round": "QF",
@@ -952,20 +958,25 @@
       "r1_matches": [
         {
           "a": "Xiyu Wang",
-          "b": "Anastasiya Soboleva",
+          "b": "Mayar Sherif",
           "a_seed": "1",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Mayar Sherif",
-          "b": "Elizara Yaneva",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": null
+          "b_seed": "4",
+          "h2h": "0-1"
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Xiyu Wang",
+          "loser": "Anastasiya Soboleva",
+          "score": "62 62"
+        },
+        {
+          "round": "SF",
+          "winner": "Mayar Sherif",
+          "loser": "Elizara Yaneva",
+          "score": "63 63"
+        },
         {
           "round": "QF",
           "winner": "Xiyu Wang",
