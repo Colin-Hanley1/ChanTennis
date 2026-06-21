@@ -1,7 +1,14 @@
 {
-  "fetched_at": "2026-06-21T14:41:37Z",
+  "fetched_at": "2026-06-21T16:01:28Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Frances Tiafoe",
+      "loser": "Taylor Fritz",
+      "score": "6-4 6-4",
+      "round": "Final",
+      "event": "2026ATPHalle"
+    },
     {
       "winner": "Alexander Zverev",
       "loser": "Raphael Collignon",
@@ -211,6 +218,12 @@
       "score": "6-7 6-4 7-5",
       "round": "Semifinal",
       "event": "2026ATPHalle"
+    },
+    {
+      "winner": "Francisco Cerundolo",
+      "loser": "Tommy Paul",
+      "score": "6-7 6-4 6-3",
+      "round": "Final"
     },
     {
       "winner": "Brandon Nakashima",

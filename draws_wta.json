@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-21T13:14:41Z",
+  "fetched_at": "2026-06-21T16:01:32Z",
   "events": [
     {
       "slug": "2026WTABerlin",
@@ -1349,16 +1349,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Darja Vidmanova",
-          "b": "Ayla Aksu",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": null
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Darja Vidmanova",
+          "loser": "Ayla Aksu",
+          "score": "62 63"
+        },
         {
           "round": "SF",
           "winner": "Darja Vidmanova",
