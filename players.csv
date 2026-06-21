@@ -16,13 +16,13 @@ Carlos Alcaraz,clay,career,0.6430,0.4410,123
 Carlos Alcaraz,grass,career,0.6820,0.3890,39
 Carlos Alcaraz,all,career,0.6655,0.4176,365
 Alexander Zverev,hard,52week,0.6930,0.3570,54
-Alexander Zverev,clay,52week,0.6730,0.4090,29
-Alexander Zverev,grass,52week,0.7170,0.3300,9
-Alexander Zverev,all,52week,0.6890,0.3708,92
+Alexander Zverev,clay,52week,0.6670,0.4020,24
+Alexander Zverev,grass,52week,0.7430,0.3190,9
+Alexander Zverev,all,52week,0.6910,0.3655,87
 Alexander Zverev,hard,career,0.6740,0.3730,467
 Alexander Zverev,clay,career,0.6460,0.4090,251
-Alexander Zverev,grass,career,0.6960,0.3500,68
-Alexander Zverev,all,career,0.6670,0.3825,786
+Alexander Zverev,grass,career,0.6990,0.3470,72
+Alexander Zverev,all,career,0.6674,0.3821,790
 Novak Djokovic,hard,52week,0.6890,0.3820,25
 Novak Djokovic,clay,52week,0.6800,0.4070,10
 Novak Djokovic,grass,52week,0.6950,0.4340,6
@@ -46,12 +46,12 @@ Rafael Jodar,clay,career,0.6480,0.4380,23
 Rafael Jodar,all,career,0.6370,0.4092,37
 Daniil Medvedev,hard,52week,0.6620,0.4110,53
 Daniil Medvedev,clay,52week,0.6070,0.4040,10
-Daniil Medvedev,grass,52week,0.6870,0.3310,10
-Daniil Medvedev,all,52week,0.6579,0.3991,73
+Daniil Medvedev,grass,52week,0.6680,0.3540,12
+Daniil Medvedev,all,52week,0.6556,0.4009,75
 Daniil Medvedev,hard,career,0.6650,0.4020,471
 Daniil Medvedev,clay,career,0.6140,0.4020,88
-Daniil Medvedev,grass,career,0.6690,0.3680,78
-Daniil Medvedev,all,career,0.6584,0.3978,637
+Daniil Medvedev,grass,career,0.6680,0.3690,82
+Daniil Medvedev,all,career,0.6584,0.3978,641
 Casper Ruud,hard,52week,0.6790,0.3450,34
 Casper Ruud,clay,52week,0.6530,0.4320,25
 Casper Ruud,all,52week,0.6680,0.3819,59
@@ -59,14 +59,6 @@ Casper Ruud,hard,career,0.6640,0.3530,237
 Casper Ruud,clay,career,0.6560,0.4000,235
 Casper Ruud,grass,career,0.6620,0.3510,12
 Casper Ruud,all,career,0.6601,0.3758,484
-Alex De Minaur,hard,52week,0.6650,0.3960,55
-Alex De Minaur,clay,52week,0.6020,0.3960,14
-Alex De Minaur,grass,52week,0.6670,0.4080,8
-Alex De Minaur,all,52week,0.6538,0.3972,77
-Alex De Minaur,hard,career,0.6450,0.3970,375
-Alex De Minaur,clay,career,0.6000,0.4100,91
-Alex De Minaur,grass,career,0.6620,0.3940,59
-Alex De Minaur,all,career,0.6391,0.3989,525
 Lorenzo Musetti,hard,52week,0.6730,0.3790,43
 Lorenzo Musetti,clay,52week,0.6380,0.3970,21
 Lorenzo Musetti,grass,52week,0.6170,0.2970,1
@@ -75,78 +67,86 @@ Lorenzo Musetti,hard,career,0.6420,0.3660,175
 Lorenzo Musetti,clay,career,0.6240,0.4070,123
 Lorenzo Musetti,grass,career,0.6600,0.3550,29
 Lorenzo Musetti,all,career,0.6368,0.3804,327
-Felix Auger Aliassime,hard,52week,0.6980,0.3580,53
-Felix Auger Aliassime,clay,52week,0.6600,0.3600,13
-Felix Auger Aliassime,grass,52week,0.7000,0.3520,12
-Felix Auger Aliassime,all,52week,0.6920,0.3574,78
-Felix Auger Aliassime,hard,career,0.6730,0.3620,316
-Felix Auger Aliassime,clay,career,0.6360,0.3820,105
-Felix Auger Aliassime,grass,career,0.7040,0.3380,48
-Felix Auger Aliassime,all,career,0.6679,0.3640,469
-Jakub Mensik,hard,52week,0.6570,0.3690,39
-Jakub Mensik,clay,52week,0.6820,0.3480,14
-Jakub Mensik,grass,52week,0.6440,0.3550,7
-Jakub Mensik,all,52week,0.6613,0.3625,60
-Jakub Mensik,hard,career,0.6560,0.3610,93
-Jakub Mensik,clay,career,0.6590,0.3630,30
-Jakub Mensik,grass,career,0.6350,0.3490,13
-Jakub Mensik,all,career,0.6547,0.3603,136
-Learner Tien,hard,52week,0.6450,0.3820,50
-Learner Tien,clay,52week,0.6190,0.3930,14
-Learner Tien,grass,52week,0.6380,0.3190,7
-Learner Tien,all,52week,0.6392,0.3780,71
-Learner Tien,hard,career,0.6270,0.3780,74
-Learner Tien,clay,career,0.6140,0.3770,20
-Learner Tien,grass,career,0.6380,0.3190,7
-Learner Tien,all,career,0.6252,0.3737,101
-Joao Fonseca,hard,52week,0.6640,0.3530,24
-Joao Fonseca,clay,52week,0.6630,0.3650,21
-Joao Fonseca,grass,52week,0.6880,0.3630,6
-Joao Fonseca,all,52week,0.6664,0.3591,51
-Joao Fonseca,hard,career,0.6740,0.3540,40
-Joao Fonseca,clay,career,0.6380,0.3770,41
-Joao Fonseca,grass,career,0.6760,0.3560,7
-Joao Fonseca,all,career,0.6574,0.3649,88
-Tommy Paul,hard,52week,0.6960,0.3710,26
-Tommy Paul,clay,52week,0.6200,0.4000,21
-Tommy Paul,grass,52week,0.6630,0.3700,3
-Tommy Paul,all,52week,0.6621,0.3831,50
-Tommy Paul,hard,career,0.6460,0.3890,257
-Tommy Paul,clay,career,0.6190,0.3840,80
-Tommy Paul,grass,career,0.6630,0.3750,39
-Tommy Paul,all,career,0.6420,0.3865,376
+Alex De Minaur,hard,52week,0.6650,0.3960,55
+Alex De Minaur,clay,52week,0.6020,0.3960,14
+Alex De Minaur,grass,52week,0.6620,0.4190,12
+Alex De Minaur,all,52week,0.6537,0.3994,81
+Alex De Minaur,hard,career,0.6450,0.3970,375
+Alex De Minaur,clay,career,0.6000,0.4100,91
+Alex De Minaur,grass,career,0.6620,0.3970,63
+Alex De Minaur,all,career,0.6393,0.3992,529
 Ben Shelton,hard,52week,0.7000,0.3320,41
 Ben Shelton,clay,52week,0.7140,0.3190,13
-Ben Shelton,grass,52week,0.6990,0.3100,12
-Ben Shelton,all,52week,0.7026,0.3254,66
+Ben Shelton,grass,52week,0.7000,0.3110,14
+Ben Shelton,all,52week,0.7027,0.3252,68
 Ben Shelton,hard,career,0.6920,0.3260,146
 Ben Shelton,clay,career,0.6590,0.3360,47
-Ben Shelton,grass,career,0.6910,0.3170,25
-Ben Shelton,all,career,0.6848,0.3271,218
+Ben Shelton,grass,career,0.6970,0.3130,30
+Ben Shelton,all,career,0.6857,0.3264,223
+Jakub Mensik,hard,52week,0.6570,0.3690,39
+Jakub Mensik,clay,52week,0.6850,0.3280,12
+Jakub Mensik,grass,52week,0.6500,0.3500,8
+Jakub Mensik,all,52week,0.6617,0.3581,59
+Jakub Mensik,hard,career,0.6560,0.3610,93
+Jakub Mensik,clay,career,0.6590,0.3630,30
+Jakub Mensik,grass,career,0.6390,0.3460,14
+Jakub Mensik,all,career,0.6549,0.3599,137
+Felix Auger Aliassime,hard,52week,0.6980,0.3580,53
+Felix Auger Aliassime,clay,52week,0.6600,0.3600,13
+Felix Auger Aliassime,grass,52week,0.6970,0.3530,12
+Felix Auger Aliassime,all,52week,0.6915,0.3576,78
+Felix Auger Aliassime,hard,career,0.6730,0.3620,316
+Felix Auger Aliassime,clay,career,0.6360,0.3820,105
+Felix Auger Aliassime,grass,career,0.7050,0.3380,51
+Felix Auger Aliassime,all,career,0.6682,0.3639,472
+Learner Tien,hard,52week,0.6450,0.3820,50
+Learner Tien,clay,52week,0.6240,0.4120,13
+Learner Tien,grass,52week,0.6530,0.3340,7
+Learner Tien,all,52week,0.6419,0.3828,70
+Learner Tien,hard,career,0.6270,0.3780,74
+Learner Tien,clay,career,0.6140,0.3770,20
+Learner Tien,grass,career,0.6520,0.3170,9
+Learner Tien,all,career,0.6267,0.3725,103
+Joao Fonseca,hard,52week,0.6640,0.3530,24
+Joao Fonseca,clay,52week,0.6690,0.3630,18
+Joao Fonseca,grass,52week,0.6750,0.3560,7
+Joao Fonseca,all,52week,0.6674,0.3571,49
+Joao Fonseca,hard,career,0.6740,0.3540,40
+Joao Fonseca,clay,career,0.6380,0.3770,41
+Joao Fonseca,grass,career,0.6650,0.3510,8
+Joao Fonseca,all,career,0.6566,0.3643,89
+Tommy Paul,hard,52week,0.6960,0.3710,26
+Tommy Paul,clay,52week,0.6210,0.4090,16
+Tommy Paul,grass,52week,0.6770,0.3780,8
+Tommy Paul,all,52week,0.6690,0.3843,50
+Tommy Paul,hard,career,0.6460,0.3890,257
+Tommy Paul,clay,career,0.6190,0.3840,80
+Tommy Paul,grass,career,0.6650,0.3760,44
+Tommy Paul,all,career,0.6425,0.3864,381
 Jiri Lehecka,hard,52week,0.6770,0.3510,42
 Jiri Lehecka,clay,52week,0.6740,0.3460,10
-Jiri Lehecka,grass,52week,0.7300,0.3210,12
-Jiri Lehecka,all,52week,0.6865,0.3446,64
+Jiri Lehecka,grass,52week,0.7180,0.3290,12
+Jiri Lehecka,all,52week,0.6842,0.3461,64
 Jiri Lehecka,hard,career,0.6550,0.3480,164
 Jiri Lehecka,clay,career,0.6300,0.3720,51
-Jiri Lehecka,grass,career,0.7080,0.3320,22
-Jiri Lehecka,all,career,0.6545,0.3517,237
+Jiri Lehecka,grass,career,0.7060,0.3330,25
+Jiri Lehecka,all,career,0.6550,0.3515,240
 Andrey Rublev,hard,52week,0.6720,0.3670,39
-Andrey Rublev,clay,52week,0.6300,0.3890,20
-Andrey Rublev,grass,52week,0.7090,0.3320,6
-Andrey Rublev,all,52week,0.6625,0.3705,65
+Andrey Rublev,clay,52week,0.6160,0.3940,16
+Andrey Rublev,grass,52week,0.6950,0.3220,7
+Andrey Rublev,all,52week,0.6601,0.3689,62
 Andrey Rublev,hard,career,0.6630,0.3800,429
 Andrey Rublev,clay,career,0.6420,0.4000,150
-Andrey Rublev,grass,career,0.6690,0.3640,35
-Andrey Rublev,all,career,0.6582,0.3840,614
+Andrey Rublev,grass,career,0.6670,0.3620,36
+Andrey Rublev,all,career,0.6581,0.3838,615
 Flavio Cobolli,hard,52week,0.6260,0.3490,39
-Flavio Cobolli,clay,52week,0.6390,0.3950,24
-Flavio Cobolli,grass,52week,0.6590,0.3520,9
-Flavio Cobolli,all,52week,0.6345,0.3647,72
+Flavio Cobolli,clay,52week,0.6500,0.3800,21
+Flavio Cobolli,grass,52week,0.6560,0.3440,10
+Flavio Cobolli,all,52week,0.6375,0.3576,70
 Flavio Cobolli,hard,career,0.6160,0.3490,93
 Flavio Cobolli,clay,career,0.6230,0.4020,68
-Flavio Cobolli,grass,career,0.6660,0.3320,16
-Flavio Cobolli,all,career,0.6232,0.3678,177
+Flavio Cobolli,grass,career,0.6640,0.3290,17
+Flavio Cobolli,all,career,0.6233,0.3673,178
 Alexander Blockx,hard,52week,0.6760,0.3600,11
 Alexander Blockx,clay,52week,0.6890,0.3380,17
 Alexander Blockx,grass,52week,0.6430,0.4080,1
@@ -157,12 +157,12 @@ Alexander Blockx,grass,career,0.6430,0.4080,1
 Alexander Blockx,all,career,0.6735,0.3457,34
 Alexander Bublik,hard,52week,0.6870,0.3390,39
 Alexander Bublik,clay,52week,0.6600,0.3820,19
-Alexander Bublik,grass,52week,0.7230,0.3310,9
-Alexander Bublik,all,52week,0.6842,0.3501,67
+Alexander Bublik,grass,52week,0.7040,0.3280,10
+Alexander Bublik,all,52week,0.6820,0.3494,68
 Alexander Bublik,hard,career,0.6420,0.3450,248
 Alexander Bublik,clay,career,0.6270,0.3540,84
-Alexander Bublik,grass,career,0.6790,0.3540,61
-Alexander Bublik,all,career,0.6445,0.3483,393
+Alexander Bublik,grass,career,0.6770,0.3530,62
+Alexander Bublik,all,career,0.6443,0.3482,394
 Valentin Vacherot,hard,52week,0.6900,0.3350,32
 Valentin Vacherot,clay,52week,0.6340,0.4020,8
 Valentin Vacherot,all,52week,0.6788,0.3484,40
@@ -171,36 +171,36 @@ Valentin Vacherot,clay,career,0.6120,0.3920,21
 Valentin Vacherot,all,career,0.6602,0.3568,55
 Raphael Collignon,hard,52week,0.6510,0.3460,21
 Raphael Collignon,clay,52week,0.5920,0.3730,9
-Raphael Collignon,grass,52week,0.5880,0.2670,1
-Raphael Collignon,all,52week,0.6318,0.3513,31
+Raphael Collignon,grass,52week,0.6790,0.2760,4
+Raphael Collignon,all,52week,0.6387,0.3449,34
 Raphael Collignon,hard,career,0.6460,0.3350,25
 Raphael Collignon,clay,career,0.5940,0.3810,12
-Raphael Collignon,grass,career,0.5880,0.2670,1
-Raphael Collignon,all,career,0.6281,0.3477,38
+Raphael Collignon,grass,career,0.6790,0.2760,4
+Raphael Collignon,all,career,0.6340,0.3427,41
 Francisco Cerundolo,hard,52week,0.6180,0.3860,28
-Francisco Cerundolo,clay,52week,0.6100,0.4360,28
-Francisco Cerundolo,grass,52week,0.6130,0.3030,2
-Francisco Cerundolo,all,52week,0.6140,0.4073,58
+Francisco Cerundolo,clay,52week,0.6100,0.4450,27
+Francisco Cerundolo,grass,52week,0.6210,0.3830,7
+Francisco Cerundolo,all,52week,0.6149,0.4114,62
 Francisco Cerundolo,hard,career,0.6200,0.3780,115
 Francisco Cerundolo,clay,career,0.6110,0.4210,152
-Francisco Cerundolo,grass,career,0.6060,0.3600,17
-Francisco Cerundolo,all,career,0.6143,0.3999,284
+Francisco Cerundolo,grass,career,0.6100,0.3720,22
+Francisco Cerundolo,all,career,0.6145,0.4002,289
 Frances Tiafoe,hard,52week,0.6530,0.3530,38
 Frances Tiafoe,clay,52week,0.6300,0.3770,11
-Frances Tiafoe,grass,52week,0.6500,0.3330,6
-Frances Tiafoe,all,52week,0.6481,0.3556,55
+Frances Tiafoe,grass,52week,0.6700,0.3510,11
+Frances Tiafoe,all,52week,0.6519,0.3570,60
 Frances Tiafoe,hard,career,0.6500,0.3550,336
 Frances Tiafoe,clay,career,0.6310,0.3690,102
-Frances Tiafoe,grass,career,0.6670,0.3410,47
-Frances Tiafoe,all,career,0.6477,0.3566,485
-Alejandro Davidovich Fokina,hard,52week,0.6540,0.3680,42
-Alejandro Davidovich Fokina,clay,52week,0.5960,0.3430,8
-Alejandro Davidovich Fokina,grass,52week,0.6540,0.3710,8
-Alejandro Davidovich Fokina,all,52week,0.6460,0.3650,58
-Alejandro Davidovich Fokina,hard,career,0.6230,0.3800,201
-Alejandro Davidovich Fokina,clay,career,0.6010,0.4050,103
-Alejandro Davidovich Fokina,grass,career,0.6400,0.3630,24
-Alejandro Davidovich Fokina,all,career,0.6173,0.3866,328
+Frances Tiafoe,grass,career,0.6690,0.3430,52
+Frances Tiafoe,all,career,0.6481,0.3566,490
+Taylor Fritz,hard,52week,0.6980,0.3470,54
+Taylor Fritz,clay,52week,0.6190,0.2360,2
+Taylor Fritz,grass,52week,0.7330,0.3410,20
+Taylor Fritz,all,52week,0.7051,0.3425,76
+Taylor Fritz,hard,career,0.6730,0.3590,405
+Taylor Fritz,clay,career,0.6440,0.3770,95
+Taylor Fritz,grass,career,0.7050,0.3350,80
+Taylor Fritz,all,career,0.6727,0.3586,580
 Tomas Machac,hard,52week,0.6400,0.3400,24
 Tomas Machac,clay,52week,0.6060,0.3750,14
 Tomas Machac,grass,52week,0.6800,0.3580,5
@@ -215,29 +215,30 @@ Dino Prizmic,all,52week,0.6424,0.3692,29
 Dino Prizmic,hard,career,0.6160,0.3510,18
 Dino Prizmic,clay,career,0.6320,0.3990,23
 Dino Prizmic,all,career,0.6250,0.3779,41
-Taylor Fritz,hard,52week,0.6980,0.3470,54
-Taylor Fritz,clay,52week,0.6190,0.2360,2
-Taylor Fritz,grass,52week,0.7380,0.3380,18
-Taylor Fritz,all,52week,0.7056,0.3418,74
-Taylor Fritz,hard,career,0.6730,0.3590,405
-Taylor Fritz,clay,career,0.6440,0.3770,95
-Taylor Fritz,grass,career,0.7020,0.3340,74
-Taylor Fritz,all,career,0.6719,0.3588,574
+Alejandro Davidovich Fokina,hard,52week,0.6540,0.3680,42
+Alejandro Davidovich Fokina,clay,52week,0.5960,0.3430,8
+Alejandro Davidovich Fokina,grass,52week,0.6570,0.3760,11
+Alejandro Davidovich Fokina,all,52week,0.6469,0.3662,61
+Alejandro Davidovich Fokina,hard,career,0.6230,0.3800,201
+Alejandro Davidovich Fokina,clay,career,0.6010,0.4050,103
+Alejandro Davidovich Fokina,grass,career,0.6420,0.3650,27
+Alejandro Davidovich Fokina,all,career,0.6177,0.3866,331
 Alejandro Tabilo,hard,52week,0.6680,0.3200,22
-Alejandro Tabilo,clay,52week,0.6650,0.3710,25
-Alejandro Tabilo,all,52week,0.6664,0.3471,47
+Alejandro Tabilo,clay,52week,0.6780,0.3750,23
+Alejandro Tabilo,grass,52week,0.5580,0.2550,1
+Alejandro Tabilo,all,52week,0.6706,0.3461,46
 Alejandro Tabilo,hard,career,0.6480,0.3470,82
 Alejandro Tabilo,clay,career,0.6280,0.3860,77
-Alejandro Tabilo,grass,career,0.6690,0.3170,14
-Alejandro Tabilo,all,career,0.6408,0.3619,173
+Alejandro Tabilo,grass,career,0.6650,0.3150,15
+Alejandro Tabilo,all,career,0.6406,0.3615,174
 Hamad Medjedovic,hard,52week,0.6510,0.3320,20
-Hamad Medjedovic,clay,52week,0.6140,0.3830,14
-Hamad Medjedovic,grass,52week,0.6710,0.3020,4
-Hamad Medjedovic,all,52week,0.6395,0.3476,38
+Hamad Medjedovic,clay,52week,0.6270,0.3720,11
+Hamad Medjedovic,grass,52week,0.7010,0.2930,6
+Hamad Medjedovic,all,52week,0.6520,0.3376,37
 Hamad Medjedovic,hard,career,0.6750,0.3380,48
 Hamad Medjedovic,clay,career,0.6170,0.3660,36
-Hamad Medjedovic,grass,career,0.6670,0.3160,7
-Hamad Medjedovic,all,career,0.6514,0.3474,91
+Hamad Medjedovic,grass,career,0.6870,0.3070,9
+Hamad Medjedovic,all,career,0.6537,0.3458,93
 Stefanos Tsitsipas,hard,52week,0.6770,0.3540,26
 Stefanos Tsitsipas,clay,52week,0.6640,0.3300,13
 Stefanos Tsitsipas,grass,52week,0.6540,0.2460,3
@@ -246,14 +247,6 @@ Stefanos Tsitsipas,hard,career,0.6860,0.3480,363
 Stefanos Tsitsipas,clay,career,0.6640,0.3900,172
 Stefanos Tsitsipas,grass,career,0.6940,0.3240,42
 Stefanos Tsitsipas,all,career,0.6800,0.3588,577
-Ugo Humbert,hard,52week,0.6850,0.3270,34
-Ugo Humbert,clay,52week,0.6090,0.3570,10
-Ugo Humbert,grass,52week,0.6760,0.3670,10
-Ugo Humbert,all,52week,0.6693,0.3400,54
-Ugo Humbert,hard,career,0.6670,0.3490,232
-Ugo Humbert,clay,career,0.6090,0.3710,59
-Ugo Humbert,grass,career,0.6660,0.3560,55
-Ugo Humbert,all,career,0.6570,0.3539,346
 Matteo Arnaldi,hard,52week,0.6280,0.3330,17
 Matteo Arnaldi,clay,52week,0.5710,0.3650,13
 Matteo Arnaldi,grass,52week,0.6370,0.2690,2
@@ -271,13 +264,13 @@ Mariano Navone,clay,career,0.5870,0.4410,70
 Mariano Navone,grass,career,0.5990,0.3280,5
 Mariano Navone,all,career,0.5920,0.4110,110
 Karen Khachanov,hard,52week,0.6800,0.3540,32
-Karen Khachanov,clay,52week,0.6410,0.3830,16
-Karen Khachanov,grass,52week,0.6790,0.3510,11
-Karen Khachanov,all,52week,0.6692,0.3613,59
+Karen Khachanov,clay,52week,0.6510,0.3640,13
+Karen Khachanov,grass,52week,0.6800,0.3550,10
+Karen Khachanov,all,52week,0.6731,0.3565,55
 Karen Khachanov,hard,career,0.6640,0.3650,368
 Karen Khachanov,clay,career,0.6320,0.3850,146
-Karen Khachanov,grass,career,0.6670,0.3430,50
-Karen Khachanov,all,career,0.6560,0.3682,564
+Karen Khachanov,grass,career,0.6670,0.3440,51
+Karen Khachanov,all,career,0.6560,0.3683,565
 Luciano Darderi,hard,52week,0.6270,0.3440,23
 Luciano Darderi,clay,52week,0.6360,0.4070,37
 Luciano Darderi,grass,52week,0.6570,0.3580,6
@@ -287,21 +280,29 @@ Luciano Darderi,clay,career,0.6360,0.3960,89
 Luciano Darderi,grass,career,0.6470,0.3430,11
 Luciano Darderi,all,career,0.6304,0.3715,144
 Cameron Norrie,hard,52week,0.6600,0.3480,40
-Cameron Norrie,clay,52week,0.6040,0.3870,15
-Cameron Norrie,grass,52week,0.6550,0.3520,7
-Cameron Norrie,all,52week,0.6459,0.3579,62
+Cameron Norrie,clay,52week,0.6100,0.3630,11
+Cameron Norrie,grass,52week,0.6480,0.3530,8
+Cameron Norrie,all,52week,0.6491,0.3515,59
 Cameron Norrie,hard,career,0.6410,0.3760,280
 Cameron Norrie,clay,career,0.6180,0.3940,124
-Cameron Norrie,grass,career,0.6550,0.3470,48
-Cameron Norrie,all,career,0.6362,0.3779,452
+Cameron Norrie,grass,career,0.6530,0.3470,49
+Cameron Norrie,all,career,0.6360,0.3778,453
 Tomas Martin Etcheverry,hard,52week,0.6680,0.3510,30
-Tomas Martin Etcheverry,clay,52week,0.6540,0.3600,27
-Tomas Martin Etcheverry,grass,52week,0.6230,0.3590,6
-Tomas Martin Etcheverry,all,52week,0.6577,0.3556,63
+Tomas Martin Etcheverry,clay,52week,0.6590,0.3630,26
+Tomas Martin Etcheverry,grass,52week,0.6310,0.3540,6
+Tomas Martin Etcheverry,all,52week,0.6606,0.3563,62
 Tomas Martin Etcheverry,hard,career,0.6480,0.3490,96
 Tomas Martin Etcheverry,clay,career,0.6360,0.3810,115
-Tomas Martin Etcheverry,grass,career,0.6460,0.3290,14
-Tomas Martin Etcheverry,all,career,0.6417,0.3641,225
+Tomas Martin Etcheverry,grass,career,0.6420,0.3290,15
+Tomas Martin Etcheverry,all,career,0.6415,0.3640,226
+Ugo Humbert,hard,52week,0.6850,0.3270,34
+Ugo Humbert,clay,52week,0.6090,0.3570,10
+Ugo Humbert,grass,52week,0.6780,0.3590,11
+Ugo Humbert,all,52week,0.6698,0.3389,55
+Ugo Humbert,hard,career,0.6670,0.3490,232
+Ugo Humbert,clay,career,0.6090,0.3710,59
+Ugo Humbert,grass,career,0.6670,0.3550,59
+Ugo Humbert,all,career,0.6572,0.3537,350
 Matteo Berrettini,hard,52week,0.6800,0.3170,20
 Matteo Berrettini,clay,52week,0.6490,0.3690,17
 Matteo Berrettini,grass,52week,0.6400,0.3130,1
@@ -312,10 +313,12 @@ Matteo Berrettini,grass,career,0.7100,0.3400,54
 Matteo Berrettini,all,career,0.6879,0.3483,350
 Ignacio Buse,hard,52week,0.6130,0.2960,2
 Ignacio Buse,clay,52week,0.6340,0.3740,27
-Ignacio Buse,all,52week,0.6326,0.3686,29
+Ignacio Buse,grass,52week,0.6130,0.3250,2
+Ignacio Buse,all,52week,0.6313,0.3658,31
 Ignacio Buse,hard,career,0.6140,0.3260,5
 Ignacio Buse,clay,career,0.6300,0.3740,30
-Ignacio Buse,all,career,0.6277,0.3671,35
+Ignacio Buse,grass,career,0.6130,0.3250,2
+Ignacio Buse,all,career,0.6269,0.3649,37
 Alex Michelsen,hard,52week,0.6460,0.3630,36
 Alex Michelsen,clay,52week,0.5870,0.3740,13
 Alex Michelsen,grass,52week,0.6570,0.3400,9
@@ -325,29 +328,13 @@ Alex Michelsen,clay,career,0.5840,0.3670,28
 Alex Michelsen,grass,career,0.6710,0.3460,25
 Alex Michelsen,all,career,0.6344,0.3644,162
 Brandon Nakashima,hard,52week,0.6800,0.3350,39
-Brandon Nakashima,clay,52week,0.6140,0.3840,11
-Brandon Nakashima,grass,52week,0.7150,0.3350,9
-Brandon Nakashima,all,52week,0.6730,0.3441,59
+Brandon Nakashima,clay,52week,0.6440,0.3770,10
+Brandon Nakashima,grass,52week,0.7010,0.3560,10
+Brandon Nakashima,all,52week,0.6775,0.3457,59
 Brandon Nakashima,hard,career,0.6790,0.3450,184
 Brandon Nakashima,clay,career,0.6340,0.3750,46
-Brandon Nakashima,grass,career,0.6930,0.3370,35
-Brandon Nakashima,all,career,0.6730,0.3492,265
-Tallon Griekspoor,hard,52week,0.6670,0.3000,28
-Tallon Griekspoor,clay,52week,0.6090,0.3450,9
-Tallon Griekspoor,grass,52week,0.6580,0.3400,7
-Tallon Griekspoor,all,52week,0.6537,0.3156,44
-Tallon Griekspoor,hard,career,0.6660,0.3150,168
-Tallon Griekspoor,clay,career,0.6420,0.3590,63
-Tallon Griekspoor,grass,career,0.6690,0.3160,34
-Tallon Griekspoor,all,career,0.6607,0.3256,265
-Hubert Hurkacz,hard,52week,0.6950,0.2980,12
-Hubert Hurkacz,clay,52week,0.6860,0.3840,8
-Hubert Hurkacz,grass,52week,0.7420,0.2730,3
-Hubert Hurkacz,all,52week,0.6980,0.3247,23
-Hubert Hurkacz,hard,career,0.6770,0.3480,271
-Hubert Hurkacz,clay,career,0.6600,0.3610,85
-Hubert Hurkacz,grass,career,0.7030,0.3250,42
-Hubert Hurkacz,all,career,0.6761,0.3483,398
+Brandon Nakashima,grass,career,0.6900,0.3430,39
+Brandon Nakashima,all,career,0.6729,0.3498,269
 Sebastian Korda,hard,52week,0.6770,0.3710,42
 Sebastian Korda,clay,52week,0.6540,0.3620,10
 Sebastian Korda,all,52week,0.6726,0.3693,52
@@ -355,6 +342,14 @@ Sebastian Korda,hard,career,0.6560,0.3730,189
 Sebastian Korda,clay,career,0.6190,0.3900,52
 Sebastian Korda,grass,career,0.6700,0.3680,25
 Sebastian Korda,all,career,0.6501,0.3759,266
+Kamil Majchrzak,hard,52week,0.6350,0.3650,25
+Kamil Majchrzak,clay,52week,0.6180,0.3570,7
+Kamil Majchrzak,grass,52week,0.6650,0.3690,10
+Kamil Majchrzak,all,52week,0.6393,0.3646,42
+Kamil Majchrzak,hard,career,0.6350,0.3610,75
+Kamil Majchrzak,clay,career,0.6120,0.3710,29
+Kamil Majchrzak,grass,career,0.6650,0.3520,17
+Kamil Majchrzak,all,career,0.6337,0.3621,121
 Jack Draper,hard,52week,0.7020,0.3340,10
 Jack Draper,clay,52week,0.6760,0.4090,15
 Jack Draper,grass,52week,0.7050,0.3550,6
@@ -363,22 +358,22 @@ Jack Draper,hard,career,0.6660,0.3810,114
 Jack Draper,clay,career,0.6500,0.3870,35
 Jack Draper,grass,career,0.6900,0.3500,28
 Jack Draper,all,career,0.6666,0.3773,177
-Yibing Wu,hard,52week,0.6330,0.3370,18
-Yibing Wu,clay,52week,0.6320,0.2900,3
-Yibing Wu,grass,52week,0.6710,0.3220,1
-Yibing Wu,all,52week,0.6346,0.3299,22
-Yibing Wu,hard,career,0.6300,0.3510,53
-Yibing Wu,clay,career,0.5530,0.3470,12
-Yibing Wu,grass,career,0.6240,0.3520,6
-Yibing Wu,all,career,0.6165,0.3504,71
-Arthur Rinderknech,hard,52week,0.6660,0.3120,35
-Arthur Rinderknech,clay,52week,0.6780,0.3580,17
-Arthur Rinderknech,grass,52week,0.6900,0.3150,11
-Arthur Rinderknech,all,52week,0.6734,0.3249,63
-Arthur Rinderknech,hard,career,0.6590,0.3220,143
-Arthur Rinderknech,clay,career,0.6540,0.3490,65
-Arthur Rinderknech,grass,career,0.6710,0.3140,30
-Arthur Rinderknech,all,career,0.6591,0.3284,238
+Marin Cilic,hard,52week,0.6780,0.3210,23
+Marin Cilic,clay,52week,0.6320,0.3570,10
+Marin Cilic,grass,52week,0.6490,0.3470,8
+Marin Cilic,all,52week,0.6611,0.3349,41
+Marin Cilic,hard,career,0.6630,0.3730,609
+Marin Cilic,clay,career,0.6440,0.3940,240
+Marin Cilic,grass,career,0.6910,0.3560,122
+Marin Cilic,all,career,0.6618,0.3761,971
+Tallon Griekspoor,hard,52week,0.6670,0.3000,28
+Tallon Griekspoor,clay,52week,0.6090,0.3450,9
+Tallon Griekspoor,grass,52week,0.6470,0.3350,8
+Tallon Griekspoor,all,52week,0.6518,0.3152,45
+Tallon Griekspoor,hard,career,0.6660,0.3150,168
+Tallon Griekspoor,clay,career,0.6420,0.3590,63
+Tallon Griekspoor,grass,career,0.6670,0.3160,35
+Tallon Griekspoor,all,career,0.6604,0.3256,266
 Gael Monfils,hard,52week,0.6260,0.3540,10
 Gael Monfils,clay,52week,0.5970,0.3830,6
 Gael Monfils,grass,52week,0.6170,0.3690,4
@@ -394,14 +389,14 @@ Pablo Carreno Busta,hard,career,0.6430,0.3700,298
 Pablo Carreno Busta,clay,career,0.6230,0.3950,219
 Pablo Carreno Busta,grass,career,0.6230,0.3150,20
 Pablo Carreno Busta,all,career,0.6341,0.3781,537
-Marin Cilic,hard,52week,0.6780,0.3210,23
-Marin Cilic,clay,52week,0.6320,0.3570,10
-Marin Cilic,grass,52week,0.6470,0.3580,7
-Marin Cilic,all,52week,0.6611,0.3365,40
-Marin Cilic,hard,career,0.6630,0.3730,609
-Marin Cilic,clay,career,0.6440,0.3940,240
-Marin Cilic,grass,career,0.6910,0.3570,121
-Marin Cilic,all,career,0.6618,0.3762,970
+Hubert Hurkacz,hard,52week,0.6950,0.2980,12
+Hubert Hurkacz,clay,52week,0.6860,0.3840,8
+Hubert Hurkacz,grass,52week,0.7430,0.3180,3
+Hubert Hurkacz,all,52week,0.6981,0.3305,23
+Hubert Hurkacz,hard,career,0.6770,0.3480,271
+Hubert Hurkacz,clay,career,0.6600,0.3610,85
+Hubert Hurkacz,grass,career,0.7050,0.3270,44
+Hubert Hurkacz,all,career,0.6765,0.3485,400
 Eliot Spizzirri,hard,52week,0.6750,0.3830,15
 Eliot Spizzirri,all,52week,0.6750,0.3830,15
 Eliot Spizzirri,hard,career,0.6580,0.3820,18
@@ -415,6 +410,37 @@ Arthur Cazaux,hard,career,0.6490,0.3460,41
 Arthur Cazaux,clay,career,0.6360,0.3310,17
 Arthur Cazaux,grass,career,0.6420,0.2930,5
 Arthur Cazaux,all,career,0.6449,0.3377,63
+Arthur Rinderknech,hard,52week,0.6660,0.3120,35
+Arthur Rinderknech,clay,52week,0.6780,0.3580,17
+Arthur Rinderknech,grass,52week,0.6950,0.3110,10
+Arthur Rinderknech,all,52week,0.6740,0.3245,62
+Arthur Rinderknech,hard,career,0.6590,0.3220,143
+Arthur Rinderknech,clay,career,0.6540,0.3490,65
+Arthur Rinderknech,grass,career,0.6730,0.3120,31
+Arthur Rinderknech,all,career,0.6595,0.3280,239
+Juan Manuel Cerundolo,hard,52week,0.6250,0.3170,5
+Juan Manuel Cerundolo,clay,52week,0.6050,0.3950,23
+Juan Manuel Cerundolo,all,52week,0.6086,0.3811,28
+Juan Manuel Cerundolo,hard,career,0.5870,0.3420,21
+Juan Manuel Cerundolo,clay,career,0.5950,0.3870,55
+Juan Manuel Cerundolo,grass,career,0.5060,0.1550,1
+Juan Manuel Cerundolo,all,career,0.5917,0.3717,77
+Yibing Wu,hard,52week,0.6330,0.3370,18
+Yibing Wu,clay,52week,0.6320,0.2900,3
+Yibing Wu,grass,52week,0.6710,0.3220,1
+Yibing Wu,all,52week,0.6346,0.3299,22
+Yibing Wu,hard,career,0.6300,0.3510,53
+Yibing Wu,clay,career,0.5530,0.3470,12
+Yibing Wu,grass,career,0.6240,0.3520,6
+Yibing Wu,all,career,0.6165,0.3504,71
+Miomir Kecmanovic,hard,52week,0.6450,0.3610,35
+Miomir Kecmanovic,clay,52week,0.6200,0.3610,7
+Miomir Kecmanovic,grass,52week,0.6480,0.3360,6
+Miomir Kecmanovic,all,52week,0.6417,0.3579,48
+Miomir Kecmanovic,hard,career,0.6420,0.3630,241
+Miomir Kecmanovic,clay,career,0.6130,0.3960,91
+Miomir Kecmanovic,grass,career,0.6530,0.3370,38
+Miomir Kecmanovic,all,career,0.6360,0.3684,370
 Jaume Munar,hard,52week,0.6570,0.3790,35
 Jaume Munar,clay,52week,0.5970,0.3760,9
 Jaume Munar,grass,52week,0.6490,0.3630,7
@@ -423,53 +449,6 @@ Jaume Munar,hard,career,0.6240,0.3740,122
 Jaume Munar,clay,career,0.6030,0.4050,157
 Jaume Munar,grass,career,0.6290,0.3510,21
 Jaume Munar,all,career,0.6134,0.3886,300
-Denis Shapovalov,hard,52week,0.6340,0.3890,31
-Denis Shapovalov,clay,52week,0.5920,0.3370,7
-Denis Shapovalov,grass,52week,0.5810,0.3490,5
-Denis Shapovalov,all,52week,0.6210,0.3759,43
-Denis Shapovalov,hard,career,0.6600,0.3630,320
-Denis Shapovalov,clay,career,0.6310,0.3580,83
-Denis Shapovalov,grass,career,0.6690,0.3390,46
-Denis Shapovalov,all,career,0.6556,0.3596,449
-Juan Manuel Cerundolo,hard,52week,0.6250,0.3170,5
-Juan Manuel Cerundolo,clay,52week,0.6050,0.3950,23
-Juan Manuel Cerundolo,all,52week,0.6086,0.3811,28
-Juan Manuel Cerundolo,hard,career,0.5870,0.3420,21
-Juan Manuel Cerundolo,clay,career,0.5950,0.3870,55
-Juan Manuel Cerundolo,grass,career,0.5060,0.1550,1
-Juan Manuel Cerundolo,all,career,0.5917,0.3717,77
-Miomir Kecmanovic,hard,52week,0.6450,0.3610,35
-Miomir Kecmanovic,clay,52week,0.6270,0.3810,9
-Miomir Kecmanovic,grass,52week,0.6460,0.3400,5
-Miomir Kecmanovic,all,52week,0.6418,0.3625,49
-Miomir Kecmanovic,hard,career,0.6420,0.3630,241
-Miomir Kecmanovic,clay,career,0.6130,0.3960,91
-Miomir Kecmanovic,grass,career,0.6530,0.3380,37
-Miomir Kecmanovic,all,career,0.6360,0.3686,369
-Corentin Moutet,hard,52week,0.6120,0.3870,35
-Corentin Moutet,clay,52week,0.6030,0.4090,12
-Corentin Moutet,grass,52week,0.6480,0.3680,12
-Corentin Moutet,all,52week,0.6175,0.3876,59
-Corentin Moutet,hard,career,0.6060,0.3700,117
-Corentin Moutet,clay,career,0.5870,0.3990,86
-Corentin Moutet,grass,career,0.6290,0.3600,28
-Corentin Moutet,all,career,0.6017,0.3796,231
-Zizou Bergs,hard,52week,0.6370,0.3520,35
-Zizou Bergs,clay,52week,0.6190,0.3630,8
-Zizou Bergs,grass,52week,0.6220,0.3580,9
-Zizou Bergs,all,52week,0.6316,0.3547,52
-Zizou Bergs,hard,career,0.6430,0.3580,98
-Zizou Bergs,clay,career,0.6210,0.3710,29
-Zizou Bergs,grass,career,0.6390,0.3470,13
-Zizou Bergs,all,career,0.6381,0.3597,140
-Yannick Hanfmann,hard,52week,0.6840,0.3490,14
-Yannick Hanfmann,clay,52week,0.6710,0.3640,21
-Yannick Hanfmann,grass,52week,0.6700,0.2930,4
-Yannick Hanfmann,all,52week,0.6756,0.3513,39
-Yannick Hanfmann,hard,career,0.6310,0.3430,58
-Yannick Hanfmann,clay,career,0.6320,0.3770,123
-Yannick Hanfmann,grass,career,0.6600,0.3330,21
-Yannick Hanfmann,all,career,0.6346,0.3627,202
 Jordan Thompson,hard,52week,0.6480,0.3330,14
 Jordan Thompson,clay,52week,0.6290,0.3500,6
 Jordan Thompson,grass,52week,0.6660,0.3310,7
@@ -478,22 +457,38 @@ Jordan Thompson,hard,career,0.6380,0.3590,216
 Jordan Thompson,clay,career,0.6020,0.3500,50
 Jordan Thompson,grass,career,0.6580,0.3460,67
 Jordan Thompson,all,career,0.6366,0.3550,333
-Fabian Marozsan,hard,52week,0.6430,0.3600,31
-Fabian Marozsan,clay,52week,0.6410,0.3480,12
-Fabian Marozsan,grass,52week,0.6230,0.3380,6
-Fabian Marozsan,all,52week,0.6401,0.3544,49
-Fabian Marozsan,hard,career,0.6370,0.3650,94
-Fabian Marozsan,clay,career,0.6350,0.3680,43
-Fabian Marozsan,grass,career,0.6230,0.3120,12
-Fabian Marozsan,all,career,0.6353,0.3616,149
+Denis Shapovalov,hard,52week,0.6340,0.3890,31
+Denis Shapovalov,clay,52week,0.5920,0.3370,7
+Denis Shapovalov,grass,52week,0.6000,0.3620,6
+Denis Shapovalov,all,52week,0.6227,0.3770,44
+Denis Shapovalov,hard,career,0.6600,0.3630,320
+Denis Shapovalov,clay,career,0.6310,0.3580,83
+Denis Shapovalov,grass,career,0.6680,0.3400,48
+Denis Shapovalov,all,career,0.6555,0.3596,451
+Yannick Hanfmann,hard,52week,0.6840,0.3490,14
+Yannick Hanfmann,clay,52week,0.6710,0.3640,21
+Yannick Hanfmann,grass,52week,0.7060,0.2940,5
+Yannick Hanfmann,all,52week,0.6799,0.3500,40
+Yannick Hanfmann,hard,career,0.6310,0.3430,58
+Yannick Hanfmann,clay,career,0.6320,0.3770,123
+Yannick Hanfmann,grass,career,0.6660,0.3320,23
+Yannick Hanfmann,all,career,0.6355,0.3623,204
 Ethan Quinn,hard,52week,0.6490,0.3320,23
-Ethan Quinn,clay,52week,0.6180,0.3290,11
-Ethan Quinn,grass,52week,0.6360,0.3730,4
-Ethan Quinn,all,52week,0.6387,0.3354,38
+Ethan Quinn,clay,52week,0.6170,0.3120,8
+Ethan Quinn,grass,52week,0.6370,0.3520,6
+Ethan Quinn,all,52week,0.6401,0.3309,37
 Ethan Quinn,hard,career,0.6360,0.3320,33
 Ethan Quinn,clay,career,0.6080,0.3460,16
-Ethan Quinn,grass,career,0.6240,0.3910,8
-Ethan Quinn,all,career,0.6265,0.3442,57
+Ethan Quinn,grass,career,0.6270,0.3740,10
+Ethan Quinn,all,career,0.6269,0.3429,59
+Marton Fucsovics,hard,52week,0.6290,0.3940,27
+Marton Fucsovics,clay,52week,0.6140,0.3330,6
+Marton Fucsovics,grass,52week,0.6510,0.3280,6
+Marton Fucsovics,all,52week,0.6301,0.3745,39
+Marton Fucsovics,hard,career,0.6260,0.3830,227
+Marton Fucsovics,clay,career,0.6100,0.4030,104
+Marton Fucsovics,grass,career,0.6460,0.3520,43
+Marton Fucsovics,all,career,0.6239,0.3850,374
 Daniel Merida Aguilar,hard,52week,0.5710,0.2550,1
 Daniel Merida Aguilar,clay,52week,0.5830,0.4120,10
 Daniel Merida Aguilar,all,52week,0.5819,0.3977,11
@@ -501,26 +496,27 @@ Daniel Merida Aguilar,hard,career,0.5710,0.2550,1
 Daniel Merida Aguilar,clay,career,0.5830,0.4120,10
 Daniel Merida Aguilar,all,career,0.5819,0.3977,11
 Alexei Popyrin,hard,52week,0.6560,0.3240,23
-Alexei Popyrin,clay,52week,0.6760,0.3470,16
-Alexei Popyrin,grass,52week,0.6210,0.3630,4
-Alexei Popyrin,all,52week,0.6602,0.3362,43
+Alexei Popyrin,clay,52week,0.6680,0.3360,12
+Alexei Popyrin,grass,52week,0.6590,0.3250,4
+Alexei Popyrin,all,52week,0.6600,0.3278,39
 Alexei Popyrin,hard,career,0.6560,0.3340,174
 Alexei Popyrin,clay,career,0.6420,0.3480,67
-Alexei Popyrin,grass,career,0.6520,0.3190,24
-Alexei Popyrin,all,career,0.6521,0.3362,265
-Roman Safiullin,hard,52week,0.6340,0.3530,7
-Roman Safiullin,grass,52week,0.6790,0.3290,5
-Roman Safiullin,all,52week,0.6528,0.3430,12
-Roman Safiullin,hard,career,0.6440,0.3650,90
-Roman Safiullin,clay,career,0.6240,0.3530,22
-Roman Safiullin,grass,career,0.6790,0.3550,18
-Roman Safiullin,all,career,0.6455,0.3616,130
+Alexei Popyrin,grass,career,0.6520,0.3180,25
+Alexei Popyrin,all,career,0.6521,0.3360,266
 Alex Molcan,clay,52week,0.6590,0.4210,7
 Alex Molcan,all,52week,0.6590,0.4210,7
 Alex Molcan,hard,career,0.6120,0.3550,42
 Alex Molcan,clay,career,0.6130,0.4070,56
 Alex Molcan,grass,career,0.6400,0.3320,7
 Alex Molcan,all,career,0.6144,0.3812,105
+Corentin Moutet,hard,52week,0.6120,0.3870,35
+Corentin Moutet,clay,52week,0.6030,0.4090,12
+Corentin Moutet,grass,52week,0.6560,0.3580,12
+Corentin Moutet,all,52week,0.6191,0.3856,59
+Corentin Moutet,hard,career,0.6060,0.3700,117
+Corentin Moutet,clay,career,0.5870,0.3990,86
+Corentin Moutet,grass,career,0.6320,0.3560,30
+Corentin Moutet,all,career,0.6023,0.3789,233
 Sebastian Baez,hard,52week,0.6060,0.3830,25
 Sebastian Baez,clay,52week,0.5850,0.3830,20
 Sebastian Baez,grass,52week,0.5400,0.1220,1
@@ -541,14 +537,6 @@ Soon Woo Kwon,hard,career,0.6270,0.3640,107
 Soon Woo Kwon,clay,career,0.6050,0.3750,21
 Soon Woo Kwon,grass,career,0.6330,0.3420,12
 Soon Woo Kwon,all,career,0.6242,0.3638,140
-Marton Fucsovics,hard,52week,0.6290,0.3940,27
-Marton Fucsovics,clay,52week,0.6140,0.3330,6
-Marton Fucsovics,grass,52week,0.6700,0.3320,8
-Marton Fucsovics,all,52week,0.6348,0.3730,41
-Marton Fucsovics,hard,career,0.6260,0.3830,227
-Marton Fucsovics,clay,career,0.6100,0.4030,104
-Marton Fucsovics,grass,career,0.6470,0.3530,42
-Marton Fucsovics,all,career,0.6239,0.3852,373
 Holger Rune,hard,52week,0.6650,0.3690,47
 Holger Rune,clay,52week,0.6310,0.3870,16
 Holger Rune,grass,52week,0.6710,0.3030,4
@@ -557,10 +545,18 @@ Holger Rune,hard,career,0.6610,0.3630,174
 Holger Rune,clay,career,0.6300,0.3860,91
 Holger Rune,grass,career,0.6790,0.3240,21
 Holger Rune,all,career,0.6525,0.3675,286
+Zizou Bergs,hard,52week,0.6370,0.3520,35
+Zizou Bergs,clay,52week,0.6190,0.3630,8
+Zizou Bergs,grass,52week,0.6260,0.3130,5
+Zizou Bergs,all,52week,0.6329,0.3498,48
+Zizou Bergs,hard,career,0.6430,0.3580,98
+Zizou Bergs,clay,career,0.6210,0.3710,29
+Zizou Bergs,grass,career,0.6420,0.3420,14
+Zizou Bergs,all,career,0.6384,0.3591,141
 Grigor Dimitrov,hard,52week,0.6480,0.3200,10
-Grigor Dimitrov,clay,52week,0.6080,0.3560,3
+Grigor Dimitrov,clay,52week,0.6250,0.3090,2
 Grigor Dimitrov,grass,52week,0.7130,0.3910,4
-Grigor Dimitrov,all,52week,0.6562,0.3431,17
+Grigor Dimitrov,all,52week,0.6614,0.3364,16
 Grigor Dimitrov,hard,career,0.6620,0.3680,527
 Grigor Dimitrov,clay,career,0.6430,0.3860,183
 Grigor Dimitrov,grass,career,0.6850,0.3620,84
@@ -569,30 +565,22 @@ Adolfo Daniel Vallejo,clay,52week,0.6160,0.3950,9
 Adolfo Daniel Vallejo,all,52week,0.6160,0.3950,9
 Adolfo Daniel Vallejo,clay,career,0.5970,0.3830,13
 Adolfo Daniel Vallejo,all,career,0.5970,0.3830,13
-Botic Van De Zandschulp,hard,52week,0.6570,0.3600,27
-Botic Van De Zandschulp,clay,52week,0.6380,0.4020,16
-Botic Van De Zandschulp,grass,52week,0.6120,0.3510,3
-Botic Van De Zandschulp,all,52week,0.6475,0.3740,46
-Botic Van De Zandschulp,hard,career,0.6330,0.3670,161
-Botic Van De Zandschulp,clay,career,0.6070,0.4010,63
-Botic Van De Zandschulp,grass,career,0.6340,0.3630,22
-Botic Van De Zandschulp,all,career,0.6264,0.3753,246
 Nuno Borges,hard,52week,0.6480,0.3290,32
 Nuno Borges,clay,52week,0.6220,0.3750,14
-Nuno Borges,grass,52week,0.6810,0.3550,11
-Nuno Borges,all,52week,0.6480,0.3453,57
+Nuno Borges,grass,52week,0.6790,0.3480,9
+Nuno Borges,all,52week,0.6465,0.3438,55
 Nuno Borges,hard,career,0.6390,0.3490,102
 Nuno Borges,clay,career,0.6250,0.3800,59
-Nuno Borges,grass,career,0.6660,0.3360,17
-Nuno Borges,all,career,0.6369,0.3580,178
-Martin Landaluce,hard,52week,0.6590,0.3350,10
-Martin Landaluce,clay,52week,0.6220,0.3710,10
-Martin Landaluce,grass,52week,0.6670,0.3240,2
-Martin Landaluce,all,52week,0.6429,0.3504,22
-Martin Landaluce,hard,career,0.6460,0.3230,14
-Martin Landaluce,clay,career,0.6000,0.3620,15
-Martin Landaluce,grass,career,0.6670,0.3240,2
-Martin Landaluce,all,career,0.6251,0.3419,31
+Nuno Borges,grass,career,0.6660,0.3330,18
+Nuno Borges,all,career,0.6371,0.3576,179
+Benjamin Bonzi,hard,52week,0.6360,0.3450,18
+Benjamin Bonzi,clay,52week,0.6970,0.2800,3
+Benjamin Bonzi,grass,52week,0.6460,0.3490,7
+Benjamin Bonzi,all,52week,0.6450,0.3390,28
+Benjamin Bonzi,hard,career,0.6430,0.3610,100
+Benjamin Bonzi,clay,career,0.6020,0.3560,24
+Benjamin Bonzi,grass,career,0.6620,0.3390,26
+Benjamin Bonzi,all,career,0.6397,0.3564,150
 Reilly Opelka,hard,52week,0.7160,0.2700,28
 Reilly Opelka,clay,52week,0.6410,0.3120,5
 Reilly Opelka,grass,52week,0.6870,0.2930,10
@@ -601,79 +589,95 @@ Reilly Opelka,hard,career,0.7150,0.2770,185
 Reilly Opelka,clay,career,0.6590,0.3060,41
 Reilly Opelka,grass,career,0.6810,0.2850,25
 Reilly Opelka,all,career,0.7025,0.2825,251
+Marcos Giron,hard,52week,0.6400,0.3610,33
+Marcos Giron,clay,52week,0.6750,0.2480,4
+Marcos Giron,grass,52week,0.6560,0.3520,9
+Marcos Giron,all,52week,0.6462,0.3494,46
+Marcos Giron,hard,career,0.6380,0.3570,201
+Marcos Giron,clay,career,0.6080,0.3590,54
+Marcos Giron,grass,career,0.6590,0.3340,40
+Marcos Giron,all,career,0.6354,0.3542,295
 Thiago Agustin Tirante,hard,52week,0.6370,0.3590,7
 Thiago Agustin Tirante,clay,52week,0.6650,0.3640,23
 Thiago Agustin Tirante,all,52week,0.6585,0.3628,30
 Thiago Agustin Tirante,hard,career,0.6340,0.3580,12
 Thiago Agustin Tirante,clay,career,0.6500,0.3570,37
 Thiago Agustin Tirante,all,career,0.6461,0.3572,49
-Kamil Majchrzak,hard,52week,0.6350,0.3650,25
-Kamil Majchrzak,clay,52week,0.6180,0.3570,7
-Kamil Majchrzak,grass,52week,0.6890,0.3740,7
-Kamil Majchrzak,all,52week,0.6416,0.3652,39
-Kamil Majchrzak,hard,career,0.6350,0.3610,75
-Kamil Majchrzak,clay,career,0.6120,0.3710,29
-Kamil Majchrzak,grass,career,0.6780,0.3510,14
-Kamil Majchrzak,all,career,0.6344,0.3623,118
+Martin Landaluce,hard,52week,0.6590,0.3350,10
+Martin Landaluce,clay,52week,0.6220,0.3710,10
+Martin Landaluce,grass,52week,0.6820,0.3070,3
+Martin Landaluce,all,52week,0.6459,0.3470,23
+Martin Landaluce,hard,career,0.6460,0.3230,14
+Martin Landaluce,clay,career,0.6000,0.3620,15
+Martin Landaluce,grass,career,0.6820,0.3070,3
+Martin Landaluce,all,career,0.6278,0.3398,32
+Fabian Marozsan,hard,52week,0.6430,0.3600,31
+Fabian Marozsan,clay,52week,0.6410,0.3480,12
+Fabian Marozsan,grass,52week,0.6240,0.3300,8
+Fabian Marozsan,all,52week,0.6395,0.3525,51
+Fabian Marozsan,hard,career,0.6370,0.3650,94
+Fabian Marozsan,clay,career,0.6350,0.3680,43
+Fabian Marozsan,grass,career,0.6230,0.3110,14
+Fabian Marozsan,all,career,0.6351,0.3608,151
 Juncheng Shang,hard,52week,0.6440,0.3270,16
 Juncheng Shang,all,52week,0.6440,0.3270,16
 Juncheng Shang,hard,career,0.6330,0.3570,72
 Juncheng Shang,clay,career,0.5810,0.3520,6
 Juncheng Shang,grass,career,0.7010,0.2700,5
 Juncheng Shang,all,career,0.6333,0.3514,83
-Marcos Giron,hard,52week,0.6400,0.3610,33
-Marcos Giron,clay,52week,0.6750,0.2480,4
-Marcos Giron,grass,52week,0.6520,0.3570,8
-Marcos Giron,all,52week,0.6452,0.3502,45
-Marcos Giron,hard,career,0.6380,0.3570,201
-Marcos Giron,clay,career,0.6080,0.3590,54
-Marcos Giron,grass,career,0.6590,0.3350,39
-Marcos Giron,all,career,0.6353,0.3544,294
 Zachary Svajda,hard,52week,0.6370,0.3250,11
 Zachary Svajda,clay,52week,0.5820,0.2820,7
-Zachary Svajda,all,52week,0.6156,0.3083,18
+Zachary Svajda,grass,52week,0.6310,0.2790,1
+Zachary Svajda,all,52week,0.6164,0.3067,19
 Zachary Svajda,hard,career,0.6170,0.3440,33
 Zachary Svajda,clay,career,0.5820,0.2820,7
-Zachary Svajda,grass,career,0.5940,0.4020,1
-Zachary Svajda,all,career,0.6105,0.3348,41
+Zachary Svajda,grass,career,0.6090,0.3520,2
+Zachary Svajda,all,career,0.6108,0.3340,42
+Botic Van De Zandschulp,hard,52week,0.6570,0.3600,27
+Botic Van De Zandschulp,clay,52week,0.6380,0.4020,16
+Botic Van De Zandschulp,grass,52week,0.6160,0.3530,5
+Botic Van De Zandschulp,all,52week,0.6464,0.3733,48
+Botic Van De Zandschulp,hard,career,0.6330,0.3670,161
+Botic Van De Zandschulp,clay,career,0.6070,0.4010,63
+Botic Van De Zandschulp,grass,career,0.6340,0.3630,24
+Botic Van De Zandschulp,all,career,0.6265,0.3753,248
+Giovanni Mpetshi Perricard,hard,52week,0.7050,0.2660,36
+Giovanni Mpetshi Perricard,clay,52week,0.6220,0.3330,4
+Giovanni Mpetshi Perricard,grass,52week,0.7200,0.2520,6
+Giovanni Mpetshi Perricard,all,52week,0.6997,0.2700,46
+Giovanni Mpetshi Perricard,hard,career,0.7060,0.2610,66
+Giovanni Mpetshi Perricard,clay,career,0.6450,0.3230,19
+Giovanni Mpetshi Perricard,grass,career,0.7140,0.2620,16
+Giovanni Mpetshi Perricard,all,career,0.6958,0.2728,101
+Roman Safiullin,hard,52week,0.6340,0.3530,7
+Roman Safiullin,grass,52week,0.6590,0.3340,4
+Roman Safiullin,all,52week,0.6431,0.3461,11
+Roman Safiullin,hard,career,0.6440,0.3650,90
+Roman Safiullin,clay,career,0.6240,0.3530,22
+Roman Safiullin,grass,career,0.6790,0.3550,18
+Roman Safiullin,all,career,0.6455,0.3616,130
 Pablo Llamas Ruiz,hard,52week,0.6100,0.2650,1
 Pablo Llamas Ruiz,clay,52week,0.5980,0.4320,7
 Pablo Llamas Ruiz,all,52week,0.5995,0.4111,8
 Pablo Llamas Ruiz,hard,career,0.6230,0.3010,3
 Pablo Llamas Ruiz,clay,career,0.6060,0.3970,14
 Pablo Llamas Ruiz,all,career,0.6090,0.3801,17
-Benjamin Bonzi,hard,52week,0.6360,0.3450,18
-Benjamin Bonzi,clay,52week,0.6970,0.2800,3
-Benjamin Bonzi,grass,52week,0.6430,0.3400,8
-Benjamin Bonzi,all,52week,0.6442,0.3369,29
-Benjamin Bonzi,hard,career,0.6430,0.3610,100
-Benjamin Bonzi,clay,career,0.6020,0.3560,24
-Benjamin Bonzi,grass,career,0.6620,0.3390,26
-Benjamin Bonzi,all,career,0.6397,0.3564,150
 Vit Kopriva,hard,52week,0.5840,0.3530,11
 Vit Kopriva,clay,52week,0.6130,0.3920,26
-Vit Kopriva,grass,52week,0.6510,0.3230,1
-Vit Kopriva,all,52week,0.6056,0.3789,38
+Vit Kopriva,grass,52week,0.6230,0.2990,2
+Vit Kopriva,all,52week,0.6053,0.3762,39
 Vit Kopriva,hard,career,0.5850,0.3570,17
 Vit Kopriva,clay,career,0.6040,0.3930,46
-Vit Kopriva,grass,career,0.5840,0.2820,2
-Vit Kopriva,all,career,0.5984,0.3802,65
+Vit Kopriva,grass,career,0.5830,0.2740,3
+Vit Kopriva,all,career,0.5982,0.3783,66
 Lorenzo Sonego,hard,52week,0.6540,0.3520,27
-Lorenzo Sonego,clay,52week,0.5800,0.3450,8
-Lorenzo Sonego,grass,52week,0.6960,0.3310,9
-Lorenzo Sonego,all,52week,0.6491,0.3464,44
+Lorenzo Sonego,clay,52week,0.5670,0.3460,7
+Lorenzo Sonego,grass,52week,0.6970,0.3290,9
+Lorenzo Sonego,all,52week,0.6488,0.3462,43
 Lorenzo Sonego,hard,career,0.6580,0.3370,198
 Lorenzo Sonego,clay,career,0.6340,0.3590,119
-Lorenzo Sonego,grass,career,0.6800,0.3430,47
-Lorenzo Sonego,all,career,0.6530,0.3450,364
-Quentin Halys,hard,52week,0.6460,0.3420,26
-Quentin Halys,clay,52week,0.6810,0.2940,4
-Quentin Halys,grass,52week,0.6680,0.2850,7
-Quentin Halys,all,52week,0.6539,0.3260,37
-Quentin Halys,hard,career,0.6470,0.3290,102
-Quentin Halys,clay,career,0.6570,0.3270,34
-Quentin Halys,grass,career,0.6970,0.3210,18
-Quentin Halys,all,career,0.6551,0.3276,154
+Lorenzo Sonego,grass,career,0.6800,0.3420,48
+Lorenzo Sonego,all,career,0.6531,0.3448,365
 Roman Andres Burruchaga,clay,52week,0.6210,0.4230,17
 Roman Andres Burruchaga,all,52week,0.6210,0.4230,17
 Roman Andres Burruchaga,clay,career,0.5970,0.4130,25
@@ -693,22 +697,22 @@ Nishesh Basavareddy,hard,career,0.6270,0.3450,26
 Nishesh Basavareddy,clay,career,0.5640,0.3290,6
 Nishesh Basavareddy,grass,career,0.5700,0.2410,3
 Nishesh Basavareddy,all,career,0.6113,0.3333,35
-Terence Atmane,hard,52week,0.6480,0.3400,26
-Terence Atmane,clay,52week,0.6530,0.3140,13
-Terence Atmane,grass,52week,0.6390,0.1490,1
-Terence Atmane,all,52week,0.6494,0.3268,40
-Terence Atmane,hard,career,0.6340,0.3390,36
-Terence Atmane,clay,career,0.6360,0.3310,18
-Terence Atmane,grass,career,0.6390,0.1490,1
-Terence Atmane,all,career,0.6347,0.3329,55
-Giovanni Mpetshi Perricard,hard,52week,0.7050,0.2660,36
-Giovanni Mpetshi Perricard,clay,52week,0.6220,0.3330,4
-Giovanni Mpetshi Perricard,grass,52week,0.7060,0.2460,7
-Giovanni Mpetshi Perricard,all,52week,0.6981,0.2687,47
-Giovanni Mpetshi Perricard,hard,career,0.7060,0.2610,66
-Giovanni Mpetshi Perricard,clay,career,0.6450,0.3230,19
-Giovanni Mpetshi Perricard,grass,career,0.7130,0.2630,15
-Giovanni Mpetshi Perricard,all,career,0.6955,0.2731,100
+Jesper De Jong,hard,52week,0.6250,0.3210,13
+Jesper De Jong,clay,52week,0.6400,0.3660,15
+Jesper De Jong,grass,52week,0.6530,0.3320,3
+Jesper De Jong,all,52week,0.6350,0.3438,31
+Jesper De Jong,hard,career,0.6390,0.3160,22
+Jesper De Jong,clay,career,0.6130,0.3780,27
+Jesper De Jong,grass,career,0.6470,0.3150,5
+Jesper De Jong,all,career,0.6267,0.3469,54
+Quentin Halys,hard,52week,0.6460,0.3420,26
+Quentin Halys,clay,52week,0.6810,0.2940,4
+Quentin Halys,grass,52week,0.6680,0.2850,7
+Quentin Halys,all,52week,0.6539,0.3260,37
+Quentin Halys,hard,career,0.6470,0.3290,102
+Quentin Halys,clay,career,0.6570,0.3270,34
+Quentin Halys,grass,career,0.6970,0.3210,18
+Quentin Halys,all,career,0.6551,0.3276,154
 Kei Nishikori,hard,52week,0.5620,0.3280,1
 Kei Nishikori,clay,52week,0.6450,0.3680,4
 Kei Nishikori,all,52week,0.6284,0.3600,5
@@ -716,21 +720,6 @@ Kei Nishikori,hard,career,0.6370,0.3910,457
 Kei Nishikori,clay,career,0.6230,0.4120,161
 Kei Nishikori,grass,career,0.6560,0.3710,71
 Kei Nishikori,all,career,0.6357,0.3938,689
-Gabriel Diallo,hard,52week,0.6520,0.3270,33
-Gabriel Diallo,clay,52week,0.5290,0.3920,6
-Gabriel Diallo,grass,52week,0.6850,0.3330,13
-Gabriel Diallo,all,52week,0.6461,0.3360,52
-Gabriel Diallo,hard,career,0.6450,0.3400,68
-Gabriel Diallo,clay,career,0.6190,0.3930,17
-Gabriel Diallo,grass,career,0.6680,0.3290,15
-Gabriel Diallo,all,career,0.6440,0.3474,100
-Emilio Nava,hard,52week,0.6520,0.3320,15
-Emilio Nava,clay,52week,0.6120,0.3320,12
-Emilio Nava,all,52week,0.6342,0.3320,27
-Emilio Nava,hard,career,0.6250,0.3140,31
-Emilio Nava,clay,career,0.6100,0.3370,15
-Emilio Nava,grass,career,0.5500,0.2550,1
-Emilio Nava,all,career,0.6186,0.3201,47
 Adam Walton,hard,52week,0.6460,0.3410,27
 Adam Walton,clay,52week,0.5460,0.3480,5
 Adam Walton,grass,52week,0.6480,0.2620,2
@@ -745,68 +734,91 @@ Titouan Droguet,all,52week,0.6620,0.3550,12
 Titouan Droguet,hard,career,0.6640,0.3320,7
 Titouan Droguet,clay,career,0.6320,0.3800,9
 Titouan Droguet,all,career,0.6460,0.3590,16
-Roberto Bautista Agut,hard,52week,0.6240,0.3400,15
-Roberto Bautista Agut,clay,52week,0.5640,0.3170,7
-Roberto Bautista Agut,grass,52week,0.6830,0.3470,10
-Roberto Bautista Agut,all,52week,0.6293,0.3372,32
-Roberto Bautista Agut,hard,career,0.6450,0.3890,467
-Roberto Bautista Agut,clay,career,0.6210,0.4000,193
-Roberto Bautista Agut,grass,career,0.6640,0.3770,86
-Roberto Bautista Agut,all,career,0.6410,0.3905,746
 Jaime Faria,hard,52week,0.6050,0.3330,3
-Jaime Faria,clay,52week,0.6130,0.3470,11
+Jaime Faria,clay,52week,0.6140,0.3590,10
 Jaime Faria,grass,52week,0.5760,0.2160,1
-Jaime Faria,all,52week,0.6089,0.3355,15
+Jaime Faria,all,52week,0.6094,0.3432,14
 Jaime Faria,hard,career,0.6130,0.3510,7
 Jaime Faria,clay,career,0.6420,0.3440,20
 Jaime Faria,grass,career,0.5760,0.2160,1
 Jaime Faria,all,career,0.6324,0.3412,28
-Laslo Djere,hard,52week,0.6210,0.2920,5
-Laslo Djere,clay,52week,0.6260,0.3380,4
-Laslo Djere,grass,52week,0.6410,0.2890,5
-Laslo Djere,all,52week,0.6296,0.3041,14
-Laslo Djere,hard,career,0.6180,0.3440,119
-Laslo Djere,clay,career,0.6340,0.3830,180
-Laslo Djere,grass,career,0.6440,0.3150,26
-Laslo Djere,all,career,0.6289,0.3633,325
+Terence Atmane,hard,52week,0.6480,0.3400,26
+Terence Atmane,clay,52week,0.6530,0.3140,13
+Terence Atmane,grass,52week,0.6900,0.2410,3
+Terence Atmane,all,52week,0.6525,0.3249,42
+Terence Atmane,hard,career,0.6340,0.3390,36
+Terence Atmane,clay,career,0.6360,0.3310,18
+Terence Atmane,grass,career,0.6900,0.2410,3
+Terence Atmane,all,career,0.6376,0.3313,57
+Roberto Bautista Agut,hard,52week,0.6240,0.3400,15
+Roberto Bautista Agut,clay,52week,0.5640,0.3170,7
+Roberto Bautista Agut,grass,52week,0.6850,0.3580,9
+Roberto Bautista Agut,all,52week,0.6282,0.3400,31
+Roberto Bautista Agut,hard,career,0.6450,0.3890,467
+Roberto Bautista Agut,clay,career,0.6210,0.4000,193
+Roberto Bautista Agut,grass,career,0.6640,0.3770,86
+Roberto Bautista Agut,all,career,0.6410,0.3905,746
+Martin Damm,hard,52week,0.7160,0.2960,10
+Martin Damm,clay,52week,0.6550,0.2670,3
+Martin Damm,grass,52week,0.6480,0.3030,3
+Martin Damm,all,52week,0.6918,0.2919,16
+Martin Damm,hard,career,0.7100,0.3050,13
+Martin Damm,clay,career,0.6550,0.2670,3
+Martin Damm,grass,career,0.6480,0.3030,3
+Martin Damm,all,career,0.6915,0.2987,19
 Daniel Altmaier,hard,52week,0.6230,0.3140,26
 Daniel Altmaier,clay,52week,0.6280,0.3610,15
-Daniel Altmaier,grass,52week,0.6150,0.3040,5
-Daniel Altmaier,all,52week,0.6238,0.3282,46
+Daniel Altmaier,grass,52week,0.6320,0.3150,9
+Daniel Altmaier,all,52week,0.6261,0.3283,50
 Daniel Altmaier,hard,career,0.6190,0.3260,92
 Daniel Altmaier,clay,career,0.6120,0.3740,88
-Daniel Altmaier,grass,career,0.6380,0.3000,19
-Daniel Altmaier,all,career,0.6177,0.3447,199
-Otto Virtanen,hard,52week,0.6000,0.2540,3
-Otto Virtanen,clay,52week,0.5430,0.4180,3
-Otto Virtanen,grass,52week,0.6320,0.3730,3
-Otto Virtanen,all,52week,0.5917,0.3483,9
-Otto Virtanen,hard,career,0.6290,0.3220,27
-Otto Virtanen,clay,career,0.5820,0.3800,12
-Otto Virtanen,grass,career,0.6600,0.3500,5
-Otto Virtanen,all,career,0.6197,0.3410,44
-Zsombor Piros,hard,career,0.5640,0.4010,12
-Zsombor Piros,clay,career,0.5980,0.3670,8
-Zsombor Piros,all,career,0.5776,0.3874,20
-Jenson Brooksby,hard,52week,0.6200,0.3700,26
-Jenson Brooksby,clay,52week,0.5420,0.3410,5
-Jenson Brooksby,grass,52week,0.6230,0.3920,9
-Jenson Brooksby,all,52week,0.6109,0.3713,40
-Jenson Brooksby,hard,career,0.6180,0.3820,92
-Jenson Brooksby,clay,career,0.5870,0.3790,19
-Jenson Brooksby,grass,career,0.6330,0.3970,21
-Jenson Brooksby,all,career,0.6159,0.3840,132
+Daniel Altmaier,grass,career,0.6410,0.3040,23
+Daniel Altmaier,all,career,0.6185,0.3443,203
+Emilio Nava,hard,52week,0.6520,0.3320,15
+Emilio Nava,clay,52week,0.6120,0.3320,12
+Emilio Nava,all,52week,0.6342,0.3320,27
+Emilio Nava,hard,career,0.6250,0.3140,31
+Emilio Nava,clay,career,0.6100,0.3370,15
+Emilio Nava,grass,career,0.5500,0.2550,1
+Emilio Nava,all,career,0.6186,0.3201,47
+Mattia Bellucci,hard,52week,0.5870,0.3570,17
+Mattia Bellucci,clay,52week,0.6190,0.3430,7
+Mattia Bellucci,grass,52week,0.6890,0.3470,10
+Mattia Bellucci,all,52week,0.6236,0.3512,34
+Mattia Bellucci,hard,career,0.6240,0.3440,38
+Mattia Bellucci,clay,career,0.6200,0.3420,14
+Mattia Bellucci,grass,career,0.6810,0.3410,12
+Mattia Bellucci,all,career,0.6338,0.3430,64
 Arthur Fery,hard,52week,0.5940,0.3500,5
-Arthur Fery,grass,52week,0.6050,0.3940,2
-Arthur Fery,all,52week,0.5971,0.3626,7
+Arthur Fery,grass,52week,0.6330,0.4110,5
+Arthur Fery,all,52week,0.6135,0.3805,10
+Arthur Fery,hard,career,0.5940,0.3500,5
+Arthur Fery,grass,career,0.6090,0.3960,7
+Arthur Fery,all,career,0.6028,0.3768,12
+Gabriel Diallo,hard,52week,0.6520,0.3270,33
+Gabriel Diallo,clay,52week,0.5290,0.3920,6
+Gabriel Diallo,grass,52week,0.6480,0.3250,9
+Gabriel Diallo,all,52week,0.6359,0.3348,48
+Gabriel Diallo,hard,career,0.6450,0.3400,68
+Gabriel Diallo,clay,career,0.6190,0.3930,17
+Gabriel Diallo,grass,career,0.6590,0.3280,16
+Gabriel Diallo,all,career,0.6428,0.3470,101
 Sebastian Ofner,hard,52week,0.6520,0.2940,7
-Sebastian Ofner,clay,52week,0.6300,0.3270,10
+Sebastian Ofner,clay,52week,0.6290,0.3010,8
 Sebastian Ofner,grass,52week,0.6550,0.3010,4
-Sebastian Ofner,all,52week,0.6421,0.3110,21
+Sebastian Ofner,all,52week,0.6429,0.2984,19
 Sebastian Ofner,hard,career,0.6420,0.3350,42
 Sebastian Ofner,clay,career,0.6150,0.3620,60
 Sebastian Ofner,grass,career,0.6600,0.3160,19
 Sebastian Ofner,all,career,0.6314,0.3454,121
+Laslo Djere,hard,52week,0.6210,0.2920,5
+Laslo Djere,clay,52week,0.6260,0.3380,4
+Laslo Djere,grass,52week,0.6550,0.2920,4
+Laslo Djere,all,52week,0.6330,0.3062,13
+Laslo Djere,hard,career,0.6180,0.3440,119
+Laslo Djere,clay,career,0.6340,0.3830,180
+Laslo Djere,grass,career,0.6440,0.3150,26
+Laslo Djere,all,career,0.6289,0.3633,325
 Francisco Comesana,hard,52week,0.6230,0.3540,22
 Francisco Comesana,clay,52week,0.6390,0.3450,18
 Francisco Comesana,grass,52week,0.5760,0.3100,2
@@ -815,6 +827,14 @@ Francisco Comesana,hard,career,0.6260,0.3440,29
 Francisco Comesana,clay,career,0.6350,0.3590,38
 Francisco Comesana,grass,career,0.6360,0.3260,5
 Francisco Comesana,all,career,0.6314,0.3507,72
+Otto Virtanen,hard,52week,0.6000,0.2540,3
+Otto Virtanen,clay,52week,0.5430,0.4180,3
+Otto Virtanen,grass,52week,0.6280,0.3080,1
+Otto Virtanen,all,52week,0.5796,0.3320,7
+Otto Virtanen,hard,career,0.6290,0.3220,27
+Otto Virtanen,clay,career,0.5820,0.3800,12
+Otto Virtanen,grass,career,0.6600,0.3500,5
+Otto Virtanen,all,career,0.6197,0.3410,44
 Leandro Riedi,hard,52week,0.6070,0.4080,6
 Leandro Riedi,grass,52week,0.6000,0.2050,1
 Leandro Riedi,all,52week,0.6060,0.3790,7
@@ -822,25 +842,9 @@ Leandro Riedi,hard,career,0.6070,0.3540,13
 Leandro Riedi,clay,career,0.6540,0.3370,4
 Leandro Riedi,grass,career,0.6000,0.2050,1
 Leandro Riedi,all,career,0.6171,0.3419,18
-Nikoloz Basilashvili,hard,52week,0.6500,0.3230,8
-Nikoloz Basilashvili,clay,52week,0.6290,0.3500,9
-Nikoloz Basilashvili,grass,52week,0.6490,0.3300,2
-Nikoloz Basilashvili,all,52week,0.6399,0.3365,19
-Nikoloz Basilashvili,hard,career,0.6060,0.3670,201
-Nikoloz Basilashvili,clay,career,0.5920,0.3780,104
-Nikoloz Basilashvili,grass,career,0.6250,0.3270,35
-Nikoloz Basilashvili,all,career,0.6037,0.3662,340
-Henrique Rocha,hard,career,0.6610,0.4550,3
-Henrique Rocha,clay,career,0.5940,0.3710,9
-Henrique Rocha,all,career,0.6108,0.3920,12
-Jesper De Jong,hard,52week,0.6250,0.3210,13
-Jesper De Jong,clay,52week,0.6400,0.3660,15
-Jesper De Jong,grass,52week,0.6500,0.3220,4
-Jesper De Jong,all,52week,0.6352,0.3422,32
-Jesper De Jong,hard,career,0.6390,0.3160,22
-Jesper De Jong,clay,career,0.6130,0.3780,27
-Jesper De Jong,grass,career,0.6470,0.3150,5
-Jesper De Jong,all,career,0.6267,0.3469,54
+Zsombor Piros,hard,career,0.5640,0.4010,12
+Zsombor Piros,clay,career,0.5980,0.3670,8
+Zsombor Piros,all,career,0.5776,0.3874,20
 Jan Lennard Struff,hard,52week,0.6480,0.3580,19
 Jan Lennard Struff,clay,52week,0.6320,0.3720,11
 Jan Lennard Struff,grass,52week,0.6650,0.3380,8
@@ -849,6 +853,17 @@ Jan Lennard Struff,hard,career,0.6450,0.3500,290
 Jan Lennard Struff,clay,career,0.6320,0.3790,166
 Jan Lennard Struff,grass,career,0.6790,0.3200,64
 Jan Lennard Struff,all,career,0.6450,0.3556,520
+Henrique Rocha,hard,career,0.6610,0.4550,3
+Henrique Rocha,clay,career,0.5940,0.3710,9
+Henrique Rocha,all,career,0.6108,0.3920,12
+Alexander Shevchenko,hard,52week,0.6380,0.3220,21
+Alexander Shevchenko,clay,52week,0.5860,0.3940,12
+Alexander Shevchenko,grass,52week,0.6340,0.3020,1
+Alexander Shevchenko,all,52week,0.6195,0.3468,34
+Alexander Shevchenko,hard,career,0.6210,0.3410,83
+Alexander Shevchenko,clay,career,0.5790,0.3920,48
+Alexander Shevchenko,grass,career,0.5970,0.3100,5
+Alexander Shevchenko,all,career,0.6053,0.3579,136
 Yoshihito Nishioka,hard,52week,0.5730,0.3510,13
 Yoshihito Nishioka,clay,52week,0.6090,0.2600,2
 Yoshihito Nishioka,grass,52week,0.6400,0.2590,2
@@ -857,18 +872,18 @@ Yoshihito Nishioka,hard,career,0.6120,0.3700,248
 Yoshihito Nishioka,clay,career,0.5850,0.3770,49
 Yoshihito Nishioka,grass,career,0.6090,0.3140,17
 Yoshihito Nishioka,all,career,0.6076,0.3681,314
+Rinky Hijikata,hard,52week,0.6260,0.3400,17
+Rinky Hijikata,clay,52week,0.5960,0.3610,5
+Rinky Hijikata,grass,52week,0.6510,0.3500,8
+Rinky Hijikata,all,52week,0.6277,0.3462,30
+Rinky Hijikata,hard,career,0.5980,0.3580,74
+Rinky Hijikata,clay,career,0.5950,0.3270,14
+Rinky Hijikata,grass,career,0.6330,0.3710,23
+Rinky Hijikata,all,career,0.6049,0.3568,111
 Andrea Vavassori,hard,career,0.6270,0.3230,9
 Andrea Vavassori,clay,career,0.6130,0.3640,13
 Andrea Vavassori,grass,career,0.6080,0.1650,2
 Andrea Vavassori,all,career,0.6178,0.3320,24
-Rinky Hijikata,hard,52week,0.6260,0.3400,17
-Rinky Hijikata,clay,52week,0.5960,0.3610,5
-Rinky Hijikata,grass,52week,0.6510,0.3580,6
-Rinky Hijikata,all,52week,0.6260,0.3476,28
-Rinky Hijikata,hard,career,0.5980,0.3580,74
-Rinky Hijikata,clay,career,0.5950,0.3270,14
-Rinky Hijikata,grass,career,0.6340,0.3720,20
-Rinky Hijikata,all,career,0.6043,0.3566,108
 Jason Kubler,hard,career,0.6230,0.3490,36
 Jason Kubler,clay,career,0.5950,0.3860,15
 Jason Kubler,grass,career,0.6340,0.3520,13
@@ -879,6 +894,14 @@ Borna Gojo,hard,career,0.6590,0.3360,38
 Borna Gojo,clay,career,0.6420,0.3430,7
 Borna Gojo,grass,career,0.6780,0.2640,2
 Borna Gojo,all,career,0.6573,0.3340,47
+Jenson Brooksby,hard,52week,0.6200,0.3700,26
+Jenson Brooksby,clay,52week,0.5420,0.3410,5
+Jenson Brooksby,grass,52week,0.6180,0.3860,11
+Jenson Brooksby,all,52week,0.6102,0.3707,42
+Jenson Brooksby,hard,career,0.6180,0.3820,92
+Jenson Brooksby,clay,career,0.5870,0.3790,19
+Jenson Brooksby,grass,career,0.6290,0.3940,23
+Jenson Brooksby,all,career,0.6155,0.3836,134
 Stan Wawrinka,hard,52week,0.6680,0.3160,19
 Stan Wawrinka,clay,52week,0.6080,0.3610,9
 Stan Wawrinka,all,52week,0.6487,0.3305,28
@@ -886,34 +909,32 @@ Stan Wawrinka,hard,career,0.6560,0.3640,571
 Stan Wawrinka,clay,career,0.6410,0.3900,324
 Stan Wawrinka,grass,career,0.6740,0.3370,70
 Stan Wawrinka,all,career,0.6523,0.3708,965
-Alexander Shevchenko,hard,52week,0.6380,0.3220,21
-Alexander Shevchenko,clay,52week,0.5860,0.3940,12
-Alexander Shevchenko,grass,52week,0.6340,0.3020,1
-Alexander Shevchenko,all,52week,0.6195,0.3468,34
-Alexander Shevchenko,hard,career,0.6210,0.3410,83
-Alexander Shevchenko,clay,career,0.5790,0.3920,48
-Alexander Shevchenko,grass,career,0.5970,0.3100,5
-Alexander Shevchenko,all,career,0.6053,0.3579,136
-Martin Damm,hard,52week,0.7160,0.2960,10
-Martin Damm,clay,52week,0.6550,0.2670,3
-Martin Damm,grass,52week,0.6490,0.3050,2
-Martin Damm,all,52week,0.6949,0.2914,15
-Martin Damm,hard,career,0.7100,0.3050,13
-Martin Damm,clay,career,0.6550,0.2670,3
-Martin Damm,grass,career,0.6490,0.3050,2
-Martin Damm,all,career,0.6941,0.2987,18
+Nikoloz Basilashvili,hard,52week,0.6500,0.3230,8
+Nikoloz Basilashvili,clay,52week,0.6290,0.3500,9
+Nikoloz Basilashvili,grass,52week,0.6350,0.3150,3
+Nikoloz Basilashvili,all,52week,0.6383,0.3339,20
+Nikoloz Basilashvili,hard,career,0.6060,0.3670,201
+Nikoloz Basilashvili,clay,career,0.5920,0.3780,104
+Nikoloz Basilashvili,grass,career,0.6240,0.3250,36
+Nikoloz Basilashvili,all,career,0.6036,0.3659,341
+Adrian Mannarino,hard,52week,0.6490,0.3470,31
+Adrian Mannarino,clay,52week,0.5280,0.3370,7
+Adrian Mannarino,grass,52week,0.6650,0.3570,9
+Adrian Mannarino,all,52week,0.6340,0.3474,47
+Adrian Mannarino,hard,career,0.6280,0.3670,486
+Adrian Mannarino,clay,career,0.5630,0.3580,85
+Adrian Mannarino,grass,career,0.6400,0.3630,132
+Adrian Mannarino,all,career,0.6224,0.3652,703
 Lloyd Harris,hard,career,0.6580,0.3510,118
 Lloyd Harris,clay,career,0.6050,0.3260,25
 Lloyd Harris,grass,career,0.6740,0.3140,20
 Lloyd Harris,all,career,0.6518,0.3426,163
-Mattia Bellucci,hard,52week,0.5870,0.3570,17
-Mattia Bellucci,clay,52week,0.6190,0.3430,7
-Mattia Bellucci,grass,52week,0.6820,0.3460,9
-Mattia Bellucci,all,52week,0.6197,0.3510,33
-Mattia Bellucci,hard,career,0.6240,0.3440,38
-Mattia Bellucci,clay,career,0.6200,0.3420,14
-Mattia Bellucci,grass,career,0.6810,0.3420,10
-Mattia Bellucci,all,career,0.6323,0.3432,62
+Sho Shimabukuro,hard,52week,0.6760,0.3150,7
+Sho Shimabukuro,grass,52week,0.6870,0.3360,5
+Sho Shimabukuro,all,52week,0.6806,0.3238,12
+Sho Shimabukuro,hard,career,0.6470,0.3220,18
+Sho Shimabukuro,grass,career,0.6480,0.3270,6
+Sho Shimabukuro,all,career,0.6472,0.3233,24
 Cristian Garin,hard,52week,0.6140,0.2570,1
 Cristian Garin,clay,52week,0.6070,0.3860,12
 Cristian Garin,grass,52week,0.7080,0.3310,2
@@ -938,6 +959,20 @@ Alexandre Muller,hard,career,0.6120,0.3530,70
 Alexandre Muller,clay,career,0.6000,0.3790,54
 Alexandre Muller,grass,career,0.5920,0.3210,7
 Alexandre Muller,all,career,0.6060,0.3620,131
+Zhizhen Zhang,hard,52week,0.6260,0.2930,12
+Zhizhen Zhang,clay,52week,0.6320,0.3230,6
+Zhizhen Zhang,grass,52week,0.6880,0.3380,3
+Zhizhen Zhang,all,52week,0.6366,0.3080,21
+Zhizhen Zhang,hard,career,0.6470,0.3300,89
+Zhizhen Zhang,clay,career,0.6450,0.3510,41
+Zhizhen Zhang,grass,career,0.6540,0.3240,17
+Zhizhen Zhang,all,career,0.6473,0.3352,147
+Nicolai Budkov Kjaer,hard,52week,0.6060,0.2920,12
+Nicolai Budkov Kjaer,clay,52week,0.6090,0.4220,5
+Nicolai Budkov Kjaer,all,52week,0.6069,0.3302,17
+Nicolai Budkov Kjaer,hard,career,0.6190,0.3050,16
+Nicolai Budkov Kjaer,clay,career,0.6090,0.4220,7
+Nicolai Budkov Kjaer,all,career,0.6160,0.3406,23
 Luca Van Assche,hard,52week,0.6430,0.3300,1
 Luca Van Assche,clay,52week,0.5930,0.4520,5
 Luca Van Assche,all,52week,0.6013,0.4317,6
@@ -945,32 +980,6 @@ Luca Van Assche,hard,career,0.6310,0.3460,39
 Luca Van Assche,clay,career,0.5900,0.3940,26
 Luca Van Assche,grass,career,0.5600,0.3710,4
 Luca Van Assche,all,career,0.6114,0.3655,69
-Stefanos Sakellaridis,hard,52week,0.7210,0.1880,3
-Stefanos Sakellaridis,clay,52week,0.6150,0.3730,2
-Stefanos Sakellaridis,all,52week,0.6786,0.2620,5
-Stefanos Sakellaridis,hard,career,0.6160,0.2650,7
-Stefanos Sakellaridis,clay,career,0.6150,0.3730,4
-Stefanos Sakellaridis,all,career,0.6156,0.3043,11
-Dalibor Svrcina,hard,52week,0.5900,0.3840,13
-Dalibor Svrcina,clay,52week,0.4390,0.3260,2
-Dalibor Svrcina,all,52week,0.5699,0.3763,15
-Dalibor Svrcina,hard,career,0.5740,0.4010,19
-Dalibor Svrcina,clay,career,0.4390,0.3260,2
-Dalibor Svrcina,all,career,0.5611,0.3939,21
-Aleksandar Kovacevic,hard,52week,0.6710,0.3070,36
-Aleksandar Kovacevic,clay,52week,0.6400,0.3470,7
-Aleksandar Kovacevic,grass,52week,0.6660,0.2530,3
-Aleksandar Kovacevic,all,52week,0.6660,0.3096,46
-Aleksandar Kovacevic,hard,career,0.6600,0.3170,79
-Aleksandar Kovacevic,clay,career,0.6320,0.3330,22
-Aleksandar Kovacevic,grass,career,0.6380,0.2880,8
-Aleksandar Kovacevic,all,career,0.6527,0.3181,109
-Nicolai Budkov Kjaer,hard,52week,0.6060,0.2920,12
-Nicolai Budkov Kjaer,clay,52week,0.6090,0.4220,5
-Nicolai Budkov Kjaer,all,52week,0.6069,0.3302,17
-Nicolai Budkov Kjaer,hard,career,0.6190,0.3050,16
-Nicolai Budkov Kjaer,clay,career,0.6090,0.4220,7
-Nicolai Budkov Kjaer,all,career,0.6160,0.3406,23
 Chris Rodesch,hard,career,0.7060,0.3680,5
 Chris Rodesch,clay,career,0.6330,0.3670,4
 Chris Rodesch,grass,career,0.6830,0.2190,1
@@ -983,20 +992,14 @@ Valentin Royer,hard,career,0.6400,0.3330,28
 Valentin Royer,clay,career,0.5970,0.3580,6
 Valentin Royer,grass,career,0.6680,0.3120,2
 Valentin Royer,all,career,0.6344,0.3360,36
-Adrian Mannarino,hard,52week,0.6490,0.3470,31
-Adrian Mannarino,clay,52week,0.5280,0.3370,7
-Adrian Mannarino,grass,52week,0.6740,0.3700,9
-Adrian Mannarino,all,52week,0.6358,0.3499,47
-Adrian Mannarino,hard,career,0.6280,0.3670,486
-Adrian Mannarino,clay,career,0.5630,0.3580,85
-Adrian Mannarino,grass,career,0.6410,0.3640,130
-Adrian Mannarino,all,career,0.6225,0.3654,701
-Marco Trungelliti,clay,52week,0.6080,0.3570,12
-Marco Trungelliti,all,52week,0.6080,0.3570,12
-Marco Trungelliti,hard,career,0.6060,0.3330,12
-Marco Trungelliti,clay,career,0.5910,0.3770,42
-Marco Trungelliti,grass,career,0.6360,0.3330,1
-Marco Trungelliti,all,career,0.5951,0.3666,55
+James Duckworth,hard,52week,0.6330,0.3350,18
+James Duckworth,clay,52week,0.5940,0.3630,4
+James Duckworth,grass,52week,0.6740,0.3200,5
+James Duckworth,all,52week,0.6348,0.3364,27
+James Duckworth,hard,career,0.6340,0.3310,152
+James Duckworth,clay,career,0.6050,0.3090,20
+James Duckworth,grass,career,0.6410,0.3290,35
+James Duckworth,all,career,0.6324,0.3285,207
 Nicolas Jarry,hard,52week,0.6500,0.3380,3
 Nicolas Jarry,clay,52week,0.6240,0.3290,9
 Nicolas Jarry,grass,52week,0.7120,0.3370,6
@@ -1005,31 +1008,26 @@ Nicolas Jarry,hard,career,0.6660,0.3170,98
 Nicolas Jarry,clay,career,0.6590,0.3490,133
 Nicolas Jarry,grass,career,0.6750,0.3340,24
 Nicolas Jarry,all,career,0.6632,0.3353,255
+Aleksandar Kovacevic,hard,52week,0.6710,0.3070,36
+Aleksandar Kovacevic,clay,52week,0.6400,0.3470,7
+Aleksandar Kovacevic,grass,52week,0.6650,0.2690,3
+Aleksandar Kovacevic,all,52week,0.6659,0.3106,46
+Aleksandar Kovacevic,hard,career,0.6600,0.3170,79
+Aleksandar Kovacevic,clay,career,0.6320,0.3330,22
+Aleksandar Kovacevic,grass,career,0.6400,0.2840,9
+Aleksandar Kovacevic,all,career,0.6528,0.3175,110
 Kyrian Jacquet,hard,52week,0.6690,0.3410,4
 Kyrian Jacquet,all,52week,0.6690,0.3410,4
-Coleman Wong,hard,52week,0.6490,0.3480,17
-Coleman Wong,clay,52week,0.5520,0.2550,2
-Coleman Wong,all,52week,0.6388,0.3382,19
-Coleman Wong,hard,career,0.6500,0.3480,37
-Coleman Wong,clay,career,0.6000,0.2540,3
-Coleman Wong,grass,career,0.4720,0.3210,1
-Coleman Wong,all,career,0.6420,0.3405,41
-James Duckworth,hard,52week,0.6330,0.3350,18
-James Duckworth,clay,52week,0.5940,0.3630,4
-James Duckworth,grass,52week,0.6710,0.3220,6
-James Duckworth,all,52week,0.6356,0.3362,28
-James Duckworth,hard,career,0.6340,0.3310,152
-James Duckworth,clay,career,0.6050,0.3090,20
-James Duckworth,grass,career,0.6410,0.3290,35
-James Duckworth,all,career,0.6324,0.3285,207
 Andrea Pellegrino,clay,52week,0.6200,0.3920,11
 Andrea Pellegrino,all,52week,0.6200,0.3920,11
 Andrea Pellegrino,clay,career,0.6000,0.3950,14
 Andrea Pellegrino,all,career,0.6000,0.3950,14
-Jan Choinski,hard,career,0.6000,0.3130,4
-Jan Choinski,clay,career,0.6130,0.3580,4
-Jan Choinski,grass,career,0.6040,0.3270,6
-Jan Choinski,all,career,0.6054,0.3319,14
+Marco Trungelliti,clay,52week,0.6080,0.3570,12
+Marco Trungelliti,all,52week,0.6080,0.3570,12
+Marco Trungelliti,hard,career,0.6060,0.3330,12
+Marco Trungelliti,clay,career,0.5910,0.3770,42
+Marco Trungelliti,grass,career,0.6360,0.3330,1
+Marco Trungelliti,all,career,0.5951,0.3666,55
 Rei Sakamoto,hard,52week,0.6420,0.2970,6
 Rei Sakamoto,all,52week,0.6420,0.2970,6
 Patrick Kypson,hard,52week,0.6460,0.2820,6
@@ -1038,33 +1036,55 @@ Patrick Kypson,all,52week,0.6473,0.2907,9
 Patrick Kypson,hard,career,0.6500,0.2960,13
 Patrick Kypson,clay,career,0.5990,0.3200,5
 Patrick Kypson,all,career,0.6358,0.3027,18
+Dalibor Svrcina,hard,52week,0.5900,0.3840,13
+Dalibor Svrcina,clay,52week,0.4390,0.3260,2
+Dalibor Svrcina,all,52week,0.5699,0.3763,15
+Dalibor Svrcina,hard,career,0.5740,0.4010,19
+Dalibor Svrcina,clay,career,0.4390,0.3260,2
+Dalibor Svrcina,all,career,0.5611,0.3939,21
 Gustavo Heide,hard,career,0.5960,0.2030,3
 Gustavo Heide,clay,career,0.6290,0.3340,10
 Gustavo Heide,all,career,0.6214,0.3038,13
-Mackenzie Mcdonald,hard,52week,0.6300,0.3190,17
-Mackenzie Mcdonald,clay,52week,0.5680,0.3740,2
-Mackenzie Mcdonald,grass,52week,0.6340,0.3400,5
-Mackenzie Mcdonald,all,52week,0.6257,0.3280,24
-Mackenzie Mcdonald,hard,career,0.6240,0.3720,191
-Mackenzie Mcdonald,clay,career,0.5840,0.3790,34
-Mackenzie Mcdonald,grass,career,0.6460,0.3440,38
-Mackenzie Mcdonald,all,career,0.6220,0.3689,263
 Damir Dzumhur,hard,52week,0.6020,0.3510,21
 Damir Dzumhur,clay,52week,0.5740,0.4080,20
-Damir Dzumhur,grass,52week,0.6080,0.2890,3
-Damir Dzumhur,all,52week,0.5897,0.3727,44
+Damir Dzumhur,grass,52week,0.6070,0.2870,2
+Damir Dzumhur,all,52week,0.5892,0.3745,43
 Damir Dzumhur,hard,career,0.5930,0.3830,207
 Damir Dzumhur,clay,career,0.5910,0.4130,112
 Damir Dzumhur,grass,career,0.6170,0.3580,21
 Damir Dzumhur,all,career,0.5938,0.3913,340
 Hugo Gaston,hard,52week,0.5620,0.3550,9
-Hugo Gaston,clay,52week,0.5730,0.3840,9
+Hugo Gaston,clay,52week,0.5730,0.3620,7
 Hugo Gaston,grass,52week,0.5690,0.2530,1
-Hugo Gaston,all,52week,0.5676,0.3634,19
+Hugo Gaston,all,52week,0.5669,0.3519,17
 Hugo Gaston,hard,career,0.5770,0.3610,65
 Hugo Gaston,clay,career,0.5850,0.3850,57
 Hugo Gaston,grass,career,0.5940,0.3590,7
 Hugo Gaston,all,career,0.5815,0.3715,129
+Jan Choinski,hard,career,0.6000,0.3130,4
+Jan Choinski,clay,career,0.6130,0.3580,4
+Jan Choinski,grass,career,0.6040,0.3270,6
+Jan Choinski,all,career,0.6054,0.3319,14
+Stefanos Sakellaridis,hard,52week,0.7210,0.1880,3
+Stefanos Sakellaridis,clay,52week,0.6150,0.3730,2
+Stefanos Sakellaridis,all,52week,0.6786,0.2620,5
+Stefanos Sakellaridis,hard,career,0.6160,0.2650,7
+Stefanos Sakellaridis,clay,career,0.6150,0.3730,4
+Stefanos Sakellaridis,all,career,0.6156,0.3043,11
+Facundo Diaz Acosta,hard,career,0.6010,0.3520,16
+Facundo Diaz Acosta,clay,career,0.6230,0.3930,35
+Facundo Diaz Acosta,grass,career,0.5090,0.3130,1
+Facundo Diaz Acosta,all,career,0.6140,0.3788,52
+Lukas Neumayer,clay,career,0.6040,0.3420,7
+Lukas Neumayer,all,career,0.6040,0.3420,7
+Christopher Oconnell,hard,52week,0.6220,0.3460,19
+Christopher Oconnell,clay,52week,0.5380,0.4220,1
+Christopher Oconnell,grass,52week,0.5730,0.2590,2
+Christopher Oconnell,all,52week,0.6137,0.3415,22
+Christopher Oconnell,hard,career,0.6370,0.3360,112
+Christopher Oconnell,clay,career,0.6140,0.3530,34
+Christopher Oconnell,grass,career,0.6290,0.3010,13
+Christopher Oconnell,all,career,0.6314,0.3368,159
 Dusan Lajovic,clay,52week,0.6200,0.3310,8
 Dusan Lajovic,grass,52week,0.5730,0.3330,1
 Dusan Lajovic,all,52week,0.6148,0.3312,9
@@ -1072,35 +1092,6 @@ Dusan Lajovic,hard,career,0.6200,0.3530,214
 Dusan Lajovic,clay,career,0.6210,0.3790,247
 Dusan Lajovic,grass,career,0.6290,0.2980,25
 Dusan Lajovic,all,career,0.6210,0.3634,486
-Zhizhen Zhang,hard,52week,0.6260,0.2930,12
-Zhizhen Zhang,clay,52week,0.6320,0.3230,6
-Zhizhen Zhang,grass,52week,0.6880,0.3380,3
-Zhizhen Zhang,all,52week,0.6366,0.3080,21
-Zhizhen Zhang,hard,career,0.6470,0.3300,89
-Zhizhen Zhang,clay,career,0.6450,0.3510,41
-Zhizhen Zhang,grass,career,0.6540,0.3240,17
-Zhizhen Zhang,all,career,0.6473,0.3352,147
-Facundo Diaz Acosta,hard,career,0.6010,0.3520,16
-Facundo Diaz Acosta,clay,career,0.6230,0.3930,35
-Facundo Diaz Acosta,grass,career,0.5090,0.3130,1
-Facundo Diaz Acosta,all,career,0.6140,0.3788,52
-Lukas Neumayer,clay,career,0.6040,0.3420,7
-Lukas Neumayer,all,career,0.6040,0.3420,7
-Tomas Barrios Vera,hard,52week,0.6150,0.3380,3
-Tomas Barrios Vera,clay,52week,0.5400,0.3250,8
-Tomas Barrios Vera,all,52week,0.5605,0.3285,11
-Tomas Barrios Vera,hard,career,0.6030,0.3070,10
-Tomas Barrios Vera,clay,career,0.5660,0.3480,23
-Tomas Barrios Vera,grass,career,0.6440,0.3330,3
-Tomas Barrios Vera,all,career,0.5828,0.3354,36
-Christopher Oconnell,hard,52week,0.6220,0.3460,19
-Christopher Oconnell,clay,52week,0.5380,0.4220,1
-Christopher Oconnell,grass,52week,0.5590,0.2720,3
-Christopher Oconnell,all,52week,0.6101,0.3397,23
-Christopher Oconnell,hard,career,0.6370,0.3360,112
-Christopher Oconnell,clay,career,0.6140,0.3530,34
-Christopher Oconnell,grass,career,0.6290,0.3010,13
-Christopher Oconnell,all,career,0.6314,0.3368,159
 Elmer Moller,hard,52week,0.5300,0.2600,3
 Elmer Moller,clay,52week,0.5340,0.4150,12
 Elmer Moller,grass,52week,0.5850,0.2820,1
@@ -1109,20 +1100,30 @@ Elmer Moller,hard,career,0.5300,0.2600,10
 Elmer Moller,clay,career,0.5470,0.4130,14
 Elmer Moller,grass,career,0.5850,0.2820,1
 Elmer Moller,all,career,0.5417,0.3466,25
+Tomas Barrios Vera,hard,52week,0.6150,0.3380,3
+Tomas Barrios Vera,clay,52week,0.5400,0.3250,8
+Tomas Barrios Vera,all,52week,0.5605,0.3285,11
+Tomas Barrios Vera,hard,career,0.6030,0.3070,10
+Tomas Barrios Vera,clay,career,0.5660,0.3480,23
+Tomas Barrios Vera,grass,career,0.6440,0.3330,3
+Tomas Barrios Vera,all,career,0.5828,0.3354,36
+Coleman Wong,hard,52week,0.6490,0.3480,17
+Coleman Wong,clay,52week,0.5520,0.2550,2
+Coleman Wong,all,52week,0.6388,0.3382,19
+Coleman Wong,hard,career,0.6500,0.3480,37
+Coleman Wong,clay,career,0.6000,0.2540,3
+Coleman Wong,grass,career,0.4720,0.3210,1
+Coleman Wong,all,career,0.6420,0.3405,41
 Francesco Passaro,hard,52week,0.6050,0.3700,2
-Francesco Passaro,clay,52week,0.6240,0.3540,12
-Francesco Passaro,all,52week,0.6213,0.3563,14
+Francesco Passaro,clay,52week,0.6440,0.3430,8
+Francesco Passaro,all,52week,0.6362,0.3484,10
 Francesco Passaro,hard,career,0.6230,0.3280,12
 Francesco Passaro,clay,career,0.6210,0.3540,23
 Francesco Passaro,all,career,0.6217,0.3451,35
-Pavel Kotov,hard,career,0.6120,0.3410,45
-Pavel Kotov,clay,career,0.6250,0.3720,32
-Pavel Kotov,grass,career,0.6440,0.2900,4
-Pavel Kotov,all,career,0.6187,0.3507,81
 Aleksandar Vukic,hard,52week,0.6270,0.3190,28
 Aleksandar Vukic,clay,52week,0.5880,0.3760,4
-Aleksandar Vukic,grass,52week,0.6210,0.3200,5
-Aleksandar Vukic,all,52week,0.6220,0.3253,37
+Aleksandar Vukic,grass,52week,0.6080,0.3280,4
+Aleksandar Vukic,all,52week,0.6206,0.3263,36
 Aleksandar Vukic,hard,career,0.6400,0.3300,103
 Aleksandar Vukic,clay,career,0.6060,0.3460,22
 Aleksandar Vukic,grass,career,0.6640,0.3180,23
@@ -1131,6 +1132,14 @@ Michael Mmoh,hard,career,0.6130,0.3590,64
 Michael Mmoh,clay,career,0.5780,0.3740,10
 Michael Mmoh,grass,career,0.6700,0.2890,4
 Michael Mmoh,all,career,0.6114,0.3573,78
+Roberto Carballes Baena,hard,52week,0.6180,0.3380,6
+Roberto Carballes Baena,clay,52week,0.5600,0.3710,3
+Roberto Carballes Baena,grass,52week,0.5370,0.3070,1
+Roberto Carballes Baena,all,52week,0.5925,0.3448,10
+Roberto Carballes Baena,hard,career,0.6110,0.3680,97
+Roberto Carballes Baena,clay,career,0.6020,0.3910,181
+Roberto Carballes Baena,grass,career,0.6060,0.3200,18
+Roberto Carballes Baena,all,career,0.6052,0.3791,296
 Giulio Zeppieri,hard,52week,0.6200,0.3570,3
 Giulio Zeppieri,clay,52week,0.5580,0.3100,2
 Giulio Zeppieri,grass,52week,0.6930,0.3470,1
@@ -1139,6 +1148,14 @@ Giulio Zeppieri,hard,career,0.6420,0.3140,9
 Giulio Zeppieri,clay,career,0.6150,0.3520,17
 Giulio Zeppieri,grass,career,0.6930,0.3470,1
 Giulio Zeppieri,all,career,0.6269,0.3391,27
+Mackenzie Mcdonald,hard,52week,0.6300,0.3190,17
+Mackenzie Mcdonald,clay,52week,0.5680,0.3740,2
+Mackenzie Mcdonald,grass,52week,0.6100,0.3330,3
+Mackenzie Mcdonald,all,52week,0.6216,0.3259,22
+Mackenzie Mcdonald,hard,career,0.6240,0.3720,191
+Mackenzie Mcdonald,clay,career,0.5840,0.3790,34
+Mackenzie Mcdonald,grass,career,0.6460,0.3440,38
+Mackenzie Mcdonald,all,career,0.6220,0.3689,263
 Hugo Dellien,hard,52week,0.5640,0.3200,3
 Hugo Dellien,clay,52week,0.5710,0.3260,4
 Hugo Dellien,grass,52week,0.6140,0.2250,1
@@ -1147,31 +1164,19 @@ Hugo Dellien,hard,career,0.5380,0.3350,22
 Hugo Dellien,clay,career,0.5950,0.3800,86
 Hugo Dellien,grass,career,0.5920,0.2720,4
 Hugo Dellien,all,career,0.5837,0.3673,112
-Liam Broady,hard,career,0.5930,0.3780,24
-Liam Broady,clay,career,0.5620,0.3620,5
-Liam Broady,grass,career,0.5950,0.3530,27
-Liam Broady,all,career,0.5912,0.3645,56
-Clement Tabur,hard,52week,0.7240,0.3490,3
-Clement Tabur,clay,52week,0.6050,0.3510,2
-Clement Tabur,all,52week,0.6764,0.3498,5
-Mark Lajal,hard,52week,0.6500,0.3460,4
-Mark Lajal,grass,52week,0.6490,0.3840,3
-Mark Lajal,all,52week,0.6496,0.3623,7
 Mark Lajal,hard,career,0.6660,0.3520,9
 Mark Lajal,grass,career,0.6210,0.3420,4
 Mark Lajal,all,career,0.6522,0.3489,13
-Sho Shimabukuro,hard,52week,0.6760,0.3150,7
-Sho Shimabukuro,grass,52week,0.7360,0.3530,3
-Sho Shimabukuro,all,52week,0.6940,0.3264,10
-Sho Shimabukuro,hard,career,0.6470,0.3220,18
-Sho Shimabukuro,grass,career,0.6370,0.3290,4
-Sho Shimabukuro,all,career,0.6452,0.3233,22
+Pavel Kotov,hard,career,0.6120,0.3410,45
+Pavel Kotov,clay,career,0.6250,0.3720,32
+Pavel Kotov,grass,career,0.6440,0.2900,4
+Pavel Kotov,all,career,0.6187,0.3507,81
 Arthur Gea,hard,52week,0.6760,0.3610,5
 Arthur Gea,clay,52week,0.5290,0.3440,2
 Arthur Gea,all,52week,0.6340,0.3561,7
 Daniel Evans,hard,52week,0.6000,0.3950,3
-Daniel Evans,grass,52week,0.6050,0.3550,9
-Daniel Evans,all,52week,0.6038,0.3650,12
+Daniel Evans,grass,52week,0.6140,0.3520,7
+Daniel Evans,all,52week,0.6098,0.3649,10
 Daniel Evans,hard,career,0.6330,0.3750,240
 Daniel Evans,clay,career,0.5910,0.3840,57
 Daniel Evans,grass,career,0.6370,0.3490,49
@@ -1183,18 +1188,17 @@ Carlos Taberner,hard,career,0.5830,0.3470,11
 Carlos Taberner,clay,career,0.6000,0.3830,35
 Carlos Taberner,grass,career,0.6610,0.2320,1
 Carlos Taberner,all,career,0.5973,0.3714,47
-Roberto Carballes Baena,hard,52week,0.6180,0.3380,6
-Roberto Carballes Baena,clay,52week,0.5600,0.3710,3
-Roberto Carballes Baena,grass,52week,0.5370,0.3070,1
-Roberto Carballes Baena,all,52week,0.5925,0.3448,10
-Roberto Carballes Baena,hard,career,0.6110,0.3680,97
-Roberto Carballes Baena,clay,career,0.6020,0.3910,181
-Roberto Carballes Baena,grass,career,0.6060,0.3200,18
-Roberto Carballes Baena,all,career,0.6052,0.3791,296
+Liam Broady,hard,career,0.5930,0.3780,24
+Liam Broady,clay,career,0.5620,0.3620,5
+Liam Broady,grass,career,0.5950,0.3530,27
+Liam Broady,all,career,0.5912,0.3645,56
 Emil Ruusuvuori,hard,career,0.6390,0.3840,152
 Emil Ruusuvuori,clay,career,0.5930,0.4030,42
 Emil Ruusuvuori,grass,career,0.6610,0.3380,23
 Emil Ruusuvuori,all,career,0.6324,0.3828,217
+Clement Tabur,hard,52week,0.7240,0.3490,3
+Clement Tabur,clay,52week,0.6050,0.3510,2
+Clement Tabur,all,52week,0.6764,0.3498,5
 Alex Bolt,hard,career,0.6240,0.3460,35
 Alex Bolt,clay,career,0.6310,0.3090,2
 Alex Bolt,grass,career,0.6190,0.3330,15
@@ -1219,52 +1223,18 @@ Luca Nardi,grass,career,0.5540,0.3160,5
 Luca Nardi,all,career,0.5949,0.3395,60
 Jacob Fearnley,hard,52week,0.5940,0.3400,16
 Jacob Fearnley,clay,52week,0.6060,0.3810,2
-Jacob Fearnley,grass,52week,0.6110,0.3510,7
-Jacob Fearnley,all,52week,0.5997,0.3464,25
+Jacob Fearnley,grass,52week,0.6090,0.3580,6
+Jacob Fearnley,all,52week,0.5988,0.3479,24
 Jacob Fearnley,hard,career,0.6020,0.3470,26
 Jacob Fearnley,clay,career,0.6140,0.4040,14
 Jacob Fearnley,grass,career,0.6470,0.3290,10
 Jacob Fearnley,all,career,0.6144,0.3594,50
-Pedro Martinez,hard,52week,0.5720,0.2970,11
-Pedro Martinez,clay,52week,0.5780,0.3860,9
-Pedro Martinez,grass,52week,0.5580,0.3740,5
-Pedro Martinez,all,52week,0.5714,0.3444,25
-Pedro Martinez,hard,career,0.5900,0.3560,83
-Pedro Martinez,clay,career,0.5920,0.3970,113
-Pedro Martinez,grass,career,0.5820,0.3670,15
-Pedro Martinez,all,career,0.5905,0.3787,211
-Vilius Gaubas,clay,52week,0.6010,0.3690,9
-Vilius Gaubas,all,52week,0.6010,0.3690,9
-Vilius Gaubas,hard,career,0.6090,0.4020,10
-Vilius Gaubas,clay,career,0.5850,0.3810,13
-Vilius Gaubas,all,career,0.5954,0.3901,23
 Matteo Gigante,hard,52week,0.6260,0.3640,5
 Matteo Gigante,clay,52week,0.6520,0.3790,5
 Matteo Gigante,all,52week,0.6390,0.3715,10
 Matteo Gigante,hard,career,0.6260,0.3640,5
 Matteo Gigante,clay,career,0.6200,0.3790,8
 Matteo Gigante,all,career,0.6223,0.3732,13
-Facundo Bagnis,hard,career,0.6000,0.3340,31
-Facundo Bagnis,clay,career,0.6060,0.3690,98
-Facundo Bagnis,grass,career,0.6020,0.3100,5
-Facundo Bagnis,all,career,0.6045,0.3587,134
-Jurij Rodionov,hard,52week,0.5690,0.2040,6
-Jurij Rodionov,all,52week,0.5690,0.2040,6
-Jurij Rodionov,hard,career,0.6310,0.3410,22
-Jurij Rodionov,clay,career,0.6060,0.3550,22
-Jurij Rodionov,grass,career,0.6320,0.2980,8
-Jurij Rodionov,all,career,0.6206,0.3403,52
-Liam Draxl,hard,52week,0.5450,0.3450,6
-Liam Draxl,clay,52week,0.6200,0.3760,1
-Liam Draxl,all,52week,0.5557,0.3494,7
-Filip Misolic,hard,52week,0.5920,0.3180,7
-Filip Misolic,clay,52week,0.6210,0.3710,11
-Filip Misolic,grass,52week,0.5910,0.2620,1
-Filip Misolic,all,52week,0.6087,0.3457,19
-Filip Misolic,hard,career,0.6090,0.3120,11
-Filip Misolic,clay,career,0.6040,0.3710,26
-Filip Misolic,grass,career,0.5910,0.2620,1
-Filip Misolic,all,career,0.6051,0.3511,38
 Pierre Hugues Herbert,hard,52week,0.5520,0.3130,2
 Pierre Hugues Herbert,clay,52week,0.6260,0.2390,3
 Pierre Hugues Herbert,grass,52week,0.6620,0.3220,3
@@ -1273,6 +1243,49 @@ Pierre Hugues Herbert,hard,career,0.6440,0.3380,160
 Pierre Hugues Herbert,clay,career,0.6310,0.3410,49
 Pierre Hugues Herbert,grass,career,0.6400,0.3320,33
 Pierre Hugues Herbert,all,career,0.6408,0.3378,242
+Facundo Bagnis,hard,career,0.6000,0.3340,31
+Facundo Bagnis,clay,career,0.6060,0.3690,98
+Facundo Bagnis,grass,career,0.6020,0.3100,5
+Facundo Bagnis,all,career,0.6045,0.3587,134
+Liam Draxl,hard,52week,0.5450,0.3450,6
+Liam Draxl,clay,52week,0.6200,0.3760,1
+Liam Draxl,all,52week,0.5557,0.3494,7
+Alexis Galarneau,hard,career,0.6380,0.3800,9
+Alexis Galarneau,clay,career,0.5230,0.4240,1
+Alexis Galarneau,grass,career,0.6470,0.2660,1
+Alexis Galarneau,all,career,0.6284,0.3736,11
+Filip Misolic,hard,52week,0.5920,0.3180,7
+Filip Misolic,clay,52week,0.6210,0.3710,11
+Filip Misolic,grass,52week,0.5910,0.2620,1
+Filip Misolic,all,52week,0.6087,0.3457,19
+Filip Misolic,hard,career,0.6090,0.3120,11
+Filip Misolic,clay,career,0.6040,0.3710,26
+Filip Misolic,grass,career,0.5910,0.2620,1
+Filip Misolic,all,career,0.6051,0.3511,38
+Vitaliy Sachko,hard,52week,0.6940,0.2690,4
+Vitaliy Sachko,clay,52week,0.4890,0.3020,1
+Vitaliy Sachko,all,52week,0.6530,0.2756,5
+Vitaliy Sachko,hard,career,0.6400,0.3030,11
+Vitaliy Sachko,clay,career,0.5280,0.3710,4
+Vitaliy Sachko,all,career,0.6101,0.3211,15
+Federico Cina,hard,52week,0.5900,0.2370,1
+Federico Cina,clay,52week,0.5450,0.3350,5
+Federico Cina,all,52week,0.5525,0.3187,6
+Federico Cina,hard,career,0.6030,0.2790,3
+Federico Cina,clay,career,0.5850,0.3330,8
+Federico Cina,all,career,0.5899,0.3183,11
+Tristan Boyer,hard,52week,0.6550,0.3520,6
+Tristan Boyer,clay,52week,0.6010,0.2930,2
+Tristan Boyer,all,52week,0.6415,0.3372,8
+Tristan Boyer,hard,career,0.6370,0.3470,11
+Tristan Boyer,clay,career,0.6100,0.3050,3
+Tristan Boyer,all,career,0.6312,0.3380,14
+Jurij Rodionov,hard,52week,0.5690,0.2040,6
+Jurij Rodionov,all,52week,0.5690,0.2040,6
+Jurij Rodionov,hard,career,0.6310,0.3410,22
+Jurij Rodionov,clay,career,0.6060,0.3550,22
+Jurij Rodionov,grass,career,0.6320,0.2980,8
+Jurij Rodionov,all,career,0.6206,0.3403,52
 Harold Mayot,hard,career,0.6110,0.3370,15
 Harold Mayot,clay,career,0.6050,0.3580,7
 Harold Mayot,grass,career,0.6730,0.3320,3
@@ -1283,40 +1296,29 @@ Colton Smith,all,52week,0.5548,0.2902,5
 Colton Smith,hard,career,0.5740,0.3660,6
 Colton Smith,clay,career,0.6470,0.3160,4
 Colton Smith,all,career,0.6032,0.3460,10
-Tristan Boyer,hard,52week,0.6550,0.3520,6
-Tristan Boyer,clay,52week,0.6010,0.2930,2
-Tristan Boyer,all,52week,0.6415,0.3372,8
-Tristan Boyer,hard,career,0.6370,0.3470,11
-Tristan Boyer,clay,career,0.6100,0.3050,3
-Tristan Boyer,all,career,0.6312,0.3380,14
+Pedro Martinez,hard,52week,0.5720,0.2970,11
+Pedro Martinez,clay,52week,0.5780,0.3860,9
+Pedro Martinez,grass,52week,0.5580,0.3740,5
+Pedro Martinez,all,52week,0.5714,0.3444,25
+Pedro Martinez,hard,career,0.5900,0.3560,83
+Pedro Martinez,clay,career,0.5920,0.3970,113
+Pedro Martinez,grass,career,0.5820,0.3670,15
+Pedro Martinez,all,career,0.5905,0.3787,211
 Stefano Travaglia,hard,career,0.6210,0.3520,48
 Stefano Travaglia,clay,career,0.6030,0.3620,31
 Stefano Travaglia,grass,career,0.6010,0.3270,6
 Stefano Travaglia,all,career,0.6130,0.3539,85
 Jack Pinnington Jones,hard,52week,0.6810,0.3090,3
 Jack Pinnington Jones,clay,52week,0.5240,0.2500,1
-Jack Pinnington Jones,grass,52week,0.5940,0.3390,3
-Jack Pinnington Jones,all,52week,0.6213,0.3134,7
+Jack Pinnington Jones,grass,52week,0.5980,0.3260,4
+Jack Pinnington Jones,all,52week,0.6199,0.3101,8
+Vilius Gaubas,clay,52week,0.6010,0.3690,9
+Vilius Gaubas,all,52week,0.6010,0.3690,9
+Vilius Gaubas,hard,career,0.6090,0.4020,10
+Vilius Gaubas,clay,career,0.5850,0.3810,13
+Vilius Gaubas,all,career,0.5954,0.3901,23
 Darwin Blanch,hard,52week,0.6460,0.2760,5
 Darwin Blanch,all,52week,0.6460,0.2760,5
-Timofey Skatov,hard,career,0.5770,0.3580,10
-Timofey Skatov,clay,career,0.6000,0.3860,10
-Timofey Skatov,all,career,0.5885,0.3720,20
-Moise Kouame,hard,52week,0.6240,0.2950,3
-Moise Kouame,clay,52week,0.5170,0.4210,4
-Moise Kouame,all,52week,0.5629,0.3670,7
-Alexis Galarneau,hard,career,0.6380,0.3800,9
-Alexis Galarneau,clay,career,0.5230,0.4240,1
-Alexis Galarneau,grass,career,0.6470,0.2660,1
-Alexis Galarneau,all,career,0.6284,0.3736,11
-Thiago Monteiro,hard,career,0.6520,0.3170,83
-Thiago Monteiro,clay,career,0.6420,0.3500,138
-Thiago Monteiro,grass,career,0.6630,0.2570,9
-Thiago Monteiro,all,career,0.6464,0.3345,230
-Yosuke Watanuki,hard,career,0.6430,0.3560,35
-Yosuke Watanuki,clay,career,0.6050,0.3550,7
-Yosuke Watanuki,grass,career,0.7010,0.3080,5
-Yosuke Watanuki,all,career,0.6435,0.3507,47
 Elias Ymer,hard,52week,0.6300,0.3700,5
 Elias Ymer,clay,52week,0.6310,0.3620,2
 Elias Ymer,grass,52week,0.6400,0.1300,1
@@ -1325,14 +1327,37 @@ Elias Ymer,hard,career,0.6090,0.3640,72
 Elias Ymer,clay,career,0.5970,0.3650,51
 Elias Ymer,grass,career,0.5950,0.2660,4
 Elias Ymer,all,career,0.6037,0.3613,127
-Hugo Grenier,hard,career,0.6180,0.3450,17
-Hugo Grenier,clay,career,0.5550,0.3290,8
-Hugo Grenier,grass,career,0.6370,0.3180,2
-Hugo Grenier,all,career,0.6007,0.3383,27
+Moise Kouame,hard,52week,0.6240,0.2950,3
+Moise Kouame,clay,52week,0.5170,0.4210,4
+Moise Kouame,all,52week,0.5629,0.3670,7
+Thiago Monteiro,hard,career,0.6520,0.3170,83
+Thiago Monteiro,clay,career,0.6420,0.3500,138
+Thiago Monteiro,grass,career,0.6630,0.2570,9
+Thiago Monteiro,all,career,0.6464,0.3345,230
+Taro Daniel,hard,career,0.6110,0.3490,146
+Taro Daniel,clay,career,0.5910,0.3730,88
+Taro Daniel,grass,career,0.6020,0.3130,10
+Taro Daniel,all,career,0.6034,0.3562,244
+Marco Cecchinato,hard,career,0.6180,0.3010,55
+Marco Cecchinato,clay,career,0.6140,0.3750,141
+Marco Cecchinato,grass,career,0.5880,0.2820,11
+Marco Cecchinato,all,career,0.6137,0.3504,207
 Mikhail Kukushkin,hard,career,0.6080,0.3720,272
 Mikhail Kukushkin,clay,career,0.5880,0.3740,99
 Mikhail Kukushkin,grass,career,0.6170,0.3420,41
 Mikhail Kukushkin,all,career,0.6041,0.3695,412
+Kimmer Coppejans,hard,career,0.6010,0.3110,8
+Kimmer Coppejans,clay,career,0.5860,0.3600,11
+Kimmer Coppejans,grass,career,0.5850,0.2850,2
+Kimmer Coppejans,all,career,0.5916,0.3342,21
+Federico Coria,hard,career,0.5650,0.3410,32
+Federico Coria,clay,career,0.5830,0.4160,99
+Federico Coria,grass,career,0.5920,0.2910,4
+Federico Coria,all,career,0.5790,0.3945,135
+Cedrik Marcel Stebe,hard,career,0.5940,0.3580,38
+Cedrik Marcel Stebe,clay,career,0.5610,0.4130,35
+Cedrik Marcel Stebe,grass,career,0.5900,0.3610,9
+Cedrik Marcel Stebe,all,career,0.5795,0.3818,82
 Chun Hsin Tseng,hard,52week,0.5260,0.3280,6
 Chun Hsin Tseng,clay,52week,0.5990,0.3750,3
 Chun Hsin Tseng,grass,52week,0.5920,0.2900,2
@@ -1341,30 +1366,23 @@ Chun Hsin Tseng,hard,career,0.5940,0.3270,36
 Chun Hsin Tseng,clay,career,0.5860,0.3860,13
 Chun Hsin Tseng,grass,career,0.5940,0.3000,3
 Chun Hsin Tseng,all,career,0.5920,0.3402,52
-Marco Cecchinato,hard,career,0.6180,0.3010,55
-Marco Cecchinato,clay,career,0.6140,0.3750,141
-Marco Cecchinato,grass,career,0.5880,0.2820,11
-Marco Cecchinato,all,career,0.6137,0.3504,207
-Cedrik Marcel Stebe,hard,career,0.5940,0.3580,38
-Cedrik Marcel Stebe,clay,career,0.5610,0.4130,35
-Cedrik Marcel Stebe,grass,career,0.5900,0.3610,9
-Cedrik Marcel Stebe,all,career,0.5795,0.3818,82
+Hugo Grenier,hard,career,0.6180,0.3450,17
+Hugo Grenier,clay,career,0.5550,0.3290,8
+Hugo Grenier,grass,career,0.6370,0.3180,2
+Hugo Grenier,all,career,0.6007,0.3383,27
+Timofey Skatov,hard,career,0.5770,0.3580,10
+Timofey Skatov,clay,career,0.6000,0.3860,10
+Timofey Skatov,all,career,0.5885,0.3720,20
+Yosuke Watanuki,hard,career,0.6430,0.3560,35
+Yosuke Watanuki,clay,career,0.6050,0.3550,7
+Yosuke Watanuki,grass,career,0.7010,0.3080,5
+Yosuke Watanuki,all,career,0.6435,0.3507,47
 Tristan Schoolkate,hard,52week,0.6500,0.3160,13
 Tristan Schoolkate,all,52week,0.6500,0.3160,13
 Tristan Schoolkate,hard,career,0.6430,0.3330,22
 Tristan Schoolkate,clay,career,0.5250,0.2970,1
 Tristan Schoolkate,grass,career,0.7080,0.1750,1
 Tristan Schoolkate,all,career,0.6408,0.3249,24
-Federico Cina,hard,52week,0.5900,0.2370,1
-Federico Cina,clay,52week,0.5450,0.3350,5
-Federico Cina,all,52week,0.5525,0.3187,6
-Federico Cina,hard,career,0.6030,0.2790,3
-Federico Cina,clay,career,0.5850,0.3330,8
-Federico Cina,all,career,0.5899,0.3183,11
-Kimmer Coppejans,hard,career,0.6010,0.3110,8
-Kimmer Coppejans,clay,career,0.5860,0.3600,11
-Kimmer Coppejans,grass,career,0.5850,0.2850,2
-Kimmer Coppejans,all,career,0.5916,0.3342,21
 August Holmgren,hard,52week,0.6790,0.2920,2
 August Holmgren,grass,52week,0.6980,0.2830,3
 August Holmgren,all,52week,0.6904,0.2866,5
@@ -1375,18 +1393,15 @@ August Holmgren,all,career,0.6554,0.3416,14
 Francesco Maestrelli,hard,52week,0.6310,0.3310,3
 Francesco Maestrelli,clay,52week,0.5980,0.3080,2
 Francesco Maestrelli,all,52week,0.6178,0.3218,5
+James Mccabe,hard,career,0.6010,0.3060,6
+James Mccabe,grass,career,0.5890,0.3130,4
+James Mccabe,all,career,0.5962,0.3088,10
 Edas Butvilas,clay,career,0.6310,0.3800,3
 Edas Butvilas,grass,career,0.6450,0.2460,1
 Edas Butvilas,all,career,0.6345,0.3465,4
 Philip Henning,hard,career,0.6240,0.4520,8
 Philip Henning,clay,career,0.6000,0.2890,3
 Philip Henning,all,career,0.6175,0.4075,11
-Vitaliy Sachko,hard,52week,0.6940,0.2690,4
-Vitaliy Sachko,clay,52week,0.4890,0.3020,1
-Vitaliy Sachko,all,52week,0.6530,0.2756,5
-Vitaliy Sachko,hard,career,0.6400,0.3030,11
-Vitaliy Sachko,clay,career,0.5280,0.3710,4
-Vitaliy Sachko,all,career,0.6101,0.3211,15
 Stefano Napolitano,hard,career,0.6290,0.2390,1
 Stefano Napolitano,clay,career,0.6360,0.3690,8
 Stefano Napolitano,grass,career,0.6150,0.4110,1
@@ -1424,15 +1439,15 @@ Christopher Eubanks,hard,career,0.6600,0.3010,74
 Christopher Eubanks,clay,career,0.6310,0.3280,11
 Christopher Eubanks,grass,career,0.6860,0.3000,26
 Christopher Eubanks,all,career,0.6632,0.3034,111
+Daniel Elahi Galan,hard,career,0.6000,0.3640,57
+Daniel Elahi Galan,clay,career,0.6090,0.3700,66
+Daniel Elahi Galan,grass,career,0.6320,0.3430,11
+Daniel Elahi Galan,all,career,0.6071,0.3652,134
 Ugo Blanchet,hard,52week,0.6090,0.3180,9
 Ugo Blanchet,all,52week,0.6090,0.3180,9
 Ugo Blanchet,hard,career,0.6110,0.3140,10
 Ugo Blanchet,clay,career,0.6000,0.4160,3
 Ugo Blanchet,all,career,0.6085,0.3375,13
-Taro Daniel,hard,career,0.6110,0.3490,146
-Taro Daniel,clay,career,0.5910,0.3730,88
-Taro Daniel,grass,career,0.6020,0.3130,10
-Taro Daniel,all,career,0.6034,0.3562,244
 Marc Andrea Huesler,hard,career,0.6600,0.3230,51
 Marc Andrea Huesler,clay,career,0.6240,0.3540,27
 Marc Andrea Huesler,grass,career,0.6820,0.3140,8
@@ -1446,13 +1461,6 @@ Thiago Seyboth Wild,hard,career,0.6280,0.3150,32
 Thiago Seyboth Wild,clay,career,0.6160,0.3730,59
 Thiago Seyboth Wild,grass,career,0.6250,0.3170,4
 Thiago Seyboth Wild,all,career,0.6204,0.3511,95
-James Mccabe,hard,career,0.6010,0.3060,6
-James Mccabe,grass,career,0.5890,0.3130,4
-James Mccabe,all,career,0.5962,0.3088,10
-Daniel Elahi Galan,hard,career,0.6000,0.3640,57
-Daniel Elahi Galan,clay,career,0.6090,0.3700,66
-Daniel Elahi Galan,grass,career,0.6320,0.3430,11
-Daniel Elahi Galan,all,career,0.6071,0.3652,134
 Sumit Nagal,clay,52week,0.5400,0.3500,1
 Sumit Nagal,all,52week,0.5400,0.3500,1
 Sumit Nagal,hard,career,0.5650,0.3440,34
@@ -1488,31 +1496,24 @@ Bernard Tomic,all,career,0.6384,0.3397,374
 Frederico Ferreira Silva,hard,career,0.5990,0.3180,6
 Frederico Ferreira Silva,clay,career,0.5870,0.4010,7
 Frederico Ferreira Silva,all,career,0.5925,0.3627,13
-Shintaro Mochizuki,hard,52week,0.5640,0.3760,14
-Shintaro Mochizuki,grass,52week,0.6390,0.3670,2
-Shintaro Mochizuki,all,52week,0.5734,0.3749,16
-Shintaro Mochizuki,hard,career,0.5650,0.3590,32
-Shintaro Mochizuki,clay,career,0.5680,0.3260,1
-Shintaro Mochizuki,grass,career,0.6040,0.3540,5
-Shintaro Mochizuki,all,career,0.5702,0.3575,38
 Felipe Meligeni Alves,hard,career,0.6510,0.3860,8
 Felipe Meligeni Alves,clay,career,0.5790,0.3470,9
 Felipe Meligeni Alves,grass,career,0.6360,0.2620,1
 Felipe Meligeni Alves,all,career,0.6142,0.3596,18
-Calvin Hemery,hard,career,0.5510,0.2790,4
-Calvin Hemery,clay,career,0.5700,0.3410,8
-Calvin Hemery,all,career,0.5637,0.3203,12
+Duje Ajdukovic,hard,career,0.6290,0.3760,6
+Duje Ajdukovic,clay,career,0.5840,0.3670,11
+Duje Ajdukovic,all,career,0.5999,0.3702,17
 Norbert Gombos,hard,career,0.6190,0.3490,54
 Norbert Gombos,clay,career,0.6050,0.3760,31
 Norbert Gombos,grass,career,0.6060,0.2560,5
 Norbert Gombos,all,career,0.6135,0.3531,90
-Duje Ajdukovic,hard,career,0.6290,0.3760,6
-Duje Ajdukovic,clay,career,0.5840,0.3670,11
-Duje Ajdukovic,all,career,0.5999,0.3702,17
 Andrej Martin,hard,career,0.5500,0.3710,15
 Andrej Martin,clay,career,0.5830,0.4080,49
 Andrej Martin,grass,career,0.5160,0.3030,1
 Andrej Martin,all,career,0.5744,0.3978,65
+Calvin Hemery,hard,career,0.5510,0.2790,4
+Calvin Hemery,clay,career,0.5700,0.3410,8
+Calvin Hemery,all,career,0.5637,0.3203,12
 Yasutaka Uchiyama,hard,career,0.6580,0.3330,36
 Yasutaka Uchiyama,clay,career,0.5410,0.2800,2
 Yasutaka Uchiyama,grass,career,0.5750,0.3410,3
@@ -1525,9 +1526,13 @@ Radu Albot,hard,career,0.6020,0.3690,162
 Radu Albot,clay,career,0.5820,0.3890,67
 Radu Albot,grass,career,0.6180,0.3570,24
 Radu Albot,all,career,0.5982,0.3732,253
-Dimitar Kuzmanov,hard,career,0.5920,0.3850,28
-Dimitar Kuzmanov,clay,career,0.6770,0.3750,9
-Dimitar Kuzmanov,all,career,0.6127,0.3826,37
+Shintaro Mochizuki,hard,52week,0.5640,0.3760,14
+Shintaro Mochizuki,grass,52week,0.6390,0.3670,2
+Shintaro Mochizuki,all,52week,0.5734,0.3749,16
+Shintaro Mochizuki,hard,career,0.5650,0.3590,32
+Shintaro Mochizuki,clay,career,0.5680,0.3260,1
+Shintaro Mochizuki,grass,career,0.6040,0.3540,5
+Shintaro Mochizuki,all,career,0.5702,0.3575,38
 Yi Zhou,hard,career,0.6320,0.3490,14
 Yi Zhou,all,career,0.6320,0.3490,14
 Beibit Zhukayev,hard,career,0.6280,0.3160,12
@@ -1539,6 +1544,9 @@ Benjamin Hassan,all,career,0.6399,0.3645,27
 Jay Clarke,hard,career,0.6250,0.1670,1
 Jay Clarke,grass,career,0.6110,0.3070,13
 Jay Clarke,all,career,0.6120,0.2970,14
+Dimitar Kuzmanov,hard,career,0.5920,0.3850,28
+Dimitar Kuzmanov,clay,career,0.6770,0.3750,9
+Dimitar Kuzmanov,all,career,0.6127,0.3826,37
 Ryan Peniston,hard,career,0.6870,0.2420,1
 Ryan Peniston,grass,career,0.6170,0.3630,12
 Ryan Peniston,all,career,0.6224,0.3537,13
@@ -1564,10 +1572,6 @@ Jason Jung,hard,career,0.6040,0.3390,25
 Jason Jung,clay,career,0.5240,0.4620,1
 Jason Jung,grass,career,0.6110,0.3550,9
 Jason Jung,all,career,0.6035,0.3466,35
-Abedallah Shelbayh,hard,career,0.5960,0.3500,9
-Abedallah Shelbayh,clay,career,0.5340,0.3790,4
-Abedallah Shelbayh,grass,career,0.5530,0.3090,2
-Abedallah Shelbayh,all,career,0.5737,0.3523,15
 Bernabe Zapata Miralles,hard,career,0.5620,0.3420,32
 Bernabe Zapata Miralles,clay,career,0.5700,0.4160,59
 Bernabe Zapata Miralles,grass,career,0.6200,0.2940,6
@@ -1585,6 +1589,10 @@ Justin Engel,hard,career,0.6290,0.2830,7
 Justin Engel,clay,career,0.6030,0.3170,6
 Justin Engel,grass,career,0.6870,0.3130,4
 Justin Engel,all,career,0.6335,0.3021,17
+Abedallah Shelbayh,hard,career,0.5960,0.3500,9
+Abedallah Shelbayh,clay,career,0.5340,0.3790,4
+Abedallah Shelbayh,grass,career,0.5530,0.3090,2
+Abedallah Shelbayh,all,career,0.5737,0.3523,15
 Tung Lin Wu,hard,career,0.6000,0.3530,19
 Tung Lin Wu,all,career,0.6000,0.3530,19
 Rudolf Molleker,hard,career,0.5110,0.2470,1
@@ -1594,6 +1602,10 @@ Rudolf Molleker,all,career,0.6080,0.3018,18
 Dmitry Popko,hard,career,0.5940,0.3610,9
 Dmitry Popko,clay,career,0.6020,0.3480,5
 Dmitry Popko,all,career,0.5969,0.3564,14
+Nicolas Kicker,hard,career,0.5800,0.3600,12
+Nicolas Kicker,clay,career,0.6110,0.3820,35
+Nicolas Kicker,grass,career,0.6630,0.2800,1
+Nicolas Kicker,all,career,0.6043,0.3744,48
 Eero Vasa,hard,career,0.5630,0.3100,7
 Eero Vasa,all,career,0.5630,0.3100,7
 Hiroki Moriya,hard,career,0.5670,0.3500,13
@@ -1601,10 +1613,6 @@ Hiroki Moriya,grass,career,0.5710,0.2810,1
 Hiroki Moriya,all,career,0.5673,0.3451,14
 Miguel Tobon,clay,career,0.6360,0.3980,33
 Miguel Tobon,all,career,0.6360,0.3980,33
-Nicolas Kicker,hard,career,0.5800,0.3600,12
-Nicolas Kicker,clay,career,0.6110,0.3820,35
-Nicolas Kicker,grass,career,0.6630,0.2800,1
-Nicolas Kicker,all,career,0.6043,0.3744,48
 Viktor Durasovic,hard,career,0.5920,0.3090,31
 Viktor Durasovic,all,career,0.5920,0.3090,31
 James Watt,hard,52week,0.5880,0.3330,5
