@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-21T16:01:32Z",
+  "fetched_at": "2026-06-21T17:46:38Z",
   "events": [
     {
       "slug": "2026WTABerlin",
@@ -561,16 +561,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Marie Bouzkova",
-          "b": "Emma Navarro",
-          "a_seed": "4",
-          "b_seed": "3",
-          "h2h": null
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Marie Bouzkova",
+          "loser": "Emma Navarro",
+          "score": "76(5) 46 62"
+        },
         {
           "round": "SF",
           "winner": "Marie Bouzkova",
