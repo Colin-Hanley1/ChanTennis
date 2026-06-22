@@ -1,7 +1,14 @@
 {
-  "fetched_at": "2026-06-22T14:15:38Z",
+  "fetched_at": "2026-06-22T17:45:09Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Ajla Tomljanovic",
+      "loser": "Elisabetta Cocciaretto",
+      "score": "6-2 6-7 7-5",
+      "round": "Round 1",
+      "event": "2026WTAEastbourne"
+    },
     {
       "winner": "Anhelina Kalinina",
       "loser": "Daria Snigur",
@@ -13,6 +20,20 @@
       "winner": "Emiliana Arango",
       "loser": "Maya Joint",
       "score": "7-6 6-4",
+      "round": "Round 1",
+      "event": "2026WTAEastbourne"
+    },
+    {
+      "winner": "Jelena Ostapenko",
+      "loser": "Francesca Jones",
+      "score": "6-2 6-2",
+      "round": "Round 1",
+      "event": "2026WTAEastbourne"
+    },
+    {
+      "winner": "Petra Marcinko",
+      "loser": "Antonia Ruzic",
+      "score": "7-6 4-6 7-6",
       "round": "Round 1",
       "event": "2026WTAEastbourne"
     },

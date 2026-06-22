@@ -1,11 +1,18 @@
 {
-  "fetched_at": "2026-06-22T14:15:38Z",
+  "fetched_at": "2026-06-22T17:45:09Z",
   "source": "espn",
   "matches": [
     {
       "winner": "Gabriel Diallo",
       "loser": "Terence Atmane",
       "score": "6-7 6-4 7-5",
+      "round": "Round 1",
+      "event": "2026ATPEastbourne"
+    },
+    {
+      "winner": "Jack Draper",
+      "loser": "Marcos Giron",
+      "score": "6-4 7-6",
       "round": "Round 1",
       "event": "2026ATPEastbourne"
     },
@@ -17,9 +24,23 @@
       "event": "2026ATPEastbourne"
     },
     {
+      "winner": "Juan Manuel Cerundolo",
+      "loser": "Raphael Collignon",
+      "score": "6-4 4-6 7-6",
+      "round": "Round 1",
+      "event": "2026ATPEastbourne"
+    },
+    {
       "winner": "Abdullah Shelbayh",
       "loser": "Corentin Moutet",
       "score": "7-5 6-4",
+      "round": "Round 1",
+      "event": "2026ATPMallorca"
+    },
+    {
+      "winner": "Adam Walton",
+      "loser": "Nick Kyrgios",
+      "score": "6-3 6-4",
       "round": "Round 1",
       "event": "2026ATPMallorca"
     },
@@ -38,9 +59,23 @@
       "event": "2026ATPMallorca"
     },
     {
+      "winner": "Jan-Lennard Struff",
+      "loser": "Martin Landaluce",
+      "score": "6-3 1-6 7-5",
+      "round": "Round 1",
+      "event": "2026ATPMallorca"
+    },
+    {
       "winner": "Lorenzo Sonego",
       "loser": "Mariano Navone",
       "score": "7-6 2-6 6-4",
+      "round": "Round 1",
+      "event": "2026ATPMallorca"
+    },
+    {
+      "winner": "Miomir Kecmanovic",
+      "loser": "Antoine Ghibaudo",
+      "score": "2-6 6-3 7-6",
       "round": "Round 1",
       "event": "2026ATPMallorca"
     },
