@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-22T17:45:09Z",
+  "fetched_at": "2026-06-22T18:30:19Z",
   "source": "espn",
   "matches": [
     {
@@ -27,6 +27,13 @@
       "winner": "Jelena Ostapenko",
       "loser": "Francesca Jones",
       "score": "6-2 6-2",
+      "round": "Round 1",
+      "event": "2026WTAEastbourne"
+    },
+    {
+      "winner": "McCartney Kessler",
+      "loser": "Daria Kasatkina",
+      "score": "6-3 7-6",
       "round": "Round 1",
       "event": "2026WTAEastbourne"
     },
