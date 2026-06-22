@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-22T17:45:11Z",
+  "fetched_at": "2026-06-22T21:09:46Z",
   "events": [
     {
       "slug": "2026WTABadHomburg",
@@ -207,25 +207,18 @@
           "h2h": null
         },
         {
-          "a": "Venus Williams",
-          "b": "Irina Camelia Begu",
-          "a_seed": "WC",
-          "b_seed": "Q",
-          "h2h": "1-0"
-        },
-        {
-          "a": "Alexandra Eala",
-          "b": "Elise Mertens",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "0-2"
-        },
-        {
           "a": "Ann Li",
           "b": "Ekaterina Alexandrova",
           "a_seed": null,
           "b_seed": null,
           "h2h": "1-2"
+        },
+        {
+          "a": "Karolina Muchova",
+          "b": "Irina Camelia Begu",
+          "a_seed": "4",
+          "b_seed": "Q",
+          "h2h": "2-2"
         },
         {
           "a": "Qinwen Zheng",
@@ -247,6 +240,13 @@
           "a_seed": "3",
           "b_seed": null,
           "h2h": null
+        },
+        {
+          "a": "Naomi Osaka",
+          "b": "Elise Mertens",
+          "a_seed": "6",
+          "b_seed": null,
+          "h2h": "4-3"
         }
       ],
       "completed": [
@@ -255,6 +255,12 @@
           "winner": "Anna Kalinskaya",
           "loser": "Sinja Kraus",
           "score": "64 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Irina Camelia Begu",
+          "loser": "Venus Williams",
+          "score": "62 46 76(6)"
         },
         {
           "round": "R1",
@@ -291,6 +297,12 @@
           "winner": "Naomi Osaka",
           "loser": "Magdalena Frech",
           "score": "64 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Elise Mertens",
+          "loser": "Alexandra Eala",
+          "score": "63 63"
         }
       ]
     },
@@ -547,13 +559,6 @@
           "h2h": "0-1"
         },
         {
-          "a": "Mccartney Kessler",
-          "b": "Daria Kasatkina",
-          "a_seed": "7",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
           "a": "Alicia Dudeney",
           "b": "Jessica Bouzas Maneiro",
           "a_seed": "WC",
@@ -571,6 +576,13 @@
           "a": "Tereza Valentova",
           "b": "Ajla Tomljanovic",
           "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Mccartney Kessler",
+          "b": "Anhelina Kalinina",
+          "a_seed": "7",
           "b_seed": null,
           "h2h": null
         }
@@ -605,6 +617,12 @@
           "winner": "Petra Marcinko",
           "loser": "Antonia Ruzic",
           "score": "76(6) 46 76(4)"
+        },
+        {
+          "round": "R1",
+          "winner": "Mccartney Kessler",
+          "loser": "Daria Kasatkina",
+          "score": "63 76(3)"
         },
         {
           "round": "R1",
