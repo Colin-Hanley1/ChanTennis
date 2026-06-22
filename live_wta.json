@@ -1,11 +1,25 @@
 {
-  "fetched_at": "2026-06-22T12:21:16Z",
+  "fetched_at": "2026-06-22T14:15:38Z",
   "source": "espn",
   "matches": [
     {
       "winner": "Anhelina Kalinina",
       "loser": "Daria Snigur",
       "score": "7-6 7-5",
+      "round": "Round 1",
+      "event": "2026WTAEastbourne"
+    },
+    {
+      "winner": "Emiliana Arango",
+      "loser": "Maya Joint",
+      "score": "7-6 6-4",
+      "round": "Round 1",
+      "event": "2026WTAEastbourne"
+    },
+    {
+      "winner": "Tereza Valentova",
+      "loser": "Hannah Klugman",
+      "score": "7-5 5-7 7-5",
       "round": "Round 1",
       "event": "2026WTAEastbourne"
     }
