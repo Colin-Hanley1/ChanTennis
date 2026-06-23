@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-23T18:06:06Z",
+  "fetched_at": "2026-06-23T18:18:04Z",
   "source": "espn",
   "matches": [
     {
@@ -48,6 +48,13 @@
       "winner": "Jessica Bouzas Maneiro",
       "loser": "Alicia Dudeney",
       "score": "6-0 6-3",
+      "round": "Round 1",
+      "event": "2026WTAEastbourne"
+    },
+    {
+      "winner": "Kimberly Birrell",
+      "loser": "Barbora Krejcikova",
+      "score": "6-3 7-6",
       "round": "Round 1",
       "event": "2026WTAEastbourne"
     },
