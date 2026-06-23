@@ -1,11 +1,18 @@
 {
-  "fetched_at": "2026-06-23T16:25:55Z",
+  "fetched_at": "2026-06-23T18:06:06Z",
   "source": "espn",
   "matches": [
     {
       "winner": "Arthur Fery",
       "loser": "Roman Andres Burruchaga",
       "score": "6-2 4-6 7-5",
+      "round": "Round 1",
+      "event": "2026ATPEastbourne"
+    },
+    {
+      "winner": "Daniel Altmaier",
+      "loser": "Aleksandar Kovacevic",
+      "score": "6-4 7-6",
       "round": "Round 1",
       "event": "2026ATPEastbourne"
     },
@@ -160,6 +167,13 @@
       "winner": "Fabian Marozsan",
       "loser": "Alejandro Tabilo",
       "score": "6-2 6-3",
+      "round": "Round 2",
+      "event": "2026ATPMallorca"
+    },
+    {
+      "winner": "Luciano Darderi",
+      "loser": "Yannick Hanfmann",
+      "score": "7-5 6-3",
       "round": "Round 2",
       "event": "2026ATPMallorca"
     },
