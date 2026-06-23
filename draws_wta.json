@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-23T18:06:09Z",
+  "fetched_at": "2026-06-23T21:04:27Z",
   "events": [
     {
       "slug": "2026WTABadHomburg",
@@ -221,18 +221,18 @@
           "h2h": "0-1"
         },
         {
-          "a": "Liudmila Samsonova",
-          "b": "Elina Svitolina",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Ekaterina Alexandrova",
           "b": "Mirra Andreeva",
           "a_seed": "2",
           "b_seed": null,
           "h2h": "1-0"
+        },
+        {
+          "a": "Xin Yu Wang",
+          "b": "Elina Svitolina",
+          "a_seed": "3",
+          "b_seed": null,
+          "h2h": "0-2"
         }
       ],
       "completed": [
@@ -241,6 +241,12 @@
           "winner": "Xin Yu Wang",
           "loser": "Leylah Fernandez",
           "score": "63 64"
+        },
+        {
+          "round": "R2",
+          "winner": "Elina Svitolina",
+          "loser": "Liudmila Samsonova",
+          "score": "36 63 62"
         },
         {
           "round": "R2",
@@ -526,13 +532,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Kimberly Birrell",
-          "b": "Barbora Krejcikova",
-          "a_seed": "Q",
-          "b_seed": "4",
-          "h2h": "0-1"
-        },
-        {
           "a": "Tatjana Maria",
           "b": "Anastasia Zakharova",
           "a_seed": "Q",
@@ -566,6 +565,13 @@
           "a_seed": "Q",
           "b_seed": null,
           "h2h": null
+        },
+        {
+          "a": "Petra Marcinko",
+          "b": "Kimberly Birrell",
+          "a_seed": "LL",
+          "b_seed": "Q",
+          "h2h": "0-1"
         },
         {
           "a": "Mccartney Kessler",
@@ -648,6 +654,12 @@
           "winner": "Petra Marcinko",
           "loser": "Antonia Ruzic",
           "score": "76(6) 46 76(4)"
+        },
+        {
+          "round": "R1",
+          "winner": "Kimberly Birrell",
+          "loser": "Barbora Krejcikova",
+          "score": "63 76(6)"
         },
         {
           "round": "R1",
