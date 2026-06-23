@@ -1,11 +1,18 @@
 {
-  "fetched_at": "2026-06-23T12:12:18Z",
+  "fetched_at": "2026-06-23T13:58:07Z",
   "source": "espn",
   "matches": [
     {
       "winner": "Gabriel Diallo",
       "loser": "Terence Atmane",
       "score": "6-7 6-4 7-5",
+      "round": "Round 1",
+      "event": "2026ATPEastbourne"
+    },
+    {
+      "winner": "Giles Hussey",
+      "loser": "Matteo Arnaldi",
+      "score": "6-4 6-2",
       "round": "Round 1",
       "event": "2026ATPEastbourne"
     },
@@ -139,6 +146,20 @@
       "winner": "Fabian Marozsan",
       "loser": "Alejandro Tabilo",
       "score": "6-2 6-3",
+      "round": "Round 2",
+      "event": "2026ATPMallorca"
+    },
+    {
+      "winner": "Miomir Kecmanovic",
+      "loser": "Lorenzo Sonego",
+      "score": "2-6 7-6 6-4",
+      "round": "Round 2",
+      "event": "2026ATPMallorca"
+    },
+    {
+      "winner": "Nuno Borges",
+      "loser": "Jan-Lennard Struff",
+      "score": "6-4 7-5",
       "round": "Round 2",
       "event": "2026ATPMallorca"
     }

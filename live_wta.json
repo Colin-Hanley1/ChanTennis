@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-23T12:12:18Z",
+  "fetched_at": "2026-06-23T13:58:07Z",
   "source": "espn",
   "matches": [
     {
@@ -10,9 +10,23 @@
       "event": "2026WTAEastbourne"
     },
     {
+      "winner": "Anastasia Zakharova",
+      "loser": "Yuliia Starodubtseva",
+      "score": "6-4 3-6 6-3",
+      "round": "Round 1",
+      "event": "2026WTAEastbourne"
+    },
+    {
       "winner": "Anhelina Kalinina",
       "loser": "Daria Snigur",
       "score": "7-6 7-5",
+      "round": "Round 1",
+      "event": "2026WTAEastbourne"
+    },
+    {
+      "winner": "Catherine McNally",
+      "loser": "Janice Tjen",
+      "score": "7-5 6-7 6-3",
       "round": "Round 1",
       "event": "2026WTAEastbourne"
     },
@@ -34,6 +48,13 @@
       "winner": "Jessica Bouzas Maneiro",
       "loser": "Alicia Dudeney",
       "score": "6-0 6-3",
+      "round": "Round 1",
+      "event": "2026WTAEastbourne"
+    },
+    {
+      "winner": "Madison Keys",
+      "loser": "Talia Gibson",
+      "score": "6-4 6-4",
       "round": "Round 1",
       "event": "2026WTAEastbourne"
     },
