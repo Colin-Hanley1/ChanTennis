@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-23T15:57:12Z",
+  "fetched_at": "2026-06-23T16:25:55Z",
   "source": "espn",
   "matches": [
     {
@@ -90,6 +90,13 @@
       "winner": "Tereza Valentova",
       "loser": "Hannah Klugman",
       "score": "7-5 5-7 7-5",
+      "round": "Round 1",
+      "event": "2026WTAEastbourne"
+    },
+    {
+      "winner": "Zeynep Sonmez",
+      "loser": "Harriet Dart",
+      "score": "4-6 6-2 7-5",
       "round": "Round 1",
       "event": "2026WTAEastbourne"
     }
