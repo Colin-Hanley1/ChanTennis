@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-23T08:33:48Z",
+  "fetched_at": "2026-06-23T12:12:21Z",
   "events": [
     {
       "slug": "2026WTABadHomburg",
@@ -193,25 +193,25 @@
       ],
       "r1_matches": [
         {
-          "a": "Eva Lys",
-          "b": "Emma Navarro",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Elena Gabriela Ruse",
-          "b": "Linda Noskova",
-          "a_seed": "Q",
-          "b_seed": "5",
-          "h2h": null
-        },
-        {
           "a": "Ann Li",
           "b": "Ekaterina Alexandrova",
           "a_seed": null,
           "b_seed": null,
           "h2h": "1-2"
+        },
+        {
+          "a": "Iga Swiatek",
+          "b": "Emma Navarro",
+          "a_seed": "1",
+          "b_seed": null,
+          "h2h": "2-1"
+        },
+        {
+          "a": "Anna Kalinskaya",
+          "b": "Elena Gabriela Ruse",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": "1-1"
         },
         {
           "a": "Karolina Muchova",
@@ -252,9 +252,21 @@
       "completed": [
         {
           "round": "R1",
+          "winner": "Emma Navarro",
+          "loser": "Eva Lys",
+          "score": "76(6) 63"
+        },
+        {
+          "round": "R1",
           "winner": "Anna Kalinskaya",
           "loser": "Sinja Kraus",
           "score": "64 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Elena Gabriela Ruse",
+          "loser": "Linda Noskova",
+          "score": "61 63"
         },
         {
           "round": "R1",
@@ -559,13 +571,6 @@
           "h2h": "0-1"
         },
         {
-          "a": "Alicia Dudeney",
-          "b": "Jessica Bouzas Maneiro",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Talia Gibson",
           "b": "Madison Keys",
           "a_seed": "2",
@@ -629,6 +634,12 @@
           "winner": "Anhelina Kalinina",
           "loser": "Daria Snigur",
           "score": "76(1) 75"
+        },
+        {
+          "round": "R1",
+          "winner": "Jessica Bouzas Maneiro",
+          "loser": "Alicia Dudeney",
+          "score": "60 63"
         }
       ]
     }
