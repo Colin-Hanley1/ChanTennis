@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-23T13:58:07Z",
+  "fetched_at": "2026-06-23T15:57:12Z",
   "source": "espn",
   "matches": [
     {
@@ -97,6 +97,13 @@
       "winner": "Grigor Dimitrov",
       "loser": "Marc Polmans",
       "score": "6-1 7-6",
+      "round": "Round 1",
+      "event": "2026ATPMallorca"
+    },
+    {
+      "winner": "Ignacio Buse",
+      "loser": "Stefanos Tsitsipas",
+      "score": "7-6 6-3",
       "round": "Round 1",
       "event": "2026ATPMallorca"
     },

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-23T12:12:21Z",
+  "fetched_at": "2026-06-23T15:57:15Z",
   "events": [
     {
       "slug": "2026WTABadHomburg",
@@ -193,13 +193,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Ann Li",
-          "b": "Ekaterina Alexandrova",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-2"
-        },
-        {
           "a": "Iga Swiatek",
           "b": "Emma Navarro",
           "a_seed": "1",
@@ -228,13 +221,6 @@
           "h2h": "0-1"
         },
         {
-          "a": "Xin Yu Wang",
-          "b": "Leylah Fernandez",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Liudmila Samsonova",
           "b": "Elina Svitolina",
           "a_seed": "3",
@@ -242,14 +228,26 @@
           "h2h": null
         },
         {
-          "a": "Naomi Osaka",
-          "b": "Elise Mertens",
-          "a_seed": "6",
+          "a": "Ekaterina Alexandrova",
+          "b": "Mirra Andreeva",
+          "a_seed": "2",
           "b_seed": null,
-          "h2h": "4-3"
+          "h2h": "1-0"
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Xin Yu Wang",
+          "loser": "Leylah Fernandez",
+          "score": "63 64"
+        },
+        {
+          "round": "R2",
+          "winner": "Naomi Osaka",
+          "loser": "Elise Mertens",
+          "score": "63 63"
+        },
         {
           "round": "R1",
           "winner": "Emma Navarro",
@@ -315,6 +313,12 @@
           "winner": "Elise Mertens",
           "loser": "Alexandra Eala",
           "score": "63 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Ekaterina Alexandrova",
+          "loser": "Ann Li",
+          "score": "61 67(5) 61"
         }
       ]
     },
@@ -522,46 +526,11 @@
       ],
       "r1_matches": [
         {
-          "a": "Jasmine Paolini",
-          "b": "Tatjana Maria",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": "3-2"
-        },
-        {
-          "a": "Yuliia Starodubtseva",
-          "b": "Anastasia Zakharova",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Panna Udvardy",
-          "b": "Anna Bondar",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "2-1"
-        },
-        {
           "a": "Zeynep Sonmez",
           "b": "Harriet Dart",
           "a_seed": "Q",
           "b_seed": "WC",
           "h2h": null
-        },
-        {
-          "a": "Sara Bejlek",
-          "b": "Laura Siegemund",
-          "a_seed": "5",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
-          "a": "Janice Tjen",
-          "b": "Caty Mcnally",
-          "a_seed": "6",
-          "b_seed": null,
-          "h2h": "0-1"
         },
         {
           "a": "Kimberly Birrell",
@@ -571,9 +540,9 @@
           "h2h": "0-1"
         },
         {
-          "a": "Talia Gibson",
-          "b": "Madison Keys",
-          "a_seed": "2",
+          "a": "Tatjana Maria",
+          "b": "Anastasia Zakharova",
+          "a_seed": "Q",
           "b_seed": null,
           "h2h": null
         },
@@ -585,14 +554,47 @@
           "h2h": null
         },
         {
+          "a": "Jelena Ostapenko",
+          "b": "Panna Udvardy",
+          "a_seed": "3",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Caty Mcnally",
+          "b": "Emiliana Arango",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
           "a": "Mccartney Kessler",
           "b": "Anhelina Kalinina",
           "a_seed": "7",
           "b_seed": null,
           "h2h": null
+        },
+        {
+          "a": "Jessica Bouzas Maneiro",
+          "b": "Madison Keys",
+          "a_seed": "2",
+          "b_seed": null,
+          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "R1",
+          "winner": "Tatjana Maria",
+          "loser": "Jasmine Paolini",
+          "score": "64 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Anastasia Zakharova",
+          "loser": "Yuliia Starodubtseva",
+          "score": "64 36 63"
+        },
         {
           "round": "R1",
           "winner": "Tereza Valentova",
@@ -610,6 +612,24 @@
           "winner": "Jelena Ostapenko",
           "loser": "Francesca Jones",
           "score": "62 62"
+        },
+        {
+          "round": "R1",
+          "winner": "Panna Udvardy",
+          "loser": "Anna Bondar",
+          "score": ""
+        },
+        {
+          "round": "R1",
+          "winner": "Sara Bejlek",
+          "loser": "Laura Siegemund",
+          "score": "36 76(2) 76(3)"
+        },
+        {
+          "round": "R1",
+          "winner": "Caty Mcnally",
+          "loser": "Janice Tjen",
+          "score": "75 67(5) 63"
         },
         {
           "round": "R1",
@@ -640,6 +660,12 @@
           "winner": "Jessica Bouzas Maneiro",
           "loser": "Alicia Dudeney",
           "score": "60 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Madison Keys",
+          "loser": "Talia Gibson",
+          "score": "64 64"
         }
       ]
     }
