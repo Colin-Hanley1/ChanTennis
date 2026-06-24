@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-24T13:06:38Z",
+  "fetched_at": "2026-06-24T14:48:49Z",
   "source": "espn",
   "matches": [
     {
@@ -87,6 +87,13 @@
       "event": "2026ATPEastbourne"
     },
     {
+      "winner": "Juan Manuel Cerundolo",
+      "loser": "Arthur Fery",
+      "score": "6-2 7-6",
+      "round": "Round 2",
+      "event": "2026ATPEastbourne"
+    },
+    {
       "winner": "Quentin Halys",
       "loser": "Giles Hussey",
       "score": "6-1 7-5",
@@ -97,6 +104,13 @@
       "winner": "Toby Samuel",
       "loser": "Thiago Agustin Tirante",
       "score": "6-1 7-6",
+      "round": "Round 2",
+      "event": "2026ATPEastbourne"
+    },
+    {
+      "winner": "Ugo Humbert",
+      "loser": "Jenson Brooksby",
+      "score": "6-3 6-2",
       "round": "Round 2",
       "event": "2026ATPEastbourne"
     },
@@ -182,6 +196,13 @@
       "loser": "Adolfo Daniel Vallejo",
       "score": "7-6 7-6",
       "round": "Round 1",
+      "event": "2026ATPMallorca"
+    },
+    {
+      "winner": "Alejandro Davidovich Fokina",
+      "loser": "Adam Walton",
+      "score": "6-4 7-5",
+      "round": "Round 2",
       "event": "2026ATPMallorca"
     },
     {
