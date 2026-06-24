@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-24T08:29:22Z",
+  "fetched_at": "2026-06-24T11:51:41Z",
   "events": [
     {
       "slug": "2026WTABadHomburg",
@@ -221,18 +221,18 @@
           "h2h": "0-1"
         },
         {
-          "a": "Ekaterina Alexandrova",
-          "b": "Mirra Andreeva",
-          "a_seed": "2",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
           "a": "Xin Yu Wang",
           "b": "Elina Svitolina",
           "a_seed": "3",
           "b_seed": null,
           "h2h": "0-2"
+        },
+        {
+          "a": "Naomi Osaka",
+          "b": "Ekaterina Alexandrova",
+          "a_seed": "6",
+          "b_seed": null,
+          "h2h": null
         }
       ],
       "completed": [
@@ -253,6 +253,12 @@
           "winner": "Naomi Osaka",
           "loser": "Elise Mertens",
           "score": "63 63"
+        },
+        {
+          "round": "R2",
+          "winner": "Ekaterina Alexandrova",
+          "loser": "Mirra Andreeva",
+          "score": "63 64"
         },
         {
           "round": "R1",
@@ -532,13 +538,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Tatjana Maria",
-          "b": "Anastasia Zakharova",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Tereza Valentova",
           "b": "Ajla Tomljanovic",
           "a_seed": "Q",
@@ -579,16 +578,21 @@
           "a_seed": "7",
           "b_seed": null,
           "h2h": null
-        },
-        {
-          "a": "Jessica Bouzas Maneiro",
-          "b": "Madison Keys",
-          "a_seed": "2",
-          "b_seed": null,
-          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Tatjana Maria",
+          "loser": "Anastasia Zakharova",
+          "score": "62 61"
+        },
+        {
+          "round": "R2",
+          "winner": "Madison Keys",
+          "loser": "Jessica Bouzas Maneiro",
+          "score": "60 61"
+        },
         {
           "round": "R1",
           "winner": "Tatjana Maria",
