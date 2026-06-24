@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-24T17:11:30Z",
+  "fetched_at": "2026-06-24T19:58:39Z",
   "events": [
     {
       "slug": "2026WTABadHomburg",
@@ -193,18 +193,18 @@
       ],
       "r1_matches": [
         {
-          "a": "Karolina Muchova",
-          "b": "Irina Camelia Begu",
-          "a_seed": "4",
-          "b_seed": "Q",
-          "h2h": "2-2"
-        },
-        {
           "a": "Emma Navarro",
           "b": "Elena Gabriela Ruse",
           "a_seed": "Q",
           "b_seed": null,
           "h2h": "3-0"
+        },
+        {
+          "a": "Karolina Muchova",
+          "b": "Clara Tauson",
+          "a_seed": "4",
+          "b_seed": null,
+          "h2h": "0-1"
         },
         {
           "a": "Naomi Osaka",
@@ -232,6 +232,12 @@
           "winner": "Elena Gabriela Ruse",
           "loser": "Anna Kalinskaya",
           "score": "75 62"
+        },
+        {
+          "round": "R2",
+          "winner": "Karolina Muchova",
+          "loser": "Irina Camelia Begu",
+          "score": "61 61"
         },
         {
           "round": "R2",
