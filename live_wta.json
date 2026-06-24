@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-24T15:37:38Z",
+  "fetched_at": "2026-06-24T17:11:27Z",
   "source": "espn",
   "matches": [
     {
@@ -132,6 +132,13 @@
       "winner": "McCartney Kessler",
       "loser": "Anhelina Kalinina",
       "score": "6-4 6-3",
+      "round": "Round 2",
+      "event": "2026WTAEastbourne"
+    },
+    {
+      "winner": "Petra Marcinko",
+      "loser": "Kimberly Birrell",
+      "score": "6-1 6-4",
       "round": "Round 2",
       "event": "2026WTAEastbourne"
     },

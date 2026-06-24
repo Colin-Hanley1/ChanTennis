@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-24T14:48:53Z",
+  "fetched_at": "2026-06-24T17:11:30Z",
   "events": [
     {
       "slug": "2026WTABadHomburg",
@@ -193,18 +193,18 @@
       ],
       "r1_matches": [
         {
-          "a": "Iga Swiatek",
-          "b": "Emma Navarro",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": "2-1"
-        },
-        {
           "a": "Karolina Muchova",
           "b": "Irina Camelia Begu",
           "a_seed": "4",
           "b_seed": "Q",
           "h2h": "2-2"
+        },
+        {
+          "a": "Emma Navarro",
+          "b": "Elena Gabriela Ruse",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": "3-0"
         },
         {
           "a": "Naomi Osaka",
@@ -220,6 +220,12 @@
           "winner": "Xin Yu Wang",
           "loser": "Elina Svitolina",
           "score": ""
+        },
+        {
+          "round": "R2",
+          "winner": "Emma Navarro",
+          "loser": "Iga Swiatek",
+          "score": "75 26 63"
         },
         {
           "round": "R2",
@@ -535,20 +541,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Caty Mcnally",
-          "b": "Emiliana Arango",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Petra Marcinko",
-          "b": "Kimberly Birrell",
-          "a_seed": "LL",
-          "b_seed": "Q",
-          "h2h": "0-1"
-        },
-        {
           "a": "Tatjana Maria",
           "b": "Tereza Valentova",
           "a_seed": null,
@@ -561,6 +553,13 @@
           "a_seed": "3",
           "b_seed": "Q",
           "h2h": null
+        },
+        {
+          "a": "Caty Mcnally",
+          "b": "Petra Marcinko",
+          "a_seed": "LL",
+          "b_seed": null,
+          "h2h": "2-0"
         },
         {
           "a": "Mccartney Kessler",
@@ -594,6 +593,18 @@
           "winner": "Zeynep Sonmez",
           "loser": "Sara Bejlek",
           "score": ""
+        },
+        {
+          "round": "R2",
+          "winner": "Caty Mcnally",
+          "loser": "Emiliana Arango",
+          "score": "63 60"
+        },
+        {
+          "round": "R2",
+          "winner": "Petra Marcinko",
+          "loser": "Kimberly Birrell",
+          "score": "61 64"
         },
         {
           "round": "R2",
