@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-25T15:09:57Z",
+  "fetched_at": "2026-06-25T17:19:50Z",
   "source": "espn",
   "matches": [
     {
@@ -13,6 +13,13 @@
       "winner": "Madison Keys",
       "loser": "McCartney Kessler",
       "score": "6-3 6-1",
+      "round": "Quarterfinal",
+      "event": "2026WTAEastbourne"
+    },
+    {
+      "winner": "Tatjana Maria",
+      "loser": "Tereza Valentova",
+      "score": "6-3 7-5",
       "round": "Quarterfinal",
       "event": "2026WTAEastbourne"
     },

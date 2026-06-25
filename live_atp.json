@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-25T15:09:57Z",
+  "fetched_at": "2026-06-25T17:19:50Z",
   "source": "espn",
   "matches": [
     {
@@ -12,6 +12,13 @@
     {
       "winner": "Toby Samuel",
       "loser": "Juan Manuel Cerundolo",
+      "score": "6-3 6-4",
+      "round": "Quarterfinal",
+      "event": "2026ATPEastbourne"
+    },
+    {
+      "winner": "Ugo Humbert",
+      "loser": "Quentin Halys",
       "score": "6-3 6-4",
       "round": "Quarterfinal",
       "event": "2026ATPEastbourne"
@@ -155,6 +162,13 @@
       "score": "6-3 6-2",
       "round": "Round 2",
       "event": "2026ATPEastbourne"
+    },
+    {
+      "winner": "Alejandro Davidovich Fokina",
+      "loser": "Grigor Dimitrov",
+      "score": "6-3 6-3",
+      "round": "Quarterfinal",
+      "event": "2026ATPMallorca"
     },
     {
       "winner": "Ethan Quinn",

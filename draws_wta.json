@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-25T14:48:51Z",
+  "fetched_at": "2026-06-25T17:19:53Z",
   "events": [
     {
       "slug": "2026WTABadHomburg",
@@ -193,13 +193,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Emma Navarro",
-          "b": "Elena Gabriela Ruse",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": "3-0"
-        },
-        {
           "a": "Karolina Muchova",
           "b": "Clara Tauson",
           "a_seed": "4",
@@ -215,6 +208,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Elena Gabriela Ruse",
+          "loser": "Emma Navarro",
+          "score": "64 62"
+        },
         {
           "round": "QF",
           "winner": "Xin Yu Wang",
@@ -553,21 +552,27 @@
       ],
       "r1_matches": [
         {
-          "a": "Tatjana Maria",
-          "b": "Tereza Valentova",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Caty Mcnally",
           "b": "Petra Marcinko",
           "a_seed": "LL",
           "b_seed": null,
           "h2h": "2-0"
+        },
+        {
+          "a": "Tatjana Maria",
+          "b": "Jelena Ostapenko",
+          "a_seed": "3",
+          "b_seed": null,
+          "h2h": "1-0"
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Tatjana Maria",
+          "loser": "Tereza Valentova",
+          "score": "63 75"
+        },
         {
           "round": "QF",
           "winner": "Jelena Ostapenko",
