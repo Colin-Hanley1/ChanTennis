@@ -1,11 +1,18 @@
 {
-  "fetched_at": "2026-06-25T12:10:57Z",
+  "fetched_at": "2026-06-25T14:48:47Z",
   "source": "espn",
   "matches": [
     {
       "winner": "Jelena Ostapenko",
       "loser": "Zeynep Sonmez",
       "score": "6-3 6-0",
+      "round": "Quarterfinal",
+      "event": "2026WTAEastbourne"
+    },
+    {
+      "winner": "Madison Keys",
+      "loser": "McCartney Kessler",
+      "score": "6-3 6-1",
       "round": "Quarterfinal",
       "event": "2026WTAEastbourne"
     },

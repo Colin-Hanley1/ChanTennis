@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-25T11:46:17Z",
+  "fetched_at": "2026-06-25T14:48:51Z",
   "events": [
     {
       "slug": "2026WTABadHomburg",
@@ -207,8 +207,8 @@
           "h2h": "0-1"
         },
         {
-          "a": "Naomi Osaka",
-          "b": "Ekaterina Alexandrova",
+          "a": "Xin Yu Wang",
+          "b": "Naomi Osaka",
           "a_seed": "6",
           "b_seed": null,
           "h2h": null
@@ -220,6 +220,12 @@
           "winner": "Xin Yu Wang",
           "loser": "Elina Svitolina",
           "score": ""
+        },
+        {
+          "round": "QF",
+          "winner": "Naomi Osaka",
+          "loser": "Ekaterina Alexandrova",
+          "score": "62 62"
         },
         {
           "round": "R2",
@@ -554,28 +560,26 @@
           "h2h": null
         },
         {
-          "a": "Jelena Ostapenko",
-          "b": "Zeynep Sonmez",
-          "a_seed": "3",
-          "b_seed": "Q",
-          "h2h": null
-        },
-        {
           "a": "Caty Mcnally",
           "b": "Petra Marcinko",
           "a_seed": "LL",
           "b_seed": null,
           "h2h": "2-0"
-        },
-        {
-          "a": "Mccartney Kessler",
-          "b": "Madison Keys",
-          "a_seed": "7",
-          "b_seed": "2",
-          "h2h": "0-1"
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Jelena Ostapenko",
+          "loser": "Zeynep Sonmez",
+          "score": "63 60"
+        },
+        {
+          "round": "QF",
+          "winner": "Madison Keys",
+          "loser": "Mccartney Kessler",
+          "score": "63 61"
+        },
         {
           "round": "R2",
           "winner": "Tatjana Maria",

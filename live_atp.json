@@ -1,11 +1,18 @@
 {
-  "fetched_at": "2026-06-25T12:10:57Z",
+  "fetched_at": "2026-06-25T14:48:47Z",
   "source": "espn",
   "matches": [
     {
       "winner": "Toby Samuel",
       "loser": "Juan Manuel Cerundolo",
       "score": "6-3 6-4",
+      "round": "Quarterfinal",
+      "event": "2026ATPEastbourne"
+    },
+    {
+      "winner": "Zizou Bergs",
+      "loser": "Jan Choinski",
+      "score": "6-3 6-3",
       "round": "Quarterfinal",
       "event": "2026ATPEastbourne"
     },
@@ -146,6 +153,13 @@
       "winner": "Ethan Quinn",
       "loser": "Vit Kopriva",
       "score": "5-7 7-5 6-3",
+      "round": "Quarterfinal",
+      "event": "2026ATPMallorca"
+    },
+    {
+      "winner": "Nuno Borges",
+      "loser": "Luciano Darderi",
+      "score": "7-6 6-4",
       "round": "Quarterfinal",
       "event": "2026ATPMallorca"
     },
