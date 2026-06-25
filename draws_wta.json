@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-25T17:19:53Z",
+  "fetched_at": "2026-06-25T20:15:38Z",
   "events": [
     {
       "slug": "2026WTABadHomburg",
@@ -193,10 +193,10 @@
       ],
       "r1_matches": [
         {
-          "a": "Karolina Muchova",
-          "b": "Clara Tauson",
-          "a_seed": "4",
-          "b_seed": null,
+          "a": "Elena Gabriela Ruse",
+          "b": "Karolina Muchova",
+          "a_seed": "Q",
+          "b_seed": "4",
           "h2h": "0-1"
         },
         {
@@ -213,6 +213,12 @@
           "winner": "Elena Gabriela Ruse",
           "loser": "Emma Navarro",
           "score": "64 62"
+        },
+        {
+          "round": "QF",
+          "winner": "Karolina Muchova",
+          "loser": "Clara Tauson",
+          "score": "16 62 64"
         },
         {
           "round": "QF",
@@ -552,18 +558,18 @@
       ],
       "r1_matches": [
         {
-          "a": "Caty Mcnally",
-          "b": "Petra Marcinko",
-          "a_seed": "LL",
-          "b_seed": null,
-          "h2h": "2-0"
-        },
-        {
           "a": "Tatjana Maria",
           "b": "Jelena Ostapenko",
           "a_seed": "3",
           "b_seed": null,
           "h2h": "1-0"
+        },
+        {
+          "a": "Petra Marcinko",
+          "b": "Madison Keys",
+          "a_seed": "LL",
+          "b_seed": "2",
+          "h2h": null
         }
       ],
       "completed": [
@@ -578,6 +584,12 @@
           "winner": "Jelena Ostapenko",
           "loser": "Zeynep Sonmez",
           "score": "63 60"
+        },
+        {
+          "round": "QF",
+          "winner": "Petra Marcinko",
+          "loser": "Caty Mcnally",
+          "score": "63 46 64"
         },
         {
           "round": "QF",

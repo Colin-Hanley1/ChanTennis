@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-25T17:19:53Z",
+  "fetched_at": "2026-06-25T20:15:38Z",
   "events": [
     {
       "slug": "2026ATPMallorca",
@@ -193,35 +193,45 @@
       ],
       "r1_matches": [
         {
-          "a": "Abedallah Shelbayh",
-          "b": "Grigor Dimitrov",
-          "a_seed": "LL",
-          "b_seed": "WC",
+          "a": "Nuno Borges",
+          "b": "Ethan Quinn",
+          "a_seed": null,
+          "b_seed": null,
           "h2h": null
         },
         {
-          "a": "Luciano Darderi",
-          "b": "Nuno Borges",
-          "a_seed": "1",
+          "a": "Fabian Marozsan",
+          "b": "Alejandro Davidovich Fokina",
+          "a_seed": "2",
           "b_seed": null,
-          "h2h": "0-2"
-        },
-        {
-          "a": "Ethan Quinn",
-          "b": "Vit Kopriva",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "3-0"
-        },
-        {
-          "a": "Miomir Kecmanovic",
-          "b": "Fabian Marozsan",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-2"
+          "h2h": "0-1"
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Nuno Borges",
+          "loser": "Luciano Darderi",
+          "score": "7-6(1) 6-4"
+        },
+        {
+          "round": "QF",
+          "winner": "Ethan Quinn",
+          "loser": "Vit Kopriva",
+          "score": "5-7 7-5 6-3"
+        },
+        {
+          "round": "QF",
+          "winner": "Fabian Marozsan",
+          "loser": "Miomir Kecmanovic",
+          "score": "6-4 6-3"
+        },
+        {
+          "round": "QF",
+          "winner": "Alejandro Davidovich Fokina",
+          "loser": "Grigor Dimitrov",
+          "score": "6-3 6-3"
+        },
         {
           "round": "R16",
           "winner": "Luciano Darderi",
@@ -257,6 +267,12 @@
           "winner": "Fabian Marozsan",
           "loser": "Alejandro Tabilo",
           "score": "6-2 6-3"
+        },
+        {
+          "round": "R16",
+          "winner": "Grigor Dimitrov",
+          "loser": "Abedallah Shelbayh",
+          "score": "6-2 6-4"
         },
         {
           "round": "R16",
@@ -530,42 +546,45 @@
       ],
       "r1_matches": [
         {
-          "a": "Jack Draper",
-          "b": "Jack Pinnington Jones",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Gabriel Diallo",
-          "b": "Tomas Martin Etcheverry",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
-          "a": "Jan Choinski",
-          "b": "Zizou Bergs",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": "2-1"
-        },
-        {
-          "a": "Toby Samuel",
-          "b": "Juan Manuel Cerundolo",
+          "a": "Zizou Bergs",
+          "b": "Toby Samuel",
           "a_seed": "LL",
-          "b_seed": "8",
+          "b_seed": null,
           "h2h": null
         },
         {
-          "a": "Ugo Humbert",
-          "b": "Quentin Halys",
+          "a": "Jack Draper",
+          "b": "Ugo Humbert",
           "a_seed": "6",
-          "b_seed": "LL",
-          "h2h": "1-2"
+          "b_seed": null,
+          "h2h": "0-1"
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Zizou Bergs",
+          "loser": "Jan Choinski",
+          "score": "6-3 6-3"
+        },
+        {
+          "round": "QF",
+          "winner": "Toby Samuel",
+          "loser": "Juan Manuel Cerundolo",
+          "score": "6-3 6-4"
+        },
+        {
+          "round": "QF",
+          "winner": "Jack Draper",
+          "loser": "Gabriel Diallo",
+          "score": "6-1 6-4"
+        },
+        {
+          "round": "QF",
+          "winner": "Ugo Humbert",
+          "loser": "Quentin Halys",
+          "score": "6-3 6-4"
+        },
         {
           "round": "R16",
           "winner": "Jan Choinski",
@@ -589,6 +608,18 @@
           "winner": "Juan Manuel Cerundolo",
           "loser": "Arthur Fery",
           "score": "6-2 7-6(2)"
+        },
+        {
+          "round": "R16",
+          "winner": "Jack Draper",
+          "loser": "Jack Pinnington Jones",
+          "score": "7-5 6-4"
+        },
+        {
+          "round": "R16",
+          "winner": "Gabriel Diallo",
+          "loser": "Tomas Martin Etcheverry",
+          "score": "6-7(11) 6-3 6-2"
         },
         {
           "round": "R16",
