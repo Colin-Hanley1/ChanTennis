@@ -1,7 +1,14 @@
 {
-  "fetched_at": "2026-06-25T14:48:47Z",
+  "fetched_at": "2026-06-25T15:09:57Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Jack Draper",
+      "loser": "Gabriel Diallo",
+      "score": "6-1 6-4",
+      "round": "Quarterfinal",
+      "event": "2026ATPEastbourne"
+    },
     {
       "winner": "Toby Samuel",
       "loser": "Juan Manuel Cerundolo",
@@ -153,6 +160,13 @@
       "winner": "Ethan Quinn",
       "loser": "Vit Kopriva",
       "score": "5-7 7-5 6-3",
+      "round": "Quarterfinal",
+      "event": "2026ATPMallorca"
+    },
+    {
+      "winner": "Fabian Marozsan",
+      "loser": "Miomir Kecmanovic",
+      "score": "6-4 6-3",
       "round": "Quarterfinal",
       "event": "2026ATPMallorca"
     },
