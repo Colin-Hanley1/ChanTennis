@@ -1,7 +1,14 @@
 {
-  "fetched_at": "2026-06-25T09:49:02Z",
+  "fetched_at": "2026-06-25T11:46:14Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Toby Samuel",
+      "loser": "Juan Manuel Cerundolo",
+      "score": "6-3 6-4",
+      "round": "Quarterfinal",
+      "event": "2026ATPEastbourne"
+    },
     {
       "winner": "Arthur Fery",
       "loser": "Roman Andres Burruchaga",
@@ -134,6 +141,13 @@
       "score": "6-3 6-2",
       "round": "Round 2",
       "event": "2026ATPEastbourne"
+    },
+    {
+      "winner": "Ethan Quinn",
+      "loser": "Vit Kopriva",
+      "score": "5-7 7-5 6-3",
+      "round": "Quarterfinal",
+      "event": "2026ATPMallorca"
     },
     {
       "winner": "Abdullah Shelbayh",
