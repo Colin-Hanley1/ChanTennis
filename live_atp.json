@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-26T15:28:31Z",
+  "fetched_at": "2026-06-26T17:08:11Z",
   "source": "espn",
   "matches": [
     {
@@ -161,6 +161,13 @@
       "loser": "Jenson Brooksby",
       "score": "6-3 6-2",
       "round": "Round 2",
+      "event": "2026ATPEastbourne"
+    },
+    {
+      "winner": "Zizou Bergs",
+      "loser": "Toby Samuel",
+      "score": "4-6 7-6 6-2",
+      "round": "Semifinal",
       "event": "2026ATPEastbourne"
     },
     {
