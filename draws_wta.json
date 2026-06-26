@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-26T15:28:35Z",
+  "fetched_at": "2026-06-26T17:58:18Z",
   "events": [
     {
       "slug": "2026WimbledonWomenForecast",
@@ -980,14 +980,20 @@
       ],
       "r1_matches": [
         {
-          "a": "Elena Gabriela Ruse",
-          "b": "Karolina Muchova",
-          "a_seed": "Q",
-          "b_seed": "4",
-          "h2h": "0-1"
+          "a": "Karolina Muchova",
+          "b": "Naomi Osaka",
+          "a_seed": "4",
+          "b_seed": "6",
+          "h2h": "2-3"
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Karolina Muchova",
+          "loser": "Elena Gabriela Ruse",
+          "score": "64 64"
+        },
         {
           "round": "SF",
           "winner": "Naomi Osaka",
