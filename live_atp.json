@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-26T12:30:23Z",
+  "fetched_at": "2026-06-26T15:14:57Z",
   "source": "espn",
   "matches": [
     {
@@ -329,6 +329,13 @@
       "loser": "Ignacio Buse",
       "score": "7-5 6-1",
       "round": "Round 2",
+      "event": "2026ATPMallorca"
+    },
+    {
+      "winner": "Ethan Quinn",
+      "loser": "Nuno Borges",
+      "score": "6-1 6-2",
+      "round": "Semifinal",
       "event": "2026ATPMallorca"
     }
   ]
