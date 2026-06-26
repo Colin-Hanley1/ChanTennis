@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-26T12:19:12Z",
+  "fetched_at": "2026-06-26T15:28:35Z",
   "events": [
     {
       "slug": "2026WimbledonWomenForecast",
@@ -985,16 +985,15 @@
           "a_seed": "Q",
           "b_seed": "4",
           "h2h": "0-1"
-        },
-        {
-          "a": "Xin Yu Wang",
-          "b": "Naomi Osaka",
-          "a_seed": "6",
-          "b_seed": null,
-          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Naomi Osaka",
+          "loser": "Xin Yu Wang",
+          "score": "63 63"
+        },
         {
           "round": "QF",
           "winner": "Elena Gabriela Ruse",
@@ -1346,20 +1345,25 @@
       "r1_matches": [
         {
           "a": "Tatjana Maria",
-          "b": "Jelena Ostapenko",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
-          "a": "Petra Marcinko",
           "b": "Madison Keys",
-          "a_seed": "LL",
-          "b_seed": "2",
-          "h2h": null
+          "a_seed": "2",
+          "b_seed": null,
+          "h2h": "1-3"
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Tatjana Maria",
+          "loser": "Jelena Ostapenko",
+          "score": ""
+        },
+        {
+          "round": "SF",
+          "winner": "Madison Keys",
+          "loser": "Petra Marcinko",
+          "score": ""
+        },
         {
           "round": "QF",
           "winner": "Tatjana Maria",
