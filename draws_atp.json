@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-27T18:11:47Z",
+  "fetched_at": "2026-06-27T20:15:06Z",
   "events": [
     {
       "slug": "2026ATPMallorca",
@@ -191,16 +191,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Ethan Quinn",
-          "b": "Alejandro Davidovich Fokina",
-          "a_seed": "2",
-          "b_seed": null,
-          "h2h": null
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Alejandro Davidovich Fokina",
+          "loser": "Ethan Quinn",
+          "score": "7-6(4) 6-3"
+        },
         {
           "round": "SF",
           "winner": "Ethan Quinn",
