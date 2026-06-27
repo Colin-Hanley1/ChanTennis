@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-27T14:53:42Z",
+  "fetched_at": "2026-06-27T15:58:03Z",
   "source": "espn",
   "matches": [
     {
@@ -176,6 +176,13 @@
       "score": "4-6 7-6 6-2",
       "round": "Semifinal",
       "event": "2026ATPEastbourne"
+    },
+    {
+      "winner": "Alejandro Davidovich Fokina",
+      "loser": "Ethan Quinn",
+      "score": "7-6 6-3",
+      "round": "Final",
+      "event": "2026ATPMallorca"
     },
     {
       "winner": "Alejandro Davidovich Fokina",
