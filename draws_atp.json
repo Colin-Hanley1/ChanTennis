@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-28T18:11:46Z",
+  "fetched_at": "2026-06-28T20:19:16Z",
   "events": [
     {
       "slug": "2026ATPMallorca",
@@ -547,16 +547,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Zizou Bergs",
-          "b": "Ugo Humbert",
-          "a_seed": "6",
-          "b_seed": null,
-          "h2h": "0-1"
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Zizou Bergs",
+          "loser": "Ugo Humbert",
+          "score": "3-6 6-1 6-4"
+        },
         {
           "round": "SF",
           "winner": "Zizou Bergs",
