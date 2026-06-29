@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-29T15:02:47Z",
+  "fetched_at": "2026-06-29T16:03:06Z",
   "source": "espn",
   "matches": [
     {
@@ -27,6 +27,12 @@
       "round": "Round 1"
     },
     {
+      "winner": "Joao Fonseca",
+      "loser": "Roberto Bautista Agut",
+      "score": "7-6 6-4 6-3",
+      "round": "Round 1"
+    },
+    {
       "winner": "Learner Tien",
       "loser": "Dalibor Svrcina",
       "score": "6-1 6-4 6-7 6-3",
@@ -36,6 +42,18 @@
       "winner": "Martin Damm",
       "loser": "Marco Trungelliti",
       "score": "7-6 6-7 7-6 7-6",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Michael Zheng",
+      "loser": "Cameron Norrie",
+      "score": "6-7 6-2 6-7 6-3 7-6",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Nuno Borges",
+      "loser": "Tristan Boyer",
+      "score": "6-3 7-5 7-5",
       "round": "Round 1"
     },
     {
@@ -51,9 +69,21 @@
       "round": "Round 1"
     },
     {
+      "winner": "Sebastian Ofner",
+      "loser": "Hamad Medjedovic",
+      "score": "1-6 6-2 4-6 6-3 6-4",
+      "round": "Round 1"
+    },
+    {
       "winner": "Shintaro Mochizuki",
       "loser": "Max Basing",
       "score": "6-3 6-0 6-0",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Stefanos Tsitsipas",
+      "loser": "Hugo Gaston",
+      "score": "6-1 6-4 6-2",
       "round": "Round 1"
     },
     {
