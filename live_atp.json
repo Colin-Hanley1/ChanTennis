@@ -1,5 +1,66 @@
 {
-  "fetched_at": "2026-06-29T11:30:20Z",
+  "fetched_at": "2026-06-29T15:02:47Z",
   "source": "espn",
-  "matches": []
+  "matches": [
+    {
+      "winner": "Botic Van De Zandschulp",
+      "loser": "Aleksandar Kovacevic",
+      "score": "6-3 6-7 6-4 6-0",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Hubert Hurkacz",
+      "loser": "Casper Ruud",
+      "score": "6-4 6-2 7-6",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Ignacio Buse",
+      "loser": "Emilio Nava",
+      "score": "7-6 3-6 7-5 6-0",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Jenson Brooksby",
+      "loser": "Aleksandar Vukic",
+      "score": "7-6 6-1 6-1",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Learner Tien",
+      "loser": "Dalibor Svrcina",
+      "score": "6-1 6-4 6-7 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Martin Damm",
+      "loser": "Marco Trungelliti",
+      "score": "7-6 6-7 7-6 7-6",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Rafael Jodar",
+      "loser": "Felix Gill",
+      "score": "6-3 6-3 7-5",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Roman Safiullin",
+      "loser": "Andrey Rublev",
+      "score": "6-4 6-7 3-6 6-3 7-6",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Shintaro Mochizuki",
+      "loser": "Max Basing",
+      "score": "6-3 6-0 6-0",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Tommy Paul",
+      "loser": "Alexandre Muller",
+      "score": "6-1 6-2 6-1",
+      "round": "Round 1"
+    }
+  ]
 }
