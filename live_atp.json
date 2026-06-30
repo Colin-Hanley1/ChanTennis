@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-30T13:28:59Z",
+  "fetched_at": "2026-06-30T15:36:59Z",
   "source": "espn",
   "matches": [
     {
@@ -18,6 +18,12 @@
       "winner": "Alex de Minaur",
       "loser": "Roman Andres Burruchaga",
       "score": "7-6 6-1 6-0",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Arthur Fery",
+      "loser": "Damir Dzumhur",
+      "score": "3-6 6-2 6-2 6-1",
       "round": "Round 1"
     },
     {
@@ -81,6 +87,12 @@
       "round": "Round 1"
     },
     {
+      "winner": "Jacob Fearnley",
+      "loser": "Alex Michelsen",
+      "score": "3-6 4-6 6-2 6-3 6-2",
+      "round": "Round 1"
+    },
+    {
       "winner": "Jaime Faria",
       "loser": "Sho Shimabukuro",
       "score": "7-6 6-3 6-7 6-3",
@@ -99,9 +111,21 @@
       "round": "Round 1"
     },
     {
+      "winner": "Jaume Munar",
+      "loser": "Francisco Cerundolo",
+      "score": "6-1 6-4 6-3",
+      "round": "Round 1"
+    },
+    {
       "winner": "Jenson Brooksby",
       "loser": "Aleksandar Vukic",
       "score": "7-6 6-1 6-1",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Jesper de Jong",
+      "loser": "Rinky Hijikata",
+      "score": "7-6 3-6 5-7 6-4 6-3",
       "round": "Round 1"
     },
     {
@@ -114,6 +138,12 @@
       "winner": "Kamil Majchrzak",
       "loser": "Alejandro Tabilo",
       "score": "6-3 7-5 7-5",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Kyrian Jacquet",
+      "loser": "Vilius Gaubas",
+      "score": "6-3 6-4 7-6",
       "round": "Round 1"
     },
     {
@@ -153,6 +183,12 @@
       "round": "Round 1"
     },
     {
+      "winner": "Quentin Halys",
+      "loser": "Matteo Arnaldi",
+      "score": "3-6 6-1 7-6 6-3",
+      "round": "Round 1"
+    },
+    {
       "winner": "Rafael Jodar",
       "loser": "Felix Gill",
       "score": "6-3 6-3 7-5",
@@ -189,6 +225,12 @@
       "round": "Round 1"
     },
     {
+      "winner": "Taylor Fritz",
+      "loser": "Dusan Lajovic",
+      "score": "6-3 6-4 6-3",
+      "round": "Round 1"
+    },
+    {
       "winner": "Tommy Paul",
       "loser": "Alexandre Muller",
       "score": "6-1 6-2 6-1",
@@ -204,6 +246,12 @@
       "winner": "Yannick Hanfmann",
       "loser": "Giovanni Mpetshi Perricard",
       "score": "6-7 7-6 6-2 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Zachary Svajda",
+      "loser": "Pablo Llamas Ruiz",
+      "score": "6-1 6-2 6-4",
       "round": "Round 1"
     }
   ]
