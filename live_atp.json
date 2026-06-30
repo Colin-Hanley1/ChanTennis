@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-30T16:04:25Z",
+  "fetched_at": "2026-06-30T18:05:31Z",
   "source": "espn",
   "matches": [
     {
@@ -21,9 +21,21 @@
       "round": "Round 1"
     },
     {
+      "winner": "Alexander Bublik",
+      "loser": "Thanasi Kokkinakis",
+      "score": "4-6 6-3 6-7 6-3 6-4",
+      "round": "Round 1"
+    },
+    {
       "winner": "Arthur Fery",
       "loser": "Damir Dzumhur",
       "score": "3-6 6-2 6-2 6-1",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Arthur Fils",
+      "loser": "Raphael Collignon",
+      "score": "7-5 6-1 6-3",
       "round": "Round 1"
     },
     {
@@ -99,6 +111,12 @@
       "round": "Round 1"
     },
     {
+      "winner": "Jakub Mensik",
+      "loser": "Toby Samuel",
+      "score": "5-7 6-3 6-3 3-6 7-6",
+      "round": "Round 1"
+    },
+    {
       "winner": "Jan-Lennard Struff",
       "loser": "Sebastian Baez",
       "score": "6-1 7-6 4-6 2-6 7-5",
@@ -138,6 +156,12 @@
       "winner": "Kamil Majchrzak",
       "loser": "Alejandro Tabilo",
       "score": "6-3 7-5 7-5",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Karen Khachanov",
+      "loser": "Billy Harris",
+      "score": "6-3 5-7 6-3 6-3",
       "round": "Round 1"
     },
     {
@@ -186,6 +210,12 @@
       "winner": "Otto Virtanen",
       "loser": "Ben Shelton",
       "score": "6-4 3-6 6-7 6-2 7-6",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Patrick Kypson",
+      "loser": "Mackenzie McDonald",
+      "score": "3-6 6-1 6-4 6-4",
       "round": "Round 1"
     },
     {
@@ -258,6 +288,12 @@
       "winner": "Zachary Svajda",
       "loser": "Pablo Llamas Ruiz",
       "score": "6-1 6-2 6-4",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Zizou Bergs",
+      "loser": "Ugo Humbert",
+      "score": "6-2 7-5 4-6 3-6 6-3",
       "round": "Round 1"
     }
   ]
