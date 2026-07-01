@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-01T11:49:19Z",
+  "fetched_at": "2026-07-01T13:37:50Z",
   "source": "espn",
   "matches": [
     {
@@ -12,6 +12,12 @@
       "winner": "Alejandro Davidovich Fokina",
       "loser": "Juan Manuel Cerundolo",
       "score": "6-4 6-4 7-6",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Alex Molcan",
+      "loser": "Daniel Altmaier",
+      "score": "6-4 3-6 7-5 6-2",
       "round": "Round 1"
     },
     {
@@ -90,6 +96,12 @@
       "winner": "Felix Auger-Aliassime",
       "loser": "Aleksandr Shevchenko",
       "score": "6-3 6-1 6-4",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Flavio Cobolli",
+      "loser": "Mariano Navone",
+      "score": "1-6 7-6 6-3 7-6",
       "round": "Round 1"
     },
     {
@@ -345,9 +357,27 @@
       "round": "Round 1"
     },
     {
+      "winner": "Alejandro Davidovich Fokina",
+      "loser": "Fabian Marozsan",
+      "score": "6-3 6-0 6-3",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Hubert Hurkacz",
+      "loser": "Sebastian Ofner",
+      "score": "7-6 6-4 6-4",
+      "round": "Round 2"
+    },
+    {
       "winner": "Jenson Brooksby",
       "loser": "Ignacio Buse",
       "score": "6-2 6-2 6-3",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Tommy Paul",
+      "loser": "SoonWoo Kwon",
+      "score": "6-3 7-6 6-2",
       "round": "Round 2"
     }
   ]
