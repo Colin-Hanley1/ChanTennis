@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-02T16:57:14Z",
+  "fetched_at": "2026-07-02T18:09:01Z",
   "source": "espn",
   "matches": [
     {
@@ -405,6 +405,12 @@
       "round": "Round 2"
     },
     {
+      "winner": "Flavio Cobolli",
+      "loser": "James Duckworth",
+      "score": "7-6 3-6 7-6 6-1",
+      "round": "Round 2"
+    },
+    {
       "winner": "Hubert Hurkacz",
       "loser": "Sebastian Ofner",
       "score": "7-6 6-4 6-4",
@@ -462,6 +468,12 @@
       "winner": "Marton Fucsovics",
       "loser": "Learner Tien",
       "score": "6-7 6-4 7-6 6-3",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Matteo Berrettini",
+      "loser": "Arthur Fils",
+      "score": "6-4 7-5 3-6 6-3",
       "round": "Round 2"
     },
     {
