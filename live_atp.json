@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-02T11:40:16Z",
+  "fetched_at": "2026-07-02T12:26:22Z",
   "source": "espn",
   "matches": [
     {
@@ -369,6 +369,12 @@
       "round": "Round 2"
     },
     {
+      "winner": "Alex de Minaur",
+      "loser": "Adrian Mannarino",
+      "score": "6-3 6-2 6-2",
+      "round": "Round 2"
+    },
+    {
       "winner": "Arthur Rinderknech",
       "loser": "Martin Damm",
       "score": "6-4 7-6 6-3",
@@ -438,6 +444,12 @@
       "winner": "Shintaro Mochizuki",
       "loser": "Ethan Quinn",
       "score": "6-2 7-6 7-5",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Taylor Fritz",
+      "loser": "Patrick Kypson",
+      "score": "6-2 6-2 7-5",
       "round": "Round 2"
     },
     {
