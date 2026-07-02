@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-02T14:36:43Z",
+  "fetched_at": "2026-07-02T16:25:02Z",
   "source": "espn",
   "matches": [
     {
@@ -375,6 +375,12 @@
       "round": "Round 2"
     },
     {
+      "winner": "Alexander Zverev",
+      "loser": "Valentin Royer",
+      "score": "6-1 6-3 7-6",
+      "round": "Round 2"
+    },
+    {
       "winner": "Arthur Fery",
       "loser": "Otto Virtanen",
       "score": "5-7 7-6 6-3 6-3",
@@ -435,6 +441,12 @@
       "round": "Round 2"
     },
     {
+      "winner": "Marcos Giron",
+      "loser": "Quentin Halys",
+      "score": "7-6 6-3 6-4",
+      "round": "Round 2"
+    },
+    {
       "winner": "Marton Fucsovics",
       "loser": "Learner Tien",
       "score": "6-7 6-4 7-6 6-3",
@@ -480,6 +492,18 @@
       "winner": "Tommy Paul",
       "loser": "SoonWoo Kwon",
       "score": "6-3 7-6 6-2",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Zachary Svajda",
+      "loser": "Kamil Majchrzak",
+      "score": "2-6 6-2 6-7 6-4 6-3",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Zizou Bergs",
+      "loser": "Jaime Faria",
+      "score": "7-6 4-6 6-2 6-3",
       "round": "Round 2"
     }
   ]
