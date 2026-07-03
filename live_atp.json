@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-03T14:36:41Z",
+  "fetched_at": "2026-07-03T16:10:57Z",
   "source": "espn",
   "matches": [
     {
@@ -555,9 +555,33 @@
       "round": "Round 2"
     },
     {
+      "winner": "Jan-Lennard Struff",
+      "loser": "Daniil Medvedev",
+      "score": "7-6 7-6 7-5",
+      "round": "Round 3"
+    },
+    {
+      "winner": "Jannik Sinner",
+      "loser": "Jenson Brooksby",
+      "score": "6-4 6-3 6-4",
+      "round": "Round 3"
+    },
+    {
+      "winner": "Novak Djokovic",
+      "loser": "Arthur Rinderknech",
+      "score": "7-5 6-4 1-6 7-6",
+      "round": "Round 3"
+    },
+    {
       "winner": "Roman Safiullin",
       "loser": "Joao Fonseca",
       "score": "6-3 6-3 6-3",
+      "round": "Round 3"
+    },
+    {
+      "winner": "Shintaro Mochizuki",
+      "loser": "Rafael Jodar",
+      "score": "1-6 7-6 6-4 6-4",
       "round": "Round 3"
     }
   ]
