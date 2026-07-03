@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-03T16:41:31Z",
+  "fetched_at": "2026-07-03T17:45:02Z",
   "source": "espn",
   "matches": [
     {
@@ -553,6 +553,18 @@
       "loser": "Jaime Faria",
       "score": "7-6 4-6 6-2 6-3",
       "round": "Round 2"
+    },
+    {
+      "winner": "Alejandro Davidovich Fokina",
+      "loser": "Marton Fucsovics",
+      "score": "7-6 6-2 6-3",
+      "round": "Round 3"
+    },
+    {
+      "winner": "Hubert Hurkacz",
+      "loser": "Tommy Paul",
+      "score": "4-6 7-6 7-5 6-2",
+      "round": "Round 3"
     },
     {
       "winner": "Jan-Lennard Struff",
