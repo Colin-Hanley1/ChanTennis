@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-04T20:41:59Z",
+  "fetched_at": "2026-07-04T21:39:22Z",
   "source": "espn",
   "matches": [
     {
@@ -567,6 +567,12 @@
       "round": "Round 3"
     },
     {
+      "winner": "Alexander Bublik",
+      "loser": "Frances Tiafoe",
+      "score": "4-6 7-6 7-6 4-6 6-3",
+      "round": "Round 3"
+    },
+    {
       "winner": "Alexander Zverev",
       "loser": "Marcos Giron",
       "score": "6-2 7-6 6-4",
@@ -588,6 +594,12 @@
       "winner": "Flavio Cobolli",
       "loser": "Karen Khachanov",
       "score": "0-6 7-6 6-7 6-2 6-2",
+      "round": "Round 3"
+    },
+    {
+      "winner": "Grigor Dimitrov",
+      "loser": "Matteo Berrettini",
+      "score": "6-3 6-4 3-6 5-7 6-3",
       "round": "Round 3"
     },
     {
