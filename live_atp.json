@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-05T15:35:06Z",
+  "fetched_at": "2026-07-05T16:40:42Z",
   "source": "espn",
   "matches": [
     {
@@ -649,6 +649,12 @@
       "loser": "Lorenzo Sonego",
       "score": "4-6 6-3 6-4 7-6",
       "round": "Round 3"
+    },
+    {
+      "winner": "Novak Djokovic",
+      "loser": "Roman Safiullin",
+      "score": "7-6 6-3 3-6 6-3",
+      "round": "Round 4"
     }
   ]
 }
