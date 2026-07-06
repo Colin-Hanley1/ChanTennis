@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-06T17:26:11Z",
+  "fetched_at": "2026-07-06T19:01:15Z",
   "source": "espn",
   "matches": [
     {
@@ -672,6 +672,12 @@
       "winner": "Novak Djokovic",
       "loser": "Roman Safiullin",
       "score": "7-6 6-3 3-6 6-3",
+      "round": "Round 4"
+    },
+    {
+      "winner": "Taylor Fritz",
+      "loser": "Alexander Bublik",
+      "score": "7-6 6-4 6-4",
       "round": "Round 4"
     }
   ]
