@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-06T19:13:03Z",
+  "fetched_at": "2026-07-06T20:56:08Z",
   "source": "espn",
   "matches": [
     {
@@ -649,6 +649,12 @@
       "loser": "Lorenzo Sonego",
       "score": "4-6 6-3 6-4 7-6",
       "round": "Round 3"
+    },
+    {
+      "winner": "Arthur Fery",
+      "loser": "Grigor Dimitrov",
+      "score": "7-5 3-6 4-6 6-4 7-6",
+      "round": "Round 4"
     },
     {
       "winner": "Felix Auger-Aliassime",
