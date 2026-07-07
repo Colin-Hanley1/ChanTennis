@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-07T11:29:58Z",
+  "fetched_at": "2026-07-07T12:03:44Z",
   "source": "espn",
   "matches": [
     {
@@ -849,6 +849,12 @@
       "round": "Round 1"
     },
     {
+      "winner": "Caijsa Hennemann",
+      "loser": "June Bjork",
+      "score": "6-2 6-3",
+      "round": "Round 1"
+    },
+    {
       "winner": "Emiliana Arango",
       "loser": "Lea Nilsson",
       "score": "6-2 6-2",
@@ -870,6 +876,12 @@
       "winner": "Leyre Romero Gormaz",
       "loser": "Darja Semenistaja",
       "score": "6-2 2-6 6-2",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Lola Radivojevic",
+      "loser": "Mona Barthel",
+      "score": "6-4 6-2",
       "round": "Round 1"
     },
     {
