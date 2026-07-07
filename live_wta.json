@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-07T12:03:44Z",
+  "fetched_at": "2026-07-07T13:34:19Z",
   "source": "espn",
   "matches": [
     {
@@ -906,6 +906,18 @@
       "winner": "Simona Waltert",
       "loser": "Katarzyna Kawa",
       "score": "6-4 6-1",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Sinja Kraus",
+      "loser": "Claire Liu",
+      "score": "7-5 6-0",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Tamara Korpatsch",
+      "loser": "Linea Bajraliu",
+      "score": "6-2 6-3",
       "round": "Round 1"
     },
     {
