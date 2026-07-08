@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-08T21:17:21Z",
+  "fetched_at": "2026-07-08T23:17:07Z",
   "events": [
     {
       "slug": "2026WimbledonWomenForecast",
@@ -1361,30 +1361,9 @@
           "h2h": null
         },
         {
-          "a": "Sachia Vickery",
-          "b": "Reese Brantmeier",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Momoko Kobori",
-          "b": "Elizabeth Mandlik",
-          "a_seed": "Q",
-          "b_seed": "7",
-          "h2h": "1-0"
-        },
-        {
           "a": "Mananchaya Sawangkaew",
           "b": "Caroline Dolehide",
           "a_seed": "6",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Lea Ma",
-          "b": "Clervie Ngounoue",
-          "a_seed": "WC",
           "b_seed": null,
           "h2h": null
         },
@@ -1415,6 +1394,13 @@
           "a_seed": "3",
           "b_seed": "WC",
           "h2h": null
+        },
+        {
+          "a": "Reese Brantmeier",
+          "b": "Elizabeth Mandlik",
+          "a_seed": "WC",
+          "b_seed": "7",
+          "h2h": "0-2"
         },
         {
           "a": "Iryna Shymanovich",
@@ -1455,6 +1441,24 @@
           "winner": "Kylie Collins",
           "loser": "Alana Smith",
           "score": "64 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Reese Brantmeier",
+          "loser": "Sachia Vickery",
+          "score": "61 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Elizabeth Mandlik",
+          "loser": "Momoko Kobori",
+          "score": "61 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Lea Ma",
+          "loser": "Clervie Ngounoue",
+          "score": ""
         },
         {
           "round": "R1",
