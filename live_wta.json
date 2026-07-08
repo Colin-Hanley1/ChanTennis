@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-08T11:28:11Z",
+  "fetched_at": "2026-07-08T12:46:55Z",
   "source": "espn",
   "matches": [
     {
@@ -956,6 +956,18 @@
       "winner": "Leyre Romero Gormaz",
       "loser": "Miriam Bulgaru",
       "score": "6-3 6-3",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Paula Badosa",
+      "loser": "Emiliana Arango",
+      "score": "6-3 6-2",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Simona Waltert",
+      "loser": "Aneta Laboutkova",
+      "score": "6-2 6-0",
       "round": "Round 2"
     },
     {

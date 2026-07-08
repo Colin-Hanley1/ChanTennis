@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-08T10:27:38Z",
+  "fetched_at": "2026-07-08T12:46:57Z",
   "events": [
     {
       "slug": "2026WimbledonWomenForecast",
@@ -1013,20 +1013,6 @@
           "h2h": "1-0"
         },
         {
-          "a": "Alice Tubello",
-          "b": "Caroline Uebelhoer",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "2-0"
-        },
-        {
-          "a": "Rebeka Masarova",
-          "b": "Francesca Curmi",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Jeline Vandromme",
           "b": "Oksana Selekhmeteva",
           "a_seed": "3",
@@ -1049,6 +1035,18 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Alice Tubello",
+          "loser": "Caroline Uebelhoer",
+          "score": "63 63"
+        },
+        {
+          "round": "R2",
+          "winner": "Francesca Curmi",
+          "loser": "Rebeka Masarova",
+          "score": "64 64"
+        },
         {
           "round": "R1",
           "winner": "Clara Burel",
@@ -1683,49 +1681,58 @@
           "h2h": null
         },
         {
-          "a": "Simona Waltert",
-          "b": "Aneta Laboutkova",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Miriam Bianca Bulgaru",
-          "b": "Leyre Romero Gormaz",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "0-3"
-        },
-        {
-          "a": "Sinja Kraus",
-          "b": "Caijsa Wilda Hennemann",
-          "a_seed": "5",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Lola Radivojevic",
-          "b": "Yulia Putintseva",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Emiliana Arango",
-          "b": "Paula Badosa",
-          "a_seed": "6",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Varvara Lepchenko",
           "b": "Tamara Korpatsch",
           "a_seed": "2",
           "b_seed": null,
           "h2h": null
+        },
+        {
+          "a": "Simona Waltert",
+          "b": "Leyre Romero Gormaz",
+          "a_seed": "4",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Sinja Kraus",
+          "b": "Yulia Putintseva",
+          "a_seed": "5",
+          "b_seed": "3",
+          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Simona Waltert",
+          "loser": "Aneta Laboutkova",
+          "score": "62 60"
+        },
+        {
+          "round": "R2",
+          "winner": "Leyre Romero Gormaz",
+          "loser": "Miriam Bianca Bulgaru",
+          "score": "63 63"
+        },
+        {
+          "round": "R2",
+          "winner": "Sinja Kraus",
+          "loser": "Caijsa Wilda Hennemann",
+          "score": "62 64"
+        },
+        {
+          "round": "R2",
+          "winner": "Yulia Putintseva",
+          "loser": "Lola Radivojevic",
+          "score": "64 75"
+        },
+        {
+          "round": "R2",
+          "winner": "Paula Badosa",
+          "loser": "Emiliana Arango",
+          "score": "63 62"
+        },
         {
           "round": "R1",
           "winner": "Moyuka Uchijima",
