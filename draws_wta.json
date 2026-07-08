@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-08T15:28:24Z",
+  "fetched_at": "2026-07-08T17:46:44Z",
   "events": [
     {
       "slug": "2026WimbledonWomenForecast",
@@ -999,13 +999,6 @@
           "h2h": null
         },
         {
-          "a": "Amandine Hesse",
-          "b": "Mayar Sherif",
-          "a_seed": "WC",
-          "b_seed": "5",
-          "h2h": "0-1"
-        },
-        {
           "a": "Francesca Jones",
           "b": "Leolia Jeanjean",
           "a_seed": "4",
@@ -1020,13 +1013,6 @@
           "h2h": null
         },
         {
-          "a": "Anna Blinkova",
-          "b": "Maria Lourdes Carle",
-          "a_seed": "6",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Lisa Pigato",
           "b": "Aurora Zantedeschi",
           "a_seed": null,
@@ -1035,6 +1021,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Mayar Sherif",
+          "loser": "Amandine Hesse",
+          "score": "63 75"
+        },
         {
           "round": "R2",
           "winner": "Alice Tubello",
@@ -1046,6 +1038,12 @@
           "winner": "Francesca Curmi",
           "loser": "Rebeka Masarova",
           "score": "64 64"
+        },
+        {
+          "round": "R2",
+          "winner": "Anna Blinkova",
+          "loser": "Maria Lourdes Carle",
+          "score": "64 76(5)"
         },
         {
           "round": "R1",
@@ -1363,32 +1361,11 @@
           "h2h": null
         },
         {
-          "a": "Madison Brengle",
-          "b": "Ana Sofia Sanchez",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Sayaka Ishii",
-          "b": "Kayla Cross",
-          "a_seed": "8",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Katie Volynets",
           "b": "Ariana Arseneault",
           "a_seed": "3",
           "b_seed": "Q",
           "h2h": null
-        },
-        {
-          "a": "Kylie Collins",
-          "b": "Alana Smith",
-          "a_seed": "WC",
-          "b_seed": "Q",
-          "h2h": "1-0"
         },
         {
           "a": "Sachia Vickery",
@@ -1447,21 +1424,52 @@
           "h2h": "0-1"
         },
         {
-          "a": "Katherine Sebov",
-          "b": "Cadence Brace",
-          "a_seed": null,
+          "a": "Madison Brengle",
+          "b": "Kayla Cross",
+          "a_seed": "8",
           "b_seed": null,
-          "h2h": "0-2"
+          "h2h": null
         },
         {
-          "a": "Olivia Lincer",
+          "a": "Katherine Sebov",
           "b": "Tatjana Maria",
-          "a_seed": "WC",
-          "b_seed": "2",
+          "a_seed": "2",
+          "b_seed": null,
           "h2h": null
         }
       ],
-      "completed": []
+      "completed": [
+        {
+          "round": "R1",
+          "winner": "Madison Brengle",
+          "loser": "Ana Sofia Sanchez",
+          "score": "75 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Kayla Cross",
+          "loser": "Sayaka Ishii",
+          "score": "62 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Kylie Collins",
+          "loser": "Alana Smith",
+          "score": "64 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Katherine Sebov",
+          "loser": "Cadence Brace",
+          "score": "62 62"
+        },
+        {
+          "round": "R1",
+          "winner": "Tatjana Maria",
+          "loser": "Olivia Lincer",
+          "score": "63 62"
+        }
+      ]
     },
     {
       "slug": "2026WTABastad125",
@@ -1667,18 +1675,11 @@
       ],
       "r1_matches": [
         {
-          "a": "Moyuka Uchijima",
-          "b": "Irene Burillo Escorihuela",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
-          "a": "Kajsa Rinaldo Persson",
+          "a": "Irene Burillo Escorihuela",
           "b": "Kaitlin Quevedo",
           "a_seed": "8",
           "b_seed": null,
-          "h2h": null
+          "h2h": "1-0"
         },
         {
           "a": "Simona Waltert",
@@ -1703,6 +1704,18 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Irene Burillo Escorihuela",
+          "loser": "Moyuka Uchijima",
+          "score": "64 67(2) 75"
+        },
+        {
+          "round": "R2",
+          "winner": "Kaitlin Quevedo",
+          "loser": "Kajsa Rinaldo Persson",
+          "score": "76(5) 36 63"
+        },
         {
           "round": "R2",
           "winner": "Simona Waltert",
