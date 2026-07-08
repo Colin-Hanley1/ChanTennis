@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-08T17:46:44Z",
+  "fetched_at": "2026-07-08T19:46:41Z",
   "events": [
     {
       "slug": "2026WimbledonWomenForecast",
@@ -1361,13 +1361,6 @@
           "h2h": null
         },
         {
-          "a": "Katie Volynets",
-          "b": "Ariana Arseneault",
-          "a_seed": "3",
-          "b_seed": "Q",
-          "h2h": null
-        },
-        {
           "a": "Sachia Vickery",
           "b": "Reese Brantmeier",
           "a_seed": "WC",
@@ -1431,6 +1424,13 @@
           "h2h": null
         },
         {
+          "a": "Katie Volynets",
+          "b": "Kylie Collins",
+          "a_seed": "3",
+          "b_seed": "WC",
+          "h2h": null
+        },
+        {
           "a": "Katherine Sebov",
           "b": "Tatjana Maria",
           "a_seed": "2",
@@ -1450,6 +1450,12 @@
           "winner": "Kayla Cross",
           "loser": "Sayaka Ishii",
           "score": "62 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Katie Volynets",
+          "loser": "Ariana Arseneault",
+          "score": "36 61 61"
         },
         {
           "round": "R1",
