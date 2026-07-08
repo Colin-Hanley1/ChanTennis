@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-08T10:27:35Z",
+  "fetched_at": "2026-07-08T11:28:11Z",
   "source": "espn",
   "matches": [
     {
@@ -951,6 +951,24 @@
       "loser": "Martha Matoula",
       "score": "7-6 6-1",
       "round": "Round 1"
+    },
+    {
+      "winner": "Leyre Romero Gormaz",
+      "loser": "Miriam Bulgaru",
+      "score": "6-3 6-3",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Sinja Kraus",
+      "loser": "Caijsa Hennemann",
+      "score": "6-2 6-4",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Yulia Putintseva",
+      "loser": "Lola Radivojevic",
+      "score": "6-4 7-5",
+      "round": "Round 2"
     }
   ]
 }
