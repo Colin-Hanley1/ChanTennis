@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-09T07:58:32Z",
+  "fetched_at": "2026-07-09T11:14:30Z",
   "events": [
     {
       "slug": "2026WimbledonWomenForecast",
@@ -1006,18 +1006,18 @@
           "h2h": "1-0"
         },
         {
-          "a": "Jeline Vandromme",
-          "b": "Oksana Selekhmeteva",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Lisa Pigato",
           "b": "Aurora Zantedeschi",
           "a_seed": null,
           "b_seed": null,
           "h2h": "2-0"
+        },
+        {
+          "a": "Francesca Curmi",
+          "b": "Jeline Vandromme",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": null
         }
       ],
       "completed": [
@@ -1038,6 +1038,12 @@
           "winner": "Francesca Curmi",
           "loser": "Rebeka Masarova",
           "score": "64 64"
+        },
+        {
+          "round": "R2",
+          "winner": "Jeline Vandromme",
+          "loser": "Oksana Selekhmeteva",
+          "score": "60 61"
         },
         {
           "round": "R2",
@@ -1702,13 +1708,6 @@
           "h2h": "1-0"
         },
         {
-          "a": "Simona Waltert",
-          "b": "Leyre Romero Gormaz",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Sinja Kraus",
           "b": "Yulia Putintseva",
           "a_seed": "5",
@@ -1724,6 +1723,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Simona Waltert",
+          "loser": "Leyre Romero Gormaz",
+          "score": "62 61"
+        },
         {
           "round": "R2",
           "winner": "Irene Burillo Escorihuela",
