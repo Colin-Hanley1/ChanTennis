@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-09T11:14:30Z",
+  "fetched_at": "2026-07-09T15:28:29Z",
   "events": [
     {
       "slug": "2026WimbledonWomenForecast",
@@ -992,13 +992,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Clara Burel",
-          "b": "Alicia Herrero Linana",
-          "a_seed": "WC",
-          "b_seed": "Q",
-          "h2h": null
-        },
-        {
           "a": "Francesca Jones",
           "b": "Leolia Jeanjean",
           "a_seed": "4",
@@ -1013,6 +1006,13 @@
           "h2h": "2-0"
         },
         {
+          "a": "Alicia Herrero Linana",
+          "b": "Mayar Sherif",
+          "a_seed": "Q",
+          "b_seed": "5",
+          "h2h": "0-1"
+        },
+        {
           "a": "Francesca Curmi",
           "b": "Jeline Vandromme",
           "a_seed": null,
@@ -1021,6 +1021,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Alicia Herrero Linana",
+          "loser": "Clara Burel",
+          "score": "63 46 63"
+        },
         {
           "round": "R2",
           "winner": "Mayar Sherif",
@@ -1701,13 +1707,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Irene Burillo Escorihuela",
-          "b": "Kaitlin Quevedo",
-          "a_seed": "8",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
           "a": "Sinja Kraus",
           "b": "Yulia Putintseva",
           "a_seed": "5",
@@ -1720,9 +1719,22 @@
           "a_seed": null,
           "b_seed": null,
           "h2h": "0-1"
+        },
+        {
+          "a": "Kaitlin Quevedo",
+          "b": "Simona Waltert",
+          "a_seed": "8",
+          "b_seed": "4",
+          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Kaitlin Quevedo",
+          "loser": "Irene Burillo Escorihuela",
+          "score": "46 64 64"
+        },
         {
           "round": "QF",
           "winner": "Simona Waltert",
