@@ -1,5 +1,720 @@
 {
-  "fetched_at": "2026-07-09T11:32:29Z",
+  "fetched_at": "2026-07-09T14:13:02Z",
   "source": "espn",
-  "matches": []
+  "matches": [
+    {
+      "winner": "Alexander Zverev",
+      "loser": "Taylor Fritz",
+      "score": "6-4 6-4 6-2",
+      "round": "Quarterfinal"
+    },
+    {
+      "winner": "Arthur Fery",
+      "loser": "Flavio Cobolli",
+      "score": "6-4 7-6 6-0",
+      "round": "Quarterfinal"
+    },
+    {
+      "winner": "Jannik Sinner",
+      "loser": "Jan-Lennard Struff",
+      "score": "7-5 7-6 6-3",
+      "round": "Quarterfinal"
+    },
+    {
+      "winner": "Novak Djokovic",
+      "loser": "Felix Auger-Aliassime",
+      "score": "7-6 3-6 6-3 6-7 7-6",
+      "round": "Quarterfinal"
+    },
+    {
+      "winner": "Adrian Mannarino",
+      "loser": "Titouan Droguet",
+      "score": "6-2 6-4 6-1",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Alejandro Davidovich Fokina",
+      "loser": "Juan Manuel Cerundolo",
+      "score": "6-4 6-4 7-6",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Alex Molcan",
+      "loser": "Daniel Altmaier",
+      "score": "6-4 3-6 7-5 6-2",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Alex de Minaur",
+      "loser": "Roman Andres Burruchaga",
+      "score": "7-6 6-1 6-0",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Alexander Bublik",
+      "loser": "Thanasi Kokkinakis",
+      "score": "4-6 6-3 6-7 6-3 6-4",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Alexander Zverev",
+      "loser": "Alexander Blockx",
+      "score": "6-4 6-7 7-6 7-6",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Arthur Fery",
+      "loser": "Damir Dzumhur",
+      "score": "3-6 6-2 6-2 6-1",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Arthur Fils",
+      "loser": "Raphael Collignon",
+      "score": "7-5 6-1 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Arthur Rinderknech",
+      "loser": "Oliver Tarvet",
+      "score": "7-6 7-6 4-6 7-5",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Botic Van De Zandschulp",
+      "loser": "Aleksandar Kovacevic",
+      "score": "6-3 6-7 6-4 6-0",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Brandon Nakashima",
+      "loser": "Jack Pinnington Jones",
+      "score": "6-3 7-6 7-5",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Daniil Medvedev",
+      "loser": "Marin Cilic",
+      "score": "6-1 6-2 6-4",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Dino Prizmic",
+      "loser": "Adam Walton",
+      "score": "4-6 7-6 6-4 6-2",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Ethan Quinn",
+      "loser": "Luciano Darderi",
+      "score": "7-6 7-5 6-2",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Fabian Marozsan",
+      "loser": "Thiago Agustin Tirante",
+      "score": "7-5 6-3 6-4",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Felix Auger-Aliassime",
+      "loser": "Aleksandr Shevchenko",
+      "score": "6-3 6-1 6-4",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Flavio Cobolli",
+      "loser": "Mariano Navone",
+      "score": "1-6 7-6 6-3 7-6",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Frances Tiafoe",
+      "loser": "Terence Atmane",
+      "score": "7-6 6-1 4-6 6-4",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Grigor Dimitrov",
+      "loser": "Dane Sweeny",
+      "score": "7-6 6-3 7-5",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Hubert Hurkacz",
+      "loser": "Casper Ruud",
+      "score": "6-4 6-2 7-6",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Ignacio Buse",
+      "loser": "Emilio Nava",
+      "score": "7-6 3-6 7-5 6-0",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Jacob Fearnley",
+      "loser": "Alex Michelsen",
+      "score": "3-6 4-6 6-2 6-3 6-2",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Jaime Faria",
+      "loser": "Sho Shimabukuro",
+      "score": "7-6 6-3 6-7 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Jakub Mensik",
+      "loser": "Toby Samuel",
+      "score": "5-7 6-3 6-3 3-6 7-6",
+      "round": "Round 1"
+    },
+    {
+      "winner": "James Duckworth",
+      "loser": "Tallon Griekspoor",
+      "score": "6-4 4-6 7-5 6-4",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Jan Choinski",
+      "loser": "Vit Kopriva",
+      "score": "6-3 7-5 6-2",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Jan-Lennard Struff",
+      "loser": "Sebastian Baez",
+      "score": "6-1 7-6 4-6 2-6 7-5",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Jannik Sinner",
+      "loser": "Miomir Kecmanovic",
+      "score": "4-6 6-3 6-7 6-2 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Jaume Munar",
+      "loser": "Francisco Cerundolo",
+      "score": "6-1 6-4 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Jenson Brooksby",
+      "loser": "Aleksandar Vukic",
+      "score": "7-6 6-1 6-1",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Jesper de Jong",
+      "loser": "Rinky Hijikata",
+      "score": "7-6 3-6 5-7 6-4 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Jiri Lehecka",
+      "loser": "Alexei Popyrin",
+      "score": "6-4 6-2 6-4",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Joao Fonseca",
+      "loser": "Roberto Bautista Agut",
+      "score": "7-6 6-4 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Kamil Majchrzak",
+      "loser": "Alejandro Tabilo",
+      "score": "6-3 7-5 7-5",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Karen Khachanov",
+      "loser": "Billy Harris",
+      "score": "6-3 5-7 6-3 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Kyrian Jacquet",
+      "loser": "Vilius Gaubas",
+      "score": "6-3 6-4 7-6",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Learner Tien",
+      "loser": "Dalibor Svrcina",
+      "score": "6-1 6-4 6-7 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Lorenzo Sonego",
+      "loser": "Tomas Martin Etcheverry",
+      "score": "6-4 6-4 6-7 7-6",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Marcos Giron",
+      "loser": "Corentin Moutet",
+      "score": "4-6 6-4 7-5 6-4",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Martin Damm",
+      "loser": "Marco Trungelliti",
+      "score": "7-6 6-7 7-6 7-6",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Matteo Berrettini",
+      "loser": "Stan Wawrinka",
+      "score": "6-7 7-6 7-6 7-6",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Michael Zheng",
+      "loser": "Cameron Norrie",
+      "score": "6-7 6-2 6-7 6-3 7-6",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Nicolas Mejia",
+      "loser": "Adolfo Daniel Vallejo",
+      "score": "4-6 6-4 7-5 7-6",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Novak Djokovic",
+      "loser": "Wu Yibing",
+      "score": "6-4 5-7 6-4 6-4",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Nuno Borges",
+      "loser": "Tristan Boyer",
+      "score": "6-3 7-5 7-5",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Otto Virtanen",
+      "loser": "Ben Shelton",
+      "score": "6-4 3-6 6-7 6-2 7-6",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Patrick Kypson",
+      "loser": "Mackenzie McDonald",
+      "score": "3-6 6-1 6-4 6-4",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Quentin Halys",
+      "loser": "Matteo Arnaldi",
+      "score": "3-6 6-1 7-6 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Rafael Jodar",
+      "loser": "Felix Gill",
+      "score": "6-3 6-3 7-5",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Roman Safiullin",
+      "loser": "Andrey Rublev",
+      "score": "6-4 6-7 3-6 6-3 7-6",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Sebastian Ofner",
+      "loser": "Hamad Medjedovic",
+      "score": "1-6 6-2 4-6 6-3 6-4",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Shintaro Mochizuki",
+      "loser": "Max Basing",
+      "score": "6-3 6-0 6-0",
+      "round": "Round 1"
+    },
+    {
+      "winner": "SoonWoo Kwon",
+      "loser": "Martin Landaluce",
+      "score": "6-4 6-3 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Stefanos Tsitsipas",
+      "loser": "Hugo Gaston",
+      "score": "6-1 6-4 6-2",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Taylor Fritz",
+      "loser": "Dusan Lajovic",
+      "score": "6-3 6-4 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Tommy Paul",
+      "loser": "Alexandre Muller",
+      "score": "6-1 6-2 6-1",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Valentin Royer",
+      "loser": "Harry Wendelken",
+      "score": "4-6 6-3 6-3 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Yannick Hanfmann",
+      "loser": "Giovanni Mpetshi Perricard",
+      "score": "6-7 7-6 6-2 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Zachary Svajda",
+      "loser": "Pablo Llamas Ruiz",
+      "score": "6-1 6-2 6-4",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Zizou Bergs",
+      "loser": "Ugo Humbert",
+      "score": "6-2 7-5 4-6 3-6 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Alejandro Davidovich Fokina",
+      "loser": "Fabian Marozsan",
+      "score": "6-3 6-0 6-3",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Alex de Minaur",
+      "loser": "Adrian Mannarino",
+      "score": "6-3 6-2 6-2",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Alexander Bublik",
+      "loser": "Kyrian Jacquet",
+      "score": "6-3 6-4 7-6",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Alexander Zverev",
+      "loser": "Valentin Royer",
+      "score": "6-1 6-3 7-6",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Arthur Fery",
+      "loser": "Otto Virtanen",
+      "score": "5-7 7-6 6-3 6-3",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Arthur Rinderknech",
+      "loser": "Martin Damm",
+      "score": "6-4 7-6 6-3",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Daniil Medvedev",
+      "loser": "Daniel Merida",
+      "score": "3-6 6-3 7-5 6-2",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Felix Auger-Aliassime",
+      "loser": "Dino Prizmic",
+      "score": "7-6 6-3 7-5",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Flavio Cobolli",
+      "loser": "James Duckworth",
+      "score": "7-6 3-6 7-6 6-1",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Frances Tiafoe",
+      "loser": "Jan Choinski",
+      "score": "4-6 6-2 7-5 6-2",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Grigor Dimitrov",
+      "loser": "Jakub Mensik",
+      "score": "7-6 4-6 7-5 6-3",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Hubert Hurkacz",
+      "loser": "Sebastian Ofner",
+      "score": "7-6 6-4 6-4",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Jan-Lennard Struff",
+      "loser": "Brandon Nakashima",
+      "score": "4-6 7-6 7-6 6-7 7-6",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Jannik Sinner",
+      "loser": "Nuno Borges",
+      "score": "7-6 7-6 6-4",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Jaume Munar",
+      "loser": "Jacob Fearnley",
+      "score": "6-4 7-6 6-4",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Jenson Brooksby",
+      "loser": "Ignacio Buse",
+      "score": "6-2 6-2 6-3",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Jiri Lehecka",
+      "loser": "Alex Molcan",
+      "score": "6-3 6-2 6-4",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Joao Fonseca",
+      "loser": "Jesper de Jong",
+      "score": "6-1 7-5 6-4",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Karen Khachanov",
+      "loser": "Yannick Hanfmann",
+      "score": "6-3 6-4 6-4",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Lorenzo Sonego",
+      "loser": "Gabriel Diallo",
+      "score": "7-6 4-6 7-6 6-7 6-2",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Marcos Giron",
+      "loser": "Quentin Halys",
+      "score": "7-6 6-3 6-4",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Marton Fucsovics",
+      "loser": "Learner Tien",
+      "score": "6-7 6-4 7-6 6-3",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Matteo Berrettini",
+      "loser": "Arthur Fils",
+      "score": "6-4 7-5 3-6 6-3",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Michael Zheng",
+      "loser": "Nicolas Mejia",
+      "score": "6-7 7-6 6-1 6-4",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Novak Djokovic",
+      "loser": "Stefanos Tsitsipas",
+      "score": "6-3 6-4 6-2",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Rafael Jodar",
+      "loser": "Pablo Carreno Busta",
+      "score": "3-6 6-3 1-6 6-3 6-4",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Roman Safiullin",
+      "loser": "Botic Van De Zandschulp",
+      "score": "6-0 4-6 6-3 3-6 7-6",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Shintaro Mochizuki",
+      "loser": "Ethan Quinn",
+      "score": "6-2 7-6 7-5",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Taylor Fritz",
+      "loser": "Patrick Kypson",
+      "score": "6-2 6-2 7-5",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Tommy Paul",
+      "loser": "SoonWoo Kwon",
+      "score": "6-3 7-6 6-2",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Zachary Svajda",
+      "loser": "Kamil Majchrzak",
+      "score": "2-6 6-2 6-7 6-4 6-3",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Zizou Bergs",
+      "loser": "Jaime Faria",
+      "score": "7-6 4-6 6-2 6-3",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Alejandro Davidovich Fokina",
+      "loser": "Marton Fucsovics",
+      "score": "7-6 6-2 6-3",
+      "round": "Round 3"
+    },
+    {
+      "winner": "Alex de Minaur",
+      "loser": "Zachary Svajda",
+      "score": "6-2 5-7 6-2 6-4",
+      "round": "Round 3"
+    },
+    {
+      "winner": "Alexander Bublik",
+      "loser": "Frances Tiafoe",
+      "score": "4-6 7-6 7-6 4-6 6-3",
+      "round": "Round 3"
+    },
+    {
+      "winner": "Alexander Zverev",
+      "loser": "Marcos Giron",
+      "score": "6-2 7-6 6-4",
+      "round": "Round 3"
+    },
+    {
+      "winner": "Arthur Fery",
+      "loser": "Zizou Bergs",
+      "score": "2-6 7-5 2-6 7-6 7-6",
+      "round": "Round 3"
+    },
+    {
+      "winner": "Felix Auger-Aliassime",
+      "loser": "Michael Zheng",
+      "score": "7-6 6-2 6-1",
+      "round": "Round 3"
+    },
+    {
+      "winner": "Flavio Cobolli",
+      "loser": "Karen Khachanov",
+      "score": "0-6 7-6 6-7 6-2 6-2",
+      "round": "Round 3"
+    },
+    {
+      "winner": "Grigor Dimitrov",
+      "loser": "Matteo Berrettini",
+      "score": "6-3 6-4 3-6 5-7 6-3",
+      "round": "Round 3"
+    },
+    {
+      "winner": "Hubert Hurkacz",
+      "loser": "Tommy Paul",
+      "score": "4-6 7-6 7-5 6-2",
+      "round": "Round 3"
+    },
+    {
+      "winner": "Jan-Lennard Struff",
+      "loser": "Daniil Medvedev",
+      "score": "7-6 7-6 7-5",
+      "round": "Round 3"
+    },
+    {
+      "winner": "Jannik Sinner",
+      "loser": "Jenson Brooksby",
+      "score": "6-4 6-3 6-4",
+      "round": "Round 3"
+    },
+    {
+      "winner": "Jiri Lehecka",
+      "loser": "Jaume Munar",
+      "score": "6-4 6-4 4-6 6-4",
+      "round": "Round 3"
+    },
+    {
+      "winner": "Novak Djokovic",
+      "loser": "Arthur Rinderknech",
+      "score": "7-5 6-4 1-6 7-6",
+      "round": "Round 3"
+    },
+    {
+      "winner": "Roman Safiullin",
+      "loser": "Joao Fonseca",
+      "score": "6-3 6-3 6-3",
+      "round": "Round 3"
+    },
+    {
+      "winner": "Shintaro Mochizuki",
+      "loser": "Rafael Jodar",
+      "score": "1-6 7-6 6-4 6-4",
+      "round": "Round 3"
+    },
+    {
+      "winner": "Taylor Fritz",
+      "loser": "Lorenzo Sonego",
+      "score": "4-6 6-3 6-4 7-6",
+      "round": "Round 3"
+    },
+    {
+      "winner": "Alexander Zverev",
+      "loser": "Jiri Lehecka",
+      "score": "6-4 7-5 3-6 7-6",
+      "round": "Round 4"
+    },
+    {
+      "winner": "Arthur Fery",
+      "loser": "Grigor Dimitrov",
+      "score": "7-5 3-6 4-6 6-4 7-6",
+      "round": "Round 4"
+    },
+    {
+      "winner": "Felix Auger-Aliassime",
+      "loser": "Alejandro Davidovich Fokina",
+      "score": "6-7 7-6 6-3 6-7 6-1",
+      "round": "Round 4"
+    },
+    {
+      "winner": "Flavio Cobolli",
+      "loser": "Alex de Minaur",
+      "score": "7-5 7-6 6-3",
+      "round": "Round 4"
+    },
+    {
+      "winner": "Jannik Sinner",
+      "loser": "Shintaro Mochizuki",
+      "score": "6-3 7-6 6-3",
+      "round": "Round 4"
+    },
+    {
+      "winner": "Novak Djokovic",
+      "loser": "Roman Safiullin",
+      "score": "7-6 6-3 3-6 6-3",
+      "round": "Round 4"
+    },
+    {
+      "winner": "Taylor Fritz",
+      "loser": "Alexander Bublik",
+      "score": "7-6 6-4 6-4",
+      "round": "Round 4"
+    }
+  ]
 }
