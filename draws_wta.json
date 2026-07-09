@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-09T20:00:27Z",
+  "fetched_at": "2026-07-09T21:36:01Z",
   "events": [
     {
       "slug": "2026WimbledonWomenForecast",
@@ -1378,25 +1378,25 @@
           "h2h": null
         },
         {
-          "a": "Reese Brantmeier",
+          "a": "Katie Volynets",
           "b": "Elizabeth Mandlik",
-          "a_seed": "WC",
+          "a_seed": "3",
           "b_seed": "7",
-          "h2h": "0-2"
+          "h2h": "3-0"
         },
         {
-          "a": "Iryna Shymanovich",
+          "a": "Mananchaya Sawangkaew",
           "b": "Mary Stoiana",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": "1-0"
+          "a_seed": "6",
+          "b_seed": "4",
+          "h2h": null
         },
         {
           "a": "Lucrezia Stefanini",
-          "b": "Anna Sinclair Rogers",
+          "b": "Tatjana Maria",
           "a_seed": "5",
-          "b_seed": null,
-          "h2h": "1-0"
+          "b_seed": "2",
+          "h2h": "1-2"
         }
       ],
       "completed": [
@@ -1414,9 +1414,27 @@
         },
         {
           "round": "R2",
+          "winner": "Elizabeth Mandlik",
+          "loser": "Reese Brantmeier",
+          "score": "63 46 62"
+        },
+        {
+          "round": "R2",
           "winner": "Mananchaya Sawangkaew",
           "loser": "Lea Ma",
           "score": "62 63"
+        },
+        {
+          "round": "R2",
+          "winner": "Mary Stoiana",
+          "loser": "Iryna Shymanovich",
+          "score": "36 62 63"
+        },
+        {
+          "round": "R2",
+          "winner": "Lucrezia Stefanini",
+          "loser": "Anna Sinclair Rogers",
+          "score": "62 61"
         },
         {
           "round": "R2",
