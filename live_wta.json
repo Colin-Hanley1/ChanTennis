@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-09T16:39:57Z",
+  "fetched_at": "2026-07-09T18:04:16Z",
   "source": "espn",
   "matches": [
     {
@@ -878,6 +878,13 @@
       "event": "2026WimbledonWomenForecast"
     },
     {
+      "winner": "Linda Noskova",
+      "loser": "Marta Kostyuk",
+      "score": "6-4 6-4",
+      "round": "Semifinal",
+      "event": "2026WimbledonWomenForecast"
+    },
+    {
       "winner": "Kaitlin Quevedo",
       "loser": "Irene Burillo",
       "score": "4-6 6-4 6-4",
@@ -893,6 +900,12 @@
       "winner": "Simona Waltert",
       "loser": "Leyre Romero Gormaz",
       "score": "6-2 6-1",
+      "round": "Quarterfinal"
+    },
+    {
+      "winner": "Yulia Putintseva",
+      "loser": "Sinja Kraus",
+      "score": "6-2 6-3",
       "round": "Quarterfinal"
     },
     {

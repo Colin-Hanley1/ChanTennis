@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-09T15:28:29Z",
+  "fetched_at": "2026-07-09T18:04:20Z",
   "events": [
     {
       "slug": "2026WimbledonWomenForecast",
@@ -999,13 +999,6 @@
           "h2h": "1-0"
         },
         {
-          "a": "Lisa Pigato",
-          "b": "Aurora Zantedeschi",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "2-0"
-        },
-        {
           "a": "Alicia Herrero Linana",
           "b": "Mayar Sherif",
           "a_seed": "Q",
@@ -1016,6 +1009,13 @@
           "a": "Francesca Curmi",
           "b": "Jeline Vandromme",
           "a_seed": null,
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Anna Blinkova",
+          "b": "Aurora Zantedeschi",
+          "a_seed": "6",
           "b_seed": null,
           "h2h": null
         }
@@ -1056,6 +1056,12 @@
           "winner": "Anna Blinkova",
           "loser": "Maria Lourdes Carle",
           "score": "64 76(5)"
+        },
+        {
+          "round": "R2",
+          "winner": "Aurora Zantedeschi",
+          "loser": "Lisa Pigato",
+          "score": ""
         },
         {
           "round": "R1",
@@ -1359,13 +1365,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Darja Vidmanova",
-          "b": "Carolyn Ansari",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Mei Yamaguchi",
           "b": "Greet Minnen",
           "a_seed": null,
@@ -1378,20 +1377,6 @@
           "a_seed": "Q",
           "b_seed": null,
           "h2h": "0-1"
-        },
-        {
-          "a": "Madison Brengle",
-          "b": "Kayla Cross",
-          "a_seed": "8",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Katie Volynets",
-          "b": "Kylie Collins",
-          "a_seed": "3",
-          "b_seed": "WC",
-          "h2h": null
         },
         {
           "a": "Reese Brantmeier",
@@ -1413,16 +1398,33 @@
           "a_seed": "4",
           "b_seed": null,
           "h2h": "1-0"
-        },
-        {
-          "a": "Katherine Sebov",
-          "b": "Tatjana Maria",
-          "a_seed": "2",
-          "b_seed": null,
-          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Madison Brengle",
+          "loser": "Kayla Cross",
+          "score": "63 61"
+        },
+        {
+          "round": "R2",
+          "winner": "Katie Volynets",
+          "loser": "Kylie Collins",
+          "score": "63 64"
+        },
+        {
+          "round": "R2",
+          "winner": "Tatjana Maria",
+          "loser": "Katherine Sebov",
+          "score": "63 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Darja Vidmanova",
+          "loser": "Carolyn Ansari",
+          "score": "63 61"
+        },
         {
           "round": "R1",
           "winner": "Madison Brengle",
@@ -1714,13 +1716,6 @@
           "h2h": null
         },
         {
-          "a": "Paula Badosa",
-          "b": "Varvara Lepchenko",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
           "a": "Kaitlin Quevedo",
           "b": "Simona Waltert",
           "a_seed": "8",
@@ -1740,6 +1735,12 @@
           "winner": "Simona Waltert",
           "loser": "Leyre Romero Gormaz",
           "score": "62 61"
+        },
+        {
+          "round": "QF",
+          "winner": "Paula Badosa",
+          "loser": "Varvara Lepchenko",
+          "score": "75 76(3)"
         },
         {
           "round": "R2",
