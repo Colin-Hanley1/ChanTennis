@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-09T23:19:17Z",
+  "fetched_at": "2026-07-10T04:03:32Z",
   "events": [
     {
       "slug": "2026WimbledonWomenForecast",
@@ -1371,9 +1371,9 @@
       ],
       "r1_matches": [
         {
-          "a": "Darja Vidmanova",
-          "b": "Greet Minnen",
-          "a_seed": "1",
+          "a": "Greet Minnen",
+          "b": "Madison Brengle",
+          "a_seed": null,
           "b_seed": null,
           "h2h": null
         },
@@ -1400,6 +1400,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Greet Minnen",
+          "loser": "Darja Vidmanova",
+          "score": "76(2) 46 61"
+        },
         {
           "round": "R2",
           "winner": "Madison Brengle",
