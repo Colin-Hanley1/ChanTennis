@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-10T11:13:14Z",
+  "fetched_at": "2026-07-10T12:35:46Z",
   "source": "espn",
   "matches": [
     {
@@ -1051,6 +1051,12 @@
       "loser": "Lola Radivojevic",
       "score": "6-4 7-5",
       "round": "Round 2"
+    },
+    {
+      "winner": "Paula Badosa",
+      "loser": "Yulia Putintseva",
+      "score": "6-1 6-2",
+      "round": "Semifinal"
     },
     {
       "winner": "Simona Waltert",
