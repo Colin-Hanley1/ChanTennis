@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-10T18:39:25Z",
+  "fetched_at": "2026-07-10T20:37:52Z",
   "events": [
     {
       "slug": "2026WimbledonWomenForecast",
@@ -1388,26 +1388,31 @@
           "h2h": null
         },
         {
-          "a": "Katie Volynets",
-          "b": "Elizabeth Mandlik",
-          "a_seed": "3",
-          "b_seed": "7",
-          "h2h": "3-0"
-        },
-        {
-          "a": "Lucrezia Stefanini",
+          "a": "Mananchaya Sawangkaew",
           "b": "Tatjana Maria",
-          "a_seed": "5",
+          "a_seed": "6",
           "b_seed": "2",
-          "h2h": "1-2"
+          "h2h": null
         }
       ],
       "completed": [
         {
           "round": "QF",
+          "winner": "Katie Volynets",
+          "loser": "Elizabeth Mandlik",
+          "score": "36 64 63"
+        },
+        {
+          "round": "QF",
           "winner": "Mananchaya Sawangkaew",
           "loser": "Mary Stoiana",
           "score": "36 62 75"
+        },
+        {
+          "round": "QF",
+          "winner": "Tatjana Maria",
+          "loser": "Lucrezia Stefanini",
+          "score": "61 60"
         },
         {
           "round": "R2",
