@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-10T07:47:00Z",
+  "fetched_at": "2026-07-10T11:13:17Z",
   "events": [
     {
       "slug": "2026WimbledonWomenForecast",
@@ -1006,13 +1006,6 @@
           "h2h": null
         },
         {
-          "a": "Francesca Curmi",
-          "b": "Jeline Vandromme",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Anna Blinkova",
           "b": "Aurora Zantedeschi",
           "a_seed": "6",
@@ -1021,6 +1014,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Jeline Vandromme",
+          "loser": "Francesca Curmi",
+          "score": "63 60"
+        },
         {
           "round": "R2",
           "winner": "Alicia Herrero Linana",
