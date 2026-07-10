@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-10T11:13:17Z",
+  "fetched_at": "2026-07-10T14:45:34Z",
   "events": [
     {
       "slug": "2026WimbledonWomenForecast",
@@ -992,13 +992,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Alicia Herrero Linana",
-          "b": "Mayar Sherif",
-          "a_seed": "Q",
-          "b_seed": "5",
-          "h2h": "0-1"
-        },
-        {
           "a": "Leolia Jeanjean",
           "b": "Alice Tubello",
           "a_seed": null,
@@ -1006,9 +999,9 @@
           "h2h": null
         },
         {
-          "a": "Anna Blinkova",
+          "a": "Jeline Vandromme",
           "b": "Aurora Zantedeschi",
-          "a_seed": "6",
+          "a_seed": null,
           "b_seed": null,
           "h2h": null
         }
@@ -1016,9 +1009,21 @@
       "completed": [
         {
           "round": "QF",
+          "winner": "Mayar Sherif",
+          "loser": "Alicia Herrero Linana",
+          "score": "62 63"
+        },
+        {
+          "round": "QF",
           "winner": "Jeline Vandromme",
           "loser": "Francesca Curmi",
           "score": "63 60"
+        },
+        {
+          "round": "QF",
+          "winner": "Aurora Zantedeschi",
+          "loser": "Anna Blinkova",
+          "score": "64 76(5)"
         },
         {
           "round": "R2",
@@ -1749,21 +1754,26 @@
       ],
       "r1_matches": [
         {
-          "a": "Kaitlin Quevedo",
-          "b": "Simona Waltert",
-          "a_seed": "8",
-          "b_seed": "4",
-          "h2h": null
-        },
-        {
-          "a": "Yulia Putintseva",
+          "a": "Simona Waltert",
           "b": "Paula Badosa",
-          "a_seed": "3",
+          "a_seed": "4",
           "b_seed": null,
-          "h2h": "2-4"
+          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Simona Waltert",
+          "loser": "Kaitlin Quevedo",
+          "score": "75 62"
+        },
+        {
+          "round": "SF",
+          "winner": "Paula Badosa",
+          "loser": "Yulia Putintseva",
+          "score": "61 62"
+        },
         {
           "round": "QF",
           "winner": "Kaitlin Quevedo",
