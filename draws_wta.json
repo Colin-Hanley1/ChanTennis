@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-10T22:11:30Z",
+  "fetched_at": "2026-07-11T00:04:59Z",
   "events": [
     {
       "slug": "2026WimbledonWomenForecast",
@@ -1382,10 +1382,10 @@
       "r1_matches": [
         {
           "a": "Greet Minnen",
-          "b": "Madison Brengle",
-          "a_seed": null,
+          "b": "Katie Volynets",
+          "a_seed": "3",
           "b_seed": null,
-          "h2h": null
+          "h2h": "1-1"
         },
         {
           "a": "Mananchaya Sawangkaew",
@@ -1396,6 +1396,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Greet Minnen",
+          "loser": "Madison Brengle",
+          "score": "75 60"
+        },
         {
           "round": "QF",
           "winner": "Katie Volynets",
