@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-11T16:03:22Z",
+  "fetched_at": "2026-07-11T17:09:45Z",
   "events": [
     {
       "slug": "2026WimbledonWomenForecast",
@@ -1385,16 +1385,15 @@
           "a_seed": "3",
           "b_seed": null,
           "h2h": "1-1"
-        },
-        {
-          "a": "Mananchaya Sawangkaew",
-          "b": "Tatjana Maria",
-          "a_seed": "6",
-          "b_seed": "2",
-          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Tatjana Maria",
+          "loser": "Mananchaya Sawangkaew",
+          "score": "62 61"
+        },
         {
           "round": "QF",
           "winner": "Greet Minnen",
