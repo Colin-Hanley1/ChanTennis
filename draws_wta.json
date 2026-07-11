@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-11T17:09:45Z",
+  "fetched_at": "2026-07-11T19:16:24Z",
   "events": [
     {
       "slug": "2026WimbledonWomenForecast",
@@ -993,13 +993,19 @@
       "r1_matches": [
         {
           "a": "Mayar Sherif",
-          "b": "Leolia Jeanjean",
+          "b": "Jeline Vandromme",
           "a_seed": "5",
           "b_seed": null,
-          "h2h": "0-1"
+          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Mayar Sherif",
+          "loser": "Leolia Jeanjean",
+          "score": "75 76(3)"
+        },
         {
           "round": "SF",
           "winner": "Jeline Vandromme",
@@ -1380,14 +1386,20 @@
       ],
       "r1_matches": [
         {
-          "a": "Greet Minnen",
-          "b": "Katie Volynets",
+          "a": "Katie Volynets",
+          "b": "Tatjana Maria",
           "a_seed": "3",
-          "b_seed": null,
-          "h2h": "1-1"
+          "b_seed": "2",
+          "h2h": "3-1"
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Katie Volynets",
+          "loser": "Greet Minnen",
+          "score": "63 62"
+        },
         {
           "round": "SF",
           "winner": "Tatjana Maria",
@@ -1766,16 +1778,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Simona Waltert",
-          "b": "Paula Badosa",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": null
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Paula Badosa",
+          "loser": "Simona Waltert",
+          "score": "75 75"
+        },
         {
           "round": "SF",
           "winner": "Simona Waltert",
