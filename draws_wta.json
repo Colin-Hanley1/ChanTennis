@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-11T13:44:07Z",
+  "fetched_at": "2026-07-11T15:03:03Z",
   "events": [
     {
       "slug": "2026WimbledonWomenForecast",
@@ -997,16 +997,15 @@
           "a_seed": "5",
           "b_seed": null,
           "h2h": "0-1"
-        },
-        {
-          "a": "Jeline Vandromme",
-          "b": "Aurora Zantedeschi",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Jeline Vandromme",
+          "loser": "Aurora Zantedeschi",
+          "score": "63 64"
+        },
         {
           "round": "QF",
           "winner": "Mayar Sherif",
