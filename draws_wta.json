@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-12T19:18:32Z",
+  "fetched_at": "2026-07-12T21:02:20Z",
   "events": [
     {
       "slug": "2026WimbledonWomenForecast",
@@ -1382,16 +1382,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Katie Volynets",
-          "b": "Tatjana Maria",
-          "a_seed": "3",
-          "b_seed": "2",
-          "h2h": "3-1"
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Tatjana Maria",
+          "loser": "Katie Volynets",
+          "score": "62 64"
+        },
         {
           "round": "SF",
           "winner": "Katie Volynets",
