@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-12T16:07:16Z",
+  "fetched_at": "2026-07-12T18:02:58Z",
   "events": [
     {
       "slug": "2026WimbledonWomenForecast",
@@ -990,16 +990,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Mayar Sherif",
-          "b": "Jeline Vandromme",
-          "a_seed": "5",
-          "b_seed": null,
-          "h2h": null
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Mayar Sherif",
+          "loser": "Jeline Vandromme",
+          "score": "36 76(0) 75"
+        },
         {
           "round": "SF",
           "winner": "Mayar Sherif",
