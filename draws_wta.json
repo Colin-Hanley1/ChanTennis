@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-13T21:06:00Z",
+  "fetched_at": "2026-07-13T23:02:12Z",
   "events": [
     {
       "slug": "2026WTAIasi",
@@ -548,13 +548,6 @@
           "h2h": null
         },
         {
-          "a": "Valentini Grammatikopoulou",
-          "b": "Alycia Parks",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Tereza Valentova",
           "b": "Sofia Costoulas",
           "a_seed": "7",
@@ -597,6 +590,13 @@
           "h2h": null
         },
         {
+          "a": "Mai Hontama",
+          "b": "Alycia Parks",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "1-1"
+        },
+        {
           "a": "Harriet Dart",
           "b": "Maria Sakkari",
           "a_seed": "4",
@@ -634,6 +634,12 @@
           "winner": "Mai Hontama",
           "loser": "Magda Linette",
           "score": "64 75"
+        },
+        {
+          "round": "R1",
+          "winner": "Alycia Parks",
+          "loser": "Valentini Grammatikopoulou",
+          "score": "76(3) 64"
         },
         {
           "round": "R1",

@@ -1,6 +1,284 @@
 {
-  "fetched_at": "2026-07-13T21:06:00Z",
+  "fetched_at": "2026-07-13T23:02:12Z",
   "events": [
+    {
+      "slug": "2026ATPBastad",
+      "name": "Bastad",
+      "year": 2026,
+      "tour": "atp",
+      "surface": "clay",
+      "best_of": 3,
+      "url": "https://www.tennisabstract.com/current/2026ATPBastad.html",
+      "bracket_slots": [
+        {
+          "name": "Andrey Rublev",
+          "seed": "1",
+          "country": "RUS",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Nicolai Budkov Kjaer",
+          "seed": null,
+          "country": "NOR",
+          "bye": false
+        },
+        {
+          "name": "Andrea Pellegrino",
+          "seed": null,
+          "country": "ITA",
+          "bye": false
+        },
+        {
+          "name": "Jesper De Jong",
+          "seed": null,
+          "country": "NED",
+          "bye": false
+        },
+        {
+          "name": "Vilius Gaubas",
+          "seed": null,
+          "country": "LTU",
+          "bye": false
+        },
+        {
+          "name": "Max Dahlin",
+          "seed": "WC",
+          "country": "SWE",
+          "bye": false
+        },
+        {
+          "name": "Sebastian Baez",
+          "seed": "8",
+          "country": "ARG",
+          "bye": false
+        },
+        {
+          "name": "Alejandro Tabilo",
+          "seed": "3",
+          "country": "CHI",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Facundo Diaz Acosta",
+          "seed": null,
+          "country": "ARG",
+          "bye": false
+        },
+        {
+          "name": "Lautaro Midon",
+          "seed": "Q",
+          "country": "ARG",
+          "bye": false
+        },
+        {
+          "name": "Jan Choinski",
+          "seed": null,
+          "country": "GBR",
+          "bye": false
+        },
+        {
+          "name": "Nikoloz Basilashvili",
+          "seed": null,
+          "country": "GEO",
+          "bye": false
+        },
+        {
+          "name": "Sebastian Ofner",
+          "seed": null,
+          "country": "AUT",
+          "bye": false
+        },
+        {
+          "name": "Thiago Agustin Tirante",
+          "seed": "7",
+          "country": "ARG",
+          "bye": false
+        },
+        {
+          "name": "Botic Van De Zandschulp",
+          "seed": "6",
+          "country": "NED",
+          "bye": false
+        },
+        {
+          "name": "Taro Daniel",
+          "seed": "Q",
+          "country": "JPN",
+          "bye": false
+        },
+        {
+          "name": "Adolfo Daniel Vallejo",
+          "seed": null,
+          "country": "PAR",
+          "bye": false
+        },
+        {
+          "name": "Miguel Damas",
+          "seed": "Q",
+          "country": "ESP",
+          "bye": false
+        },
+        {
+          "name": "Stefano Travaglia",
+          "seed": null,
+          "country": "ITA",
+          "bye": false
+        },
+        {
+          "name": "Martin Krumich",
+          "seed": "Q",
+          "country": "CZE",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Mariano Navone",
+          "seed": "4",
+          "country": "ARG",
+          "bye": false
+        },
+        {
+          "name": "Nuno Borges",
+          "seed": "5",
+          "country": "POR",
+          "bye": false
+        },
+        {
+          "name": "Moise Kouame",
+          "seed": "WC",
+          "country": "FRA",
+          "bye": false
+        },
+        {
+          "name": "Dalibor Svrcina",
+          "seed": null,
+          "country": "CZE",
+          "bye": false
+        },
+        {
+          "name": "Grigor Dimitrov",
+          "seed": "WC",
+          "country": "BUL",
+          "bye": false
+        },
+        {
+          "name": "Daniel Altmaier",
+          "seed": null,
+          "country": "GER",
+          "bye": false
+        },
+        {
+          "name": "Hugo Gaston",
+          "seed": null,
+          "country": "FRA",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Luciano Darderi",
+          "seed": "2",
+          "country": "ITA",
+          "bye": false
+        }
+      ],
+      "r1_matches": [
+        {
+          "a": "Nicolai Budkov Kjaer",
+          "b": "Andrea Pellegrino",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Max Dahlin",
+          "b": "Sebastian Baez",
+          "a_seed": "WC",
+          "b_seed": "8",
+          "h2h": null
+        },
+        {
+          "a": "Facundo Diaz Acosta",
+          "b": "Lautaro Midon",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Jan Choinski",
+          "b": "Nikoloz Basilashvili",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Sebastian Ofner",
+          "b": "Thiago Agustin Tirante",
+          "a_seed": "7",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Botic Van De Zandschulp",
+          "b": "Taro Daniel",
+          "a_seed": "6",
+          "b_seed": "Q",
+          "h2h": null
+        },
+        {
+          "a": "Adolfo Daniel Vallejo",
+          "b": "Miguel Damas",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Stefano Travaglia",
+          "b": "Martin Krumich",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": "0-1"
+        },
+        {
+          "a": "Nuno Borges",
+          "b": "Moise Kouame",
+          "a_seed": "5",
+          "b_seed": "WC",
+          "h2h": null
+        },
+        {
+          "a": "Dalibor Svrcina",
+          "b": "Grigor Dimitrov",
+          "a_seed": "WC",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Daniel Altmaier",
+          "b": "Hugo Gaston",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "1-1"
+        }
+      ],
+      "completed": [
+        {
+          "round": "R32",
+          "winner": "Jesper De Jong",
+          "loser": "Vilius Gaubas",
+          "score": "7-6(1) 7-5"
+        }
+      ]
+    },
     {
       "slug": "2026ATPGstaad",
       "name": "Gstaad",
@@ -207,20 +485,6 @@
           "h2h": "1-0"
         },
         {
-          "a": "Dominic Stricker",
-          "b": "Jaume Munar",
-          "a_seed": "WC",
-          "b_seed": "8",
-          "h2h": null
-        },
-        {
-          "a": "Clement Tabur",
-          "b": "Jurij Rodionov",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Jerome Kym",
           "b": "Dylan Dietrich",
           "a_seed": "WC",
@@ -233,20 +497,6 @@
           "a_seed": "5",
           "b_seed": null,
           "h2h": "0-1"
-        },
-        {
-          "a": "Raphael Collignon",
-          "b": "Timofey Skatov",
-          "a_seed": "7",
-          "b_seed": "Q",
-          "h2h": "0-1"
-        },
-        {
-          "a": "Lorenzo Sonego",
-          "b": "Joel Schwaerzler",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
         },
         {
           "a": "Pedro Martinez",
@@ -263,21 +513,59 @@
           "h2h": null
         },
         {
-          "a": "Kilian Feldbausch",
-          "b": "Miomir Kecmanovic",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Jaime Faria",
           "b": "Stan Wawrinka",
           "a_seed": null,
           "b_seed": null,
           "h2h": null
+        },
+        {
+          "a": "Arthur Rinderknech",
+          "b": "Clement Tabur",
+          "a_seed": "4",
+          "b_seed": "Q",
+          "h2h": null
+        },
+        {
+          "a": "Raphael Collignon",
+          "b": "Lorenzo Sonego",
+          "a_seed": "7",
+          "b_seed": null,
+          "h2h": null
         }
       ],
-      "completed": []
+      "completed": [
+        {
+          "round": "R32",
+          "winner": "Dominic Stricker",
+          "loser": "Jaume Munar",
+          "score": "6-2 6-4"
+        },
+        {
+          "round": "R32",
+          "winner": "Clement Tabur",
+          "loser": "Jurij Rodionov",
+          "score": "4-6 7-5 6-4"
+        },
+        {
+          "round": "R32",
+          "winner": "Raphael Collignon",
+          "loser": "Timofey Skatov",
+          "score": "3-6 7-6(1) 6-4"
+        },
+        {
+          "round": "R32",
+          "winner": "Lorenzo Sonego",
+          "loser": "Joel Schwaerzler",
+          "score": "6-4 7-6(4)"
+        },
+        {
+          "round": "R32",
+          "winner": "Miomir Kecmanovic",
+          "loser": "Kilian Feldbausch",
+          "score": "6-1 1-6 6-3"
+        }
+      ]
     },
     {
       "slug": "2026ATPUmag",
@@ -499,13 +787,6 @@
           "h2h": null
         },
         {
-          "a": "Dusan Lajovic",
-          "b": "Luca Van Assche",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-1"
-        },
-        {
           "a": "Titouan Droguet",
           "b": "Alexander Blockx",
           "a_seed": "5",
@@ -520,24 +801,10 @@
           "h2h": null
         },
         {
-          "a": "Damir Dzumhur",
-          "b": "Henrique Rocha",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Federico Agustin Gomez",
           "b": "Niels Mcdonald",
           "a_seed": "Q",
           "b_seed": "WC",
-          "h2h": null
-        },
-        {
-          "a": "Vit Kopriva",
-          "b": "Dino Prizmic",
-          "a_seed": "8",
-          "b_seed": null,
           "h2h": null
         },
         {
@@ -548,292 +815,39 @@
           "h2h": null
         },
         {
-          "a": "Kyrian Jacquet",
-          "b": "Marco Trungelliti",
-          "a_seed": null,
+          "a": "Marco Trungelliti",
+          "b": "Alejandro Davidovich Fokina",
+          "a_seed": "2",
           "b_seed": null,
-          "h2h": "0-1"
+          "h2h": "3-0"
         }
       ],
-      "completed": []
-    },
-    {
-      "slug": "2026ATPBastad",
-      "name": "Bastad",
-      "year": 2026,
-      "tour": "atp",
-      "surface": "clay",
-      "best_of": 3,
-      "url": "https://www.tennisabstract.com/current/2026ATPBastad.html",
-      "bracket_slots": [
+      "completed": [
         {
-          "name": "Andrey Rublev",
-          "seed": "1",
-          "country": "RUS",
-          "bye": false
+          "round": "R32",
+          "winner": "Luca Van Assche",
+          "loser": "Dusan Lajovic",
+          "score": "2-6 7-5 6-4"
         },
         {
-          "bye": true
+          "round": "R32",
+          "winner": "Damir Dzumhur",
+          "loser": "Henrique Rocha",
+          "score": "6-2 6-1"
         },
         {
-          "name": "Nicolai Budkov Kjaer",
-          "seed": null,
-          "country": "NOR",
-          "bye": false
+          "round": "R32",
+          "winner": "Dino Prizmic",
+          "loser": "Vit Kopriva",
+          "score": "6-1 6-3"
         },
         {
-          "name": "Andrea Pellegrino",
-          "seed": null,
-          "country": "ITA",
-          "bye": false
-        },
-        {
-          "name": "Jesper De Jong",
-          "seed": null,
-          "country": "NED",
-          "bye": false
-        },
-        {
-          "name": "Vilius Gaubas",
-          "seed": null,
-          "country": "LTU",
-          "bye": false
-        },
-        {
-          "name": "Max Dahlin",
-          "seed": "WC",
-          "country": "SWE",
-          "bye": false
-        },
-        {
-          "name": "Sebastian Baez",
-          "seed": "8",
-          "country": "ARG",
-          "bye": false
-        },
-        {
-          "name": "Alejandro Tabilo",
-          "seed": "3",
-          "country": "CHI",
-          "bye": false
-        },
-        {
-          "bye": true
-        },
-        {
-          "name": "Facundo Diaz Acosta",
-          "seed": null,
-          "country": "ARG",
-          "bye": false
-        },
-        {
-          "name": "Qualifier1",
-          "seed": null,
-          "country": null,
-          "bye": false
-        },
-        {
-          "name": "Jan Choinski",
-          "seed": null,
-          "country": "GBR",
-          "bye": false
-        },
-        {
-          "name": "Nikoloz Basilashvili",
-          "seed": null,
-          "country": "GEO",
-          "bye": false
-        },
-        {
-          "name": "Sebastian Ofner",
-          "seed": null,
-          "country": "AUT",
-          "bye": false
-        },
-        {
-          "name": "Thiago Agustin Tirante",
-          "seed": "7",
-          "country": "ARG",
-          "bye": false
-        },
-        {
-          "name": "Botic Van De Zandschulp",
-          "seed": "6",
-          "country": "NED",
-          "bye": false
-        },
-        {
-          "name": "Qualifier2",
-          "seed": null,
-          "country": null,
-          "bye": false
-        },
-        {
-          "name": "Adolfo Daniel Vallejo",
-          "seed": null,
-          "country": "PAR",
-          "bye": false
-        },
-        {
-          "name": "Qualifier3",
-          "seed": null,
-          "country": null,
-          "bye": false
-        },
-        {
-          "name": "Stefano Travaglia",
-          "seed": null,
-          "country": "ITA",
-          "bye": false
-        },
-        {
-          "name": "Qualifier4",
-          "seed": null,
-          "country": null,
-          "bye": false
-        },
-        {
-          "bye": true
-        },
-        {
-          "name": "Mariano Navone",
-          "seed": "4",
-          "country": "ARG",
-          "bye": false
-        },
-        {
-          "name": "Nuno Borges",
-          "seed": "5",
-          "country": "POR",
-          "bye": false
-        },
-        {
-          "name": "Moise Kouame",
-          "seed": "WC",
-          "country": "FRA",
-          "bye": false
-        },
-        {
-          "name": "Dalibor Svrcina",
-          "seed": null,
-          "country": "CZE",
-          "bye": false
-        },
-        {
-          "name": "Grigor Dimitrov",
-          "seed": "WC",
-          "country": "BUL",
-          "bye": false
-        },
-        {
-          "name": "Daniel Altmaier",
-          "seed": null,
-          "country": "GER",
-          "bye": false
-        },
-        {
-          "name": "Hugo Gaston",
-          "seed": null,
-          "country": "FRA",
-          "bye": false
-        },
-        {
-          "bye": true
-        },
-        {
-          "name": "Luciano Darderi",
-          "seed": "2",
-          "country": "ITA",
-          "bye": false
+          "round": "R32",
+          "winner": "Marco Trungelliti",
+          "loser": "Kyrian Jacquet",
+          "score": "6-2 6-3"
         }
-      ],
-      "r1_matches": [
-        {
-          "a": "Thomas Faurel",
-          "b": "Miguel Damas",
-          "a_seed": "8",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
-          "a": "Carlos Sanchez Jover",
-          "b": "Taro Daniel",
-          "a_seed": "Alt",
-          "b_seed": "5",
-          "h2h": "0-1"
-        },
-        {
-          "a": "Igor Ribeiro Marcondes",
-          "b": "Lautaro Midon",
-          "a_seed": "6",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Francesco Passaro",
-          "b": "Martin Krumich",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Nicolai Budkov Kjaer",
-          "b": "Andrea Pellegrino",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Jesper De Jong",
-          "b": "Vilius Gaubas",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
-          "a": "Max Dahlin",
-          "b": "Sebastian Baez",
-          "a_seed": "WC",
-          "b_seed": "8",
-          "h2h": null
-        },
-        {
-          "a": "Jan Choinski",
-          "b": "Nikoloz Basilashvili",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Sebastian Ofner",
-          "b": "Thiago Agustin Tirante",
-          "a_seed": "7",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Nuno Borges",
-          "b": "Moise Kouame",
-          "a_seed": "5",
-          "b_seed": "WC",
-          "h2h": null
-        },
-        {
-          "a": "Dalibor Svrcina",
-          "b": "Grigor Dimitrov",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Daniel Altmaier",
-          "b": "Hugo Gaston",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-1"
-        }
-      ],
-      "completed": []
+      ]
     }
   ]
 }
