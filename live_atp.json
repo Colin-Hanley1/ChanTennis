@@ -1,11 +1,18 @@
 {
-  "fetched_at": "2026-07-13T15:33:59Z",
+  "fetched_at": "2026-07-13T17:19:38Z",
   "source": "espn",
   "matches": [
     {
       "winner": "Clement Tabur",
       "loser": "Jurij Rodionov",
       "score": "4-6 7-5 6-4",
+      "round": "Round 1",
+      "event": "2026ATPGstaad"
+    },
+    {
+      "winner": "Dominic Stricker",
+      "loser": "Jaume Munar",
+      "score": "6-2 6-4",
       "round": "Round 1",
       "event": "2026ATPGstaad"
     },
@@ -24,11 +31,24 @@
       "event": "2026ATPGstaad"
     },
     {
+      "winner": "Raphael Collignon",
+      "loser": "Timofey Skatov",
+      "score": "3-6 7-6 6-4",
+      "round": "Round 1",
+      "event": "2026ATPGstaad"
+    },
+    {
       "winner": "Damir Dzumhur",
       "loser": "Henrique Rocha",
       "score": "6-2 6-1",
       "round": "Round 1",
       "event": "2026ATPUmag"
+    },
+    {
+      "winner": "Jesper de Jong",
+      "loser": "Vilius Gaubas",
+      "score": "7-6 7-5",
+      "round": "Round 1"
     }
   ]
 }
