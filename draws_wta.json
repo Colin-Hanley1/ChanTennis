@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-13T19:40:02Z",
+  "fetched_at": "2026-07-13T21:06:00Z",
   "events": [
     {
       "slug": "2026WTAIasi",
@@ -240,13 +240,6 @@
           "h2h": null
         },
         {
-          "a": "Clara Burel",
-          "b": "Varvara Lepchenko",
-          "a_seed": "WC",
-          "b_seed": "LL",
-          "h2h": null
-        },
-        {
           "a": "Ilinca Dalina Amariei",
           "b": "Elsa Jacquemot",
           "a_seed": "Q",
@@ -302,6 +295,12 @@
           "winner": "Alina Charaeva",
           "loser": "Victoria Jimenez Kasintseva",
           "score": "60 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Clara Burel",
+          "loser": "Varvara Lepchenko",
+          "score": "26 75 63"
         },
         {
           "round": "R1",
@@ -549,13 +548,6 @@
           "h2h": null
         },
         {
-          "a": "Martha Matoula",
-          "b": "Elena Micic",
-          "a_seed": "WC",
-          "b_seed": "Q",
-          "h2h": null
-        },
-        {
           "a": "Valentini Grammatikopoulou",
           "b": "Alycia Parks",
           "a_seed": "WC",
@@ -598,6 +590,13 @@
           "h2h": null
         },
         {
+          "a": "Elena Micic",
+          "b": "Qinwen Zheng",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
           "a": "Harriet Dart",
           "b": "Maria Sakkari",
           "a_seed": "4",
@@ -617,6 +616,12 @@
           "winner": "Sara Bejlek",
           "loser": "Viktoria Morvayova",
           "score": "60 75"
+        },
+        {
+          "round": "R1",
+          "winner": "Elena Micic",
+          "loser": "Martha Matoula",
+          "score": "75 63"
         },
         {
           "round": "R1",
@@ -1493,13 +1498,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Sofya Lansere",
-          "b": "Elena Malygina",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": "2-0"
-        },
-        {
           "a": "Fiona Ferro",
           "b": "Aurora Zantedeschi",
           "a_seed": "WC",
@@ -1512,13 +1510,6 @@
           "a_seed": "WC",
           "b_seed": "8",
           "h2h": "0-1"
-        },
-        {
-          "a": "Yelyzaveta Kotliar",
-          "b": "Federica Urgesi",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
         },
         {
           "a": "Teodora Kostovic",
@@ -1563,6 +1554,20 @@
           "h2h": "1-1"
         },
         {
+          "a": "Elizara Yaneva",
+          "b": "Sofya Lansere",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Francesca Jones",
+          "b": "Federica Urgesi",
+          "a_seed": "3",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
           "a": "Darya Astakhova",
           "b": "Noma Noha Akugue",
           "a_seed": "6",
@@ -1586,9 +1591,21 @@
         },
         {
           "round": "R1",
+          "winner": "Sofya Lansere",
+          "loser": "Elena Malygina",
+          "score": "46 61 64"
+        },
+        {
+          "round": "R1",
           "winner": "Francesca Jones",
           "loser": "Dalila Spiteri",
           "score": "16 61 60"
+        },
+        {
+          "round": "R1",
+          "winner": "Federica Urgesi",
+          "loser": "Yelyzaveta Kotliar",
+          "score": "63 60"
         },
         {
           "round": "R1",
