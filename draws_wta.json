@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-14T09:10:38Z",
+  "fetched_at": "2026-07-14T11:37:48Z",
   "events": [
     {
       "slug": "2026WTAIasi",
@@ -219,13 +219,6 @@
           "h2h": "4-1"
         },
         {
-          "a": "Kaitlin Quevedo",
-          "b": "Elena Gabriela Ruse",
-          "a_seed": "6",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Oleksandra Oliynykova",
           "b": "Ipek Oz",
           "a_seed": "3",
@@ -283,10 +276,10 @@
         },
         {
           "a": "Elina Avanesyan",
-          "b": "Moyuka Uchijima",
+          "b": "Petra Marcinko",
           "a_seed": "Q",
-          "b_seed": null,
-          "h2h": "2-0"
+          "b_seed": "2",
+          "h2h": null
         }
       ],
       "completed": [
@@ -295,6 +288,12 @@
           "winner": "Alina Charaeva",
           "loser": "Victoria Jimenez Kasintseva",
           "score": "60 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Kaitlin Quevedo",
+          "loser": "Elena Gabriela Ruse",
+          "score": "63 61"
         },
         {
           "round": "R1",
@@ -307,6 +306,12 @@
           "winner": "Anna Bondar",
           "loser": "Sara Sorribes Tormo",
           "score": "75 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Elina Avanesyan",
+          "loser": "Moyuka Uchijima",
+          "score": "62 64"
         },
         {
           "round": "R1",
@@ -1546,20 +1551,6 @@
           "h2h": null
         },
         {
-          "a": "Danka Kovinic",
-          "b": "Noemi Basiletti",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Julia Riera",
-          "b": "Darja Semenistaja",
-          "a_seed": "2",
-          "b_seed": null,
-          "h2h": "1-1"
-        },
-        {
           "a": "Elizara Yaneva",
           "b": "Sofya Lansere",
           "a_seed": null,
@@ -1586,6 +1577,13 @@
           "a_seed": "5",
           "b_seed": "WC",
           "h2h": null
+        },
+        {
+          "a": "Danka Kovinic",
+          "b": "Julia Riera",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "2-0"
         }
       ],
       "completed": [
@@ -1636,6 +1634,18 @@
           "winner": "Deborah Chiesa",
           "loser": "Lina Gjorcheska",
           "score": "67(1) 63 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Danka Kovinic",
+          "loser": "Noemi Basiletti",
+          "score": "62 16 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Julia Riera",
+          "loser": "Darja Semenistaja",
+          "score": "61 46 61"
         }
       ]
     }
