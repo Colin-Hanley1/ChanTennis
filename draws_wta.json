@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-14T21:06:58Z",
+  "fetched_at": "2026-07-14T23:02:46Z",
   "events": [
     {
       "slug": "2026WTAIasi",
@@ -308,7 +308,7 @@
           "round": "R1",
           "winner": "Elsa Jacquemot",
           "loser": "Ilinca Dalina Amariei",
-          "score": "64 76(5)"
+          "score": "64 66"
         },
         {
           "round": "R1",
@@ -564,13 +564,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Tereza Valentova",
-          "b": "Sofia Costoulas",
-          "a_seed": "7",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
           "a": "Clara Tauson",
           "b": "Miriana Tona",
           "a_seed": "1",
@@ -611,6 +604,13 @@
           "a_seed": "4",
           "b_seed": null,
           "h2h": "0-1"
+        },
+        {
+          "a": "Tereza Valentova",
+          "b": "Aliaksandra Sasnovich",
+          "a_seed": "7",
+          "b_seed": null,
+          "h2h": null
         },
         {
           "a": "Alina Korneeva",
@@ -692,6 +692,12 @@
           "winner": "Maria Sakkari",
           "loser": "Polina Kudermetova",
           "score": "60 76(1)"
+        },
+        {
+          "round": "R1",
+          "winner": "Tereza Valentova",
+          "loser": "Sofia Costoulas",
+          "score": "61 62"
         },
         {
           "round": "R1",

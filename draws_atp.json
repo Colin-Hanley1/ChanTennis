@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-14T21:06:58Z",
+  "fetched_at": "2026-07-14T23:02:46Z",
   "events": [
     {
       "slug": "2026ATPBastad",
@@ -193,35 +193,28 @@
       ],
       "r1_matches": [
         {
-          "a": "Nicolai Budkov Kjaer",
+          "a": "Andrey Rublev",
           "b": "Andrea Pellegrino",
-          "a_seed": null,
+          "a_seed": "1",
           "b_seed": null,
           "h2h": null
         },
         {
-          "a": "Max Dahlin",
+          "a": "Jesper De Jong",
           "b": "Sebastian Baez",
-          "a_seed": "WC",
-          "b_seed": "8",
+          "a_seed": "8",
+          "b_seed": null,
           "h2h": null
         },
         {
-          "a": "Facundo Diaz Acosta",
+          "a": "Alejandro Tabilo",
           "b": "Lautaro Midon",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
+          "a_seed": "3",
+          "b_seed": "Q",
+          "h2h": "1-0"
         },
         {
-          "a": "Jan Choinski",
-          "b": "Nikoloz Basilashvili",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Sebastian Ofner",
+          "a": "Nikoloz Basilashvili",
           "b": "Thiago Agustin Tirante",
           "a_seed": "7",
           "b_seed": null,
@@ -229,53 +222,105 @@
         },
         {
           "a": "Botic Van De Zandschulp",
-          "b": "Taro Daniel",
+          "b": "Adolfo Daniel Vallejo",
           "a_seed": "6",
-          "b_seed": "Q",
-          "h2h": null
-        },
-        {
-          "a": "Adolfo Daniel Vallejo",
-          "b": "Miguel Damas",
-          "a_seed": "Q",
           "b_seed": null,
           "h2h": null
         },
         {
           "a": "Stefano Travaglia",
-          "b": "Martin Krumich",
-          "a_seed": "Q",
+          "b": "Mariano Navone",
+          "a_seed": "4",
           "b_seed": null,
-          "h2h": "0-1"
+          "h2h": null
         },
         {
           "a": "Nuno Borges",
-          "b": "Moise Kouame",
+          "b": "Grigor Dimitrov",
           "a_seed": "5",
           "b_seed": "WC",
-          "h2h": null
-        },
-        {
-          "a": "Dalibor Svrcina",
-          "b": "Grigor Dimitrov",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
+          "h2h": "1-1"
         },
         {
           "a": "Daniel Altmaier",
-          "b": "Hugo Gaston",
-          "a_seed": null,
+          "b": "Luciano Darderi",
+          "a_seed": "2",
           "b_seed": null,
-          "h2h": "1-1"
+          "h2h": "2-1"
         }
       ],
       "completed": [
         {
           "round": "R32",
+          "winner": "Andrea Pellegrino",
+          "loser": "Nicolai Budkov Kjaer",
+          "score": "6-3 6-2"
+        },
+        {
+          "round": "R32",
           "winner": "Jesper De Jong",
           "loser": "Vilius Gaubas",
           "score": "7-6(1) 7-5"
+        },
+        {
+          "round": "R32",
+          "winner": "Sebastian Baez",
+          "loser": "Max Dahlin",
+          "score": "4-6 6-4 6-1"
+        },
+        {
+          "round": "R32",
+          "winner": "Lautaro Midon",
+          "loser": "Facundo Diaz Acosta",
+          "score": "3-6 6-4 6-2"
+        },
+        {
+          "round": "R32",
+          "winner": "Nikoloz Basilashvili",
+          "loser": "Jan Choinski",
+          "score": "6-4 7-6(4)"
+        },
+        {
+          "round": "R32",
+          "winner": "Thiago Agustin Tirante",
+          "loser": "Sebastian Ofner",
+          "score": "6-3 6-4"
+        },
+        {
+          "round": "R32",
+          "winner": "Botic Van De Zandschulp",
+          "loser": "Taro Daniel",
+          "score": "7-6(0) 6-4"
+        },
+        {
+          "round": "R32",
+          "winner": "Adolfo Daniel Vallejo",
+          "loser": "Miguel Damas",
+          "score": "6-3 6-3"
+        },
+        {
+          "round": "R32",
+          "winner": "Stefano Travaglia",
+          "loser": "Martin Krumich",
+          "score": "6-4 6-2"
+        },
+        {
+          "round": "R32",
+          "winner": "Nuno Borges",
+          "loser": "Moise Kouame",
+          "score": "6-4 6-2"
+        },
+        {
+          "round": "R32",
+          "winner": "Grigor Dimitrov",
+          "loser": "Dalibor Svrcina",
+          "score": "7-6(5) 1-6 6-4"
+        },
+        {
+          "round": "R32",
+          "winner": "Daniel Altmaier",
+          "loser": "Hugo Gaston",
+          "score": "6-2 7-5"
         }
       ]
     },
@@ -471,51 +516,16 @@
       ],
       "r1_matches": [
         {
-          "a": "Federico Cina",
+          "a": "Alexander Bublik",
           "b": "Quentin Halys",
-          "a_seed": "Q",
+          "a_seed": "1",
           "b_seed": null,
           "h2h": null
         },
         {
-          "a": "Alexandre Muller",
-          "b": "Alexander Shevchenko",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
-          "a": "Jerome Kym",
-          "b": "Dylan Dietrich",
+          "a": "Alexander Shevchenko",
+          "b": "Dominic Stricker",
           "a_seed": "WC",
-          "b_seed": "Q",
-          "h2h": null
-        },
-        {
-          "a": "Stefanos Tsitsipas",
-          "b": "Ignacio Buse",
-          "a_seed": "5",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
-          "a": "Pedro Martinez",
-          "b": "Yannick Hanfmann",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-3"
-        },
-        {
-          "a": "Juan Manuel Cerundolo",
-          "b": "Zdenek Kolar",
-          "a_seed": "6",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Jaime Faria",
-          "b": "Stan Wawrinka",
-          "a_seed": null,
           "b_seed": null,
           "h2h": null
         },
@@ -527,14 +537,54 @@
           "h2h": null
         },
         {
+          "a": "Jerome Kym",
+          "b": "Stefanos Tsitsipas",
+          "a_seed": "WC",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
           "a": "Raphael Collignon",
           "b": "Lorenzo Sonego",
           "a_seed": "7",
           "b_seed": null,
           "h2h": null
+        },
+        {
+          "a": "Yannick Hanfmann",
+          "b": "Valentin Vacherot",
+          "a_seed": "3",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Juan Manuel Cerundolo",
+          "b": "Miomir Kecmanovic",
+          "a_seed": "6",
+          "b_seed": null,
+          "h2h": "1-0"
+        },
+        {
+          "a": "Jaime Faria",
+          "b": "Casper Ruud",
+          "a_seed": "2",
+          "b_seed": null,
+          "h2h": "0-1"
         }
       ],
       "completed": [
+        {
+          "round": "R32",
+          "winner": "Quentin Halys",
+          "loser": "Federico Cina",
+          "score": "6-3 3-6 7-6(6)"
+        },
+        {
+          "round": "R32",
+          "winner": "Alexander Shevchenko",
+          "loser": "Alexandre Muller",
+          "score": "3-6 6-3 6-4"
+        },
         {
           "round": "R32",
           "winner": "Dominic Stricker",
@@ -546,6 +596,18 @@
           "winner": "Clement Tabur",
           "loser": "Jurij Rodionov",
           "score": "4-6 7-5 6-4"
+        },
+        {
+          "round": "R32",
+          "winner": "Jerome Kym",
+          "loser": "Dylan Dietrich",
+          "score": "7-6(3) 2-6 7-6(5)"
+        },
+        {
+          "round": "R32",
+          "winner": "Stefanos Tsitsipas",
+          "loser": "Ignacio Buse",
+          "score": "6-4 6-4"
         },
         {
           "round": "R32",
@@ -561,9 +623,27 @@
         },
         {
           "round": "R32",
+          "winner": "Yannick Hanfmann",
+          "loser": "Pedro Martinez",
+          "score": "7-6(6) 6-1"
+        },
+        {
+          "round": "R32",
+          "winner": "Juan Manuel Cerundolo",
+          "loser": "Zdenek Kolar",
+          "score": "4-6 6-3 6-4"
+        },
+        {
+          "round": "R32",
           "winner": "Miomir Kecmanovic",
           "loser": "Kilian Feldbausch",
           "score": "6-1 1-6 6-3"
+        },
+        {
+          "round": "R32",
+          "winner": "Jaime Faria",
+          "loser": "Stan Wawrinka",
+          "score": "6-7(8) 6-4 6-4"
         }
       ]
     },
@@ -667,9 +747,9 @@
           "bye": false
         },
         {
-          "name": "Fabian Marozsan",
-          "seed": "6",
-          "country": "HUN",
+          "name": "Lukas Neumayer",
+          "seed": "LL",
+          "country": "AUT",
           "bye": false
         },
         {
@@ -759,60 +839,53 @@
       ],
       "r1_matches": [
         {
-          "a": "Marco Cecchinato",
+          "a": "Flavio Cobolli",
           "b": "Roman Andres Burruchaga",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": "2-2"
-        },
-        {
-          "a": "Matej Dodig",
-          "b": "Pablo Carreno Busta",
-          "a_seed": "WC",
+          "a_seed": "1",
           "b_seed": null,
           "h2h": null
         },
         {
-          "a": "Marko Topo",
+          "a": "Pablo Carreno Busta",
           "b": "Camilo Ugo Carabelli",
-          "a_seed": "Q",
-          "b_seed": "7",
-          "h2h": null
-        },
-        {
-          "a": "Ziga Sesko",
-          "b": "Daniel Merida Aguilar",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Titouan Droguet",
-          "b": "Alexander Blockx",
-          "a_seed": "5",
+          "a_seed": "7",
           "b_seed": null,
           "h2h": "0-1"
         },
         {
-          "a": "Fabian Marozsan",
-          "b": "Juan Carlos Prado Angelo",
-          "a_seed": "6",
-          "b_seed": "Q",
+          "a": "Tomas Martin Etcheverry",
+          "b": "Daniel Merida Aguilar",
+          "a_seed": "3",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Luca Van Assche",
+          "b": "Titouan Droguet",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "2-0"
+        },
+        {
+          "a": "Juan Carlos Prado Angelo",
+          "b": "Damir Dzumhur",
+          "a_seed": "Q",
+          "b_seed": null,
           "h2h": null
         },
         {
           "a": "Federico Agustin Gomez",
-          "b": "Niels Mcdonald",
+          "b": "Matteo Arnaldi",
           "a_seed": "Q",
-          "b_seed": "WC",
+          "b_seed": "4",
           "h2h": null
         },
         {
-          "a": "Alex Molcan",
-          "b": "Valentin Royer",
+          "a": "Dino Prizmic",
+          "b": "Alex Molcan",
           "a_seed": null,
           "b_seed": null,
-          "h2h": null
+          "h2h": "1-0"
         },
         {
           "a": "Marco Trungelliti",
@@ -825,9 +898,45 @@
       "completed": [
         {
           "round": "R32",
+          "winner": "Roman Andres Burruchaga",
+          "loser": "Marco Cecchinato",
+          "score": "6-1 6-4"
+        },
+        {
+          "round": "R32",
+          "winner": "Pablo Carreno Busta",
+          "loser": "Matej Dodig",
+          "score": "6-4 6-2"
+        },
+        {
+          "round": "R32",
+          "winner": "Camilo Ugo Carabelli",
+          "loser": "Marko Topo",
+          "score": "6-7(2) 7-6(3) 6-3"
+        },
+        {
+          "round": "R32",
+          "winner": "Daniel Merida Aguilar",
+          "loser": "Ziga Sesko",
+          "score": "6-4 6-1"
+        },
+        {
+          "round": "R32",
           "winner": "Luca Van Assche",
           "loser": "Dusan Lajovic",
           "score": "2-6 7-5 6-4"
+        },
+        {
+          "round": "R32",
+          "winner": "Titouan Droguet",
+          "loser": "Alexander Blockx",
+          "score": "3-6 6-2 6-0"
+        },
+        {
+          "round": "R32",
+          "winner": "Juan Carlos Prado Angelo",
+          "loser": "Lukas Neumayer",
+          "score": "6-3 7-6(6)"
         },
         {
           "round": "R32",
@@ -837,9 +946,21 @@
         },
         {
           "round": "R32",
+          "winner": "Federico Agustin Gomez",
+          "loser": "Niels Mcdonald",
+          "score": "6-3 7-6(4)"
+        },
+        {
+          "round": "R32",
           "winner": "Dino Prizmic",
           "loser": "Vit Kopriva",
           "score": "6-1 6-3"
+        },
+        {
+          "round": "R32",
+          "winner": "Alex Molcan",
+          "loser": "Valentin Royer",
+          "score": "6-4 7-5"
         },
         {
           "round": "R32",
