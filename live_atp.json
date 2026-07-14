@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-14T13:03:54Z",
+  "fetched_at": "2026-07-14T14:03:42Z",
   "source": "espn",
   "matches": [
     {
@@ -13,6 +13,13 @@
       "winner": "Dominic Stricker",
       "loser": "Jaume Munar",
       "score": "6-2 6-4",
+      "round": "Round 1",
+      "event": "2026ATPGstaad"
+    },
+    {
+      "winner": "Jerome Kym",
+      "loser": "Dylan Dietrich",
+      "score": "7-6 2-6 7-6",
       "round": "Round 1",
       "event": "2026ATPGstaad"
     },
@@ -98,6 +105,12 @@
       "round": "Round 1"
     },
     {
+      "winner": "Grigor Dimitrov",
+      "loser": "Dalibor Svrcina",
+      "score": "7-6 1-6 6-4",
+      "round": "Round 1"
+    },
+    {
       "winner": "Jesper de Jong",
       "loser": "Vilius Gaubas",
       "score": "7-6 7-5",
@@ -107,6 +120,12 @@
       "winner": "Lautaro Midon",
       "loser": "Facundo Diaz Acosta",
       "score": "3-6 6-4 6-2",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Nikoloz Basilashvili",
+      "loser": "Jan Choinski",
+      "score": "6-4 7-6",
       "round": "Round 1"
     },
     {
