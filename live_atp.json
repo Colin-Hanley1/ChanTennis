@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-14T14:03:42Z",
+  "fetched_at": "2026-07-14T15:00:39Z",
   "source": "espn",
   "matches": [
     {
@@ -41,6 +41,13 @@
       "winner": "Miomir Kecmanovic",
       "loser": "Kilian Feldbausch",
       "score": "6-1 1-6 6-3",
+      "round": "Round 1",
+      "event": "2026ATPGstaad"
+    },
+    {
+      "winner": "Quentin Halys",
+      "loser": "Federico Cina",
+      "score": "6-3 3-6 7-6",
       "round": "Round 1",
       "event": "2026ATPGstaad"
     },
@@ -105,6 +112,12 @@
       "round": "Round 1"
     },
     {
+      "winner": "Daniel Altmaier",
+      "loser": "Hugo Gaston",
+      "score": "6-2 7-5",
+      "round": "Round 1"
+    },
+    {
       "winner": "Grigor Dimitrov",
       "loser": "Dalibor Svrcina",
       "score": "7-6 1-6 6-4",
@@ -126,6 +139,18 @@
       "winner": "Nikoloz Basilashvili",
       "loser": "Jan Choinski",
       "score": "6-4 7-6",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Nuno Borges",
+      "loser": "Moise Kouame",
+      "score": "6-4 6-2",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Stefano Travaglia",
+      "loser": "Martin Krumich",
+      "score": "6-4 6-2",
       "round": "Round 1"
     },
     {
