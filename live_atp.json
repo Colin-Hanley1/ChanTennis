@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-14T16:35:54Z",
+  "fetched_at": "2026-07-14T17:22:14Z",
   "source": "espn",
   "matches": [
     {
@@ -87,9 +87,23 @@
       "event": "2026ATPUmag"
     },
     {
+      "winner": "Camilo Ugo Carabelli",
+      "loser": "Marko Topo",
+      "score": "6-7 7-6 6-3",
+      "round": "Round 1",
+      "event": "2026ATPUmag"
+    },
+    {
       "winner": "Damir Dzumhur",
       "loser": "Henrique Rocha",
       "score": "6-2 6-1",
+      "round": "Round 1",
+      "event": "2026ATPUmag"
+    },
+    {
+      "winner": "Daniel Merida",
+      "loser": "Ziga Sesko",
+      "score": "6-4 6-1",
       "round": "Round 1",
       "event": "2026ATPUmag"
     },
@@ -173,6 +187,12 @@
       "winner": "Nuno Borges",
       "loser": "Moise Kouame",
       "score": "6-4 6-2",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Sebastian Baez",
+      "loser": "Max Dahlin",
+      "score": "4-6 6-4 6-1",
       "round": "Round 1"
     },
     {
