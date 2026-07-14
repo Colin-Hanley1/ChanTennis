@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-14T19:37:44Z",
+  "fetched_at": "2026-07-14T21:06:58Z",
   "events": [
     {
       "slug": "2026WTAIasi",
@@ -571,20 +571,6 @@
           "h2h": "1-0"
         },
         {
-          "a": "Anna Blinkova",
-          "b": "Aliaksandra Sasnovich",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "0-5"
-        },
-        {
-          "a": "Maria Timofeeva",
-          "b": "Ann Li",
-          "a_seed": "2",
-          "b_seed": null,
-          "h2h": "0-3"
-        },
-        {
           "a": "Clara Tauson",
           "b": "Miriana Tona",
           "a_seed": "1",
@@ -625,6 +611,13 @@
           "a_seed": "4",
           "b_seed": null,
           "h2h": "0-1"
+        },
+        {
+          "a": "Alina Korneeva",
+          "b": "Ann Li",
+          "a_seed": "2",
+          "b_seed": null,
+          "h2h": null
         }
       ],
       "completed": [
@@ -702,8 +695,20 @@
         },
         {
           "round": "R1",
+          "winner": "Aliaksandra Sasnovich",
+          "loser": "Anna Blinkova",
+          "score": "36 62 62"
+        },
+        {
+          "round": "R1",
           "winner": "Alina Korneeva",
           "loser": "Aoi Ito",
+          "score": "62 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Ann Li",
+          "loser": "Maria Timofeeva",
           "score": "62 61"
         }
       ]
@@ -1630,13 +1635,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Francesca Pace",
-          "b": "Eva Vedder",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Elizara Yaneva",
           "b": "Sofya Lansere",
           "a_seed": null,
@@ -1677,6 +1675,13 @@
           "a_seed": "4",
           "b_seed": null,
           "h2h": null
+        },
+        {
+          "a": "Nuria Brancaccio",
+          "b": "Eva Vedder",
+          "a_seed": "7",
+          "b_seed": null,
+          "h2h": "0-1"
         },
         {
           "a": "Danka Kovinic",
@@ -1764,6 +1769,12 @@
           "winner": "Nuria Brancaccio",
           "loser": "Jessica Pieri",
           "score": "62 62"
+        },
+        {
+          "round": "R1",
+          "winner": "Eva Vedder",
+          "loser": "Francesca Pace",
+          "score": "64 64"
         },
         {
           "round": "R1",
