@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-14T14:03:48Z",
+  "fetched_at": "2026-07-14T15:38:45Z",
   "events": [
     {
       "slug": "2026WTAIasi",
@@ -205,20 +205,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Oleksandra Oliynykova",
-          "b": "Ipek Oz",
-          "a_seed": "3",
-          "b_seed": "LL",
-          "h2h": null
-        },
-        {
-          "a": "Miriam Bianca Bulgaru",
-          "b": "Elena Pridankina",
-          "a_seed": "WC",
-          "b_seed": "Q",
-          "h2h": null
-        },
-        {
           "a": "Ilinca Dalina Amariei",
           "b": "Elsa Jacquemot",
           "a_seed": "Q",
@@ -240,13 +226,6 @@
           "h2h": "2-2"
         },
         {
-          "a": "Dominika Salkova",
-          "b": "Alevtina Ibragimova",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Paula Badosa",
           "b": "Anhelina Kalinina",
           "a_seed": "4",
@@ -266,6 +245,13 @@
           "a_seed": null,
           "b_seed": null,
           "h2h": null
+        },
+        {
+          "a": "Oleksandra Oliynykova",
+          "b": "Elena Pridankina",
+          "a_seed": "3",
+          "b_seed": "Q",
+          "h2h": "1-0"
         },
         {
           "a": "Anna Bondar",
@@ -309,9 +295,27 @@
         },
         {
           "round": "R1",
+          "winner": "Oleksandra Oliynykova",
+          "loser": "Ipek Oz",
+          "score": "76(1) 76(5)"
+        },
+        {
+          "round": "R1",
+          "winner": "Elena Pridankina",
+          "loser": "Miriam Bianca Bulgaru",
+          "score": "75 61"
+        },
+        {
+          "round": "R1",
           "winner": "Clara Burel",
           "loser": "Varvara Lepchenko",
           "score": "26 75 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Alevtina Ibragimova",
+          "loser": "Dominika Salkova",
+          "score": "62 75"
         },
         {
           "round": "R1",
@@ -917,13 +921,6 @@
           "h2h": "1-1"
         },
         {
-          "a": "Martina Colmegna",
-          "b": "Barbora Palicova",
-          "a_seed": "Q",
-          "b_seed": "LL",
-          "h2h": null
-        },
-        {
           "a": "Julia Grabher",
           "b": "Ekaterina Perelygina",
           "a_seed": "4",
@@ -981,6 +978,12 @@
           "winner": "Marina Bassols Ribera",
           "loser": "Anna Lena Friedsam",
           "score": "62 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Barbora Palicova",
+          "loser": "Martina Colmegna",
+          "score": "36 76(4) 61"
         },
         {
           "round": "R1",
@@ -1212,13 +1215,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Daria Khomutsianskaya",
-          "b": "Priska Madelyn Nugroho",
-          "a_seed": "Q",
-          "b_seed": "Q",
-          "h2h": null
-        },
-        {
           "a": "Deniz Dilek",
           "b": "Weronika Falkowska",
           "a_seed": "WC",
@@ -1229,13 +1225,6 @@
           "a": "Linda Fruhvirtova",
           "b": "Xinyu Gao",
           "a_seed": "6",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
-          "a": "Ayla Aksu",
-          "b": "Vendula Valdmannova",
-          "a_seed": null,
           "b_seed": null,
           "h2h": "1-0"
         },
@@ -1268,6 +1257,13 @@
           "h2h": null
         },
         {
+          "a": "Daria Khomutsianskaya",
+          "b": "Tatiana Prozorova",
+          "a_seed": "Q",
+          "b_seed": "8",
+          "h2h": "0-2"
+        },
+        {
           "a": "Harmony Tan",
           "b": "Anastasia Gasanova",
           "a_seed": null,
@@ -1297,6 +1293,12 @@
         },
         {
           "round": "R1",
+          "winner": "Daria Khomutsianskaya",
+          "loser": "Priska Madelyn Nugroho",
+          "score": "64 61"
+        },
+        {
+          "round": "R1",
           "winner": "Tatiana Prozorova",
           "loser": "Zhuoxuan Bai",
           "score": "63 61"
@@ -1318,6 +1320,12 @@
           "winner": "Anastasia Gasanova",
           "loser": "Susan Bandecchi",
           "score": "76(3) 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Vendula Valdmannova",
+          "loser": "Ayla Aksu",
+          "score": "75 60"
         },
         {
           "round": "R1",
