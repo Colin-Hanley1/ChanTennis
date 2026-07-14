@@ -1,7 +1,14 @@
 {
-  "fetched_at": "2026-07-14T15:38:39Z",
+  "fetched_at": "2026-07-14T16:35:54Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Aleksandr Shevchenko",
+      "loser": "Alexandre Muller",
+      "score": "3-6 6-3 6-4",
+      "round": "Round 1",
+      "event": "2026ATPGstaad"
+    },
     {
       "winner": "Clement Tabur",
       "loser": "Jurij Rodionov",
@@ -71,6 +78,13 @@
       "score": "7-6 6-1",
       "round": "Round 1",
       "event": "2026ATPGstaad"
+    },
+    {
+      "winner": "Alex Molcan",
+      "loser": "Valentin Royer",
+      "score": "6-4 7-5",
+      "round": "Round 1",
+      "event": "2026ATPUmag"
     },
     {
       "winner": "Damir Dzumhur",
