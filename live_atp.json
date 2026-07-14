@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-14T18:47:19Z",
+  "fetched_at": "2026-07-14T19:37:38Z",
   "source": "espn",
   "matches": [
     {
@@ -118,6 +118,20 @@
       "winner": "Dino Prizmic",
       "loser": "Vit Kopriva",
       "score": "6-1 6-3",
+      "round": "Round 1",
+      "event": "2026ATPUmag"
+    },
+    {
+      "winner": "Federico Agustin Gomez",
+      "loser": "Niels McDonald",
+      "score": "6-3 7-6",
+      "round": "Round 1",
+      "event": "2026ATPUmag"
+    },
+    {
+      "winner": "Juan Carlos Prado Angelo",
+      "loser": "Lukas Neumayer",
+      "score": "6-3 7-6",
       "round": "Round 1",
       "event": "2026ATPUmag"
     },
