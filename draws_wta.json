@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-15T11:41:30Z",
+  "fetched_at": "2026-07-15T14:00:38Z",
   "events": [
     {
       "slug": "2026WTAIasi",
@@ -205,13 +205,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Yulia Putintseva",
-          "b": "Alina Charaeva",
-          "a_seed": "9",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Mayar Sherif",
           "b": "Kaitlin Quevedo",
           "a_seed": null,
@@ -262,6 +255,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Yulia Putintseva",
+          "loser": "Alina Charaeva",
+          "score": "63 63"
+        },
         {
           "round": "R1",
           "winner": "Yulia Putintseva",
@@ -923,13 +922,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Veronika Erjavec",
-          "b": "Mona Barthel",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": "1-2"
-        },
-        {
           "a": "Gina Feistel",
           "b": "Laura Samson",
           "a_seed": "Q",
@@ -973,6 +965,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Veronika Erjavec",
+          "loser": "Mona Barthel",
+          "score": "64 61"
+        },
         {
           "round": "R2",
           "winner": "Julia Grabher",
@@ -1302,13 +1300,6 @@
           "h2h": null
         },
         {
-          "a": "Harmony Tan",
-          "b": "Anastasia Gasanova",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Xinyu Gao",
           "b": "Vendula Valdmannova",
           "a_seed": null,
@@ -1338,6 +1329,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Harmony Tan",
+          "loser": "Anastasia Gasanova",
+          "score": "61 64"
+        },
         {
           "round": "R1",
           "winner": "Anastasia Zakharova",
