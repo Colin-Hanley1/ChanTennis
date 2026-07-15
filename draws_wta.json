@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-15T21:09:26Z",
+  "fetched_at": "2026-07-15T23:04:21Z",
   "events": [
     {
       "slug": "2026WTAIasi",
@@ -311,7 +311,7 @@
           "round": "R1",
           "winner": "Elsa Jacquemot",
           "loser": "Ilinca Dalina Amariei",
-          "score": "64 66"
+          "score": "64 76(5)"
         },
         {
           "round": "R1",
@@ -360,6 +360,368 @@
           "winner": "Petra Marcinko",
           "loser": "Nadia Podoroska",
           "score": "62 36 64"
+        }
+      ]
+    },
+    {
+      "slug": "2026WTAAthens",
+      "name": "Athens",
+      "year": 2026,
+      "tour": "wta",
+      "surface": "hard",
+      "best_of": 3,
+      "url": "https://www.tennisabstract.com/current/2026WTAAthens.html",
+      "bracket_slots": [
+        {
+          "name": "Clara Tauson",
+          "seed": "1",
+          "country": "DEN",
+          "bye": false
+        },
+        {
+          "name": "Nao Hibino",
+          "seed": "Q",
+          "country": "JPN",
+          "bye": false
+        },
+        {
+          "name": "Sapfo Sakellaridi",
+          "seed": "WC",
+          "country": "GRE",
+          "bye": false
+        },
+        {
+          "name": "Miriana Tona",
+          "seed": "LL",
+          "country": "ITA",
+          "bye": false
+        },
+        {
+          "name": "Marianne Argyrokastriti",
+          "seed": "WC",
+          "country": "GRE",
+          "bye": false
+        },
+        {
+          "name": "Lilli Tagger",
+          "seed": "Q",
+          "country": "AUT",
+          "bye": false
+        },
+        {
+          "name": "Viktoria Morvayova",
+          "seed": "Q",
+          "country": "SVK",
+          "bye": false
+        },
+        {
+          "name": "Sara Bejlek",
+          "seed": "5",
+          "country": "CZE",
+          "bye": false
+        },
+        {
+          "name": "Barbora Krejcikova",
+          "seed": "3",
+          "country": "CZE",
+          "bye": false
+        },
+        {
+          "name": "Viktoriya Tomova",
+          "seed": null,
+          "country": "BUL",
+          "bye": false
+        },
+        {
+          "name": "Carole Monnet",
+          "seed": null,
+          "country": "FRA",
+          "bye": false
+        },
+        {
+          "name": "Rebeka Masarova",
+          "seed": null,
+          "country": "ESP",
+          "bye": false
+        },
+        {
+          "name": "Martha Matoula",
+          "seed": "WC",
+          "country": "GRE",
+          "bye": false
+        },
+        {
+          "name": "Elena Micic",
+          "seed": "Q",
+          "country": "AUS",
+          "bye": false
+        },
+        {
+          "name": "Qinwen Zheng",
+          "seed": null,
+          "country": "CHN",
+          "bye": false
+        },
+        {
+          "name": "Jessica Bouzas Maneiro",
+          "seed": "6",
+          "country": "ESP",
+          "bye": false
+        },
+        {
+          "name": "Magda Linette",
+          "seed": "8",
+          "country": "POL",
+          "bye": false
+        },
+        {
+          "name": "Mai Hontama",
+          "seed": null,
+          "country": "JPN",
+          "bye": false
+        },
+        {
+          "name": "Valentini Grammatikopoulou",
+          "seed": "WC",
+          "country": "GRE",
+          "bye": false
+        },
+        {
+          "name": "Alycia Parks",
+          "seed": null,
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Mina Hodzic",
+          "seed": "Q",
+          "country": "GER",
+          "bye": false
+        },
+        {
+          "name": "Harriet Dart",
+          "seed": null,
+          "country": "GBR",
+          "bye": false
+        },
+        {
+          "name": "Polina Kudermetova",
+          "seed": null,
+          "country": "UZB",
+          "bye": false
+        },
+        {
+          "name": "Maria Sakkari",
+          "seed": "4",
+          "country": "GRE",
+          "bye": false
+        },
+        {
+          "name": "Tereza Valentova",
+          "seed": "7",
+          "country": "CZE",
+          "bye": false
+        },
+        {
+          "name": "Sofia Costoulas",
+          "seed": null,
+          "country": "BEL",
+          "bye": false
+        },
+        {
+          "name": "Anna Blinkova",
+          "seed": null,
+          "country": "RUS",
+          "bye": false
+        },
+        {
+          "name": "Aliaksandra Sasnovich",
+          "seed": null,
+          "country": "BLR",
+          "bye": false
+        },
+        {
+          "name": "Aoi Ito",
+          "seed": "Q",
+          "country": "JPN",
+          "bye": false
+        },
+        {
+          "name": "Alina Korneeva",
+          "seed": null,
+          "country": "RUS",
+          "bye": false
+        },
+        {
+          "name": "Maria Timofeeva",
+          "seed": null,
+          "country": "UZB",
+          "bye": false
+        },
+        {
+          "name": "Ann Li",
+          "seed": "2",
+          "country": "USA",
+          "bye": false
+        }
+      ],
+      "r1_matches": [
+        {
+          "a": "Clara Tauson",
+          "b": "Miriana Tona",
+          "a_seed": "1",
+          "b_seed": "LL",
+          "h2h": null
+        },
+        {
+          "a": "Barbora Krejcikova",
+          "b": "Carole Monnet",
+          "a_seed": "3",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Tereza Valentova",
+          "b": "Aliaksandra Sasnovich",
+          "a_seed": "7",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Alina Korneeva",
+          "b": "Ann Li",
+          "a_seed": "2",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Alycia Parks",
+          "b": "Maria Sakkari",
+          "a_seed": "4",
+          "b_seed": null,
+          "h2h": "2-0"
+        }
+      ],
+      "completed": [
+        {
+          "round": "R2",
+          "winner": "Sara Bejlek",
+          "loser": "Lilli Tagger",
+          "score": "62 62"
+        },
+        {
+          "round": "R2",
+          "winner": "Qinwen Zheng",
+          "loser": "Elena Micic",
+          "score": "64 61"
+        },
+        {
+          "round": "R2",
+          "winner": "Alycia Parks",
+          "loser": "Mai Hontama",
+          "score": "67(4) 62 75"
+        },
+        {
+          "round": "R2",
+          "winner": "Maria Sakkari",
+          "loser": "Harriet Dart",
+          "score": "61 62"
+        },
+        {
+          "round": "R1",
+          "winner": "Clara Tauson",
+          "loser": "Nao Hibino",
+          "score": "75 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Miriana Tona",
+          "loser": "Sapfo Sakellaridi",
+          "score": "76(2) 57 62"
+        },
+        {
+          "round": "R1",
+          "winner": "Lilli Tagger",
+          "loser": "Marianne Argyrokastriti",
+          "score": "61 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Sara Bejlek",
+          "loser": "Viktoria Morvayova",
+          "score": "60 75"
+        },
+        {
+          "round": "R1",
+          "winner": "Barbora Krejcikova",
+          "loser": "Viktoriya Tomova",
+          "score": "63 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Carole Monnet",
+          "loser": "Rebeka Masarova",
+          "score": "46 62 76(10)"
+        },
+        {
+          "round": "R1",
+          "winner": "Elena Micic",
+          "loser": "Martha Matoula",
+          "score": "75 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Qinwen Zheng",
+          "loser": "Jessica Bouzas Maneiro",
+          "score": "75 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Mai Hontama",
+          "loser": "Magda Linette",
+          "score": "64 75"
+        },
+        {
+          "round": "R1",
+          "winner": "Alycia Parks",
+          "loser": "Valentini Grammatikopoulou",
+          "score": "76(3) 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Harriet Dart",
+          "loser": "Mina Hodzic",
+          "score": "63 36 76(4)"
+        },
+        {
+          "round": "R1",
+          "winner": "Maria Sakkari",
+          "loser": "Polina Kudermetova",
+          "score": "60 76(1)"
+        },
+        {
+          "round": "R1",
+          "winner": "Tereza Valentova",
+          "loser": "Sofia Costoulas",
+          "score": "61 62"
+        },
+        {
+          "round": "R1",
+          "winner": "Aliaksandra Sasnovich",
+          "loser": "Anna Blinkova",
+          "score": "36 62 62"
+        },
+        {
+          "round": "R1",
+          "winner": "Alina Korneeva",
+          "loser": "Aoi Ito",
+          "score": "62 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Ann Li",
+          "loser": "Maria Timofeeva",
+          "score": "62 61"
         }
       ]
     },
