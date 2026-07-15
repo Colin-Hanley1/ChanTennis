@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-15T14:00:38Z",
+  "fetched_at": "2026-07-15T15:39:43Z",
   "events": [
     {
       "slug": "2026WTAIasi",
@@ -950,13 +950,6 @@
           "h2h": "2-1"
         },
         {
-          "a": "Erika Andreeva",
-          "b": "Mia Ristic",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Eva Bennemann",
           "b": "Sinja Kraus",
           "a_seed": "WC",
@@ -976,6 +969,12 @@
           "winner": "Julia Grabher",
           "loser": "Ekaterina Perelygina",
           "score": "75 63"
+        },
+        {
+          "round": "R2",
+          "winner": "Erika Andreeva",
+          "loser": "Mia Ristic",
+          "score": "64 26 62"
         },
         {
           "round": "R1",
@@ -1293,13 +1292,6 @@
           "h2h": "0-2"
         },
         {
-          "a": "Hanne Vandewinkel",
-          "b": "Weronika Falkowska",
-          "a_seed": "3",
-          "b_seed": "Q",
-          "h2h": null
-        },
-        {
           "a": "Xinyu Gao",
           "b": "Vendula Valdmannova",
           "a_seed": null,
@@ -1326,9 +1318,22 @@
           "a_seed": "2",
           "b_seed": null,
           "h2h": "0-1"
+        },
+        {
+          "a": "Hanne Vandewinkel",
+          "b": "Harmony Tan",
+          "a_seed": "3",
+          "b_seed": null,
+          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Hanne Vandewinkel",
+          "loser": "Weronika Falkowska",
+          "score": "64 36 64"
+        },
         {
           "round": "R2",
           "winner": "Harmony Tan",
