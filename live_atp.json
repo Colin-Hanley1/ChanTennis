@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-15T16:07:19Z",
+  "fetched_at": "2026-07-15T17:25:14Z",
   "source": "espn",
   "matches": [
     {
@@ -87,9 +87,23 @@
       "event": "2026ATPGstaad"
     },
     {
+      "winner": "Arthur Rinderknech",
+      "loser": "Clement Tabur",
+      "score": "6-7 7-6 7-5",
+      "round": "Round 2",
+      "event": "2026ATPGstaad"
+    },
+    {
       "winner": "Raphael Collignon",
       "loser": "Lorenzo Sonego",
       "score": "7-6 7-6",
+      "round": "Round 2",
+      "event": "2026ATPGstaad"
+    },
+    {
+      "winner": "Valentin Vacherot",
+      "loser": "Yannick Hanfmann",
+      "score": "4-6 6-3 6-4",
       "round": "Round 2",
       "event": "2026ATPGstaad"
     },
@@ -185,6 +199,13 @@
       "event": "2026ATPUmag"
     },
     {
+      "winner": "Matteo Arnaldi",
+      "loser": "Federico Agustin Gomez",
+      "score": "6-3 5-7 6-3",
+      "round": "Round 2",
+      "event": "2026ATPUmag"
+    },
+    {
       "winner": "Adolfo Daniel Vallejo",
       "loser": "Miguel Damas",
       "score": "6-3 6-3",
@@ -260,6 +281,12 @@
       "winner": "Adolfo Daniel Vallejo",
       "loser": "Botic Van De Zandschulp",
       "score": "4-6 6-3 7-6",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Luciano Darderi",
+      "loser": "Daniel Altmaier",
+      "score": "6-4 6-4",
       "round": "Round 2"
     },
     {

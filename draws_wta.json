@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-15T15:39:43Z",
+  "fetched_at": "2026-07-15T17:25:21Z",
   "events": [
     {
       "slug": "2026WTAIasi",
@@ -240,13 +240,6 @@
           "h2h": null
         },
         {
-          "a": "Anna Bondar",
-          "b": "Tamara Zidansek",
-          "a_seed": "7",
-          "b_seed": null,
-          "h2h": "2-0"
-        },
-        {
           "a": "Elina Avanesyan",
           "b": "Petra Marcinko",
           "a_seed": "Q",
@@ -260,6 +253,12 @@
           "winner": "Yulia Putintseva",
           "loser": "Alina Charaeva",
           "score": "63 63"
+        },
+        {
+          "round": "R2",
+          "winner": "Tamara Zidansek",
+          "loser": "Anna Bondar",
+          "score": "76(5) 67(5) 75"
         },
         {
           "round": "R1",
@@ -584,13 +583,6 @@
           "h2h": null
         },
         {
-          "a": "Elena Micic",
-          "b": "Qinwen Zheng",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Mai Hontama",
           "b": "Alycia Parks",
           "a_seed": null,
@@ -620,6 +612,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Qinwen Zheng",
+          "loser": "Elena Micic",
+          "score": "64 61"
+        },
         {
           "round": "R1",
           "winner": "Clara Tauson",
@@ -1299,25 +1297,11 @@
           "h2h": null
         },
         {
-          "a": "Kristina Penickova",
-          "b": "Aliona Falei",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Vera Zvonareva",
           "b": "Viktoria Hruncakova",
           "a_seed": null,
           "b_seed": null,
           "h2h": null
-        },
-        {
-          "a": "Gabriela Andrea Knutson",
-          "b": "Lanlana Tararudee",
-          "a_seed": "2",
-          "b_seed": null,
-          "h2h": "0-1"
         },
         {
           "a": "Hanne Vandewinkel",
@@ -1339,6 +1323,18 @@
           "winner": "Harmony Tan",
           "loser": "Anastasia Gasanova",
           "score": "61 64"
+        },
+        {
+          "round": "R2",
+          "winner": "Aliona Falei",
+          "loser": "Kristina Penickova",
+          "score": "75 36 63"
+        },
+        {
+          "round": "R2",
+          "winner": "Lanlana Tararudee",
+          "loser": "Gabriela Andrea Knutson",
+          "score": "46 64 61"
         },
         {
           "round": "R1",
