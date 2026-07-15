@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-15T09:16:54Z",
+  "fetched_at": "2026-07-15T11:41:30Z",
   "events": [
     {
       "slug": "2026WTAIasi",
@@ -937,13 +937,6 @@
           "h2h": null
         },
         {
-          "a": "Julia Grabher",
-          "b": "Ekaterina Perelygina",
-          "a_seed": "4",
-          "b_seed": "WC",
-          "h2h": null
-        },
-        {
           "a": "Polona Hercog",
           "b": "Jeline Vandromme",
           "a_seed": "7",
@@ -980,6 +973,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Julia Grabher",
+          "loser": "Ekaterina Perelygina",
+          "score": "75 63"
+        },
         {
           "round": "R1",
           "winner": "Veronika Erjavec",
@@ -1641,13 +1640,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Elizara Yaneva",
-          "b": "Sofya Lansere",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Aurora Zantedeschi",
           "b": "Martina Trevisan",
           "a_seed": "WC",
@@ -1666,13 +1658,6 @@
           "b": "Noma Noha Akugue",
           "a_seed": "6",
           "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Lola Radivojevic",
-          "b": "Deborah Chiesa",
-          "a_seed": "5",
-          "b_seed": "WC",
           "h2h": null
         },
         {
@@ -1698,6 +1683,18 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Elizara Yaneva",
+          "loser": "Sofya Lansere",
+          "score": "62 76(4)"
+        },
+        {
+          "round": "R2",
+          "winner": "Deborah Chiesa",
+          "loser": "Lola Radivojevic",
+          "score": "62 62"
+        },
         {
           "round": "R1",
           "winner": "Elizara Yaneva",
