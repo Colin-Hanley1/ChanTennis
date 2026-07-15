@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-15T17:25:21Z",
+  "fetched_at": "2026-07-15T19:23:44Z",
   "events": [
     {
       "slug": "2026WTAIasi",
@@ -219,13 +219,6 @@
           "h2h": "1-0"
         },
         {
-          "a": "Clara Burel",
-          "b": "Elsa Jacquemot",
-          "a_seed": "WC",
-          "b_seed": "8",
-          "h2h": "6-1"
-        },
-        {
           "a": "Panna Udvardy",
           "b": "Katarzyna Kawa",
           "a_seed": "5",
@@ -253,6 +246,12 @@
           "winner": "Yulia Putintseva",
           "loser": "Alina Charaeva",
           "score": "63 63"
+        },
+        {
+          "round": "R2",
+          "winner": "Clara Burel",
+          "loser": "Elsa Jacquemot",
+          "score": "61 61"
         },
         {
           "round": "R2",
@@ -590,13 +589,6 @@
           "h2h": "1-1"
         },
         {
-          "a": "Harriet Dart",
-          "b": "Maria Sakkari",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
           "a": "Tereza Valentova",
           "b": "Aliaksandra Sasnovich",
           "a_seed": "7",
@@ -617,6 +609,12 @@
           "winner": "Qinwen Zheng",
           "loser": "Elena Micic",
           "score": "64 61"
+        },
+        {
+          "round": "R2",
+          "winner": "Maria Sakkari",
+          "loser": "Harriet Dart",
+          "score": "61 62"
         },
         {
           "round": "R1",
@@ -1645,20 +1643,6 @@
           "h2h": null
         },
         {
-          "a": "Francesca Jones",
-          "b": "Federica Urgesi",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Darya Astakhova",
-          "b": "Noma Noha Akugue",
-          "a_seed": "6",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Teodora Kostovic",
           "b": "Lucia Bronzetti",
           "a_seed": "4",
@@ -1678,6 +1662,13 @@
           "a_seed": null,
           "b_seed": null,
           "h2h": "2-0"
+        },
+        {
+          "a": "Francesca Jones",
+          "b": "Noma Noha Akugue",
+          "a_seed": "3",
+          "b_seed": "6",
+          "h2h": "1-0"
         }
       ],
       "completed": [
@@ -1686,6 +1677,18 @@
           "winner": "Elizara Yaneva",
           "loser": "Sofya Lansere",
           "score": "62 76(4)"
+        },
+        {
+          "round": "R2",
+          "winner": "Francesca Jones",
+          "loser": "Federica Urgesi",
+          "score": "26 64 61"
+        },
+        {
+          "round": "R2",
+          "winner": "Noma Noha Akugue",
+          "loser": "Darya Astakhova",
+          "score": "57 62 63"
         },
         {
           "round": "R2",
