@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-16T17:38:03Z",
+  "fetched_at": "2026-07-16T18:45:12Z",
   "source": "espn",
   "matches": [
     {
@@ -132,6 +132,13 @@
       "winner": "Daniel Merida",
       "loser": "Titouan Droguet",
       "score": "6-1 6-3",
+      "round": "Quarterfinal",
+      "event": "2026ATPUmag"
+    },
+    {
+      "winner": "Roman Andres Burruchaga",
+      "loser": "Camilo Ugo Carabelli",
+      "score": "6-2 2-6 6-3",
       "round": "Quarterfinal",
       "event": "2026ATPUmag"
     },
@@ -344,6 +351,12 @@
       "winner": "Adolfo Daniel Vallejo",
       "loser": "Botic Van De Zandschulp",
       "score": "4-6 6-3 7-6",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Alejandro Tabilo",
+      "loser": "Lautaro Midon",
+      "score": "6-4 6-7 6-4",
       "round": "Round 2"
     },
     {
