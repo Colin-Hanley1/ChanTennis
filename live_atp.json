@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-16T15:08:22Z",
+  "fetched_at": "2026-07-16T16:08:30Z",
   "source": "espn",
   "matches": [
     {
@@ -127,6 +127,13 @@
       "score": "4-6 6-3 6-4",
       "round": "Round 2",
       "event": "2026ATPGstaad"
+    },
+    {
+      "winner": "Daniel Merida",
+      "loser": "Titouan Droguet",
+      "score": "6-1 6-3",
+      "round": "Quarterfinal",
+      "event": "2026ATPUmag"
     },
     {
       "winner": "Alex Molcan",
