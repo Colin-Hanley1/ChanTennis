@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-16T18:45:12Z",
+  "fetched_at": "2026-07-16T19:23:25Z",
   "source": "espn",
   "matches": [
     {
@@ -374,6 +374,12 @@
     {
       "winner": "Nuno Borges",
       "loser": "Grigor Dimitrov",
+      "score": "6-4 6-2",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Sebastian Baez",
+      "loser": "Jesper de Jong",
       "score": "6-4 6-2",
       "round": "Round 2"
     },
