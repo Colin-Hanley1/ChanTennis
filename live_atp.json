@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-16T19:23:25Z",
+  "fetched_at": "2026-07-16T19:54:53Z",
   "source": "espn",
   "matches": [
     {
@@ -127,6 +127,13 @@
       "score": "4-6 6-3 6-4",
       "round": "Round 2",
       "event": "2026ATPGstaad"
+    },
+    {
+      "winner": "Damir Dzumhur",
+      "loser": "Matteo Arnaldi",
+      "score": "7-6 6-7 7-6",
+      "round": "Quarterfinal",
+      "event": "2026ATPUmag"
     },
     {
       "winner": "Daniel Merida",
