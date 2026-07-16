@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-16T12:51:48Z",
+  "fetched_at": "2026-07-16T14:51:32Z",
   "source": "espn",
   "matches": [
     {
@@ -94,6 +94,13 @@
       "event": "2026ATPGstaad"
     },
     {
+      "winner": "Casper Ruud",
+      "loser": "Jaime Faria",
+      "score": "6-7 6-4 6-2",
+      "round": "Round 2",
+      "event": "2026ATPGstaad"
+    },
+    {
       "winner": "Juan Manuel Cerundolo",
       "loser": "Miomir Kecmanovic",
       "score": "3-6 6-3 7-5",
@@ -104,6 +111,13 @@
       "winner": "Raphael Collignon",
       "loser": "Lorenzo Sonego",
       "score": "7-6 7-6",
+      "round": "Round 2",
+      "event": "2026ATPGstaad"
+    },
+    {
+      "winner": "Stefanos Tsitsipas",
+      "loser": "Jerome Kym",
+      "score": "6-4 6-7 7-6",
       "round": "Round 2",
       "event": "2026ATPGstaad"
     },
@@ -323,6 +337,12 @@
       "winner": "Adolfo Daniel Vallejo",
       "loser": "Botic Van De Zandschulp",
       "score": "4-6 6-3 7-6",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Andrey Rublev",
+      "loser": "Andrea Pellegrino",
+      "score": "7-6 6-7 6-3",
       "round": "Round 2"
     },
     {
