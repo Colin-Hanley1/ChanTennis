@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-16T21:45:22Z",
+  "fetched_at": "2026-07-16T22:47:00Z",
   "source": "espn",
   "matches": [
     {
@@ -127,6 +127,13 @@
       "score": "4-6 6-3 6-4",
       "round": "Round 2",
       "event": "2026ATPGstaad"
+    },
+    {
+      "winner": "Alex Molcan",
+      "loser": "Alejandro Davidovich Fokina",
+      "score": "3-6 6-1 6-2",
+      "round": "Quarterfinal",
+      "event": "2026ATPUmag"
     },
     {
       "winner": "Damir Dzumhur",
