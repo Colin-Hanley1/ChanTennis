@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-17T14:49:03Z",
+  "fetched_at": "2026-07-17T16:21:33Z",
   "events": [
     {
       "slug": "2026WTAIasi",
@@ -963,9 +963,9 @@
       "r1_matches": [
         {
           "a": "Veronika Erjavec",
-          "b": "Gina Feistel",
+          "b": "Julia Grabher",
           "a_seed": "1",
-          "b_seed": "Q",
+          "b_seed": "4",
           "h2h": null
         },
         {
@@ -977,6 +977,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Veronika Erjavec",
+          "loser": "Gina Feistel",
+          "score": "62 75"
+        },
         {
           "round": "QF",
           "winner": "Julia Grabher",
@@ -1345,18 +1351,18 @@
       ],
       "r1_matches": [
         {
-          "a": "Hanne Vandewinkel",
-          "b": "Harmony Tan",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Vendula Valdmannova",
           "b": "Aliona Falei",
           "a_seed": null,
           "b_seed": null,
           "h2h": "1-0"
+        },
+        {
+          "a": "Anastasia Zakharova",
+          "b": "Hanne Vandewinkel",
+          "a_seed": "1",
+          "b_seed": "3",
+          "h2h": null
         }
       ],
       "completed": [
@@ -1365,6 +1371,12 @@
           "winner": "Anastasia Zakharova",
           "loser": "Tatiana Prozorova",
           "score": "63 63"
+        },
+        {
+          "round": "QF",
+          "winner": "Hanne Vandewinkel",
+          "loser": "Harmony Tan",
+          "score": ""
         },
         {
           "round": "QF",
