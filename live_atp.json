@@ -1,7 +1,14 @@
 {
-  "fetched_at": "2026-07-17T12:19:16Z",
+  "fetched_at": "2026-07-17T14:09:33Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Juan Manuel Cerundolo",
+      "loser": "Casper Ruud",
+      "score": "3-6 7-5 6-2",
+      "round": "Quarterfinal",
+      "event": "2026ATPGstaad"
+    },
     {
       "winner": "Raphael Collignon",
       "loser": "Valentin Vacherot",
@@ -314,6 +321,12 @@
       "winner": "Adolfo Daniel Vallejo",
       "loser": "Stefano Travaglia",
       "score": "7-6 6-2",
+      "round": "Quarterfinal"
+    },
+    {
+      "winner": "Luciano Darderi",
+      "loser": "Nuno Borges",
+      "score": "7-6 6-4",
       "round": "Quarterfinal"
     },
     {
