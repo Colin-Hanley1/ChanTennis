@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-17T20:11:42Z",
+  "fetched_at": "2026-07-17T22:00:06Z",
   "events": [
     {
       "slug": "2026WTAIasi",
@@ -205,18 +205,18 @@
       ],
       "r1_matches": [
         {
-          "a": "Tamara Zidansek",
-          "b": "Petra Marcinko",
-          "a_seed": "2",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
           "a": "Mayar Sherif",
           "b": "Oleksandra Oliynykova",
           "a_seed": "3",
           "b_seed": null,
           "h2h": "0-3"
+        },
+        {
+          "a": "Paula Badosa",
+          "b": "Tamara Zidansek",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "0-1"
         }
       ],
       "completed": [
@@ -237,6 +237,12 @@
           "winner": "Paula Badosa",
           "loser": "Panna Udvardy",
           "score": "64 76(2)"
+        },
+        {
+          "round": "QF",
+          "winner": "Tamara Zidansek",
+          "loser": "Petra Marcinko",
+          "score": "63 75"
         },
         {
           "round": "R2",
@@ -589,10 +595,10 @@
       "r1_matches": [
         {
           "a": "Clara Tauson",
-          "b": "Sara Bejlek",
+          "b": "Barbora Krejcikova",
           "a_seed": "1",
-          "b_seed": "5",
-          "h2h": "0-1"
+          "b_seed": "3",
+          "h2h": "1-1"
         },
         {
           "a": "Maria Sakkari",
@@ -603,6 +609,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Clara Tauson",
+          "loser": "Sara Bejlek",
+          "score": "62 63"
+        },
         {
           "round": "QF",
           "winner": "Barbora Krejcikova",
@@ -1749,18 +1761,18 @@
       ],
       "r1_matches": [
         {
-          "a": "Deborah Chiesa",
-          "b": "Lucia Bronzetti",
-          "a_seed": "WC",
-          "b_seed": "4",
-          "h2h": "4-0"
-        },
-        {
           "a": "Martina Trevisan",
           "b": "Francesca Jones",
           "a_seed": "WC",
           "b_seed": "3",
           "h2h": null
+        },
+        {
+          "a": "Lucia Bronzetti",
+          "b": "Nuria Brancaccio",
+          "a_seed": "4",
+          "b_seed": "7",
+          "h2h": "2-1"
         }
       ],
       "completed": [
@@ -1775,6 +1787,12 @@
           "winner": "Francesca Jones",
           "loser": "Noma Noha Akugue",
           "score": "63 61"
+        },
+        {
+          "round": "QF",
+          "winner": "Lucia Bronzetti",
+          "loser": "Deborah Chiesa",
+          "score": "26 63 62"
         },
         {
           "round": "QF",
