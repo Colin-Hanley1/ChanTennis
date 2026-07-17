@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-17T18:11:51Z",
+  "fetched_at": "2026-07-17T20:11:42Z",
   "events": [
     {
       "slug": "2026WTAIasi",
@@ -205,13 +205,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Panna Udvardy",
-          "b": "Paula Badosa",
-          "a_seed": "5",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Tamara Zidansek",
           "b": "Petra Marcinko",
           "a_seed": "2",
@@ -238,6 +231,12 @@
           "winner": "Oleksandra Oliynykova",
           "loser": "Clara Burel",
           "score": "64 75"
+        },
+        {
+          "round": "QF",
+          "winner": "Paula Badosa",
+          "loser": "Panna Udvardy",
+          "score": "64 76(2)"
         },
         {
           "round": "R2",
@@ -596,11 +595,11 @@
           "h2h": "0-1"
         },
         {
-          "a": "Alycia Parks",
-          "b": "Maria Sakkari",
+          "a": "Maria Sakkari",
+          "b": "Alina Korneeva",
           "a_seed": "4",
           "b_seed": null,
-          "h2h": "2-0"
+          "h2h": null
         }
       ],
       "completed": [
@@ -609,6 +608,12 @@
           "winner": "Barbora Krejcikova",
           "loser": "Qinwen Zheng",
           "score": "64 64"
+        },
+        {
+          "round": "QF",
+          "winner": "Maria Sakkari",
+          "loser": "Alycia Parks",
+          "score": "64 63"
         },
         {
           "round": "QF",
@@ -1744,13 +1749,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Elizara Yaneva",
-          "b": "Martina Trevisan",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Deborah Chiesa",
           "b": "Lucia Bronzetti",
           "a_seed": "WC",
@@ -1758,19 +1756,31 @@
           "h2h": "4-0"
         },
         {
-          "a": "Nuria Brancaccio",
-          "b": "Julia Riera",
-          "a_seed": "7",
-          "b_seed": null,
-          "h2h": "2-3"
+          "a": "Martina Trevisan",
+          "b": "Francesca Jones",
+          "a_seed": "WC",
+          "b_seed": "3",
+          "h2h": null
         }
       ],
       "completed": [
         {
           "round": "QF",
+          "winner": "Martina Trevisan",
+          "loser": "Elizara Yaneva",
+          "score": "46 62 62"
+        },
+        {
+          "round": "QF",
           "winner": "Francesca Jones",
           "loser": "Noma Noha Akugue",
           "score": "63 61"
+        },
+        {
+          "round": "QF",
+          "winner": "Nuria Brancaccio",
+          "loser": "Julia Riera",
+          "score": "63 16 76(5)"
         },
         {
           "round": "R2",
