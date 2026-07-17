@@ -1,7 +1,14 @@
 {
-  "fetched_at": "2026-07-17T10:06:46Z",
+  "fetched_at": "2026-07-17T11:01:30Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Raphael Collignon",
+      "loser": "Valentin Vacherot",
+      "score": "7-6 4-6 7-5",
+      "round": "Quarterfinal",
+      "event": "2026ATPGstaad"
+    },
     {
       "winner": "Aleksandr Shevchenko",
       "loser": "Alexandre Muller",
@@ -288,6 +295,12 @@
       "score": "6-1 1-6 7-5",
       "round": "Round 2",
       "event": "2026ATPUmag"
+    },
+    {
+      "winner": "Adolfo Daniel Vallejo",
+      "loser": "Stefano Travaglia",
+      "score": "7-6 6-2",
+      "round": "Quarterfinal"
     },
     {
       "winner": "Adolfo Daniel Vallejo",
