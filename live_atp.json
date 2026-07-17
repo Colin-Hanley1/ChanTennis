@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-17T17:45:35Z",
+  "fetched_at": "2026-07-17T18:11:45Z",
   "source": "espn",
   "matches": [
     {
@@ -20,6 +20,13 @@
       "winner": "Raphael Collignon",
       "loser": "Valentin Vacherot",
       "score": "7-6 4-6 7-5",
+      "round": "Quarterfinal",
+      "event": "2026ATPGstaad"
+    },
+    {
+      "winner": "Stefanos Tsitsipas",
+      "loser": "Arthur Rinderknech",
+      "score": "6-3 3-6 6-3",
       "round": "Quarterfinal",
       "event": "2026ATPGstaad"
     },
@@ -322,6 +329,13 @@
       "loser": "Luca Van Assche",
       "score": "6-1 1-6 7-5",
       "round": "Round 2",
+      "event": "2026ATPUmag"
+    },
+    {
+      "winner": "Daniel Merida",
+      "loser": "Roman Andres Burruchaga",
+      "score": "6-4 6-2",
+      "round": "Semifinal",
       "event": "2026ATPUmag"
     },
     {

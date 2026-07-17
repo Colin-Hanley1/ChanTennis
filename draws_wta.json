@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-17T16:21:33Z",
+  "fetched_at": "2026-07-17T18:11:51Z",
   "events": [
     {
       "slug": "2026WTAIasi",
@@ -205,13 +205,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Oleksandra Oliynykova",
-          "b": "Clara Burel",
-          "a_seed": "3",
-          "b_seed": "WC",
-          "h2h": null
-        },
-        {
           "a": "Panna Udvardy",
           "b": "Paula Badosa",
           "a_seed": "5",
@@ -224,6 +217,13 @@
           "a_seed": "2",
           "b_seed": null,
           "h2h": "0-1"
+        },
+        {
+          "a": "Mayar Sherif",
+          "b": "Oleksandra Oliynykova",
+          "a_seed": "3",
+          "b_seed": null,
+          "h2h": "0-3"
         }
       ],
       "completed": [
@@ -232,6 +232,12 @@
           "winner": "Mayar Sherif",
           "loser": "Yulia Putintseva",
           "score": "62 36 76(5)"
+        },
+        {
+          "round": "QF",
+          "winner": "Oleksandra Oliynykova",
+          "loser": "Clara Burel",
+          "score": "64 75"
         },
         {
           "round": "R2",
@@ -590,28 +596,26 @@
           "h2h": "0-1"
         },
         {
-          "a": "Barbora Krejcikova",
-          "b": "Qinwen Zheng",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": "0-2"
-        },
-        {
           "a": "Alycia Parks",
           "b": "Maria Sakkari",
           "a_seed": "4",
           "b_seed": null,
           "h2h": "2-0"
-        },
-        {
-          "a": "Tereza Valentova",
-          "b": "Alina Korneeva",
-          "a_seed": "7",
-          "b_seed": null,
-          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Barbora Krejcikova",
+          "loser": "Qinwen Zheng",
+          "score": "64 64"
+        },
+        {
+          "round": "QF",
+          "winner": "Alina Korneeva",
+          "loser": "Tereza Valentova",
+          "score": "75 63"
+        },
         {
           "round": "R2",
           "winner": "Clara Tauson",
@@ -1351,17 +1355,17 @@
       ],
       "r1_matches": [
         {
-          "a": "Vendula Valdmannova",
-          "b": "Aliona Falei",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
           "a": "Anastasia Zakharova",
           "b": "Hanne Vandewinkel",
           "a_seed": "1",
           "b_seed": "3",
+          "h2h": null
+        },
+        {
+          "a": "Vendula Valdmannova",
+          "b": "Lanlana Tararudee",
+          "a_seed": "2",
+          "b_seed": null,
           "h2h": null
         }
       ],
@@ -1377,6 +1381,12 @@
           "winner": "Hanne Vandewinkel",
           "loser": "Harmony Tan",
           "score": ""
+        },
+        {
+          "round": "QF",
+          "winner": "Vendula Valdmannova",
+          "loser": "Aliona Falei",
+          "score": "62 63"
         },
         {
           "round": "QF",
@@ -1741,13 +1751,6 @@
           "h2h": null
         },
         {
-          "a": "Francesca Jones",
-          "b": "Noma Noha Akugue",
-          "a_seed": "3",
-          "b_seed": "6",
-          "h2h": "1-0"
-        },
-        {
           "a": "Deborah Chiesa",
           "b": "Lucia Bronzetti",
           "a_seed": "WC",
@@ -1763,6 +1766,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Francesca Jones",
+          "loser": "Noma Noha Akugue",
+          "score": "63 61"
+        },
         {
           "round": "R2",
           "winner": "Elizara Yaneva",
