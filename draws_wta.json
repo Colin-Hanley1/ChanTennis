@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-17T04:14:12Z",
+  "fetched_at": "2026-07-17T07:23:40Z",
   "events": [
     {
       "slug": "2026WTAIasi",
@@ -205,30 +205,23 @@
       ],
       "r1_matches": [
         {
-          "a": "Mayar Sherif",
-          "b": "Kaitlin Quevedo",
-          "a_seed": null,
+          "a": "Yulia Putintseva",
+          "b": "Mayar Sherif",
+          "a_seed": "9",
           "b_seed": null,
           "h2h": null
         },
         {
           "a": "Oleksandra Oliynykova",
-          "b": "Elena Pridankina",
+          "b": "Clara Burel",
           "a_seed": "3",
-          "b_seed": "Q",
-          "h2h": "1-0"
+          "b_seed": "WC",
+          "h2h": null
         },
         {
           "a": "Panna Udvardy",
-          "b": "Katarzyna Kawa",
-          "a_seed": "5",
-          "b_seed": null,
-          "h2h": "1-3"
-        },
-        {
-          "a": "Alevtina Ibragimova",
           "b": "Paula Badosa",
-          "a_seed": "Q",
+          "a_seed": "5",
           "b_seed": null,
           "h2h": null
         },
@@ -249,9 +242,33 @@
         },
         {
           "round": "R2",
+          "winner": "Mayar Sherif",
+          "loser": "Kaitlin Quevedo",
+          "score": "63 76(2)"
+        },
+        {
+          "round": "R2",
+          "winner": "Oleksandra Oliynykova",
+          "loser": "Elena Pridankina",
+          "score": "61 62"
+        },
+        {
+          "round": "R2",
           "winner": "Clara Burel",
           "loser": "Elsa Jacquemot",
           "score": "61 61"
+        },
+        {
+          "round": "R2",
+          "winner": "Panna Udvardy",
+          "loser": "Katarzyna Kawa",
+          "score": "16 75 62"
+        },
+        {
+          "round": "R2",
+          "winner": "Paula Badosa",
+          "loser": "Alevtina Ibragimova",
+          "score": "76(5) 16 64"
         },
         {
           "round": "R2",
@@ -568,31 +585,17 @@
       "r1_matches": [
         {
           "a": "Clara Tauson",
-          "b": "Miriana Tona",
+          "b": "Sara Bejlek",
           "a_seed": "1",
-          "b_seed": "LL",
-          "h2h": null
+          "b_seed": "5",
+          "h2h": "0-1"
         },
         {
           "a": "Barbora Krejcikova",
-          "b": "Carole Monnet",
+          "b": "Qinwen Zheng",
           "a_seed": "3",
           "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Tereza Valentova",
-          "b": "Aliaksandra Sasnovich",
-          "a_seed": "7",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Alina Korneeva",
-          "b": "Ann Li",
-          "a_seed": "2",
-          "b_seed": null,
-          "h2h": null
+          "h2h": "0-2"
         },
         {
           "a": "Alycia Parks",
@@ -600,14 +603,33 @@
           "a_seed": "4",
           "b_seed": null,
           "h2h": "2-0"
+        },
+        {
+          "a": "Tereza Valentova",
+          "b": "Alina Korneeva",
+          "a_seed": "7",
+          "b_seed": null,
+          "h2h": null
         }
       ],
       "completed": [
         {
           "round": "R2",
+          "winner": "Clara Tauson",
+          "loser": "Miriana Tona",
+          "score": "64 60"
+        },
+        {
+          "round": "R2",
           "winner": "Sara Bejlek",
           "loser": "Lilli Tagger",
           "score": "62 62"
+        },
+        {
+          "round": "R2",
+          "winner": "Barbora Krejcikova",
+          "loser": "Carole Monnet",
+          "score": "60 62"
         },
         {
           "round": "R2",
@@ -626,6 +648,18 @@
           "winner": "Maria Sakkari",
           "loser": "Harriet Dart",
           "score": "61 62"
+        },
+        {
+          "round": "R2",
+          "winner": "Tereza Valentova",
+          "loser": "Aliaksandra Sasnovich",
+          "score": "63 62"
+        },
+        {
+          "round": "R2",
+          "winner": "Alina Korneeva",
+          "loser": "Ann Li",
+          "score": "62 62"
         },
         {
           "round": "R1",
@@ -929,39 +963,32 @@
       ],
       "r1_matches": [
         {
-          "a": "Gina Feistel",
-          "b": "Laura Samson",
-          "a_seed": "Q",
-          "b_seed": "6",
+          "a": "Veronika Erjavec",
+          "b": "Gina Feistel",
+          "a_seed": "1",
+          "b_seed": "Q",
           "h2h": null
         },
         {
-          "a": "Polona Hercog",
+          "a": "Julia Grabher",
           "b": "Jeline Vandromme",
-          "a_seed": "7",
-          "b_seed": null,
+          "a_seed": "4",
+          "b_seed": "7",
           "h2h": null
         },
         {
           "a": "Marina Bassols Ribera",
-          "b": "Arantxa Rus",
+          "b": "Maria Lourdes Carle",
           "a_seed": "5",
           "b_seed": null,
-          "h2h": "0-3"
+          "h2h": "1-0"
         },
         {
-          "a": "Maria Lourdes Carle",
-          "b": "Barbora Palicova",
-          "a_seed": "LL",
-          "b_seed": null,
-          "h2h": "2-1"
-        },
-        {
-          "a": "Eva Bennemann",
+          "a": "Erika Andreeva",
           "b": "Sinja Kraus",
-          "a_seed": "WC",
-          "b_seed": "2",
-          "h2h": null
+          "a_seed": "2",
+          "b_seed": null,
+          "h2h": "1-0"
         }
       ],
       "completed": [
@@ -973,15 +1000,45 @@
         },
         {
           "round": "R2",
+          "winner": "Gina Feistel",
+          "loser": "Laura Samson",
+          "score": "63 61"
+        },
+        {
+          "round": "R2",
           "winner": "Julia Grabher",
           "loser": "Ekaterina Perelygina",
           "score": "75 63"
         },
         {
           "round": "R2",
+          "winner": "Jeline Vandromme",
+          "loser": "Polona Hercog",
+          "score": ""
+        },
+        {
+          "round": "R2",
+          "winner": "Marina Bassols Ribera",
+          "loser": "Arantxa Rus",
+          "score": "06 61 61"
+        },
+        {
+          "round": "R2",
+          "winner": "Maria Lourdes Carle",
+          "loser": "Barbora Palicova",
+          "score": "06 61 63"
+        },
+        {
+          "round": "R2",
           "winner": "Erika Andreeva",
           "loser": "Mia Ristic",
           "score": "64 26 62"
+        },
+        {
+          "round": "R2",
+          "winner": "Sinja Kraus",
+          "loser": "Eva Bennemann",
+          "score": "61 61"
         },
         {
           "round": "R1",
@@ -1286,31 +1343,10 @@
       "r1_matches": [
         {
           "a": "Anastasia Zakharova",
-          "b": "Alexandra Shubladze",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Daria Khomutsianskaya",
           "b": "Tatiana Prozorova",
-          "a_seed": "Q",
+          "a_seed": "1",
           "b_seed": "8",
-          "h2h": "0-2"
-        },
-        {
-          "a": "Xinyu Gao",
-          "b": "Vendula Valdmannova",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Vera Zvonareva",
-          "b": "Viktoria Hruncakova",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
+          "h2h": "2-0"
         },
         {
           "a": "Hanne Vandewinkel",
@@ -1318,9 +1354,35 @@
           "a_seed": "3",
           "b_seed": null,
           "h2h": null
+        },
+        {
+          "a": "Vendula Valdmannova",
+          "b": "Aliona Falei",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "1-0"
+        },
+        {
+          "a": "Vera Zvonareva",
+          "b": "Lanlana Tararudee",
+          "a_seed": "2",
+          "b_seed": null,
+          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Anastasia Zakharova",
+          "loser": "Alexandra Shubladze",
+          "score": "76(6) 76(2)"
+        },
+        {
+          "round": "R2",
+          "winner": "Tatiana Prozorova",
+          "loser": "Daria Khomutsianskaya",
+          "score": "64 63"
+        },
         {
           "round": "R2",
           "winner": "Hanne Vandewinkel",
@@ -1335,9 +1397,21 @@
         },
         {
           "round": "R2",
+          "winner": "Vendula Valdmannova",
+          "loser": "Xinyu Gao",
+          "score": "64 63"
+        },
+        {
+          "round": "R2",
           "winner": "Aliona Falei",
           "loser": "Kristina Penickova",
           "score": "75 36 63"
+        },
+        {
+          "round": "R2",
+          "winner": "Vera Zvonareva",
+          "loser": "Viktoria Hruncakova",
+          "score": "76(4) 63"
         },
         {
           "round": "R2",
@@ -1647,32 +1721,11 @@
       ],
       "r1_matches": [
         {
-          "a": "Aurora Zantedeschi",
+          "a": "Elizara Yaneva",
           "b": "Martina Trevisan",
           "a_seed": "WC",
-          "b_seed": "WC",
-          "h2h": null
-        },
-        {
-          "a": "Teodora Kostovic",
-          "b": "Lucia Bronzetti",
-          "a_seed": "4",
           "b_seed": null,
           "h2h": null
-        },
-        {
-          "a": "Nuria Brancaccio",
-          "b": "Eva Vedder",
-          "a_seed": "7",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
-          "a": "Danka Kovinic",
-          "b": "Julia Riera",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "2-0"
         },
         {
           "a": "Francesca Jones",
@@ -1680,6 +1733,20 @@
           "a_seed": "3",
           "b_seed": "6",
           "h2h": "1-0"
+        },
+        {
+          "a": "Deborah Chiesa",
+          "b": "Lucia Bronzetti",
+          "a_seed": "WC",
+          "b_seed": "4",
+          "h2h": "4-0"
+        },
+        {
+          "a": "Nuria Brancaccio",
+          "b": "Julia Riera",
+          "a_seed": "7",
+          "b_seed": null,
+          "h2h": "2-3"
         }
       ],
       "completed": [
@@ -1688,6 +1755,12 @@
           "winner": "Elizara Yaneva",
           "loser": "Sofya Lansere",
           "score": "62 76(4)"
+        },
+        {
+          "round": "R2",
+          "winner": "Martina Trevisan",
+          "loser": "Aurora Zantedeschi",
+          "score": "61 76(1)"
         },
         {
           "round": "R2",
@@ -1706,6 +1779,24 @@
           "winner": "Deborah Chiesa",
           "loser": "Lola Radivojevic",
           "score": "62 62"
+        },
+        {
+          "round": "R2",
+          "winner": "Lucia Bronzetti",
+          "loser": "Teodora Kostovic",
+          "score": "64 64"
+        },
+        {
+          "round": "R2",
+          "winner": "Nuria Brancaccio",
+          "loser": "Eva Vedder",
+          "score": "61 62"
+        },
+        {
+          "round": "R2",
+          "winner": "Julia Riera",
+          "loser": "Danka Kovinic",
+          "score": "36 75 75"
         },
         {
           "round": "R1",
