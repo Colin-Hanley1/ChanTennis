@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-17T10:06:52Z",
+  "fetched_at": "2026-07-17T12:16:31Z",
   "events": [
     {
       "slug": "2026WTAIasi",
@@ -982,16 +982,15 @@
           "a_seed": "5",
           "b_seed": null,
           "h2h": "1-0"
-        },
-        {
-          "a": "Erika Andreeva",
-          "b": "Sinja Kraus",
-          "a_seed": "2",
-          "b_seed": null,
-          "h2h": "1-0"
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Sinja Kraus",
+          "loser": "Erika Andreeva",
+          "score": "64 61"
+        },
         {
           "round": "R2",
           "winner": "Veronika Erjavec",

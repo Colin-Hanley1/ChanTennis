@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-17T11:01:30Z",
+  "fetched_at": "2026-07-17T12:16:25Z",
   "source": "espn",
   "matches": [
     {
@@ -94,6 +94,13 @@
       "event": "2026ATPGstaad"
     },
     {
+      "winner": "Aleksandr Shevchenko",
+      "loser": "Dominic Stricker",
+      "score": "7-6 6-2",
+      "round": "Round 2",
+      "event": "2026ATPGstaad"
+    },
+    {
       "winner": "Arthur Rinderknech",
       "loser": "Clement Tabur",
       "score": "6-7 7-6 7-5",
@@ -111,6 +118,13 @@
       "winner": "Juan Manuel Cerundolo",
       "loser": "Miomir Kecmanovic",
       "score": "3-6 6-3 7-5",
+      "round": "Round 2",
+      "event": "2026ATPGstaad"
+    },
+    {
+      "winner": "Quentin Halys",
+      "loser": "Alexander Bublik",
+      "score": "6-7 6-4 7-6",
       "round": "Round 2",
       "event": "2026ATPGstaad"
     },
