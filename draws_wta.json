@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-17T12:16:31Z",
+  "fetched_at": "2026-07-17T14:49:03Z",
   "events": [
     {
       "slug": "2026WTAIasi",
@@ -205,13 +205,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Yulia Putintseva",
-          "b": "Mayar Sherif",
-          "a_seed": "9",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Oleksandra Oliynykova",
           "b": "Clara Burel",
           "a_seed": "3",
@@ -234,6 +227,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Mayar Sherif",
+          "loser": "Yulia Putintseva",
+          "score": "62 36 76(5)"
+        },
         {
           "round": "R2",
           "winner": "Yulia Putintseva",
@@ -970,21 +969,26 @@
           "h2h": null
         },
         {
-          "a": "Julia Grabher",
-          "b": "Jeline Vandromme",
-          "a_seed": "4",
-          "b_seed": "7",
-          "h2h": null
-        },
-        {
           "a": "Marina Bassols Ribera",
-          "b": "Maria Lourdes Carle",
+          "b": "Sinja Kraus",
           "a_seed": "5",
-          "b_seed": null,
-          "h2h": "1-0"
+          "b_seed": "2",
+          "h2h": "0-1"
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Julia Grabher",
+          "loser": "Jeline Vandromme",
+          "score": "62 76(5)"
+        },
+        {
+          "round": "QF",
+          "winner": "Marina Bassols Ribera",
+          "loser": "Maria Lourdes Carle",
+          "score": "62 61"
+        },
         {
           "round": "QF",
           "winner": "Sinja Kraus",
@@ -1341,13 +1345,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Anastasia Zakharova",
-          "b": "Tatiana Prozorova",
-          "a_seed": "1",
-          "b_seed": "8",
-          "h2h": "2-0"
-        },
-        {
           "a": "Hanne Vandewinkel",
           "b": "Harmony Tan",
           "a_seed": "3",
@@ -1360,16 +1357,21 @@
           "a_seed": null,
           "b_seed": null,
           "h2h": "1-0"
-        },
-        {
-          "a": "Vera Zvonareva",
-          "b": "Lanlana Tararudee",
-          "a_seed": "2",
-          "b_seed": null,
-          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Anastasia Zakharova",
+          "loser": "Tatiana Prozorova",
+          "score": "63 63"
+        },
+        {
+          "round": "QF",
+          "winner": "Lanlana Tararudee",
+          "loser": "Vera Zvonareva",
+          "score": "63 62"
+        },
         {
           "round": "R2",
           "winner": "Anastasia Zakharova",
