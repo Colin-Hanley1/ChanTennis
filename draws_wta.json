@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-18T17:08:07Z",
+  "fetched_at": "2026-07-18T19:15:32Z",
   "events": [
     {
       "slug": "2026WTAIasi",
@@ -598,16 +598,15 @@
           "a_seed": "1",
           "b_seed": "3",
           "h2h": "1-1"
-        },
-        {
-          "a": "Maria Sakkari",
-          "b": "Alina Korneeva",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Maria Sakkari",
+          "loser": "Alina Korneeva",
+          "score": "61 75"
+        },
         {
           "round": "QF",
           "winner": "Clara Tauson",
@@ -1376,14 +1375,20 @@
       ],
       "r1_matches": [
         {
-          "a": "Anastasia Zakharova",
-          "b": "Hanne Vandewinkel",
-          "a_seed": "1",
-          "b_seed": "3",
+          "a": "Hanne Vandewinkel",
+          "b": "Lanlana Tararudee",
+          "a_seed": "3",
+          "b_seed": "2",
           "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Hanne Vandewinkel",
+          "loser": "Anastasia Zakharova",
+          "score": "63 63"
+        },
         {
           "round": "SF",
           "winner": "Lanlana Tararudee",
@@ -1769,16 +1774,15 @@
           "a_seed": "WC",
           "b_seed": "3",
           "h2h": null
-        },
-        {
-          "a": "Lucia Bronzetti",
-          "b": "Nuria Brancaccio",
-          "a_seed": "4",
-          "b_seed": "7",
-          "h2h": "2-1"
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Lucia Bronzetti",
+          "loser": "Nuria Brancaccio",
+          "score": "64 57 60"
+        },
         {
           "round": "QF",
           "winner": "Martina Trevisan",

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-18T18:05:26Z",
+  "fetched_at": "2026-07-18T19:15:26Z",
   "source": "espn",
   "matches": [
     {
@@ -183,6 +183,13 @@
       "score": "6-4 3-6 6-3",
       "round": "Semifinal",
       "event": "2026ATPGstaad"
+    },
+    {
+      "winner": "Daniel Merida",
+      "loser": "Damir Dzumhur",
+      "score": "6-2 5-7 6-2",
+      "round": "Final",
+      "event": "2026ATPUmag"
     },
     {
       "winner": "Alex Molcan",
