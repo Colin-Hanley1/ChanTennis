@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-18T13:39:02Z",
+  "fetched_at": "2026-07-18T14:05:35Z",
   "source": "espn",
   "matches": [
     {
@@ -174,6 +174,13 @@
       "winner": "Raphael Collignon",
       "loser": "Juan Manuel Cerundolo",
       "score": "1-6 7-6 7-5",
+      "round": "Semifinal",
+      "event": "2026ATPGstaad"
+    },
+    {
+      "winner": "Stefanos Tsitsipas",
+      "loser": "Aleksandr Shevchenko",
+      "score": "6-4 3-6 6-3",
       "round": "Semifinal",
       "event": "2026ATPGstaad"
     },
