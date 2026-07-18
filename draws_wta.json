@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-18T15:02:55Z",
+  "fetched_at": "2026-07-18T16:04:23Z",
   "events": [
     {
       "slug": "2026WTAIasi",
@@ -1382,16 +1382,15 @@
           "a_seed": "1",
           "b_seed": "3",
           "h2h": null
-        },
-        {
-          "a": "Vendula Valdmannova",
-          "b": "Lanlana Tararudee",
-          "a_seed": "2",
-          "b_seed": null,
-          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Lanlana Tararudee",
+          "loser": "Vendula Valdmannova",
+          "score": "62 60"
+        },
         {
           "round": "QF",
           "winner": "Anastasia Zakharova",
