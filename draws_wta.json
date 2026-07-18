@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-18T11:58:32Z",
+  "fetched_at": "2026-07-18T13:39:08Z",
   "events": [
     {
       "slug": "2026WTAIasi",
@@ -988,16 +988,15 @@
           "a_seed": "1",
           "b_seed": "4",
           "h2h": null
-        },
-        {
-          "a": "Marina Bassols Ribera",
-          "b": "Sinja Kraus",
-          "a_seed": "5",
-          "b_seed": "2",
-          "h2h": "0-1"
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Sinja Kraus",
+          "loser": "Marina Bassols Ribera",
+          "score": "36 64 61"
+        },
         {
           "round": "QF",
           "winner": "Veronika Erjavec",
