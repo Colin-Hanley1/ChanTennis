@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-18T11:34:12Z",
+  "fetched_at": "2026-07-18T11:58:27Z",
   "source": "espn",
   "matches": [
     {
@@ -168,6 +168,13 @@
       "loser": "Yannick Hanfmann",
       "score": "4-6 6-3 6-4",
       "round": "Round 2",
+      "event": "2026ATPGstaad"
+    },
+    {
+      "winner": "Raphael Collignon",
+      "loser": "Juan Manuel Cerundolo",
+      "score": "1-6 7-6 7-5",
+      "round": "Semifinal",
       "event": "2026ATPGstaad"
     },
     {
