@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-18T19:15:32Z",
+  "fetched_at": "2026-07-18T20:59:40Z",
   "events": [
     {
       "slug": "2026WTAIasi",
@@ -205,11 +205,11 @@
       ],
       "r1_matches": [
         {
-          "a": "Paula Badosa",
-          "b": "Tamara Zidansek",
+          "a": "Mayar Sherif",
+          "b": "Paula Badosa",
           "a_seed": null,
           "b_seed": null,
-          "h2h": "0-1"
+          "h2h": "1-1"
         }
       ],
       "completed": [
@@ -218,6 +218,12 @@
           "winner": "Mayar Sherif",
           "loser": "Oleksandra Oliynykova",
           "score": "63 61"
+        },
+        {
+          "round": "SF",
+          "winner": "Paula Badosa",
+          "loser": "Tamara Zidansek",
+          "score": "36 75 76(1)"
         },
         {
           "round": "QF",
@@ -1769,14 +1775,20 @@
       ],
       "r1_matches": [
         {
-          "a": "Martina Trevisan",
-          "b": "Francesca Jones",
-          "a_seed": "WC",
-          "b_seed": "3",
-          "h2h": null
+          "a": "Francesca Jones",
+          "b": "Lucia Bronzetti",
+          "a_seed": "3",
+          "b_seed": "4",
+          "h2h": "1-0"
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Francesca Jones",
+          "loser": "Martina Trevisan",
+          "score": "26 61 61"
+        },
         {
           "round": "SF",
           "winner": "Lucia Bronzetti",
