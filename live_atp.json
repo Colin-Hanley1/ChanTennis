@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-18T16:08:33Z",
+  "fetched_at": "2026-07-18T17:08:02Z",
   "source": "espn",
   "matches": [
     {
@@ -496,6 +496,12 @@
       "loser": "Nikoloz Basilashvili",
       "score": "7-5 3-6 6-4",
       "round": "Round 2"
+    },
+    {
+      "winner": "Andrey Rublev",
+      "loser": "Alejandro Tabilo",
+      "score": "6-4 4-6 6-4",
+      "round": "Semifinal"
     },
     {
       "winner": "Luciano Darderi",

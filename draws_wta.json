@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-18T16:04:23Z",
+  "fetched_at": "2026-07-18T17:08:07Z",
   "events": [
     {
       "slug": "2026WTAIasi",
@@ -205,13 +205,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Mayar Sherif",
-          "b": "Oleksandra Oliynykova",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": "0-3"
-        },
-        {
           "a": "Paula Badosa",
           "b": "Tamara Zidansek",
           "a_seed": null,
@@ -220,6 +213,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Mayar Sherif",
+          "loser": "Oleksandra Oliynykova",
+          "score": "63 61"
+        },
         {
           "round": "QF",
           "winner": "Mayar Sherif",
