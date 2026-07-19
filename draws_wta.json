@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-19T13:41:49Z",
+  "fetched_at": "2026-07-19T15:04:05Z",
   "events": [
     {
       "slug": "2026WTAIasi",
@@ -991,16 +991,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Julia Grabher",
-          "b": "Sinja Kraus",
-          "a_seed": "4",
-          "b_seed": "2",
-          "h2h": "1-1"
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Sinja Kraus",
+          "loser": "Julia Grabher",
+          "score": "63 61"
+        },
         {
           "round": "SF",
           "winner": "Julia Grabher",
