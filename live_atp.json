@@ -1,7 +1,14 @@
 {
-  "fetched_at": "2026-07-19T11:25:55Z",
+  "fetched_at": "2026-07-19T12:10:54Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Stefanos Tsitsipas",
+      "loser": "Raphael Collignon",
+      "score": "6-4 6-7 6-3",
+      "round": "Final",
+      "event": "2026ATPGstaad"
+    },
     {
       "winner": "Aleksandr Shevchenko",
       "loser": "Quentin Halys",
