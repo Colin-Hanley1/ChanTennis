@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-19T19:17:02Z",
+  "fetched_at": "2026-07-19T21:01:45Z",
   "events": [
     {
       "slug": "2026WTAIasi",
@@ -597,16 +597,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Barbora Krejcikova",
-          "b": "Maria Sakkari",
-          "a_seed": "3",
-          "b_seed": "4",
-          "h2h": "3-0"
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Barbora Krejcikova",
+          "loser": "Maria Sakkari",
+          "score": "76(5) 63"
+        },
         {
           "round": "SF",
           "winner": "Barbora Krejcikova",
