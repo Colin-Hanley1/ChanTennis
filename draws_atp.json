@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-18T23:59:52Z",
+  "fetched_at": "2026-07-19T03:38:13Z",
   "events": [
     {
       "slug": "2026ATPBastad",
@@ -194,20 +194,25 @@
       "r1_matches": [
         {
           "a": "Andrey Rublev",
-          "b": "Alejandro Tabilo",
-          "a_seed": "1",
-          "b_seed": "3",
-          "h2h": "1-1"
-        },
-        {
-          "a": "Adolfo Daniel Vallejo",
           "b": "Luciano Darderi",
-          "a_seed": "2",
-          "b_seed": null,
-          "h2h": null
+          "a_seed": "1",
+          "b_seed": "2",
+          "h2h": "1-0"
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Andrey Rublev",
+          "loser": "Alejandro Tabilo",
+          "score": "6-4 4-6 6-4"
+        },
+        {
+          "round": "SF",
+          "winner": "Luciano Darderi",
+          "loser": "Adolfo Daniel Vallejo",
+          "score": "6-4 6-7(11) 6-3"
+        },
         {
           "round": "QF",
           "winner": "Andrey Rublev",
@@ -546,21 +551,26 @@
       ],
       "r1_matches": [
         {
-          "a": "Alexander Shevchenko",
-          "b": "Stefanos Tsitsipas",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
-          "a": "Raphael Collignon",
-          "b": "Juan Manuel Cerundolo",
+          "a": "Stefanos Tsitsipas",
+          "b": "Raphael Collignon",
           "a_seed": "7",
-          "b_seed": "6",
-          "h2h": "0-3"
+          "b_seed": null,
+          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Stefanos Tsitsipas",
+          "loser": "Alexander Shevchenko",
+          "score": "6-4 3-6 6-3"
+        },
+        {
+          "round": "SF",
+          "winner": "Raphael Collignon",
+          "loser": "Juan Manuel Cerundolo",
+          "score": "1-6 7-6(5) 7-5"
+        },
         {
           "round": "QF",
           "winner": "Alexander Shevchenko",
@@ -897,16 +907,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Daniel Merida Aguilar",
-          "b": "Damir Dzumhur",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Daniel Merida Aguilar",
+          "loser": "Damir Dzumhur",
+          "score": "6-2 5-7 6-2"
+        },
         {
           "round": "SF",
           "winner": "Daniel Merida Aguilar",
