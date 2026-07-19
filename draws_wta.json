@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-19T17:11:08Z",
+  "fetched_at": "2026-07-19T19:17:02Z",
   "events": [
     {
       "slug": "2026WTAIasi",
@@ -1383,16 +1383,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Hanne Vandewinkel",
-          "b": "Lanlana Tararudee",
-          "a_seed": "3",
-          "b_seed": "2",
-          "h2h": null
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Lanlana Tararudee",
+          "loser": "Hanne Vandewinkel",
+          "score": "64 46 63"
+        },
         {
           "round": "SF",
           "winner": "Hanne Vandewinkel",
@@ -1777,16 +1775,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Francesca Jones",
-          "b": "Lucia Bronzetti",
-          "a_seed": "3",
-          "b_seed": "4",
-          "h2h": "1-0"
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Francesca Jones",
+          "loser": "Lucia Bronzetti",
+          "score": "63 61"
+        },
         {
           "round": "SF",
           "winner": "Francesca Jones",
