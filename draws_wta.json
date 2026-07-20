@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-20T10:18:29Z",
+  "fetched_at": "2026-07-20T13:11:27Z",
   "events": [
     {
       "slug": "2026WTAIasi",
@@ -203,16 +203,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Mayar Sherif",
-          "b": "Paula Badosa",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-1"
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Mayar Sherif",
+          "loser": "Paula Badosa",
+          "score": ""
+        },
         {
           "round": "SF",
           "winner": "Mayar Sherif",
@@ -2009,9 +2007,9 @@
           "bye": false
         },
         {
-          "name": "Eva Lys",
-          "seed": null,
-          "country": "GER",
+          "name": "Priscilla Hon",
+          "seed": "LL",
+          "country": "AUS",
           "bye": false
         },
         {
@@ -2188,10 +2186,10 @@
           "h2h": null
         },
         {
-          "a": "Eva Lys",
+          "a": "Priscilla Hon",
           "b": "Tereza Valentova",
-          "a_seed": "5",
-          "b_seed": null,
+          "a_seed": "LL",
+          "b_seed": "5",
           "h2h": null
         },
         {
@@ -2214,13 +2212,6 @@
           "a_seed": "LL",
           "b_seed": "Q",
           "h2h": "0-2"
-        },
-        {
-          "a": "Ella Seidel",
-          "b": "Daria Snigur",
-          "a_seed": "8",
-          "b_seed": null,
-          "h2h": "0-1"
         },
         {
           "a": "Diane Parry",
@@ -2258,13 +2249,6 @@
           "h2h": "3-1"
         },
         {
-          "a": "Alisa Oktiabreva",
-          "b": "Oceane Dodin",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Alycia Parks",
           "b": "Lucie Havlickova",
           "a_seed": "WC",
@@ -2279,7 +2263,20 @@
           "h2h": "0-2"
         }
       ],
-      "completed": []
+      "completed": [
+        {
+          "round": "R1",
+          "winner": "Daria Snigur",
+          "loser": "Ella Seidel",
+          "score": "75 36 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Oceane Dodin",
+          "loser": "Alisa Oktiabreva",
+          "score": "63 63"
+        }
+      ]
     },
     {
       "slug": "2026WTAPalermo125",
@@ -2803,13 +2800,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Varvara Lepchenko",
-          "b": "Elina Avanesyan",
-          "a_seed": "1",
-          "b_seed": "9",
-          "h2h": "2-0"
-        },
-        {
           "a": "Eva Vedder",
           "b": "Mona Barthel",
           "a_seed": "2",
@@ -2817,32 +2807,11 @@
           "h2h": "0-1"
         },
         {
-          "a": "Jule Niemeier",
-          "b": "Elena Malygina",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Arantxa Rus",
           "b": "Chloe Paquet",
           "a_seed": "4",
           "b_seed": "12",
           "h2h": "0-1"
-        },
-        {
-          "a": "Elena Pridankina",
-          "b": "Victoria Brand",
-          "a_seed": "5",
-          "b_seed": "WC",
-          "h2h": null
-        },
-        {
-          "a": "Jessica Pieri",
-          "b": "Maria Lourdes Carle",
-          "a_seed": "7",
-          "b_seed": null,
-          "h2h": "1-0"
         },
         {
           "a": "Oleksandra Oliynykova",
