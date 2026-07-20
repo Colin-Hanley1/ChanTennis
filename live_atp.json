@@ -1,11 +1,25 @@
 {
-  "fetched_at": "2026-07-20T10:38:56Z",
+  "fetched_at": "2026-07-20T12:53:37Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Tiago Torres",
+      "loser": "Nikoloz Basilashvili",
+      "score": "6-4 6-2",
+      "round": "Round 1",
+      "event": "2026ATPEstoril"
+    },
     {
       "winner": "Mariano Navone",
       "loser": "Alexandre Muller",
       "score": "6-4 6-0",
+      "round": "Round 1",
+      "event": "2026ATPKitzbuhel"
+    },
+    {
+      "winner": "Yannick Hanfmann",
+      "loser": "Lukas Neumayer",
+      "score": "7-6 6-4",
       "round": "Round 1",
       "event": "2026ATPKitzbuhel"
     }
