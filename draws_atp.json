@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-20T15:56:25Z",
+  "fetched_at": "2026-07-20T18:11:13Z",
   "events": [
     {
       "slug": "2026ATPBastad",
@@ -1261,13 +1261,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Facundo Diaz Acosta",
-          "b": "Federico Cina",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Alex Molcan",
           "b": "Sebastian Ofner",
           "a_seed": null,
@@ -1282,13 +1275,6 @@
           "h2h": null
         },
         {
-          "a": "Joel Schwaerzler",
-          "b": "Jurij Rodionov",
-          "a_seed": "WC",
-          "b_seed": "Q",
-          "h2h": "0-1"
-        },
-        {
           "a": "Adolfo Daniel Vallejo",
           "b": "Kilian Feldbausch",
           "a_seed": "Q",
@@ -1296,25 +1282,11 @@
           "h2h": "0-1"
         },
         {
-          "a": "Vit Kopriva",
-          "b": "Ignacio Buse",
-          "a_seed": "5",
-          "b_seed": null,
-          "h2h": "3-1"
-        },
-        {
           "a": "Juan Manuel Cerundolo",
           "b": "Marco Trungelliti",
           "a_seed": "8",
           "b_seed": null,
           "h2h": null
-        },
-        {
-          "a": "Lukas Neumayer",
-          "b": "Yannick Hanfmann",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": "0-1"
         },
         {
           "a": "Sebastian Baez",
@@ -1331,21 +1303,59 @@
           "h2h": "2-0"
         },
         {
-          "a": "Alexandre Muller",
-          "b": "Mariano Navone",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Laslo Djere",
           "b": "Quentin Halys",
           "a_seed": "Q",
           "b_seed": null,
           "h2h": null
+        },
+        {
+          "a": "Alexander Bublik",
+          "b": "Facundo Diaz Acosta",
+          "a_seed": "1",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Tomas Martin Etcheverry",
+          "b": "Jurij Rodionov",
+          "a_seed": "4",
+          "b_seed": "Q",
+          "h2h": "1-2"
         }
       ],
-      "completed": []
+      "completed": [
+        {
+          "round": "R32",
+          "winner": "Facundo Diaz Acosta",
+          "loser": "Federico Cina",
+          "score": "4-6 6-3 6-4"
+        },
+        {
+          "round": "R32",
+          "winner": "Jurij Rodionov",
+          "loser": "Joel Schwaerzler",
+          "score": "6-4 6-2"
+        },
+        {
+          "round": "R32",
+          "winner": "Ignacio Buse",
+          "loser": "Vit Kopriva",
+          "score": "7-5 6-7(3) 6-1"
+        },
+        {
+          "round": "R32",
+          "winner": "Yannick Hanfmann",
+          "loser": "Lukas Neumayer",
+          "score": "7-6(5) 6-4"
+        },
+        {
+          "round": "R32",
+          "winner": "Mariano Navone",
+          "loser": "Alexandre Muller",
+          "score": "6-4 6-0"
+        }
+      ]
     },
     {
       "slug": "2026ATPEstoril",
@@ -1560,25 +1570,11 @@
           "h2h": "0-1"
         },
         {
-          "a": "Tiago Torres",
-          "b": "Nikoloz Basilashvili",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Hugo Gaston",
           "b": "Damir Dzumhur",
           "a_seed": null,
           "b_seed": null,
           "h2h": "0-1"
-        },
-        {
-          "a": "Titouan Droguet",
-          "b": "Camilo Ugo Carabelli",
-          "a_seed": "7",
-          "b_seed": null,
-          "h2h": null
         },
         {
           "a": "Nuno Borges",
@@ -1621,9 +1617,29 @@
           "a_seed": "Q",
           "b_seed": null,
           "h2h": null
+        },
+        {
+          "a": "Alejandro Tabilo",
+          "b": "Tiago Torres",
+          "a_seed": "3",
+          "b_seed": "WC",
+          "h2h": null
         }
       ],
-      "completed": []
+      "completed": [
+        {
+          "round": "R32",
+          "winner": "Tiago Torres",
+          "loser": "Nikoloz Basilashvili",
+          "score": "6-4 6-2"
+        },
+        {
+          "round": "R32",
+          "winner": "Titouan Droguet",
+          "loser": "Camilo Ugo Carabelli",
+          "score": "6-0 3-6 6-4"
+        }
+      ]
     }
   ]
 }

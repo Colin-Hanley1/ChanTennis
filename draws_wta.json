@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-20T15:56:25Z",
+  "fetched_at": "2026-07-20T18:11:13Z",
   "events": [
     {
       "slug": "2026WTAIasi",
@@ -2193,13 +2193,6 @@
           "h2h": null
         },
         {
-          "a": "Ayla Aksu",
-          "b": "Sofia Costoulas",
-          "a_seed": "LL",
-          "b_seed": "Q",
-          "h2h": "0-2"
-        },
-        {
           "a": "Diane Parry",
           "b": "Mai Hontama",
           "a_seed": "7",
@@ -2228,13 +2221,6 @@
           "h2h": "1-1"
         },
         {
-          "a": "Antonia Ruzic",
-          "b": "Dominika Salkova",
-          "a_seed": "6",
-          "b_seed": "Q",
-          "h2h": "3-1"
-        },
-        {
           "a": "Linda Fruhvirtova",
           "b": "Barbora Krejcikova",
           "a_seed": "LL",
@@ -2246,6 +2232,20 @@
           "b": "Carol Young Suh Lee",
           "a_seed": "1",
           "b_seed": "Q",
+          "h2h": null
+        },
+        {
+          "a": "Ayla Aksu",
+          "b": "Daria Snigur",
+          "a_seed": "LL",
+          "b_seed": "8",
+          "h2h": "0-1"
+        },
+        {
+          "a": "Dominika Salkova",
+          "b": "Oceane Dodin",
+          "a_seed": "Q",
+          "b_seed": null,
           "h2h": null
         }
       ],
@@ -2264,9 +2264,21 @@
         },
         {
           "round": "R1",
+          "winner": "Ayla Aksu",
+          "loser": "Sofia Costoulas",
+          "score": "26 63 64"
+        },
+        {
+          "round": "R1",
           "winner": "Daria Snigur",
           "loser": "Ella Seidel",
           "score": "75 36 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Dominika Salkova",
+          "loser": "Antonia Ruzic",
+          "score": "76(2) 64"
         },
         {
           "round": "R1",
@@ -2577,13 +2589,6 @@
           "h2h": null
         },
         {
-          "a": "Nadia Podoroska",
-          "b": "Julia Stusek",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Maria Lourdes Carle",
           "b": "Jule Niemeier",
           "a_seed": "Q",
@@ -2592,6 +2597,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R1",
+          "winner": "Julia Stusek",
+          "loser": "Nadia Podoroska",
+          "score": "46 63 64"
+        },
         {
           "round": "R1",
           "winner": "Anhelina Kalinina",
@@ -2867,13 +2878,6 @@
           "h2h": null
         },
         {
-          "a": "Lina Gjorcheska",
-          "b": "Erika Andreeva",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Caroline Uebelhoer",
           "b": "Mina Hodzic",
           "a_seed": "Q",
@@ -2895,13 +2899,6 @@
           "h2h": null
         },
         {
-          "a": "Yasmine Kabbaj",
-          "b": "Deborah Chiesa",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Alessandra Mazzola",
           "b": "Dalila Spiteri",
           "a_seed": "WC",
@@ -2916,7 +2913,20 @@
           "h2h": null
         }
       ],
-      "completed": []
+      "completed": [
+        {
+          "round": "R1",
+          "winner": "Erika Andreeva",
+          "loser": "Lina Gjorcheska",
+          "score": "62 60"
+        },
+        {
+          "round": "R1",
+          "winner": "Yasmine Kabbaj",
+          "loser": "Deborah Chiesa",
+          "score": "64 61"
+        }
+      ]
     }
   ]
 }
