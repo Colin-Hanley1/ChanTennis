@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-20T20:26:06Z",
+  "fetched_at": "2026-07-20T22:07:34Z",
   "events": [
     {
       "slug": "2026WTAPrague",
@@ -566,13 +566,6 @@
           "h2h": "2-1"
         },
         {
-          "a": "Anna Bondar",
-          "b": "Moyuka Uchijima",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": "0-2"
-        },
-        {
           "a": "Valentina Steiner",
           "b": "Noma Noha Akugue",
           "a_seed": "WC",
@@ -637,6 +630,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R1",
+          "winner": "Anna Bondar",
+          "loser": "Moyuka Uchijima",
+          "score": "75 64"
+        },
         {
           "round": "R1",
           "winner": "Julia Stusek",
@@ -869,13 +868,6 @@
           "h2h": null
         },
         {
-          "a": "Amarissa Kiara Toth",
-          "b": "Jennifer Ruggeri",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
           "a": "Tamara Zidansek",
           "b": "Alevtina Ibragimova",
           "a_seed": "4",
@@ -893,13 +885,6 @@
           "a": "Anastasia Abbagnato",
           "b": "Clara Burel",
           "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Federica Urgesi",
-          "b": "Elizara Yaneva",
-          "a_seed": "8",
           "b_seed": null,
           "h2h": null
         },
@@ -925,13 +910,6 @@
           "h2h": "0-1"
         },
         {
-          "a": "Ekaterine Gorgodze",
-          "b": "Ane Mintegi Del Olmo",
-          "a_seed": "6",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Alessandra Mazzola",
           "b": "Dalila Spiteri",
           "a_seed": "WC",
@@ -944,9 +922,29 @@
           "a_seed": "WC",
           "b_seed": "2",
           "h2h": null
+        },
+        {
+          "a": "Jennifer Ruggeri",
+          "b": "Lola Radivojevic",
+          "a_seed": "5",
+          "b_seed": null,
+          "h2h": "0-1"
+        },
+        {
+          "a": "Ekaterine Gorgodze",
+          "b": "Yasmine Kabbaj",
+          "a_seed": "6",
+          "b_seed": null,
+          "h2h": "1-1"
         }
       ],
       "completed": [
+        {
+          "round": "R1",
+          "winner": "Jennifer Ruggeri",
+          "loser": "Amarissa Kiara Toth",
+          "score": "36 63 64"
+        },
         {
           "round": "R1",
           "winner": "Lola Radivojevic",
@@ -955,9 +953,21 @@
         },
         {
           "round": "R1",
+          "winner": "Federica Urgesi",
+          "loser": "Elizara Yaneva",
+          "score": "57 76(2) 61"
+        },
+        {
+          "round": "R1",
           "winner": "Erika Andreeva",
           "loser": "Lina Gjorcheska",
           "score": "62 60"
+        },
+        {
+          "round": "R1",
+          "winner": "Ekaterine Gorgodze",
+          "loser": "Ane Mintegi Del Olmo",
+          "score": "76(3) 36 76(2)"
         },
         {
           "round": "R1",
