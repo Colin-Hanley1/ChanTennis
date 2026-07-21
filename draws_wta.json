@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-21T09:32:18Z",
+  "fetched_at": "2026-07-21T11:52:36Z",
   "events": [
     {
       "slug": "2026WTAPrague",
@@ -219,13 +219,6 @@
           "h2h": null
         },
         {
-          "a": "Nikola Bartunkova",
-          "b": "Yue Yuan",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Jana Kovackova",
           "b": "Lanlana Tararudee",
           "a_seed": "WC",
@@ -233,25 +226,11 @@
           "h2h": null
         },
         {
-          "a": "Diane Parry",
-          "b": "Mai Hontama",
-          "a_seed": "7",
-          "b_seed": "Q",
-          "h2h": "2-1"
-        },
-        {
           "a": "Xinyu Gao",
           "b": "Lilli Tagger",
           "a_seed": "Q",
           "b_seed": null,
           "h2h": "0-1"
-        },
-        {
-          "a": "Maria Timofeeva",
-          "b": "Aliaksandra Sasnovich",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "0-2"
         },
         {
           "a": "Anna Blinkova",
@@ -304,6 +283,12 @@
         },
         {
           "round": "R1",
+          "winner": "Nikola Bartunkova",
+          "loser": "Yue Yuan",
+          "score": "36 64 61"
+        },
+        {
+          "round": "R1",
           "winner": "Ayla Aksu",
           "loser": "Sofia Costoulas",
           "score": "26 63 64"
@@ -313,6 +298,18 @@
           "winner": "Daria Snigur",
           "loser": "Ella Seidel",
           "score": "75 36 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Mai Hontama",
+          "loser": "Diane Parry",
+          "score": "64 60"
+        },
+        {
+          "round": "R1",
+          "winner": "Maria Timofeeva",
+          "loser": "Aliaksandra Sasnovich",
+          "score": "63 64"
         },
         {
           "round": "R1",
@@ -545,13 +542,6 @@
           "h2h": null
         },
         {
-          "a": "Leyre Romero Gormaz",
-          "b": "Veronika Erjavec",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "0-2"
-        },
-        {
           "a": "Arantxa Rus",
           "b": "Elina Avanesyan",
           "a_seed": "Q",
@@ -580,13 +570,6 @@
           "h2h": null
         },
         {
-          "a": "Darja Semenistaja",
-          "b": "Sinja Kraus",
-          "a_seed": "8",
-          "b_seed": null,
-          "h2h": "0-2"
-        },
-        {
           "a": "Simona Waltert",
           "b": "Mayar Sherif",
           "a_seed": "6",
@@ -608,13 +591,6 @@
           "h2h": "0-1"
         },
         {
-          "a": "Elena Pridankina",
-          "b": "Panna Udvardy",
-          "a_seed": "Q",
-          "b_seed": "3",
-          "h2h": "1-0"
-        },
-        {
           "a": "Tamara Korpatsch",
           "b": "Victoria Jimenez Kasintseva",
           "a_seed": "5",
@@ -632,9 +608,27 @@
       "completed": [
         {
           "round": "R1",
+          "winner": "Leyre Romero Gormaz",
+          "loser": "Veronika Erjavec",
+          "score": "62 62"
+        },
+        {
+          "round": "R1",
           "winner": "Anna Bondar",
           "loser": "Moyuka Uchijima",
           "score": "75 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Sinja Kraus",
+          "loser": "Darja Semenistaja",
+          "score": "36 63 62"
+        },
+        {
+          "round": "R1",
+          "winner": "Panna Udvardy",
+          "loser": "Elena Pridankina",
+          "score": "64 62"
         },
         {
           "round": "R1",
