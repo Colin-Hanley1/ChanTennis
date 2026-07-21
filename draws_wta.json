@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-21T22:08:12Z",
+  "fetched_at": "2026-07-21T23:59:43Z",
   "events": [
     {
       "slug": "2026WTAPrague",
@@ -912,25 +912,11 @@
       ],
       "r1_matches": [
         {
-          "a": "Miriam Bianca Bulgaru",
-          "b": "Caijsa Wilda Hennemann",
-          "a_seed": null,
+          "a": "Francesca Jones",
+          "b": "Miriam Bianca Bulgaru",
+          "a_seed": "1",
           "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Tamara Zidansek",
-          "b": "Alevtina Ibragimova",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Anastasia Abbagnato",
-          "b": "Clara Burel",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
+          "h2h": "2-0"
         },
         {
           "a": "Jennifer Ruggeri",
@@ -938,6 +924,20 @@
           "a_seed": "5",
           "b_seed": null,
           "h2h": "0-1"
+        },
+        {
+          "a": "Alevtina Ibragimova",
+          "b": "Alice Rame",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "0-1"
+        },
+        {
+          "a": "Clara Burel",
+          "b": "Federica Urgesi",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": null
         },
         {
           "a": "Fiona Ferro",
@@ -977,6 +977,12 @@
         },
         {
           "round": "R1",
+          "winner": "Miriam Bianca Bulgaru",
+          "loser": "Caijsa Wilda Hennemann",
+          "score": "36 61 62"
+        },
+        {
+          "round": "R1",
           "winner": "Jennifer Ruggeri",
           "loser": "Amarissa Kiara Toth",
           "score": "36 63 64"
@@ -989,9 +995,21 @@
         },
         {
           "round": "R1",
+          "winner": "Alevtina Ibragimova",
+          "loser": "Tamara Zidansek",
+          "score": "36 64 63"
+        },
+        {
+          "round": "R1",
           "winner": "Alice Rame",
           "loser": "Anastasia Tikhonova",
           "score": "61 62"
+        },
+        {
+          "round": "R1",
+          "winner": "Clara Burel",
+          "loser": "Anastasia Abbagnato",
+          "score": "62 61"
         },
         {
           "round": "R1",
