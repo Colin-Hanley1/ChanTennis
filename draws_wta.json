@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-21T18:19:46Z",
+  "fetched_at": "2026-07-21T20:21:39Z",
   "events": [
     {
       "slug": "2026WTAPrague",
@@ -564,13 +564,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Oleksandra Oliynykova",
-          "b": "Nastasja Schunk",
-          "a_seed": "1",
-          "b_seed": "WC",
-          "h2h": null
-        },
-        {
           "a": "Simona Waltert",
           "b": "Mayar Sherif",
           "a_seed": "6",
@@ -590,6 +583,13 @@
           "a_seed": null,
           "b_seed": null,
           "h2h": "0-1"
+        },
+        {
+          "a": "Oleksandra Oliynykova",
+          "b": "Leyre Romero Gormaz",
+          "a_seed": "1",
+          "b_seed": null,
+          "h2h": "1-0"
         },
         {
           "a": "Elina Avanesyan",
@@ -628,6 +628,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R1",
+          "winner": "Oleksandra Oliynykova",
+          "loser": "Nastasja Schunk",
+          "score": "62 36 75"
+        },
         {
           "round": "R1",
           "winner": "Leyre Romero Gormaz",
@@ -906,13 +912,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Francesca Jones",
-          "b": "Darya Astakhova",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Miriam Bianca Bulgaru",
           "b": "Caijsa Wilda Hennemann",
           "a_seed": null,
@@ -941,20 +940,6 @@
           "h2h": null
         },
         {
-          "a": "Caroline Uebelhoer",
-          "b": "Mina Hodzic",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Noemi Basiletti",
-          "b": "Raluka Serban",
-          "a_seed": "Q",
-          "b_seed": "LL",
-          "h2h": null
-        },
-        {
           "a": "Ilary Pistola",
           "b": "Lucia Bronzetti",
           "a_seed": "WC",
@@ -976,6 +961,13 @@
           "h2h": "2-0"
         },
         {
+          "a": "Mina Hodzic",
+          "b": "Noemi Basiletti",
+          "a_seed": "Q",
+          "b_seed": "Q",
+          "h2h": null
+        },
+        {
           "a": "Ekaterine Gorgodze",
           "b": "Yasmine Kabbaj",
           "a_seed": "6",
@@ -984,6 +976,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R1",
+          "winner": "Francesca Jones",
+          "loser": "Darya Astakhova",
+          "score": "63 62"
+        },
         {
           "round": "R1",
           "winner": "Jennifer Ruggeri",
@@ -1013,6 +1011,18 @@
           "winner": "Erika Andreeva",
           "loser": "Lina Gjorcheska",
           "score": "62 60"
+        },
+        {
+          "round": "R1",
+          "winner": "Mina Hodzic",
+          "loser": "Caroline Uebelhoer",
+          "score": "64 46 62"
+        },
+        {
+          "round": "R1",
+          "winner": "Noemi Basiletti",
+          "loser": "Raluka Serban",
+          "score": "64 61"
         },
         {
           "round": "R1",
