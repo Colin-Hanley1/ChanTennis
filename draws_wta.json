@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-21T16:36:17Z",
+  "fetched_at": "2026-07-21T18:19:46Z",
   "events": [
     {
       "slug": "2026WTAPrague",
@@ -205,13 +205,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Linda Fruhvirtova",
-          "b": "Barbora Krejcikova",
-          "a_seed": "LL",
-          "b_seed": "2",
-          "h2h": "0-2"
-        },
-        {
           "a": "Marie Bouzkova",
           "b": "Carol Young Suh Lee",
           "a_seed": "1",
@@ -258,6 +251,13 @@
           "b": "Oceane Dodin",
           "a_seed": "Q",
           "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Lucie Havlickova",
+          "b": "Barbora Krejcikova",
+          "a_seed": "WC",
+          "b_seed": "2",
           "h2h": null
         }
       ],
@@ -350,6 +350,12 @@
           "round": "R1",
           "winner": "Lucie Havlickova",
           "loser": "Alycia Parks",
+          "score": "62 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Barbora Krejcikova",
+          "loser": "Linda Fruhvirtova",
           "score": "62 64"
         }
       ]
