@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-21T20:21:39Z",
+  "fetched_at": "2026-07-21T22:08:12Z",
   "events": [
     {
       "slug": "2026WTAPrague",
@@ -926,24 +926,10 @@
           "h2h": null
         },
         {
-          "a": "Alice Rame",
-          "b": "Anastasia Tikhonova",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Anastasia Abbagnato",
           "b": "Clara Burel",
           "a_seed": "WC",
           "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Ilary Pistola",
-          "b": "Lucia Bronzetti",
-          "a_seed": "WC",
-          "b_seed": "2",
           "h2h": null
         },
         {
@@ -973,6 +959,13 @@
           "a_seed": "6",
           "b_seed": null,
           "h2h": "1-1"
+        },
+        {
+          "a": "Dalila Spiteri",
+          "b": "Lucia Bronzetti",
+          "a_seed": "2",
+          "b_seed": null,
+          "h2h": null
         }
       ],
       "completed": [
@@ -993,6 +986,12 @@
           "winner": "Lola Radivojevic",
           "loser": "Sofya Lansere",
           "score": "61 36 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Alice Rame",
+          "loser": "Anastasia Tikhonova",
+          "score": "61 62"
         },
         {
           "round": "R1",
@@ -1041,6 +1040,12 @@
           "winner": "Dalila Spiteri",
           "loser": "Alessandra Mazzola",
           "score": "76(1) 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Lucia Bronzetti",
+          "loser": "Ilary Pistola",
+          "score": "61 64"
         }
       ]
     }
