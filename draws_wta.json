@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-20T22:07:34Z",
+  "fetched_at": "2026-07-21T00:03:42Z",
   "events": [
     {
       "slug": "2026WTAPrague",
@@ -889,13 +889,6 @@
           "h2h": null
         },
         {
-          "a": "Fiona Ferro",
-          "b": "Yufei Ren",
-          "a_seed": "7",
-          "b_seed": "Q",
-          "h2h": null
-        },
-        {
           "a": "Caroline Uebelhoer",
           "b": "Mina Hodzic",
           "a_seed": "Q",
@@ -910,13 +903,6 @@
           "h2h": "0-1"
         },
         {
-          "a": "Alessandra Mazzola",
-          "b": "Dalila Spiteri",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
           "a": "Ilary Pistola",
           "b": "Lucia Bronzetti",
           "a_seed": "WC",
@@ -929,6 +915,13 @@
           "a_seed": "5",
           "b_seed": null,
           "h2h": "0-1"
+        },
+        {
+          "a": "Fiona Ferro",
+          "b": "Erika Andreeva",
+          "a_seed": "7",
+          "b_seed": null,
+          "h2h": "2-0"
         },
         {
           "a": "Ekaterine Gorgodze",
@@ -959,6 +952,12 @@
         },
         {
           "round": "R1",
+          "winner": "Fiona Ferro",
+          "loser": "Yufei Ren",
+          "score": "62 63"
+        },
+        {
+          "round": "R1",
           "winner": "Erika Andreeva",
           "loser": "Lina Gjorcheska",
           "score": "62 60"
@@ -974,6 +973,12 @@
           "winner": "Yasmine Kabbaj",
           "loser": "Deborah Chiesa",
           "score": "64 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Dalila Spiteri",
+          "loser": "Alessandra Mazzola",
+          "score": "76(1) 63"
         }
       ]
     }
