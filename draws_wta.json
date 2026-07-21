@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-21T11:52:36Z",
+  "fetched_at": "2026-07-21T14:11:27Z",
   "events": [
     {
       "slug": "2026WTAPrague",
@@ -205,32 +205,11 @@
       ],
       "r1_matches": [
         {
-          "a": "Laura Samson",
-          "b": "Maya Joint",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Priscilla Hon",
-          "b": "Tereza Valentova",
-          "a_seed": "LL",
-          "b_seed": "5",
-          "h2h": null
-        },
-        {
           "a": "Jana Kovackova",
           "b": "Lanlana Tararudee",
           "a_seed": "WC",
           "b_seed": null,
           "h2h": null
-        },
-        {
-          "a": "Xinyu Gao",
-          "b": "Lilli Tagger",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": "0-1"
         },
         {
           "a": "Anna Blinkova",
@@ -254,11 +233,25 @@
           "h2h": null
         },
         {
+          "a": "Maya Joint",
+          "b": "Tereza Valentova",
+          "a_seed": "5",
+          "b_seed": null,
+          "h2h": "0-1"
+        },
+        {
           "a": "Ayla Aksu",
           "b": "Daria Snigur",
           "a_seed": "LL",
           "b_seed": "8",
           "h2h": "0-1"
+        },
+        {
+          "a": "Mai Hontama",
+          "b": "Lilli Tagger",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
         },
         {
           "a": "Dominika Salkova",
@@ -283,6 +276,18 @@
         },
         {
           "round": "R1",
+          "winner": "Maya Joint",
+          "loser": "Laura Samson",
+          "score": "64 36 62"
+        },
+        {
+          "round": "R1",
+          "winner": "Tereza Valentova",
+          "loser": "Priscilla Hon",
+          "score": "63 61"
+        },
+        {
+          "round": "R1",
           "winner": "Nikola Bartunkova",
           "loser": "Yue Yuan",
           "score": "36 64 61"
@@ -304,6 +309,12 @@
           "winner": "Mai Hontama",
           "loser": "Diane Parry",
           "score": "64 60"
+        },
+        {
+          "round": "R1",
+          "winner": "Lilli Tagger",
+          "loser": "Xinyu Gao",
+          "score": "62 64"
         },
         {
           "round": "R1",
@@ -549,20 +560,6 @@
           "h2h": "2-0"
         },
         {
-          "a": "Mona Barthel",
-          "b": "Yulia Putintseva",
-          "a_seed": "Q",
-          "b_seed": "7",
-          "h2h": "2-1"
-        },
-        {
-          "a": "Valentina Steiner",
-          "b": "Noma Noha Akugue",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Sara Sorribes Tormo",
           "b": "Alina Charaeva",
           "a_seed": null,
@@ -603,6 +600,13 @@
           "a_seed": "Q",
           "b_seed": "Q",
           "h2h": "0-1"
+        },
+        {
+          "a": "Anna Bondar",
+          "b": "Noma Noha Akugue",
+          "a_seed": "4",
+          "b_seed": null,
+          "h2h": "2-0"
         }
       ],
       "completed": [
@@ -614,9 +618,21 @@
         },
         {
           "round": "R1",
+          "winner": "Yulia Putintseva",
+          "loser": "Mona Barthel",
+          "score": "62 76(5)"
+        },
+        {
+          "round": "R1",
           "winner": "Anna Bondar",
           "loser": "Moyuka Uchijima",
           "score": "75 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Noma Noha Akugue",
+          "loser": "Valentina Steiner",
+          "score": "63 26 62"
         },
         {
           "round": "R1",
