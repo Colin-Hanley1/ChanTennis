@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-22T20:16:48Z",
+  "fetched_at": "2026-07-22T22:11:41Z",
   "events": [
     {
       "slug": "2026WTAPrague",
@@ -581,13 +581,6 @@
           "h2h": "0-2"
         },
         {
-          "a": "Anna Bondar",
-          "b": "Noma Noha Akugue",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": "2-0"
-        },
-        {
           "a": "Mayar Sherif",
           "b": "Elsa Jacquemot",
           "a_seed": null,
@@ -602,6 +595,13 @@
           "h2h": "1-0"
         },
         {
+          "a": "Anna Bondar",
+          "b": "Alina Charaeva",
+          "a_seed": "4",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
           "a": "Tamara Korpatsch",
           "b": "Anhelina Kalinina",
           "a_seed": "5",
@@ -610,6 +610,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Anna Bondar",
+          "loser": "Noma Noha Akugue",
+          "score": "61 36 75"
+        },
         {
           "round": "R2",
           "winner": "Alina Charaeva",
@@ -944,13 +950,6 @@
           "h2h": "0-1"
         },
         {
-          "a": "Fiona Ferro",
-          "b": "Erika Andreeva",
-          "a_seed": "7",
-          "b_seed": null,
-          "h2h": "2-0"
-        },
-        {
           "a": "Mina Hodzic",
           "b": "Noemi Basiletti",
           "a_seed": "Q",
@@ -974,9 +973,15 @@
         },
         {
           "round": "R2",
-          "winner": "Federica Urgesi",
-          "loser": "Clara Burel",
+          "winner": "Clara Burel",
+          "loser": "Federica Urgesi",
           "score": ""
+        },
+        {
+          "round": "R2",
+          "winner": "Fiona Ferro",
+          "loser": "Erika Andreeva",
+          "score": "64 63"
         },
         {
           "round": "R2",
