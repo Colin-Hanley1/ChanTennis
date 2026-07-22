@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-22T11:54:51Z",
+  "fetched_at": "2026-07-22T12:57:48Z",
   "source": "espn",
   "matches": [
     {
@@ -77,6 +77,13 @@
       "loser": "Camilo Ugo Carabelli",
       "score": "6-0 3-6 6-4",
       "round": "Round 1",
+      "event": "2026ATPEstoril"
+    },
+    {
+      "winner": "Hugo Gaston",
+      "loser": "Titouan Droguet",
+      "score": "6-0 6-3",
+      "round": "Round 2",
       "event": "2026ATPEstoril"
     },
     {
@@ -181,6 +188,13 @@
       "winner": "Sebastian Baez",
       "loser": "Arthur Rinderknech",
       "score": "7-6 2-6 6-4",
+      "round": "Round 2",
+      "event": "2026ATPKitzbuhel"
+    },
+    {
+      "winner": "Yannick Hanfmann",
+      "loser": "Marco Trungelliti",
+      "score": "6-4 7-6",
       "round": "Round 2",
       "event": "2026ATPKitzbuhel"
     }
