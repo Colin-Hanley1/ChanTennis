@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-22T11:29:33Z",
+  "fetched_at": "2026-07-22T11:54:51Z",
   "source": "espn",
   "matches": [
     {
@@ -164,9 +164,23 @@
       "event": "2026ATPKitzbuhel"
     },
     {
+      "winner": "Mariano Navone",
+      "loser": "Jan-Lennard Struff",
+      "score": "6-0 6-3",
+      "round": "Round 2",
+      "event": "2026ATPKitzbuhel"
+    },
+    {
       "winner": "Quentin Halys",
       "loser": "Valentin Vacherot",
       "score": "6-3 6-4",
+      "round": "Round 2",
+      "event": "2026ATPKitzbuhel"
+    },
+    {
+      "winner": "Sebastian Baez",
+      "loser": "Arthur Rinderknech",
+      "score": "7-6 2-6 6-4",
       "round": "Round 2",
       "event": "2026ATPKitzbuhel"
     }

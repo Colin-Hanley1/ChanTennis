@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-22T09:32:30Z",
+  "fetched_at": "2026-07-22T11:54:54Z",
   "events": [
     {
       "slug": "2026WTAPrague",
@@ -226,13 +226,6 @@
           "h2h": null
         },
         {
-          "a": "Ayla Aksu",
-          "b": "Daria Snigur",
-          "a_seed": "LL",
-          "b_seed": "8",
-          "h2h": "0-1"
-        },
-        {
           "a": "Mai Hontama",
           "b": "Lilli Tagger",
           "a_seed": "Q",
@@ -262,6 +255,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Daria Snigur",
+          "loser": "Ayla Aksu",
+          "score": "63 62"
+        },
         {
           "round": "R1",
           "winner": "Marie Bouzkova",
@@ -618,16 +617,15 @@
           "a_seed": "5",
           "b_seed": "WC",
           "h2h": null
-        },
-        {
-          "a": "Maria Lourdes Carle",
-          "b": "Anhelina Kalinina",
-          "a_seed": "Q",
-          "b_seed": "2",
-          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Anhelina Kalinina",
+          "loser": "Maria Lourdes Carle",
+          "score": "61 63"
+        },
         {
           "round": "R1",
           "winner": "Oleksandra Oliynykova",
