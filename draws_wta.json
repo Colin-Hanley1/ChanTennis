@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-22T18:14:33Z",
+  "fetched_at": "2026-07-22T20:16:48Z",
   "events": [
     {
       "slug": "2026WTAPrague",
@@ -937,25 +937,11 @@
           "h2h": "2-0"
         },
         {
-          "a": "Jennifer Ruggeri",
-          "b": "Lola Radivojevic",
-          "a_seed": "5",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
           "a": "Alevtina Ibragimova",
           "b": "Alice Rame",
           "a_seed": null,
           "b_seed": null,
           "h2h": "0-1"
-        },
-        {
-          "a": "Clara Burel",
-          "b": "Federica Urgesi",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
         },
         {
           "a": "Fiona Ferro",
@@ -972,13 +958,6 @@
           "h2h": null
         },
         {
-          "a": "Ekaterine Gorgodze",
-          "b": "Yasmine Kabbaj",
-          "a_seed": "6",
-          "b_seed": null,
-          "h2h": "1-1"
-        },
-        {
           "a": "Dalila Spiteri",
           "b": "Lucia Bronzetti",
           "a_seed": "2",
@@ -987,6 +966,24 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Jennifer Ruggeri",
+          "loser": "Lola Radivojevic",
+          "score": "75 46 64"
+        },
+        {
+          "round": "R2",
+          "winner": "Federica Urgesi",
+          "loser": "Clara Burel",
+          "score": ""
+        },
+        {
+          "round": "R2",
+          "winner": "Yasmine Kabbaj",
+          "loser": "Ekaterine Gorgodze",
+          "score": "75 62"
+        },
         {
           "round": "R1",
           "winner": "Francesca Jones",
