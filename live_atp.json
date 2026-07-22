@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-22T15:01:27Z",
+  "fetched_at": "2026-07-22T16:26:39Z",
   "source": "espn",
   "matches": [
     {
@@ -87,6 +87,13 @@
       "event": "2026ATPEstoril"
     },
     {
+      "winner": "Roman Andres Burruchaga",
+      "loser": "Nuno Borges",
+      "score": "6-1 4-6 6-3",
+      "round": "Round 2",
+      "event": "2026ATPEstoril"
+    },
+    {
       "winner": "Alex Molcan",
       "loser": "Sebastian Ofner",
       "score": "6-4 6-4",
@@ -168,6 +175,13 @@
       "loser": "Lukas Neumayer",
       "score": "7-6 6-4",
       "round": "Round 1",
+      "event": "2026ATPKitzbuhel"
+    },
+    {
+      "winner": "Alexander Bublik",
+      "loser": "Facundo Diaz Acosta",
+      "score": "6-3 7-5",
+      "round": "Round 2",
       "event": "2026ATPKitzbuhel"
     },
     {

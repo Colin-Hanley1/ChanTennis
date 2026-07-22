@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-22T14:14:57Z",
+  "fetched_at": "2026-07-22T16:26:43Z",
   "events": [
     {
       "slug": "2026WTAPrague",
@@ -205,13 +205,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Maya Joint",
-          "b": "Tereza Valentova",
-          "a_seed": "5",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
           "a": "Nikola Bartunkova",
           "b": "Lanlana Tararudee",
           "a_seed": "4",
@@ -245,6 +238,13 @@
           "a_seed": "WC",
           "b_seed": "2",
           "h2h": null
+        },
+        {
+          "a": "Marie Bouzkova",
+          "b": "Tereza Valentova",
+          "a_seed": "1",
+          "b_seed": "5",
+          "h2h": "2-0"
         }
       ],
       "completed": [
@@ -253,6 +253,12 @@
           "winner": "Marie Bouzkova",
           "loser": "Carol Young Suh Lee",
           "score": "75 64"
+        },
+        {
+          "round": "R2",
+          "winner": "Tereza Valentova",
+          "loser": "Maya Joint",
+          "score": "16 60 63"
         },
         {
           "round": "R2",
@@ -562,13 +568,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Katarzyna Kawa",
-          "b": "Paula Badosa",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
           "a": "Oleksandra Oliynykova",
           "b": "Leyre Romero Gormaz",
           "a_seed": "1",
@@ -602,6 +601,13 @@
           "a_seed": null,
           "b_seed": null,
           "h2h": null
+        },
+        {
+          "a": "Paula Badosa",
+          "b": "Panna Udvardy",
+          "a_seed": "3",
+          "b_seed": null,
+          "h2h": "1-0"
         },
         {
           "a": "Tamara Korpatsch",
@@ -677,6 +683,12 @@
           "winner": "Elsa Jacquemot",
           "loser": "Tessa Johanna Brockmann",
           "score": "75 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Paula Badosa",
+          "loser": "Katarzyna Kawa",
+          "score": "75 64"
         },
         {
           "round": "R1",
