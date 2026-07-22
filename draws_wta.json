@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-22T11:54:54Z",
+  "fetched_at": "2026-07-22T14:14:57Z",
   "events": [
     {
       "slug": "2026WTAPrague",
@@ -205,13 +205,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Marie Bouzkova",
-          "b": "Carol Young Suh Lee",
-          "a_seed": "1",
-          "b_seed": "Q",
-          "h2h": null
-        },
-        {
           "a": "Maya Joint",
           "b": "Tereza Valentova",
           "a_seed": "5",
@@ -255,6 +248,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Marie Bouzkova",
+          "loser": "Carol Young Suh Lee",
+          "score": "75 64"
+        },
         {
           "round": "R2",
           "winner": "Daria Snigur",
@@ -563,20 +562,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Simona Waltert",
-          "b": "Mayar Sherif",
-          "a_seed": "6",
-          "b_seed": null,
-          "h2h": "1-5"
-        },
-        {
-          "a": "Tessa Johanna Brockmann",
-          "b": "Elsa Jacquemot",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Katarzyna Kawa",
           "b": "Paula Badosa",
           "a_seed": null,
@@ -608,6 +593,13 @@
           "a": "Alina Charaeva",
           "b": "Sinja Kraus",
           "a_seed": "8",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Mayar Sherif",
+          "b": "Elsa Jacquemot",
+          "a_seed": null,
           "b_seed": null,
           "h2h": null
         },
@@ -673,6 +665,18 @@
           "winner": "Sinja Kraus",
           "loser": "Darja Semenistaja",
           "score": "36 63 62"
+        },
+        {
+          "round": "R1",
+          "winner": "Mayar Sherif",
+          "loser": "Simona Waltert",
+          "score": "57 64 76(3)"
+        },
+        {
+          "round": "R1",
+          "winner": "Elsa Jacquemot",
+          "loser": "Tessa Johanna Brockmann",
+          "score": "75 61"
         },
         {
           "round": "R1",

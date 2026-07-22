@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-22T12:57:48Z",
+  "fetched_at": "2026-07-22T14:14:53Z",
   "source": "espn",
   "matches": [
     {
@@ -171,6 +171,13 @@
       "event": "2026ATPKitzbuhel"
     },
     {
+      "winner": "Ignacio Buse",
+      "loser": "Kilian Feldbausch",
+      "score": "2-6 6-2 6-2",
+      "round": "Round 2",
+      "event": "2026ATPKitzbuhel"
+    },
+    {
       "winner": "Mariano Navone",
       "loser": "Jan-Lennard Struff",
       "score": "6-0 6-3",
@@ -188,6 +195,13 @@
       "winner": "Sebastian Baez",
       "loser": "Arthur Rinderknech",
       "score": "7-6 2-6 6-4",
+      "round": "Round 2",
+      "event": "2026ATPKitzbuhel"
+    },
+    {
+      "winner": "Tomas Martin Etcheverry",
+      "loser": "Jurij Rodionov",
+      "score": "6-2 7-6",
       "round": "Round 2",
       "event": "2026ATPKitzbuhel"
     },
