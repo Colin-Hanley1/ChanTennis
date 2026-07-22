@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-22T16:26:43Z",
+  "fetched_at": "2026-07-22T18:14:33Z",
   "events": [
     {
       "slug": "2026WTAPrague",
@@ -226,13 +226,6 @@
           "h2h": null
         },
         {
-          "a": "Dominika Salkova",
-          "b": "Oceane Dodin",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Lucie Havlickova",
           "b": "Barbora Krejcikova",
           "a_seed": "WC",
@@ -265,6 +258,12 @@
           "winner": "Daria Snigur",
           "loser": "Ayla Aksu",
           "score": "63 62"
+        },
+        {
+          "round": "R2",
+          "winner": "Dominika Salkova",
+          "loser": "Oceane Dodin",
+          "score": "61 61"
         },
         {
           "round": "R1",
@@ -589,13 +588,6 @@
           "h2h": "2-0"
         },
         {
-          "a": "Alina Charaeva",
-          "b": "Sinja Kraus",
-          "a_seed": "8",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Mayar Sherif",
           "b": "Elsa Jacquemot",
           "a_seed": null,
@@ -611,13 +603,25 @@
         },
         {
           "a": "Tamara Korpatsch",
-          "b": "Julia Stusek",
+          "b": "Anhelina Kalinina",
           "a_seed": "5",
-          "b_seed": "WC",
+          "b_seed": "2",
           "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Alina Charaeva",
+          "loser": "Sinja Kraus",
+          "score": "57 75 75"
+        },
+        {
+          "round": "R2",
+          "winner": "Tamara Korpatsch",
+          "loser": "Julia Stusek",
+          "score": "60 36 63"
+        },
         {
           "round": "R2",
           "winner": "Anhelina Kalinina",
