@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-23T21:14:08Z",
+  "fetched_at": "2026-07-23T23:04:32Z",
   "events": [
     {
       "slug": "2026WTAPrague",
@@ -963,13 +963,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Dalila Spiteri",
-          "b": "Lucia Bronzetti",
-          "a_seed": "2",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Francesca Jones",
           "b": "Jennifer Ruggeri",
           "a_seed": "1",
@@ -988,6 +981,13 @@
           "b": "Mina Hodzic",
           "a_seed": "7",
           "b_seed": "Q",
+          "h2h": null
+        },
+        {
+          "a": "Yasmine Kabbaj",
+          "b": "Lucia Bronzetti",
+          "a_seed": "2",
+          "b_seed": null,
           "h2h": null
         }
       ],
@@ -1033,6 +1033,12 @@
           "winner": "Yasmine Kabbaj",
           "loser": "Ekaterine Gorgodze",
           "score": "75 62"
+        },
+        {
+          "round": "R2",
+          "winner": "Lucia Bronzetti",
+          "loser": "Dalila Spiteri",
+          "score": "64 64"
         },
         {
           "round": "R1",
