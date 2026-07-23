@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-23T10:31:28Z",
+  "fetched_at": "2026-07-23T12:44:53Z",
   "events": [
     {
       "slug": "2026WTAPrague",
@@ -581,13 +581,6 @@
           "h2h": "0-2"
         },
         {
-          "a": "Mayar Sherif",
-          "b": "Elsa Jacquemot",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Paula Badosa",
           "b": "Panna Udvardy",
           "a_seed": "3",
@@ -621,6 +614,12 @@
           "winner": "Alina Charaeva",
           "loser": "Sinja Kraus",
           "score": "57 75 75"
+        },
+        {
+          "round": "R2",
+          "winner": "Mayar Sherif",
+          "loser": "Elsa Jacquemot",
+          "score": "62 63"
         },
         {
           "round": "R2",

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-23T11:29:33Z",
+  "fetched_at": "2026-07-23T12:44:49Z",
   "source": "espn",
   "matches": [
     {
@@ -111,6 +111,13 @@
       "winner": "Quentin Halys",
       "loser": "Mariano Navone",
       "score": "7-5 6-3",
+      "round": "Quarterfinal",
+      "event": "2026ATPKitzbuhel"
+    },
+    {
+      "winner": "Yannick Hanfmann",
+      "loser": "Sebastian Baez",
+      "score": "6-3 6-1",
       "round": "Quarterfinal",
       "event": "2026ATPKitzbuhel"
     },
