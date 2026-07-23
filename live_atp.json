@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-23T12:59:27Z",
+  "fetched_at": "2026-07-23T15:08:32Z",
   "source": "espn",
   "matches": [
     {
@@ -94,6 +94,20 @@
       "event": "2026ATPEstoril"
     },
     {
+      "winner": "Jaime Faria",
+      "loser": "Gonzalo Bueno",
+      "score": "6-2 6-4",
+      "round": "Round 2",
+      "event": "2026ATPEstoril"
+    },
+    {
+      "winner": "Luca Van Assche",
+      "loser": "Pablo Carreno Busta",
+      "score": "6-3 4-6 6-2",
+      "round": "Round 2",
+      "event": "2026ATPEstoril"
+    },
+    {
       "winner": "Roman Andres Burruchaga",
       "loser": "Nuno Borges",
       "score": "6-1 4-6 6-3",
@@ -111,6 +125,13 @@
       "winner": "Quentin Halys",
       "loser": "Mariano Navone",
       "score": "7-5 6-3",
+      "round": "Quarterfinal",
+      "event": "2026ATPKitzbuhel"
+    },
+    {
+      "winner": "Tomas Martin Etcheverry",
+      "loser": "Ignacio Buse",
+      "score": "6-2 7-5",
       "round": "Quarterfinal",
       "event": "2026ATPKitzbuhel"
     },
