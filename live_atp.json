@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-23T10:31:24Z",
+  "fetched_at": "2026-07-23T11:29:33Z",
   "source": "espn",
   "matches": [
     {
@@ -106,6 +106,13 @@
       "score": "6-4 6-4",
       "round": "Round 2",
       "event": "2026ATPEstoril"
+    },
+    {
+      "winner": "Quentin Halys",
+      "loser": "Mariano Navone",
+      "score": "7-5 6-3",
+      "round": "Quarterfinal",
+      "event": "2026ATPKitzbuhel"
     },
     {
       "winner": "Alex Molcan",
