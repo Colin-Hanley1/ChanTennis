@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-23T17:39:35Z",
+  "fetched_at": "2026-07-23T19:37:30Z",
   "events": [
     {
       "slug": "2026WTAPrague",
@@ -205,13 +205,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Lucie Havlickova",
-          "b": "Barbora Krejcikova",
-          "a_seed": "WC",
-          "b_seed": "2",
-          "h2h": null
-        },
-        {
           "a": "Marie Bouzkova",
           "b": "Tereza Valentova",
           "a_seed": "1",
@@ -231,6 +224,13 @@
           "a_seed": "3",
           "b_seed": null,
           "h2h": "0-1"
+        },
+        {
+          "a": "Dominika Salkova",
+          "b": "Barbora Krejcikova",
+          "a_seed": "Q",
+          "b_seed": "2",
+          "h2h": null
         }
       ],
       "completed": [
@@ -275,6 +275,12 @@
           "winner": "Dominika Salkova",
           "loser": "Oceane Dodin",
           "score": "61 61"
+        },
+        {
+          "round": "R2",
+          "winner": "Barbora Krejcikova",
+          "loser": "Lucie Havlickova",
+          "score": "64 62"
         },
         {
           "round": "R1",
@@ -578,11 +584,11 @@
       ],
       "r1_matches": [
         {
-          "a": "Elina Avanesyan",
-          "b": "Yulia Putintseva",
-          "a_seed": "Q",
-          "b_seed": "7",
-          "h2h": "0-2"
+          "a": "Oleksandra Oliynykova",
+          "b": "Elina Avanesyan",
+          "a_seed": "1",
+          "b_seed": "Q",
+          "h2h": null
         },
         {
           "a": "Anna Bondar",
@@ -612,6 +618,12 @@
           "winner": "Oleksandra Oliynykova",
           "loser": "Leyre Romero Gormaz",
           "score": "76(3) 36 62"
+        },
+        {
+          "round": "R2",
+          "winner": "Elina Avanesyan",
+          "loser": "Yulia Putintseva",
+          "score": "63 26 62"
         },
         {
           "round": "R2",
@@ -951,40 +963,52 @@
       ],
       "r1_matches": [
         {
+          "a": "Dalila Spiteri",
+          "b": "Lucia Bronzetti",
+          "a_seed": "2",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
           "a": "Francesca Jones",
-          "b": "Miriam Bianca Bulgaru",
+          "b": "Jennifer Ruggeri",
           "a_seed": "1",
           "b_seed": null,
-          "h2h": "2-0"
+          "h2h": null
         },
         {
           "a": "Alevtina Ibragimova",
-          "b": "Alice Rame",
+          "b": "Clara Burel",
           "a_seed": null,
           "b_seed": null,
           "h2h": "0-1"
         },
         {
-          "a": "Mina Hodzic",
-          "b": "Noemi Basiletti",
-          "a_seed": "Q",
+          "a": "Fiona Ferro",
+          "b": "Mina Hodzic",
+          "a_seed": "7",
           "b_seed": "Q",
-          "h2h": null
-        },
-        {
-          "a": "Dalila Spiteri",
-          "b": "Lucia Bronzetti",
-          "a_seed": "2",
-          "b_seed": null,
           "h2h": null
         }
       ],
       "completed": [
         {
           "round": "R2",
+          "winner": "Francesca Jones",
+          "loser": "Miriam Bianca Bulgaru",
+          "score": "63 62"
+        },
+        {
+          "round": "R2",
           "winner": "Jennifer Ruggeri",
           "loser": "Lola Radivojevic",
           "score": "75 46 64"
+        },
+        {
+          "round": "R2",
+          "winner": "Alevtina Ibragimova",
+          "loser": "Alice Rame",
+          "score": "60 64"
         },
         {
           "round": "R2",
@@ -997,6 +1021,12 @@
           "winner": "Fiona Ferro",
           "loser": "Erika Andreeva",
           "score": "64 63"
+        },
+        {
+          "round": "R2",
+          "winner": "Mina Hodzic",
+          "loser": "Noemi Basiletti",
+          "score": "63 26 62"
         },
         {
           "round": "R2",
