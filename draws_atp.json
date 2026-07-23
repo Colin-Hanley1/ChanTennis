@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-23T00:08:44Z",
+  "fetched_at": "2026-07-23T04:21:45Z",
   "events": [
     {
       "slug": "2026ATPKitzbuhel",
@@ -194,62 +194,82 @@
       "r1_matches": [
         {
           "a": "Alexander Bublik",
-          "b": "Facundo Diaz Acosta",
+          "b": "Alex Molcan",
           "a_seed": "1",
           "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Alex Molcan",
-          "b": "Daniel Altmaier",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "2-0"
+          "h2h": "0-1"
         },
         {
           "a": "Tomas Martin Etcheverry",
-          "b": "Jurij Rodionov",
-          "a_seed": "4",
-          "b_seed": "Q",
-          "h2h": "1-2"
-        },
-        {
-          "a": "Kilian Feldbausch",
           "b": "Ignacio Buse",
-          "a_seed": "Q",
+          "a_seed": "4",
           "b_seed": "5",
-          "h2h": "0-1"
+          "h2h": null
         },
         {
-          "a": "Marco Trungelliti",
-          "b": "Yannick Hanfmann",
+          "a": "Yannick Hanfmann",
+          "b": "Sebastian Baez",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "1-1"
+        },
+        {
+          "a": "Mariano Navone",
+          "b": "Quentin Halys",
           "a_seed": null,
           "b_seed": null,
           "h2h": "1-0"
-        },
-        {
-          "a": "Sebastian Baez",
-          "b": "Arthur Rinderknech",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Jan Lennard Struff",
-          "b": "Mariano Navone",
-          "a_seed": "6",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
-          "a": "Quentin Halys",
-          "b": "Valentin Vacherot",
-          "a_seed": "2",
-          "b_seed": null,
-          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "R16",
+          "winner": "Alexander Bublik",
+          "loser": "Facundo Diaz Acosta",
+          "score": "6-3 7-5"
+        },
+        {
+          "round": "R16",
+          "winner": "Alex Molcan",
+          "loser": "Daniel Altmaier",
+          "score": "6-3 3-6 7-5"
+        },
+        {
+          "round": "R16",
+          "winner": "Tomas Martin Etcheverry",
+          "loser": "Jurij Rodionov",
+          "score": "6-2 7-6(4)"
+        },
+        {
+          "round": "R16",
+          "winner": "Ignacio Buse",
+          "loser": "Kilian Feldbausch",
+          "score": "2-6 6-2 6-2"
+        },
+        {
+          "round": "R16",
+          "winner": "Yannick Hanfmann",
+          "loser": "Marco Trungelliti",
+          "score": "6-4 7-6(2)"
+        },
+        {
+          "round": "R16",
+          "winner": "Sebastian Baez",
+          "loser": "Arthur Rinderknech",
+          "score": "7-6(6) 2-6 6-4"
+        },
+        {
+          "round": "R16",
+          "winner": "Mariano Navone",
+          "loser": "Jan Lennard Struff",
+          "score": "6-0 6-3"
+        },
+        {
+          "round": "R16",
+          "winner": "Quentin Halys",
+          "loser": "Valentin Vacherot",
+          "score": "6-3 6-4"
+        },
         {
           "round": "R32",
           "winner": "Facundo Diaz Acosta",
@@ -530,34 +550,6 @@
           "h2h": "1-0"
         },
         {
-          "a": "Alejandro Tabilo",
-          "b": "Tiago Torres",
-          "a_seed": "3",
-          "b_seed": "WC",
-          "h2h": null
-        },
-        {
-          "a": "Hugo Gaston",
-          "b": "Titouan Droguet",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "2-0"
-        },
-        {
-          "a": "Nuno Borges",
-          "b": "Roman Andres Burruchaga",
-          "a_seed": "5",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Kyrian Jacquet",
-          "b": "Alexander Blockx",
-          "a_seed": "LL",
-          "b_seed": "4",
-          "h2h": null
-        },
-        {
           "a": "Jaime Faria",
           "b": "Gonzalo Bueno",
           "a_seed": "Q",
@@ -570,9 +562,47 @@
           "a_seed": "Q",
           "b_seed": "2",
           "h2h": "1-3"
+        },
+        {
+          "a": "Tiago Torres",
+          "b": "Hugo Gaston",
+          "a_seed": "WC",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Roman Andres Burruchaga",
+          "b": "Alexander Blockx",
+          "a_seed": "4",
+          "b_seed": null,
+          "h2h": "2-0"
         }
       ],
       "completed": [
+        {
+          "round": "R16",
+          "winner": "Tiago Torres",
+          "loser": "Alejandro Tabilo",
+          "score": "6-4 6-4"
+        },
+        {
+          "round": "R16",
+          "winner": "Hugo Gaston",
+          "loser": "Titouan Droguet",
+          "score": "6-0 6-3"
+        },
+        {
+          "round": "R16",
+          "winner": "Roman Andres Burruchaga",
+          "loser": "Nuno Borges",
+          "score": "6-1 4-6 6-3"
+        },
+        {
+          "round": "R16",
+          "winner": "Alexander Blockx",
+          "loser": "Kyrian Jacquet",
+          "score": "3-6 6-4 7-6(4)"
+        },
         {
           "round": "R32",
           "winner": "Timofey Skatov",
