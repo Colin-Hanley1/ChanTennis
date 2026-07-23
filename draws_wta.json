@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-23T15:17:51Z",
+  "fetched_at": "2026-07-23T17:39:35Z",
   "events": [
     {
       "slug": "2026WTAPrague",
@@ -205,13 +205,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Maria Timofeeva",
-          "b": "Sara Bejlek",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Lucie Havlickova",
           "b": "Barbora Krejcikova",
           "a_seed": "WC",
@@ -231,6 +224,13 @@
           "a_seed": "8",
           "b_seed": null,
           "h2h": null
+        },
+        {
+          "a": "Lilli Tagger",
+          "b": "Sara Bejlek",
+          "a_seed": "3",
+          "b_seed": null,
+          "h2h": "0-1"
         }
       ],
       "completed": [
@@ -263,6 +263,12 @@
           "winner": "Lilli Tagger",
           "loser": "Mai Hontama",
           "score": "64 64"
+        },
+        {
+          "round": "R2",
+          "winner": "Sara Bejlek",
+          "loser": "Maria Timofeeva",
+          "score": "61 61"
         },
         {
           "round": "R2",
@@ -579,18 +585,18 @@
           "h2h": "0-2"
         },
         {
-          "a": "Paula Badosa",
-          "b": "Panna Udvardy",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
           "a": "Anna Bondar",
           "b": "Alina Charaeva",
           "a_seed": "4",
           "b_seed": null,
           "h2h": null
+        },
+        {
+          "a": "Mayar Sherif",
+          "b": "Paula Badosa",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "2-1"
         },
         {
           "a": "Tamara Korpatsch",
@@ -624,6 +630,12 @@
           "winner": "Mayar Sherif",
           "loser": "Elsa Jacquemot",
           "score": "62 63"
+        },
+        {
+          "round": "R2",
+          "winner": "Paula Badosa",
+          "loser": "Panna Udvardy",
+          "score": "64 61"
         },
         {
           "round": "R2",
