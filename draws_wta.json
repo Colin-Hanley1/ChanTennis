@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-23T12:44:53Z",
+  "fetched_at": "2026-07-23T15:17:51Z",
   "events": [
     {
       "slug": "2026WTAPrague",
@@ -205,20 +205,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Nikola Bartunkova",
-          "b": "Lanlana Tararudee",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Mai Hontama",
-          "b": "Lilli Tagger",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Maria Timofeeva",
           "b": "Sara Bejlek",
           "a_seed": "3",
@@ -238,6 +224,13 @@
           "a_seed": "1",
           "b_seed": "5",
           "h2h": "2-0"
+        },
+        {
+          "a": "Lanlana Tararudee",
+          "b": "Daria Snigur",
+          "a_seed": "8",
+          "b_seed": null,
+          "h2h": null
         }
       ],
       "completed": [
@@ -255,9 +248,21 @@
         },
         {
           "round": "R2",
+          "winner": "Lanlana Tararudee",
+          "loser": "Nikola Bartunkova",
+          "score": "76(4) 36 76(6)"
+        },
+        {
+          "round": "R2",
           "winner": "Daria Snigur",
           "loser": "Ayla Aksu",
           "score": "63 62"
+        },
+        {
+          "round": "R2",
+          "winner": "Lilli Tagger",
+          "loser": "Mai Hontama",
+          "score": "64 64"
         },
         {
           "round": "R2",
@@ -567,13 +572,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Oleksandra Oliynykova",
-          "b": "Leyre Romero Gormaz",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
           "a": "Elina Avanesyan",
           "b": "Yulia Putintseva",
           "a_seed": "Q",
@@ -603,6 +601,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Oleksandra Oliynykova",
+          "loser": "Leyre Romero Gormaz",
+          "score": "76(3) 36 62"
+        },
         {
           "round": "R2",
           "winner": "Anna Bondar",
