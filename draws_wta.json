@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-24T12:23:44Z",
+  "fetched_at": "2026-07-24T15:00:50Z",
   "events": [
     {
       "slug": "2026WTAPrague",
@@ -205,13 +205,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Marie Bouzkova",
-          "b": "Tereza Valentova",
-          "a_seed": "1",
-          "b_seed": "5",
-          "h2h": "2-0"
-        },
-        {
           "a": "Lilli Tagger",
           "b": "Sara Bejlek",
           "a_seed": "3",
@@ -224,9 +217,22 @@
           "a_seed": "Q",
           "b_seed": "2",
           "h2h": null
+        },
+        {
+          "a": "Tereza Valentova",
+          "b": "Daria Snigur",
+          "a_seed": "5",
+          "b_seed": "8",
+          "h2h": "1-0"
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Tereza Valentova",
+          "loser": "Marie Bouzkova",
+          "score": "26 64 76(6)"
+        },
         {
           "round": "QF",
           "winner": "Daria Snigur",
@@ -583,13 +589,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Oleksandra Oliynykova",
-          "b": "Elina Avanesyan",
-          "a_seed": "1",
-          "b_seed": "Q",
-          "h2h": null
-        },
-        {
           "a": "Mayar Sherif",
           "b": "Paula Badosa",
           "a_seed": null,
@@ -602,9 +601,22 @@
           "a_seed": "5",
           "b_seed": "2",
           "h2h": null
+        },
+        {
+          "a": "Elina Avanesyan",
+          "b": "Anna Bondar",
+          "a_seed": "Q",
+          "b_seed": "4",
+          "h2h": "1-1"
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Elina Avanesyan",
+          "loser": "Oleksandra Oliynykova",
+          "score": ""
+        },
         {
           "round": "QF",
           "winner": "Anna Bondar",
