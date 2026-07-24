@@ -1,7 +1,14 @@
 {
-  "fetched_at": "2026-07-24T18:23:55Z",
+  "fetched_at": "2026-07-24T19:09:37Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Alexander Blockx",
+      "loser": "Roman Andres Burruchaga",
+      "score": "6-4 5-7 6-4",
+      "round": "Quarterfinal",
+      "event": "2026ATPEstoril"
+    },
     {
       "winner": "Hugo Gaston",
       "loser": "Tiago Torres",
