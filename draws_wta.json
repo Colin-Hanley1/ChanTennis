@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-24T16:49:05Z",
+  "fetched_at": "2026-07-24T18:23:58Z",
   "events": [
     {
       "slug": "2026WTAPrague",
@@ -205,18 +205,18 @@
       ],
       "r1_matches": [
         {
-          "a": "Dominika Salkova",
-          "b": "Barbora Krejcikova",
-          "a_seed": "Q",
-          "b_seed": "2",
-          "h2h": null
-        },
-        {
           "a": "Tereza Valentova",
           "b": "Daria Snigur",
           "a_seed": "5",
           "b_seed": "8",
           "h2h": "1-0"
+        },
+        {
+          "a": "Lilli Tagger",
+          "b": "Barbora Krejcikova",
+          "a_seed": "2",
+          "b_seed": null,
+          "h2h": null
         }
       ],
       "completed": [
@@ -237,6 +237,12 @@
           "winner": "Lilli Tagger",
           "loser": "Sara Bejlek",
           "score": "63 64"
+        },
+        {
+          "round": "QF",
+          "winner": "Barbora Krejcikova",
+          "loser": "Dominika Salkova",
+          "score": "63 63"
         },
         {
           "round": "R2",
@@ -588,18 +594,18 @@
       ],
       "r1_matches": [
         {
-          "a": "Tamara Korpatsch",
-          "b": "Anhelina Kalinina",
-          "a_seed": "5",
-          "b_seed": "2",
-          "h2h": null
-        },
-        {
           "a": "Elina Avanesyan",
           "b": "Anna Bondar",
           "a_seed": "Q",
           "b_seed": "4",
           "h2h": "1-1"
+        },
+        {
+          "a": "Mayar Sherif",
+          "b": "Tamara Korpatsch",
+          "a_seed": "5",
+          "b_seed": null,
+          "h2h": "1-2"
         }
       ],
       "completed": [
@@ -620,6 +626,12 @@
           "winner": "Mayar Sherif",
           "loser": "Paula Badosa",
           "score": "76(4) 67(2) 64"
+        },
+        {
+          "round": "QF",
+          "winner": "Tamara Korpatsch",
+          "loser": "Anhelina Kalinina",
+          "score": "63 16 61"
         },
         {
           "round": "R2",
@@ -971,13 +983,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Francesca Jones",
-          "b": "Jennifer Ruggeri",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Alevtina Ibragimova",
           "b": "Clara Burel",
           "a_seed": null,
@@ -1000,6 +1005,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Francesca Jones",
+          "loser": "Jennifer Ruggeri",
+          "score": "46 63 62"
+        },
         {
           "round": "R2",
           "winner": "Francesca Jones",
