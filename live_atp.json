@@ -1,7 +1,14 @@
 {
-  "fetched_at": "2026-07-24T12:51:52Z",
+  "fetched_at": "2026-07-24T14:42:58Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Hugo Gaston",
+      "loser": "Tiago Torres",
+      "score": "6-3 6-4",
+      "round": "Quarterfinal",
+      "event": "2026ATPEstoril"
+    },
     {
       "winner": "Gonzalo Bueno",
       "loser": "Tiago Pereira",
@@ -301,6 +308,13 @@
       "loser": "Marco Trungelliti",
       "score": "6-4 7-6",
       "round": "Round 2",
+      "event": "2026ATPKitzbuhel"
+    },
+    {
+      "winner": "Alexander Bublik",
+      "loser": "Tomas Martin Etcheverry",
+      "score": "6-3 6-4",
+      "round": "Semifinal",
       "event": "2026ATPKitzbuhel"
     },
     {
