@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-24T20:25:34Z",
+  "fetched_at": "2026-07-24T22:12:10Z",
   "events": [
     {
       "slug": "2026WTAPrague",
@@ -983,24 +983,17 @@
       ],
       "r1_matches": [
         {
-          "a": "Alevtina Ibragimova",
-          "b": "Clara Burel",
-          "a_seed": null,
+          "a": "Francesca Jones",
+          "b": "Alevtina Ibragimova",
+          "a_seed": "1",
           "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
-          "a": "Fiona Ferro",
-          "b": "Mina Hodzic",
-          "a_seed": "7",
-          "b_seed": "Q",
           "h2h": null
         },
         {
-          "a": "Yasmine Kabbaj",
+          "a": "Fiona Ferro",
           "b": "Lucia Bronzetti",
-          "a_seed": "2",
-          "b_seed": null,
+          "a_seed": "7",
+          "b_seed": "2",
           "h2h": null
         }
       ],
@@ -1010,6 +1003,24 @@
           "winner": "Francesca Jones",
           "loser": "Jennifer Ruggeri",
           "score": "46 63 62"
+        },
+        {
+          "round": "QF",
+          "winner": "Alevtina Ibragimova",
+          "loser": "Clara Burel",
+          "score": "36 76(5) 64"
+        },
+        {
+          "round": "QF",
+          "winner": "Fiona Ferro",
+          "loser": "Mina Hodzic",
+          "score": "62 60"
+        },
+        {
+          "round": "QF",
+          "winner": "Lucia Bronzetti",
+          "loser": "Yasmine Kabbaj",
+          "score": "63 26 60"
         },
         {
           "round": "R2",
