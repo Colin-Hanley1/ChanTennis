@@ -1,11 +1,18 @@
 {
-  "fetched_at": "2026-07-24T15:00:47Z",
+  "fetched_at": "2026-07-24T16:49:01Z",
   "source": "espn",
   "matches": [
     {
       "winner": "Hugo Gaston",
       "loser": "Tiago Torres",
       "score": "6-3 6-4",
+      "round": "Quarterfinal",
+      "event": "2026ATPEstoril"
+    },
+    {
+      "winner": "Luca Van Assche",
+      "loser": "Andrey Rublev",
+      "score": "3-6 6-3 6-4",
       "round": "Quarterfinal",
       "event": "2026ATPEstoril"
     },
