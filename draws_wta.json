@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-24T10:26:07Z",
+  "fetched_at": "2026-07-24T12:23:44Z",
   "events": [
     {
       "slug": "2026WTAPrague",
@@ -212,13 +212,6 @@
           "h2h": "2-0"
         },
         {
-          "a": "Lanlana Tararudee",
-          "b": "Daria Snigur",
-          "a_seed": "8",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Lilli Tagger",
           "b": "Sara Bejlek",
           "a_seed": "3",
@@ -234,6 +227,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Daria Snigur",
+          "loser": "Lanlana Tararudee",
+          "score": "60 63"
+        },
         {
           "round": "R2",
           "winner": "Marie Bouzkova",
@@ -591,13 +590,6 @@
           "h2h": null
         },
         {
-          "a": "Anna Bondar",
-          "b": "Alina Charaeva",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Mayar Sherif",
           "b": "Paula Badosa",
           "a_seed": null,
@@ -613,6 +605,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Anna Bondar",
+          "loser": "Alina Charaeva",
+          "score": "61 76(3)"
+        },
         {
           "round": "R2",
           "winner": "Oleksandra Oliynykova",
