@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-25T12:41:28Z",
+  "fetched_at": "2026-07-25T13:52:54Z",
   "source": "espn",
   "matches": [
     {
@@ -162,6 +162,13 @@
       "score": "6-4 6-4",
       "round": "Round 2",
       "event": "2026ATPEstoril"
+    },
+    {
+      "winner": "Quentin Halys",
+      "loser": "Alexander Bublik",
+      "score": "6-4 7-6",
+      "round": "Final",
+      "event": "2026ATPKitzbuhel"
     },
     {
       "winner": "Alexander Bublik",
