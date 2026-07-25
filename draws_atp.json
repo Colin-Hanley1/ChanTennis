@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-25T04:17:02Z",
+  "fetched_at": "2026-07-25T07:23:12Z",
   "events": [
     {
       "slug": "2026ATPKitzbuhel",
@@ -194,34 +194,49 @@
       "r1_matches": [
         {
           "a": "Alexander Bublik",
-          "b": "Alex Molcan",
+          "b": "Quentin Halys",
           "a_seed": "1",
           "b_seed": null,
           "h2h": "0-1"
-        },
-        {
-          "a": "Tomas Martin Etcheverry",
-          "b": "Ignacio Buse",
-          "a_seed": "4",
-          "b_seed": "5",
-          "h2h": null
-        },
-        {
-          "a": "Yannick Hanfmann",
-          "b": "Sebastian Baez",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-1"
-        },
-        {
-          "a": "Mariano Navone",
-          "b": "Quentin Halys",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-0"
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Alexander Bublik",
+          "loser": "Tomas Martin Etcheverry",
+          "score": "6-3 6-4"
+        },
+        {
+          "round": "SF",
+          "winner": "Quentin Halys",
+          "loser": "Yannick Hanfmann",
+          "score": "6-4 7-6(2)"
+        },
+        {
+          "round": "QF",
+          "winner": "Alexander Bublik",
+          "loser": "Alex Molcan",
+          "score": "6-3 6-2"
+        },
+        {
+          "round": "QF",
+          "winner": "Tomas Martin Etcheverry",
+          "loser": "Ignacio Buse",
+          "score": "6-2 7-5"
+        },
+        {
+          "round": "QF",
+          "winner": "Yannick Hanfmann",
+          "loser": "Sebastian Baez",
+          "score": "6-3 6-1"
+        },
+        {
+          "round": "QF",
+          "winner": "Quentin Halys",
+          "loser": "Mariano Navone",
+          "score": "7-5 6-3"
+        },
         {
           "round": "R16",
           "winner": "Alexander Bublik",
@@ -536,49 +551,57 @@
       ],
       "r1_matches": [
         {
-          "a": "Andrey Rublev",
-          "b": "Timofey Skatov",
-          "a_seed": "1",
-          "b_seed": "LL",
-          "h2h": null
-        },
-        {
           "a": "Luca Van Assche",
-          "b": "Pablo Carreno Busta",
-          "a_seed": "8",
+          "b": "Hugo Gaston",
+          "a_seed": null,
           "b_seed": null,
           "h2h": "1-0"
         },
         {
-          "a": "Jaime Faria",
-          "b": "Gonzalo Bueno",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Pedro Martinez",
+          "a": "Alexander Blockx",
           "b": "Luciano Darderi",
-          "a_seed": "Q",
-          "b_seed": "2",
-          "h2h": "1-3"
-        },
-        {
-          "a": "Tiago Torres",
-          "b": "Hugo Gaston",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Roman Andres Burruchaga",
-          "b": "Alexander Blockx",
           "a_seed": "4",
-          "b_seed": null,
-          "h2h": "2-0"
+          "b_seed": "2",
+          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Luca Van Assche",
+          "loser": "Andrey Rublev",
+          "score": "3-6 6-3 6-4"
+        },
+        {
+          "round": "QF",
+          "winner": "Hugo Gaston",
+          "loser": "Tiago Torres",
+          "score": "6-3 6-4"
+        },
+        {
+          "round": "QF",
+          "winner": "Alexander Blockx",
+          "loser": "Roman Andres Burruchaga",
+          "score": "6-4 5-7 6-4"
+        },
+        {
+          "round": "QF",
+          "winner": "Luciano Darderi",
+          "loser": "Jaime Faria",
+          "score": "2-6 7-5 6-2"
+        },
+        {
+          "round": "R16",
+          "winner": "Andrey Rublev",
+          "loser": "Timofey Skatov",
+          "score": "6-1 6-1"
+        },
+        {
+          "round": "R16",
+          "winner": "Luca Van Assche",
+          "loser": "Pablo Carreno Busta",
+          "score": "6-3 4-6 6-2"
+        },
         {
           "round": "R16",
           "winner": "Tiago Torres",
@@ -602,6 +625,18 @@
           "winner": "Alexander Blockx",
           "loser": "Kyrian Jacquet",
           "score": "3-6 6-4 7-6(4)"
+        },
+        {
+          "round": "R16",
+          "winner": "Jaime Faria",
+          "loser": "Gonzalo Bueno",
+          "score": "6-2 6-4"
+        },
+        {
+          "round": "R16",
+          "winner": "Luciano Darderi",
+          "loser": "Pedro Martinez",
+          "score": "6-0 6-1"
         },
         {
           "round": "R32",
