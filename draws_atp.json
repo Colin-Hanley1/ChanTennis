@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-25T22:02:22Z",
+  "fetched_at": "2026-07-25T23:03:49Z",
   "events": [
     {
       "slug": "2026ATPKitzbuhel",
@@ -191,16 +191,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Alexander Bublik",
-          "b": "Quentin Halys",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": "0-1"
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Quentin Halys",
+          "loser": "Alexander Bublik",
+          "score": "6-4 7-6(6)"
+        },
         {
           "round": "SF",
           "winner": "Alexander Bublik",
@@ -552,20 +550,25 @@
       "r1_matches": [
         {
           "a": "Luca Van Assche",
-          "b": "Hugo Gaston",
-          "a_seed": null,
+          "b": "Alexander Blockx",
+          "a_seed": "4",
           "b_seed": null,
           "h2h": "1-0"
-        },
-        {
-          "a": "Alexander Blockx",
-          "b": "Luciano Darderi",
-          "a_seed": "4",
-          "b_seed": "2",
-          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Luca Van Assche",
+          "loser": "Hugo Gaston",
+          "score": "6-4 7-5"
+        },
+        {
+          "round": "SF",
+          "winner": "Alexander Blockx",
+          "loser": "Luciano Darderi",
+          "score": "5-7 7-6(1) 7-6(5)"
+        },
         {
           "round": "QF",
           "winner": "Luca Van Assche",
