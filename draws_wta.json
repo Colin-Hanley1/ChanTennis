@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-25T19:19:58Z",
+  "fetched_at": "2026-07-25T21:02:02Z",
   "events": [
     {
       "slug": "2026WTAPrague",
@@ -994,20 +994,25 @@
       "r1_matches": [
         {
           "a": "Francesca Jones",
-          "b": "Alevtina Ibragimova",
+          "b": "Fiona Ferro",
           "a_seed": "1",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Fiona Ferro",
-          "b": "Lucia Bronzetti",
-          "a_seed": "7",
-          "b_seed": "2",
-          "h2h": null
+          "b_seed": "7",
+          "h2h": "0-1"
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Francesca Jones",
+          "loser": "Alevtina Ibragimova",
+          "score": "63 64"
+        },
+        {
+          "round": "SF",
+          "winner": "Fiona Ferro",
+          "loser": "Lucia Bronzetti",
+          "score": "62 63"
+        },
         {
           "round": "QF",
           "winner": "Francesca Jones",
