@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-25T15:11:40Z",
+  "fetched_at": "2026-07-25T17:09:04Z",
   "events": [
     {
       "slug": "2026WTAPrague",
@@ -593,13 +593,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Elina Avanesyan",
-          "b": "Anna Bondar",
-          "a_seed": "Q",
-          "b_seed": "4",
-          "h2h": "1-1"
-        },
-        {
           "a": "Mayar Sherif",
           "b": "Tamara Korpatsch",
           "a_seed": "5",
@@ -608,6 +601,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Anna Bondar",
+          "loser": "Elina Avanesyan",
+          "score": "76(3) 46 76(2)"
+        },
         {
           "round": "QF",
           "winner": "Elina Avanesyan",
