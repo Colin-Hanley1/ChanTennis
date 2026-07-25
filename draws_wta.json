@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-25T13:52:58Z",
+  "fetched_at": "2026-07-25T15:11:40Z",
   "events": [
     {
       "slug": "2026WTAPrague",
@@ -205,13 +205,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Tereza Valentova",
-          "b": "Daria Snigur",
-          "a_seed": "5",
-          "b_seed": "8",
-          "h2h": "1-0"
-        },
-        {
           "a": "Lilli Tagger",
           "b": "Barbora Krejcikova",
           "a_seed": "2",
@@ -220,6 +213,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Daria Snigur",
+          "loser": "Tereza Valentova",
+          "score": "76(4) 63"
+        },
         {
           "round": "QF",
           "winner": "Tereza Valentova",
