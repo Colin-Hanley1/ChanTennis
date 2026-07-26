@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-26T12:09:56Z",
+  "fetched_at": "2026-07-26T14:41:56Z",
   "events": [
     {
       "slug": "2026WTAPrague",
@@ -203,16 +203,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Daria Snigur",
-          "b": "Lilli Tagger",
-          "a_seed": "8",
-          "b_seed": null,
-          "h2h": null
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Lilli Tagger",
+          "loser": "Daria Snigur",
+          "score": "76(3) 62"
+        },
         {
           "round": "SF",
           "winner": "Daria Snigur",
