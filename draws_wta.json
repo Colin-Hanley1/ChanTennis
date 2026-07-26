@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-26T14:41:56Z",
+  "fetched_at": "2026-07-26T16:08:28Z",
   "events": [
     {
       "slug": "2026WTAPrague",
@@ -595,16 +595,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Anna Bondar",
-          "b": "Tamara Korpatsch",
-          "a_seed": "4",
-          "b_seed": "5",
-          "h2h": "0-4"
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Tamara Korpatsch",
+          "loser": "Anna Bondar",
+          "score": "63 63"
+        },
         {
           "round": "SF",
           "winner": "Anna Bondar",
