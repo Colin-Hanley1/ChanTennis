@@ -1,5 +1,12 @@
 {
-  "fetched_at": "2026-07-27T15:47:53Z",
+  "fetched_at": "2026-07-27T16:36:57Z",
   "source": "espn",
-  "matches": []
+  "matches": [
+    {
+      "winner": "Leylah Fernandez",
+      "loser": "Magda Linette",
+      "score": "6-1 6-4",
+      "round": "Round 1"
+    }
+  ]
 }
