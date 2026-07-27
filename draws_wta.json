@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-26T22:05:28Z",
+  "fetched_at": "2026-07-27T00:07:05Z",
   "events": [
     {
       "slug": "2026WTAPrague",
@@ -987,16 +987,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Francesca Jones",
-          "b": "Fiona Ferro",
-          "a_seed": "1",
-          "b_seed": "7",
-          "h2h": "0-1"
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Francesca Jones",
+          "loser": "Fiona Ferro",
+          "score": "60 46 76(6)"
+        },
         {
           "round": "SF",
           "winner": "Francesca Jones",
