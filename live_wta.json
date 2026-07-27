@@ -1,7 +1,19 @@
 {
-  "fetched_at": "2026-07-27T18:11:25Z",
+  "fetched_at": "2026-07-27T19:46:18Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Elisabetta Cocciaretto",
+      "loser": "Clara Tauson",
+      "score": "4-6 7-6 7-6",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Emma Navarro",
+      "loser": "Sofia Kenin",
+      "score": "6-0 7-5",
+      "round": "Round 1"
+    },
     {
       "winner": "Leylah Fernandez",
       "loser": "Magda Linette",

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-27T17:49:00Z",
+  "fetched_at": "2026-07-27T19:46:22Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -235,20 +235,6 @@
           "h2h": "1-5"
         },
         {
-          "a": "Emma Navarro",
-          "b": "Sofia Kenin",
-          "a_seed": "8",
-          "b_seed": "WC",
-          "h2h": "0-1"
-        },
-        {
-          "a": "Elisabetta Cocciaretto",
-          "b": "Clara Tauson",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
           "a": "Ashlyn Krueger",
           "b": "Katie Boulter",
           "a_seed": "WC",
@@ -268,9 +254,28 @@
           "a_seed": "Q",
           "b_seed": null,
           "h2h": null
+        },
+        {
+          "a": "Emma Navarro",
+          "b": "Elisabetta Cocciaretto",
+          "a_seed": "8",
+          "b_seed": null,
+          "h2h": "1-2"
         }
       ],
       "completed": [
+        {
+          "round": "R1",
+          "winner": "Emma Navarro",
+          "loser": "Sofia Kenin",
+          "score": "60 75"
+        },
+        {
+          "round": "R1",
+          "winner": "Elisabetta Cocciaretto",
+          "loser": "Clara Tauson",
+          "score": "46 76(2) 76(2)"
+        },
         {
           "round": "R1",
           "winner": "Leylah Fernandez",
@@ -821,13 +826,6 @@
           "h2h": null
         },
         {
-          "a": "Alice Rame",
-          "b": "Julie Struplova",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
           "a": "Margaux Rouvroy",
           "b": "Lola Radivojevic",
           "a_seed": "Q",
@@ -909,6 +907,12 @@
           "winner": "Elena Ruxandra Bertea",
           "loser": "Elena Malygina",
           "score": "63 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Alice Rame",
+          "loser": "Julie Struplova",
+          "score": "62 57 61"
         },
         {
           "round": "R1",
