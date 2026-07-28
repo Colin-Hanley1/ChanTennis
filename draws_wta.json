@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-28T06:34:35Z",
+  "fetched_at": "2026-07-28T09:41:14Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -614,6 +614,324 @@
       ]
     },
     {
+      "slug": "2026WTAVancouver125",
+      "name": "Vancouver125",
+      "year": 2026,
+      "tour": "wta",
+      "surface": "hard",
+      "best_of": 3,
+      "url": "https://www.tennisabstract.com/current/2026WTAVancouver125.html",
+      "bracket_slots": [
+        {
+          "name": "Moyuka Uchijima",
+          "seed": "1",
+          "country": "JPN",
+          "bye": false
+        },
+        {
+          "name": "Miho Kuramochi",
+          "seed": "Q",
+          "country": "JPN",
+          "bye": false
+        },
+        {
+          "name": "Hayu Kinoshita",
+          "seed": null,
+          "country": "JPN",
+          "bye": false
+        },
+        {
+          "name": "Kyoka Okamura",
+          "seed": null,
+          "country": "JPN",
+          "bye": false
+        },
+        {
+          "name": "Lizette Cabrera",
+          "seed": null,
+          "country": "AUS",
+          "bye": false
+        },
+        {
+          "name": "Sofia Costoulas",
+          "seed": null,
+          "country": "BEL",
+          "bye": false
+        },
+        {
+          "name": "Greet Minnen",
+          "seed": null,
+          "country": "BEL",
+          "bye": false
+        },
+        {
+          "name": "Maddison Inglis",
+          "seed": "8",
+          "country": "AUS",
+          "bye": false
+        },
+        {
+          "name": "Kayla Day",
+          "seed": "4",
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Mai Hontama",
+          "seed": null,
+          "country": "JPN",
+          "bye": false
+        },
+        {
+          "name": "Jia Jing Lu",
+          "seed": null,
+          "country": "CHN",
+          "bye": false
+        },
+        {
+          "name": "Caroline Dolehide",
+          "seed": null,
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Ariana Arseneault",
+          "seed": "WC",
+          "country": "CAN",
+          "bye": false
+        },
+        {
+          "name": "Annabelle Xu",
+          "seed": "WC",
+          "country": "CAN",
+          "bye": false
+        },
+        {
+          "name": "Hong Yi Cody Wong",
+          "seed": "Q",
+          "country": "HKG",
+          "bye": false
+        },
+        {
+          "name": "Himeno Sakatsume",
+          "seed": "5",
+          "country": "JPN",
+          "bye": false
+        },
+        {
+          "name": "Harriet Dart",
+          "seed": "7",
+          "country": "GBR",
+          "bye": false
+        },
+        {
+          "name": "Kayla Cross",
+          "seed": null,
+          "country": "CAN",
+          "bye": false
+        },
+        {
+          "name": "Yeon Woo Ku",
+          "seed": null,
+          "country": "KOR",
+          "bye": false
+        },
+        {
+          "name": "Emma Dong",
+          "seed": "Q",
+          "country": "CAN",
+          "bye": false
+        },
+        {
+          "name": "Priscilla Hon",
+          "seed": null,
+          "country": "AUS",
+          "bye": false
+        },
+        {
+          "name": "Ellie Schoppe",
+          "seed": "Q",
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Haruka Kaji",
+          "seed": null,
+          "country": "JPN",
+          "bye": false
+        },
+        {
+          "name": "Taylah Preston",
+          "seed": "3",
+          "country": "AUS",
+          "bye": false
+        },
+        {
+          "name": "Emerson Jones",
+          "seed": "6",
+          "country": "AUS",
+          "bye": false
+        },
+        {
+          "name": "Carol Zhao",
+          "seed": null,
+          "country": "CAN",
+          "bye": false
+        },
+        {
+          "name": "Madison Brengle",
+          "seed": null,
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Alexandra Vagramov",
+          "seed": "WC",
+          "country": "CAN",
+          "bye": false
+        },
+        {
+          "name": "Teah Chavez",
+          "seed": "WC",
+          "country": "CAN",
+          "bye": false
+        },
+        {
+          "name": "Nao Hibino",
+          "seed": null,
+          "country": "JPN",
+          "bye": false
+        },
+        {
+          "name": "En Shuo Liang",
+          "seed": null,
+          "country": "TPE",
+          "bye": false
+        },
+        {
+          "name": "Mananchaya Sawangkaew",
+          "seed": "2",
+          "country": "THA",
+          "bye": false
+        }
+      ],
+      "r1_matches": [
+        {
+          "a": "Moyuka Uchijima",
+          "b": "Miho Kuramochi",
+          "a_seed": "1",
+          "b_seed": "Q",
+          "h2h": null
+        },
+        {
+          "a": "Hayu Kinoshita",
+          "b": "Kyoka Okamura",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "0-2"
+        },
+        {
+          "a": "Lizette Cabrera",
+          "b": "Sofia Costoulas",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "0-1"
+        },
+        {
+          "a": "Greet Minnen",
+          "b": "Maddison Inglis",
+          "a_seed": "8",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Kayla Day",
+          "b": "Mai Hontama",
+          "a_seed": "4",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Jia Jing Lu",
+          "b": "Caroline Dolehide",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Ariana Arseneault",
+          "b": "Annabelle Xu",
+          "a_seed": "WC",
+          "b_seed": "WC",
+          "h2h": "1-0"
+        },
+        {
+          "a": "Hong Yi Cody Wong",
+          "b": "Himeno Sakatsume",
+          "a_seed": "Q",
+          "b_seed": "5",
+          "h2h": "0-2"
+        },
+        {
+          "a": "Harriet Dart",
+          "b": "Kayla Cross",
+          "a_seed": "7",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Yeon Woo Ku",
+          "b": "Emma Dong",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Priscilla Hon",
+          "b": "Ellie Schoppe",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Haruka Kaji",
+          "b": "Taylah Preston",
+          "a_seed": "3",
+          "b_seed": null,
+          "h2h": "0-1"
+        },
+        {
+          "a": "Emerson Jones",
+          "b": "Carol Zhao",
+          "a_seed": "6",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Madison Brengle",
+          "b": "Alexandra Vagramov",
+          "a_seed": "WC",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Teah Chavez",
+          "b": "Nao Hibino",
+          "a_seed": "WC",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "En Shuo Liang",
+          "b": "Mananchaya Sawangkaew",
+          "a_seed": "2",
+          "b_seed": null,
+          "h2h": "1-1"
+        }
+      ],
+      "completed": []
+    },
+    {
       "slug": "2026WTATarguMures125",
       "name": "Targu Mures125",
       "year": 2026,
@@ -939,296 +1257,6 @@
           "score": "61 46 64"
         }
       ]
-    },
-    {
-      "slug": "2026WTAVancouver125",
-      "name": "Vancouver125",
-      "year": 2026,
-      "tour": "wta",
-      "surface": "hard",
-      "best_of": 3,
-      "url": "https://www.tennisabstract.com/current/2026WTAVancouver125.html",
-      "bracket_slots": [
-        {
-          "name": "Moyuka Uchijima",
-          "seed": "1",
-          "country": "JPN",
-          "bye": false
-        },
-        {
-          "name": "Qualifier1",
-          "seed": null,
-          "country": null,
-          "bye": false
-        },
-        {
-          "name": "Hayu Kinoshita",
-          "seed": null,
-          "country": "JPN",
-          "bye": false
-        },
-        {
-          "name": "Kyoka Okamura",
-          "seed": null,
-          "country": "JPN",
-          "bye": false
-        },
-        {
-          "name": "Lizette Cabrera",
-          "seed": null,
-          "country": "AUS",
-          "bye": false
-        },
-        {
-          "name": "Sofia Costoulas",
-          "seed": null,
-          "country": "BEL",
-          "bye": false
-        },
-        {
-          "name": "Greet Minnen",
-          "seed": null,
-          "country": "BEL",
-          "bye": false
-        },
-        {
-          "name": "Maddison Inglis",
-          "seed": "8",
-          "country": "AUS",
-          "bye": false
-        },
-        {
-          "name": "Kayla Day",
-          "seed": "4",
-          "country": "USA",
-          "bye": false
-        },
-        {
-          "name": "Mai Hontama",
-          "seed": null,
-          "country": "JPN",
-          "bye": false
-        },
-        {
-          "name": "Jia Jing Lu",
-          "seed": null,
-          "country": "CHN",
-          "bye": false
-        },
-        {
-          "name": "Caroline Dolehide",
-          "seed": null,
-          "country": "USA",
-          "bye": false
-        },
-        {
-          "name": "Ariana Arseneault",
-          "seed": "WC",
-          "country": "CAN",
-          "bye": false
-        },
-        {
-          "name": "Annabelle Xu",
-          "seed": "WC",
-          "country": "CAN",
-          "bye": false
-        },
-        {
-          "name": "Qualifier2",
-          "seed": null,
-          "country": null,
-          "bye": false
-        },
-        {
-          "name": "Himeno Sakatsume",
-          "seed": "5",
-          "country": "JPN",
-          "bye": false
-        },
-        {
-          "name": "Harriet Dart",
-          "seed": "7",
-          "country": "GBR",
-          "bye": false
-        },
-        {
-          "name": "Kayla Cross",
-          "seed": null,
-          "country": "CAN",
-          "bye": false
-        },
-        {
-          "name": "Yeon Woo Ku",
-          "seed": null,
-          "country": "KOR",
-          "bye": false
-        },
-        {
-          "name": "Qualifier3",
-          "seed": null,
-          "country": null,
-          "bye": false
-        },
-        {
-          "name": "Priscilla Hon",
-          "seed": null,
-          "country": "AUS",
-          "bye": false
-        },
-        {
-          "name": "Qualifier4",
-          "seed": null,
-          "country": null,
-          "bye": false
-        },
-        {
-          "name": "Haruka Kaji",
-          "seed": null,
-          "country": "JPN",
-          "bye": false
-        },
-        {
-          "name": "Taylah Preston",
-          "seed": "3",
-          "country": "AUS",
-          "bye": false
-        },
-        {
-          "name": "Emerson Jones",
-          "seed": "6",
-          "country": "AUS",
-          "bye": false
-        },
-        {
-          "name": "Carol Zhao",
-          "seed": null,
-          "country": "CAN",
-          "bye": false
-        },
-        {
-          "name": "Madison Brengle",
-          "seed": null,
-          "country": "USA",
-          "bye": false
-        },
-        {
-          "name": "Alexandra Vagramov",
-          "seed": "WC",
-          "country": "CAN",
-          "bye": false
-        },
-        {
-          "name": "Teah Chavez",
-          "seed": "WC",
-          "country": "CAN",
-          "bye": false
-        },
-        {
-          "name": "Nao Hibino",
-          "seed": null,
-          "country": "JPN",
-          "bye": false
-        },
-        {
-          "name": "En Shuo Liang",
-          "seed": null,
-          "country": "TPE",
-          "bye": false
-        },
-        {
-          "name": "Mananchaya Sawangkaew",
-          "seed": "2",
-          "country": "THA",
-          "bye": false
-        }
-      ],
-      "r1_matches": [
-        {
-          "a": "Hayu Kinoshita",
-          "b": "Kyoka Okamura",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "0-2"
-        },
-        {
-          "a": "Lizette Cabrera",
-          "b": "Sofia Costoulas",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
-          "a": "Greet Minnen",
-          "b": "Maddison Inglis",
-          "a_seed": "8",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Kayla Day",
-          "b": "Mai Hontama",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Jia Jing Lu",
-          "b": "Caroline Dolehide",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Ariana Arseneault",
-          "b": "Annabelle Xu",
-          "a_seed": "WC",
-          "b_seed": "WC",
-          "h2h": "1-0"
-        },
-        {
-          "a": "Harriet Dart",
-          "b": "Kayla Cross",
-          "a_seed": "7",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Haruka Kaji",
-          "b": "Taylah Preston",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
-          "a": "Emerson Jones",
-          "b": "Carol Zhao",
-          "a_seed": "6",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Madison Brengle",
-          "b": "Alexandra Vagramov",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Teah Chavez",
-          "b": "Nao Hibino",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "En Shuo Liang",
-          "b": "Mananchaya Sawangkaew",
-          "a_seed": "2",
-          "b_seed": null,
-          "h2h": "1-1"
-        }
-      ],
-      "completed": []
     }
   ]
 }
