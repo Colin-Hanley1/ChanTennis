@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-28T03:24:06Z",
+  "fetched_at": "2026-07-28T06:34:35Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -520,13 +520,6 @@
           "h2h": "1-0"
         },
         {
-          "a": "Katherine Sebov",
-          "b": "Elvina Kalieva",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
           "a": "Mary Stoiana",
           "b": "Peyton Stearns",
           "a_seed": "7",
@@ -575,6 +568,12 @@
           "winner": "Maya Joint",
           "loser": "Whitney Osuigwe",
           "score": "64 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Elvina Kalieva",
+          "loser": "Katherine Sebov",
+          "score": "61 76(3)"
         },
         {
           "round": "R1",
@@ -1144,27 +1143,6 @@
         }
       ],
       "r1_matches": [
-        {
-          "a": "Miho Kuramochi",
-          "b": "Avery Alexander",
-          "a_seed": "2",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
-          "a": "Sijia Wei",
-          "b": "Hong Yi Cody Wong",
-          "a_seed": "3",
-          "b_seed": "8",
-          "h2h": "3-0"
-        },
-        {
-          "a": "Emma Dong",
-          "b": "Valeria Savinykh",
-          "a_seed": "WC",
-          "b_seed": "7",
-          "h2h": null
-        },
         {
           "a": "Hayu Kinoshita",
           "b": "Kyoka Okamura",
