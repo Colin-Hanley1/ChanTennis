@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-28T12:02:57Z",
+  "fetched_at": "2026-07-28T14:29:16Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -1149,31 +1149,10 @@
           "h2h": "3-0"
         },
         {
-          "a": "Lucija Ciric Bagaric",
-          "b": "Rachel Gailis",
-          "a_seed": "Q",
-          "b_seed": "WC",
-          "h2h": null
-        },
-        {
-          "a": "Margaux Rouvroy",
-          "b": "Lola Radivojevic",
-          "a_seed": "Q",
-          "b_seed": "7",
-          "h2h": "1-1"
-        },
-        {
           "a": "Alevtina Ibragimova",
           "b": "Maia Ilinca Burcescu",
           "a_seed": "WC",
           "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Miriana Tona",
-          "b": "Lucia Bronzetti",
-          "a_seed": "Q",
-          "b_seed": "4",
           "h2h": null
         },
         {
@@ -1189,6 +1168,13 @@
           "a_seed": "1",
           "b_seed": null,
           "h2h": "1-1"
+        },
+        {
+          "a": "Alice Rame",
+          "b": "Margaux Rouvroy",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
         },
         {
           "a": "Sara Sorribes Tormo",
@@ -1226,9 +1212,21 @@
         },
         {
           "round": "R1",
+          "winner": "Lucija Ciric Bagaric",
+          "loser": "Rachel Gailis",
+          "score": "62 61"
+        },
+        {
+          "round": "R1",
           "winner": "Alice Rame",
           "loser": "Julie Struplova",
           "score": "62 57 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Margaux Rouvroy",
+          "loser": "Lola Radivojevic",
+          "score": "06 63 76(4)"
         },
         {
           "round": "R1",
@@ -1241,6 +1239,12 @@
           "winner": "Caijsa Wilda Hennemann",
           "loser": "Mia Pohankova",
           "score": "61 46 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Lucia Bronzetti",
+          "loser": "Miriana Tona",
+          "score": "62 62"
         },
         {
           "round": "R1",
