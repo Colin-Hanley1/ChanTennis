@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-27T23:12:18Z",
+  "fetched_at": "2026-07-28T03:24:06Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -200,13 +200,6 @@
           "h2h": "0-5"
         },
         {
-          "a": "Janice Tjen",
-          "b": "Rebecca Sramkova",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Daria Kasatkina",
           "b": "Anna Kalinskaya",
           "a_seed": "Q",
@@ -228,20 +221,6 @@
           "h2h": null
         },
         {
-          "a": "Liudmila Samsonova",
-          "b": "Madison Keys",
-          "a_seed": "6",
-          "b_seed": null,
-          "h2h": "1-5"
-        },
-        {
-          "a": "Ashlyn Krueger",
-          "b": "Katie Boulter",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": "2-1"
-        },
-        {
           "a": "Alexandra Eala",
           "b": "Qinwen Zheng",
           "a_seed": "WC",
@@ -261,9 +240,28 @@
           "a_seed": "8",
           "b_seed": null,
           "h2h": "1-2"
+        },
+        {
+          "a": "Ashlyn Krueger",
+          "b": "Naomi Osaka",
+          "a_seed": "WC",
+          "b_seed": "3",
+          "h2h": "1-0"
         }
       ],
       "completed": [
+        {
+          "round": "R1",
+          "winner": "Janice Tjen",
+          "loser": "Rebecca Sramkova",
+          "score": "64 62"
+        },
+        {
+          "round": "R1",
+          "winner": "Liudmila Samsonova",
+          "loser": "Madison Keys",
+          "score": "36 64 64"
+        },
         {
           "round": "R1",
           "winner": "Emma Navarro",
@@ -275,6 +273,12 @@
           "winner": "Elisabetta Cocciaretto",
           "loser": "Clara Tauson",
           "score": "46 76(2) 76(2)"
+        },
+        {
+          "round": "R1",
+          "winner": "Ashlyn Krueger",
+          "loser": "Katie Boulter",
+          "score": "36 62 62"
         },
         {
           "round": "R1",
@@ -523,13 +527,6 @@
           "h2h": "1-0"
         },
         {
-          "a": "Solana Sierra",
-          "b": "Tatiana Prozorova",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Mary Stoiana",
           "b": "Peyton Stearns",
           "a_seed": "7",
@@ -551,39 +548,25 @@
           "h2h": null
         },
         {
-          "a": "Iryna Shymanovich",
-          "b": "Reese Brantmeier",
-          "a_seed": "Q",
-          "b_seed": "WC",
-          "h2h": null
-        },
-        {
-          "a": "Katie Volynets",
-          "b": "Viktorija Golubic",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": "1-1"
-        },
-        {
-          "a": "Camila Osorio",
-          "b": "Storm Hunter",
-          "a_seed": "5",
-          "b_seed": "Q",
-          "h2h": "1-1"
-        },
-        {
-          "a": "Talia Gibson",
-          "b": "Tatjana Maria",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
           "a": "Renata Zarazua",
           "b": "Mccartney Kessler",
           "a_seed": "2",
           "b_seed": null,
           "h2h": "0-4"
+        },
+        {
+          "a": "Iryna Shymanovich",
+          "b": "Katie Volynets",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": "0-1"
+        },
+        {
+          "a": "Camila Osorio",
+          "b": "Anastasia Zakharova",
+          "a_seed": "5",
+          "b_seed": null,
+          "h2h": "2-0"
         }
       ],
       "completed": [
@@ -595,9 +578,39 @@
         },
         {
           "round": "R1",
+          "winner": "Tatiana Prozorova",
+          "loser": "Solana Sierra",
+          "score": "61 57 62"
+        },
+        {
+          "round": "R1",
+          "winner": "Iryna Shymanovich",
+          "loser": "Reese Brantmeier",
+          "score": "64 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Katie Volynets",
+          "loser": "Viktorija Golubic",
+          "score": "75 26 76(3)"
+        },
+        {
+          "round": "R1",
+          "winner": "Camila Osorio",
+          "loser": "Storm Hunter",
+          "score": "75 75"
+        },
+        {
+          "round": "R1",
           "winner": "Anastasia Zakharova",
           "loser": "Linda Fruhvirtova",
           "score": "76(6) 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Tatjana Maria",
+          "loser": "Talia Gibson",
+          "score": "60 63"
         }
       ]
     },
@@ -1131,13 +1144,6 @@
         }
       ],
       "r1_matches": [
-        {
-          "a": "Katrina Scott",
-          "b": "Ellie Schoppe",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": null
-        },
         {
           "a": "Miho Kuramochi",
           "b": "Avery Alexander",
