@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-28T20:20:56Z",
+  "fetched_at": "2026-07-28T22:11:34Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -200,13 +200,6 @@
           "h2h": "0-5"
         },
         {
-          "a": "Daria Kasatkina",
-          "b": "Anna Kalinskaya",
-          "a_seed": "Q",
-          "b_seed": "5",
-          "h2h": "4-1"
-        },
-        {
           "a": "Anastasia Potapova",
           "b": "Venus Williams",
           "a_seed": "WC",
@@ -214,9 +207,9 @@
           "h2h": null
         },
         {
-          "a": "Alexandra Eala",
-          "b": "Qinwen Zheng",
-          "a_seed": "WC",
+          "a": "Janice Tjen",
+          "b": "Anna Kalinskaya",
+          "a_seed": "5",
           "b_seed": null,
           "h2h": null
         },
@@ -242,6 +235,13 @@
           "h2h": "1-0"
         },
         {
+          "a": "Leylah Fernandez",
+          "b": "Alexandra Eala",
+          "a_seed": "7",
+          "b_seed": null,
+          "h2h": "1-0"
+        },
+        {
           "a": "Polina Kudermetova",
           "b": "Elina Svitolina",
           "a_seed": "Q",
@@ -255,6 +255,12 @@
           "winner": "Janice Tjen",
           "loser": "Rebecca Sramkova",
           "score": "64 62"
+        },
+        {
+          "round": "R1",
+          "winner": "Anna Kalinskaya",
+          "loser": "Daria Kasatkina",
+          "score": "64 61"
         },
         {
           "round": "R1",
@@ -291,6 +297,12 @@
           "winner": "Leylah Fernandez",
           "loser": "Magda Linette",
           "score": "61 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Alexandra Eala",
+          "loser": "Qinwen Zheng",
+          "score": "46 64 61"
         },
         {
           "round": "R1",
