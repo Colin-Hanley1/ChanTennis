@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-28T18:20:11Z",
+  "fetched_at": "2026-07-28T20:20:56Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -221,13 +221,6 @@
           "h2h": null
         },
         {
-          "a": "Cristina Bucsa",
-          "b": "Polina Kudermetova",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Xin Yu Wang",
           "b": "Liudmila Samsonova",
           "a_seed": null,
@@ -247,6 +240,13 @@
           "a_seed": "WC",
           "b_seed": "3",
           "h2h": "1-0"
+        },
+        {
+          "a": "Polina Kudermetova",
+          "b": "Elina Svitolina",
+          "a_seed": "Q",
+          "b_seed": "2",
+          "h2h": null
         }
       ],
       "completed": [
@@ -291,6 +291,12 @@
           "winner": "Leylah Fernandez",
           "loser": "Magda Linette",
           "score": "61 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Polina Kudermetova",
+          "loser": "Cristina Bucsa",
+          "score": "57 76(4) 60"
         }
       ]
     },
@@ -498,25 +504,11 @@
       ],
       "r1_matches": [
         {
-          "a": "Ekaterina Alexandrova",
-          "b": "Kristina Liutova",
-          "a_seed": "1",
-          "b_seed": "Q",
-          "h2h": null
-        },
-        {
           "a": "Ye Xin Ma",
           "b": "Kimberly Birrell",
           "a_seed": "Q",
           "b_seed": null,
           "h2h": "1-1"
-        },
-        {
-          "a": "Xiyu Wang",
-          "b": "Caty Mcnally",
-          "a_seed": "6",
-          "b_seed": null,
-          "h2h": "0-2"
         },
         {
           "a": "Mary Stoiana",
@@ -547,6 +539,13 @@
           "h2h": "0-4"
         },
         {
+          "a": "Kristina Liutova",
+          "b": "Maya Joint",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
           "a": "Zeynep Sonmez",
           "b": "Elvina Kalieva",
           "a_seed": "4",
@@ -571,9 +570,21 @@
       "completed": [
         {
           "round": "R1",
+          "winner": "Kristina Liutova",
+          "loser": "Ekaterina Alexandrova",
+          "score": ""
+        },
+        {
+          "round": "R1",
           "winner": "Maya Joint",
           "loser": "Whitney Osuigwe",
           "score": "64 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Caty Mcnally",
+          "loser": "Xiyu Wang",
+          "score": "46 63 76(5)"
         },
         {
           "round": "R1",
