@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-28T09:41:14Z",
+  "fetched_at": "2026-07-28T12:02:57Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -1177,32 +1177,11 @@
           "h2h": null
         },
         {
-          "a": "Laura Samson",
-          "b": "Alesia Breaz",
-          "a_seed": "5",
-          "b_seed": "WC",
-          "h2h": null
-        },
-        {
           "a": "Selena Janicijevic",
           "b": "Anastasiya Soboleva",
           "a_seed": null,
           "b_seed": null,
           "h2h": "1-0"
-        },
-        {
-          "a": "Yelyzaveta Kotliar",
-          "b": "Dalila Spiteri",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
-          "a": "Mia Ristic",
-          "b": "Darja Semenistaja",
-          "a_seed": "2",
-          "b_seed": null,
-          "h2h": null
         },
         {
           "a": "Kaitlin Quevedo",
@@ -1217,6 +1196,13 @@
           "a_seed": null,
           "b_seed": null,
           "h2h": null
+        },
+        {
+          "a": "Yelyzaveta Kotliar",
+          "b": "Mia Ristic",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": "0-2"
         }
       ],
       "completed": [
@@ -1255,6 +1241,24 @@
           "winner": "Caijsa Wilda Hennemann",
           "loser": "Mia Pohankova",
           "score": "61 46 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Laura Samson",
+          "loser": "Alesia Breaz",
+          "score": "64 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Yelyzaveta Kotliar",
+          "loser": "Dalila Spiteri",
+          "score": "57 63 62"
+        },
+        {
+          "round": "R1",
+          "winner": "Mia Ristic",
+          "loser": "Darja Semenistaja",
+          "score": "62 63"
         }
       ]
     }
