@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-28T14:29:16Z",
+  "fetched_at": "2026-07-28T16:45:27Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -1135,7 +1135,14 @@
       ],
       "r1_matches": [
         {
-          "a": "Miriam Bianca Bulgaru",
+          "a": "Kaitlin Quevedo",
+          "b": "Irene Burillo Escorihuela",
+          "a_seed": "1",
+          "b_seed": null,
+          "h2h": "1-1"
+        },
+        {
+          "a": "Elena Ruxandra Bertea",
           "b": "Carole Monnet",
           "a_seed": "8",
           "b_seed": null,
@@ -1143,31 +1150,10 @@
         },
         {
           "a": "Francesca Jones",
-          "b": "Chloe Paquet",
+          "b": "Lucija Ciric Bagaric",
           "a_seed": "3",
-          "b_seed": null,
-          "h2h": "3-0"
-        },
-        {
-          "a": "Alevtina Ibragimova",
-          "b": "Maia Ilinca Burcescu",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Selena Janicijevic",
-          "b": "Anastasiya Soboleva",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
-          "a": "Kaitlin Quevedo",
-          "b": "Irene Burillo Escorihuela",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": "1-1"
+          "b_seed": "Q",
+          "h2h": "0-2"
         },
         {
           "a": "Alice Rame",
@@ -1180,6 +1166,20 @@
           "a": "Sara Sorribes Tormo",
           "b": "Caijsa Wilda Hennemann",
           "a_seed": null,
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Alevtina Ibragimova",
+          "b": "Lucia Bronzetti",
+          "a_seed": "4",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Laura Samson",
+          "b": "Anastasiya Soboleva",
+          "a_seed": "5",
           "b_seed": null,
           "h2h": null
         },
@@ -1209,6 +1209,18 @@
           "winner": "Elena Ruxandra Bertea",
           "loser": "Elena Malygina",
           "score": "63 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Carole Monnet",
+          "loser": "Miriam Bianca Bulgaru",
+          "score": "61 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Francesca Jones",
+          "loser": "Chloe Paquet",
+          "score": "60 16 60"
         },
         {
           "round": "R1",
@@ -1242,6 +1254,12 @@
         },
         {
           "round": "R1",
+          "winner": "Alevtina Ibragimova",
+          "loser": "Maia Ilinca Burcescu",
+          "score": "64 36 75"
+        },
+        {
+          "round": "R1",
           "winner": "Lucia Bronzetti",
           "loser": "Miriana Tona",
           "score": "62 62"
@@ -1251,6 +1269,12 @@
           "winner": "Laura Samson",
           "loser": "Alesia Breaz",
           "score": "64 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Anastasiya Soboleva",
+          "loser": "Selena Janicijevic",
+          "score": "64 62"
         },
         {
           "round": "R1",
