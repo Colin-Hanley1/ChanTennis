@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-28T16:45:27Z",
+  "fetched_at": "2026-07-28T18:20:11Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -214,13 +214,6 @@
           "h2h": null
         },
         {
-          "a": "Julieta Pareja",
-          "b": "Xin Yu Wang",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Alexandra Eala",
           "b": "Qinwen Zheng",
           "a_seed": "WC",
@@ -233,6 +226,13 @@
           "a_seed": "Q",
           "b_seed": null,
           "h2h": null
+        },
+        {
+          "a": "Xin Yu Wang",
+          "b": "Liudmila Samsonova",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "1-2"
         },
         {
           "a": "Emma Navarro",
@@ -255,6 +255,12 @@
           "winner": "Janice Tjen",
           "loser": "Rebecca Sramkova",
           "score": "64 62"
+        },
+        {
+          "round": "R1",
+          "winner": "Xin Yu Wang",
+          "loser": "Julieta Pareja",
+          "score": "76(3) 63"
         },
         {
           "round": "R1",
@@ -513,13 +519,6 @@
           "h2h": "0-2"
         },
         {
-          "a": "Zeynep Sonmez",
-          "b": "Cadence Brace",
-          "a_seed": "4",
-          "b_seed": "WC",
-          "h2h": "1-0"
-        },
-        {
           "a": "Mary Stoiana",
           "b": "Peyton Stearns",
           "a_seed": "7",
@@ -548,6 +547,13 @@
           "h2h": "0-4"
         },
         {
+          "a": "Zeynep Sonmez",
+          "b": "Elvina Kalieva",
+          "a_seed": "4",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
           "a": "Iryna Shymanovich",
           "b": "Katie Volynets",
           "a_seed": "Q",
@@ -568,6 +574,12 @@
           "winner": "Maya Joint",
           "loser": "Whitney Osuigwe",
           "score": "64 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Zeynep Sonmez",
+          "loser": "Cadence Brace",
+          "score": "64 36 63"
         },
         {
           "round": "R1",
