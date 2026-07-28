@@ -1,7 +1,13 @@
 {
-  "fetched_at": "2026-07-28T18:41:37Z",
+  "fetched_at": "2026-07-28T20:05:16Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Adrian Mannarino",
+      "loser": "Learner Tien",
+      "score": "7-5 6-4",
+      "round": "Round 1"
+    },
     {
       "winner": "Alejandro Tabilo",
       "loser": "Tallon Griekspoor",
@@ -39,6 +45,12 @@
       "round": "Round 1"
     },
     {
+      "winner": "Cruz Hewitt",
+      "loser": "Marcos Giron",
+      "score": "6-3 6-4",
+      "round": "Round 1"
+    },
+    {
       "winner": "Kamil Majchrzak",
       "loser": "Tommy Paul",
       "score": "7-5 7-6",
@@ -48,6 +60,12 @@
       "winner": "Kei Nishikori",
       "loser": "Shang Juncheng",
       "score": "6-7 6-3 6-4",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Rafael Jodar",
+      "loser": "Arthur Fils",
+      "score": "7-6 6-3",
       "round": "Round 1"
     },
     {
