@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-29T06:39:22Z",
+  "fetched_at": "2026-07-29T09:44:02Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -901,25 +901,11 @@
           "h2h": null
         },
         {
-          "a": "Ariana Arseneault",
-          "b": "Annabelle Xu",
-          "a_seed": "WC",
-          "b_seed": "WC",
-          "h2h": "1-0"
-        },
-        {
           "a": "Hong Yi Cody Wong",
           "b": "Himeno Sakatsume",
           "a_seed": "Q",
           "b_seed": "5",
           "h2h": "0-2"
-        },
-        {
-          "a": "Yeon Woo Ku",
-          "b": "Emma Dong",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
         },
         {
           "a": "Moyuka Uchijima",
@@ -934,6 +920,13 @@
           "a_seed": null,
           "b_seed": null,
           "h2h": "1-0"
+        },
+        {
+          "a": "Harriet Dart",
+          "b": "Emma Dong",
+          "a_seed": "7",
+          "b_seed": "Q",
+          "h2h": null
         },
         {
           "a": "Priscilla Hon",
@@ -984,9 +977,21 @@
         },
         {
           "round": "R1",
+          "winner": "Ariana Arseneault",
+          "loser": "Annabelle Xu",
+          "score": "64 76(3)"
+        },
+        {
+          "round": "R1",
           "winner": "Harriet Dart",
           "loser": "Kayla Cross",
           "score": "62 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Emma Dong",
+          "loser": "Yeon Woo Ku",
+          "score": "46 62 76(6)"
         },
         {
           "round": "R1",

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-29T06:39:22Z",
+  "fetched_at": "2026-07-29T09:44:02Z",
   "events": [
     {
       "slug": "2026ATPWashington",
@@ -212,66 +212,31 @@
           "h2h": "2-14"
         },
         {
-          "a": "Marcos Giron",
-          "b": "Cruz Hewitt",
-          "a_seed": "Q",
-          "b_seed": "Q",
-          "h2h": null
-        },
-        {
           "a": "Brandon Nakashima",
-          "b": "Tomas Martin Etcheverry",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
-          "a": "Trevor Svajda",
           "b": "Jakub Mensik",
-          "a_seed": "Q",
-          "b_seed": "7",
-          "h2h": null
-        },
-        {
-          "a": "Kamil Majchrzak",
-          "b": "Tommy Paul",
-          "a_seed": null,
+          "a_seed": "7",
           "b_seed": null,
-          "h2h": "1-1"
+          "h2h": "0-2"
         },
         {
-          "a": "Alex Michelsen",
-          "b": "Mackenzie Mcdonald",
-          "a_seed": "LL",
-          "b_seed": null,
-          "h2h": "2-0"
-        },
-        {
-          "a": "Adrian Mannarino",
-          "b": "Learner Tien",
-          "a_seed": "5",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Arthur Fils",
-          "b": "Rafael Jodar",
-          "a_seed": "8",
+          "a": "Taylor Fritz",
+          "b": "Kamil Majchrzak",
+          "a_seed": "3",
           "b_seed": null,
           "h2h": "1-0"
         },
         {
-          "a": "Ugo Humbert",
-          "b": "Andres Martin",
-          "a_seed": "Q",
+          "a": "Alex Michelsen",
+          "b": "Adrian Mannarino",
+          "a_seed": null,
           "b_seed": null,
-          "h2h": null
+          "h2h": "2-1"
         },
         {
-          "a": "Martin Damm",
-          "b": "Ben Shelton",
-          "a_seed": "Q",
-          "b_seed": "2",
+          "a": "Rafael Jodar",
+          "b": "Kei Nishikori",
+          "a_seed": "WC",
+          "b_seed": null,
           "h2h": null
         },
         {
@@ -287,14 +252,63 @@
           "a_seed": null,
           "b_seed": null,
           "h2h": null
+        },
+        {
+          "a": "Ugo Humbert",
+          "b": "Ben Shelton",
+          "a_seed": "2",
+          "b_seed": null,
+          "h2h": "0-1"
         }
       ],
       "completed": [
         {
           "round": "R32",
+          "winner": "Cruz Hewitt",
+          "loser": "Marcos Giron",
+          "score": "6-3 6-4"
+        },
+        {
+          "round": "R32",
+          "winner": "Brandon Nakashima",
+          "loser": "Tomas Martin Etcheverry",
+          "score": "6-3 6-4"
+        },
+        {
+          "round": "R32",
+          "winner": "Jakub Mensik",
+          "loser": "Trevor Svajda",
+          "score": "6-2 6-7(5) 6-3"
+        },
+        {
+          "round": "R32",
           "winner": "Taylor Fritz",
           "loser": "Zizou Bergs",
           "score": "6-3 6-4"
+        },
+        {
+          "round": "R32",
+          "winner": "Kamil Majchrzak",
+          "loser": "Tommy Paul",
+          "score": "7-5 7-6(4)"
+        },
+        {
+          "round": "R32",
+          "winner": "Alex Michelsen",
+          "loser": "Mackenzie Mcdonald",
+          "score": "6-4 7-5"
+        },
+        {
+          "round": "R32",
+          "winner": "Adrian Mannarino",
+          "loser": "Learner Tien",
+          "score": "7-5 6-4"
+        },
+        {
+          "round": "R32",
+          "winner": "Rafael Jodar",
+          "loser": "Arthur Fils",
+          "score": "7-6(5) 6-3"
         },
         {
           "round": "R32",
@@ -325,6 +339,18 @@
           "winner": "Alejandro Tabilo",
           "loser": "Tallon Griekspoor",
           "score": "7-6(3) 4-6 6-4"
+        },
+        {
+          "round": "R32",
+          "winner": "Ugo Humbert",
+          "loser": "Andres Martin",
+          "score": "6-2 7-5"
+        },
+        {
+          "round": "R32",
+          "winner": "Ben Shelton",
+          "loser": "Martin Damm",
+          "score": "6-4 4-6 6-4"
         }
       ]
     },
@@ -520,51 +546,9 @@
       ],
       "r1_matches": [
         {
-          "a": "Moise Kouame",
-          "b": "Edward Winter",
-          "a_seed": "WC",
-          "b_seed": "LL",
-          "h2h": null
-        },
-        {
-          "a": "Jenson Brooksby",
-          "b": "Corentin Moutet",
-          "a_seed": "6",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
-          "a": "Soon Woo Kwon",
-          "b": "Arthur Gea",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
           "a": "Michael Zheng",
           "b": "Martin Landaluce",
           "a_seed": "7",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Aidan Mayo",
-          "b": "James Duckworth",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Denis Shapovalov",
-          "b": "Rinky Hijikata",
-          "a_seed": "8",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
-          "a": "Sho Shimabukuro",
-          "b": "Rodrigo Pacheco Mendez",
-          "a_seed": "WC",
           "b_seed": null,
           "h2h": null
         },
@@ -583,6 +567,13 @@
           "h2h": null
         },
         {
+          "a": "Edward Winter",
+          "b": "Jenson Brooksby",
+          "a_seed": "LL",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
           "a": "Francisco Cerundolo",
           "b": "Tristan Boyer",
           "a_seed": "3",
@@ -590,10 +581,24 @@
           "h2h": null
         },
         {
+          "a": "Cameron Norrie",
+          "b": "James Duckworth",
+          "a_seed": "5",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
           "a": "Bernard Tomic",
           "b": "Karen Khachanov",
           "a_seed": "LL",
           "b_seed": "4",
+          "h2h": null
+        },
+        {
+          "a": "Denis Shapovalov",
+          "b": "Rodrigo Pacheco Mendez",
+          "a_seed": "8",
+          "b_seed": "WC",
           "h2h": null
         }
       ],
@@ -606,9 +611,27 @@
         },
         {
           "round": "R32",
+          "winner": "Edward Winter",
+          "loser": "Moise Kouame",
+          "score": "6-1 6-4"
+        },
+        {
+          "round": "R32",
+          "winner": "Jenson Brooksby",
+          "loser": "Corentin Moutet",
+          "score": "6-4 6-4"
+        },
+        {
+          "round": "R32",
           "winner": "Tristan Boyer",
           "loser": "Gabriel Diallo",
           "score": "7-5 6-2"
+        },
+        {
+          "round": "R32",
+          "winner": "Arthur Gea",
+          "loser": "Soon Woo Kwon",
+          "score": "6-4 6-7(8) 6-2"
         },
         {
           "round": "R32",
@@ -618,9 +641,27 @@
         },
         {
           "round": "R32",
+          "winner": "James Duckworth",
+          "loser": "Aidan Mayo",
+          "score": "4-6 6-3 6-4"
+        },
+        {
+          "round": "R32",
           "winner": "Bernard Tomic",
           "loser": "Juan Alejandro Hernandez Serrano",
           "score": "6-1 6-0"
+        },
+        {
+          "round": "R32",
+          "winner": "Denis Shapovalov",
+          "loser": "Rinky Hijikata",
+          "score": "2-6 6-3 6-2"
+        },
+        {
+          "round": "R32",
+          "winner": "Rodrigo Pacheco Mendez",
+          "loser": "Sho Shimabukuro",
+          "score": "6-7(4) 7-5 6-2"
         }
       ]
     }
