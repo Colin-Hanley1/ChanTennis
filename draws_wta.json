@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-29T09:44:02Z",
+  "fetched_at": "2026-07-29T12:08:04Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -1235,13 +1235,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Kaitlin Quevedo",
-          "b": "Irene Burillo Escorihuela",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": "1-1"
-        },
-        {
           "a": "Elena Ruxandra Bertea",
           "b": "Carole Monnet",
           "a_seed": "8",
@@ -1254,13 +1247,6 @@
           "a_seed": "3",
           "b_seed": "Q",
           "h2h": "0-2"
-        },
-        {
-          "a": "Alice Rame",
-          "b": "Margaux Rouvroy",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
         },
         {
           "a": "Sara Sorribes Tormo",
@@ -1292,6 +1278,18 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Kaitlin Quevedo",
+          "loser": "Irene Burillo Escorihuela",
+          "score": "75 61"
+        },
+        {
+          "round": "R2",
+          "winner": "Alice Rame",
+          "loser": "Margaux Rouvroy",
+          "score": "62 64"
+        },
         {
           "round": "R1",
           "winner": "Kaitlin Quevedo",
