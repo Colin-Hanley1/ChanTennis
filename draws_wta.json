@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-28T22:11:34Z",
+  "fetched_at": "2026-07-29T00:03:55Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -887,13 +887,6 @@
           "h2h": null
         },
         {
-          "a": "Jia Jing Lu",
-          "b": "Caroline Dolehide",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Ariana Arseneault",
           "b": "Annabelle Xu",
           "a_seed": "WC",
@@ -943,28 +936,39 @@
           "h2h": null
         },
         {
-          "a": "Madison Brengle",
-          "b": "Alexandra Vagramov",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Teah Chavez",
-          "b": "Nao Hibino",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "En Shuo Liang",
+          "a": "Nao Hibino",
           "b": "Mananchaya Sawangkaew",
           "a_seed": "2",
           "b_seed": null,
-          "h2h": "1-1"
+          "h2h": "1-2"
         }
       ],
-      "completed": []
+      "completed": [
+        {
+          "round": "R1",
+          "winner": "Jia Jing Lu",
+          "loser": "Caroline Dolehide",
+          "score": "75 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Madison Brengle",
+          "loser": "Alexandra Vagramov",
+          "score": "64 46 62"
+        },
+        {
+          "round": "R1",
+          "winner": "Nao Hibino",
+          "loser": "Teah Chavez",
+          "score": "61 62"
+        },
+        {
+          "round": "R1",
+          "winner": "Mananchaya Sawangkaew",
+          "loser": "En Shuo Liang",
+          "score": "62 64"
+        }
+      ]
     },
     {
       "slug": "2026WTATarguMures125",
