@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-29T21:05:08Z",
+  "fetched_at": "2026-07-29T22:09:16Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -883,25 +883,18 @@
       ],
       "r1_matches": [
         {
-          "a": "Lizette Cabrera",
-          "b": "Sofia Costoulas",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
-          "a": "Greet Minnen",
-          "b": "Maddison Inglis",
-          "a_seed": "8",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Hong Yi Cody Wong",
           "b": "Himeno Sakatsume",
           "a_seed": "Q",
           "b_seed": "5",
           "h2h": "0-2"
+        },
+        {
+          "a": "Sofia Costoulas",
+          "b": "Maddison Inglis",
+          "a_seed": "8",
+          "b_seed": null,
+          "h2h": null
         },
         {
           "a": "Mai Hontama",
@@ -957,6 +950,18 @@
           "winner": "Hayu Kinoshita",
           "loser": "Kyoka Okamura",
           "score": "61 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Sofia Costoulas",
+          "loser": "Lizette Cabrera",
+          "score": "62 62"
+        },
+        {
+          "round": "R1",
+          "winner": "Maddison Inglis",
+          "loser": "Greet Minnen",
+          "score": "61 63"
         },
         {
           "round": "R1",
