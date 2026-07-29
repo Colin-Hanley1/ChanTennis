@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-29T12:08:04Z",
+  "fetched_at": "2026-07-29T15:13:04Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -1235,13 +1235,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Elena Ruxandra Bertea",
-          "b": "Carole Monnet",
-          "a_seed": "8",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Francesca Jones",
           "b": "Lucija Ciric Bagaric",
           "a_seed": "3",
@@ -1275,6 +1268,13 @@
           "a_seed": "Q",
           "b_seed": null,
           "h2h": "0-2"
+        },
+        {
+          "a": "Kaitlin Quevedo",
+          "b": "Carole Monnet",
+          "a_seed": "1",
+          "b_seed": "8",
+          "h2h": "1-0"
         }
       ],
       "completed": [
@@ -1283,6 +1283,12 @@
           "winner": "Kaitlin Quevedo",
           "loser": "Irene Burillo Escorihuela",
           "score": "75 61"
+        },
+        {
+          "round": "R2",
+          "winner": "Carole Monnet",
+          "loser": "Elena Ruxandra Bertea",
+          "score": "76(1) 75"
         },
         {
           "round": "R2",
