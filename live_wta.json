@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-29T16:55:02Z",
+  "fetched_at": "2026-07-29T17:22:34Z",
   "source": "espn",
   "matches": [
     {
@@ -73,6 +73,12 @@
       "loser": "Julieta Pareja",
       "score": "7-6 6-3",
       "round": "Round 1"
+    },
+    {
+      "winner": "Alexandra Eala",
+      "loser": "Leylah Fernandez",
+      "score": "6-2 7-6",
+      "round": "Round 2"
     },
     {
       "winner": "Liudmila Samsonova",

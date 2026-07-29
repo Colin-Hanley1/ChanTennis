@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-29T15:13:04Z",
+  "fetched_at": "2026-07-29T17:22:39Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -214,13 +214,6 @@
           "h2h": "1-1"
         },
         {
-          "a": "Xin Yu Wang",
-          "b": "Liudmila Samsonova",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-2"
-        },
-        {
           "a": "Emma Navarro",
           "b": "Elisabetta Cocciaretto",
           "a_seed": "8",
@@ -250,6 +243,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Liudmila Samsonova",
+          "loser": "Xin Yu Wang",
+          "score": "62 62"
+        },
         {
           "round": "R1",
           "winner": "Magdalena Frech",
@@ -1242,13 +1241,6 @@
           "h2h": "0-2"
         },
         {
-          "a": "Sara Sorribes Tormo",
-          "b": "Caijsa Wilda Hennemann",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Alevtina Ibragimova",
           "b": "Lucia Bronzetti",
           "a_seed": "4",
@@ -1295,6 +1287,12 @@
           "winner": "Alice Rame",
           "loser": "Margaux Rouvroy",
           "score": "62 64"
+        },
+        {
+          "round": "R2",
+          "winner": "Sara Sorribes Tormo",
+          "loser": "Caijsa Wilda Hennemann",
+          "score": "61 63"
         },
         {
           "round": "R1",
