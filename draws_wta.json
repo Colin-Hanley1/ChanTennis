@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-29T17:22:39Z",
+  "fetched_at": "2026-07-29T19:35:39Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -228,13 +228,6 @@
           "h2h": "1-0"
         },
         {
-          "a": "Leylah Fernandez",
-          "b": "Alexandra Eala",
-          "a_seed": "7",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
           "a": "Polina Kudermetova",
           "b": "Elina Svitolina",
           "a_seed": "Q",
@@ -248,6 +241,12 @@
           "winner": "Liudmila Samsonova",
           "loser": "Xin Yu Wang",
           "score": "62 62"
+        },
+        {
+          "round": "R2",
+          "winner": "Alexandra Eala",
+          "loser": "Leylah Fernandez",
+          "score": "62 76(1)"
         },
         {
           "round": "R1",
@@ -562,13 +561,6 @@
           "h2h": null
         },
         {
-          "a": "Iryna Shymanovich",
-          "b": "Katie Volynets",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
           "a": "Camila Osorio",
           "b": "Anastasia Zakharova",
           "a_seed": "5",
@@ -584,6 +576,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Katie Volynets",
+          "loser": "Iryna Shymanovich",
+          "score": "64 62"
+        },
         {
           "round": "R1",
           "winner": "Kristina Liutova",
@@ -907,13 +905,6 @@
           "h2h": "0-2"
         },
         {
-          "a": "Moyuka Uchijima",
-          "b": "Hayu Kinoshita",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Mai Hontama",
           "b": "Jia Jing Lu",
           "a_seed": null,
@@ -950,6 +941,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Moyuka Uchijima",
+          "loser": "Hayu Kinoshita",
+          "score": "26 64 75"
+        },
         {
           "round": "R1",
           "winner": "Moyuka Uchijima",
