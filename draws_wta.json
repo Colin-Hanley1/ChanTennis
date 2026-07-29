@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-29T00:03:55Z",
+  "fetched_at": "2026-07-29T03:30:42Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -193,18 +193,11 @@
       ],
       "r1_matches": [
         {
-          "a": "Magdalena Frech",
-          "b": "Ann Li",
-          "a_seed": null,
+          "a": "Jessica Pegula",
+          "b": "Magdalena Frech",
+          "a_seed": "1",
           "b_seed": null,
-          "h2h": "0-5"
-        },
-        {
-          "a": "Anastasia Potapova",
-          "b": "Venus Williams",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
+          "h2h": "3-0"
         },
         {
           "a": "Janice Tjen",
@@ -212,6 +205,13 @@
           "a_seed": "5",
           "b_seed": null,
           "h2h": null
+        },
+        {
+          "a": "Diana Shnaider",
+          "b": "Anastasia Potapova",
+          "a_seed": "4",
+          "b_seed": null,
+          "h2h": "1-1"
         },
         {
           "a": "Xin Yu Wang",
@@ -252,6 +252,12 @@
       "completed": [
         {
           "round": "R1",
+          "winner": "Magdalena Frech",
+          "loser": "Ann Li",
+          "score": "64 63"
+        },
+        {
+          "round": "R1",
           "winner": "Janice Tjen",
           "loser": "Rebecca Sramkova",
           "score": "64 62"
@@ -261,6 +267,12 @@
           "winner": "Anna Kalinskaya",
           "loser": "Daria Kasatkina",
           "score": "64 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Anastasia Potapova",
+          "loser": "Venus Williams",
+          "score": "63 63"
         },
         {
           "round": "R1",
@@ -523,27 +535,6 @@
           "h2h": "1-1"
         },
         {
-          "a": "Mary Stoiana",
-          "b": "Peyton Stearns",
-          "a_seed": "7",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
-          "a": "Yuliia Starodubtseva",
-          "b": "Sloane Stephens",
-          "a_seed": "8",
-          "b_seed": "WC",
-          "h2h": null
-        },
-        {
-          "a": "Darja Vidmanova",
-          "b": "Marina Bassols Ribera",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Renata Zarazua",
           "b": "Mccartney Kessler",
           "a_seed": "2",
@@ -561,6 +552,20 @@
           "a": "Zeynep Sonmez",
           "b": "Elvina Kalieva",
           "a_seed": "4",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Tatiana Prozorova",
+          "b": "Peyton Stearns",
+          "a_seed": "Q",
+          "b_seed": "7",
+          "h2h": null
+        },
+        {
+          "a": "Sloane Stephens",
+          "b": "Darja Vidmanova",
+          "a_seed": "WC",
           "b_seed": null,
           "h2h": null
         },
@@ -615,6 +620,24 @@
           "winner": "Tatiana Prozorova",
           "loser": "Solana Sierra",
           "score": "61 57 62"
+        },
+        {
+          "round": "R1",
+          "winner": "Peyton Stearns",
+          "loser": "Mary Stoiana",
+          "score": "67(5) 60 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Sloane Stephens",
+          "loser": "Yuliia Starodubtseva",
+          "score": "64 57 62"
+        },
+        {
+          "round": "R1",
+          "winner": "Darja Vidmanova",
+          "loser": "Marina Bassols Ribera",
+          "score": "62 36 64"
         },
         {
           "round": "R1",
@@ -852,20 +875,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Moyuka Uchijima",
-          "b": "Miho Kuramochi",
-          "a_seed": "1",
-          "b_seed": "Q",
-          "h2h": null
-        },
-        {
-          "a": "Hayu Kinoshita",
-          "b": "Kyoka Okamura",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "0-2"
-        },
-        {
           "a": "Lizette Cabrera",
           "b": "Sofia Costoulas",
           "a_seed": null,
@@ -876,13 +885,6 @@
           "a": "Greet Minnen",
           "b": "Maddison Inglis",
           "a_seed": "8",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Kayla Day",
-          "b": "Mai Hontama",
-          "a_seed": "4",
           "b_seed": null,
           "h2h": null
         },
@@ -915,22 +917,29 @@
           "h2h": null
         },
         {
-          "a": "Priscilla Hon",
-          "b": "Ellie Schoppe",
-          "a_seed": "Q",
+          "a": "Moyuka Uchijima",
+          "b": "Hayu Kinoshita",
+          "a_seed": "1",
           "b_seed": null,
           "h2h": null
         },
         {
-          "a": "Haruka Kaji",
+          "a": "Mai Hontama",
+          "b": "Jia Jing Lu",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "1-0"
+        },
+        {
+          "a": "Priscilla Hon",
           "b": "Taylah Preston",
           "a_seed": "3",
           "b_seed": null,
-          "h2h": "0-1"
+          "h2h": "0-2"
         },
         {
           "a": "Emerson Jones",
-          "b": "Carol Zhao",
+          "b": "Madison Brengle",
           "a_seed": "6",
           "b_seed": null,
           "h2h": null
@@ -946,9 +955,45 @@
       "completed": [
         {
           "round": "R1",
+          "winner": "Moyuka Uchijima",
+          "loser": "Miho Kuramochi",
+          "score": "61 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Hayu Kinoshita",
+          "loser": "Kyoka Okamura",
+          "score": "61 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Mai Hontama",
+          "loser": "Kayla Day",
+          "score": "67(3) 63 64"
+        },
+        {
+          "round": "R1",
           "winner": "Jia Jing Lu",
           "loser": "Caroline Dolehide",
           "score": "75 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Priscilla Hon",
+          "loser": "Ellie Schoppe",
+          "score": "63 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Taylah Preston",
+          "loser": "Haruka Kaji",
+          "score": "60 62"
+        },
+        {
+          "round": "R1",
+          "winner": "Emerson Jones",
+          "loser": "Carol Zhao",
+          "score": "63 46 64"
         },
         {
           "round": "R1",
