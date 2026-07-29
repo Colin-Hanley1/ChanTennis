@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-29T15:33:58Z",
+  "fetched_at": "2026-07-29T16:55:02Z",
   "source": "espn",
   "matches": [
     {
@@ -73,6 +73,12 @@
       "loser": "Julieta Pareja",
       "score": "7-6 6-3",
       "round": "Round 1"
+    },
+    {
+      "winner": "Liudmila Samsonova",
+      "loser": "Wang Xinyu",
+      "score": "6-2 6-2",
+      "round": "Round 2"
     }
   ]
 }
