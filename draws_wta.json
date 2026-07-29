@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-29T19:35:39Z",
+  "fetched_at": "2026-07-29T21:05:08Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -561,13 +561,6 @@
           "h2h": null
         },
         {
-          "a": "Camila Osorio",
-          "b": "Anastasia Zakharova",
-          "a_seed": "5",
-          "b_seed": null,
-          "h2h": "2-0"
-        },
-        {
           "a": "Tatjana Maria",
           "b": "Renata Zarazua",
           "a_seed": null,
@@ -581,6 +574,12 @@
           "winner": "Katie Volynets",
           "loser": "Iryna Shymanovich",
           "score": "64 62"
+        },
+        {
+          "round": "R2",
+          "winner": "Anastasia Zakharova",
+          "loser": "Camila Osorio",
+          "score": "64 63"
         },
         {
           "round": "R1",
