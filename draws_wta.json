@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-29T03:30:42Z",
+  "fetched_at": "2026-07-29T06:39:22Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -528,24 +528,17 @@
       ],
       "r1_matches": [
         {
-          "a": "Ye Xin Ma",
-          "b": "Kimberly Birrell",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": "1-1"
-        },
-        {
-          "a": "Renata Zarazua",
-          "b": "Mccartney Kessler",
-          "a_seed": "2",
-          "b_seed": null,
-          "h2h": "0-4"
-        },
-        {
           "a": "Kristina Liutova",
           "b": "Maya Joint",
           "a_seed": "Q",
           "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Ye Xin Ma",
+          "b": "Caty Mcnally",
+          "a_seed": "Q",
+          "b_seed": "6",
           "h2h": null
         },
         {
@@ -582,6 +575,13 @@
           "a_seed": "5",
           "b_seed": null,
           "h2h": "2-0"
+        },
+        {
+          "a": "Tatjana Maria",
+          "b": "Renata Zarazua",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "0-1"
         }
       ],
       "completed": [
@@ -596,6 +596,12 @@
           "winner": "Maya Joint",
           "loser": "Whitney Osuigwe",
           "score": "64 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Ye Xin Ma",
+          "loser": "Kimberly Birrell",
+          "score": "76(2) 64"
         },
         {
           "round": "R1",
@@ -668,6 +674,12 @@
           "winner": "Tatjana Maria",
           "loser": "Talia Gibson",
           "score": "60 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Renata Zarazua",
+          "loser": "Mccartney Kessler",
+          "score": "64 61"
         }
       ]
     },
@@ -903,13 +915,6 @@
           "h2h": "0-2"
         },
         {
-          "a": "Harriet Dart",
-          "b": "Kayla Cross",
-          "a_seed": "7",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Yeon Woo Ku",
           "b": "Emma Dong",
           "a_seed": "Q",
@@ -976,6 +981,12 @@
           "winner": "Jia Jing Lu",
           "loser": "Caroline Dolehide",
           "score": "75 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Harriet Dart",
+          "loser": "Kayla Cross",
+          "score": "62 61"
         },
         {
           "round": "R1",
