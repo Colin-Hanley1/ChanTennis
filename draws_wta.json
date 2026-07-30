@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-30T15:17:13Z",
+  "fetched_at": "2026-07-30T17:42:29Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -1272,24 +1272,24 @@
       ],
       "r1_matches": [
         {
-          "a": "Francesca Jones",
-          "b": "Lucija Ciric Bagaric",
-          "a_seed": "3",
-          "b_seed": "Q",
-          "h2h": "0-2"
-        },
-        {
-          "a": "Alevtina Ibragimova",
-          "b": "Lucia Bronzetti",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Kaitlin Quevedo",
           "b": "Carole Monnet",
           "a_seed": "1",
           "b_seed": "8",
+          "h2h": "1-0"
+        },
+        {
+          "a": "Francesca Jones",
+          "b": "Alice Rame",
+          "a_seed": "3",
+          "b_seed": null,
+          "h2h": "1-0"
+        },
+        {
+          "a": "Sara Sorribes Tormo",
+          "b": "Lucia Bronzetti",
+          "a_seed": "4",
+          "b_seed": null,
           "h2h": "1-0"
         },
         {
@@ -1315,6 +1315,12 @@
         },
         {
           "round": "R2",
+          "winner": "Francesca Jones",
+          "loser": "Lucija Ciric Bagaric",
+          "score": "75 63"
+        },
+        {
+          "round": "R2",
           "winner": "Alice Rame",
           "loser": "Margaux Rouvroy",
           "score": "62 64"
@@ -1324,6 +1330,12 @@
           "winner": "Sara Sorribes Tormo",
           "loser": "Caijsa Wilda Hennemann",
           "score": "61 63"
+        },
+        {
+          "round": "R2",
+          "winner": "Lucia Bronzetti",
+          "loser": "Alevtina Ibragimova",
+          "score": "63 62"
         },
         {
           "round": "R2",
