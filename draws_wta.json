@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-30T00:05:20Z",
+  "fetched_at": "2026-07-30T04:11:31Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -214,18 +214,18 @@
           "h2h": "1-1"
         },
         {
-          "a": "Ashlyn Krueger",
-          "b": "Naomi Osaka",
-          "a_seed": "WC",
-          "b_seed": "3",
-          "h2h": "1-0"
-        },
-        {
           "a": "Polina Kudermetova",
           "b": "Elina Svitolina",
           "a_seed": "Q",
           "b_seed": "2",
           "h2h": null
+        },
+        {
+          "a": "Elisabetta Cocciaretto",
+          "b": "Naomi Osaka",
+          "a_seed": "3",
+          "b_seed": null,
+          "h2h": "0-1"
         }
       ],
       "completed": [
@@ -240,6 +240,12 @@
           "winner": "Elisabetta Cocciaretto",
           "loser": "Emma Navarro",
           "score": "63 46 63"
+        },
+        {
+          "round": "R2",
+          "winner": "Naomi Osaka",
+          "loser": "Ashlyn Krueger",
+          "score": ""
         },
         {
           "round": "R2",
@@ -553,11 +559,11 @@
           "h2h": null
         },
         {
-          "a": "Tatjana Maria",
+          "a": "Anastasia Zakharova",
           "b": "Renata Zarazua",
           "a_seed": null,
           "b_seed": null,
-          "h2h": "0-1"
+          "h2h": null
         }
       ],
       "completed": [
@@ -578,6 +584,12 @@
           "winner": "Anastasia Zakharova",
           "loser": "Camila Osorio",
           "score": "64 63"
+        },
+        {
+          "round": "R2",
+          "winner": "Renata Zarazua",
+          "loser": "Tatjana Maria",
+          "score": "64 64"
         },
         {
           "round": "R1",
@@ -881,32 +893,11 @@
       ],
       "r1_matches": [
         {
-          "a": "Sofia Costoulas",
-          "b": "Maddison Inglis",
-          "a_seed": "8",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Ariana Arseneault",
-          "b": "Himeno Sakatsume",
-          "a_seed": "WC",
-          "b_seed": "5",
-          "h2h": null
-        },
-        {
           "a": "Harriet Dart",
           "b": "Emma Dong",
           "a_seed": "7",
           "b_seed": "Q",
           "h2h": null
-        },
-        {
-          "a": "Priscilla Hon",
-          "b": "Taylah Preston",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": "0-2"
         },
         {
           "a": "Emerson Jones",
@@ -916,9 +907,16 @@
           "h2h": null
         },
         {
-          "a": "Nao Hibino",
-          "b": "Mananchaya Sawangkaew",
-          "a_seed": "2",
+          "a": "Moyuka Uchijima",
+          "b": "Maddison Inglis",
+          "a_seed": "1",
+          "b_seed": "8",
+          "h2h": "1-0"
+        },
+        {
+          "a": "Mai Hontama",
+          "b": "Himeno Sakatsume",
+          "a_seed": "5",
           "b_seed": null,
           "h2h": "1-2"
         }
@@ -932,9 +930,33 @@
         },
         {
           "round": "R2",
+          "winner": "Maddison Inglis",
+          "loser": "Sofia Costoulas",
+          "score": "63 63"
+        },
+        {
+          "round": "R2",
           "winner": "Mai Hontama",
           "loser": "Jia Jing Lu",
           "score": "63 63"
+        },
+        {
+          "round": "R2",
+          "winner": "Himeno Sakatsume",
+          "loser": "Ariana Arseneault",
+          "score": "76(5) 62"
+        },
+        {
+          "round": "R2",
+          "winner": "Taylah Preston",
+          "loser": "Priscilla Hon",
+          "score": "76(3) 64"
+        },
+        {
+          "round": "R2",
+          "winner": "Mananchaya Sawangkaew",
+          "loser": "Nao Hibino",
+          "score": "61 36 62"
         },
         {
           "round": "R1",
