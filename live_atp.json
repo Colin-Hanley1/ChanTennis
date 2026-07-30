@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-30T18:10:21Z",
+  "fetched_at": "2026-07-30T19:43:40Z",
   "source": "espn",
   "matches": [
     {
@@ -168,6 +168,12 @@
       "winner": "Alex Michelsen",
       "loser": "Adrian Mannarino",
       "score": "6-4 7-6",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Alex de Minaur",
+      "loser": "Cruz Hewitt",
+      "score": "6-2 6-3",
       "round": "Round 2"
     },
     {

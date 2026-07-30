@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-30T17:42:29Z",
+  "fetched_at": "2026-07-30T19:43:44Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -531,13 +531,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Kristina Liutova",
-          "b": "Maya Joint",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Ye Xin Ma",
           "b": "Caty Mcnally",
           "a_seed": "Q",
@@ -567,6 +560,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Kristina Liutova",
+          "loser": "Maya Joint",
+          "score": "36 63 63"
+        },
         {
           "round": "R2",
           "winner": "Elvina Kalieva",
