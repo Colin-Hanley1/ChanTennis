@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-29T22:09:16Z",
+  "fetched_at": "2026-07-30T00:05:20Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -214,13 +214,6 @@
           "h2h": "1-1"
         },
         {
-          "a": "Emma Navarro",
-          "b": "Elisabetta Cocciaretto",
-          "a_seed": "8",
-          "b_seed": null,
-          "h2h": "1-2"
-        },
-        {
           "a": "Ashlyn Krueger",
           "b": "Naomi Osaka",
           "a_seed": "WC",
@@ -241,6 +234,12 @@
           "winner": "Liudmila Samsonova",
           "loser": "Xin Yu Wang",
           "score": "62 62"
+        },
+        {
+          "round": "R2",
+          "winner": "Elisabetta Cocciaretto",
+          "loser": "Emma Navarro",
+          "score": "63 46 63"
         },
         {
           "round": "R2",
@@ -540,13 +539,6 @@
           "h2h": null
         },
         {
-          "a": "Zeynep Sonmez",
-          "b": "Elvina Kalieva",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Tatiana Prozorova",
           "b": "Peyton Stearns",
           "a_seed": "Q",
@@ -569,6 +561,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Elvina Kalieva",
+          "loser": "Zeynep Sonmez",
+          "score": "36 75 75"
+        },
         {
           "round": "R2",
           "winner": "Katie Volynets",
@@ -883,13 +881,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Hong Yi Cody Wong",
-          "b": "Himeno Sakatsume",
-          "a_seed": "Q",
-          "b_seed": "5",
-          "h2h": "0-2"
-        },
-        {
           "a": "Sofia Costoulas",
           "b": "Maddison Inglis",
           "a_seed": "8",
@@ -897,11 +888,11 @@
           "h2h": null
         },
         {
-          "a": "Mai Hontama",
-          "b": "Jia Jing Lu",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-0"
+          "a": "Ariana Arseneault",
+          "b": "Himeno Sakatsume",
+          "a_seed": "WC",
+          "b_seed": "5",
+          "h2h": null
         },
         {
           "a": "Harriet Dart",
@@ -938,6 +929,12 @@
           "winner": "Moyuka Uchijima",
           "loser": "Hayu Kinoshita",
           "score": "26 64 75"
+        },
+        {
+          "round": "R2",
+          "winner": "Mai Hontama",
+          "loser": "Jia Jing Lu",
+          "score": "63 63"
         },
         {
           "round": "R1",
@@ -980,6 +977,12 @@
           "winner": "Ariana Arseneault",
           "loser": "Annabelle Xu",
           "score": "64 76(3)"
+        },
+        {
+          "round": "R1",
+          "winner": "Himeno Sakatsume",
+          "loser": "Hong Yi Cody Wong",
+          "score": "26 63 75"
         },
         {
           "round": "R1",
