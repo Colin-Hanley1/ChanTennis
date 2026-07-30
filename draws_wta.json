@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-30T04:11:31Z",
+  "fetched_at": "2026-07-30T07:38:14Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -893,20 +893,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Harriet Dart",
-          "b": "Emma Dong",
-          "a_seed": "7",
-          "b_seed": "Q",
-          "h2h": null
-        },
-        {
-          "a": "Emerson Jones",
-          "b": "Madison Brengle",
-          "a_seed": "6",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Moyuka Uchijima",
           "b": "Maddison Inglis",
           "a_seed": "1",
@@ -919,6 +905,20 @@
           "a_seed": "5",
           "b_seed": null,
           "h2h": "1-2"
+        },
+        {
+          "a": "Harriet Dart",
+          "b": "Taylah Preston",
+          "a_seed": "7",
+          "b_seed": "3",
+          "h2h": "2-2"
+        },
+        {
+          "a": "Emerson Jones",
+          "b": "Mananchaya Sawangkaew",
+          "a_seed": "6",
+          "b_seed": "2",
+          "h2h": "0-1"
         }
       ],
       "completed": [
@@ -948,9 +948,21 @@
         },
         {
           "round": "R2",
+          "winner": "Harriet Dart",
+          "loser": "Emma Dong",
+          "score": ""
+        },
+        {
+          "round": "R2",
           "winner": "Taylah Preston",
           "loser": "Priscilla Hon",
           "score": "76(3) 64"
+        },
+        {
+          "round": "R2",
+          "winner": "Emerson Jones",
+          "loser": "Madison Brengle",
+          "score": "46 60 62"
         },
         {
           "round": "R2",
