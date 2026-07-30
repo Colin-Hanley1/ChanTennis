@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-30T21:18:19Z",
+  "fetched_at": "2026-07-30T23:13:16Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -193,13 +193,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Jessica Pegula",
-          "b": "Magdalena Frech",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": "3-0"
-        },
-        {
           "a": "Diana Shnaider",
           "b": "Anastasia Potapova",
           "a_seed": "4",
@@ -214,6 +207,13 @@
           "h2h": null
         },
         {
+          "a": "Jessica Pegula",
+          "b": "Anna Kalinskaya",
+          "a_seed": "1",
+          "b_seed": "5",
+          "h2h": "4-1"
+        },
+        {
           "a": "Elisabetta Cocciaretto",
           "b": "Naomi Osaka",
           "a_seed": "3",
@@ -222,6 +222,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "R2",
+          "winner": "Jessica Pegula",
+          "loser": "Magdalena Frech",
+          "score": "36 63 60"
+        },
         {
           "round": "R2",
           "winner": "Anna Kalinskaya",
@@ -530,13 +536,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Tatiana Prozorova",
-          "b": "Peyton Stearns",
-          "a_seed": "Q",
-          "b_seed": "7",
-          "h2h": null
-        },
-        {
           "a": "Sloane Stephens",
           "b": "Darja Vidmanova",
           "a_seed": "WC",
@@ -549,6 +548,13 @@
           "a_seed": "Q",
           "b_seed": "6",
           "h2h": null
+        },
+        {
+          "a": "Elvina Kalieva",
+          "b": "Peyton Stearns",
+          "a_seed": "7",
+          "b_seed": null,
+          "h2h": "1-0"
         },
         {
           "a": "Anastasia Zakharova",
@@ -576,6 +582,12 @@
           "winner": "Elvina Kalieva",
           "loser": "Zeynep Sonmez",
           "score": "36 75 75"
+        },
+        {
+          "round": "R2",
+          "winner": "Peyton Stearns",
+          "loser": "Tatiana Prozorova",
+          "score": "61 62"
         },
         {
           "round": "R2",
@@ -897,26 +909,38 @@
       ],
       "r1_matches": [
         {
-          "a": "Moyuka Uchijima",
-          "b": "Maddison Inglis",
-          "a_seed": "1",
-          "b_seed": "8",
-          "h2h": "1-0"
+          "a": "Maddison Inglis",
+          "b": "Mai Hontama",
+          "a_seed": "8",
+          "b_seed": null,
+          "h2h": "0-2"
         },
         {
-          "a": "Harriet Dart",
-          "b": "Taylah Preston",
-          "a_seed": "7",
-          "b_seed": "3",
-          "h2h": "2-2"
+          "a": "Taylah Preston",
+          "b": "Mananchaya Sawangkaew",
+          "a_seed": "3",
+          "b_seed": "2",
+          "h2h": null
         }
       ],
       "completed": [
         {
           "round": "QF",
+          "winner": "Maddison Inglis",
+          "loser": "Moyuka Uchijima",
+          "score": "64 67(9) 63"
+        },
+        {
+          "round": "QF",
           "winner": "Mai Hontama",
           "loser": "Himeno Sakatsume",
           "score": "62 62"
+        },
+        {
+          "round": "QF",
+          "winner": "Taylah Preston",
+          "loser": "Harriet Dart",
+          "score": "63 63"
         },
         {
           "round": "QF",
