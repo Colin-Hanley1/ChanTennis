@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-30T12:49:12Z",
+  "fetched_at": "2026-07-30T15:17:13Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -1286,18 +1286,18 @@
           "h2h": null
         },
         {
-          "a": "Yelyzaveta Kotliar",
-          "b": "Mia Ristic",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": "0-2"
-        },
-        {
           "a": "Kaitlin Quevedo",
           "b": "Carole Monnet",
           "a_seed": "1",
           "b_seed": "8",
           "h2h": "1-0"
+        },
+        {
+          "a": "Laura Samson",
+          "b": "Mia Ristic",
+          "a_seed": "5",
+          "b_seed": null,
+          "h2h": null
         }
       ],
       "completed": [
@@ -1330,6 +1330,12 @@
           "winner": "Laura Samson",
           "loser": "Anastasiya Soboleva",
           "score": ""
+        },
+        {
+          "round": "R2",
+          "winner": "Mia Ristic",
+          "loser": "Yelyzaveta Kotliar",
+          "score": "26 62 76(4)"
         },
         {
           "round": "R1",
