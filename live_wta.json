@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-30T20:53:40Z",
+  "fetched_at": "2026-07-30T21:18:13Z",
   "source": "espn",
   "matches": [
     {
@@ -90,6 +90,12 @@
       "winner": "Elisabetta Cocciaretto",
       "loser": "Emma Navarro",
       "score": "6-3 4-6 6-3",
+      "round": "Round 2"
+    },
+    {
+      "winner": "Jessica Pegula",
+      "loser": "Magdalena Frech",
+      "score": "3-6 6-3 6-0",
       "round": "Round 2"
     },
     {
