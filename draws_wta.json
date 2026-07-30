@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-30T10:31:58Z",
+  "fetched_at": "2026-07-30T12:49:12Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -1286,13 +1286,6 @@
           "h2h": null
         },
         {
-          "a": "Laura Samson",
-          "b": "Anastasiya Soboleva",
-          "a_seed": "5",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Yelyzaveta Kotliar",
           "b": "Mia Ristic",
           "a_seed": "Q",
@@ -1331,6 +1324,12 @@
           "winner": "Sara Sorribes Tormo",
           "loser": "Caijsa Wilda Hennemann",
           "score": "61 63"
+        },
+        {
+          "round": "R2",
+          "winner": "Laura Samson",
+          "loser": "Anastasiya Soboleva",
+          "score": ""
         },
         {
           "round": "R1",
