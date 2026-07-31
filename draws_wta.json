@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-30T23:13:16Z",
+  "fetched_at": "2026-07-31T03:40:54Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -193,20 +193,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Diana Shnaider",
-          "b": "Anastasia Potapova",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": "1-1"
-        },
-        {
-          "a": "Polina Kudermetova",
-          "b": "Elina Svitolina",
-          "a_seed": "Q",
-          "b_seed": "2",
-          "h2h": null
-        },
-        {
           "a": "Jessica Pegula",
           "b": "Anna Kalinskaya",
           "a_seed": "1",
@@ -214,11 +200,25 @@
           "h2h": "4-1"
         },
         {
+          "a": "Diana Shnaider",
+          "b": "Liudmila Samsonova",
+          "a_seed": "4",
+          "b_seed": null,
+          "h2h": "2-1"
+        },
+        {
           "a": "Elisabetta Cocciaretto",
           "b": "Naomi Osaka",
           "a_seed": "3",
           "b_seed": null,
           "h2h": "0-1"
+        },
+        {
+          "a": "Alexandra Eala",
+          "b": "Elina Svitolina",
+          "a_seed": "2",
+          "b_seed": null,
+          "h2h": "1-0"
         }
       ],
       "completed": [
@@ -233,6 +233,12 @@
           "winner": "Anna Kalinskaya",
           "loser": "Janice Tjen",
           "score": "16 63 76(7)"
+        },
+        {
+          "round": "R2",
+          "winner": "Diana Shnaider",
+          "loser": "Anastasia Potapova",
+          "score": "61 62"
         },
         {
           "round": "R2",
@@ -257,6 +263,12 @@
           "winner": "Alexandra Eala",
           "loser": "Leylah Fernandez",
           "score": "62 76(1)"
+        },
+        {
+          "round": "R2",
+          "winner": "Elina Svitolina",
+          "loser": "Polina Kudermetova",
+          "score": "76(4) 64"
         },
         {
           "round": "R1",
@@ -536,13 +548,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Sloane Stephens",
-          "b": "Darja Vidmanova",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Kristina Liutova",
           "b": "Caty Mcnally",
           "a_seed": "Q",
@@ -555,6 +560,13 @@
           "a_seed": "7",
           "b_seed": null,
           "h2h": "1-0"
+        },
+        {
+          "a": "Darja Vidmanova",
+          "b": "Katie Volynets",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": null
         },
         {
           "a": "Anastasia Zakharova",
@@ -588,6 +600,12 @@
           "winner": "Peyton Stearns",
           "loser": "Tatiana Prozorova",
           "score": "61 62"
+        },
+        {
+          "round": "R2",
+          "winner": "Darja Vidmanova",
+          "loser": "Sloane Stephens",
+          "score": "62 64"
         },
         {
           "round": "R2",
