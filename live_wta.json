@@ -1,11 +1,17 @@
 {
-  "fetched_at": "2026-07-31T20:07:21Z",
+  "fetched_at": "2026-07-31T21:14:14Z",
   "source": "espn",
   "matches": [
     {
       "winner": "Jessica Pegula",
       "loser": "Anna Kalinskaya",
       "score": "6-3 7-5",
+      "round": "Quarterfinal"
+    },
+    {
+      "winner": "Naomi Osaka",
+      "loser": "Elisabetta Cocciaretto",
+      "score": "4-6 6-4 6-3",
       "round": "Quarterfinal"
     },
     {

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-31T19:45:24Z",
+  "fetched_at": "2026-07-31T21:14:18Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -200,13 +200,6 @@
           "h2h": "2-1"
         },
         {
-          "a": "Elisabetta Cocciaretto",
-          "b": "Naomi Osaka",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
           "a": "Alexandra Eala",
           "b": "Elina Svitolina",
           "a_seed": "2",
@@ -220,6 +213,12 @@
           "winner": "Jessica Pegula",
           "loser": "Anna Kalinskaya",
           "score": "63 75"
+        },
+        {
+          "round": "QF",
+          "winner": "Naomi Osaka",
+          "loser": "Elisabetta Cocciaretto",
+          "score": "46 64 63"
         },
         {
           "round": "R2",
@@ -925,13 +924,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Maddison Inglis",
-          "b": "Mai Hontama",
-          "a_seed": "8",
-          "b_seed": null,
-          "h2h": "0-2"
-        },
-        {
           "a": "Taylah Preston",
           "b": "Mananchaya Sawangkaew",
           "a_seed": "3",
@@ -940,6 +932,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Maddison Inglis",
+          "loser": "Mai Hontama",
+          "score": "63 64"
+        },
         {
           "round": "QF",
           "winner": "Maddison Inglis",
