@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-31T21:14:18Z",
+  "fetched_at": "2026-07-31T23:10:20Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -193,18 +193,18 @@
       ],
       "r1_matches": [
         {
-          "a": "Diana Shnaider",
-          "b": "Liudmila Samsonova",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": "2-1"
-        },
-        {
           "a": "Alexandra Eala",
           "b": "Elina Svitolina",
           "a_seed": "2",
           "b_seed": null,
           "h2h": "1-0"
+        },
+        {
+          "a": "Jessica Pegula",
+          "b": "Diana Shnaider",
+          "a_seed": "1",
+          "b_seed": "4",
+          "h2h": "3-0"
         }
       ],
       "completed": [
@@ -213,6 +213,12 @@
           "winner": "Jessica Pegula",
           "loser": "Anna Kalinskaya",
           "score": "63 75"
+        },
+        {
+          "round": "QF",
+          "winner": "Diana Shnaider",
+          "loser": "Liudmila Samsonova",
+          "score": "63 64"
         },
         {
           "round": "QF",
@@ -924,11 +930,11 @@
       ],
       "r1_matches": [
         {
-          "a": "Taylah Preston",
-          "b": "Mananchaya Sawangkaew",
-          "a_seed": "3",
-          "b_seed": "2",
-          "h2h": null
+          "a": "Maddison Inglis",
+          "b": "Taylah Preston",
+          "a_seed": "8",
+          "b_seed": "3",
+          "h2h": "2-1"
         }
       ],
       "completed": [
@@ -937,6 +943,12 @@
           "winner": "Maddison Inglis",
           "loser": "Mai Hontama",
           "score": "63 64"
+        },
+        {
+          "round": "SF",
+          "winner": "Taylah Preston",
+          "loser": "Mananchaya Sawangkaew",
+          "score": "57 63 63"
         },
         {
           "round": "QF",
