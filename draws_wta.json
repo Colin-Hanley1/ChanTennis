@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-31T12:05:54Z",
+  "fetched_at": "2026-07-31T15:24:01Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -1316,13 +1316,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Francesca Jones",
-          "b": "Alice Rame",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
           "a": "Sara Sorribes Tormo",
           "b": "Lucia Bronzetti",
           "a_seed": "4",
@@ -1330,11 +1323,11 @@
           "h2h": "1-0"
         },
         {
-          "a": "Laura Samson",
-          "b": "Mia Ristic",
-          "a_seed": "5",
-          "b_seed": null,
-          "h2h": null
+          "a": "Kaitlin Quevedo",
+          "b": "Francesca Jones",
+          "a_seed": "1",
+          "b_seed": "3",
+          "h2h": "1-0"
         }
       ],
       "completed": [
@@ -1343,6 +1336,18 @@
           "winner": "Kaitlin Quevedo",
           "loser": "Carole Monnet",
           "score": "76(4) 63"
+        },
+        {
+          "round": "QF",
+          "winner": "Francesca Jones",
+          "loser": "Alice Rame",
+          "score": "61 62"
+        },
+        {
+          "round": "QF",
+          "winner": "Laura Samson",
+          "loser": "Mia Ristic",
+          "score": "76(0) 46 62"
         },
         {
           "round": "R2",
