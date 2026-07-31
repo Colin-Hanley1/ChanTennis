@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-31T06:50:43Z",
+  "fetched_at": "2026-07-31T09:50:02Z",
   "events": [
     {
       "slug": "2026ATPWashington",
@@ -206,31 +206,10 @@
       "r1_matches": [
         {
           "a": "Alex De Minaur",
-          "b": "Cruz Hewitt",
+          "b": "Brandon Nakashima",
           "a_seed": "1",
-          "b_seed": "Q",
-          "h2h": null
-        },
-        {
-          "a": "Brandon Nakashima",
-          "b": "Jakub Mensik",
-          "a_seed": "7",
           "b_seed": null,
-          "h2h": "0-2"
-        },
-        {
-          "a": "Terence Atmane",
-          "b": "Alejandro Tabilo",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Ugo Humbert",
-          "b": "Ben Shelton",
-          "a_seed": "2",
-          "b_seed": null,
-          "h2h": "0-1"
+          "h2h": "1-2"
         },
         {
           "a": "Taylor Fritz",
@@ -245,9 +224,28 @@
           "a_seed": "4",
           "b_seed": null,
           "h2h": null
+        },
+        {
+          "a": "Alejandro Tabilo",
+          "b": "Ben Shelton",
+          "a_seed": "2",
+          "b_seed": null,
+          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "R16",
+          "winner": "Alex De Minaur",
+          "loser": "Cruz Hewitt",
+          "score": "6-2 6-3"
+        },
+        {
+          "round": "R16",
+          "winner": "Brandon Nakashima",
+          "loser": "Jakub Mensik",
+          "score": "7-6(5) 3-6 6-4"
+        },
         {
           "round": "R16",
           "winner": "Taylor Fritz",
@@ -271,6 +269,18 @@
           "winner": "Lorenzo Musetti",
           "loser": "Aleksandar Vukic",
           "score": "6-3 5-7 6-3"
+        },
+        {
+          "round": "R16",
+          "winner": "Alejandro Tabilo",
+          "loser": "Terence Atmane",
+          "score": "6-3 7-6(6)"
+        },
+        {
+          "round": "R16",
+          "winner": "Ben Shelton",
+          "loser": "Ugo Humbert",
+          "score": "6-7(3) 6-3 6-4"
         },
         {
           "round": "R32",
@@ -563,34 +573,44 @@
       "r1_matches": [
         {
           "a": "Coleman Wong",
-          "b": "Jenson Brooksby",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
-          "a": "Francisco Cerundolo",
           "b": "Arthur Gea",
-          "a_seed": "3",
+          "a_seed": null,
           "b_seed": null,
           "h2h": null
         },
         {
           "a": "Cameron Norrie",
-          "b": "Bernard Tomic",
+          "b": "Denis Shapovalov",
           "a_seed": "5",
-          "b_seed": "LL",
-          "h2h": null
-        },
-        {
-          "a": "Denis Shapovalov",
-          "b": "Dalibor Svrcina",
-          "a_seed": "8",
-          "b_seed": null,
-          "h2h": null
+          "b_seed": "8",
+          "h2h": "2-0"
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Coleman Wong",
+          "loser": "Jenson Brooksby",
+          "score": "6-1 7-5"
+        },
+        {
+          "round": "QF",
+          "winner": "Arthur Gea",
+          "loser": "Francisco Cerundolo",
+          "score": "6-7(11) 6-4 6-0"
+        },
+        {
+          "round": "QF",
+          "winner": "Cameron Norrie",
+          "loser": "Bernard Tomic",
+          "score": "6-1 6-0"
+        },
+        {
+          "round": "QF",
+          "winner": "Denis Shapovalov",
+          "loser": "Dalibor Svrcina",
+          "score": "6-4 6-2"
+        },
         {
           "round": "R16",
           "winner": "Coleman Wong",
