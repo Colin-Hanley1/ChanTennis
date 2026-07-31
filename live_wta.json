@@ -1,7 +1,13 @@
 {
-  "fetched_at": "2026-07-31T17:09:49Z",
+  "fetched_at": "2026-07-31T17:46:44Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Jessica Pegula",
+      "loser": "Anna Kalinskaya",
+      "score": "6-3 7-5",
+      "round": "Quarterfinal"
+    },
     {
       "winner": "Alexandra Eala",
       "loser": "Zheng Qinwen",
