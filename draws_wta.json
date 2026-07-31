@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-31T17:46:49Z",
+  "fetched_at": "2026-07-31T19:45:24Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -193,13 +193,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Jessica Pegula",
-          "b": "Anna Kalinskaya",
-          "a_seed": "1",
-          "b_seed": "5",
-          "h2h": "4-1"
-        },
-        {
           "a": "Diana Shnaider",
           "b": "Liudmila Samsonova",
           "a_seed": "4",
@@ -222,6 +215,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Jessica Pegula",
+          "loser": "Anna Kalinskaya",
+          "score": "63 75"
+        },
         {
           "round": "R2",
           "winner": "Jessica Pegula",
@@ -548,13 +547,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Kristina Liutova",
-          "b": "Caty Mcnally",
-          "a_seed": "Q",
-          "b_seed": "6",
-          "h2h": null
-        },
-        {
           "a": "Elvina Kalieva",
           "b": "Peyton Stearns",
           "a_seed": "7",
@@ -577,6 +569,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "QF",
+          "winner": "Kristina Liutova",
+          "loser": "Caty Mcnally",
+          "score": "63 64"
+        },
         {
           "round": "R2",
           "winner": "Kristina Liutova",
