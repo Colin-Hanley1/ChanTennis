@@ -1,11 +1,23 @@
 {
-  "fetched_at": "2026-07-31T03:48:24Z",
+  "fetched_at": "2026-07-31T06:35:43Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Arthur Gea",
+      "loser": "Francisco Cerundolo",
+      "score": "6-7 6-4 6-0",
+      "round": "Quarterfinal"
+    },
     {
       "winner": "Chak Lam Coleman Wong",
       "loser": "Jenson Brooksby",
       "score": "6-1 7-5",
+      "round": "Quarterfinal"
+    },
+    {
+      "winner": "Denis Shapovalov",
+      "loser": "Dalibor Svrcina",
+      "score": "6-4 6-2",
       "round": "Quarterfinal"
     },
     {
