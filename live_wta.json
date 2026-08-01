@@ -1,7 +1,13 @@
 {
-  "fetched_at": "2026-07-31T23:30:21Z",
+  "fetched_at": "2026-08-01T01:10:46Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Alexandra Eala",
+      "loser": "Elina Svitolina",
+      "score": "6-3 6-4",
+      "round": "Quarterfinal"
+    },
     {
       "winner": "Diana Shnaider",
       "loser": "Liudmila Samsonova",
