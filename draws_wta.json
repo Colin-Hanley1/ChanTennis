@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-01T17:08:33Z",
+  "fetched_at": "2026-08-01T19:20:42Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -1341,11 +1341,11 @@
       ],
       "r1_matches": [
         {
-          "a": "Lucia Bronzetti",
+          "a": "Kaitlin Quevedo",
           "b": "Laura Samson",
-          "a_seed": "4",
+          "a_seed": "1",
           "b_seed": "5",
-          "h2h": "1-0"
+          "h2h": "1-1"
         }
       ],
       "completed": [
@@ -1354,6 +1354,12 @@
           "winner": "Kaitlin Quevedo",
           "loser": "Francesca Jones",
           "score": ""
+        },
+        {
+          "round": "SF",
+          "winner": "Laura Samson",
+          "loser": "Lucia Bronzetti",
+          "score": "75 64"
         },
         {
           "round": "QF",
