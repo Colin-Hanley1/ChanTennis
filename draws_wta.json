@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-31T23:10:20Z",
+  "fetched_at": "2026-08-01T03:39:44Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -193,18 +193,18 @@
       ],
       "r1_matches": [
         {
-          "a": "Alexandra Eala",
-          "b": "Elina Svitolina",
-          "a_seed": "2",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
           "a": "Jessica Pegula",
           "b": "Diana Shnaider",
           "a_seed": "1",
           "b_seed": "4",
           "h2h": "3-0"
+        },
+        {
+          "a": "Naomi Osaka",
+          "b": "Alexandra Eala",
+          "a_seed": "3",
+          "b_seed": null,
+          "h2h": null
         }
       ],
       "completed": [
@@ -225,6 +225,12 @@
           "winner": "Naomi Osaka",
           "loser": "Elisabetta Cocciaretto",
           "score": "46 64 63"
+        },
+        {
+          "round": "QF",
+          "winner": "Alexandra Eala",
+          "loser": "Elina Svitolina",
+          "score": "63 64"
         },
         {
           "round": "R2",
@@ -552,13 +558,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Elvina Kalieva",
-          "b": "Peyton Stearns",
-          "a_seed": "7",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
           "a": "Darja Vidmanova",
           "b": "Katie Volynets",
           "a_seed": null,
@@ -566,9 +565,9 @@
           "h2h": null
         },
         {
-          "a": "Anastasia Zakharova",
-          "b": "Renata Zarazua",
-          "a_seed": null,
+          "a": "Kristina Liutova",
+          "b": "Elvina Kalieva",
+          "a_seed": "Q",
           "b_seed": null,
           "h2h": null
         }
@@ -579,6 +578,18 @@
           "winner": "Kristina Liutova",
           "loser": "Caty Mcnally",
           "score": "63 64"
+        },
+        {
+          "round": "QF",
+          "winner": "Elvina Kalieva",
+          "loser": "Peyton Stearns",
+          "score": "61 26 63"
+        },
+        {
+          "round": "QF",
+          "winner": "Renata Zarazua",
+          "loser": "Anastasia Zakharova",
+          "score": "64 60"
         },
         {
           "round": "R2",
