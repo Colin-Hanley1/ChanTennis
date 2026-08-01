@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-01T22:03:35Z",
+  "fetched_at": "2026-08-01T23:03:42Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -563,9 +563,9 @@
       ],
       "r1_matches": [
         {
-          "a": "Darja Vidmanova",
-          "b": "Renata Zarazua",
-          "a_seed": null,
+          "a": "Kristina Liutova",
+          "b": "Darja Vidmanova",
+          "a_seed": "Q",
           "b_seed": null,
           "h2h": null
         }
@@ -576,6 +576,12 @@
           "winner": "Kristina Liutova",
           "loser": "Elvina Kalieva",
           "score": "75 61"
+        },
+        {
+          "round": "SF",
+          "winner": "Darja Vidmanova",
+          "loser": "Renata Zarazua",
+          "score": "63 63"
         },
         {
           "round": "QF",
