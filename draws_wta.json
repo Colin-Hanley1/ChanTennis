@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-01T19:20:42Z",
+  "fetched_at": "2026-08-01T21:02:17Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -193,13 +193,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Jessica Pegula",
-          "b": "Diana Shnaider",
-          "a_seed": "1",
-          "b_seed": "4",
-          "h2h": "3-0"
-        },
-        {
           "a": "Naomi Osaka",
           "b": "Alexandra Eala",
           "a_seed": "3",
@@ -208,6 +201,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Jessica Pegula",
+          "loser": "Diana Shnaider",
+          "score": "75 64"
+        },
         {
           "round": "QF",
           "winner": "Jessica Pegula",
@@ -558,13 +557,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Kristina Liutova",
-          "b": "Elvina Kalieva",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Darja Vidmanova",
           "b": "Renata Zarazua",
           "a_seed": null,
@@ -573,6 +565,12 @@
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Kristina Liutova",
+          "loser": "Elvina Kalieva",
+          "score": "75 61"
+        },
         {
           "round": "QF",
           "winner": "Kristina Liutova",
