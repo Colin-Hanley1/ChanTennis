@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-01T19:20:37Z",
+  "fetched_at": "2026-08-01T19:50:39Z",
   "source": "espn",
   "matches": [
     {
@@ -139,6 +139,12 @@
       "loser": "Wang Xinyu",
       "score": "6-2 6-2",
       "round": "Round 2"
+    },
+    {
+      "winner": "Jessica Pegula",
+      "loser": "Diana Shnaider",
+      "score": "7-5 6-4",
+      "round": "Semifinal"
     }
   ]
 }
