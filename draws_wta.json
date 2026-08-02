@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-02T19:21:39Z",
+  "fetched_at": "2026-08-02T21:02:54Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -2284,13 +2284,6 @@
           "h2h": "1-0"
         },
         {
-          "a": "Kamilla Rakhimova",
-          "b": "Venus Williams",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Mccartney Kessler",
           "b": "Cadence Brace",
           "a_seed": "WC",
@@ -2443,9 +2436,23 @@
           "a_seed": null,
           "b_seed": null,
           "h2h": "2-1"
+        },
+        {
+          "a": "Kamilla Rakhimova",
+          "b": "Katerina Siniakova",
+          "a_seed": "32",
+          "b_seed": null,
+          "h2h": "1-2"
         }
       ],
-      "completed": []
+      "completed": [
+        {
+          "round": "R1",
+          "winner": "Kamilla Rakhimova",
+          "loser": "Venus Williams",
+          "score": "64 61"
+        }
+      ]
     }
   ]
 }
