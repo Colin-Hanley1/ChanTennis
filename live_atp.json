@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-02T00:06:13Z",
+  "fetched_at": "2026-08-02T01:12:15Z",
   "source": "espn",
   "matches": [
     {
@@ -306,6 +306,12 @@
       "winner": "Denis Shapovalov",
       "loser": "Cameron Norrie",
       "score": "6-3 5-7 6-4",
+      "round": "Semifinal"
+    },
+    {
+      "winner": "Taylor Fritz",
+      "loser": "Brandon Nakashima",
+      "score": "6-3 3-6 6-3",
       "round": "Semifinal"
     }
   ]
