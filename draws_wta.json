@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-01T23:03:42Z",
+  "fetched_at": "2026-08-02T00:06:18Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -955,16 +955,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Maddison Inglis",
-          "b": "Taylah Preston",
-          "a_seed": "8",
-          "b_seed": "3",
-          "h2h": "2-1"
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Taylah Preston",
+          "loser": "Maddison Inglis",
+          "score": "76(5) 63"
+        },
         {
           "round": "SF",
           "winner": "Maddison Inglis",
