@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-02T21:02:54Z",
+  "fetched_at": "2026-08-02T22:03:42Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -561,16 +561,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Kristina Liutova",
-          "b": "Darja Vidmanova",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Kristina Liutova",
+          "loser": "Darja Vidmanova",
+          "score": "16 61 63"
+        },
         {
           "round": "SF",
           "winner": "Kristina Liutova",
@@ -2249,13 +2247,6 @@
           "h2h": null
         },
         {
-          "a": "Jessica Bouzas Maneiro",
-          "b": "Ariana Arseneault",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Elena Gabriela Ruse",
           "b": "Peyton Stearns",
           "a_seed": null,
@@ -2310,13 +2301,6 @@
           "a_seed": "Q",
           "b_seed": null,
           "h2h": null
-        },
-        {
-          "a": "Kimberly Birrell",
-          "b": "Viktorija Golubic",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-1"
         },
         {
           "a": "Xiyu Wang",
@@ -2438,19 +2422,45 @@
           "h2h": "2-1"
         },
         {
+          "a": "Elina Svitolina",
+          "b": "Jessica Bouzas Maneiro",
+          "a_seed": "9",
+          "b_seed": null,
+          "h2h": "3-0"
+        },
+        {
           "a": "Kamilla Rakhimova",
           "b": "Katerina Siniakova",
           "a_seed": "32",
           "b_seed": null,
           "h2h": "1-2"
+        },
+        {
+          "a": "Donna Vekic",
+          "b": "Viktorija Golubic",
+          "a_seed": "31",
+          "b_seed": null,
+          "h2h": "1-1"
         }
       ],
       "completed": [
         {
           "round": "R1",
+          "winner": "Jessica Bouzas Maneiro",
+          "loser": "Ariana Arseneault",
+          "score": "62 64"
+        },
+        {
+          "round": "R1",
           "winner": "Kamilla Rakhimova",
           "loser": "Venus Williams",
           "score": "64 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Viktorija Golubic",
+          "loser": "Kimberly Birrell",
+          "score": "76(7) 64"
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-02T21:34:29Z",
+  "fetched_at": "2026-08-02T22:03:37Z",
   "source": "espn",
   "matches": [
     {
@@ -81,6 +81,12 @@
       "round": "Round 1"
     },
     {
+      "winner": "Katherine Sebov",
+      "loser": "Aoi Ito",
+      "score": "6-3 6-4",
+      "round": "Round 1"
+    },
+    {
       "winner": "Leylah Fernandez",
       "loser": "Magda Linette",
       "score": "6-1 6-4",
@@ -96,6 +102,12 @@
       "winner": "Magdalena Frech",
       "loser": "Ann Li",
       "score": "6-4 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Moyuka Uchijima",
+      "loser": "Cristina Bucsa",
+      "score": "6-3 6-4",
       "round": "Round 1"
     },
     {
