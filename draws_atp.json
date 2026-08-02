@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-02T04:29:31Z",
+  "fetched_at": "2026-08-02T07:36:40Z",
   "events": [
     {
       "slug": "2026ATPWashington",
@@ -205,35 +205,50 @@
       ],
       "r1_matches": [
         {
-          "a": "Alex De Minaur",
-          "b": "Brandon Nakashima",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": "1-2"
-        },
-        {
           "a": "Taylor Fritz",
-          "b": "Alex Michelsen",
+          "b": "Rafael Jodar",
           "a_seed": "3",
           "b_seed": null,
-          "h2h": "0-2"
-        },
-        {
-          "a": "Rafael Jodar",
-          "b": "Lorenzo Musetti",
-          "a_seed": "4",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Alejandro Tabilo",
-          "b": "Ben Shelton",
-          "a_seed": "2",
-          "b_seed": null,
-          "h2h": null
+          "h2h": "1-0"
         }
       ],
       "completed": [
+        {
+          "round": "SF",
+          "winner": "Taylor Fritz",
+          "loser": "Brandon Nakashima",
+          "score": "6-3 3-6 6-3"
+        },
+        {
+          "round": "SF",
+          "winner": "Rafael Jodar",
+          "loser": "Alejandro Tabilo",
+          "score": "6-7(6) 6-4 6-4"
+        },
+        {
+          "round": "QF",
+          "winner": "Brandon Nakashima",
+          "loser": "Alex De Minaur",
+          "score": "7-6(5) 6-4"
+        },
+        {
+          "round": "QF",
+          "winner": "Taylor Fritz",
+          "loser": "Alex Michelsen",
+          "score": "6-1 3-6 7-6(6)"
+        },
+        {
+          "round": "QF",
+          "winner": "Rafael Jodar",
+          "loser": "Lorenzo Musetti",
+          "score": "1-6 6-1 6-4"
+        },
+        {
+          "round": "QF",
+          "winner": "Alejandro Tabilo",
+          "loser": "Ben Shelton",
+          "score": "4-6 7-5 6-4"
+        },
         {
           "round": "R16",
           "winner": "Alex De Minaur",
@@ -570,23 +585,26 @@
           "bye": false
         }
       ],
-      "r1_matches": [
+      "r1_matches": [],
+      "completed": [
         {
-          "a": "Coleman Wong",
-          "b": "Arthur Gea",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
+          "round": "F",
+          "winner": "Arthur Gea",
+          "loser": "Denis Shapovalov",
+          "score": "6-3 6-4"
         },
         {
-          "a": "Cameron Norrie",
-          "b": "Denis Shapovalov",
-          "a_seed": "5",
-          "b_seed": "8",
-          "h2h": "2-0"
-        }
-      ],
-      "completed": [
+          "round": "SF",
+          "winner": "Arthur Gea",
+          "loser": "Coleman Wong",
+          "score": "7-6(7) 6-3"
+        },
+        {
+          "round": "SF",
+          "winner": "Denis Shapovalov",
+          "loser": "Cameron Norrie",
+          "score": "6-3 5-7 6-4"
+        },
         {
           "round": "QF",
           "winner": "Coleman Wong",
@@ -732,6 +750,916 @@
           "score": "6-7(2) 7-6(2) 6-3"
         }
       ]
+    },
+    {
+      "slug": "2026ATPMontreal",
+      "name": "Montreal",
+      "year": 2026,
+      "tour": "atp",
+      "surface": "hard",
+      "best_of": 3,
+      "url": "https://www.tennisabstract.com/current/2026ATPMontreal.html",
+      "bracket_slots": [
+        {
+          "name": "Alexander Zverev",
+          "seed": "1",
+          "country": "GER",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Lorenzo Sonego",
+          "seed": null,
+          "country": "ITA",
+          "bye": false
+        },
+        {
+          "name": "Tallon Griekspoor",
+          "seed": null,
+          "country": "NED",
+          "bye": false
+        },
+        {
+          "name": "Shintaro Mochizuki",
+          "seed": "Q",
+          "country": "JPN",
+          "bye": false
+        },
+        {
+          "name": "Fabian Marozsan",
+          "seed": null,
+          "country": "HUN",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Matteo Arnaldi",
+          "seed": "30",
+          "country": "ITA",
+          "bye": false
+        },
+        {
+          "name": "Ugo Humbert",
+          "seed": "24",
+          "country": "FRA",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Daniel Merida Aguilar",
+          "seed": null,
+          "country": "ESP",
+          "bye": false
+        },
+        {
+          "name": "Liam Draxl",
+          "seed": "WC",
+          "country": "CAN",
+          "bye": false
+        },
+        {
+          "name": "Alex Michelsen",
+          "seed": null,
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Jan Lennard Struff",
+          "seed": null,
+          "country": "GER",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Francisco Cerundolo",
+          "seed": "16",
+          "country": "ARG",
+          "bye": false
+        },
+        {
+          "name": "Learner Tien",
+          "seed": "12",
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Kamil Majchrzak",
+          "seed": null,
+          "country": "POL",
+          "bye": false
+        },
+        {
+          "name": "Gael Monfils",
+          "seed": "WC",
+          "country": "FRA",
+          "bye": false
+        },
+        {
+          "name": "Pablo Carreno Busta",
+          "seed": null,
+          "country": "ESP",
+          "bye": false
+        },
+        {
+          "name": "Valentin Royer",
+          "seed": null,
+          "country": "FRA",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Tommy Paul",
+          "seed": "17",
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Raphael Collignon",
+          "seed": "32",
+          "country": "BEL",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Alexei Popyrin",
+          "seed": "Q",
+          "country": "AUS",
+          "bye": false
+        },
+        {
+          "name": "Roman Andres Burruchaga",
+          "seed": null,
+          "country": "ARG",
+          "bye": false
+        },
+        {
+          "name": "Duncan Chan",
+          "seed": "Q",
+          "country": "CAN",
+          "bye": false
+        },
+        {
+          "name": "Thiago Agustin Tirante",
+          "seed": null,
+          "country": "ARG",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Taylor Fritz",
+          "seed": "7",
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Daniil Medvedev",
+          "seed": "4",
+          "country": "RUS",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Giovanni Mpetshi Perricard",
+          "seed": null,
+          "country": "FRA",
+          "bye": false
+        },
+        {
+          "name": "Botic Van De Zandschulp",
+          "seed": null,
+          "country": "NED",
+          "bye": false
+        },
+        {
+          "name": "Hubert Hurkacz",
+          "seed": "PR",
+          "country": "POL",
+          "bye": false
+        },
+        {
+          "name": "Marcos Giron",
+          "seed": "Q",
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Alejandro Tabilo",
+          "seed": "25",
+          "country": "CHI",
+          "bye": false
+        },
+        {
+          "name": "Karen Khachanov",
+          "seed": "21",
+          "country": "RUS",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Terence Atmane",
+          "seed": null,
+          "country": "FRA",
+          "bye": false
+        },
+        {
+          "name": "Jack Draper",
+          "seed": "WC",
+          "country": "GBR",
+          "bye": false
+        },
+        {
+          "name": "Jacob Fearnley",
+          "seed": "Q",
+          "country": "GBR",
+          "bye": false
+        },
+        {
+          "name": "Adrian Mannarino",
+          "seed": null,
+          "country": "FRA",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Jakub Mensik",
+          "seed": "13",
+          "country": "CZE",
+          "bye": false
+        },
+        {
+          "name": "Casper Ruud",
+          "seed": "9",
+          "country": "NOR",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Juan Manuel Cerundolo",
+          "seed": null,
+          "country": "ARG",
+          "bye": false
+        },
+        {
+          "name": "Hamad Medjedovic",
+          "seed": null,
+          "country": "SRB",
+          "bye": false
+        },
+        {
+          "name": "Martin Damm",
+          "seed": "Q",
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Stefanos Tsitsipas",
+          "seed": "Q",
+          "country": "GRE",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Joao Fonseca",
+          "seed": "22",
+          "country": "BRA",
+          "bye": false
+        },
+        {
+          "name": "Zizou Bergs",
+          "seed": "31",
+          "country": "BEL",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Sebastian Baez",
+          "seed": null,
+          "country": "ARG",
+          "bye": false
+        },
+        {
+          "name": "Mattia Bellucci",
+          "seed": null,
+          "country": "ITA",
+          "bye": false
+        },
+        {
+          "name": "Adam Walton",
+          "seed": "Q",
+          "country": "AUS",
+          "bye": false
+        },
+        {
+          "name": "Jenson Brooksby",
+          "seed": null,
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Ben Shelton",
+          "seed": "5",
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Jiri Lehecka",
+          "seed": "8",
+          "country": "CZE",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Alexis Galarneau",
+          "seed": "WC",
+          "country": "CAN",
+          "bye": false
+        },
+        {
+          "name": "Vit Kopriva",
+          "seed": null,
+          "country": "CZE",
+          "bye": false
+        },
+        {
+          "name": "Jaume Munar",
+          "seed": null,
+          "country": "ESP",
+          "bye": false
+        },
+        {
+          "name": "Rinky Hijikata",
+          "seed": null,
+          "country": "AUS",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Alexander Blockx",
+          "seed": "27",
+          "country": "BEL",
+          "bye": false
+        },
+        {
+          "name": "Rafael Jodar",
+          "seed": "20",
+          "country": "ESP",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Marton Fucsovics",
+          "seed": null,
+          "country": "HUN",
+          "bye": false
+        },
+        {
+          "name": "Corentin Moutet",
+          "seed": null,
+          "country": "FRA",
+          "bye": false
+        },
+        {
+          "name": "Nicolas Mejia",
+          "seed": "Q",
+          "country": "COL",
+          "bye": false
+        },
+        {
+          "name": "Martin Landaluce",
+          "seed": null,
+          "country": "ESP",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Lorenzo Musetti",
+          "seed": "11",
+          "country": "ITA",
+          "bye": false
+        },
+        {
+          "name": "Valentin Vacherot",
+          "seed": "14",
+          "country": "MON",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Matteo Berrettini",
+          "seed": null,
+          "country": "ITA",
+          "bye": false
+        },
+        {
+          "name": "Mariano Navone",
+          "seed": null,
+          "country": "ARG",
+          "bye": false
+        },
+        {
+          "name": "Zachary Svajda",
+          "seed": null,
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Denis Shapovalov",
+          "seed": null,
+          "country": "CAN",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Arthur Fils",
+          "seed": "18",
+          "country": "FRA",
+          "bye": false
+        },
+        {
+          "name": "Ignacio Buse",
+          "seed": "29",
+          "country": "PER",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Camilo Ugo Carabelli",
+          "seed": null,
+          "country": "ARG",
+          "bye": false
+        },
+        {
+          "name": "Cameron Norrie",
+          "seed": null,
+          "country": "GBR",
+          "bye": false
+        },
+        {
+          "name": "James Duckworth",
+          "seed": null,
+          "country": "AUS",
+          "bye": false
+        },
+        {
+          "name": "Christopher Oconnell",
+          "seed": "Q",
+          "country": "AUS",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Alex De Minaur",
+          "seed": "3",
+          "country": "AUS",
+          "bye": false
+        },
+        {
+          "name": "Flavio Cobolli",
+          "seed": "6",
+          "country": "ITA",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Benjamin Bonzi",
+          "seed": "Q",
+          "country": "FRA",
+          "bye": false
+        },
+        {
+          "name": "Yannick Hanfmann",
+          "seed": null,
+          "country": "GER",
+          "bye": false
+        },
+        {
+          "name": "Aleksandar Kovacevic",
+          "seed": null,
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Nuno Borges",
+          "seed": null,
+          "country": "POR",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Tomas Martin Etcheverry",
+          "seed": "26",
+          "country": "ARG",
+          "bye": false
+        },
+        {
+          "name": "Luciano Darderi",
+          "seed": "19",
+          "country": "ITA",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Gabriel Diallo",
+          "seed": "WC",
+          "country": "CAN",
+          "bye": false
+        },
+        {
+          "name": "Kyrian Jacquet",
+          "seed": "Q",
+          "country": "FRA",
+          "bye": false
+        },
+        {
+          "name": "Adolfo Daniel Vallejo",
+          "seed": null,
+          "country": "PAR",
+          "bye": false
+        },
+        {
+          "name": "Juncheng Shang",
+          "seed": "PR",
+          "country": "CHN",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Andrey Rublev",
+          "seed": "10",
+          "country": "RUS",
+          "bye": false
+        },
+        {
+          "name": "Frances Tiafoe",
+          "seed": "15",
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Sho Shimabukuro",
+          "seed": "Q",
+          "country": "JPN",
+          "bye": false
+        },
+        {
+          "name": "Marin Cilic",
+          "seed": null,
+          "country": "CRO",
+          "bye": false
+        },
+        {
+          "name": "Michael Zheng",
+          "seed": "Q",
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Miomir Kecmanovic",
+          "seed": null,
+          "country": "SRB",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Arthur Rinderknech",
+          "seed": "23",
+          "country": "FRA",
+          "bye": false
+        },
+        {
+          "name": "Brandon Nakashima",
+          "seed": "28",
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Aleksandar Vukic",
+          "seed": "Q",
+          "country": "AUS",
+          "bye": false
+        },
+        {
+          "name": "Daniel Altmaier",
+          "seed": null,
+          "country": "GER",
+          "bye": false
+        },
+        {
+          "name": "Luca Van Assche",
+          "seed": null,
+          "country": "FRA",
+          "bye": false
+        },
+        {
+          "name": "Titouan Droguet",
+          "seed": "Q",
+          "country": "FRA",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Felix Auger Aliassime",
+          "seed": "2",
+          "country": "CAN",
+          "bye": false
+        }
+      ],
+      "r1_matches": [
+        {
+          "a": "Lorenzo Sonego",
+          "b": "Tallon Griekspoor",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "2-0"
+        },
+        {
+          "a": "Shintaro Mochizuki",
+          "b": "Fabian Marozsan",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Daniel Merida Aguilar",
+          "b": "Liam Draxl",
+          "a_seed": "WC",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Alex Michelsen",
+          "b": "Jan Lennard Struff",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "1-0"
+        },
+        {
+          "a": "Kamil Majchrzak",
+          "b": "Gael Monfils",
+          "a_seed": "WC",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Pablo Carreno Busta",
+          "b": "Valentin Royer",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Alexei Popyrin",
+          "b": "Roman Andres Burruchaga",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Duncan Chan",
+          "b": "Thiago Agustin Tirante",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Giovanni Mpetshi Perricard",
+          "b": "Botic Van De Zandschulp",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "0-1"
+        },
+        {
+          "a": "Hubert Hurkacz",
+          "b": "Marcos Giron",
+          "a_seed": "PR",
+          "b_seed": "Q",
+          "h2h": "4-0"
+        },
+        {
+          "a": "Terence Atmane",
+          "b": "Jack Draper",
+          "a_seed": "WC",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Jacob Fearnley",
+          "b": "Adrian Mannarino",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": "1-0"
+        },
+        {
+          "a": "Juan Manuel Cerundolo",
+          "b": "Hamad Medjedovic",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "0-2"
+        },
+        {
+          "a": "Martin Damm",
+          "b": "Stefanos Tsitsipas",
+          "a_seed": "Q",
+          "b_seed": "Q",
+          "h2h": null
+        },
+        {
+          "a": "Sebastian Baez",
+          "b": "Mattia Bellucci",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Adam Walton",
+          "b": "Jenson Brooksby",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Alexis Galarneau",
+          "b": "Vit Kopriva",
+          "a_seed": "WC",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Jaume Munar",
+          "b": "Rinky Hijikata",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "1-0"
+        },
+        {
+          "a": "Marton Fucsovics",
+          "b": "Corentin Moutet",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "2-2"
+        },
+        {
+          "a": "Nicolas Mejia",
+          "b": "Martin Landaluce",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Matteo Berrettini",
+          "b": "Mariano Navone",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "3-0"
+        },
+        {
+          "a": "Zachary Svajda",
+          "b": "Denis Shapovalov",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Camilo Ugo Carabelli",
+          "b": "Cameron Norrie",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "James Duckworth",
+          "b": "Christopher Oconnell",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": "2-1"
+        },
+        {
+          "a": "Benjamin Bonzi",
+          "b": "Yannick Hanfmann",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Aleksandar Kovacevic",
+          "b": "Nuno Borges",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "1-0"
+        },
+        {
+          "a": "Gabriel Diallo",
+          "b": "Kyrian Jacquet",
+          "a_seed": "WC",
+          "b_seed": "Q",
+          "h2h": null
+        },
+        {
+          "a": "Adolfo Daniel Vallejo",
+          "b": "Juncheng Shang",
+          "a_seed": "PR",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Sho Shimabukuro",
+          "b": "Marin Cilic",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Michael Zheng",
+          "b": "Miomir Kecmanovic",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Aleksandar Vukic",
+          "b": "Daniel Altmaier",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": "2-1"
+        },
+        {
+          "a": "Luca Van Assche",
+          "b": "Titouan Droguet",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": "2-1"
+        }
+      ],
+      "completed": []
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-02T04:29:31Z",
+  "fetched_at": "2026-08-02T07:36:40Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -1538,6 +1538,916 @@
           "score": "62 63"
         }
       ]
+    },
+    {
+      "slug": "2026WTAMontreal",
+      "name": "Montreal",
+      "year": 2026,
+      "tour": "wta",
+      "surface": "hard",
+      "best_of": 3,
+      "url": "https://www.tennisabstract.com/current/2026WTAMontreal.html",
+      "bracket_slots": [
+        {
+          "name": "Aryna Sabalenka",
+          "seed": "1",
+          "country": "BLR",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Moyuka Uchijima",
+          "seed": "Q",
+          "country": "JPN",
+          "bye": false
+        },
+        {
+          "name": "Cristina Bucsa",
+          "seed": null,
+          "country": "ESP",
+          "bye": false
+        },
+        {
+          "name": "Yulia Putintseva",
+          "seed": null,
+          "country": "KAZ",
+          "bye": false
+        },
+        {
+          "name": "Shuai Zhang",
+          "seed": null,
+          "country": "CHN",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Jelena Ostapenko",
+          "seed": "26",
+          "country": "LAT",
+          "bye": false
+        },
+        {
+          "name": "Maja Chwalinska",
+          "seed": "18",
+          "country": "POL",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Talia Gibson",
+          "seed": null,
+          "country": "AUS",
+          "bye": false
+        },
+        {
+          "name": "Elisabetta Cocciaretto",
+          "seed": null,
+          "country": "ITA",
+          "bye": false
+        },
+        {
+          "name": "Lucrezia Stefanini",
+          "seed": "Q",
+          "country": "ITA",
+          "bye": false
+        },
+        {
+          "name": "Camila Osorio",
+          "seed": null,
+          "country": "COL",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Ekaterina Alexandrova",
+          "seed": "16",
+          "country": "RUS",
+          "bye": false
+        },
+        {
+          "name": "Elina Svitolina",
+          "seed": "9",
+          "country": "UKR",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Jessica Bouzas Maneiro",
+          "seed": null,
+          "country": "ESP",
+          "bye": false
+        },
+        {
+          "name": "Ariana Arseneault",
+          "seed": "WC",
+          "country": "CAN",
+          "bye": false
+        },
+        {
+          "name": "Elena Gabriela Ruse",
+          "seed": null,
+          "country": "ROU",
+          "bye": false
+        },
+        {
+          "name": "Peyton Stearns",
+          "seed": null,
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Anastasia Potapova",
+          "seed": "24",
+          "country": "RUS",
+          "bye": false
+        },
+        {
+          "name": "Clara Tauson",
+          "seed": "27",
+          "country": "DEN",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Nikola Bartunkova",
+          "seed": null,
+          "country": "CZE",
+          "bye": false
+        },
+        {
+          "name": "Bianca Andreescu",
+          "seed": "WC",
+          "country": "CAN",
+          "bye": false
+        },
+        {
+          "name": "Emerson Jones",
+          "seed": "Q",
+          "country": "AUS",
+          "bye": false
+        },
+        {
+          "name": "Lanlana Tararudee",
+          "seed": "Q",
+          "country": "THA",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Amanda Anisimova",
+          "seed": "8",
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Jessica Pegula",
+          "seed": "3",
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Magdalena Frech",
+          "seed": null,
+          "country": "POL",
+          "bye": false
+        },
+        {
+          "name": "Leolia Jeanjean",
+          "seed": "Q",
+          "country": "FRA",
+          "bye": false
+        },
+        {
+          "name": "Kamilla Rakhimova",
+          "seed": null,
+          "country": "UZB",
+          "bye": false
+        },
+        {
+          "name": "Venus Williams",
+          "seed": "WC",
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Katerina Siniakova",
+          "seed": "32",
+          "country": "CZE",
+          "bye": false
+        },
+        {
+          "name": "Anna Kalinskaya",
+          "seed": "17",
+          "country": "RUS",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Mccartney Kessler",
+          "seed": null,
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Cadence Brace",
+          "seed": "WC",
+          "country": "CAN",
+          "bye": false
+        },
+        {
+          "name": "Rebecca Sramkova",
+          "seed": "Q",
+          "country": "SVK",
+          "bye": false
+        },
+        {
+          "name": "Anna Blinkova",
+          "seed": "Q",
+          "country": "RUS",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Diana Shnaider",
+          "seed": "15",
+          "country": "RUS",
+          "bye": false
+        },
+        {
+          "name": "Marta Kostyuk",
+          "seed": "10",
+          "country": "UKR",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Aoi Ito",
+          "seed": "Q",
+          "country": "JPN",
+          "bye": false
+        },
+        {
+          "name": "Katherine Sebov",
+          "seed": "WC",
+          "country": "CAN",
+          "bye": false
+        },
+        {
+          "name": "Lois Boisson",
+          "seed": "Q",
+          "country": "FRA",
+          "bye": false
+        },
+        {
+          "name": "Antonia Ruzic",
+          "seed": null,
+          "country": "CRO",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Madison Keys",
+          "seed": "19",
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Donna Vekic",
+          "seed": "31",
+          "country": "CRO",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Kimberly Birrell",
+          "seed": null,
+          "country": "AUS",
+          "bye": false
+        },
+        {
+          "name": "Viktorija Golubic",
+          "seed": null,
+          "country": "SUI",
+          "bye": false
+        },
+        {
+          "name": "Xiyu Wang",
+          "seed": null,
+          "country": "CHN",
+          "bye": false
+        },
+        {
+          "name": "Sara Bejlek",
+          "seed": null,
+          "country": "CZE",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Iga Swiatek",
+          "seed": "7",
+          "country": "POL",
+          "bye": false
+        },
+        {
+          "name": "Linda Noskova",
+          "seed": "6",
+          "country": "CZE",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Tatjana Maria",
+          "seed": "Q",
+          "country": "GER",
+          "bye": false
+        },
+        {
+          "name": "Caty Mcnally",
+          "seed": null,
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Victoria Jimenez Kasintseva",
+          "seed": "Q",
+          "country": "AND",
+          "bye": false
+        },
+        {
+          "name": "Alycia Parks",
+          "seed": null,
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Alexandra Eala",
+          "seed": "25",
+          "country": "PHI",
+          "bye": false
+        },
+        {
+          "name": "Marie Bouzkova",
+          "seed": "21",
+          "country": "CZE",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Tereza Valentova",
+          "seed": null,
+          "country": "CZE",
+          "bye": false
+        },
+        {
+          "name": "Taylor Townsend",
+          "seed": null,
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Solana Sierra",
+          "seed": null,
+          "country": "ARG",
+          "bye": false
+        },
+        {
+          "name": "Sloane Stephens",
+          "seed": "Q",
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Belinda Bencic",
+          "seed": "12",
+          "country": "SUI",
+          "bye": false
+        },
+        {
+          "name": "Iva Jovic",
+          "seed": "13",
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Carol Zhao",
+          "seed": "WC",
+          "country": "CAN",
+          "bye": false
+        },
+        {
+          "name": "Magda Linette",
+          "seed": null,
+          "country": "POL",
+          "bye": false
+        },
+        {
+          "name": "Alina Korneeva",
+          "seed": "Q",
+          "country": "RUS",
+          "bye": false
+        },
+        {
+          "name": "Polina Kudermetova",
+          "seed": "Q",
+          "country": "UZB",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Emma Navarro",
+          "seed": "23",
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Maria Sakkari",
+          "seed": "29",
+          "country": "GRE",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Rebecca Marino",
+          "seed": "WC",
+          "country": "CAN",
+          "bye": false
+        },
+        {
+          "name": "Zeynep Sonmez",
+          "seed": null,
+          "country": "TUR",
+          "bye": false
+        },
+        {
+          "name": "Diane Parry",
+          "seed": null,
+          "country": "FRA",
+          "bye": false
+        },
+        {
+          "name": "Kayla Day",
+          "seed": "Q",
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Coco Gauff",
+          "seed": "4",
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "name": "Mirra Andreeva",
+          "seed": "5",
+          "country": "RUS",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Oleksandra Oliynykova",
+          "seed": null,
+          "country": "UKR",
+          "bye": false
+        },
+        {
+          "name": "Karolina Pliskova",
+          "seed": null,
+          "country": "CZE",
+          "bye": false
+        },
+        {
+          "name": "Renata Zarazua",
+          "seed": null,
+          "country": "MEX",
+          "bye": false
+        },
+        {
+          "name": "Tamara Korpatsch",
+          "seed": null,
+          "country": "GER",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Leylah Fernandez",
+          "seed": "30",
+          "country": "CAN",
+          "bye": false
+        },
+        {
+          "name": "Elise Mertens",
+          "seed": "20",
+          "country": "BEL",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Anhelina Kalinina",
+          "seed": null,
+          "country": "UKR",
+          "bye": false
+        },
+        {
+          "name": "Anna Bondar",
+          "seed": null,
+          "country": "HUN",
+          "bye": false
+        },
+        {
+          "name": "Panna Udvardy",
+          "seed": null,
+          "country": "HUN",
+          "bye": false
+        },
+        {
+          "name": "Eva Lys",
+          "seed": null,
+          "country": "GER",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Naomi Osaka",
+          "seed": "11",
+          "country": "JPN",
+          "bye": false
+        },
+        {
+          "name": "Sorana Cirstea",
+          "seed": "14",
+          "country": "ROU",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Yuliia Starodubtseva",
+          "seed": null,
+          "country": "UKR",
+          "bye": false
+        },
+        {
+          "name": "Maya Joint",
+          "seed": "Q",
+          "country": "AUS",
+          "bye": false
+        },
+        {
+          "name": "Janice Tjen",
+          "seed": null,
+          "country": "INA",
+          "bye": false
+        },
+        {
+          "name": "Liudmila Samsonova",
+          "seed": null,
+          "country": "RUS",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Barbora Krejcikova",
+          "seed": "22",
+          "country": "CZE",
+          "bye": false
+        },
+        {
+          "name": "Ann Li",
+          "seed": "28",
+          "country": "USA",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Katie Boulter",
+          "seed": null,
+          "country": "GBR",
+          "bye": false
+        },
+        {
+          "name": "Kayla Cross",
+          "seed": "WC",
+          "country": "CAN",
+          "bye": false
+        },
+        {
+          "name": "Xin Yu Wang",
+          "seed": null,
+          "country": "CHN",
+          "bye": false
+        },
+        {
+          "name": "Daria Kasatkina",
+          "seed": null,
+          "country": "AUS",
+          "bye": false
+        },
+        {
+          "bye": true
+        },
+        {
+          "name": "Elena Rybakina",
+          "seed": "2",
+          "country": "KAZ",
+          "bye": false
+        }
+      ],
+      "r1_matches": [
+        {
+          "a": "Moyuka Uchijima",
+          "b": "Cristina Bucsa",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Yulia Putintseva",
+          "b": "Shuai Zhang",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "7-2"
+        },
+        {
+          "a": "Talia Gibson",
+          "b": "Elisabetta Cocciaretto",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Lucrezia Stefanini",
+          "b": "Camila Osorio",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Jessica Bouzas Maneiro",
+          "b": "Ariana Arseneault",
+          "a_seed": "WC",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Elena Gabriela Ruse",
+          "b": "Peyton Stearns",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "1-0"
+        },
+        {
+          "a": "Nikola Bartunkova",
+          "b": "Bianca Andreescu",
+          "a_seed": "WC",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Emerson Jones",
+          "b": "Lanlana Tararudee",
+          "a_seed": "Q",
+          "b_seed": "Q",
+          "h2h": "0-1"
+        },
+        {
+          "a": "Magdalena Frech",
+          "b": "Leolia Jeanjean",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": "1-0"
+        },
+        {
+          "a": "Kamilla Rakhimova",
+          "b": "Venus Williams",
+          "a_seed": "WC",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Mccartney Kessler",
+          "b": "Cadence Brace",
+          "a_seed": "WC",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Rebecca Sramkova",
+          "b": "Anna Blinkova",
+          "a_seed": "Q",
+          "b_seed": "Q",
+          "h2h": "0-1"
+        },
+        {
+          "a": "Aoi Ito",
+          "b": "Katherine Sebov",
+          "a_seed": "Q",
+          "b_seed": "WC",
+          "h2h": null
+        },
+        {
+          "a": "Lois Boisson",
+          "b": "Antonia Ruzic",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Kimberly Birrell",
+          "b": "Viktorija Golubic",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "1-1"
+        },
+        {
+          "a": "Xiyu Wang",
+          "b": "Sara Bejlek",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Tatjana Maria",
+          "b": "Caty Mcnally",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": "0-1"
+        },
+        {
+          "a": "Victoria Jimenez Kasintseva",
+          "b": "Alycia Parks",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": "0-2"
+        },
+        {
+          "a": "Tereza Valentova",
+          "b": "Taylor Townsend",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Solana Sierra",
+          "b": "Sloane Stephens",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Carol Zhao",
+          "b": "Magda Linette",
+          "a_seed": "WC",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Alina Korneeva",
+          "b": "Polina Kudermetova",
+          "a_seed": "Q",
+          "b_seed": "Q",
+          "h2h": "0-1"
+        },
+        {
+          "a": "Rebecca Marino",
+          "b": "Zeynep Sonmez",
+          "a_seed": "WC",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Diane Parry",
+          "b": "Kayla Day",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Oleksandra Oliynykova",
+          "b": "Karolina Pliskova",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Renata Zarazua",
+          "b": "Tamara Korpatsch",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "1-0"
+        },
+        {
+          "a": "Anhelina Kalinina",
+          "b": "Anna Bondar",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "3-1"
+        },
+        {
+          "a": "Panna Udvardy",
+          "b": "Eva Lys",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "1-1"
+        },
+        {
+          "a": "Yuliia Starodubtseva",
+          "b": "Maya Joint",
+          "a_seed": "Q",
+          "b_seed": null,
+          "h2h": "1-0"
+        },
+        {
+          "a": "Janice Tjen",
+          "b": "Liudmila Samsonova",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "0-2"
+        },
+        {
+          "a": "Katie Boulter",
+          "b": "Kayla Cross",
+          "a_seed": "WC",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Xin Yu Wang",
+          "b": "Daria Kasatkina",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "2-1"
+        }
+      ],
+      "completed": []
     }
   ]
 }
