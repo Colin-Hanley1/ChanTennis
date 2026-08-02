@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-02T22:03:42Z",
+  "fetched_at": "2026-08-02T23:04:04Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -2219,13 +2219,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Moyuka Uchijima",
-          "b": "Cristina Bucsa",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Yulia Putintseva",
           "b": "Shuai Zhang",
           "a_seed": null,
@@ -2289,23 +2282,9 @@
           "h2h": "0-1"
         },
         {
-          "a": "Aoi Ito",
-          "b": "Katherine Sebov",
-          "a_seed": "Q",
-          "b_seed": "WC",
-          "h2h": null
-        },
-        {
           "a": "Lois Boisson",
           "b": "Antonia Ruzic",
           "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Xiyu Wang",
-          "b": "Sara Bejlek",
-          "a_seed": null,
           "b_seed": null,
           "h2h": null
         },
@@ -2422,6 +2401,13 @@
           "h2h": "2-1"
         },
         {
+          "a": "Aryna Sabalenka",
+          "b": "Moyuka Uchijima",
+          "a_seed": "1",
+          "b_seed": "Q",
+          "h2h": "1-0"
+        },
+        {
           "a": "Elina Svitolina",
           "b": "Jessica Bouzas Maneiro",
           "a_seed": "9",
@@ -2436,14 +2422,34 @@
           "h2h": "1-2"
         },
         {
+          "a": "Marta Kostyuk",
+          "b": "Katherine Sebov",
+          "a_seed": "10",
+          "b_seed": "WC",
+          "h2h": "1-0"
+        },
+        {
           "a": "Donna Vekic",
           "b": "Viktorija Golubic",
           "a_seed": "31",
           "b_seed": null,
           "h2h": "1-1"
+        },
+        {
+          "a": "Sara Bejlek",
+          "b": "Iga Swiatek",
+          "a_seed": "7",
+          "b_seed": null,
+          "h2h": "0-1"
         }
       ],
       "completed": [
+        {
+          "round": "R1",
+          "winner": "Moyuka Uchijima",
+          "loser": "Cristina Bucsa",
+          "score": "63 64"
+        },
         {
           "round": "R1",
           "winner": "Jessica Bouzas Maneiro",
@@ -2458,9 +2464,21 @@
         },
         {
           "round": "R1",
+          "winner": "Katherine Sebov",
+          "loser": "Aoi Ito",
+          "score": "63 64"
+        },
+        {
+          "round": "R1",
           "winner": "Viktorija Golubic",
           "loser": "Kimberly Birrell",
           "score": "76(7) 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Sara Bejlek",
+          "loser": "Xiyu Wang",
+          "score": "63 46 75"
         }
       ]
     }
