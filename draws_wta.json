@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-02T17:08:55Z",
+  "fetched_at": "2026-08-02T19:21:39Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -1347,16 +1347,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Kaitlin Quevedo",
-          "b": "Laura Samson",
-          "a_seed": "1",
-          "b_seed": "5",
-          "h2h": "1-1"
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Laura Samson",
+          "loser": "Kaitlin Quevedo",
+          "score": "26 63 61"
+        },
         {
           "round": "SF",
           "winner": "Kaitlin Quevedo",
