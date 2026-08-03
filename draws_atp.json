@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-03T04:36:41Z",
+  "fetched_at": "2026-08-03T08:36:17Z",
   "events": [
     {
       "slug": "2026ATPWashington",
@@ -1554,13 +1554,6 @@
           "h2h": null
         },
         {
-          "a": "Jaume Munar",
-          "b": "Rinky Hijikata",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
           "a": "Marton Fucsovics",
           "b": "Corentin Moutet",
           "a_seed": null,
@@ -1624,13 +1617,6 @@
           "h2h": null
         },
         {
-          "a": "Adolfo Daniel Vallejo",
-          "b": "Juncheng Shang",
-          "a_seed": "PR",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Sho Shimabukuro",
           "b": "Marin Cilic",
           "a_seed": "Q",
@@ -1657,9 +1643,36 @@
           "a_seed": "Q",
           "b_seed": null,
           "h2h": "2-1"
+        },
+        {
+          "a": "Jaume Munar",
+          "b": "Alexander Blockx",
+          "a_seed": "27",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Juncheng Shang",
+          "b": "Andrey Rublev",
+          "a_seed": "PR",
+          "b_seed": "10",
+          "h2h": "0-1"
         }
       ],
-      "completed": []
+      "completed": [
+        {
+          "round": "R128",
+          "winner": "Jaume Munar",
+          "loser": "Rinky Hijikata",
+          "score": "7-6(3) 6-3"
+        },
+        {
+          "round": "R128",
+          "winner": "Juncheng Shang",
+          "loser": "Adolfo Daniel Vallejo",
+          "score": "6-3 6-3"
+        }
+      ]
     }
   ]
 }
