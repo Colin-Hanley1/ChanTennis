@@ -1,7 +1,13 @@
 {
-  "fetched_at": "2026-08-03T16:39:50Z",
+  "fetched_at": "2026-08-03T17:58:59Z",
   "source": "espn",
   "matches": [
+    {
+      "winner": "Alexandra Eala",
+      "loser": "Jessica Pegula",
+      "score": "4-6 6-4 6-0",
+      "round": "Final"
+    },
     {
       "winner": "Alexandra Eala",
       "loser": "Elina Svitolina",
@@ -36,6 +42,12 @@
       "winner": "Anastasia Potapova",
       "loser": "Venus Williams",
       "score": "6-3 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Anna Bondar",
+      "loser": "Anhelina Kalinina",
+      "score": "6-4 7-5",
       "round": "Round 1"
     },
     {
@@ -96,6 +108,12 @@
       "winner": "Katherine Sebov",
       "loser": "Aoi Ito",
       "score": "6-3 6-4",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Kayla Day",
+      "loser": "Diane Parry",
+      "score": "3-6 6-3 7-5",
       "round": "Round 1"
     },
     {

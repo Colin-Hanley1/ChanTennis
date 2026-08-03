@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-03T15:48:40Z",
+  "fetched_at": "2026-08-03T17:59:05Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -191,16 +191,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Jessica Pegula",
-          "b": "Alexandra Eala",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": "1-0"
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Alexandra Eala",
+          "loser": "Jessica Pegula",
+          "score": "46 64 60"
+        },
         {
           "round": "SF",
           "winner": "Jessica Pegula",
@@ -2317,13 +2315,6 @@
           "h2h": null
         },
         {
-          "a": "Alina Korneeva",
-          "b": "Polina Kudermetova",
-          "a_seed": "Q",
-          "b_seed": "Q",
-          "h2h": "0-1"
-        },
-        {
           "a": "Rebecca Marino",
           "b": "Zeynep Sonmez",
           "a_seed": "WC",
@@ -2338,25 +2329,11 @@
           "h2h": null
         },
         {
-          "a": "Oleksandra Oliynykova",
-          "b": "Karolina Pliskova",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Renata Zarazua",
           "b": "Tamara Korpatsch",
           "a_seed": null,
           "b_seed": null,
           "h2h": "1-0"
-        },
-        {
-          "a": "Anhelina Kalinina",
-          "b": "Anna Bondar",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "3-1"
         },
         {
           "a": "Panna Udvardy",
@@ -2441,6 +2418,27 @@
           "a_seed": "7",
           "b_seed": null,
           "h2h": "0-1"
+        },
+        {
+          "a": "Alina Korneeva",
+          "b": "Emma Navarro",
+          "a_seed": "Q",
+          "b_seed": "23",
+          "h2h": null
+        },
+        {
+          "a": "Mirra Andreeva",
+          "b": "Karolina Pliskova",
+          "a_seed": "5",
+          "b_seed": null,
+          "h2h": "1-0"
+        },
+        {
+          "a": "Elise Mertens",
+          "b": "Anna Bondar",
+          "a_seed": "20",
+          "b_seed": null,
+          "h2h": "1-0"
         }
       ],
       "completed": [
@@ -2485,6 +2483,24 @@
           "winner": "Sara Bejlek",
           "loser": "Xiyu Wang",
           "score": "63 46 75"
+        },
+        {
+          "round": "R1",
+          "winner": "Alina Korneeva",
+          "loser": "Polina Kudermetova",
+          "score": ""
+        },
+        {
+          "round": "R1",
+          "winner": "Karolina Pliskova",
+          "loser": "Oleksandra Oliynykova",
+          "score": "64 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Anna Bondar",
+          "loser": "Anhelina Kalinina",
+          "score": "64 75"
         }
       ]
     },
