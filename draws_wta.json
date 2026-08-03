@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-02T23:04:04Z",
+  "fetched_at": "2026-08-03T00:07:25Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -2233,13 +2233,6 @@
           "h2h": null
         },
         {
-          "a": "Lucrezia Stefanini",
-          "b": "Camila Osorio",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Elena Gabriela Ruse",
           "b": "Peyton Stearns",
           "a_seed": null,
@@ -2408,6 +2401,13 @@
           "h2h": "1-0"
         },
         {
+          "a": "Camila Osorio",
+          "b": "Ekaterina Alexandrova",
+          "a_seed": "16",
+          "b_seed": null,
+          "h2h": "3-0"
+        },
+        {
           "a": "Elina Svitolina",
           "b": "Jessica Bouzas Maneiro",
           "a_seed": "9",
@@ -2449,6 +2449,12 @@
           "winner": "Moyuka Uchijima",
           "loser": "Cristina Bucsa",
           "score": "63 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Camila Osorio",
+          "loser": "Lucrezia Stefanini",
+          "score": "76(4) 63"
         },
         {
           "round": "R1",
