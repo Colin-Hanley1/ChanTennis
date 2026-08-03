@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-03T17:59:05Z",
+  "fetched_at": "2026-08-03T19:47:54Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -2217,20 +2217,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Yulia Putintseva",
-          "b": "Shuai Zhang",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "7-2"
-        },
-        {
-          "a": "Talia Gibson",
-          "b": "Elisabetta Cocciaretto",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Elena Gabriela Ruse",
           "b": "Peyton Stearns",
           "a_seed": null,
@@ -2257,20 +2243,6 @@
           "a_seed": "Q",
           "b_seed": null,
           "h2h": "1-0"
-        },
-        {
-          "a": "Mccartney Kessler",
-          "b": "Cadence Brace",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Rebecca Sramkova",
-          "b": "Anna Blinkova",
-          "a_seed": "Q",
-          "b_seed": "Q",
-          "h2h": "0-1"
         },
         {
           "a": "Lois Boisson",
@@ -2322,13 +2294,6 @@
           "h2h": null
         },
         {
-          "a": "Diane Parry",
-          "b": "Kayla Day",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Renata Zarazua",
           "b": "Tamara Korpatsch",
           "a_seed": null,
@@ -2357,13 +2322,6 @@
           "h2h": "0-2"
         },
         {
-          "a": "Katie Boulter",
-          "b": "Kayla Cross",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Xin Yu Wang",
           "b": "Daria Kasatkina",
           "a_seed": null,
@@ -2376,6 +2334,20 @@
           "a_seed": "1",
           "b_seed": "Q",
           "h2h": "1-0"
+        },
+        {
+          "a": "Shuai Zhang",
+          "b": "Jelena Ostapenko",
+          "a_seed": "26",
+          "b_seed": null,
+          "h2h": "0-2"
+        },
+        {
+          "a": "Maja Chwalinska",
+          "b": "Talia Gibson",
+          "a_seed": "18",
+          "b_seed": null,
+          "h2h": null
         },
         {
           "a": "Camila Osorio",
@@ -2397,6 +2369,20 @@
           "a_seed": "32",
           "b_seed": null,
           "h2h": "1-2"
+        },
+        {
+          "a": "Anna Kalinskaya",
+          "b": "Mccartney Kessler",
+          "a_seed": "17",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Rebecca Sramkova",
+          "b": "Diana Shnaider",
+          "a_seed": "Q",
+          "b_seed": "15",
+          "h2h": "0-1"
         },
         {
           "a": "Marta Kostyuk",
@@ -2427,6 +2413,13 @@
           "h2h": null
         },
         {
+          "a": "Kayla Day",
+          "b": "Coco Gauff",
+          "a_seed": "Q",
+          "b_seed": "4",
+          "h2h": null
+        },
+        {
           "a": "Mirra Andreeva",
           "b": "Karolina Pliskova",
           "a_seed": "5",
@@ -2439,6 +2432,13 @@
           "a_seed": "20",
           "b_seed": null,
           "h2h": "1-0"
+        },
+        {
+          "a": "Ann Li",
+          "b": "Kayla Cross",
+          "a_seed": "28",
+          "b_seed": "WC",
+          "h2h": null
         }
       ],
       "completed": [
@@ -2447,6 +2447,18 @@
           "winner": "Moyuka Uchijima",
           "loser": "Cristina Bucsa",
           "score": "63 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Shuai Zhang",
+          "loser": "Yulia Putintseva",
+          "score": "64 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Talia Gibson",
+          "loser": "Elisabetta Cocciaretto",
+          "score": ""
         },
         {
           "round": "R1",
@@ -2465,6 +2477,18 @@
           "winner": "Kamilla Rakhimova",
           "loser": "Venus Williams",
           "score": "64 61"
+        },
+        {
+          "round": "R1",
+          "winner": "Mccartney Kessler",
+          "loser": "Cadence Brace",
+          "score": "63 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Rebecca Sramkova",
+          "loser": "Anna Blinkova",
+          "score": "63 63"
         },
         {
           "round": "R1",
@@ -2492,6 +2516,12 @@
         },
         {
           "round": "R1",
+          "winner": "Kayla Day",
+          "loser": "Diane Parry",
+          "score": "36 63 75"
+        },
+        {
+          "round": "R1",
           "winner": "Karolina Pliskova",
           "loser": "Oleksandra Oliynykova",
           "score": "64 64"
@@ -2501,6 +2531,12 @@
           "winner": "Anna Bondar",
           "loser": "Anhelina Kalinina",
           "score": "64 75"
+        },
+        {
+          "round": "R1",
+          "winner": "Kayla Cross",
+          "loser": "Katie Boulter",
+          "score": "76(3) 75"
         }
       ]
     },
@@ -2736,13 +2772,6 @@
           "h2h": "2-1"
         },
         {
-          "a": "Teodora Kostovic",
-          "b": "Martyna Kubka",
-          "a_seed": "8",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
           "a": "Laura Samson",
           "b": "Mona Barthel",
           "a_seed": null,
@@ -2809,6 +2838,12 @@
           "winner": "Veronika Podrez",
           "loser": "Elena Micic",
           "score": "63 76(4)"
+        },
+        {
+          "round": "R1",
+          "winner": "Martyna Kubka",
+          "loser": "Teodora Kostovic",
+          "score": "76(3) 26 61"
         },
         {
           "round": "R1",
