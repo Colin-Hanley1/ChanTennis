@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-03T19:47:54Z",
+  "fetched_at": "2026-08-03T21:13:01Z",
   "events": [
     {
       "slug": "2026ATPWashington",
@@ -203,16 +203,14 @@
           "bye": false
         }
       ],
-      "r1_matches": [
-        {
-          "a": "Taylor Fritz",
-          "b": "Rafael Jodar",
-          "a_seed": "3",
-          "b_seed": null,
-          "h2h": "1-0"
-        }
-      ],
+      "r1_matches": [],
       "completed": [
+        {
+          "round": "F",
+          "winner": "Taylor Fritz",
+          "loser": "Rafael Jodar",
+          "score": "7-6(2) 6-4"
+        },
         {
           "round": "SF",
           "winner": "Taylor Fritz",

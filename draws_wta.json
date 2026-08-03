@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-03T19:47:54Z",
+  "fetched_at": "2026-08-03T21:13:01Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -2217,13 +2217,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Elena Gabriela Ruse",
-          "b": "Peyton Stearns",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
           "a": "Nikola Bartunkova",
           "b": "Bianca Andreescu",
           "a_seed": "WC",
@@ -2236,13 +2229,6 @@
           "a_seed": "Q",
           "b_seed": "Q",
           "h2h": "0-1"
-        },
-        {
-          "a": "Magdalena Frech",
-          "b": "Leolia Jeanjean",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": "1-0"
         },
         {
           "a": "Lois Boisson",
@@ -2364,6 +2350,20 @@
           "h2h": "3-0"
         },
         {
+          "a": "Elena Gabriela Ruse",
+          "b": "Anastasia Potapova",
+          "a_seed": "24",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Jessica Pegula",
+          "b": "Magdalena Frech",
+          "a_seed": "3",
+          "b_seed": null,
+          "h2h": "3-0"
+        },
+        {
           "a": "Kamilla Rakhimova",
           "b": "Katerina Siniakova",
           "a_seed": "32",
@@ -2471,6 +2471,18 @@
           "winner": "Jessica Bouzas Maneiro",
           "loser": "Ariana Arseneault",
           "score": "62 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Elena Gabriela Ruse",
+          "loser": "Peyton Stearns",
+          "score": "60 75"
+        },
+        {
+          "round": "R1",
+          "winner": "Magdalena Frech",
+          "loser": "Leolia Jeanjean",
+          "score": "75 63"
         },
         {
           "round": "R1",
