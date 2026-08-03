@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-03T12:33:01Z",
+  "fetched_at": "2026-08-03T15:48:40Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -2741,20 +2741,6 @@
           "h2h": null
         },
         {
-          "a": "Alana Smith",
-          "b": "Yue Yuan",
-          "a_seed": "Q",
-          "b_seed": "3",
-          "h2h": null
-        },
-        {
-          "a": "Katarzyna Kawa",
-          "b": "Linda Fruhvirtova",
-          "a_seed": "5",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
           "a": "Weronika Ewald",
           "b": "Justina Mikulskyte",
           "a_seed": "WC",
@@ -2807,6 +2793,18 @@
           "winner": "Veronika Podrez",
           "loser": "Elena Micic",
           "score": "63 76(4)"
+        },
+        {
+          "round": "R1",
+          "winner": "Yue Yuan",
+          "loser": "Alana Smith",
+          "score": "61 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Katarzyna Kawa",
+          "loser": "Linda Fruhvirtova",
+          "score": "46 64 76(5)"
         }
       ]
     }
