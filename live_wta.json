@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-03T21:18:24Z",
+  "fetched_at": "2026-08-03T22:31:30Z",
   "source": "espn",
   "matches": [
     {
@@ -39,6 +39,12 @@
       "round": "Round 1"
     },
     {
+      "winner": "Alycia Parks",
+      "loser": "Victoria Jimenez Kasintseva",
+      "score": "6-4 6-4",
+      "round": "Round 1"
+    },
+    {
       "winner": "Anastasia Potapova",
       "loser": "Venus Williams",
       "score": "6-3 6-3",
@@ -54,6 +60,12 @@
       "winner": "Anna Kalinskaya",
       "loser": "Daria Kasatkina",
       "score": "6-4 6-1",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Antonia Ruzic",
+      "loser": "Lois Boisson",
+      "score": "4-6 6-1 6-3",
       "round": "Round 1"
     },
     {
@@ -144,6 +156,18 @@
       "winner": "Liudmila Samsonova",
       "loser": "Madison Keys",
       "score": "3-6 6-4 6-4",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Liudmila Samsonova",
+      "loser": "Janice Tjen",
+      "score": "7-6 7-5",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Magda Linette",
+      "loser": "Carol Zhao",
+      "score": "4-6 6-1 6-4",
       "round": "Round 1"
     },
     {
