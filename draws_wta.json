@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-03T08:36:17Z",
+  "fetched_at": "2026-08-03T12:33:01Z",
   "events": [
     {
       "slug": "2026WTAWashingtonDc",
@@ -2546,9 +2546,9 @@
           "bye": false
         },
         {
-          "name": "Jeline Vandromme",
-          "seed": "4",
-          "country": "BEL",
+          "name": "Marcelina Podlinska",
+          "seed": "LL",
+          "country": "POL",
           "bye": false
         },
         {
@@ -2699,30 +2699,9 @@
           "h2h": null
         },
         {
-          "a": "Aliona Falei",
-          "b": "Urszula Radwanska",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Amelia Paszun",
-          "b": "Weronika Falkowska",
-          "a_seed": "WC",
-          "b_seed": "WC",
-          "h2h": "0-1"
-        },
-        {
-          "a": "Julia Avdeeva",
-          "b": "Noma Noha Akugue",
-          "a_seed": "7",
-          "b_seed": null,
-          "h2h": "2-2"
-        },
-        {
-          "a": "Jeline Vandromme",
+          "a": "Marcelina Podlinska",
           "b": "Vendula Valdmannova",
-          "a_seed": "4",
+          "a_seed": "LL",
           "b_seed": null,
           "h2h": null
         },
@@ -2739,13 +2718,6 @@
           "a_seed": null,
           "b_seed": null,
           "h2h": "2-1"
-        },
-        {
-          "a": "Elena Micic",
-          "b": "Veronika Podrez",
-          "a_seed": "Q",
-          "b_seed": "6",
-          "h2h": null
         },
         {
           "a": "Teodora Kostovic",
@@ -2802,9 +2774,41 @@
           "a_seed": "2",
           "b_seed": null,
           "h2h": "1-0"
+        },
+        {
+          "a": "Weronika Falkowska",
+          "b": "Noma Noha Akugue",
+          "a_seed": "WC",
+          "b_seed": "7",
+          "h2h": null
         }
       ],
-      "completed": []
+      "completed": [
+        {
+          "round": "R1",
+          "winner": "Aliona Falei",
+          "loser": "Urszula Radwanska",
+          "score": "63 62"
+        },
+        {
+          "round": "R1",
+          "winner": "Weronika Falkowska",
+          "loser": "Amelia Paszun",
+          "score": "60 62"
+        },
+        {
+          "round": "R1",
+          "winner": "Noma Noha Akugue",
+          "loser": "Julia Avdeeva",
+          "score": "62 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Veronika Podrez",
+          "loser": "Elena Micic",
+          "score": "63 76(4)"
+        }
+      ]
     }
   ]
 }
