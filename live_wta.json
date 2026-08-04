@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-04T03:27:15Z",
+  "fetched_at": "2026-08-04T04:27:45Z",
   "source": "espn",
   "matches": [
     {
@@ -78,6 +78,18 @@
       "winner": "Camila Osorio",
       "loser": "Lucrezia Stefanini",
       "score": "7-6 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Catherine McNally",
+      "loser": "Tatjana Maria",
+      "score": "4-6 7-6 6-1",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Daria Kasatkina",
+      "loser": "Wang Xinyu",
+      "score": "1-6 7-6 7-5",
       "round": "Round 1"
     },
     {
