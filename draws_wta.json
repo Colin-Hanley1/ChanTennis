@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-04T09:43:38Z",
+  "fetched_at": "2026-08-04T12:07:01Z",
   "events": [
     {
       "slug": "2026WTAMontreal",
@@ -1308,13 +1308,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Elsa Jacquemot",
-          "b": "Carol Young Suh Lee",
-          "a_seed": "1",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Marcelina Podlinska",
           "b": "Vendula Valdmannova",
           "a_seed": "LL",
@@ -1329,13 +1322,6 @@
           "h2h": null
         },
         {
-          "a": "Viktoria Hruncakova",
-          "b": "Susan Bandecchi",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "2-1"
-        },
-        {
           "a": "Laura Samson",
           "b": "Mona Barthel",
           "a_seed": null,
@@ -1346,13 +1332,6 @@
           "a": "Linda Klimovicova",
           "b": "Elizara Yaneva",
           "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Weronika Ewald",
-          "b": "Justina Mikulskyte",
-          "a_seed": "WC",
           "b_seed": null,
           "h2h": null
         },
@@ -1371,14 +1350,41 @@
           "h2h": "1-0"
         },
         {
+          "a": "Carol Young Suh Lee",
+          "b": "Aliona Falei",
+          "a_seed": null,
+          "b_seed": null,
+          "h2h": "1-0"
+        },
+        {
           "a": "Weronika Falkowska",
           "b": "Noma Noha Akugue",
           "a_seed": "WC",
           "b_seed": "7",
           "h2h": null
+        },
+        {
+          "a": "Susan Bandecchi",
+          "b": "Veronika Podrez",
+          "a_seed": "6",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Katarzyna Kawa",
+          "b": "Justina Mikulskyte",
+          "a_seed": "5",
+          "b_seed": null,
+          "h2h": null
         }
       ],
       "completed": [
+        {
+          "round": "R1",
+          "winner": "Carol Young Suh Lee",
+          "loser": "Elsa Jacquemot",
+          "score": "64 64"
+        },
         {
           "round": "R1",
           "winner": "Aliona Falei",
@@ -1396,6 +1402,12 @@
           "winner": "Noma Noha Akugue",
           "loser": "Julia Avdeeva",
           "score": "62 63"
+        },
+        {
+          "round": "R1",
+          "winner": "Susan Bandecchi",
+          "loser": "Viktoria Hruncakova",
+          "score": "64 64"
         },
         {
           "round": "R1",
@@ -1420,6 +1432,12 @@
           "winner": "Katarzyna Kawa",
           "loser": "Linda Fruhvirtova",
           "score": "46 64 76(5)"
+        },
+        {
+          "round": "R1",
+          "winner": "Justina Mikulskyte",
+          "loser": "Weronika Ewald",
+          "score": "76(3) 62"
         }
       ]
     }
