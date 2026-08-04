@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-03T23:44:32Z",
+  "fetched_at": "2026-08-04T01:06:55Z",
   "source": "espn",
   "matches": [
     {
@@ -183,6 +183,12 @@
       "round": "Round 1"
     },
     {
+      "winner": "Maya Joint",
+      "loser": "Yuliia Starodubtseva",
+      "score": "4-6 6-1 6-3",
+      "round": "Round 1"
+    },
+    {
       "winner": "McCartney Kessler",
       "loser": "Cadence Brace",
       "score": "6-3 6-3",
@@ -213,9 +219,21 @@
       "round": "Round 1"
     },
     {
+      "winner": "Renata Zarazua",
+      "loser": "Tamara Korpatsch",
+      "score": "6-4 0-6 6-1",
+      "round": "Round 1"
+    },
+    {
       "winner": "Sara Bejlek",
       "loser": "Wang Xiyu",
       "score": "6-3 4-6 7-5",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Taylor Townsend",
+      "loser": "Tereza Valentova",
+      "score": "6-4 7-5",
       "round": "Round 1"
     },
     {
@@ -228,6 +246,12 @@
       "winner": "Wang Xinyu",
       "loser": "Julieta Pareja",
       "score": "7-6 6-3",
+      "round": "Round 1"
+    },
+    {
+      "winner": "Zeynep Sonmez",
+      "loser": "Rebecca Marino",
+      "score": "7-5 6-4",
       "round": "Round 1"
     },
     {
