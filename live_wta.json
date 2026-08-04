@@ -1,53 +1,11 @@
 {
-  "fetched_at": "2026-08-04T04:27:45Z",
+  "fetched_at": "2026-08-04T06:35:01Z",
   "source": "espn",
   "matches": [
-    {
-      "winner": "Alexandra Eala",
-      "loser": "Jessica Pegula",
-      "score": "4-6 6-4 6-0",
-      "round": "Final"
-    },
-    {
-      "winner": "Alexandra Eala",
-      "loser": "Elina Svitolina",
-      "score": "6-3 6-4",
-      "round": "Quarterfinal"
-    },
-    {
-      "winner": "Diana Shnaider",
-      "loser": "Liudmila Samsonova",
-      "score": "6-3 6-4",
-      "round": "Quarterfinal"
-    },
-    {
-      "winner": "Jessica Pegula",
-      "loser": "Anna Kalinskaya",
-      "score": "6-3 7-5",
-      "round": "Quarterfinal"
-    },
-    {
-      "winner": "Naomi Osaka",
-      "loser": "Elisabetta Cocciaretto",
-      "score": "4-6 6-4 6-3",
-      "round": "Quarterfinal"
-    },
-    {
-      "winner": "Alexandra Eala",
-      "loser": "Zheng Qinwen",
-      "score": "4-6 6-4 6-1",
-      "round": "Round 1"
-    },
     {
       "winner": "Alycia Parks",
       "loser": "Victoria Jimenez Kasintseva",
       "score": "6-4 6-4",
-      "round": "Round 1"
-    },
-    {
-      "winner": "Anastasia Potapova",
-      "loser": "Venus Williams",
-      "score": "6-3 6-3",
       "round": "Round 1"
     },
     {
@@ -57,21 +15,9 @@
       "round": "Round 1"
     },
     {
-      "winner": "Anna Kalinskaya",
-      "loser": "Daria Kasatkina",
-      "score": "6-4 6-1",
-      "round": "Round 1"
-    },
-    {
       "winner": "Antonia Ruzic",
       "loser": "Lois Boisson",
       "score": "4-6 6-1 6-3",
-      "round": "Round 1"
-    },
-    {
-      "winner": "Ashlyn Krueger",
-      "loser": "Katie Boulter",
-      "score": "3-6 6-2 6-2",
       "round": "Round 1"
     },
     {
@@ -96,24 +42,6 @@
       "winner": "Elena-Gabriela Ruse",
       "loser": "Peyton Stearns",
       "score": "6-0 7-5",
-      "round": "Round 1"
-    },
-    {
-      "winner": "Elisabetta Cocciaretto",
-      "loser": "Clara Tauson",
-      "score": "4-6 7-6 7-6",
-      "round": "Round 1"
-    },
-    {
-      "winner": "Emma Navarro",
-      "loser": "Sofia Kenin",
-      "score": "6-0 7-5",
-      "round": "Round 1"
-    },
-    {
-      "winner": "Janice Tjen",
-      "loser": "Rebecca Sramkova",
-      "score": "6-4 6-2",
       "round": "Round 1"
     },
     {
@@ -159,18 +87,6 @@
       "round": "Round 1"
     },
     {
-      "winner": "Leylah Fernandez",
-      "loser": "Magda Linette",
-      "score": "6-1 6-4",
-      "round": "Round 1"
-    },
-    {
-      "winner": "Liudmila Samsonova",
-      "loser": "Madison Keys",
-      "score": "3-6 6-4 6-4",
-      "round": "Round 1"
-    },
-    {
       "winner": "Liudmila Samsonova",
       "loser": "Janice Tjen",
       "score": "7-6 7-5",
@@ -180,12 +96,6 @@
       "winner": "Magda Linette",
       "loser": "Carol Zhao",
       "score": "4-6 6-1 6-4",
-      "round": "Round 1"
-    },
-    {
-      "winner": "Magdalena Frech",
-      "loser": "Ann Li",
-      "score": "6-4 6-3",
       "round": "Round 1"
     },
     {
@@ -216,12 +126,6 @@
       "winner": "Nikola Bartunkova",
       "loser": "Bianca Andreescu",
       "score": "7-5 6-4",
-      "round": "Round 1"
-    },
-    {
-      "winner": "Polina Kudermetova",
-      "loser": "Cristina Bucsa",
-      "score": "5-7 7-6 6-0",
       "round": "Round 1"
     },
     {
@@ -261,12 +165,6 @@
       "round": "Round 1"
     },
     {
-      "winner": "Wang Xinyu",
-      "loser": "Julieta Pareja",
-      "score": "7-6 6-3",
-      "round": "Round 1"
-    },
-    {
       "winner": "Zeynep Sonmez",
       "loser": "Rebecca Marino",
       "score": "7-5 6-4",
@@ -277,60 +175,6 @@
       "loser": "Yulia Putintseva",
       "score": "6-4 6-1",
       "round": "Round 1"
-    },
-    {
-      "winner": "Alexandra Eala",
-      "loser": "Leylah Fernandez",
-      "score": "6-2 7-6",
-      "round": "Round 2"
-    },
-    {
-      "winner": "Anna Kalinskaya",
-      "loser": "Janice Tjen",
-      "score": "1-6 6-3 7-6",
-      "round": "Round 2"
-    },
-    {
-      "winner": "Diana Shnaider",
-      "loser": "Anastasia Potapova",
-      "score": "6-1 6-2",
-      "round": "Round 2"
-    },
-    {
-      "winner": "Elina Svitolina",
-      "loser": "Polina Kudermetova",
-      "score": "7-6 6-4",
-      "round": "Round 2"
-    },
-    {
-      "winner": "Elisabetta Cocciaretto",
-      "loser": "Emma Navarro",
-      "score": "6-3 4-6 6-3",
-      "round": "Round 2"
-    },
-    {
-      "winner": "Jessica Pegula",
-      "loser": "Magdalena Frech",
-      "score": "3-6 6-3 6-0",
-      "round": "Round 2"
-    },
-    {
-      "winner": "Liudmila Samsonova",
-      "loser": "Wang Xinyu",
-      "score": "6-2 6-2",
-      "round": "Round 2"
-    },
-    {
-      "winner": "Alexandra Eala",
-      "loser": "Naomi Osaka",
-      "score": "6-4 6-2",
-      "round": "Semifinal"
-    },
-    {
-      "winner": "Jessica Pegula",
-      "loser": "Diana Shnaider",
-      "score": "7-5 6-4",
-      "round": "Semifinal"
     }
   ]
 }

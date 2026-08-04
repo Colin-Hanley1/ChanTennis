@@ -1,83 +1,11 @@
 {
-  "fetched_at": "2026-08-04T04:27:45Z",
+  "fetched_at": "2026-08-04T06:35:01Z",
   "source": "espn",
   "matches": [
-    {
-      "winner": "Taylor Fritz",
-      "loser": "Rafael Jodar",
-      "score": "7-6 6-4",
-      "round": "Final"
-    },
-    {
-      "winner": "Alejandro Tabilo",
-      "loser": "Ben Shelton",
-      "score": "4-6 7-5 6-4",
-      "round": "Quarterfinal"
-    },
-    {
-      "winner": "Brandon Nakashima",
-      "loser": "Alex de Minaur",
-      "score": "7-6 6-4",
-      "round": "Quarterfinal"
-    },
-    {
-      "winner": "Rafael Jodar",
-      "loser": "Lorenzo Musetti",
-      "score": "1-6 6-1 6-4",
-      "round": "Quarterfinal"
-    },
-    {
-      "winner": "Taylor Fritz",
-      "loser": "Alex Michelsen",
-      "score": "6-1 3-6 7-6",
-      "round": "Quarterfinal"
-    },
-    {
-      "winner": "Adrian Mannarino",
-      "loser": "Learner Tien",
-      "score": "7-5 6-4",
-      "round": "Round 1"
-    },
-    {
-      "winner": "Alejandro Tabilo",
-      "loser": "Tallon Griekspoor",
-      "score": "7-6 4-6 6-4",
-      "round": "Round 1"
-    },
-    {
-      "winner": "Aleksandar Vukic",
-      "loser": "Zachary Svajda",
-      "score": "6-3 6-1",
-      "round": "Round 1"
-    },
-    {
-      "winner": "Alex Michelsen",
-      "loser": "Mackenzie McDonald",
-      "score": "6-4 7-5",
-      "round": "Round 1"
-    },
     {
       "winner": "Alex Michelsen",
       "loser": "Jan-Lennard Struff",
       "score": "6-1 3-6 6-1",
-      "round": "Round 1"
-    },
-    {
-      "winner": "Alex de Minaur",
-      "loser": "Stefanos Tsitsipas",
-      "score": "6-4 3-6 6-3",
-      "round": "Round 1"
-    },
-    {
-      "winner": "Ben Shelton",
-      "loser": "Martin Damm",
-      "score": "6-4 4-6 6-4",
-      "round": "Round 1"
-    },
-    {
-      "winner": "Brandon Nakashima",
-      "loser": "Tomas Martin Etcheverry",
-      "score": "6-3 6-4",
       "round": "Round 1"
     },
     {
@@ -90,12 +18,6 @@
       "winner": "Corentin Moutet",
       "loser": "Marton Fucsovics",
       "score": "6-1 6-2",
-      "round": "Round 1"
-    },
-    {
-      "winner": "Cruz Hewitt",
-      "loser": "Marcos Giron",
-      "score": "6-3 6-4",
       "round": "Round 1"
     },
     {
@@ -117,12 +39,6 @@
       "round": "Round 1"
     },
     {
-      "winner": "Jakub Mensik",
-      "loser": "Trevor Svajda",
-      "score": "6-2 6-7 6-3",
-      "round": "Round 1"
-    },
-    {
       "winner": "James Duckworth",
       "loser": "Christopher O'Connell",
       "score": "6-3 6-1",
@@ -132,18 +48,6 @@
       "winner": "Jaume Munar",
       "loser": "Rinky Hijikata",
       "score": "7-6 6-3",
-      "round": "Round 1"
-    },
-    {
-      "winner": "Kamil Majchrzak",
-      "loser": "Tommy Paul",
-      "score": "7-5 7-6",
-      "round": "Round 1"
-    },
-    {
-      "winner": "Kei Nishikori",
-      "loser": "Shang Juncheng",
-      "score": "6-7 6-3 6-4",
       "round": "Round 1"
     },
     {
@@ -177,39 +81,15 @@
       "round": "Round 1"
     },
     {
-      "winner": "Rafael Jodar",
-      "loser": "Arthur Fils",
-      "score": "7-6 6-3",
-      "round": "Round 1"
-    },
-    {
       "winner": "Shang Juncheng",
       "loser": "Adolfo Daniel Vallejo",
       "score": "6-3 6-3",
       "round": "Round 1"
     },
     {
-      "winner": "Taylor Fritz",
-      "loser": "Zizou Bergs",
-      "score": "6-3 6-4",
-      "round": "Round 1"
-    },
-    {
-      "winner": "Terence Atmane",
-      "loser": "Frances Tiafoe",
-      "score": "4-6 6-3 6-4",
-      "round": "Round 1"
-    },
-    {
       "winner": "Titouan Droguet",
       "loser": "Luca Van Assche",
       "score": "6-4 2-6 7-6",
-      "round": "Round 1"
-    },
-    {
-      "winner": "Ugo Humbert",
-      "loser": "Andres Martin",
-      "score": "6-2 7-5",
       "round": "Round 1"
     },
     {
@@ -223,66 +103,6 @@
       "loser": "Benjamin Bonzi",
       "score": "6-1 4-6 6-2",
       "round": "Round 1"
-    },
-    {
-      "winner": "Alejandro Tabilo",
-      "loser": "Terence Atmane",
-      "score": "6-3 7-6",
-      "round": "Round 2"
-    },
-    {
-      "winner": "Alex Michelsen",
-      "loser": "Adrian Mannarino",
-      "score": "6-4 7-6",
-      "round": "Round 2"
-    },
-    {
-      "winner": "Alex de Minaur",
-      "loser": "Cruz Hewitt",
-      "score": "6-2 6-3",
-      "round": "Round 2"
-    },
-    {
-      "winner": "Ben Shelton",
-      "loser": "Ugo Humbert",
-      "score": "6-7 6-3 6-4",
-      "round": "Round 2"
-    },
-    {
-      "winner": "Brandon Nakashima",
-      "loser": "Jakub Mensik",
-      "score": "7-6 3-6 6-4",
-      "round": "Round 2"
-    },
-    {
-      "winner": "Lorenzo Musetti",
-      "loser": "Aleksandar Vukic",
-      "score": "6-3 5-7 6-3",
-      "round": "Round 2"
-    },
-    {
-      "winner": "Rafael Jodar",
-      "loser": "Kei Nishikori",
-      "score": "6-3 6-2",
-      "round": "Round 2"
-    },
-    {
-      "winner": "Taylor Fritz",
-      "loser": "Kamil Majchrzak",
-      "score": "6-3 6-4",
-      "round": "Round 2"
-    },
-    {
-      "winner": "Rafael Jodar",
-      "loser": "Alejandro Tabilo",
-      "score": "6-7 6-4 6-4",
-      "round": "Semifinal"
-    },
-    {
-      "winner": "Taylor Fritz",
-      "loser": "Brandon Nakashima",
-      "score": "6-3 3-6 6-3",
-      "round": "Semifinal"
     }
   ]
 }

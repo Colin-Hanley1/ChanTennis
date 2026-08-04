@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-04T03:27:18Z",
+  "fetched_at": "2026-08-04T06:35:04Z",
   "events": [
     {
       "slug": "2026WTAMontreal",
@@ -685,20 +685,6 @@
       ],
       "r1_matches": [
         {
-          "a": "Tatjana Maria",
-          "b": "Caty Mcnally",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": "0-1"
-        },
-        {
-          "a": "Xin Yu Wang",
-          "b": "Daria Kasatkina",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "2-1"
-        },
-        {
           "a": "Aryna Sabalenka",
           "b": "Moyuka Uchijima",
           "a_seed": "1",
@@ -811,6 +797,13 @@
           "h2h": "0-1"
         },
         {
+          "a": "Linda Noskova",
+          "b": "Caty Mcnally",
+          "a_seed": "6",
+          "b_seed": null,
+          "h2h": "0-1"
+        },
+        {
           "a": "Alycia Parks",
           "b": "Alexandra Eala",
           "a_seed": "25",
@@ -907,6 +900,13 @@
           "a_seed": "28",
           "b_seed": "WC",
           "h2h": null
+        },
+        {
+          "a": "Daria Kasatkina",
+          "b": "Elena Rybakina",
+          "a_seed": "2",
+          "b_seed": null,
+          "h2h": "2-3"
         }
       ],
       "completed": [
@@ -1008,6 +1008,12 @@
         },
         {
           "round": "R1",
+          "winner": "Caty Mcnally",
+          "loser": "Tatjana Maria",
+          "score": "46 76(4) 61"
+        },
+        {
+          "round": "R1",
           "winner": "Alycia Parks",
           "loser": "Victoria Jimenez Kasintseva",
           "score": "64 64"
@@ -1089,6 +1095,12 @@
           "winner": "Kayla Cross",
           "loser": "Katie Boulter",
           "score": "76(3) 75"
+        },
+        {
+          "round": "R1",
+          "winner": "Daria Kasatkina",
+          "loser": "Xin Yu Wang",
+          "score": "16 76(5) 75"
         }
       ]
     },

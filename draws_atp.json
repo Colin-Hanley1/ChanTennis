@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-04T03:27:18Z",
+  "fetched_at": "2026-08-04T06:35:04Z",
   "events": [
     {
       "slug": "2026ATPMontreal",
@@ -706,20 +706,6 @@
           "h2h": null
         },
         {
-          "a": "Alex Michelsen",
-          "b": "Jan Lennard Struff",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
-          "a": "Kamil Majchrzak",
-          "b": "Gael Monfils",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
           "a": "Pablo Carreno Busta",
           "b": "Valentin Royer",
           "a_seed": null,
@@ -797,34 +783,6 @@
           "h2h": null
         },
         {
-          "a": "Alexis Galarneau",
-          "b": "Vit Kopriva",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Marton Fucsovics",
-          "b": "Corentin Moutet",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "2-2"
-        },
-        {
-          "a": "Nicolas Mejia",
-          "b": "Martin Landaluce",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Matteo Berrettini",
-          "b": "Mariano Navone",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "3-0"
-        },
-        {
           "a": "Zachary Svajda",
           "b": "Denis Shapovalov",
           "a_seed": null,
@@ -832,67 +790,25 @@
           "h2h": null
         },
         {
-          "a": "Camilo Ugo Carabelli",
-          "b": "Cameron Norrie",
-          "a_seed": null,
+          "a": "Alex Michelsen",
+          "b": "Francisco Cerundolo",
+          "a_seed": "16",
           "b_seed": null,
+          "h2h": "1-1"
+        },
+        {
+          "a": "Learner Tien",
+          "b": "Gael Monfils",
+          "a_seed": "12",
+          "b_seed": "WC",
           "h2h": null
         },
         {
-          "a": "James Duckworth",
-          "b": "Christopher Oconnell",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": "2-1"
-        },
-        {
-          "a": "Benjamin Bonzi",
-          "b": "Yannick Hanfmann",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Aleksandar Kovacevic",
-          "b": "Nuno Borges",
-          "a_seed": null,
+          "a": "Jiri Lehecka",
+          "b": "Vit Kopriva",
+          "a_seed": "8",
           "b_seed": null,
           "h2h": "1-0"
-        },
-        {
-          "a": "Gabriel Diallo",
-          "b": "Kyrian Jacquet",
-          "a_seed": "WC",
-          "b_seed": "Q",
-          "h2h": null
-        },
-        {
-          "a": "Sho Shimabukuro",
-          "b": "Marin Cilic",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Michael Zheng",
-          "b": "Miomir Kecmanovic",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Aleksandar Vukic",
-          "b": "Daniel Altmaier",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": "2-1"
-        },
-        {
-          "a": "Luca Van Assche",
-          "b": "Titouan Droguet",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": "2-1"
         },
         {
           "a": "Jaume Munar",
@@ -902,14 +818,116 @@
           "h2h": null
         },
         {
+          "a": "Rafael Jodar",
+          "b": "Corentin Moutet",
+          "a_seed": "20",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Nicolas Mejia",
+          "b": "Lorenzo Musetti",
+          "a_seed": "Q",
+          "b_seed": "11",
+          "h2h": null
+        },
+        {
+          "a": "Valentin Vacherot",
+          "b": "Mariano Navone",
+          "a_seed": "14",
+          "b_seed": null,
+          "h2h": "1-0"
+        },
+        {
+          "a": "Ignacio Buse",
+          "b": "Cameron Norrie",
+          "a_seed": "29",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "James Duckworth",
+          "b": "Alex De Minaur",
+          "a_seed": "3",
+          "b_seed": null,
+          "h2h": "0-2"
+        },
+        {
+          "a": "Flavio Cobolli",
+          "b": "Yannick Hanfmann",
+          "a_seed": "6",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Nuno Borges",
+          "b": "Tomas Martin Etcheverry",
+          "a_seed": "26",
+          "b_seed": null,
+          "h2h": "3-0"
+        },
+        {
+          "a": "Luciano Darderi",
+          "b": "Gabriel Diallo",
+          "a_seed": "19",
+          "b_seed": "WC",
+          "h2h": null
+        },
+        {
           "a": "Juncheng Shang",
           "b": "Andrey Rublev",
           "a_seed": "PR",
           "b_seed": "10",
           "h2h": "0-1"
+        },
+        {
+          "a": "Frances Tiafoe",
+          "b": "Marin Cilic",
+          "a_seed": "15",
+          "b_seed": null,
+          "h2h": "0-2"
+        },
+        {
+          "a": "Miomir Kecmanovic",
+          "b": "Arthur Rinderknech",
+          "a_seed": "23",
+          "b_seed": null,
+          "h2h": "1-2"
+        },
+        {
+          "a": "Brandon Nakashima",
+          "b": "Daniel Altmaier",
+          "a_seed": "28",
+          "b_seed": null,
+          "h2h": "1-0"
+        },
+        {
+          "a": "Titouan Droguet",
+          "b": "Felix Auger Aliassime",
+          "a_seed": "Q",
+          "b_seed": "2",
+          "h2h": "0-1"
         }
       ],
       "completed": [
+        {
+          "round": "R128",
+          "winner": "Alex Michelsen",
+          "loser": "Jan Lennard Struff",
+          "score": "6-1 3-6 6-1"
+        },
+        {
+          "round": "R128",
+          "winner": "Gael Monfils",
+          "loser": "Kamil Majchrzak",
+          "score": "6-4 6-4"
+        },
+        {
+          "round": "R128",
+          "winner": "Vit Kopriva",
+          "loser": "Alexis Galarneau",
+          "score": "6-4 6-4"
+        },
         {
           "round": "R128",
           "winner": "Jaume Munar",
@@ -918,9 +936,81 @@
         },
         {
           "round": "R128",
+          "winner": "Corentin Moutet",
+          "loser": "Marton Fucsovics",
+          "score": "6-1 6-2"
+        },
+        {
+          "round": "R128",
+          "winner": "Nicolas Mejia",
+          "loser": "Martin Landaluce",
+          "score": "4-6 6-4 6-3"
+        },
+        {
+          "round": "R128",
+          "winner": "Mariano Navone",
+          "loser": "Matteo Berrettini",
+          "score": "6-3 6-7(5) 6-3"
+        },
+        {
+          "round": "R128",
+          "winner": "Cameron Norrie",
+          "loser": "Camilo Ugo Carabelli",
+          "score": "7-6(5) 6-4"
+        },
+        {
+          "round": "R128",
+          "winner": "James Duckworth",
+          "loser": "Christopher Oconnell",
+          "score": "6-3 6-1"
+        },
+        {
+          "round": "R128",
+          "winner": "Yannick Hanfmann",
+          "loser": "Benjamin Bonzi",
+          "score": "6-1 4-6 6-2"
+        },
+        {
+          "round": "R128",
+          "winner": "Nuno Borges",
+          "loser": "Aleksandar Kovacevic",
+          "score": "6-7(7) 6-2 6-4"
+        },
+        {
+          "round": "R128",
+          "winner": "Gabriel Diallo",
+          "loser": "Kyrian Jacquet",
+          "score": "6-7(1) 6-3 6-2"
+        },
+        {
+          "round": "R128",
           "winner": "Juncheng Shang",
           "loser": "Adolfo Daniel Vallejo",
           "score": "6-3 6-3"
+        },
+        {
+          "round": "R128",
+          "winner": "Marin Cilic",
+          "loser": "Sho Shimabukuro",
+          "score": "7-6(2) 6-1"
+        },
+        {
+          "round": "R128",
+          "winner": "Miomir Kecmanovic",
+          "loser": "Michael Zheng",
+          "score": "6-4 4-6 7-6(5)"
+        },
+        {
+          "round": "R128",
+          "winner": "Daniel Altmaier",
+          "loser": "Aleksandar Vukic",
+          "score": "6-7(2) 7-6(5) 6-4"
+        },
+        {
+          "round": "R128",
+          "winner": "Titouan Droguet",
+          "loser": "Luca Van Assche",
+          "score": "6-4 2-6 7-6(7)"
         }
       ]
     }
