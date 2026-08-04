@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-03T23:11:19Z",
+  "fetched_at": "2026-08-04T03:27:18Z",
   "events": [
     {
       "slug": "2026WTAMontreal",
@@ -692,55 +692,6 @@
           "h2h": "0-1"
         },
         {
-          "a": "Victoria Jimenez Kasintseva",
-          "b": "Alycia Parks",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": "0-2"
-        },
-        {
-          "a": "Tereza Valentova",
-          "b": "Taylor Townsend",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Solana Sierra",
-          "b": "Sloane Stephens",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Rebecca Marino",
-          "b": "Zeynep Sonmez",
-          "a_seed": "WC",
-          "b_seed": null,
-          "h2h": null
-        },
-        {
-          "a": "Renata Zarazua",
-          "b": "Tamara Korpatsch",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
-          "a": "Panna Udvardy",
-          "b": "Eva Lys",
-          "a_seed": null,
-          "b_seed": null,
-          "h2h": "1-1"
-        },
-        {
-          "a": "Yuliia Starodubtseva",
-          "b": "Maya Joint",
-          "a_seed": "Q",
-          "b_seed": null,
-          "h2h": "1-0"
-        },
-        {
           "a": "Xin Yu Wang",
           "b": "Daria Kasatkina",
           "a_seed": null,
@@ -860,6 +811,27 @@
           "h2h": "0-1"
         },
         {
+          "a": "Alycia Parks",
+          "b": "Alexandra Eala",
+          "a_seed": "25",
+          "b_seed": null,
+          "h2h": "1-0"
+        },
+        {
+          "a": "Marie Bouzkova",
+          "b": "Taylor Townsend",
+          "a_seed": "21",
+          "b_seed": null,
+          "h2h": "2-2"
+        },
+        {
+          "a": "Sloane Stephens",
+          "b": "Belinda Bencic",
+          "a_seed": "Q",
+          "b_seed": "12",
+          "h2h": "2-0"
+        },
+        {
           "a": "Iva Jovic",
           "b": "Magda Linette",
           "a_seed": "13",
@@ -872,6 +844,13 @@
           "a_seed": "Q",
           "b_seed": "23",
           "h2h": null
+        },
+        {
+          "a": "Maria Sakkari",
+          "b": "Zeynep Sonmez",
+          "a_seed": "29",
+          "b_seed": null,
+          "h2h": "2-1"
         },
         {
           "a": "Kayla Day",
@@ -888,10 +867,31 @@
           "h2h": "1-0"
         },
         {
+          "a": "Renata Zarazua",
+          "b": "Leylah Fernandez",
+          "a_seed": "30",
+          "b_seed": null,
+          "h2h": "0-2"
+        },
+        {
           "a": "Elise Mertens",
           "b": "Anna Bondar",
           "a_seed": "20",
           "b_seed": null,
+          "h2h": "1-0"
+        },
+        {
+          "a": "Panna Udvardy",
+          "b": "Naomi Osaka",
+          "a_seed": "11",
+          "b_seed": null,
+          "h2h": null
+        },
+        {
+          "a": "Sorana Cirstea",
+          "b": "Maya Joint",
+          "a_seed": "14",
+          "b_seed": "Q",
           "h2h": "1-0"
         },
         {
@@ -1008,6 +1008,24 @@
         },
         {
           "round": "R1",
+          "winner": "Alycia Parks",
+          "loser": "Victoria Jimenez Kasintseva",
+          "score": "64 64"
+        },
+        {
+          "round": "R1",
+          "winner": "Taylor Townsend",
+          "loser": "Tereza Valentova",
+          "score": "64 75"
+        },
+        {
+          "round": "R1",
+          "winner": "Sloane Stephens",
+          "loser": "Solana Sierra",
+          "score": "63 64"
+        },
+        {
+          "round": "R1",
           "winner": "Magda Linette",
           "loser": "Carol Zhao",
           "score": "46 61 64"
@@ -1017,6 +1035,12 @@
           "winner": "Alina Korneeva",
           "loser": "Polina Kudermetova",
           "score": ""
+        },
+        {
+          "round": "R1",
+          "winner": "Zeynep Sonmez",
+          "loser": "Rebecca Marino",
+          "score": "75 64"
         },
         {
           "round": "R1",
@@ -1032,9 +1056,27 @@
         },
         {
           "round": "R1",
+          "winner": "Renata Zarazua",
+          "loser": "Tamara Korpatsch",
+          "score": "64 06 61"
+        },
+        {
+          "round": "R1",
           "winner": "Anna Bondar",
           "loser": "Anhelina Kalinina",
           "score": "64 75"
+        },
+        {
+          "round": "R1",
+          "winner": "Panna Udvardy",
+          "loser": "Eva Lys",
+          "score": ""
+        },
+        {
+          "round": "R1",
+          "winner": "Maya Joint",
+          "loser": "Yuliia Starodubtseva",
+          "score": "46 61 63"
         },
         {
           "round": "R1",
