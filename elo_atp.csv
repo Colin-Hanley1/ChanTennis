@@ -1,550 +1,553 @@
 player,elo,hElo,cElo,gElo
-Jannik Sinner,2331.9,2269.3,2221.8,2135.5
-Carlos Alcaraz,2151.8,2078.3,2091.6,2019.2
-Alexander Zverev,2114.5,2048.9,2058.5,1957.4
-Novak Djokovic,2075.5,2029.8,1967.4,1946.2
-Rafael Jodar,2000.9,1903.1,1950.0,1729.7
-Arthur Fils,1993.8,1924.6,1941.6,1783.1
-Felix Auger Aliassime,1972.8,1939.6,1871.4,1819.4
-Daniil Medvedev,1971.3,1959.3,1885.9,1849.6
-Taylor Fritz,1965.9,1892.9,1789.3,1889.8
-Casper Ruud,1959.8,1877.0,1954.0,1692.0
-Alex De Minaur,1956.5,1929.7,1867.1,1838.1
-Ben Shelton,1936.3,1907.3,1833.0,1832.3
-Tommy Paul,1929.4,1863.8,1876.0,1788.2
-Joao Fonseca,1918.4,1909.1,1851.7,1707.9
-Jiri Lehecka,1913.9,1866.0,1821.7,1803.9
-Jakub Mensik,1902.0,1868.6,1846.5,1701.2
-Frances Tiafoe,1901.9,1845.6,1819.4,1809.8
-Andrey Rublev,1901.6,1848.3,1881.5,1765.8
-Francisco Cerundolo,1901.3,1855.7,1853.5,1744.1
-Flavio Cobolli,1898.2,1810.6,1853.0,1779.0
-Learner Tien,1896.7,1868.0,1799.2,1689.0
+Jannik Sinner,2321.9,2259.3,2211.8,2125.5
+Carlos Alcaraz,2146.8,2073.3,2086.6,2014.2
+Alexander Zverev,2099.9,2033.5,2051.2,1950.1
+Rafael Jodar,2024.5,1939.9,1961.9,1741.5
+Arthur Fils,2000.9,1933.1,1945.2,1786.6
+Ben Shelton,1997.7,1971.9,1863.8,1863.1
+Novak Djokovic,1975.5,1929.8,1867.4,1846.2
+Daniil Medvedev,1957.2,1944.0,1878.9,1842.5
+Casper Ruud,1954.9,1872.9,1951.5,1689.5
+Taylor Fritz,1952.0,1877.5,1782.4,1882.9
+Alex De Minaur,1946.3,1918.3,1862.0,1833.0
+Joao Fonseca,1934.2,1919.7,1859.6,1715.8
+Learner Tien,1933.3,1901.5,1817.5,1707.4
+Tommy Paul,1922.5,1857.7,1872.5,1784.7
+Jiri Lehecka,1921.4,1870.4,1825.4,1807.7
+Jakub Mensik,1914.5,1882.2,1852.7,1707.5
+Brandon Nakashima,1898.4,1853.8,1764.6,1776.9
+Frances Tiafoe,1896.1,1840.7,1816.5,1806.9
 Alejandro Davidovich Fokina,1895.2,1843.4,1810.8,1791.4
 Alexander Bublik,1893.8,1839.0,1825.9,1815.6
-Alexander Blockx,1884.3,1782.5,1846.4,1678.4
-Raphael Collignon,1883.0,1831.6,1815.6,1679.6
-Valentin Vacherot,1875.1,1838.5,1766.8,1591.5
-Lorenzo Musetti,1869.9,1804.9,1850.7,1748.5
+Andrey Rublev,1889.2,1834.7,1875.3,1759.6
+Francisco Cerundolo,1888.6,1841.2,1847.1,1737.7
+Flavio Cobolli,1883.7,1794.0,1845.8,1771.7
+Felix Auger Aliassime,1872.8,1839.6,1771.4,1719.4
+Alexander Blockx,1870.4,1770.2,1839.4,1671.4
 Tomas Machac,1865.9,1829.3,1782.8,1705.9
-Stefanos Tsitsipas,1863.5,1814.2,1874.5,1692.4
-Brandon Nakashima,1857.1,1814.0,1744.0,1756.2
-Ugo Humbert,1849.3,1830.2,1722.9,1746.4
-Matteo Berrettini,1840.2,1801.8,1794.4,1746.1
-Alex Michelsen,1837.3,1829.9,1700.5,1706.1
+Lorenzo Musetti,1865.3,1797.0,1848.4,1746.2
+Stefanos Tsitsipas,1862.8,1815.1,1874.2,1692.1
+Raphael Collignon,1861.9,1807.1,1805.1,1669.1
+Valentin Vacherot,1857.2,1814.9,1757.9,1582.6
+Alex Michelsen,1847.9,1834.2,1705.8,1711.4
+Daniel Merida Aguilar,1847.6,1784.8,1781.0,1620.2
+Luciano Darderi,1842.4,1716.9,1843.1,1625.3
+Cameron Norrie,1841.8,1806.4,1794.1,1706.1
+Ugo Humbert,1837.7,1815.7,1717.1,1740.6
 Dino Prizmic,1830.8,1728.2,1792.6,1614.1
-Luciano Darderi,1824.5,1664.7,1834.2,1616.4
-Jack Draper,1822.3,1782.5,1696.6,1704.0
-Hubert Hurkacz,1821.6,1738.2,1773.9,1730.1
-Hamad Medjedovic,1821.5,1734.6,1806.8,1638.3
-Cameron Norrie,1817.8,1786.3,1782.2,1694.1
-Karen Khachanov,1815.9,1767.8,1781.1,1722.8
-Alejandro Tabilo,1813.5,1769.5,1764.4,1659.4
+Matteo Berrettini,1828.1,1785.8,1788.4,1740.1
+Hubert Hurkacz,1826.2,1748.3,1776.3,1732.5
+Mariano Navone,1817.5,1723.9,1784.7,1557.1
 Arthur Fery,1812.5,1730.4,1616.4,1722.0
-Zizou Bergs,1808.4,1751.1,1696.7,1720.1
-Kamil Majchrzak,1806.4,1746.3,1726.3,1749.4
+Zizou Bergs,1811.3,1755.6,1698.1,1721.6
+Hamad Medjedovic,1806.1,1714.6,1799.1,1630.7
+Gael Monfils,1805.3,1784.3,1685.9,1652.8
+Thanasi Kokkinakis,1805.3,1777.8,1728.5,1587.3
+Karen Khachanov,1804.5,1755.9,1775.4,1717.0
 Roman Safiullin,1804.1,1730.7,1781.3,1720.9
-Gael Monfils,1803.3,1783.5,1684.9,1651.8
-Ignacio Buse,1801.5,1651.4,1772.3,1627.8
-Daniel Merida Aguilar,1798.1,1702.8,1756.3,1595.4
-Marin Cilic,1796.4,1759.5,1699.2,1746.0
+Alejandro Tabilo,1803.2,1755.2,1759.2,1654.3
+Yannick Hanfmann,1798.8,1738.4,1754.5,1655.9
+Jack Draper,1797.3,1756.1,1684.1,1691.5
 Eliot Spizzirri,1796.1,1765.0,1584.1,1630.0
+Kamil Majchrzak,1795.9,1735.6,1721.0,1744.1
+Marin Cilic,1795.6,1757.6,1698.8,1745.6
+Juan Manuel Cerundolo,1794.7,1671.7,1766.5,1566.6
 Ethan Quinn,1794.3,1762.3,1683.3,1695.9
-Mariano Navone,1793.7,1678.6,1772.8,1545.2
+Tallon Griekspoor,1793.6,1782.5,1727.9,1702.7
 Arthur Cazaux,1792.9,1737.6,1702.8,1658.7
-Pablo Carreno Busta,1790.3,1738.9,1752.3,1598.0
-Juan Manuel Cerundolo,1788.8,1656.7,1763.6,1563.6
-Yannick Hanfmann,1788.0,1724.3,1749.2,1650.5
-Matteo Arnaldi,1786.8,1704.6,1796.3,1593.9
-Fabian Marozsan,1786.5,1747.8,1716.8,1654.8
-Tomas Martin Etcheverry,1786.0,1743.8,1751.7,1553.4
+Arthur Rinderknech,1790.4,1760.7,1711.9,1674.3
+Nuno Borges,1789.5,1736.3,1732.6,1667.1
+Matteo Arnaldi,1786.7,1709.9,1796.3,1593.9
+Ignacio Buse,1786.5,1638.1,1764.8,1620.3
 Sebastian Korda,1783.6,1740.0,1644.9,1654.0
-Alex Molcan,1783.0,1672.9,1749.8,1651.4
-Denis Shapovalov,1781.5,1787.4,1681.5,1625.4
+Fabian Marozsan,1779.3,1735.8,1713.2,1651.2
+Pablo Carreno Busta,1778.3,1724.5,1746.3,1592.0
 Quentin Halys,1775.8,1711.3,1751.5,1640.8
-Arthur Rinderknech,1773.8,1744.5,1703.6,1665.9
+Thiago Agustin Tirante,1775.7,1684.2,1742.4,1569.0
+Tomas Martin Etcheverry,1774.7,1728.1,1746.1,1547.7
+Jaume Munar,1772.6,1752.0,1699.5,1632.5
 Jordan Thompson,1772.4,1732.6,1604.6,1708.7
-Jaime Faria,1770.7,1632.9,1733.0,1692.3
-Marton Fucsovics,1770.5,1726.4,1693.3,1704.1
-Nuno Borges,1768.2,1713.7,1721.9,1656.4
-Jaume Munar,1764.0,1742.1,1695.2,1628.2
-Tallon Griekspoor,1763.8,1755.1,1712.9,1687.7
-Sebastian Baez,1763.3,1710.8,1730.0,1539.5
-Michael Zheng,1762.5,1709.5,1609.9,1665.2
-Luca Van Assche,1758.5,1710.1,1719.5,1575.6
+Denis Shapovalov,1769.1,1772.8,1675.3,1619.2
+Titouan Droguet,1766.2,1695.8,1725.7,1640.1
+Alex Molcan,1763.8,1663.3,1729.0,1641.8
+Sebastian Baez,1763.0,1710.6,1729.8,1539.3
+Marton Fucsovics,1760.5,1716.2,1688.3,1699.1
+Botic Van De Zandschulp,1759.8,1737.4,1689.9,1601.6
+Michael Zheng,1758.2,1706.2,1607.8,1663.1
 Grigor Dimitrov,1758.1,1742.9,1656.4,1681.2
 Holger Rune,1756.9,1724.5,1728.7,1628.4
-Soon Woo Kwon,1755.9,1716.8,1631.1,1647.6
-Miomir Kecmanovic,1753.5,1701.5,1714.8,1630.5
+Miomir Kecmanovic,1754.6,1703.5,1715.4,1631.0
+Juncheng Shang,1752.7,1696.0,1643.7,1654.2
+Jacob Fearnley,1751.4,1690.5,1674.0,1691.7
 Toby Samuel,1750.2,1739.1,1637.8,1579.3
-Thiago Agustin Tirante,1750.0,1640.6,1729.6,1556.1
 Reilly Opelka,1748.9,1733.8,1644.0,1634.6
+Alexei Popyrin,1747.2,1686.3,1729.6,1583.1
 Arthur Gea,1746.4,1759.9,1595.9,1608.6
+Luca Van Assche,1745.7,1694.4,1713.1,1569.2
+Soon Woo Kwon,1742.8,1703.4,1624.5,1641.0
 Jan Choinski,1740.3,1598.4,1709.1,1577.5
-Camilo Ugo Carabelli,1740.2,1632.0,1725.3,1471.7
-Titouan Droguet,1739.0,1661.0,1712.0,1626.5
-Jan Lennard Struff,1738.9,1656.5,1683.6,1688.5
-Roman Andres Burruchaga,1737.9,1558.1,1717.8,1557.8
-Lorenzo Sonego,1735.1,1709.4,1644.4,1650.7
-Jacob Fearnley,1732.9,1665.7,1664.7,1682.4
-Daniel Altmaier,1730.5,1649.8,1695.5,1595.7
-Benjamin Bonzi,1730.0,1699.7,1612.1,1654.2
-Juncheng Shang,1729.0,1681.3,1631.8,1642.4
-Jenson Brooksby,1726.0,1699.9,1623.2,1668.1
-Marcos Giron,1725.1,1701.3,1607.4,1642.9
-Giovanni Mpetshi Perricard,1725.0,1665.5,1666.4,1636.1
-Botic Van De Zandschulp,1724.2,1701.1,1672.1,1583.8
-Corentin Moutet,1722.7,1708.3,1681.1,1621.8
-Rinky Hijikata,1722.7,1677.0,1564.8,1648.6
+Terence Atmane,1735.9,1708.3,1644.1,1555.9
+Jaime Faria,1735.2,1599.1,1715.3,1674.5
+Jenson Brooksby,1733.1,1706.7,1626.7,1671.7
+Jan Lennard Struff,1733.0,1651.6,1680.7,1685.6
+Daniel Altmaier,1732.4,1655.9,1696.5,1596.6
+Camilo Ugo Carabelli,1731.3,1622.5,1720.9,1467.3
+Corentin Moutet,1730.9,1714.0,1685.1,1625.9
+Benjamin Bonzi,1728.6,1694.2,1611.4,1653.5
+Marcos Giron,1726.3,1698.1,1608.0,1643.5
+Lorenzo Sonego,1726.0,1699.6,1639.8,1646.1
+Roman Andres Burruchaga,1725.1,1545.5,1711.5,1551.4
 Nishesh Basavareddy,1721.5,1680.5,1634.2,1544.1
-Kei Nishikori,1720.3,1685.2,1612.7,1594.3
-Mattia Bellucci,1720.3,1677.8,1609.8,1656.5
-Alexei Popyrin,1717.7,1658.0,1714.9,1568.3
+Jan Kumstat,1719.2,1487.1,1709.5,1559.6
+Zachary Svajda,1718.9,1679.3,1589.5,1671.9
+Martin Damm,1715.6,1667.8,1540.0,1647.3
 Facundo Diaz Acosta,1715.3,1550.5,1701.9,1482.3
-Martin Damm,1713.8,1667.1,1539.1,1646.3
-Adam Walton,1713.0,1670.7,1548.0,1619.3
-Vit Kopriva,1710.0,1655.4,1675.0,1581.6
-Terence Atmane,1708.0,1680.0,1630.1,1542.0
-Zachary Svajda,1707.4,1666.2,1583.7,1666.2
+Kei Nishikori,1712.8,1676.6,1608.9,1590.6
+Vit Kopriva,1712.5,1659.1,1676.3,1582.9
+Rinky Hijikata,1711.9,1666.4,1559.4,1643.2
+Giovanni Mpetshi Perricard,1710.6,1651.3,1659.2,1628.8
+Mattia Bellucci,1708.7,1664.8,1604.0,1650.7
 Otto Virtanen,1707.1,1674.8,1562.4,1696.4
-Adolfo Daniel Vallejo,1702.6,1501.0,1682.9,1540.1
-Zsombor Piros,1701.3,1649.4,1676.0,1570.7
-Martin Landaluce,1699.5,1661.9,1640.8,1598.4
-Gabriel Diallo,1699.5,1659.3,1620.8,1630.9
+Gabriel Diallo,1704.0,1659.6,1623.1,1633.1
+Adam Walton,1703.5,1661.8,1543.2,1614.6
 Yibing Wu,1699.3,1708.2,1648.4,1479.1
 Jesper De Jong,1698.0,1600.6,1675.0,1545.7
 Roberto Bautista Agut,1696.9,1666.5,1638.0,1645.6
 Laslo Djere,1696.8,1612.9,1703.6,1565.9
 Emilio Nava,1695.6,1616.9,1681.8,1538.2
 Leandro Riedi,1693.1,1675.3,1598.6,1625.8
-Kyrian Jacquet,1691.6,1666.2,1592.0,1663.2
-Sebastian Ofner,1691.0,1643.6,1651.7,1623.0
+Zsombor Piros,1691.6,1644.6,1665.7,1565.8
+Kyrian Jacquet,1690.8,1664.0,1591.6,1662.9
 Bu Yunchaokete,1690.8,1645.5,1599.3,1595.7
+Lloyd Harris,1690.0,1663.9,1578.5,1620.2
 Yoshihito Nishioka,1688.7,1659.2,1618.3,1539.9
+Adolfo Daniel Vallejo,1688.3,1489.6,1675.8,1533.0
 Andrea Vavassori,1688.1,1655.0,1642.3,1538.1
 Jason Kubler,1684.5,1635.3,1615.7,1679.3
-Adrian Mannarino,1683.3,1657.2,1492.7,1651.8
-Alexander Shevchenko,1681.1,1648.6,1641.5,1465.2
-Pablo Llamas Ruiz,1680.6,1564.9,1694.0,1541.3
-Aleksandar Vukic,1672.5,1652.3,1536.7,1583.3
-Hugo Gaston,1671.1,1652.6,1621.6,1578.1
+Sebastian Ofner,1681.9,1631.8,1647.1,1618.5
+Martin Landaluce,1678.9,1635.8,1630.5,1588.1
+Adrian Mannarino,1677.2,1649.7,1489.6,1648.7
+Aleksandar Vukic,1670.9,1647.9,1535.9,1582.5
+Alexander Shevchenko,1669.2,1635.0,1635.6,1459.2
 Francisco Comesana,1667.4,1628.1,1639.7,1524.9
+Pablo Llamas Ruiz,1667.0,1552.7,1687.1,1534.5
 Cristian Garin,1666.9,1572.1,1658.7,1617.3
-Borna Gojo,1663.2,1644.2,1632.1,1474.8
-Lloyd Harris,1662.5,1638.4,1564.7,1606.5
+Valentin Royer,1662.3,1605.7,1618.7,1588.2
 Stan Wawrinka,1661.4,1655.5,1597.3,1574.8
+Christopher Oconnell,1657.1,1634.6,1561.1,1608.7
+Tom Gentzsch,1657.1,1538.0,1647.0,1525.7
 Gustavo Heide,1656.4,1516.3,1642.2,1497.8
 Chris Rodesch,1656.3,1662.4,1557.4,1560.1
 Kilian Feldbausch,1655.9,1420.8,1635.2,1528.0
-Christopher Oconnell,1654.6,1636.8,1559.8,1607.4
 David Goffin,1654.1,1620.1,1631.9,1626.7
-Diego Dedura Palomero,1654.0,1402.5,1634.8,1489.9
-Damir Dzumhur,1651.0,1602.0,1616.6,1546.5
+Hugo Gaston,1652.5,1630.6,1612.2,1568.8
 Patrick Kypson,1648.4,1615.1,1558.7,1517.5
 Nicolas Jarry,1648.3,1573.5,1641.5,1635.2
-Dalibor Svrcina,1648.0,1639.1,1575.1,1478.9
-Valentin Royer,1647.6,1588.4,1611.4,1580.9
-Alexandre Muller,1644.9,1620.5,1610.3,1500.0
-Sho Shimabukuro,1641.8,1581.6,1494.5,1617.9
-James Duckworth,1636.3,1596.1,1576.7,1552.5
-Marco Trungelliti,1636.2,1500.8,1628.1,1474.0
+Sho Shimabukuro,1645.0,1587.9,1496.1,1619.5
+James Duckworth,1643.3,1604.2,1580.2,1556.0
+Jerome Kym,1640.9,1612.4,1590.1,1560.3
+Damir Dzumhur,1640.4,1591.1,1611.3,1541.2
+Dalibor Svrcina,1638.7,1624.5,1570.4,1474.2
 Andrea Pellegrino,1633.9,1401.9,1616.6,1441.8
 Mark Lajal,1632.8,1612.5,1507.0,1530.1
 Stefanos Sakellaridis,1632.0,1566.7,1612.3,1558.7
-Dhakshineswar Suresh,1631.1,1596.2,1425.6,1515.6
-Tristan Boyer,1630.2,1575.3,1579.1,1517.2
-Hugo Dellien,1628.8,1481.4,1617.3,1466.9
-Henry Searle,1627.8,1462.2,1432.0,1647.3
-Vilius Gaubas,1626.7,1582.4,1573.4,1601.1
+Alexandre Muller,1631.4,1613.7,1596.1,1493.3
+Borna Gojo,1631.3,1612.3,1616.1,1458.9
+Marco Trungelliti,1625.4,1487.7,1622.7,1468.6
 Giulio Zeppieri,1621.9,1589.0,1565.7,1578.9
-Aleksandar Kovacevic,1621.5,1599.9,1555.7,1459.0
+Hugo Dellien,1621.9,1474.6,1613.8,1463.4
 Coleman Wong,1620.2,1612.3,1475.7,1465.8
-Henrique Rocha,1617.7,1545.3,1614.1,1468.9
-Jerome Kym,1617.2,1600.5,1552.9,1548.5
+Dhakshineswar Suresh,1619.4,1587.0,1419.7,1509.7
 Nikoloz Basilashvili,1615.8,1580.5,1573.5,1565.2
 Zhizhen Zhang,1615.6,1580.3,1600.1,1591.2
+Aleksandar Kovacevic,1614.2,1591.1,1552.1,1455.4
+Dusan Lajovic,1613.9,1558.4,1579.7,1505.6
 Jurij Rodionov,1610.3,1571.0,1565.7,1568.6
-Alexis Galarneau,1607.2,1556.7,1491.8,1573.7
+Diego Dedura Palomero,1609.5,1380.2,1587.1,1467.7
+Tristan Boyer,1607.8,1551.3,1567.9,1506.0
 Mackenzie Mcdonald,1606.6,1597.6,1473.9,1547.8
+Henrique Rocha,1606.4,1532.2,1608.4,1463.3
 Oliver Tarvet,1606.3,1518.5,1553.1,1604.3
 J J Wolf,1606.2,1586.3,1515.6,1538.7
 Emil Ruusuvuori,1606.1,1576.8,1558.3,1576.4
-Liam Draxl,1605.2,1584.3,1505.6,1448.0
-Jan Kumstat,1604.5,1429.7,1588.2,1502.2
-Dusan Lajovic,1604.3,1541.5,1574.9,1500.8
+Vilius Gaubas,1604.8,1571.4,1552.1,1590.1
+Rei Sakamoto,1601.9,1583.5,1514.7,1505.1
 Lukas Klein,1601.1,1535.1,1623.9,1557.2
+Carlos Taberner,1600.0,1439.8,1591.7,1428.2
 Taro Daniel,1599.7,1528.1,1577.5,1497.5
-Carlos Taberner,1595.1,1437.4,1588.6,1425.8
+Alexis Galarneau,1598.4,1547.5,1487.5,1569.3
+Liam Draxl,1597.7,1573.2,1501.9,1444.2
+Andre Ilagan,1596.4,1571.9,1408.2,1485.5
+Marco Cecchinato,1593.7,1455.1,1570.0,1437.9
+Marvin Moeller,1593.2,1463.4,1583.6,1546.6
 Roberto Carballes Baena,1592.4,1572.6,1574.7,1489.8
-Marco Cecchinato,1592.3,1454.4,1568.0,1437.2
-Michael Mmoh,1590.6,1581.1,1497.0,1476.6
 Filip Misolic,1587.2,1469.3,1663.9,1531.3
-Rei Sakamoto,1586.4,1565.7,1507.0,1497.4
 Daniel Evans,1586.1,1560.9,1498.3,1577.1
-Nicolai Budkov Kjaer,1586.0,1580.8,1537.9,1505.3
-Federico Cina,1585.3,1560.8,1547.6,1490.3
+Nicolas Mejia,1584.7,1486.1,1568.6,1565.7
 Pavel Kotov,1582.2,1593.6,1512.4,1495.1
 Clement Tabur,1582.0,1560.4,1529.4,1520.6
-Max Alcala Gurri,1581.2,1387.9,1563.7,1490.6
-Daniel Rincon,1577.2,1541.6,1539.5,1398.9
-Shintaro Mochizuki,1575.3,1493.0,1482.8,1618.1
+Andrea Guerrieri,1580.3,1498.1,1523.9,1516.2
+Shintaro Mochizuki,1578.8,1499.5,1484.5,1619.9
+Michael Mmoh,1577.1,1567.5,1490.3,1469.9
+Guy Den Ouden,1576.8,1379.3,1566.9,1431.2
 Pedro Martinez,1574.8,1549.6,1552.7,1444.5
-Florian Broska,1573.9,1435.6,1545.9,1487.0
-Alex Bolt,1573.7,1533.9,1410.8,1549.6
+Henry Searle,1574.6,1422.4,1405.4,1620.7
 Luca Nardi,1573.4,1566.0,1520.0,1426.9
 Luka Mikrut,1573.3,1431.4,1606.6,1450.4
 Juan Carlos Prado Angelo,1572.3,1416.7,1556.9,1470.1
 Pierre Hugues Herbert,1571.4,1558.8,1497.8,1534.0
-Tomas Barrios Vera,1567.3,1528.5,1533.5,1538.0
-Jay Dylan Hara Friend,1564.8,1541.2,1387.3,1482.4
-Timofey Skatov,1564.5,1489.7,1540.6,1523.7
-Thiago Monteiro,1563.7,1530.6,1544.1,1468.6
-Stefano Travaglia,1562.5,1535.1,1521.0,1457.6
-Vitaliy Sachko,1560.8,1463.6,1533.1,1420.4
+Nicolai Budkov Kjaer,1570.7,1559.7,1530.3,1497.7
+Daniel Rincon,1567.0,1536.5,1529.1,1393.8
+Edas Butvilas,1560.8,1551.3,1469.2,1436.5
 Thiago Seyboth Wild,1560.1,1530.1,1541.3,1492.2
+Tomas Barrios Vera,1559.7,1518.4,1529.7,1534.2
+Alex Bolt,1559.5,1520.1,1403.7,1542.5
 Kimmer Coppejans,1558.1,1473.0,1532.2,1474.0
+Elmer Moller,1558.1,1458.5,1538.9,1508.1
 Nicolas Moreno De Alboran,1556.6,1548.0,1517.6,1461.8
-Nicolas Mejia,1556.6,1453.3,1554.5,1551.7
 Cedrik Marcel Stebe,1556.4,1523.2,1544.9,1463.3
-Lukas Neumayer,1556.0,1447.8,1534.6,1409.5
-Colton Smith,1554.9,1525.3,1464.7,1532.7
-Elmer Moller,1553.5,1456.2,1533.9,1505.8
-Liam Broady,1553.0,1530.1,1469.9,1498.6
+Joel Schwaerzler,1555.7,1540.9,1493.8,1460.1
+Federico Cina,1555.1,1526.4,1532.5,1475.2
+Thiago Monteiro,1554.3,1526.0,1534.3,1464.0
+Maxim Mrva,1553.7,1530.2,1528.1,1526.9
+Jay Dylan Hara Friend,1553.6,1530.3,1381.6,1476.8
 Lautaro Midon,1552.6,1464.6,1535.8,1443.3
+Dylan Dietrich,1552.4,1445.1,1515.0,1476.2
 Mikhail Kukushkin,1551.6,1525.7,1518.4,1510.3
 Dominic Stricker,1550.5,1517.4,1501.6,1538.7
-Guy Den Ouden,1550.5,1366.1,1543.7,1418.0
-Gauthier Onclin,1549.2,1543.1,1493.0,1495.7
-Andrea Guerrieri,1549.2,1395.6,1508.4,1500.6
+Lukas Neumayer,1550.3,1445.0,1527.7,1406.7
+Bernard Tomic,1550.1,1519.5,1458.0,1528.0
 Yosuke Watanuki,1547.5,1530.9,1483.0,1540.6
-Alejandro Moro Canas,1546.8,1522.2,1493.7,1515.9
-Dylan Dietrich,1546.3,1442.1,1500.7,1473.2
+Timofey Skatov,1546.7,1480.7,1521.7,1514.8
+Tristan Schoolkate,1546.1,1508.1,1457.4,1535.8
 Mili Poljicak,1545.6,1333.9,1520.0,1437.0
-Bernard Tomic,1543.0,1511.5,1454.5,1524.5
-Marvin Moeller,1543.0,1438.3,1534.7,1521.5
+Vitaliy Sachko,1543.4,1454.9,1513.4,1411.7
 Giles Hussey,1542.8,1476.5,1381.4,1491.9
-Francesco Passaro,1542.6,1536.7,1520.3,1427.7
+Jack Pinnington Jones,1542.4,1525.4,1426.0,1518.2
 August Holmgren,1541.8,1506.4,1480.7,1536.6
-Jack Pinnington Jones,1541.7,1534.4,1425.6,1517.9
-Tom Gentzsch,1541.6,1480.2,1521.8,1468.0
-Tristan Schoolkate,1541.1,1500.6,1454.9,1533.3
 Luka Pavlovic,1541.0,1526.6,1470.9,1506.1
 Pol Martin Tiffon,1540.6,1534.5,1482.9,1451.5
-Sumit Nagal,1539.9,1474.4,1527.6,1402.4
 Marc Andrea Huesler,1539.7,1507.4,1520.1,1475.0
-Elias Ymer,1539.3,1514.9,1487.7,1500.2
+Max Alcala Gurri,1539.2,1366.9,1521.8,1469.6
+Harold Mayot,1538.6,1533.9,1501.3,1484.1
+Gauthier Onclin,1538.4,1527.8,1487.6,1490.3
 Hynek Barton,1538.4,1493.5,1509.6,1469.2
+Stefano Travaglia,1537.8,1522.7,1494.7,1445.2
+Hayato Matsuoka,1537.5,1514.0,1378.7,1451.2
+Francesco Passaro,1536.8,1533.8,1514.7,1424.8
 Brandon Holt,1536.8,1507.1,1353.7,1507.0
 Braden Shick,1535.3,1526.0,1394.6,1447.1
-Harold Mayot,1534.8,1530.0,1499.3,1482.2
-Ilya Ivashka,1532.8,1503.6,1554.1,1513.9
-Nikolas Sanchez Izquierdo,1532.3,1317.0,1505.8,1440.6
+Harry Wendelken,1532.0,1536.4,1339.4,1446.5
+Alejandro Moro Canas,1532.0,1509.1,1486.3,1508.5
+Matej Dodig,1531.8,1442.1,1504.9,1465.0
+Elias Ymer,1531.4,1505.6,1483.7,1496.3
 Hugo Grenier,1531.1,1508.7,1401.7,1440.1
+Florian Broska,1530.8,1414.0,1501.1,1465.4
+Henri Squire,1530.7,1469.1,1504.8,1369.5
 Trevor Svajda,1530.6,1500.1,1375.3,1465.3
-Chun Hsin Tseng,1529.7,1482.8,1518.4,1375.9
+Liam Broady,1530.3,1506.0,1458.6,1487.3
+Daniel Milavsky,1530.3,1492.9,1358.4,1491.0
 Alexander Ritschard,1528.0,1454.4,1557.1,1469.4
 Jack Kennedy,1527.3,1409.9,1529.0,1463.6
-Daniel Elahi Galan,1525.5,1494.8,1485.6,1489.7
-Matej Dodig,1523.5,1438.0,1496.8,1460.9
-Christopher Eubanks,1523.4,1493.0,1414.6,1524.2
+Sumit Nagal,1527.2,1468.0,1513.5,1396.1
+Ilya Ivashka,1526.2,1497.5,1550.8,1510.6
+Chun Hsin Tseng,1526.1,1481.0,1512.7,1374.1
+Nikolas Sanchez Izquierdo,1525.1,1313.4,1498.8,1437.0
+Matheus Pucinelli De Almeida,1524.9,1326.8,1511.3,1463.3
 Gianluca Cadenasso,1521.7,1370.9,1496.8,1430.3
-Ugo Blanchet,1521.3,1546.1,1440.0,1404.4
 Gonzalo Bueno,1521.3,1329.3,1506.6,1428.6
 Billy Harris,1520.7,1465.0,1369.4,1546.2
 Clement Chidekh,1519.5,1522.1,1366.5,1494.0
-Henri Squire,1518.9,1463.2,1490.9,1363.6
-Harry Wendelken,1516.7,1528.6,1331.7,1438.8
-Federico Agustin Gomez,1514.8,1437.5,1493.5,1433.4
 Rodrigo Pacheco Mendez,1514.7,1492.0,1445.5,1457.3
+Colton Smith,1514.5,1484.2,1444.6,1512.5
 Remy Bertola,1513.3,1456.1,1450.6,1499.2
-Felix Balshaw,1512.7,1378.3,1490.4,1456.3
-Max Hans Rehberg,1512.4,1491.1,1454.4,1389.1
+Daniel Elahi Galan,1511.9,1488.0,1472.8,1482.9
 Rio Noguchi,1510.3,1500.7,1297.0,1350.2
-Joel Schwaerzler,1507.5,1484.8,1469.7,1436.0
+Ugo Blanchet,1508.5,1529.1,1433.6,1398.0
+Federico Agustin Gomez,1508.4,1434.4,1485.4,1430.2
 Stefano Napolitano,1507.0,1446.0,1499.9,1458.4
-Petr Brunclik,1506.2,1449.5,1452.4,1453.1
+Max Hans Rehberg,1505.7,1487.8,1448.0,1385.8
 Cruz Hewitt,1505.5,1483.4,1362.8,1452.8
 Arthur Bouquier,1505.4,1482.0,1332.6,1440.2
-Andre Ilagan,1504.7,1478.6,1362.4,1439.7
 Federico Bondioli,1502.0,1304.1,1488.1,1412.3
 Francesco Maestrelli,1498.1,1530.9,1442.8,1363.1
-Felix Gill,1497.6,1502.9,1423.7,1411.4
 Federico Coria,1497.5,1429.4,1476.4,1375.4
 Nerman Fatic,1495.9,1417.1,1478.3,1466.2
+Max Houkes,1494.9,1322.1,1478.1,1384.1
+Ilia Simakin,1494.4,1525.0,1325.2,1447.2
+Andres Andrade,1493.6,1450.8,1468.2,1425.5
 Inaki Montes De La Torre,1493.4,1475.8,1445.0,1446.7
-Yu Hsiou Hsu,1492.5,1477.2,1408.7,1357.5
+Mees Rottgering,1492.5,1461.4,1451.0,1462.0
 Igor Ribeiro Marcondes,1492.5,1417.0,1488.5,1415.7
 Tiago Torres,1492.0,1410.0,1439.2,1446.0
-Maks Kasnikowski,1491.5,1414.4,1481.4,1495.8
+Petr Nesterov,1490.2,1447.6,1463.0,1445.1
+Felix Gill,1489.1,1483.7,1419.4,1407.2
 Martin Krumich,1489.1,1375.4,1455.9,1444.5
 Hyeon Chung,1488.4,1459.1,1525.7,1400.1
 Li Tu,1487.9,1471.1,1370.4,1516.4
+Marko Topo,1487.3,1485.3,1438.1,1452.9
 Timo Legout,1486.6,1484.4,1301.3,1443.3
-Matheus Pucinelli De Almeida,1485.6,1307.1,1473.8,1443.6
 Stefan Dostanic,1485.4,1491.5,1399.5,1442.7
 Darwin Blanch,1484.5,1422.5,1460.0,1456.1
-Dane Sweeny,1484.2,1441.9,1299.0,1466.0
-Max Schoenhaus,1484.1,1411.5,1451.4,1391.1
-Jamie Mackenzie,1483.5,1358.4,1492.7,1402.1
-Marko Topo,1481.9,1482.6,1429.0,1450.2
-Andres Andrade,1481.2,1427.4,1462.0,1419.3
+Maks Kasnikowski,1483.5,1411.9,1477.3,1491.7
+Gijs Brouwer,1481.6,1457.5,1412.3,1463.1
+Raul Brancaccio,1481.3,1416.3,1458.4,1389.8
 Juan Pablo Varillas,1481.0,1377.3,1466.8,1368.6
-Raul Brancaccio,1480.5,1415.9,1456.5,1389.4
 Moise Kouame,1479.3,1480.0,1360.1,1439.7
-David Jorda Sanchis,1478.5,1301.0,1474.5,1400.4
 Felipe Meligeni Alves,1476.8,1421.7,1468.6,1472.7
 Norbert Gombos,1476.5,1454.4,1459.6,1419.7
+Petr Brunclik,1474.7,1433.8,1421.0,1437.4
 Dali Blanch,1473.3,1253.7,1459.1,1436.6
-Zdenek Kolar,1472.1,1414.4,1451.7,1412.4
-Edward Winter,1471.4,1451.8,1345.7,1463.2
+Dane Sweeny,1472.5,1428.2,1293.2,1460.2
+Max Schoenhaus,1472.4,1405.6,1439.8,1385.2
+Felix Balshaw,1471.3,1340.8,1469.7,1435.7
 Jacopo Vasami,1470.9,1309.1,1437.1,1435.4
-Andrej Nedic,1470.7,1410.0,1452.9,1485.3
-Max Houkes,1470.4,1309.8,1457.4,1371.8
+Daniil Glinka,1470.4,1480.8,1427.0,1387.7
 Keegan Smith,1470.2,1430.7,1391.0,1432.0
-Enrico Dalla Valle,1468.9,1388.6,1445.7,1434.4
-James Mccabe,1467.9,1429.4,1292.5,1468.4
+Yu Hsiou Hsu,1468.0,1452.3,1396.5,1345.3
 Hamish Stewart,1467.7,1432.5,1343.9,1461.5
-Mees Rottgering,1467.0,1448.0,1438.3,1449.3
-Philip Henning,1465.2,1486.5,1387.0,1482.6
-Duje Ajdukovic,1464.0,1453.9,1438.4,1345.9
+Andrej Nedic,1467.2,1408.2,1450.9,1483.6
+Abedallah Shelbayh,1463.5,1458.2,1322.7,1457.9
 Andrej Martin,1463.4,1369.4,1437.3,1344.0
 Mitchell Krueger,1463.2,1437.4,1428.4,1424.8
 Yasutaka Uchiyama,1462.8,1430.7,1347.5,1417.4
+Zdenek Kolar,1462.3,1409.5,1440.9,1407.5
 Genaro Alberto Olivieri,1462.3,1340.3,1441.9,1331.6
 Oliver Crawford,1461.9,1446.3,1382.1,1450.2
 Johannus Monday,1461.9,1435.7,1341.0,1408.0
 Guido Ivan Justo,1461.2,1316.3,1443.3,1430.6
-Edas Butvilas,1459.9,1450.7,1418.8,1386.1
-Keegan Rice,1459.2,1439.5,1339.6,1429.6
-Sandro Kopp,1459.2,1339.9,1443.9,1429.6
+David Jorda Sanchis,1460.6,1288.4,1465.5,1391.4
+Lorenzo Giustino,1458.8,1445.0,1415.0,1325.4
 Christoph Negritu,1458.7,1423.4,1428.7,1429.3
+James Mccabe,1458.4,1418.7,1287.8,1463.7
 Calvin Hemery,1457.9,1396.7,1459.6,1381.1
 Javier Barranco Cosano,1457.4,1398.9,1441.3,1432.7
 Eliakim Coulibaly,1457.0,1456.6,1380.8,1428.5
-Petr Nesterov,1455.8,1430.4,1409.5,1427.9
-Beibit Zhukayev,1455.4,1401.7,1378.6,1509.7
-Nick Hardt,1455.1,1404.6,1440.0,1429.3
 Marat Sharipov,1454.8,1430.9,1410.8,1427.4
 Laurent Lokoli,1454.7,1406.7,1444.0,1460.7
 Mats Rosenkranz,1453.5,1424.3,1320.2,1398.4
 Charles Broom,1452.2,1436.4,1306.8,1407.6
 Franco Roncadelli,1452.2,1355.0,1440.1,1383.1
-Olle Wallin,1452.1,1354.2,1440.7,1426.1
-Maxim Mrva,1452.0,1479.4,1406.5,1476.0
-Abedallah Shelbayh,1451.8,1451.7,1316.8,1452.1
+Keegan Rice,1452.0,1431.1,1336.0,1426.0
 George Loffhagen,1451.8,1439.8,1301.0,1408.2
-Ilia Simakin,1451.6,1499.0,1303.8,1425.8
 Dimitar Kuzmanov,1451.2,1429.9,1410.0,1420.5
+Edward Winter,1451.0,1430.3,1335.5,1453.0
+Enrico Dalla Valle,1449.1,1378.7,1425.2,1424.5
 Marc Polmans,1449.0,1414.0,1400.0,1462.3
 Matias Soto,1447.2,1335.5,1438.8,1423.6
+Duje Ajdukovic,1446.9,1445.4,1420.3,1337.4
 Radu Albot,1446.8,1424.3,1433.8,1492.3
 Murphy Cassone,1445.8,1420.6,1327.0,1387.8
-Fajing Sun,1445.5,1423.3,1253.2,1401.7
+Nick Hardt,1445.1,1399.6,1428.9,1424.3
+Mathys Erhard,1444.4,1422.5,1388.1,1422.2
 Frederico Ferreira Silva,1444.1,1466.2,1393.2,1420.5
 Yuta Shimizu,1444.1,1416.0,1308.1,1428.7
+Fajing Sun,1444.0,1426.6,1252.4,1401.0
+Philip Henning,1442.5,1455.4,1375.6,1471.2
+Alex Barrena,1442.5,1289.4,1418.1,1392.8
 Sascha Gueymard Wayenburg,1442.2,1408.2,1408.9,1385.5
-Hayato Matsuoka,1441.9,1413.9,1330.9,1403.4
+Duncan Chan,1441.8,1404.4,1330.9,1420.9
 Paul Jubb,1441.5,1411.1,1345.9,1456.7
 Ryan Peniston,1441.0,1402.0,1356.5,1440.0
+Beibit Zhukayev,1440.8,1389.8,1371.3,1502.4
+Lucas Poullain,1439.9,1431.4,1297.8,1420.0
 Joao Lucas Reis Da Silva,1439.3,1336.0,1424.9,1383.3
-Lorenzo Giustino,1439.1,1435.1,1393.0,1315.6
+Paul Inchauspe,1439.0,1421.7,1329.5,1419.5
 Lilian Marmousez,1438.3,1389.6,1412.7,1419.2
 Benjamin Hassan,1438.3,1384.4,1446.2,1415.9
 Buvaysar Gadamauri,1437.9,1403.7,1398.6,1418.9
-Daniel Milavsky,1435.7,1398.4,1311.0,1443.7
-Kenta Miyoshi,1435.5,1411.6,1327.8,1417.8
-Hernan Casanova,1435.2,1283.9,1422.1,1386.8
-Daniil Glinka,1435.1,1450.8,1409.3,1370.1
 Mika Brunold,1434.9,1427.8,1378.9,1417.4
 Yi Zhou,1434.9,1409.9,1288.3,1463.6
+Kenta Miyoshi,1434.8,1412.8,1327.4,1417.4
+Nicolas Kicker,1432.9,1369.3,1419.1,1365.9
 Jason Jung,1431.5,1394.9,1364.3,1431.6
-Cezar Cretu,1431.1,1401.0,1400.8,1415.6
 Juan Manuel La Serna,1430.4,1355.7,1415.3,1415.2
 Jay Clarke,1430.3,1406.8,1383.1,1331.9
 Ivan Gakhov,1430.2,1386.6,1384.3,1386.6
-Oriol Roca Batalla,1429.3,1369.6,1404.6,1375.8
-Pedro Boscardin Dias,1426.6,1245.6,1398.5,1395.2
-Alex Martinez,1426.4,1369.0,1413.9,1413.2
+Jamie Mackenzie,1429.4,1331.4,1429.1,1375.0
+Aziz Dougaz,1426.1,1413.1,1383.1,1366.7
 Andrea Collarini,1426.0,1322.1,1410.9,1333.4
-Ognjen Milic,1425.4,1406.8,1414.8,1462.7
 Miguel Damas,1425.3,1342.4,1397.9,1412.7
-Alexander Vasilev,1421.6,1320.8,1373.8,1410.8
-Moez Echargui,1420.3,1392.6,1344.5,1421.4
-Franco Agamenone,1418.1,1328.7,1396.9,1338.0
+Sandro Kopp,1424.7,1322.7,1408.4,1412.4
+Oriol Roca Batalla,1420.7,1365.3,1397.1,1371.5
+Stefan Kozlov,1417.4,1389.9,1391.4,1408.5
 Henry Bernet,1416.6,1338.3,1402.5,1408.3
-Stefan Kozlov,1415.3,1386.1,1390.4,1407.4
-Filippo Romano,1414.5,1461.3,1318.0,1400.3
+Max Basing,1416.5,1324.0,1318.3,1493.0
+Juan Bautista Torres,1416.1,1310.1,1399.3,1408.0
+Cezar Cretu,1415.5,1393.2,1386.2,1407.7
+Olle Wallin,1414.0,1314.7,1411.3,1407.0
+Hernan Casanova,1413.7,1273.1,1400.3,1376.0
 Daniel Masur,1413.4,1382.5,1387.3,1402.2
-Bernabe Zapata Miralles,1413.1,1366.2,1407.4,1423.5
+Franco Agamenone,1412.9,1326.1,1391.8,1335.4
+Carlos Sanchez Jover,1412.7,1276.6,1394.9,1406.3
 Hady Habib,1411.6,1364.1,1435.4,1431.0
 Justin Engel,1411.4,1410.5,1317.8,1434.8
 Marek Gengel,1410.6,1377.3,1260.0,1364.9
 Blake Ellis,1409.3,1384.4,1314.6,1404.6
 Tibo Colson,1408.7,1351.6,1352.5,1404.4
-Andres Martin,1407.3,1398.7,1341.2,1453.7
-Daniel Michalski,1407.2,1411.9,1363.0,1453.6
 Matteo Martineau,1403.7,1408.9,1317.8,1384.1
-Petr Bar Biryukov,1403.0,1412.1,1319.6,1361.6
+Daniel Michalski,1403.5,1410.1,1361.7,1451.8
+Khumoun Sultanov,1403.5,1393.4,1283.0,1412.4
+Quinn Vandecasteele,1403.4,1387.6,1311.7,1362.2
+Moez Echargui,1403.4,1374.4,1336.1,1413.0
+Gabriele Piraino,1402.9,1276.4,1394.5,1401.4
 Alvaro Guillen Meza,1402.9,1238.6,1372.8,1381.4
-Dan Added,1402.7,1386.6,1277.7,1367.2
 Tung Lin Wu,1402.5,1373.6,1419.3,1360.6
-Max Basing,1400.2,1284.3,1310.1,1484.9
+Pedro Boscardin Dias,1402.5,1233.5,1374.7,1383.1
+Florent Bax,1402.4,1387.6,1364.1,1378.6
+Alexander Donski,1402.3,1435.4,1324.4,1451.1
+Andres Martin,1401.3,1390.6,1338.2,1450.7
 Gonzalo Villanueva,1399.8,1285.5,1386.1,1399.9
-Juan Bautista Torres,1397.6,1300.8,1384.1,1398.8
-Facundo Mena,1395.0,1323.3,1379.9,1362.2
-Thomas Faurel,1395.0,1321.5,1360.1,1397.5
-Mathys Erhard,1394.8,1354.9,1363.3,1397.4
-Francesco Forti,1393.9,1321.3,1368.2,1396.9
+Antoine Ghibaudo,1397.0,1356.3,1386.8,1394.5
+Filippo Romano,1394.7,1451.5,1312.9,1390.4
 Milos Karol,1393.1,1333.2,1365.7,1396.6
-Alex Barrena,1392.6,1264.4,1368.1,1367.9
+Francesco Forti,1393.1,1320.9,1369.6,1396.6
+Ognjen Milic,1392.8,1390.5,1373.7,1446.4
+Sergey Fomin,1392.6,1360.2,1377.0,1396.3
+Alex Martinez,1391.9,1335.5,1396.6,1395.9
+Thomas Faurel,1391.6,1319.8,1360.8,1395.8
+Yanki Erel,1390.1,1379.7,1281.3,1377.7
 Gilles Arnaud Bailly,1389.3,1413.7,1351.2,1400.6
 Jakub Paul,1389.2,1340.1,1347.6,1394.6
-Aidan Mayo,1388.5,1369.2,1317.0,1400.4
-Yanki Erel,1388.0,1377.5,1280.2,1376.7
-Akira Santillan,1387.5,1369.2,1327.3,1352.4
+Niels Mcdonald,1387.2,1264.9,1377.3,1393.6
 Jonas Forejtek,1386.8,1332.9,1363.5,1376.4
-Antoine Ghibaudo,1386.5,1337.9,1381.6,1389.2
-Manas Dhamne,1386.0,1383.4,1352.8,1443.0
 Eero Vasa,1385.2,1336.7,1369.4,1442.6
-Duncan Chan,1385.0,1353.1,1302.5,1392.5
+Rudolf Molleker,1384.4,1339.6,1376.2,1361.5
 Samir Banerjee,1383.9,1361.0,1302.0,1392.0
-Aziz Dougaz,1383.2,1368.0,1361.6,1345.2
-Rudolf Molleker,1382.8,1338.8,1377.5,1360.7
-Quinn Vandecasteele,1382.7,1367.8,1301.3,1351.9
-Nicolas Kicker,1380.4,1343.0,1367.4,1339.7
-Murkel Alejandro Dellien Velasco,1378.6,1357.2,1368.2,1368.2
+Jie Cui,1380.2,1356.7,1248.0,1390.1
+Dan Added,1379.6,1363.0,1266.1,1355.7
+Akira Santillan,1378.5,1358.5,1322.8,1347.9
 Tom Paris,1377.4,1355.9,1316.7,1388.7
 Andres Santamarta Roig,1377.0,1298.5,1355.0,1388.5
-Pierluigi Basile,1376.6,1240.9,1382.3,1388.3
-Alexander Donski,1376.0,1416.5,1311.3,1438.0
-Florent Bax,1375.8,1357.8,1350.9,1365.4
-Carlos Sanchez Jover,1373.9,1257.2,1354.9,1386.9
+Ivan Marrero Curbelo,1376.4,1327.9,1364.7,1388.2
 Philip Sekulic,1373.6,1346.1,1265.6,1348.7
-Lucio Ratti,1373.5,1310.2,1350.3,1386.8
-Jie Cui,1372.7,1345.0,1244.2,1386.3
-Niels Mcdonald,1372.6,1257.6,1365.6,1386.3
+Petr Bar Biryukov,1372.8,1375.2,1304.5,1346.5
+Alexander Vasilev,1372.8,1296.4,1327.6,1386.4
 Alfredo Perez,1371.6,1333.4,1379.7,1385.8
 James Trotter,1371.1,1339.6,1334.8,1363.3
-Justin Boulais,1370.2,1343.8,1295.1,1385.1
-Tyler Zink,1368.6,1350.5,1292.4,1370.3
+Mert Alkaya,1369.9,1350.5,1329.4,1391.8
 Alastair Gray,1368.5,1328.2,1294.3,1385.8
-Filip Cristian Jianu,1368.5,1296.1,1346.7,1337.0
 Stefan Palosi,1368.3,1294.1,1351.1,1384.1
-Michael Geerts,1368.2,1360.0,1319.5,1327.7
 Dmitry Popko,1367.7,1390.9,1317.2,1314.1
-Sergey Fomin,1367.6,1329.2,1364.5,1383.8
+Gerard Campana Lee,1367.5,1331.7,1327.7,1383.7
+Luciano Emanuel Ambrogi,1366.2,1234.2,1353.9,1383.1
+Facundo Mena,1365.5,1296.6,1358.1,1347.4
 Tommaso Compagnucci,1365.3,1239.2,1352.2,1382.7
-Juan Cruz Martin Manzano,1364.5,1292.2,1353.6,1382.2
-Geoffrey Blancaneaux,1362.0,1362.2,1347.6,1309.0
-Gerard Campana Lee,1361.7,1328.8,1314.8,1380.8
+Justin Boulais,1364.2,1337.3,1292.1,1382.1
+Aidan Mayo,1363.6,1342.8,1304.6,1388.0
 Alan Magadan,1360.5,1333.5,1330.7,1380.3
-Luciano Emanuel Ambrogi,1358.0,1230.1,1347.4,1379.0
+Filip Cristian Jianu,1359.0,1291.3,1336.6,1332.3
+Geoffrey Blancaneaux,1358.3,1356.3,1345.8,1307.2
+Tyler Zink,1356.8,1338.8,1286.5,1364.4
+Manas Dhamne,1355.6,1344.1,1337.6,1427.8
+Murkel Alejandro Dellien Velasco,1354.8,1345.3,1343.8,1356.3
 Nicolas Alvarez Varona,1353.4,1382.0,1301.2,1376.7
 Juan Pablo Ficovich,1352.4,1347.6,1352.1,1333.6
+Michael Geerts,1352.3,1343.4,1311.6,1319.8
 Ioannis Xilas,1351.7,1343.8,1348.4,1425.8
 Alex Rybakov,1351.7,1309.8,1310.5,1397.0
-Gabi Adrian Boitan,1350.8,1309.4,1342.0,1425.4
-Mert Alkaya,1346.8,1325.4,1317.8,1380.2
-Denis Yevseyev,1346.5,1352.7,1312.6,1383.2
+Pierluigi Basile,1350.9,1228.0,1351.2,1375.5
 Niels Visker,1343.5,1351.0,1286.7,1347.9
-Tai Sach,1343.4,1321.9,1281.7,1371.7
 Hiroki Moriya,1343.1,1311.0,1250.0,1348.8
 Cannon Kingsley,1342.3,1344.5,1262.4,1371.1
 Luca Potenza,1342.1,1317.3,1297.1,1371.0
-Johan Alexander Rodriguez Rodriguez,1340.3,1353.7,1298.3,1370.2
 Sergio Callejon Hernando,1340.3,1304.4,1311.8,1370.1
-Valerio Aboian,1338.0,1228.9,1325.6,1369.0
+Lucio Ratti,1340.3,1278.2,1333.8,1370.2
+Juan Cruz Martin Manzano,1339.7,1279.8,1327.6,1369.8
 Alberto Barroso Campos,1337.8,1321.0,1256.4,1360.1
 Mae Malige,1336.9,1308.6,1229.1,1368.4
 Maximus Jones,1336.7,1310.1,1310.8,1368.4
 Oleg Prihodko,1334.8,1372.9,1273.1,1367.4
+Michele Ribecai,1333.4,1300.7,1288.3,1366.7
 Alejo Sanchez Quilez,1333.3,1312.9,1288.4,1366.6
-Ivan Marrero Curbelo,1333.3,1274.9,1343.1,1366.7
+Gabi Adrian Boitan,1332.6,1293.7,1332.9,1416.3
+Koki Matsuda,1332.3,1310.7,1276.2,1366.2
 Corentin Denolly,1331.3,1271.4,1292.5,1352.3
+Viktor Durasovic,1330.1,1333.1,1268.3,1308.8
+Semen Pankin,1329.8,1319.3,1274.9,1364.9
 Santiago Fa Rodriguez Taverna,1329.4,1285.5,1320.2,1351.5
 Conner Huertas Del Pino,1329.3,1307.1,1310.7,1364.6
-Eduardo Ribeiro,1329.3,1243.1,1316.9,1364.7
+Denis Yevseyev,1329.0,1336.7,1298.7,1374.4
 Federico Arnaboldi,1328.2,1300.0,1289.0,1333.6
+Masamichi Imamura,1327.7,1299.0,1273.8,1363.8
 Karim Bennani,1326.7,1349.1,1263.3,1363.3
 Kaichi Uchida,1325.6,1305.8,1284.1,1331.4
 Jacopo Berrettini,1325.4,1257.8,1335.8,1362.7
-Alexandr Binda,1323.8,1267.5,1320.7,1361.9
 Luis Guto Miguel,1322.0,1267.1,1317.1,1361.0
-Viktor Durasovic,1320.0,1329.2,1263.2,1303.7
 Neil Oberleitner,1319.6,1286.4,1271.8,1359.8
-Robin Bertrand,1318.8,1320.6,1220.6,1359.4
+Valerio Aboian,1318.7,1219.2,1305.8,1359.3
+Eduardo Ribeiro,1317.8,1237.4,1305.9,1358.9
 Karl Poling,1313.7,1320.3,1216.4,1315.2
 Dan Martin,1313.2,1276.1,1274.7,1328.7
 Jelle Sels,1312.5,1333.0,1282.7,1252.5
+Robin Bertrand,1309.8,1310.2,1216.1,1354.9
 Olukayode Alafia Damina Ayeni,1308.0,1302.1,1212.6,1310.3
 Pietro Fellin,1308.0,1297.0,1233.4,1354.0
 Daniel Dutra Da Silva,1307.0,1232.2,1282.2,1339.6
 Sasi Kumar Mukund,1305.7,1281.1,1241.0,1316.2
 Blaise Bicknell,1303.9,1280.2,1282.7,1402.0
 Garrett Johns,1303.3,1281.9,1274.6,1350.5
+Tai Sach,1302.6,1274.7,1261.3,1351.3
 Johan Nikles,1300.3,1263.8,1286.1,1350.1
 Juan Alejandro Hernandez Serrano,1299.0,1299.5,1230.0,1349.5
 Omar Jasika,1295.9,1271.9,1244.9,1242.5
 Robert Strombachs,1294.4,1287.2,1255.8,1347.2
 Carl Emil Overbeck,1292.9,1271.2,1256.5,1346.5
 Maxime Janvier,1291.8,1278.9,1258.1,1314.8
+Samuele Pieri,1290.8,1255.4,1270.3,1345.4
 Tsung Hao Huang,1289.7,1270.1,1243.3,1344.9
 Patrick Zahraj,1288.4,1301.1,1216.9,1339.4
 Maxime Chazal,1287.7,1237.5,1253.5,1343.8
-Kasidit Samrej,1285.4,1259.8,1356.9,1392.7
+Alexandr Binda,1286.5,1242.0,1302.1,1343.3
+Kasidit Samrej,1285.1,1258.5,1356.7,1392.5
 Juan Estevez,1284.3,1252.2,1276.7,1342.2
 Svyatoslav Gulin,1284.0,1246.4,1268.7,1342.0
-Masamichi Imamura,1283.8,1254.8,1251.9,1341.9
 Joaquin  Aguilar Cardozo,1281.4,1302.5,1284.6,1390.7
-Constantin Bittoun Kouzmine,1281.1,1270.9,1208.2,1340.5
-Michele Ribecai,1280.9,1242.7,1262.0,1340.4
 Adria Soriano Barrera,1279.6,1280.9,1225.5,1339.8
-Arda Azkara,1279.5,1261.5,1249.7,1323.3
-Lucas Poullain,1277.7,1267.5,1216.6,1338.9
+Tiago Pereira,1277.9,1258.7,1243.3,1305.1
 Miguel Tobon,1273.4,1234.1,1281.6,1347.6
-Tiago Pereira,1269.6,1259.2,1239.2,1300.9
-Samuele Pieri,1267.9,1243.9,1251.3,1333.9
 Yusuke Takahashi,1267.7,1243.3,1262.5,1333.9
 Raphael Perot,1267.6,1230.8,1261.2,1333.8
-San Hui Sin,1265.1,1242.2,1242.6,1332.6
 Christian Langmo,1263.6,1251.3,1139.3,1331.8
+Constantin Bittoun Kouzmine,1262.8,1248.0,1199.1,1331.4
 Max Wiskandt,1262.7,1226.1,1253.1,1304.1
-Carlo Alberto Caniato,1256.2,1215.9,1250.3,1328.1
-Gabriele Piraino,1253.7,1201.8,1247.8,1326.8
+Saba Purtseladze,1257.8,1258.1,1188.4,1307.0
+Arda Azkara,1257.2,1238.1,1238.6,1312.2
 Bor Artnak,1253.3,1241.0,1290.2,1376.7
-Vadym Ursu,1251.8,1230.2,1182.1,1304.8
 Pedro Sakamoto,1244.8,1236.2,1228.9,1322.4
 Mateus Alves,1244.5,1146.2,1246.9,1322.3
-Naoya Honda,1239.5,1236.3,1203.1,1319.8
-Dominik Palan,1238.2,1218.9,1207.3,1319.1
-Filip Peliwo,1233.6,1210.8,1251.5,1280.6
+San Hui Sin,1241.9,1220.2,1231.0,1321.0
 Aryan Shah,1231.9,1224.1,1224.4,1315.9
-Ryan Nijboer,1229.6,1201.7,1219.7,1314.8
 Renta Tokuda,1223.7,1196.6,1173.1,1311.8
-Saba Purtseladze,1220.3,1251.8,1110.1,1288.2
+Filip Peliwo,1223.2,1198.7,1246.4,1275.4
+Dominik Palan,1220.3,1201.6,1198.3,1310.1
+Carlo Alberto Caniato,1216.6,1196.2,1209.0,1308.3
+Vadym Ursu,1212.3,1191.4,1162.3,1285.1
+Tomasz Berkieta,1211.6,1225.4,1167.5,1305.8
 Moerani Bouzige,1210.6,1179.6,1215.3,1305.3
-Kokoro Isomura,1205.7,1176.3,1212.9,1302.9
 Joao Eduardo Schiessl,1201.5,1173.9,1203.0,1300.7
 Carlos Maria Zarate,1199.9,1212.2,1187.0,1300.0
-Mariano Kestelboim,1198.4,1170.6,1189.0,1299.2
-Ivan Ivanov,1194.4,1195.4,1114.1,1293.1
 Lorenzo Joaquin Rodriguez,1193.3,1172.8,1184.1,1296.7
 Luca Castelnuovo,1185.0,1161.9,1167.0,1282.5
-Tomasz Berkieta,1182.2,1211.1,1152.8,1291.1
+Kokoro Isomura,1181.8,1152.7,1200.9,1290.9
 Ryan Dickerson,1180.8,1173.8,1186.9,1290.4
 Juan Sebastian Gomez,1180.6,1181.2,1168.0,1290.3
-Andrew Fenty,1179.5,1161.9,1188.0,1289.8
+Sidharth Rawat,1179.8,1149.7,1189.9,1289.9
+Ivan Ivanov,1179.5,1188.0,1102.0,1285.7
+Andrew Fenty,1175.9,1158.0,1186.2,1288.0
 Sebastian Gima,1167.1,1137.2,1170.1,1283.6
-Lorenzo Carboni,1160.5,1123.4,1165.6,1280.2
 Paulo Andre Saraiva Dos Santos,1154.1,1166.2,1143.8,1277.0
+Lorenzo Carboni,1142.4,1114.3,1140.1,1271.2
 Mitsuki Wei Kang Leong,1141.8,1141.0,1180.9,1235.5
 Samuel Heredia,1141.1,1166.2,1136.0,1270.6
+Mika Petkovic,1138.2,1137.3,1141.4,1269.1
 Nicolas Villalon,1135.4,1177.7,1127.6,1267.7
+Takuya Kumasaka,1130.2,1115.3,1175.1,1265.1
 Bruno Fernandez,1130.0,1175.0,1117.3,1265.0
 Tristan Mccormick,1125.6,1118.6,1124.5,1232.3
 Karan Singh,1114.9,1073.1,1218.2,1257.4
 Jake Delaney,1103.0,1088.3,1131.7,1251.5
+Digvijaypratap Singh,1069.7,1047.5,1146.1,1234.9
 Santiago De La Fuente,1066.2,1143.1,1063.0,1233.1
-Aziz Ouakaa,1059.1,1079.2,1098.8,1279.6
-Samuel Alejandro Linde Palacios,1051.6,1113.5,1050.4,1225.8
+Aziz Ouakaa,1050.2,1066.0,1094.3,1275.1
 Maximo Zeitune,1043.6,1131.8,1032.8,1221.8
