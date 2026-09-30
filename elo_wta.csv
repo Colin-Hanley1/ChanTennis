@@ -1,532 +1,523 @@
 player,elo,hElo,cElo,gElo
-Aryna Sabalenka,2190.0,2171.9,2088.2,1973.9
-Elena Rybakina,2163.4,2149.9,2022.1,1904.4
-Coco Gauff,2137.7,2097.8,2051.6,1899.0
-Jessica Pegula,2114.0,2074.3,1950.1,1925.1
-Iga Swiatek,2103.5,2067.7,2027.9,1926.2
-Elina Svitolina,2050.8,1988.1,1984.9,1832.9
-Linda Noskova,2048.9,1963.8,1848.4,1940.4
-Marta Kostyuk,2048.1,1964.2,1987.8,1817.9
-Mirra Andreeva,2047.9,1981.4,2021.4,1793.5
-Naomi Osaka,2021.3,1956.6,1903.0,1839.7
-Belinda Bencic,1981.3,1939.1,1844.6,1800.1
-Iva Jovic,1975.9,1921.3,1827.9,1848.9
-Madison Keys,1971.6,1908.9,1886.1,1839.6
-Alexandra Eala,1969.9,1907.2,1714.5,1843.2
-Karolina Muchova,1961.0,1913.4,1779.9,1792.6
-Sorana Cirstea,1959.7,1916.5,1857.3,1704.5
-Amanda Anisimova,1949.4,1909.3,1769.2,1788.0
-Diana Shnaider,1941.8,1894.8,1866.2,1724.9
-Anna Kalinskaya,1926.2,1880.6,1814.0,1743.5
-Elise Mertens,1912.3,1848.5,1820.1,1784.6
-Emma Navarro,1899.1,1814.7,1810.7,1781.4
-Qinwen Zheng,1898.0,1880.6,1834.2,1637.5
-Victoria Mboko,1885.9,1886.3,1736.1,1646.6
-Anastasia Potapova,1883.9,1800.3,1871.3,1664.1
-Marie Bouzkova,1881.9,1815.4,1804.3,1767.5
-Taylor Townsend,1876.0,1848.0,1756.4,1640.8
-Barbora Krejcikova,1874.2,1819.9,1718.3,1781.3
-Sonay Kartal,1874.0,1832.6,1602.3,1731.6
-Karolina Pliskova,1862.0,1802.3,1802.2,1753.0
-Ekaterina Alexandrova,1854.1,1812.4,1741.6,1745.5
-Nikola Bartunkova,1850.4,1788.3,1717.1,1725.1
-Hailey Baptiste,1843.9,1780.5,1770.5,1631.6
-Sara Bejlek,1843.3,1825.2,1757.6,1549.3
-Kristina Liutova,1839.4,1803.9,1694.2,1594.7
-Liudmila Samsonova,1839.4,1791.5,1750.3,1733.6
-Maria Sakkari,1838.3,1812.9,1767.3,1663.4
-Caty Mcnally,1836.6,1757.7,1756.3,1720.3
-Katerina Siniakova,1836.2,1794.8,1717.2,1720.4
-Emma Raducanu,1834.0,1772.9,1726.8,1742.6
-Jasmine Paolini,1830.9,1786.8,1769.1,1698.9
-Paula Badosa,1827.2,1774.5,1773.1,1663.4
-Jelena Ostapenko,1825.1,1757.7,1793.3,1755.3
-Jaqueline Cristian,1824.5,1798.4,1741.4,1521.6
-Elena Gabriela Ruse,1822.8,1745.0,1722.7,1735.6
-Alina Korneeva,1822.0,1797.7,1666.3,1630.5
-Olga Danilovic,1819.1,1739.8,1796.1,1639.9
-Leylah Fernandez,1818.7,1798.1,1708.6,1648.3
-Tereza Valentova,1810.9,1784.3,1759.6,1632.7
-Varvara Gracheva,1809.9,1763.2,1701.4,1641.3
-Katie Volynets,1809.8,1766.3,1727.1,1694.8
-Daria Snigur,1809.5,1765.0,1638.6,1676.9
-Diane Parry,1808.0,1739.7,1717.5,1683.7
-Ann Li,1805.9,1756.0,1742.9,1587.0
+Aryna Sabalenka,2190.2,2172.1,2088.3,1974.0
+Elena Rybakina,2163.5,2150.0,2022.1,1904.4
+Coco Gauff,2137.8,2097.7,2051.7,1899.0
+Jessica Pegula,2114.2,2074.5,1950.2,1925.2
+Iga Swiatek,2103.3,2067.5,2027.8,1926.1
+Linda Noskova,2052.7,1969.5,1850.3,1942.4
+Marta Kostyuk,2048.7,1964.9,1988.1,1818.2
+Elina Svitolina,2046.3,1983.0,1982.7,1830.6
+Mirra Andreeva,2029.4,1963.0,2012.1,1784.3
+Naomi Osaka,2021.7,1957.0,1903.3,1839.9
+Belinda Bencic,1981.5,1939.2,1844.7,1800.1
+Iva Jovic,1975.9,1921.2,1827.9,1848.9
+Madison Keys,1971.7,1908.8,1886.2,1839.6
+Karolina Muchova,1963.8,1916.6,1781.3,1794.0
+Sorana Cirstea,1960.6,1917.5,1857.7,1704.9
+Amanda Anisimova,1949.7,1909.8,1769.4,1788.2
+Alexandra Eala,1947.4,1884.4,1703.3,1831.9
+Diana Shnaider,1941.8,1894.7,1866.2,1724.9
+Anna Kalinskaya,1926.2,1880.6,1813.9,1743.5
+Elise Mertens,1899.9,1834.4,1813.9,1778.5
+Emma Navarro,1899.3,1815.0,1810.8,1781.5
+Qinwen Zheng,1896.6,1879.0,1833.6,1636.8
+Victoria Mboko,1886.3,1886.8,1736.3,1646.9
+Anastasia Potapova,1884.1,1800.5,1871.4,1664.3
+Marie Bouzkova,1883.4,1817.5,1805.1,1768.2
+Barbora Krejcikova,1876.9,1823.3,1719.6,1782.6
+Taylor Townsend,1876.1,1848.1,1756.4,1640.9
+Sonay Kartal,1870.0,1828.8,1600.3,1729.6
+Leylah Fernandez,1863.9,1844.2,1731.2,1670.9
+Karolina Pliskova,1862.2,1802.4,1802.2,1753.1
+Ekaterina Alexandrova,1854.4,1812.5,1741.7,1745.6
+Nikola Bartunkova,1850.3,1788.2,1717.0,1725.1
+Hailey Baptiste,1843.6,1780.3,1770.3,1631.5
+Sara Bejlek,1843.0,1824.7,1757.5,1549.1
+Liudmila Samsonova,1839.5,1791.6,1750.3,1733.7
+Kristina Liutova,1839.3,1803.7,1694.1,1594.6
+Caty Mcnally,1836.7,1758.0,1756.4,1720.4
+Katerina Siniakova,1836.0,1794.6,1717.1,1720.3
+Emma Raducanu,1834.2,1773.1,1726.9,1742.7
+Maria Sakkari,1832.2,1807.2,1764.3,1660.4
+Jasmine Paolini,1829.2,1784.7,1768.2,1698.1
+Paula Badosa,1827.6,1774.9,1773.4,1663.6
+Alina Korneeva,1827.5,1802.4,1669.1,1633.2
+Jaqueline Cristian,1824.3,1798.3,1741.2,1521.5
+Elena Gabriela Ruse,1821.1,1746.7,1721.8,1734.8
+Olga Danilovic,1819.2,1739.8,1796.1,1639.9
+Jelena Ostapenko,1817.6,1752.5,1789.6,1751.6
+Tereza Valentova,1811.2,1784.6,1759.8,1632.9
+Katie Volynets,1810.1,1768.6,1727.2,1695.0
+Varvara Gracheva,1809.7,1763.1,1701.3,1641.2
+Daria Snigur,1809.6,1765.3,1638.6,1677.0
+Diane Parry,1808.3,1739.8,1717.6,1683.8
+Ann Li,1806.2,1756.3,1743.1,1587.2
+Maja Chwalinska,1795.2,1725.4,1781.8,1568.2
 Peyton Stearns,1793.5,1752.4,1750.6,1546.7
-Katie Boulter,1792.3,1758.6,1676.0,1697.2
-Ashlyn Krueger,1792.2,1703.3,1678.6,1748.2
-Xiyu Wang,1790.0,1747.1,1739.3,1591.3
-Daria Kasatkina,1783.7,1741.1,1763.8,1663.7
-Magda Linette,1779.3,1724.7,1739.2,1633.5
-Clara Tauson,1778.3,1746.4,1681.0,1618.8
-Xin Yu Wang,1776.8,1732.0,1641.7,1700.7
-Anastasia Pavlyuchenkova,1774.6,1741.6,1692.1,1678.7
-Robin Montgomery,1773.6,1692.1,1623.0,1741.2
-Zeynep Sonmez,1773.4,1712.2,1655.8,1664.9
+Ashlyn Krueger,1792.1,1703.1,1678.6,1748.1
+Katie Boulter,1790.3,1756.1,1675.0,1696.2
+Xiyu Wang,1789.9,1747.0,1739.2,1591.2
+Maria Timofeeva,1787.6,1724.9,1733.9,1592.4
+Xin Yu Wang,1779.9,1736.8,1643.2,1702.2
+Clara Tauson,1778.3,1746.5,1681.0,1618.8
+Anastasia Pavlyuchenkova,1774.7,1741.6,1692.1,1678.7
+Zeynep Sonmez,1773.3,1712.1,1655.7,1664.9
+Yulia Putintseva,1772.7,1733.2,1727.3,1618.1
+Daria Kasatkina,1771.8,1728.3,1757.8,1657.8
 Lilli Tagger,1771.3,1759.7,1635.6,1517.5
-Yulia Putintseva,1770.6,1730.3,1726.2,1617.1
-Camila Osorio,1770.4,1736.9,1712.4,1603.4
-Anhelina Kalinina,1770.0,1697.9,1764.6,1614.7
-Elisabetta Cocciaretto,1768.6,1736.9,1694.4,1648.9
-Donna Vekic,1768.0,1702.0,1734.1,1699.1
-Maja Chwalinska,1766.1,1684.4,1767.2,1553.6
-Mccartney Kessler,1765.8,1730.7,1652.3,1667.9
-Viktorija Golubic,1764.3,1713.7,1661.8,1662.9
-Mayar Sherif,1763.3,1534.6,1756.6,1522.8
-Laura Siegemund,1762.3,1710.2,1688.5,1620.8
-Mananchaya Sawangkaew,1759.6,1706.6,1582.6,1688.2
-Magdalena Frech,1758.8,1732.8,1664.5,1564.7
-Maria Timofeeva,1754.6,1678.4,1717.4,1575.9
-Cristina Bucsa,1754.3,1732.7,1578.9,1609.9
-Kaitlin Quevedo,1752.7,1688.9,1716.3,1551.2
-Oleksandra Oliynykova,1751.8,1602.5,1728.5,1501.3
-Yuliia Starodubtseva,1747.2,1684.3,1713.2,1574.9
-Dayana Yastremska,1743.6,1686.4,1706.9,1640.3
-Lanlana Tararudee,1742.0,1729.1,1559.4,1571.1
-Kamilla Rakhimova,1738.6,1711.4,1632.1,1611.6
-Anna Bondar,1738.0,1664.7,1740.1,1489.0
-Tatjana Maria,1734.0,1634.5,1601.2,1723.4
-Hanne Vandewinkel,1733.5,1745.8,1580.3,1536.7
-Ajla Tomljanovic,1729.9,1715.1,1622.1,1658.1
-Anastasia Zakharova,1726.3,1703.5,1587.2,1612.1
-Eva Lys,1724.8,1692.4,1648.9,1567.8
-Jessica Bouzas Maneiro,1724.1,1660.0,1678.5,1647.8
-Claire Liu,1723.7,1672.6,1645.2,1611.2
-Anastasija Sevastova,1718.5,1664.3,1695.0,1619.5
-Talia Gibson,1717.0,1726.9,1545.1,1560.5
-Anna Blinkova,1716.4,1679.4,1614.7,1607.5
-Shuai Zhang,1716.1,1685.9,1596.8,1620.6
+Camila Osorio,1770.6,1736.9,1712.5,1603.5
+Anhelina Kalinina,1770.5,1699.2,1764.8,1614.9
+Mccartney Kessler,1766.1,1731.0,1652.4,1668.1
+Elisabetta Cocciaretto,1765.5,1733.7,1692.8,1647.4
+Magda Linette,1764.7,1708.9,1732.0,1626.2
+Viktorija Golubic,1764.5,1713.7,1661.9,1663.0
+Mayar Sherif,1763.5,1534.7,1756.7,1522.9
+Laura Siegemund,1762.2,1710.0,1688.5,1620.7
+Kimberly Birrell,1761.2,1744.9,1539.9,1599.0
+Magdalena Frech,1759.1,1733.1,1664.6,1564.8
+Donna Vekic,1758.8,1692.6,1729.5,1694.5
+Anna Bondar,1757.9,1692.8,1750.0,1498.9
+Kaitlin Quevedo,1752.7,1688.8,1716.3,1551.2
+Cristina Bucsa,1750.7,1728.8,1577.1,1608.1
+Yuliia Starodubtseva,1747.2,1684.1,1713.2,1574.9
+Mananchaya Sawangkaew,1746.7,1694.5,1576.2,1681.7
+Robin Montgomery,1745.6,1662.5,1609.0,1727.2
+Dayana Yastremska,1743.2,1686.1,1706.7,1640.2
+Talia Gibson,1742.8,1748.1,1558.0,1573.4
+Maya Joint,1739.8,1716.7,1651.8,1615.2
+Oleksandra Oliynykova,1739.7,1603.5,1722.4,1495.3
+Kamilla Rakhimova,1739.0,1710.3,1632.3,1611.8
+Lanlana Tararudee,1738.1,1724.5,1557.4,1569.1
+Tatjana Maria,1734.2,1634.6,1601.2,1723.4
+Hanne Vandewinkel,1733.7,1746.0,1580.4,1536.8
+Ajla Tomljanovic,1729.8,1715.1,1622.1,1658.1
+Claire Liu,1723.8,1672.6,1645.3,1611.2
+Jessica Bouzas Maneiro,1722.8,1658.9,1677.9,1647.2
+Shuai Zhang,1718.8,1688.9,1598.2,1622.0
+Anastasia Zakharova,1717.0,1691.6,1582.5,1607.4
+Tatiana Prozorova,1716.4,1698.6,1593.4,1559.6
+Anna Blinkova,1716.4,1679.3,1614.7,1607.5
 Sloane Stephens,1715.4,1664.4,1680.8,1605.4
-Sinja Kraus,1713.4,1617.1,1703.6,1542.3
-Sofia Kenin,1712.3,1671.3,1664.3,1583.2
+Eva Lys,1714.4,1678.7,1643.6,1562.6
 Mary Stoiana,1711.7,1648.4,1563.2,1620.3
-Maya Joint,1708.2,1679.7,1636.0,1599.4
-Kimberly Birrell,1707.0,1691.7,1512.8,1571.9
-Marina Stakusic,1706.7,1672.1,1558.8,1592.9
-Solana Sierra,1704.0,1586.7,1708.8,1587.9
-Francesca Jones,1702.4,1657.4,1678.9,1474.8
-Aliaksandra Sasnovich,1701.9,1668.5,1642.5,1597.9
-Darja Vidmanova,1701.2,1675.3,1542.4,1583.4
-Storm Hunter,1697.9,1684.2,1556.0,1582.2
-Kaja Juvan,1696.2,1637.2,1684.7,1641.5
-Vera Zvonareva,1695.4,1662.7,1615.1,1633.4
-Alina Charaeva,1695.3,1612.8,1668.1,1580.6
-Janice Tjen,1694.0,1682.4,1578.3,1563.1
-Tamara Korpatsch,1692.9,1611.9,1691.2,1449.0
-Antonia Ruzic,1691.8,1657.2,1597.3,1584.2
-Bianca Andreescu,1691.3,1660.7,1618.0,1608.8
+Aliaksandra Sasnovich,1710.9,1677.4,1647.0,1602.4
+Sinja Kraus,1707.9,1624.8,1700.9,1539.6
+Marina Stakusic,1706.3,1671.7,1558.6,1592.7
+Francesca Jones,1702.4,1657.4,1678.9,1474.9
+Darja Vidmanova,1701.1,1675.0,1542.3,1583.4
+Sofia Kenin,1701.0,1657.8,1658.6,1577.5
+Alina Charaeva,1697.9,1618.6,1669.4,1581.9
+Kaja Juvan,1696.0,1637.0,1684.6,1641.3
+Vera Zvonareva,1695.5,1662.8,1615.2,1633.4
+Janice Tjen,1694.1,1682.5,1578.4,1563.2
+Tamara Korpatsch,1692.8,1611.7,1691.1,1449.0
+Antonia Ruzic,1691.6,1656.7,1597.2,1584.1
+Bianca Andreescu,1691.3,1660.6,1618.0,1608.7
 Jil Teichmann,1689.1,1632.1,1653.9,1482.6
+Greet Minnen,1688.0,1633.9,1590.8,1649.1
 Leolia Jeanjean,1686.7,1618.9,1650.1,1585.5
-Panna Udvardy,1686.1,1600.4,1643.5,1556.3
-Tyra Caterina Grant,1683.5,1558.4,1632.9,1629.6
-Fiona Ferro,1683.2,1625.2,1653.7,1488.8
-Greet Minnen,1683.0,1627.1,1588.3,1646.6
-Polina Kudermetova,1681.4,1630.0,1626.4,1599.7
-Elina Avanesyan,1681.2,1614.7,1665.1,1581.5
-Jeline Vandromme,1676.3,1662.5,1599.7,1534.5
+Panna Udvardy,1685.9,1600.1,1643.4,1556.1
+Storm Hunter,1681.3,1666.6,1547.7,1573.9
+Elina Avanesyan,1681.3,1614.8,1665.2,1581.5
+Tyra Caterina Grant,1681.3,1553.7,1631.8,1628.5
+Jeline Vandromme,1676.5,1662.9,1599.8,1534.6
+Solana Sierra,1675.1,1555.7,1694.4,1573.5
 Lois Boisson,1674.3,1535.2,1666.9,1466.9
-Lucrezia Stefanini,1673.1,1651.8,1548.9,1574.7
-Petra Marcinko,1670.0,1580.1,1659.8,1542.7
+Julia Grabher,1673.4,1550.9,1647.1,1421.3
+Lucrezia Stefanini,1673.0,1651.7,1548.9,1574.7
+Fiona Ferro,1672.7,1615.4,1648.4,1483.6
+Polina Kudermetova,1670.1,1618.2,1620.7,1594.0
+Petra Marcinko,1670.0,1580.0,1659.8,1542.7
 Caroline Dolehide,1669.2,1638.6,1617.0,1476.6
-Laura Samson,1666.9,1507.8,1692.6,1491.1
 Nadia Podoroska,1666.4,1654.7,1575.1,1495.3
-Clara Burel,1665.5,1650.4,1633.6,1504.3
-Carol Young Suh Lee,1664.6,1651.8,1559.4,1508.4
-Rositsa Dencheva,1662.2,1494.2,1645.0,1506.1
-Polina Iatcenko,1661.4,1607.7,1421.0,1645.2
-Rebeka Masarova,1661.3,1599.5,1635.3,1621.6
-Tatiana Prozorova,1658.2,1637.5,1564.3,1530.5
-Tamara Zidansek,1657.9,1599.0,1627.7,1474.2
-Simona Waltert,1657.4,1589.4,1650.4,1444.8
-Renata Zarazua,1654.0,1624.8,1581.5,1526.6
-Lin Zhu,1650.3,1621.9,1443.2,1540.0
+Clara Burel,1665.4,1650.3,1633.6,1504.3
+Rositsa Dencheva,1662.1,1494.2,1645.0,1506.1
+Polina Iatcenko,1661.7,1613.7,1421.1,1645.4
+Taylah Preston,1660.1,1648.9,1427.2,1497.6
+Simona Waltert,1657.4,1589.3,1650.4,1444.8
+Rebeka Masarova,1653.8,1595.7,1626.2,1617.9
 Celine Naef,1650.2,1642.5,1481.4,1600.4
-Sara Sorribes Tormo,1645.5,1577.5,1631.7,1534.8
-Julieta Pareja,1645.2,1604.3,1543.0,1497.6
-Vendula Valdmannova,1644.2,1623.7,1389.8,1525.4
-Alycia Parks,1643.8,1626.0,1564.2,1485.3
-Martyna Kubka,1642.1,1607.1,1501.6,1583.4
-Rebecca Sramkova,1639.7,1617.0,1579.9,1538.7
-Harriet Dart,1638.2,1625.1,1466.2,1528.9
-Lisa Pigato,1636.0,1629.1,1586.8,1510.5
-Gabriela Andrea Knutson,1633.6,1612.9,1431.3,1545.1
-Oksana Selekhmeteva,1631.9,1632.7,1575.3,1513.4
-Kayla Day,1630.3,1595.5,1562.7,1505.6
-Taylah Preston,1629.8,1620.7,1412.0,1482.4
-Lulu Sun,1629.0,1650.3,1479.2,1519.9
-Lucia Bronzetti,1628.1,1548.8,1616.8,1506.6
-Himeno Sakatsume,1627.0,1600.1,1504.5,1468.2
-Julia Grabher,1626.7,1527.6,1595.5,1398.0
-Moyuka Uchijima,1624.5,1601.6,1593.4,1433.4
-Dalma Galfi,1621.0,1560.8,1610.3,1545.0
-Alevtina Ibragimova,1617.1,1529.5,1596.4,1483.5
-Teodora Kostovic,1616.6,1544.9,1591.9,1565.7
+Mia Pohankova,1650.2,1635.3,1498.4,1504.3
+Lin Zhu,1650.2,1621.9,1443.2,1540.0
+Oksana Selekhmeteva,1649.9,1641.7,1600.8,1522.4
+Tamara Zidansek,1649.1,1590.0,1623.3,1469.7
+Renata Zarazua,1645.9,1613.9,1577.4,1522.6
+Sara Sorribes Tormo,1645.3,1577.4,1631.6,1534.7
+Julieta Pareja,1645.2,1604.4,1543.0,1497.6
+Vendula Valdmannova,1644.2,1623.6,1389.8,1525.4
+Alycia Parks,1642.4,1624.2,1563.5,1484.6
+Laura Samson,1642.4,1495.5,1663.3,1478.8
+Carol Young Suh Lee,1640.5,1625.2,1547.4,1496.4
+Gabriela Andrea Knutson,1639.3,1617.0,1434.1,1547.9
+Teodora Kostovic,1639.2,1583.8,1603.2,1577.0
+Harriet Dart,1638.3,1625.1,1466.2,1529.0
+Lisa Pigato,1635.9,1629.1,1586.8,1510.4
+Guiomar Maristany Zuleta De Reales,1633.7,1530.2,1613.7,1453.1
+Rebecca Sramkova,1632.4,1605.9,1576.2,1535.0
+Kayla Day,1630.4,1595.6,1562.7,1505.7
+Lulu Sun,1628.9,1650.1,1479.1,1519.8
+Lucia Bronzetti,1628.2,1548.8,1616.8,1506.6
+Dalma Galfi,1621.0,1560.8,1610.4,1545.0
+Moyuka Uchijima,1616.0,1592.6,1589.1,1429.1
 Jana Kovackova,1614.2,1478.9,1575.2,1482.1
-Carson Branstine,1612.9,1541.2,1568.8,1580.9
-Viktoriya Tomova,1610.3,1575.2,1565.5,1506.0
-Maddison Inglis,1609.8,1586.0,1447.0,1481.5
-Guiomar Maristany Zuleta De Reales,1609.5,1518.1,1588.1,1441.0
-Julia Riera,1607.2,1520.2,1595.2,1472.0
-Beatriz Haddad Maia,1606.9,1575.7,1596.6,1558.3
-Mia Pohankova,1606.4,1601.3,1476.5,1482.3
-Yue Yuan,1602.8,1585.1,1532.8,1466.4
-Andrea Lazaro Garcia,1602.5,1538.1,1575.4,1449.2
-Fiona Crawley,1602.3,1556.3,1387.4,1499.0
+Carson Branstine,1612.9,1541.1,1568.8,1580.9
+Himeno Sakatsume,1612.8,1586.0,1497.5,1461.1
+Martyna Kubka,1612.4,1576.1,1486.8,1568.6
+Joanna Garland,1611.3,1605.0,1492.0,1506.6
+Viktoriya Tomova,1610.3,1575.0,1565.5,1506.0
+Maddison Inglis,1609.8,1586.1,1447.0,1481.5
+Alevtina Ibragimova,1609.8,1534.4,1592.8,1479.9
+Beatriz Haddad Maia,1606.9,1575.6,1596.5,1558.2
+Reese Brantmeier,1605.4,1575.0,1369.8,1484.6
+Andrea Lazaro Garcia,1602.4,1538.1,1575.4,1449.2
 Suzan Lamens,1601.8,1559.9,1547.9,1497.8
-Heather Watson,1601.3,1567.7,1455.8,1522.9
-Emiliana Arango,1598.7,1565.7,1532.1,1466.4
-Elvina Kalieva,1597.8,1567.2,1510.2,1461.3
-Harmony Tan,1596.5,1555.8,1448.6,1574.5
+Heather Watson,1601.5,1567.9,1455.9,1523.0
+Emiliana Arango,1598.7,1565.5,1532.1,1466.4
 Dominika Salkova,1596.2,1586.0,1536.9,1427.7
 Hanyu Guo,1596.1,1568.1,1540.3,1458.5
-Anastasiya Soboleva,1595.0,1421.5,1593.4,1433.6
-Marina Bassols Ribera,1594.5,1498.1,1573.8,1521.2
-Susan Bandecchi,1593.3,1544.5,1545.1,1461.5
-Samira De Stefano,1592.9,1478.2,1573.4,1471.4
-Emerson Jones,1592.0,1583.2,1410.1,1479.3
-Alicia Herrero Linana,1590.3,1399.2,1571.1,1470.1
+Harmony Tan,1595.3,1556.6,1447.9,1573.9
+Ekaterine Gorgodze,1595.0,1527.5,1556.2,1487.0
+Anastasiya Soboleva,1594.9,1421.5,1593.4,1433.6
+Marina Bassols Ribera,1594.6,1498.2,1573.8,1521.2
+Elvina Kalieva,1591.7,1559.9,1507.2,1458.3
 Rebecca Marino,1590.0,1553.1,1475.6,1552.8
-Elena Pridankina,1589.8,1537.8,1569.2,1456.7
-Tereza Martincova,1589.3,1572.9,1476.2,1545.2
-Iryna Shymanovich,1588.0,1517.8,1525.0,1539.8
-Ekaterine Gorgodze,1587.8,1524.0,1545.8,1483.4
-Mia Ristic,1585.9,1452.2,1562.0,1468.0
+Mia Ristic,1589.8,1454.2,1566.7,1469.9
+Tereza Martincova,1589.4,1573.1,1476.2,1545.3
+Iryna Shymanovich,1588.1,1517.8,1525.0,1539.9
+Noemi Basiletti,1586.2,1345.6,1564.2,1468.1
+Julia Riera,1585.3,1493.9,1584.3,1461.0
+Samira De Stefano,1585.3,1474.4,1562.4,1467.6
 Noma Noha Akugue,1584.6,1542.3,1552.1,1426.6
-Katarzyna Kawa,1581.4,1446.2,1578.7,1510.9
-Noemi Basiletti,1580.7,1342.9,1555.3,1465.3
-Joanna Garland,1579.1,1573.3,1475.8,1490.5
-Katie Swan,1576.0,1491.9,1423.7,1518.4
+Yue Yuan,1582.5,1562.8,1522.6,1456.3
+Katarzyna Kawa,1581.4,1446.3,1578.7,1511.0
+Katie Swan,1579.3,1506.2,1425.3,1520.1
+Susan Bandecchi,1575.5,1524.4,1536.2,1452.6
+Fiona Crawley,1574.4,1526.4,1373.5,1485.1
 Zhuoxuan Bai,1573.6,1551.5,1439.1,1536.3
-Linda Fruhvirtova,1572.7,1554.3,1495.5,1483.0
-Veronika Podrez,1572.2,1529.0,1494.0,1429.0
 Jessika Ponchet,1572.0,1504.3,1560.8,1465.9
-Mona Barthel,1571.5,1547.2,1526.4,1396.6
-Anouk Koevermans,1571.0,1570.4,1506.8,1416.5
-Olivia Gadecki,1568.8,1539.3,1489.7,1470.9
+Mona Barthel,1571.6,1547.2,1526.4,1396.7
+Elena Pridankina,1571.5,1518.7,1560.0,1447.6
+Olivia Gadecki,1568.9,1539.5,1489.8,1470.9
 Alisa Oktiabreva,1568.4,1426.4,1558.3,1459.2
-Mai Hontama,1566.6,1529.1,1488.6,1449.6
-Mariam Bolkvadze,1566.2,1520.0,1343.4,1504.5
-Elsa Jacquemot,1564.8,1541.2,1510.4,1489.9
-Leyre Romero Gormaz,1563.8,1490.7,1546.4,1421.2
-Veronika Erjavec,1560.2,1461.6,1560.4,1481.3
-Lucie Havlickova,1557.2,1554.3,1490.7,1441.4
-Francesca Curmi,1556.7,1462.3,1531.8,1453.4
-En Shuo Liang,1556.1,1546.1,1362.0,1498.1
-Anna Siskova,1556.0,1529.8,1527.0,1367.0
+Linda Fruhvirtova,1567.8,1548.8,1493.1,1480.6
+Emerson Jones,1567.3,1558.2,1397.8,1466.9
+Mariam Bolkvadze,1566.2,1520.1,1343.4,1504.5
+Elsa Jacquemot,1564.8,1541.3,1510.3,1489.9
+Alicia Herrero Linana,1563.8,1385.9,1544.8,1456.9
+Nao Hibino,1560.3,1531.8,1487.1,1477.5
+Lucie Havlickova,1557.2,1554.2,1490.7,1441.3
+Francesca Curmi,1556.8,1462.3,1531.8,1453.4
+Anna Siskova,1556.0,1529.8,1527.0,1366.9
+Veronika Podrez,1555.2,1514.4,1485.5,1420.5
+Leyre Romero Gormaz,1555.0,1486.4,1537.8,1416.8
 Darja Semenistaja,1553.9,1509.0,1539.2,1488.3
 Rada Zolotareva,1553.8,1427.7,1531.6,1421.4
-Ella Seidel,1553.5,1533.3,1495.3,1469.7
-Elizara Yaneva,1553.3,1552.3,1498.9,1460.4
-Varvara Lepchenko,1550.1,1532.6,1516.4,1440.7
-Polona Hercog,1550.1,1500.2,1534.2,1490.7
-Madison Brengle,1548.3,1512.5,1545.4,1484.7
-Nao Hibino,1547.4,1516.2,1480.6,1471.0
-Martina Trevisan,1544.5,1488.1,1535.9,1338.1
-Priscilla Hon,1542.1,1529.2,1453.5,1433.5
-Irene Burillo Escorihuela,1538.7,1397.8,1522.5,1411.9
-Sofia Costoulas,1537.5,1526.5,1486.2,1398.9
-Anastasia Gasanova,1535.8,1487.7,1455.1,1522.9
-Francisca Jorge,1534.6,1519.1,1433.9,1475.1
-Akasha Urhobo,1531.4,1412.4,1525.6,1431.2
-Carole Monnet,1531.3,1461.2,1513.3,1371.6
-Victoria Jimenez Kasintseva,1530.8,1516.7,1502.4,1422.6
+Ella Seidel,1553.6,1533.2,1495.4,1469.8
+Elizara Yaneva,1553.4,1552.6,1498.9,1460.5
+Veronika Erjavec,1552.5,1457.9,1551.3,1477.4
+Varvara Lepchenko,1550.0,1532.6,1516.3,1440.7
+Madison Brengle,1548.4,1512.5,1545.5,1484.8
+Anouk Koevermans,1548.3,1542.6,1495.4,1405.1
+Mai Hontama,1548.3,1510.4,1479.4,1440.4
+Yeon Woo Ku,1545.5,1522.7,1372.4,1416.3
+Martina Trevisan,1544.6,1488.2,1535.9,1338.1
+Polona Hercog,1541.5,1496.0,1524.4,1486.4
+Irene Burillo Escorihuela,1538.6,1397.8,1522.5,1411.8
+En Shuo Liang,1538.3,1527.9,1353.1,1489.2
+Anastasia Gasanova,1538.2,1492.1,1456.3,1524.0
+Darya Astakhova,1537.0,1495.5,1496.6,1411.3
+Carole Monnet,1533.9,1466.8,1514.6,1372.9
+Akasha Urhobo,1531.4,1412.4,1525.5,1431.2
+Anna Lena Friedsam,1529.5,1501.3,1481.1,1411.9
 Nastasja Schunk,1529.2,1415.6,1510.8,1495.2
 Xinyu Gao,1527.3,1518.3,1476.1,1393.0
-Yeon Woo Ku,1524.1,1507.1,1361.7,1405.6
-Savannah Broadus,1521.1,1489.8,1438.6,1435.6
-Oceane Dodin,1518.6,1485.9,1457.9,1460.0
-Alexandra Shubladze,1517.9,1495.3,1367.3,1395.9
-Erika Andreeva,1517.7,1470.9,1490.8,1420.6
-Anna Lena Friedsam,1517.5,1488.4,1475.2,1406.0
-Alice Tubello,1516.2,1362.2,1516.9,1391.1
-Arantxa Rus,1515.7,1512.1,1489.1,1399.0
-Linda Klimovicova,1514.7,1507.0,1438.0,1372.6
-Kylie Collins,1514.6,1501.6,1380.6,1442.1
-Tiantsoa Sarah Rakotomanga Rajaonah,1510.7,1464.8,1464.1,1438.8
+Nuria Brancaccio,1526.7,1334.0,1519.4,1368.6
+Sofia Costoulas,1526.2,1513.8,1480.6,1393.3
+Priscilla Hon,1525.0,1512.4,1445.0,1425.0
+Francisca Jorge,1522.7,1506.9,1428.0,1469.2
+Savannah Broadus,1520.9,1489.3,1438.5,1435.5
+Berfu Cengiz,1518.4,1504.6,1458.1,1414.5
+Oceane Dodin,1518.0,1486.4,1457.6,1459.7
+Alice Tubello,1516.0,1362.1,1514.0,1391.0
+Linda Klimovicova,1514.9,1507.3,1438.1,1372.7
+Victoria Jimenez Kasintseva,1513.7,1497.7,1493.9,1414.1
+Angelina Voloshchuk,1511.4,1495.5,1327.1,1430.7
+Tiantsoa Sarah Rakotomanga Rajaonah,1510.6,1464.8,1464.0,1438.8
 Aliona Bolsova,1509.5,1458.9,1487.2,1407.7
+Arantxa Rus,1509.1,1508.8,1481.5,1395.7
+Fangran Tian,1509.1,1486.7,1369.5,1429.5
 Katarina Zavatska,1508.7,1399.4,1496.2,1416.1
-Viktoria Hruncakova,1507.4,1470.2,1446.7,1436.1
-Laura Pigossi,1507.1,1441.5,1505.1,1350.9
-Nuria Brancaccio,1505.3,1323.4,1498.9,1357.9
-Aliona Falei,1504.7,1501.4,1406.0,1428.1
-Maria Lourdes Carle,1502.5,1463.4,1480.6,1391.5
+Erika Andreeva,1503.3,1455.6,1483.6,1413.4
 Malaika Rapolu,1502.3,1467.9,1368.6,1426.2
-Eva Vedder,1501.6,1500.4,1459.8,1436.3
-Hannah Klugman,1501.1,1475.2,1388.4,1383.8
+Eva Vedder,1501.6,1500.4,1459.7,1436.3
+Hannah Klugman,1501.3,1475.3,1388.5,1383.9
+Viktoria Hruncakova,1501.3,1463.0,1443.7,1433.1
 Sachia Vickery,1500.5,1469.1,1498.3,1408.9
-Anastasia Kulikova,1500.3,1491.1,1413.1,1408.2
+Ye Xin Ma,1498.7,1491.8,1267.7,1385.3
+Laura Pigossi,1497.9,1436.9,1493.3,1346.3
 Elizabeth Mandlik,1497.2,1467.7,1451.0,1487.7
 Kayla Cross,1496.8,1490.7,1393.9,1357.2
-Lola Radivojevic,1495.2,1453.8,1471.6,1442.7
+Alexandra Shubladze,1496.0,1470.8,1356.3,1384.9
+Lola Radivojevic,1495.4,1454.0,1471.7,1442.8
 Alena Kovackova,1494.4,1394.6,1464.7,1422.2
 Caijsa Wilda Hennemann,1493.3,1350.5,1462.2,1421.6
-Jennifer Ruggeri,1492.3,1352.0,1479.8,1421.2
-Destanee Aiava,1491.8,1474.5,1403.8,1383.9
 Luisina Giovannini,1490.7,1318.6,1487.3,1398.9
-Sonja Zhiyenbayeva,1488.9,1488.3,1359.4,1419.4
-Aoi Ito,1488.6,1488.6,1297.9,1347.6
+Anastasia Kulikova,1490.2,1479.4,1408.1,1403.1
+Maria Lourdes Carle,1490.1,1456.8,1468.0,1385.2
+Barbora Palicova,1490.0,1391.3,1483.7,1423.7
 Joelle Lilly Sophie Steur,1486.4,1388.9,1466.4,1418.2
-Ayla Aksu,1485.3,1475.5,1408.5,1417.7
+Aoi Ito,1485.6,1485.0,1296.4,1346.1
 Julia Avdeeva,1485.0,1469.1,1453.3,1382.2
-Fangran Tian,1483.7,1463.1,1356.8,1416.8
-Jazmin Ortenzi,1483.5,1379.7,1471.0,1361.9
-Darya Astakhova,1481.9,1417.9,1469.0,1383.8
-Mika Stojsavljevic,1481.8,1406.7,1355.9,1362.5
-Barbora Palicova,1481.7,1387.1,1476.9,1419.6
+Aliona Falei,1484.8,1479.7,1396.0,1418.1
+Sonja Zhiyenbayeva,1484.0,1482.7,1357.0,1417.0
+Jazmin Ortenzi,1483.6,1379.8,1471.0,1361.9
+Mika Stojsavljevic,1481.7,1406.7,1355.9,1362.5
 Eva Guerrero Alvarez,1480.1,1469.9,1398.4,1393.0
+Ayla Aksu,1479.3,1470.2,1405.5,1414.6
 Lidia Encheva,1479.0,1392.7,1441.5,1414.5
-Kajsa Rinaldo Persson,1478.1,1413.6,1453.1,1347.2
-Arina Rodionova,1478.0,1457.7,1375.9,1450.2
+Arina Rodionova,1478.0,1457.7,1376.0,1450.2
+Jennifer Ruggeri,1477.5,1344.6,1463.8,1413.7
 Valentina Ryser,1475.9,1449.3,1293.3,1509.4
 Louisa Chirico,1475.7,1410.8,1515.9,1376.6
 Lucciana Perez Alarcon,1475.5,1431.6,1483.2,1487.7
+Kajsa Rinaldo Persson,1474.7,1410.4,1451.4,1345.5
+Han Shi,1473.4,1473.4,1326.0,1402.7
 Tara Wurth,1473.0,1381.8,1446.0,1411.5
-Alicia Dudeney,1467.3,1467.1,1348.7,1357.6
-Han Shi,1465.7,1467.7,1322.2,1398.9
-Katrina Scott,1462.9,1425.4,1468.6,1344.6
+Alicia Dudeney,1466.9,1466.7,1348.5,1357.4
+Katrina Scott,1462.9,1425.3,1468.6,1344.6
 Lucija Ciric Bagaric,1462.1,1310.7,1458.8,1381.8
-Angelina Voloshchuk,1461.2,1445.2,1302.0,1405.6
-Silvia Ambrosio,1460.8,1359.5,1448.2,1405.4
-Ye Xin Ma,1460.7,1452.2,1248.7,1366.3
-Federica Urgesi,1459.4,1357.1,1442.2,1404.7
+Silvia Ambrosio,1460.8,1359.5,1448.1,1405.4
 Whitney Osuigwe,1457.5,1428.3,1430.0,1314.5
 Ida Wobker,1456.0,1443.6,1448.6,1478.0
+Ayana Akli,1454.6,1444.6,1358.3,1373.9
+Elena Malygina,1453.6,1465.2,1317.3,1476.8
 Arianne Hartono,1452.8,1435.5,1375.4,1364.6
-Camilla Rosatello,1450.8,1373.4,1483.5,1342.6
-Katherine Sebov,1450.2,1427.8,1366.2,1415.9
-Sada Nahimana,1450.0,1331.9,1442.4,1400.0
-Yasmine Kabbaj,1447.9,1358.1,1434.1,1399.0
+Camilla Rosatello,1451.4,1374.1,1483.8,1342.9
+Sada Nahimana,1449.8,1331.5,1442.3,1399.9
+Valentina Steiner,1448.6,1433.3,1372.7,1399.3
+Elena Ruxandra Bertea,1448.0,1346.3,1427.3,1399.0
+Yasmine Kabbaj,1447.8,1357.7,1434.0,1398.9
 Zongyu Li,1447.6,1462.9,1331.1,1398.8
 Ipek Oz,1447.2,1382.4,1428.4,1367.6
-Luna Vujovic,1446.0,1338.0,1417.7,1398.0
-Jule Niemeier,1444.0,1435.8,1427.0,1442.0
-Lea Nilsson,1442.7,1375.7,1420.7,1396.3
-Xiaodi You,1442.4,1456.9,1322.5,1323.0
-Reese Brantmeier,1442.3,1409.3,1288.3,1403.0
-Elena Ruxandra Bertea,1442.3,1320.3,1424.4,1396.2
+Federica Urgesi,1446.8,1350.8,1426.8,1398.4
+Luna Vujovic,1446.0,1338.0,1417.6,1398.0
+Naiktha Bains,1445.2,1442.6,1353.0,1305.5
+Sara Saito,1444.9,1441.6,1369.1,1319.9
+Kylie Collins,1444.9,1429.0,1345.8,1407.3
+Jule Niemeier,1443.9,1435.8,1427.0,1442.0
+Katherine Sebov,1443.6,1421.0,1362.9,1412.6
+Lea Nilsson,1442.6,1375.7,1420.7,1396.3
+Xiaodi You,1442.4,1456.9,1322.6,1323.0
 Eva Bennemann,1439.9,1457.3,1396.1,1395.0
-Despina Papamichail,1439.5,1390.8,1410.4,1399.9
 Cadence Brace,1438.8,1427.6,1255.6,1333.5
 Amandine Hesse,1437.4,1415.8,1384.6,1335.2
-Ayana Akli,1437.1,1425.8,1349.5,1365.1
-Clervie Ngounoue,1436.7,1411.7,1387.8,1356.1
-Chloe Paquet,1436.5,1410.1,1403.2,1347.9
-Lina Gjorcheska,1435.1,1399.9,1390.5,1469.9
-Julie Struplova,1434.7,1333.9,1423.7,1392.3
-Sara Saito,1432.2,1432.4,1362.7,1313.5
+Clervie Ngounoue,1436.4,1411.2,1387.7,1356.0
+Chloe Paquet,1436.4,1410.0,1403.2,1347.8
+Despina Papamichail,1432.4,1387.3,1402.7,1396.4
 Lea Ma,1431.3,1396.9,1325.7,1387.2
-Hayu Kinoshita,1429.4,1413.3,1277.3,1378.4
-Aurora Zantedeschi,1429.4,1245.4,1410.0,1389.7
-Berfu Cengiz,1429.1,1393.5,1413.5,1369.9
+Hayu Kinoshita,1429.5,1413.3,1277.3,1378.4
 Ane Mintegi Del Olmo,1428.9,1397.4,1396.9,1389.5
-Maria Aran Teixido Garcia,1426.9,1349.5,1399.4,1388.5
-Lizette Cabrera,1426.8,1392.6,1334.4,1421.3
-Mei Yamaguchi,1424.6,1397.2,1303.9,1355.9
-Aneta Kladivova,1424.0,1356.1,1414.7,1387.0
-Angela Fita Boluda,1423.1,1310.2,1396.3,1356.1
+Maria Aran Teixido Garcia,1426.9,1349.6,1399.4,1388.5
+Elena Micic,1424.5,1400.6,1297.1,1387.3
+Matilde Jorge,1424.3,1421.5,1299.4,1387.1
 Ekaterina Reyngold,1423.0,1431.1,1362.7,1386.5
-Matilde Jorge,1420.7,1422.0,1297.6,1385.3
+Lizette Cabrera,1423.0,1386.8,1332.4,1419.4
+Angela Fita Boluda,1423.0,1310.2,1396.3,1356.1
+Julie Struplova,1421.5,1327.3,1409.6,1385.7
 Britt Du Pree,1418.8,1430.2,1302.4,1354.0
-Elena Malygina,1417.4,1436.2,1299.2,1458.7
-Kristina Mladenovic,1417.3,1401.5,1368.1,1415.4
 Hong Yi Cody Wong,1416.7,1384.0,1339.3,1383.4
-Miho Kuramochi,1413.7,1398.0,1321.9,1379.7
-Jenny Lim,1413.1,1317.8,1390.0,1381.6
-Ena Shibahara,1411.7,1385.2,1437.2,1394.7
+Jenny Lim,1413.1,1317.7,1390.0,1381.6
+Kristina Mladenovic,1412.0,1395.2,1365.5,1412.7
+Ena Shibahara,1411.8,1385.3,1437.2,1394.7
+Lina Gjorcheska,1411.7,1372.6,1378.7,1458.2
+Xinxin Yao,1411.2,1436.1,1298.7,1380.6
 Loes Ebeling Koning,1410.5,1320.3,1381.5,1342.5
-Gina Feistel,1409.7,1302.5,1398.1,1379.8
-Vivian Wolff,1409.6,1430.5,1357.4,1379.8
-Elena Micic,1409.2,1388.6,1289.5,1379.6
-Haruka Kaji,1408.1,1394.1,1326.5,1416.6
-Martha Matoula,1407.0,1328.9,1400.3,1453.5
+Kyoka Okamura,1410.2,1369.0,1309.9,1468.3
+Gina Feistel,1409.6,1302.5,1398.1,1379.8
+Mei Yamaguchi,1407.6,1379.2,1295.4,1347.4
+Martha Matoula,1407.1,1328.9,1400.3,1453.5
+Lisa Zaar,1406.9,1333.9,1372.8,1378.5
 Selena Janicijevic,1405.5,1337.3,1385.9,1396.5
-Laima Vladson,1405.5,1300.4,1385.1,1377.8
+Laima Vladson,1405.5,1300.4,1385.1,1377.7
+Vivian Wolff,1404.1,1413.1,1354.6,1377.0
 Lea Boskovic,1403.9,1357.6,1378.8,1411.8
-Tina Nadine Smith,1401.1,1388.2,1363.1,1375.5
+Aurora Zantedeschi,1402.3,1231.8,1383.1,1376.1
+Tina Nadine Smith,1401.1,1388.1,1363.1,1375.5
 Lucie Nguyen Tan,1400.8,1291.2,1372.1,1375.4
-Naiktha Bains,1400.4,1397.2,1330.6,1283.0
+Katerina Tsygourova,1400.4,1301.4,1387.5,1375.2
 Sakura Hosogi,1399.7,1410.7,1260.6,1374.8
-Nuria Parrizas Diaz,1398.1,1399.5,1393.7,1351.8
-Julie Belgraver,1397.4,1341.9,1370.1,1373.7
+Nuria Parrizas Diaz,1398.1,1399.5,1393.8,1351.8
+Julie Belgraver,1397.4,1341.8,1370.1,1373.7
 Sijia Wei,1396.9,1396.0,1281.2,1347.8
 Justina Mikulskyte,1396.9,1373.8,1359.6,1332.8
-Anastasia Zolotareva,1396.8,1341.2,1381.9,1373.4
-Lisa Zaar,1395.0,1328.0,1358.2,1372.5
-Daria Khomutsianskaya,1393.4,1378.8,1311.7,1371.7
+Anastasia Zolotareva,1396.8,1341.3,1381.9,1373.4
+Haruka Kaji,1396.4,1379.6,1320.7,1410.8
+Miho Kuramochi,1395.9,1382.7,1312.9,1370.8
+Daria Khomutsianskaya,1393.3,1378.7,1311.7,1371.7
 Kathinka Von Deichmann,1392.9,1404.4,1345.9,1350.4
-Mina Hodzic,1392.4,1383.2,1360.7,1353.2
-Amarissa Kiara Toth,1390.4,1364.2,1369.1,1370.2
-Kyoka Okamura,1390.0,1345.1,1299.9,1458.2
-Margaux Rouvroy,1387.5,1343.3,1370.9,1368.7
-Amandine Monnot,1387.0,1417.2,1312.3,1368.5
-Eryn Cayetano,1385.7,1373.7,1261.3,1367.9
+Weronika Falkowska,1392.8,1420.8,1289.5,1371.4
+Jessica Pieri,1392.2,1305.0,1388.3,1360.6
+Amarissa Kiara Toth,1390.4,1364.2,1369.0,1370.2
+Eunhye Lee,1388.2,1373.3,1309.1,1369.1
+Margaux Rouvroy,1387.5,1343.3,1370.9,1368.8
+Amandine Monnot,1387.0,1417.2,1312.4,1368.5
+Eryn Cayetano,1385.7,1373.7,1261.3,1367.8
 Yelyzaveta Kotliar,1385.7,1307.8,1367.8,1367.8
-Yuki Naito,1383.3,1386.3,1271.9,1336.1
-Hiromi Abe,1380.7,1360.8,1305.3,1365.3
+Dalila Spiteri,1384.2,1292.2,1373.9,1367.1
+Hiromi Abe,1380.7,1360.9,1305.4,1365.4
 Maria Sara Popa,1380.6,1257.9,1356.9,1365.3
 Yuriko Miyazaki,1380.2,1366.4,1252.5,1337.6
-Caroline Uebelhoer,1380.0,1314.7,1367.9,1372.3
 Ena Koike,1379.3,1358.5,1288.9,1364.6
-Anna Kubareva,1375.8,1364.7,1275.2,1362.9
+Sohyun Park,1378.2,1389.0,1313.1,1439.1
+Anna Kubareva,1375.7,1364.5,1275.1,1362.8
 Zhibek Kulambayeva,1375.3,1236.6,1373.4,1362.6
 Gabriela Lee,1374.6,1280.0,1378.8,1295.0
 Miriam Bianca Bulgaru,1373.6,1289.6,1341.2,1324.2
-Martina Capurro Taborda,1373.5,1283.7,1368.1,1393.8
-Yidi Yang,1372.0,1367.9,1284.6,1361.0
-Sofya Lansere,1371.3,1395.5,1308.6,1360.6
+Martina Capurro Taborda,1373.5,1283.6,1368.1,1393.8
+Mina Hodzic,1373.4,1362.0,1351.3,1343.7
+Yidi Yang,1372.1,1368.0,1284.7,1361.0
+Yuki Naito,1371.1,1371.6,1265.8,1330.0
 Deborah Chiesa,1371.0,1280.3,1361.3,1331.6
 Alice Rame,1370.3,1189.0,1376.3,1329.6
-Xinxin Yao,1370.2,1400.0,1278.2,1360.1
-Misaki Matsuda,1369.1,1350.7,1356.0,1359.5
+Misaki Matsuda,1369.1,1350.7,1356.0,1359.6
+Aneta Kladivova,1369.1,1328.7,1356.6,1359.5
 Ella Mcdonald,1368.6,1249.9,1286.8,1385.4
 Petra Sedlackova,1367.8,1298.9,1339.8,1358.9
-Eunhye Lee,1367.7,1353.7,1298.9,1358.9
-Miriana Tona,1366.5,1334.2,1339.2,1358.2
-Hibah Shaikh,1366.2,1364.8,1316.1,1358.1
-Katerina Tsygourova,1365.7,1284.1,1351.8,1357.8
-Varvara Panshina,1364.3,1306.5,1399.4,1357.1
+Miriana Tona,1366.4,1334.2,1339.2,1358.2
+Hibah Shaikh,1366.2,1364.9,1316.1,1358.1
+Caroline Uebelhoer,1365.0,1299.7,1360.4,1364.8
 Viola Turini,1364.1,1299.0,1360.4,1357.1
-Carol Zhao,1363.8,1381.8,1282.0,1334.9
+Varvara Panshina,1364.0,1306.0,1399.2,1357.0
 Rasheeda Mcadoo,1362.2,1301.0,1313.1,1356.1
-Jia Jing Lu,1361.6,1331.0,1331.4,1271.4
-Natsumi Kawaguchi,1359.8,1342.2,1294.9,1324.4
-Tessa Johanna Brockmann,1359.0,1319.2,1314.6,1360.4
-Iva Primorac,1358.6,1245.9,1368.2,1354.3
+Jia Jing Lu,1361.6,1331.0,1331.4,1271.3
+Natsumi Kawaguchi,1359.9,1342.2,1294.9,1324.4
+Sofya Lansere,1359.6,1381.0,1302.8,1354.8
+Tessa Johanna Brockmann,1359.0,1319.1,1314.6,1360.4
 Mingge Xu,1358.5,1330.7,1294.2,1297.8
 Yufei Ren,1357.8,1310.1,1367.1,1353.9
-Weronika Falkowska,1356.3,1390.2,1271.2,1353.1
-Hanna Chang,1355.0,1322.6,1377.2,1304.4
-Isabella Shinikova,1354.7,1409.7,1230.6,1275.2
-Dalila Jakupovic,1354.1,1354.7,1316.8,1313.5
-Esther Adeshina,1353.1,1290.0,1291.6,1360.0
+Hanna Chang,1355.1,1322.7,1377.3,1304.4
+Carol Zhao,1354.7,1370.9,1277.4,1330.3
+Dalila Jakupovic,1354.1,1354.9,1316.9,1313.5
+Esther Adeshina,1353.2,1290.0,1291.6,1360.0
 Ranah Akua Stoiber,1350.0,1325.2,1287.9,1321.0
-Kira Pavlova,1349.6,1329.3,1289.8,1349.8
+Kira Pavlova,1349.5,1329.2,1289.8,1349.8
 Madison Sieg,1349.1,1308.2,1336.1,1349.5
-Sohyun Park,1347.2,1359.1,1297.6,1423.6
-Dalila Spiteri,1346.9,1273.6,1333.5,1348.4
-Ayano Shimizu,1346.8,1314.7,1231.7,1358.5
+Ayano Shimizu,1346.7,1314.6,1231.7,1358.4
 Julia Stusek,1346.5,1300.1,1302.5,1314.7
+Dayeon Back,1345.4,1305.3,1306.8,1347.7
 Valeria Savinykh,1344.2,1318.9,1247.5,1314.8
-Ekaterina Maklakova,1343.3,1318.3,1309.9,1346.6
+Ekaterina Maklakova,1343.3,1318.2,1309.9,1346.6
 Haley Giavara,1341.6,1322.1,1252.3,1356.0
 Victoria Rodriguez,1341.4,1323.8,1290.0,1345.7
-Viktoria Morvayova,1341.1,1332.3,1264.1,1377.6
-Anastasia Tikhonova,1341.1,1318.2,1288.2,1422.1
+Viktoria Morvayova,1340.9,1332.8,1264.0,1377.5
 Amelia Rajecki,1340.8,1245.8,1285.4,1279.9
-Kristiana Sidorova,1339.9,1338.3,1260.4,1344.9
-Rina Saigo,1338.9,1328.0,1245.5,1341.0
-Saki Imamura,1338.0,1318.1,1284.0,1336.0
-Zuzanna Pawlikowska,1335.6,1337.2,1284.3,1342.8
+Kristiana Sidorova,1339.9,1338.4,1260.4,1344.9
+Isabella Shinikova,1337.3,1388.9,1221.9,1266.5
+Zuzanna Pawlikowska,1335.6,1337.3,1284.3,1342.8
 Manon Leonard,1335.4,1338.9,1168.9,1265.9
-Hina Inoue,1335.4,1317.6,1211.5,1337.4
+Hina Inoue,1335.4,1317.5,1211.5,1337.4
+Iva Primorac,1335.4,1234.2,1337.2,1342.7
 Lina Glushko,1334.3,1324.7,1299.0,1396.6
+Anastasia Tikhonova,1334.2,1309.6,1284.8,1418.7
 Weronika Ewald,1333.3,1272.7,1365.5,1341.6
+Rina Saigo,1331.3,1316.7,1241.7,1337.2
 Alina Granwehr,1331.3,1280.7,1311.7,1340.7
-Katarina Kuzmova,1331.2,1326.0,1189.1,1340.6
 Dalayna Hewitt,1331.1,1316.8,1218.7,1340.5
 Anastasia Abbagnato,1330.6,1284.1,1323.3,1340.3
 Denisa Zoldakova,1326.8,1272.3,1312.2,1338.4
 Georgia Pedone,1326.8,1176.1,1323.1,1330.7
-Sofia Johnson,1326.4,1297.8,1254.9,1327.4
 Carlota Martinez Cirez,1323.3,1219.8,1304.3,1317.7
-Jana Kolodynska,1322.7,1318.7,1201.2,1297.5
 Gergana Topalova,1322.3,1172.7,1310.1,1326.0
-Wushuang Zheng,1319.7,1308.2,1245.9,1334.9
-Cagla Buyukakcay,1318.2,1315.8,1297.6,1223.4
-Carolyn Ansari,1318.1,1312.1,1263.9,1313.3
+Cagla Buyukakcay,1320.4,1317.9,1298.7,1224.5
+Wushuang Zheng,1319.8,1308.3,1245.9,1334.9
 Gabriela Ce,1316.2,1250.4,1296.5,1306.2
-Sahaja Yamalapalli,1315.6,1298.5,1238.7,1315.7
-Anouck Vrancken Peeters,1314.1,1350.2,1285.4,1257.4
+Anouck Vrancken Peeters,1314.3,1350.3,1285.5,1257.5
 Momoko Kobori,1313.9,1306.3,1180.1,1306.0
+Ilay Yoruk,1311.6,1293.6,1285.8,1330.8
 Julie Pastikova,1310.9,1258.3,1302.9,1330.5
-Valentina Steiner,1310.1,1276.9,1303.4,1330.0
-Ekaterina Kazionova,1309.6,1292.4,1279.0,1308.9
+Carolyn Ansari,1310.1,1300.3,1259.9,1309.3
+Ekaterina Kazionova,1309.5,1292.1,1278.9,1308.8
 Emily Appleton,1308.9,1272.2,1235.0,1296.7
-Diletta Cherubini,1308.9,1239.5,1280.4,1329.5
-Priska Madelyn Nugroho,1307.9,1295.4,1335.1,1404.0
-Ekaterina Ovcharenko,1307.5,1264.4,1301.0,1328.7
+Diletta Cherubini,1308.9,1239.5,1280.4,1329.4
+Priska Madelyn Nugroho,1307.6,1295.0,1334.9,1403.8
+Ekaterina Ovcharenko,1307.4,1264.4,1301.0,1328.7
 Victoria Allen,1306.9,1286.2,1268.5,1248.9
 Raluka Serban,1305.7,1340.0,1280.8,1335.7
-Dayeon Back,1305.3,1260.9,1286.8,1327.7
-Lia Karatancheva,1304.7,1228.1,1292.7,1327.3
+Sahaja Yamalapalli,1305.4,1290.7,1233.6,1310.6
+Lia Karatancheva,1304.6,1228.1,1292.6,1327.3
 Tena Lukas,1304.4,1278.8,1281.4,1305.4
 Beatrise Zeltina,1304.1,1229.0,1308.5,1327.1
+Sofia Johnson,1303.7,1276.7,1243.6,1316.0
+Katarina Kuzmova,1303.2,1297.2,1175.1,1326.6
 Ana Sofia Sanchez,1301.3,1268.3,1306.6,1299.7
-Radka Zelnickova,1297.0,1285.3,1236.7,1323.5
-Maria Kozyreva,1296.0,1307.6,1248.8,1265.9
-Meiqi Guo,1295.7,1251.4,1274.5,1322.8
+Radka Zelnickova,1297.1,1285.5,1236.8,1323.5
 Denislava Glushkova,1292.9,1396.5,1272.7,1396.5
-Ariana Arseneault,1291.8,1278.4,1231.4,1303.4
 Georgina Garcia Perez,1291.7,1259.5,1316.7,1288.1
 Diana Martynov,1290.8,1266.3,1259.1,1320.4
-Cristina Diaz Adrover,1290.4,1217.7,1289.0,1320.2
 Ruth Roura Llaverias,1288.8,1215.2,1280.5,1319.4
-Tatiana Pieri,1287.4,1266.4,1263.3,1318.7
+Tatiana Pieri,1287.2,1266.4,1263.3,1318.6
 Alessandra Mazzola,1287.2,1258.6,1272.1,1318.6
 Sofia Elena Cabezas Dominguez,1283.1,1302.3,1197.0,1316.5
-Antonia Vergara Rivera,1279.5,1235.2,1270.4,1314.7
+Antonia Vergara Rivera,1279.4,1235.1,1270.4,1314.7
 Elina Nepliy,1278.8,1251.7,1298.0,1314.4
-Aneta Laboutkova,1278.4,1213.3,1251.8,1314.2
 Lucia Cortez Llorca,1278.2,1164.2,1320.7,1314.1
+Ksenia Zaytseva,1277.7,1288.1,1215.9,1313.9
 Andreea Prisacariu,1275.9,1241.0,1252.4,1313.0
-Tiphanie Fiquet,1275.6,1254.0,1272.3,1312.8
-Jessica Pieri,1275.4,1246.6,1266.8,1302.2
+Tiphanie Fiquet,1275.1,1253.4,1272.1,1312.5
 Carla Markus,1275.1,1252.6,1265.2,1312.6
-Indianna Spink,1273.2,1264.7,1251.6,1285.3
+Indianna Spink,1273.2,1264.7,1251.6,1285.2
 Yasmine Mansouri,1270.1,1287.5,1137.4,1310.1
 Francesca Pace,1269.6,1262.8,1244.9,1309.8
-Briana Szabo,1266.0,1238.3,1280.2,1383.0
-Anna Sinclair Rogers,1265.3,1235.0,1240.6,1323.2
+Ariana Arseneault,1266.3,1252.6,1218.7,1290.7
+Briana Szabo,1265.8,1238.0,1280.1,1382.9
+Anna Sinclair Rogers,1265.2,1235.0,1240.6,1323.2
 Pia Lovric,1265.0,1269.9,1261.2,1382.5
-Urszula Radwanska,1264.1,1236.0,1319.8,1304.3
-Jiaqi Wang,1261.6,1246.8,1228.3,1305.8
+Urszula Radwanska,1264.0,1235.9,1319.7,1304.3
 Ankita Raina,1261.5,1233.0,1317.2,1267.4
 Carolina Alves,1260.6,1253.4,1248.0,1256.7
-Yujia Huang,1258.3,1300.0,1140.7,1304.2
+Yujia Huang,1258.0,1299.6,1140.5,1304.0
 Dasha Plekhanova,1257.6,1234.6,1204.6,1303.8
-Alana Smith,1256.3,1258.9,1160.1,1273.8
 Maria Florencia Urrutia,1254.8,1218.2,1262.0,1302.4
 Peangtarn Plipuech,1254.6,1255.0,1175.7,1277.6
 Martina Colmegna,1253.8,1241.9,1241.6,1301.9
+Isabella Maria Serban,1252.9,1240.1,1232.4,1301.4
+Jiaqi Wang,1250.7,1235.6,1222.9,1300.4
 Victoria Bosio,1249.3,1236.8,1218.2,1299.6
-Ying Zhang,1248.0,1238.2,1194.5,1299.0
+Ying Zhang,1248.0,1238.3,1194.5,1299.0
 Eri Shimizu,1245.0,1225.9,1237.5,1303.6
-Astrid Lew Yan Foon,1243.8,1249.6,1214.2,1296.9
-Vaishnavi Adkar,1241.0,1227.2,1235.5,1295.5
+Astrid Lew Yan Foon,1243.8,1249.5,1214.2,1296.9
+Vaishnavi Adkar,1240.7,1226.8,1235.3,1295.3
 Laura Hietaranta,1240.3,1223.1,1208.8,1295.1
-Mell Elizabeth Reasco Gonzalez,1237.7,1321.1,1196.2,1368.8
-Celia Cervino Ruiz,1236.8,1232.9,1190.0,1293.4
-Ruien Zhang,1235.9,1226.6,1232.9,1292.9
+Mell Elizabeth Reasco Gonzalez,1237.7,1321.1,1196.1,1368.8
+Aneta Laboutkova,1236.4,1192.3,1208.1,1293.2
 Nina Vargova,1235.1,1208.6,1213.2,1292.6
-Laura Mair,1233.8,1210.9,1230.1,1291.9
-Maria Martinez Vaquero,1222.9,1247.7,1139.8,1286.5
-Jasmijn Gimbrere,1222.6,1218.7,1201.5,1242.8
-Ksenia Zaytseva,1222.1,1247.0,1188.1,1286.1
-Isabella Maria Serban,1219.4,1223.4,1196.9,1284.7
+Laura Mair,1233.9,1210.9,1230.1,1291.9
+Alana Smith,1228.6,1233.3,1146.3,1260.0
+Celia Cervino Ruiz,1221.5,1217.5,1182.4,1285.8
 Martina Okalova,1213.6,1222.4,1187.8,1281.8
 Nicole Fossa Huergo,1209.6,1198.5,1176.4,1279.8
-Gabriella Da Silva Fick,1209.0,1199.6,1189.9,1279.5
 Chelsea Fontenel,1206.4,1235.9,1152.3,1278.2
-Jana Otzipka,1206.2,1241.8,1162.5,1278.1
+Jana Otzipka,1205.0,1239.2,1162.0,1277.5
 Sara Cakarevic,1202.3,1184.5,1210.4,1276.2
 Ana Candiotto,1201.0,1185.2,1190.4,1275.5
-Nika Radisic,1196.0,1192.7,1199.2,1348.0
+Jasmijn Gimbrere,1199.4,1187.1,1189.9,1231.2
 Victoria Hu,1194.8,1191.9,1164.4,1272.4
-Gina Marie Dittmann,1190.4,1176.9,1184.9,1270.2
+Gina Marie Dittmann,1190.3,1176.6,1184.8,1270.2
 Ikumi Yamazaki,1189.0,1188.8,1215.3,1269.5
-Stephanie Judith Visscher,1182.0,1173.9,1140.4,1266.0
-Yaroslava Bartashevich,1181.5,1132.5,1167.1,1265.8
-Valeriya Strakhova,1173.2,1105.6,1185.3,1261.6
-Mayuka Aikawa,1167.6,1127.3,1176.9,1258.8
+Maria Martinez Vaquero,1187.8,1206.4,1122.2,1268.9
+Stephanie Judith Visscher,1181.9,1173.9,1140.4,1266.0
+Yaroslava Bartashevich,1181.5,1132.5,1167.1,1265.7
+Nika Radisic,1180.2,1172.3,1191.3,1340.1
+Gabriella Da Silva Fick,1177.7,1165.3,1174.2,1263.8
+Valeriya Strakhova,1173.1,1105.6,1185.3,1261.5
 Kristina Novak,1163.6,1190.5,1103.3,1256.8
 Sofia Shapatava,1163.2,1165.2,1155.5,1227.0
+Ekaterina Yashina,1156.8,1153.5,1114.1,1213.6
 Chengyiyi Yuan,1152.4,1070.0,1237.1,1251.2
-Nadiia Kolb,1150.7,1134.4,1147.6,1250.3
-Adrienn Nagy,1142.1,1190.9,1127.0,1321.1
-Ekaterina Yashina,1135.0,1131.2,1103.3,1202.7
-Julia Adams,1131.6,1148.9,1119.0,1240.8
+Adrienn Nagy,1141.9,1190.8,1126.9,1320.9
+Julia Adams,1131.4,1148.9,1118.9,1240.7
 Ana Grubor,1127.8,1137.6,1114.8,1238.9
 Sapfo Sakellaridi,1119.6,1069.8,1123.8,1234.8
-Alba Rey Garcia,1089.1,1086.3,1097.3,1219.6
-Chenting Zhu,1082.0,1064.4,1125.5,1216.0
-Amy Zhu,1050.8,1060.2,1084.7,1200.4
+Alba Rey Garcia,1089.1,1086.4,1097.3,1219.6
+Chenting Zhu,1082.1,1064.5,1125.5,1216.0
+Amy Zhu,1050.8,1060.1,1084.7,1200.4
